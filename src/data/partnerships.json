@@ -1,0 +1,424 @@
+{
+  "hero": {
+    "eyebrow": "Partnerships",
+    "title": "Building Bridges Beyond Boundaries",
+    "subtitle": "AUF's partnerships with institutions, industries, and international networks drive innovation, enrich academic programs, and open doors for students and faculty worldwide."
+  },
+  "guidelines": {
+    "navLabel": "Guidelines",
+    "eyebrow": "Partnership Process",
+    "title": "Guidelines on Establishing Partnership with AUF",
+    "description": "AUF welcomes collaborative relationships with local and international institutions, industries, government agencies, and non-governmental organizations. All partnerships must align with AUF's vision, mission, and institutional priorities, and must undergo the standard partnership establishment process outlined below.",
+    "policy": {
+      "title": "AUF Policy for External Affairs",
+      "summary": "AUF's policy for external affairs governs all institutional partnerships and collaborative agreements. It ensures that partnerships serve the university's academic mission, uphold ethical standards, and are mutually beneficial to both parties.",
+      "principles": [
+        "Partnerships must contribute to the quality of academic programs, research, or community service",
+        "All partnership agreements must undergo legal review and be signed by an authorized university representative",
+        "Partnerships are established for a defined period and are subject to annual monitoring and evaluation",
+        "Both parties must fulfill their respective obligations as stipulated in the signed agreement",
+        "AUF reserves the right to terminate any partnership that violates its policies, values, or applicable laws",
+        "Confidentiality of proprietary information shared between parties must be upheld at all times"
+      ]
+    },
+    "flow": [
+      {
+        "id": "f1",
+        "step": 1,
+        "title": "Expression of Interest",
+        "office": "External Affairs Office",
+        "personInCharge": "Director for External Affairs",
+        "details": "The prospective partner submits a letter of intent or inquiry to the AUF External Affairs Office, indicating the nature, scope, and objectives of the proposed collaboration.",
+        "duration": "Day 1"
+      },
+      {
+        "id": "f2",
+        "step": 2,
+        "title": "Submission of Partnership Proposal",
+        "office": "External Affairs Office",
+        "personInCharge": "Director for External Affairs",
+        "details": "AUF provides the official Partnership Proposal Form. The prospective partner completes and submits the form along with supporting documents including their organization profile and proposed terms of collaboration.",
+        "duration": "Within 10 business days"
+      },
+      {
+        "id": "f3",
+        "step": 3,
+        "title": "Evaluation and Assessment",
+        "office": "External Affairs Committee",
+        "personInCharge": "VP for External Affairs · Relevant College Dean",
+        "details": "The External Affairs Committee, in consultation with the relevant dean or department head, evaluates the proposal for institutional alignment, feasibility, and mutual benefit.",
+        "duration": "5–10 business days"
+      },
+      {
+        "id": "f4",
+        "step": 4,
+        "title": "Endorsement and Approval",
+        "office": "Office of the University President",
+        "personInCharge": "University President",
+        "details": "Approved proposals are endorsed by the VP for External Affairs to the University President for final approval. Major or multi-year agreements may require Board of Trustees ratification.",
+        "duration": "3–5 business days"
+      },
+      {
+        "id": "f5",
+        "step": 5,
+        "title": "MOA / MOU Drafting and Legal Review",
+        "office": "Office of the University Counsel",
+        "personInCharge": "University Legal Counsel",
+        "details": "The University Counsel drafts or reviews the Memorandum of Agreement (MOA) or Memorandum of Understanding (MOU), ensuring all terms, obligations, and conditions comply with applicable laws and AUF policies.",
+        "duration": "5–7 business days"
+      },
+      {
+        "id": "f6",
+        "step": 6,
+        "title": "Signing Ceremony",
+        "office": "External Affairs Office",
+        "personInCharge": "University President · Authorized Representative",
+        "details": "The finalized agreement is formally signed by authorized representatives of both parties. The External Affairs Office coordinates the ceremony and retains official copies of the signed document.",
+        "duration": "As scheduled"
+      },
+      {
+        "id": "f7",
+        "step": 7,
+        "title": "Implementation and Coordination",
+        "office": "Designated College / Department",
+        "personInCharge": "College Dean · Program Coordinator",
+        "details": "The relevant college or administrative office executes the partnership activities per the signed agreement. The External Affairs Office maintains oversight and facilitates inter-institutional communication.",
+        "duration": "Per agreement timeline"
+      },
+      {
+        "id": "f8",
+        "step": 8,
+        "title": "Monitoring, Evaluation, and Renewal",
+        "office": "External Affairs Office",
+        "personInCharge": "Director for External Affairs",
+        "details": "Annual monitoring and evaluation are conducted for all active partnerships. Partners are notified three months before expiration for renewal discussions. Non-performing partnerships may be terminated by either party with proper written notice.",
+        "duration": "Annual"
+      }
+    ],
+    "contactNote": "For partnership inquiries, contact the External Affairs Office at externalaffairs@auf.edu.ph or (045) 888-8691 local 108."
+  },
+  "forms": {
+    "navLabel": "Partnership Forms",
+    "eyebrow": "Downloadable Documents",
+    "title": "Partnership Forms",
+    "description": "Download the official AUF partnership and engagement forms below. All completed forms must be submitted to the External Affairs Office for processing. Ensure all required fields are properly accomplished before submission.",
+    "downloadableForms": [
+      { "id": "pf1", "name": "Partnership Proposal Form",             "fileType": "PDF",  "fileUrl": null },
+      { "id": "pf2", "name": "Partnership Endorsement Form",          "fileType": "PDF",  "fileUrl": null },
+      { "id": "pf3", "name": "Partnership Registration Form",         "fileType": "PDF",  "fileUrl": null },
+      { "id": "pf4", "name": "Partnership Evaluation Form",           "fileType": "PDF",  "fileUrl": null },
+      { "id": "pf5", "name": "Engagement Request Form",               "fileType": "PDF",  "fileUrl": null },
+      { "id": "pf6", "name": "Engagement Activity Report",            "fileType": "PDF",  "fileUrl": null },
+      { "id": "pf7", "name": "AUF Policy for External Affairs",       "fileType": "PDF",  "fileUrl": null },
+      { "id": "pf8", "name": "MOA Template — Academic Exchange",      "fileType": "DOCX", "fileUrl": null },
+      { "id": "pf9", "name": "MOA Template — Clinical Training",      "fileType": "DOCX", "fileUrl": null }
+    ],
+    "submissionNote": "Submit completed forms to the External Affairs Office, Main Building Ground Floor, or email them to externalaffairs@auf.edu.ph."
+  },
+  "curricularPartners": {
+    "navLabel": "Curricular Partners",
+    "eyebrow": "Academic Collaboration",
+    "title": "Curricular Partners",
+    "description": "AUF's curricular partnerships with universities, hospitals, professional schools, and training organizations enrich academic programs through faculty exchange, clinical rotations, joint research, and curriculum development.",
+    "categories": [
+      {
+        "id": "cat1",
+        "label": "Academic Institutions",
+        "partners": [
+          {
+            "id": "cp1",
+            "name": "TBA",
+            "type": "Local University",
+            "country": "Philippines",
+            "location": "TBA",
+            "since": "TBA",
+            "description": "To be announced. This partner slot is reserved for local university academic exchange and joint research collaboration.",
+            "focus": ["Faculty Exchange", "Research Collaboration", "Joint Publications"]
+          },
+          {
+            "id": "cp2",
+            "name": "TBA",
+            "type": "State University",
+            "country": "Philippines",
+            "location": "TBA",
+            "since": "TBA",
+            "description": "To be announced.",
+            "focus": ["Academic Exchange", "Curriculum Development"]
+          }
+        ]
+      },
+      {
+        "id": "cat2",
+        "label": "Clinical Training Sites",
+        "partners": [
+          {
+            "id": "cp3",
+            "name": "AUF Medical Center",
+            "type": "Tertiary Hospital",
+            "country": "Philippines",
+            "location": "MacArthur Highway, Angeles City, Pampanga",
+            "since": "2000",
+            "description": "The primary clinical training facility for AUF's medical, nursing, and allied health programs. AUFMC provides supervised clinical rotations, clerkship, and internship placements with full faculty oversight.",
+            "focus": ["Medical Clerkship", "Nursing Practicum", "Allied Health Training", "Residency Programs"]
+          },
+          {
+            "id": "cp4",
+            "name": "TBA",
+            "type": "Government Hospital",
+            "country": "Philippines",
+            "location": "TBA",
+            "since": "TBA",
+            "description": "To be announced. Government hospital partner for expanded clinical rotation and practicum placements.",
+            "focus": ["Clinical Rotation", "Nursing Practicum", "Public Health Exposure"]
+          },
+          {
+            "id": "cp5",
+            "name": "TBA",
+            "type": "Specialty Hospital",
+            "country": "Philippines",
+            "location": "TBA",
+            "since": "TBA",
+            "description": "To be announced.",
+            "focus": ["Specialty Medicine", "Internship Placement"]
+          }
+        ]
+      },
+      {
+        "id": "cat3",
+        "label": "International Academic Partners",
+        "partners": [
+          {
+            "id": "cp6",
+            "name": "TBA",
+            "type": "International University",
+            "country": "TBA",
+            "location": "TBA",
+            "since": "TBA",
+            "description": "To be announced. International university partner for student and faculty exchange programs.",
+            "focus": ["Student Exchange", "Faculty Mobility", "Joint Research"]
+          },
+          {
+            "id": "cp7",
+            "name": "TBA",
+            "type": "International University",
+            "country": "TBA",
+            "location": "TBA",
+            "since": "TBA",
+            "description": "To be announced.",
+            "focus": ["Academic Exchange", "Dual Degree Program"]
+          }
+        ]
+      },
+      {
+        "id": "cat4",
+        "label": "Professional Training Organizations",
+        "partners": [
+          {
+            "id": "cp8",
+            "name": "TBA",
+            "type": "Professional Organization",
+            "country": "Philippines",
+            "location": "TBA",
+            "since": "TBA",
+            "description": "To be announced. Professional association partner for continuing education and board exam review programs.",
+            "focus": ["Board Review", "Professional Development", "Licensure Preparation"]
+          }
+        ]
+      }
+    ]
+  },
+  "industryPartners": {
+    "navLabel": "Industry Partners",
+    "eyebrow": "Private Sector Collaboration",
+    "title": "Industry Partners",
+    "description": "AUF's industry partnerships bridge academia and the professional world, providing students with internship placements, real-world project exposure, guest lecture programs, and direct pathways to employment.",
+    "sectors": [
+      {
+        "id": "sec1",
+        "name": "Healthcare & Pharmaceutical",
+        "count": 2,
+        "partners": [
+          {
+            "id": "ip1",
+            "name": "TBA",
+            "type": "Hospital Group",
+            "description": "Clinical placement partner for CON and CAMP students.",
+            "location": "Philippines"
+          },
+          {
+            "id": "ip2",
+            "name": "TBA",
+            "type": "Pharmaceutical Company",
+            "description": "Internship and research collaboration for pharmacy and allied health programs.",
+            "location": "Philippines"
+          }
+        ]
+      },
+      {
+        "id": "sec2",
+        "name": "Technology & IT Services",
+        "count": 3,
+        "partners": [
+          {
+            "id": "ip3",
+            "name": "TBA",
+            "type": "IT Services / BPO",
+            "description": "OJT and full-time employment partner for CCS graduates.",
+            "location": "Clark Freeport Zone, Pampanga"
+          },
+          {
+            "id": "ip4",
+            "name": "TBA",
+            "type": "Software Development",
+            "description": "Capstone project collaboration and internship provider.",
+            "location": "Philippines"
+          },
+          {
+            "id": "ip5",
+            "name": "TBA",
+            "type": "Telecommunications",
+            "description": "Industry guest lecture series and graduate employment pipeline.",
+            "location": "Philippines"
+          }
+        ]
+      },
+      {
+        "id": "sec3",
+        "name": "Engineering & Construction",
+        "count": 2,
+        "partners": [
+          {
+            "id": "ip6",
+            "name": "TBA",
+            "type": "Construction Corporation",
+            "description": "OJT site provider for civil and mechanical engineering students.",
+            "location": "Philippines"
+          },
+          {
+            "id": "ip7",
+            "name": "TBA",
+            "type": "Government Infrastructure Agency",
+            "description": "Practicum partner for CEA students in infrastructure project management.",
+            "location": "Philippines"
+          }
+        ]
+      },
+      {
+        "id": "sec4",
+        "name": "Banking & Finance",
+        "count": 2,
+        "partners": [
+          {
+            "id": "ip8",
+            "name": "TBA",
+            "type": "Universal Bank",
+            "description": "OJT placement partner for CBA and GS business students.",
+            "location": "Angeles City, Pampanga"
+          },
+          {
+            "id": "ip9",
+            "name": "TBA",
+            "type": "Government Financial Institution",
+            "description": "Graduate employment and internship partner for accountancy and finance programs.",
+            "location": "Philippines"
+          }
+        ]
+      },
+      {
+        "id": "sec5",
+        "name": "Legal & Government",
+        "count": 2,
+        "partners": [
+          {
+            "id": "ip10",
+            "name": "TBA",
+            "type": "Law Firm",
+            "description": "Internship and mentoring partner for School of Law students.",
+            "location": "Philippines"
+          },
+          {
+            "id": "ip11",
+            "name": "TBA",
+            "type": "Government Agency",
+            "description": "OJT placement partner for CCJE and SOL students.",
+            "location": "Philippines"
+          }
+        ]
+      },
+      {
+        "id": "sec6",
+        "name": "Education & Training",
+        "count": 2,
+        "partners": [
+          {
+            "id": "ip12",
+            "name": "TBA",
+            "type": "School System",
+            "description": "Student teaching and practicum partner for CED students.",
+            "location": "Angeles City, Pampanga"
+          },
+          {
+            "id": "ip13",
+            "name": "TBA",
+            "type": "Review Center",
+            "description": "Board review partner for licensure examination preparation programs.",
+            "location": "Philippines"
+          }
+        ]
+      }
+    ],
+    "partnershipNote": "Companies and organizations interested in partnering with AUF for internship placements, research collaboration, or employment pipelines may contact the External Affairs Office."
+  },
+  "networks": {
+    "navLabel": "Networks",
+    "eyebrow": "International & National Memberships",
+    "title": "Networks & Associations",
+    "description": "AUF is an active member of prestigious international and national academic networks that promote quality assurance, academic excellence, institutional transparency, and cross-border collaboration among universities.",
+    "memberships": [
+      {
+        "id": "n1",
+        "acronym": "AUN-QA",
+        "name": "ASEAN University Network Quality Assurance",
+        "region": "Southeast Asia",
+        "website": "https://www.aunsec.org",
+        "since": "TBA",
+        "description": "AUN-QA is the regional quality assurance framework for universities within the Association of Southeast Asian Nations (ASEAN). Membership involves rigorous quality assessments of academic programs and institutional-level reviews conducted by international peer evaluators.",
+        "whatItMeans": "AUF's participation in AUN-QA demonstrates its commitment to meeting internationally recognized standards for curriculum design, teaching quality, student outcomes, and institutional governance.",
+        "focus": ["Quality Assurance", "Curriculum Standards", "Institutional Assessment", "Regional Benchmarking"]
+      },
+      {
+        "id": "n2",
+        "acronym": "AUAP",
+        "name": "Association of Universities of Asia and the Pacific",
+        "region": "Asia-Pacific",
+        "website": "https://www.auap.org",
+        "since": "TBA",
+        "description": "AUAP is a multilateral consortium of universities across the Asia-Pacific region committed to promoting educational cooperation, research exchange, and academic mobility. Member universities collaborate on joint programs, conferences, and student exchange initiatives.",
+        "whatItMeans": "Through AUAP, AUF students and faculty gain access to academic exchange programs, international conferences, and collaborative research opportunities with partner universities across Asia and the Pacific.",
+        "focus": ["Academic Exchange", "Research Collaboration", "Leadership Development", "Student Mobility"]
+      },
+      {
+        "id": "n3",
+        "acronym": "PAASCU",
+        "name": "Philippine Accrediting Association of Schools, Colleges, and Universities",
+        "region": "Philippines",
+        "website": "https://www.paascu.org.ph",
+        "since": "TBA",
+        "description": "PAASCU is the foremost voluntary accreditation agency for private schools, colleges, and universities in the Philippines. AUF's accredited programs undergo periodic quality assessments covering faculty qualifications, curriculum, facilities, research output, and student services.",
+        "whatItMeans": "PAASCU accreditation is a mark of academic excellence recognized by CHED and by employers nationwide. AUF programs with PAASCU Level III or IV accreditation enjoy deregulated status and additional government benefits.",
+        "focus": ["Program Accreditation", "Institutional Standards", "Quality Review", "Faculty Assessment"]
+      },
+      {
+        "id": "n4",
+        "acronym": "PACUCOA",
+        "name": "Philippine Association of Colleges and Universities Commission on Accreditation",
+        "region": "Philippines",
+        "website": "https://www.pacucoa.ph",
+        "since": "TBA",
+        "description": "PACUCOA provides voluntary accreditation for private higher education institutions in the Philippines. AUF participates in PACUCOA's accreditation process for select academic programs, ensuring they meet defined quality benchmarks.",
+        "whatItMeans": "PACUCOA accreditation signals to students, parents, and employers that AUF's programs meet rigorous, independently validated standards of quality.",
+        "focus": ["Academic Accreditation", "Program Quality", "Institutional Improvement", "Peer Review"]
+      }
+    ]
+  }
+}

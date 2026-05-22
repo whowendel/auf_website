@@ -1,0 +1,266 @@
+{
+  "hero": {
+    "eyebrow": "Est. 1962",
+    "title": "About Angeles University Foundation",
+    "subtitle": "For over six decades, AUF has been forming truly excellent professionals — imbued with a Catholic identity and a genuine concern for others."
+  },
+  "history": {
+    "navLabel": "History",
+    "eyebrow": "Our story",
+    "milestones": [
+      { "id": "1962", "year": "1962", "title": "Founding of Angeles Institute of Technology", "body": "Angeles University Foundation was originally established on May 25, 1962, as the Angeles Institute of Technology by spouses Dr. Barbara Yap-Angeles and Mr. Agustin P. Angeles, along with their seven children." },
+      { "id": "1971", "year": "1971", "title": "Granting of University Status", "body": "After less than nine years of successful operation, the institution was officially granted University status on April 16, 1971, by the Philippines' Department of Education, Culture and Sports." },
+      { "id": "1975", "year": "1975", "title": "Conversion to Non-Stock, Non-Profit Foundation", "body": "On December 4, 1975, AUF became a non-stock, non-profit educational foundation incorporated under Republic Act No. 6055 (Foundation Law) after the founding family executed a Deed of Donation, relinquishing their ownership and proprietary rights." },
+      { "id": "1978", "year": "1978", "title": "Conversion into a Catholic University", "body": "On February 14, 1978, AUF was converted into a Catholic University, making it the first Catholic university in Central Luzon and the 14th in the Philippines. The milestone was marked by a mass officiated by Apostolic Nuncio Msgr. Bruno Torpigliani." },
+      { "id": "1990", "year": "1990", "title": "Inauguration of the AUF Medical Center", "body": "The five-storey AUF Medical Center (AUFMC) was inaugurated on February 23, 1990. Licensed for 125 beds, it serves as the base hospital for medical and allied medical students, standing as the only private tertiary teaching, training, and research hospital in Central Luzon." },
+      { "id": "2003", "year": "2003", "title": "CHED Autonomous Status Granted", "body": "On October 27, 2003, the Philippine Commission on Higher Education (CHED) granted AUF Autonomous Status in recognition of its exemplary performance across instruction, research, and community service, empowering the university to innovate and operate independently." },
+      { "id": "present", "year": "Present", "title": "63 Years of Global Academic Excellence", "body": "Now in its 63rd year of operations, AUF continues to provide quality education supported by competent instruction and state-of-the-art facilities aimed at addressing the growing needs of the global academic community." }
+    ]
+  },
+  "profile": {
+    "navLabel": "University Profile",
+    "eyebrow": "At a glance",
+    "intro": "Angeles University Foundation is a premier private, non-stock, non-profit Catholic university located in Angeles City, Pampanga, Philippines.",
+    "highlights": [
+      { "label": "Founded",          "value": "1962" },
+      { "label": "Type",             "value": "Private Catholic University" },
+      { "label": "Location",         "value": "Angeles City, Pampanga" },
+      { "label": "Colleges & Schools","value": "12" },
+      { "label": "Accreditation",    "value": "PAASCU Level IV" },
+      { "label": "CHED Status",      "value": "Autonomous" }
+    ],
+    "paragraphs": [
+      "AUF is a leading higher education institution committed to excellence in instruction, research, and community service. As a premier university in the region and one of the top universities in the Philippines, AUF is recognized for its outstanding academic programs, high-quality education, and impactful research and community engagement.",
+      "This commitment to excellence is reinforced by a range of prestigious recognitions, including:"
+    ],
+    "recognitions": [
+      {
+        "id": "autonomous",
+        "number": 1,
+        "heading": "Autonomous Status granted by the Commission on Higher Education (CHED) since 2003.",
+        "body": "demonstrating the highest level of excellence among Higher Education Institutions in the country. This status grants AUF the highest level of academic freedom, allowing it to innovate curricula, establish international collaborations, and continuously enhance academic offerings."
+      },
+      {
+        "id": "faap",
+        "number": 2,
+        "heading": "Institutional Accreditation by the Federation of Accrediting Associations of the Philippines (FAAP).",
+        "body": "One of the few universities that is institutionally accredited, a distinction that reflects AUF's commitment to maintaining the highest standards in its academic programs, governance, faculty qualifications, research, and community engagement."
+      },
+      {
+        "id": "iso",
+        "number": 3,
+        "heading": "ISO 21001:2015 Certification by TUV-SUD",
+        "body": "underscores AUF's adherence to international quality management systems, ensuring that its academic and administrative processes meet global benchmarks for continuous improvement."
+      },
+      {
+        "id": "paascu",
+        "number": 4,
+        "heading": "FAAP Program Accreditations through the Philippine Accrediting Association of Schools, Colleges and Universities (PAASCU).",
+        "body": "AUF has most of its academic programs accredited by PAASCU, demonstrating its unwavering commitment to quality education.",
+        "bullets": [
+          "Level IV Re-Accredited Status – AB Communication, Biology, Psychology, Elementary Education, Secondary Education, Nursing, Medical Technology, Physical Therapy, Computer Science, and Information Technology.",
+          "Level III Re-Accredited Status – Accountancy, Business Administration, Tourism Management, Criminology, Computer Engineering, Integrated School (Basic Education), and Basic Medical Education.",
+          "Level II Re-Accredited Status – Pharmacy, Civil Engineering, Master of Arts in Education, Master in Business Administration, and Electronics Engineering.",
+          "Level I Accredited Status – Integrated School (Senior High School)"
+        ]
+      },
+      {
+        "id": "ched-distinctions",
+        "number": 5,
+        "heading": "Program distinctions from the Commission on Higher Education",
+        "body": "to several AUF programs demonstrating excellence in program delivery:",
+        "bullets": [
+          "Center of Excellence — Information Technology, Criminology",
+          "Center of Development — Computer Engineering, Nursing",
+          "The recently formed Teacher Education Council has also recognized the teacher education programs of AUF, granting them Center of Excellence in Teacher Education."
+        ]
+      }
+    ]
+  },
+  "rankings": {
+    "navLabel": "Rankings & Accreditations",
+    "eyebrow": "Recognition",
+    "intro": "Ranking in prestigious international university rankings further strengthens the reputation of AUF as a leading higher education institution in the Philippines and beyond.",
+    "accreditations": [
+      { "id": "ched",   "body": "CHED",    "level": "Autonomous Status",    "year": "Since 2003", "description": "One of the highest recognitions from CHED, reflecting sustained academic quality and institutional integrity." },
+      { "id": "faap",   "body": "FAAP",    "level": "Institutional Accreditation", "year": "2016", "description": "Accredited by the Federation of Accrediting Associations of the Philippines, affirming AUF meets rigorous national standards." },
+      { "id": "iso",    "body": "TÜV SÜD", "level": "ISO 21001:2015",       "year": "2019", "description": "Certified for Educational Organizations Management Systems, demonstrating commitment to quality delivery and continuous improvement." },
+      { "id": "paascu", "body": "PAASCU",  "level": "Level IV Accredited",  "year": "Ongoing", "description": "Multiple programs accredited by the Philippine Accrediting Association of Schools, Colleges and Universities." }
+    ],
+    "international": [
+      { "id": "the",  "org": "Times Higher Education",  "name": "THE Impact Rankings",                 "tag": "SDG Impact",         "description": "Recognized for contributions and impact to the United Nations Sustainable Development Goals." },
+      { "id": "qs",   "org": "Quacquarelli Symonds",    "name": "QS Asian University Rankings",         "tag": "Top Asian University","description": "Acknowledged among the top universities in Asia, highlighting AUF's growing international presence and academic excellence." },
+      { "id": "wuri", "org": "WURI",                    "name": "World University Rankings for Innovation","tag": "Innovation Leader", "description": "Recognized for innovative approaches, demonstrating AUF's commitment to industry and society." }
+    ]
+  },
+  "founder": {
+    "navLabel": "The Founder",
+    "eyebrow": "Our roots",
+    "name": "Dr. Barbara Y. Angeles",
+    "role": "Founder, Angeles University Foundation",
+    "photoUrl": "/assets/dr-barbara-yap-angeles.png",
+    "subheading": "Dr. Barbara Y. Angeles: A Life Devoted to Education and Service",
+    "bio": [
+      "Dr. Barbara Yap Angeles, founder and first president of Angeles University Foundation, was born on December 4, 1907—a moment her family regarded as a blessing worthy of thanksgiving. Her birth, so close to Christmas, was celebrated in the spirit of the season. On Christmas Day, relatives and friends gathered to witness the infant Barbara open her eyes for the first time, meeting her guests with a gentle squint and an innocence that left a lasting impression.",
+      "As the years passed, the once-fragile infant grew into a bright and endearing schoolgirl. She distinguished herself academically, earning recognition for her aptitude in mathematics and her proficiency in languages. Modest by nature and averse to public acclaim, Barbara found fulfillment not in recognition, but in the quiet satisfaction of meeting—and often exceeding—academic expectations.",
+      "From the very beginning, her path was guided by purpose. When she enrolled at the College of Education of the Centro Escolar de Señoritas, Barbara already carried a deeply rooted vision: to create, organize, and sustain an educational institution that would serve those who had less in life, yet possessed immense potential for growth and leadership.",
+      "With the encouragement of her family and friends, Barbara envisioned a school that would play a meaningful role in uplifting the academic prospects of the youth. Shortly after graduating in 1930, she began the formidable task of turning her dream into reality. A year later, through the generosity and support of her brother, Ildefonso Angeles, that vision took form — Angeles Academy, the first private school in Pampanga, opened on May 10, 1931.",
+      "Angeles Academy began modestly, housed in a semi-concrete, one-storey structure with four classrooms. The early years were marked by dedication and hard work. However, Barbara's trusting nature left her vulnerable to disloyalty within her ranks, and circumstances beyond her control forced her to set aside her dream temporarily. In 1933, Angeles Academy closed its doors.",
+      "Nearly three decades later, fortified by experience and renewed determination, Barbara once again answered the call of her mission. On May 25, 1962, with the support of her family, she established the Angeles Institute of Technology. This time, she faced challenges with greater resolve and wisdom.",
+      "On the very day the Angeles Institute of Technology opened, a massive fire razed the Angeles City public market, leaving thousands homeless. Moved by compassion, Barbara and her husband Agustin Angeles immediately extended free tuition and scholarship opportunities to the children of fire victims — an act of generosity that deeply endeared the couple to the people of Angeles City.",
+      "Dr. Barbara Y. Angeles was a woman of wisdom, faith, and unwavering purpose. Though she witnessed firsthand the pain of betrayal and human frailty, she remained undaunted. That dream lives on today through Angeles University Foundation — an enduring testament to her vision, resilience, and heart for service."
+    ],
+    "quote": "No one should be denied of education due to poverty.",
+    "quoteAttribution": "Dr. Barbara Yap-Angeles, Founder"
+  },
+  "governance": {
+    "navLabel": "Governance",
+    "eyebrow": "Leadership",
+    "intro": [
+      "The Board of Trustees is the highest governing body of the University. It is composed of distinguished men and women drawn from the fields of education, business, government, the judiciary, and the clergy — leaders whose collective expertise provides strategic direction and stewardship to the institution. Among its past members are eminent national figures, including former Philippine President Gloria Macapagal-Arroyo, former President Diosdado P. Macapagal, former Senator Jose J. Roy, Most Rev. Oscar V. Cruz, and Senator Manuel A. Roxas II, among others.",
+      "The Board is assisted by the Management Committee, which is tasked with overseeing the daily management and operations of the University. Under its supervision are the deans and heads of various academic, administrative, and finance offices, ensuring the effective implementation of institutional policies and programs.",
+      "Guided by its commitment to excellence and accountability, the University upholds the principles of shared leadership and participatory management, fostering collaboration across all levels of the academic community."
+    ],
+    "boardOfTrustees": [
+      { "id": "bot-1", "name": "TBA", "role": "Chair, Board of Trustees" },
+      { "id": "bot-2", "name": "TBA", "role": "Vice Chair, Board of Trustees" },
+      { "id": "bot-3", "name": "TBA", "role": "Trustee" },
+      { "id": "bot-4", "name": "TBA", "role": "Trustee" },
+      { "id": "bot-5", "name": "TBA", "role": "Trustee" },
+      { "id": "bot-6", "name": "TBA", "role": "Trustee" },
+      { "id": "bot-7", "name": "TBA", "role": "Trustee" }
+    ],
+    "administration": [
+      { "id": "adm-1", "name": "TBA", "role": "University President" },
+      { "id": "adm-2", "name": "TBA", "role": "Vice President for Academic Affairs" },
+      { "id": "adm-3", "name": "TBA", "role": "Vice President for Finance and Administration" },
+      { "id": "adm-4", "name": "TBA", "role": "Vice President for Research and Development" },
+      { "id": "adm-5", "name": "TBA", "role": "Vice President for Student Affairs" },
+      { "id": "adm-6", "name": "TBA", "role": "University Registrar" },
+      { "id": "adm-7", "name": "TBA", "role": "Director, Office of University Relations" }
+    ]
+  },
+  "visionMission": {
+    "navLabel": "Vision & Mission",
+    "eyebrow": "Our identity",
+    "qualityPolicy": [
+      { "id": "quality",     "heading": "Quality Education",             "body": "Promoting quality education that generates knowledge, hones skills, inculcates sound values, and fosters love of God, country, and fellowmen." },
+      { "id": "faculty",     "heading": "Competent Faculty & Facilities", "body": "Providing competent and committed faculty, suitable facilities, and relevant curricular programs responsive to the dynamically changing local and international environment." },
+      { "id": "graduates",   "heading": "Well-Rounded Graduates",        "body": "Producing graduates who are values-oriented, socially and ethically responsible, professionally competent, critical and creative thinkers, lifelong learners, and globally oriented." },
+      { "id": "research",    "heading": "Research & Community Extension", "body": "Initiating research and community extension projects that are geared toward societal transformation and the upliftment of communities." },
+      { "id": "improvement", "heading": "Continuous Improvement",        "body": "Continually improving all programs, structures, systems, and processes to meet the needs of all interested parties and ensure total customer care and satisfaction." }
+    ]
+  },
+  "coreValues": {
+    "navLabel": "Core Values",
+    "eyebrow": "Character formation",
+    "intro": "Three foundational virtues animate everything at AUF — from curriculum design to community extension. Every Angelenean is formed to embody all three.",
+    "virtues": [
+      {
+        "id": "virtus",
+        "ordinal": "Virtus",
+        "tagalog": "Mabuti",
+        "english": "Good",
+        "color": "#0E2247",
+        "description": "This core value implies courage, worth, integrity and character; to be virtuous means to be respectful, humble, kind, true, and honest in all aspects of one's life. Inspired by theological virtues of faith, hope and love, including the cardinal virtues of justice, prudence, temperance and fortitude, the Angelenean is expected to manifest integrity of character in thought, speech and action.",
+        "pillars": [
+          "Values faith, hope and love, and Christ-centeredness through respect, humility, kindness, truth and honesty in one's thought, speech and action.",
+          "Manifests good manners and right conduct with deep respect and regard for others.",
+          "Abides by the rules and regulations of the school, the community and the country with respect for ethical standards and moral values.",
+          "Shows love and respect for God, humanity, the country and the environment."
+        ]
+      },
+      {
+        "id": "veritas",
+        "ordinal": "Veritas",
+        "tagalog": "Magaling",
+        "english": "Excellent",
+        "color": "#1B3A6B",
+        "description": "Commitment to learning and academic competence are, in essence, a search for that which is true. The school takes part in \"the ardent search for truth and its unselfish transmission to youth and to all those learning to think rigorously, so as to act rightly and to serve humanity better\" (Ex Corde Ecclesiae 2). The Angelenean upholds the value of search for truth and knowledge for brilliant disposition.",
+        "pillars": [
+          "Demonstrates wisdom and competence for academic work, and commitment to lifelong learning.",
+          "Manifests pursuit of excellence and truth in speech and action.",
+          "Shows adeptness in time management, leadership responsibilities, and problem-solving activities.",
+          "Collaborates harmoniously with others as a competent member of a group.",
+          "Demonstrates grit to accomplish academic tasks or life challenges."
+        ]
+      },
+      {
+        "id": "caritas",
+        "ordinal": "Caritas",
+        "tagalog": "May Malasakit\nSa Kapwa",
+        "english": "Compassionate toward others",
+        "color": "#14306E",
+        "description": "To practice care and concern for others is to be charitable of one's self; charity is self-giving love, the highest form of love (John 15:13). The Angelenean aspires to practice charity in all dimensions of life — as a professional, a neighbor, a citizen, and a global human being.",
+        "pillars": [
+          "Practices concern and care for others, especially the poor, the disabled and the marginalized members of society through leadership, volunteerism, service, and acts of generosity.",
+          "Initiates or participates in advocacies for cultural understanding, peace, respect for human rights and preservation of the environment.",
+          "Contributes time and resources for the fulfillment of the mission of the school towards community empowerment, responsible citizenship, and societal transformation."
+        ]
+      }
+    ]
+  },
+  "attributes": {
+    "navLabel": "Graduate Attributes",
+    "eyebrow": "What we produce",
+    "intro": [
+      "The Angeles University Foundation envisions its graduates to embody the values of responsibility and competence as they strive to become knowledgeable and globally aware individuals.",
+      "Consistent with the core values of \"mabuti, magaling and may malasakit sa kapwa,\" AUF endeavors to cultivate these attributes in its graduates, by equipping them with the necessary skills and qualities to excel in their chosen fields."
+    ],
+    "items": [
+      { "id": 1, "title": "Values Oriented",             "bullets": ["Embrace Christ's way of life through moral living and social accountability.", "Adhere to truth and Catholic values amidst conflicting value systems.", "Practice fairness, honesty and integrity in all aspects of life.", "Demonstrate positive disposition, maturity and courage, rooted in Catholic values, in the face of adversity."] },
+      { "id": 2, "title": "Socially and Ethically Responsible", "bullets": ["Engage in advocacies for life, cultural heritage, and environmental stewardship.", "Demonstrate concern for others through active involvement in socio-civic activities.", "Promote and practice inclusion, respecting diversity in race, gender, exceptionalities, and indigenous peoples.", "Apply knowledge and skills in addressing social issues and community concerns."] },
+      { "id": 3, "title": "Professionally Competent",    "bullets": ["Demonstrate expertise in their fields of specialization and proficiency in professional practice.", "Communicate effectively in oral and written forms using various media.", "Collaborate productively with colleagues, organizations, and institutions.", "Pass examinations administered by government and professional organizations."] },
+      { "id": 4, "title": "Critical and Creative Thinker","bullets": ["Critically analyze and evaluate arguments, evidence, data, and information.", "Apply innovative methods and approaches in solving problems.", "Generate ideas, products, and perspectives appropriate to their discipline.", "Demonstrate knowledge of research methodologies and the ability to interpret findings."] },
+      { "id": 5, "title": "Lifelong Learner",            "bullets": ["Practice continuous learning and professional development.", "Adapt quickly to the evolving demands of their profession.", "Actively pursue growth in moral, spiritual, socio-civic, and physical dimensions.", "Participate in collaborative learning while respecting human dignity and diversity."] },
+      { "id": 6, "title": "Globally Oriented",           "bullets": ["Demonstrate a global and international perspective in their discipline.", "Collaborate effectively with people from diverse cultural backgrounds.", "Exhibit the awareness, knowledge, and skills to interact in culturally and linguistically diverse contexts.", "Respect differing perspectives while remaining grounded in their own beliefs and values."] }
+    ]
+  },
+  "leadership": {
+    "navLabel": "Leadership",
+    "eyebrow": "University President",
+    "president": {
+      "name": "Atty. Joseph E. L. Angeles, Ph.D",
+      "credentials": "TBA",
+      "title": "University President",
+      "photoUrl": "/assets/president.jpg",
+      "profileHighlights": [
+        "Holds a doctoral degree in TBA",
+        "Decades of academic leadership at AUF",
+        "Advocates for inclusive, values-based education",
+        "Active in national and international academic bodies"
+      ],
+      "message": [
+        "The Angeles University Foundation is governed by its Board of Trustees, composed of distinguished men and women from education, business, government, the judiciary, and the clergy, and is led by its President, Atty. Joseph Emmanuel L. Angeles, and the Management Committee.",
+        "On behalf of the Angelenean community, it is my distinct honor to welcome you to Angeles University Foundation (AUF), a university committed to academic excellence, global engagement, and transformative education.",
+        "As we pursue our vision of becoming a leading center of excellence in instruction, research, and community engagement, AUF continues to expand its global footprint through meaningful and sustainable strategic partnerships. We actively collaborate with universities, research institutions, industry leaders, and international organizations around the world. These partnerships foster faculty and student mobility, transnational education programs, joint research initiatives, professional development, internships, innovation platforms, and intercultural exchange—creating pathways for shared growth and global impact.",
+        "Anchored in our enduring mission of the “Total Development of Man for God and Humanity,” AUF integrates intellectual rigor with ethical formation and social responsibility. Our academic programs, duly recognized by the Philippine Commission on Higher Education (CHED), are designed to cultivate graduates who are not only academically competent but also morally grounded, compassionate, and service-oriented leaders.",
+        "Our commitment to quality and continuous improvement has earned AUF Autonomous Status from CHED and inclusion in the QS World University Rankings: Asia, affirming our standing within the regional and international academic community.",
+        "At AUF, we do not merely educate; we shape leaders, innovators, and nation-builders. We invite you to become part of a dynamic university where aspirations are nurtured, global perspectives are embraced, and excellence is a shared pursuit.",
+        "We look forward to welcoming you to AUF."
+      ]
+    }
+  },
+  "orgChart": {
+    "navLabel": "Organizational Charts",
+    "eyebrow": "Governance structure",
+    "description": "The organizational structure of Angeles University Foundation reflects its commitment to principled governance, academic excellence, and administrative efficiency.",
+    "charts": [
+      {
+        "id": "university",
+        "title": "University Organizational Chart",
+        "imageUrl": null,
+        "downloadUrl": null,
+        "description": "The university is governed by the Board of Trustees, supported by the Management Committee, and led by the University President. Academic and administrative offices operate under the President's Office."
+      },
+      {
+        "id": "academic",
+        "title": "Academic Structure",
+        "imageUrl": null,
+        "downloadUrl": null,
+        "description": "AUF's academic structure comprises 12 colleges and schools under the Vice President for Academic Affairs, each headed by a Dean responsible for curriculum, faculty, and student academic programs."
+      }
+    ],
+    "noteText": "Official digital copies of AUF's organizational charts are available through the Office of the University Registrar. Contact registrar@auf.edu.ph for inquiries."
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "university": {
+    "name": "Angeles University Foundation",
+    "shortName": "AUF",
+    "tagline": "Virtus. Veritas. Caritas.",
+    "description": "Angeles University Foundation (AUF) is a premier Catholic university in Central Luzon committed to academic excellence, Catholic values, and community service.",
+    "founded": 1962,
+    "type": "Private, Non-Stock, Non-Profit, Catholic University",
+    "accreditation": "PAASCU Level IV",
+    "address": "MacArthur Highway, Angeles City, Pampanga, Philippines 2009",
+    "phone": "+63 (045) 888-8691",
+    "email": "info@auf.edu.ph",
+    "registrar": "registrar@auf.edu.ph",
+    "admissions": "admissions@auf.edu.ph",
+    "brandColor": "#7A0019",
+    "accentColor": "#F2C300",
+    "logoUrl": "/assets/auf-logo-only.png",
+    "logoWithTextUrl": "/assets/auf-logo-with-text.png",
+    "bannerUrl": null,
+    "socialLinks": {
+      "facebook": "https://www.facebook.com/aufconnect/",
+      "twitter": null,
+      "instagram": null,
+      "youtube": null,
+      "linkedin": "https://www.linkedin.com/school/angelenean/?originalSubdomain=ph"
+    },
+    "vision": "Inspired by the teachings and tradition of the Catholic Church, the Angeles University Foundation envisions to emerge as a Center of excellence in instruction, research, and community extension services in the region and in the global community.",
+    "mission": "To realize its vision, the University is committed to the Total development of man for God and Humanity.",
+    "coreValues": [
+      "Mabuti",
+      "Magaling",
+      "May Malasakit sa Kapwa"
+    ]
+  }
+}

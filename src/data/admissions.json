@@ -1,0 +1,333 @@
+{
+  "hero": {
+    "eyebrow": "Join the AUF community",
+    "title": "Admissions",
+    "subtitle": "Begin your journey toward excellence at Angeles University Foundation. Explore testing schedules, application steps, programs, and scholarships to find your path."
+  },
+
+  "testing": {
+    "navLabel": "Testing Dates",
+    "eyebrow": "Know before you go",
+    "title": "Testing Dates",
+    "description": "AUF administers admission tests to assess applicants' academic readiness. Review the examination schedules, registration requirements, and test guidelines below.",
+    "note": "Test schedules are updated each academic term. For the most current schedule, contact the Testing and Admissions Office at admissions@auf.edu.ph.",
+    "examTypes": [
+      {
+        "id": "aufcat",
+        "name": "AUF College Admission Test",
+        "acronym": "AUFCAT",
+        "description": "The primary admission examination for all incoming freshmen applicants to undergraduate programs. Covers verbal ability, numerical reasoning, abstract reasoning, and general knowledge.",
+        "eligibility": "Senior High School graduates or incoming Grade 12 students within the academic year of application.",
+        "registrationSteps": [
+          "Accomplish and submit the online application form at admissions.auf.edu.ph",
+          "Upload required documents (Form 138, Certificate of Good Moral Character, 2×2 ID photo)",
+          "Pay the non-refundable application/testing fee",
+          "Receive examination schedule and permit via email"
+        ],
+        "testingFee": "TBA"
+      },
+      {
+        "id": "transfer-exam",
+        "name": "Transfer Admission Test",
+        "acronym": "TAT",
+        "description": "For applicants with at least one year of college credits from another institution. Includes a subject-area component relevant to the degree program being applied for.",
+        "eligibility": "College-level transferees with Official Transcript of Records (OTR) from previous school.",
+        "registrationSteps": [
+          "Obtain a Transfer Credential from the previous school",
+          "Submit transfer application form with OTR and honorable dismissal",
+          "Pay the application/testing fee",
+          "Await scheduling confirmation from Admissions"
+        ],
+        "testingFee": "TBA"
+      },
+      {
+        "id": "graduate-exam",
+        "name": "Graduate School Admission Test",
+        "acronym": "GSAT",
+        "description": "Required for all applicants to master's and doctoral programs. Assesses critical thinking, research aptitude, and discipline-specific foundational knowledge.",
+        "eligibility": "Bachelor's degree holders (or equivalent) applying to graduate programs. Some programs may require additional credentials.",
+        "registrationSteps": [
+          "Submit Graduate School application form with academic credentials",
+          "Provide two letters of recommendation from former professors or supervisors",
+          "Pay the testing fee",
+          "Complete personal statement/letter of intent as required by the program"
+        ],
+        "testingFee": "TBA"
+      }
+    ],
+    "schedule": [
+      {
+        "id": "sched-1",
+        "examType": "AUFCAT",
+        "batch": "Batch 1",
+        "registrationDeadline": "TBA",
+        "examDate": "TBA",
+        "venue": "AUF Main Campus, Angeles City",
+        "slots": "Limited slots available"
+      },
+      {
+        "id": "sched-2",
+        "examType": "AUFCAT",
+        "batch": "Batch 2",
+        "registrationDeadline": "TBA",
+        "examDate": "TBA",
+        "venue": "AUF Main Campus, Angeles City",
+        "slots": "Limited slots available"
+      },
+      {
+        "id": "sched-3",
+        "examType": "Transfer Admission Test",
+        "batch": "Rolling Basis",
+        "registrationDeadline": "Walk-in or by appointment",
+        "examDate": "By appointment",
+        "venue": "AUF Admissions Office",
+        "slots": "By appointment only"
+      },
+      {
+        "id": "sched-4",
+        "examType": "Graduate School Admission Test",
+        "batch": "Rolling Basis",
+        "registrationDeadline": "At least 1 week before preferred exam date",
+        "examDate": "By schedule",
+        "venue": "AUF Graduate School",
+        "slots": "By schedule"
+      }
+    ]
+  },
+
+  "applicationGuide": {
+    "navLabel": "Application Guide",
+    "eyebrow": "Step by step",
+    "title": "Application Guide",
+    "intro": "Applying to AUF is a straightforward process. Follow these steps to complete your application from start to enrollment.",
+    "steps": [
+      {
+        "id": "step-1",
+        "number": 1,
+        "title": "Choose Your Program",
+        "description": "Explore AUF's colleges and programs to find the right fit for your interests and career goals. Browse the Academics section or visit college microsites for detailed program information.",
+        "tips": ["Review admission requirements specific to your chosen program", "Consider attending an open house or campus tour", "Talk to current students or alumni of the program"]
+      },
+      {
+        "id": "step-2",
+        "number": 2,
+        "title": "Accomplish the Online Application",
+        "description": "Complete the AUF online application form at admissions.auf.edu.ph. Provide accurate and complete personal, academic, and contact information.",
+        "tips": ["Prepare a valid email address — all communications will be sent there", "Double-check all information before submitting", "Note your application reference number for follow-up"]
+      },
+      {
+        "id": "step-3",
+        "number": 3,
+        "title": "Submit Required Documents",
+        "description": "Upload or submit the following documents to the Admissions Office. Incomplete submissions may delay your application.",
+        "requirements": [
+          "Original Form 138 / Report Card",
+          "Certificate of Good Moral Character (signed by the school principal)",
+          "PSA-authenticated Birth Certificate",
+          "2×2 ID photos (recent, with white background)",
+          "School ID or any valid government ID",
+          "For transferees: Official Transcript of Records and Honorable Dismissal"
+        ]
+      },
+      {
+        "id": "step-4",
+        "number": 4,
+        "title": "Pay the Application and Testing Fee",
+        "description": "Settle the non-refundable application and testing fee at the AUF Cashier or via the designated online payment channels. Present proof of payment to the Admissions Office.",
+        "tips": ["Keep your official receipt — you will need it to claim your test permit", "Online payment options available at admissions.auf.edu.ph"]
+      },
+      {
+        "id": "step-5",
+        "number": 5,
+        "title": "Take the AUF Admission Test",
+        "description": "Appear at the designated venue on your scheduled examination date. Bring your test permit and a valid ID. Arrive at least 30 minutes before the exam.",
+        "tips": ["No entrance will be allowed after the exam has started", "Calculators and electronic devices are not permitted unless specified", "Dress appropriately and follow campus policies"]
+      },
+      {
+        "id": "step-6",
+        "number": 6,
+        "title": "Await Examination Results",
+        "description": "Results are typically released within a week of the examination date. You will receive an email notification at the address provided in your application. You may also check the Admissions Office in person.",
+        "tips": ["Check your spam/junk folder if you do not receive an email", "Results are valid for one academic year only"]
+      },
+      {
+        "id": "step-7",
+        "number": 7,
+        "title": "Complete Enrollment",
+        "description": "Upon receiving your Notice of Acceptance, proceed to enrollment during the designated enrollment period. Bring all original documents and the required enrollment fees.",
+        "tips": ["Enrollment periods are strictly observed — do not miss your assigned schedule", "Secure your slot early as programs have limited enrollment capacity", "Consult the Admissions Office for scholarship and financial assistance applications"]
+      }
+    ]
+  },
+
+  "programs": {
+    "navLabel": "Academic Programs",
+    "eyebrow": "What we offer",
+    "title": "Academic Programs",
+    "description": "AUF offers a wide range of undergraduate, graduate, and professional degree programs across 12 colleges and schools. Click on any college to visit its microsite and explore detailed program information.",
+    "note": "For specific admission requirements per program, contact the relevant college dean's office or the Admissions Office at admissions@auf.edu.ph."
+  },
+
+  "calendar": {
+    "navLabel": "Academic Calendar",
+    "eyebrow": "Important dates",
+    "title": "Academic Calendar",
+    "description": "The AUF Academic Calendar is divided into two regular semesters and a summer term. Key dates are aligned with the CHED-prescribed academic calendar.",
+    "note": "Specific dates are confirmed each academic year. The official calendar is published by the Office of the University Registrar at the start of each academic year. Contact registrar@auf.edu.ph for the latest schedule.",
+    "semesters": [
+      {
+        "id": "first-semester",
+        "name": "First Semester",
+        "period": "August – December",
+        "events": [
+          { "id": "1st-enroll", "event": "Enrollment Period", "date": "TBA", "notes": "By year level and college schedule" },
+          { "id": "1st-start", "event": "Start of Classes", "date": "TBA", "notes": "" },
+          { "id": "1st-prelim", "event": "Preliminary Examinations", "date": "TBA", "notes": "" },
+          { "id": "1st-midterm", "event": "Midterm Examinations", "date": "TBA", "notes": "" },
+          { "id": "1st-final", "event": "Final Examinations", "date": "TBA", "notes": "" },
+          { "id": "1st-grades", "event": "Submission of Final Grades", "date": "TBA", "notes": "" },
+          { "id": "1st-christmas", "event": "Christmas Break Begins", "date": "TBA", "notes": "" }
+        ]
+      },
+      {
+        "id": "second-semester",
+        "name": "Second Semester",
+        "period": "January – May",
+        "events": [
+          { "id": "2nd-enroll", "event": "Enrollment Period", "date": "TBA", "notes": "By year level and college schedule" },
+          { "id": "2nd-start", "event": "Start of Classes", "date": "TBA", "notes": "" },
+          { "id": "2nd-prelim", "event": "Preliminary Examinations", "date": "TBA", "notes": "" },
+          { "id": "2nd-midterm", "event": "Midterm Examinations", "date": "TBA", "notes": "" },
+          { "id": "2nd-final", "event": "Final Examinations", "date": "TBA", "notes": "" },
+          { "id": "2nd-grades", "event": "Submission of Final Grades", "date": "TBA", "notes": "" },
+          { "id": "graduation", "event": "Commencement Exercises", "date": "TBA", "notes": "For graduating students" }
+        ]
+      },
+      {
+        "id": "summer",
+        "name": "Summer Term",
+        "period": "June – July",
+        "events": [
+          { "id": "sum-enroll", "event": "Summer Enrollment", "date": "TBA", "notes": "Limited programs only" },
+          { "id": "sum-start", "event": "Start of Summer Classes", "date": "TBA", "notes": "" },
+          { "id": "sum-final", "event": "Final Examinations (Summer)", "date": "TBA", "notes": "" },
+          { "id": "sum-grades", "event": "Submission of Summer Grades", "date": "TBA", "notes": "" }
+        ]
+      }
+    ]
+  },
+
+  "scholarships": {
+    "navLabel": "Scholarships & Grants",
+    "eyebrow": "Invest in your future",
+    "title": "Scholarships and Grants",
+    "description": "AUF is committed to making quality education accessible. A range of scholarships, grants-in-aid, and financial assistance programs are available to qualified students.",
+    "contactNote": "For scholarship inquiries and application requirements, contact the Student Affairs Office at sao@auf.edu.ph or the Finance Office at finance@auf.edu.ph.",
+    "categories": [
+      {
+        "id": "academic",
+        "name": "Academic Excellence Scholarships",
+        "type": "Institutional",
+        "description": "Awarded to students who demonstrate outstanding academic performance. Recipients are identified based on their academic standing at the end of each semester.",
+        "benefits": ["Tuition fee discount or full scholarship depending on academic standing", "Renewable each semester upon maintaining the required GPA", "Recognition in the Dean's List and President's List"],
+        "eligibility": ["Must be a full-time student with at least 18 academic units", "Must maintain a specified minimum GPA (varies per scholarship tier)", "Must have no failing grades or incomplete marks"]
+      },
+      {
+        "id": "athletic",
+        "name": "Athletic Scholarship",
+        "type": "Institutional",
+        "description": "Granted to student-athletes who represent AUF in official intercollegiate competitions. Recognizes the dual commitment to academic excellence and athletic achievement.",
+        "benefits": ["Partial to full tuition coverage depending on athletic performance and program", "Allowance for training and competition equipment", "Priority registration during enrollment"],
+        "eligibility": ["Must be a member of an official AUF varsity team", "Must maintain a minimum academic standing as required by the Sports Office", "Recommended by the Sports and Athletics Office"]
+      },
+      {
+        "id": "government-tes",
+        "name": "Tertiary Education Subsidy (TES)",
+        "type": "Government — UNIFAST",
+        "description": "A CHED-administered government subsidy under the Universal Access to Quality Tertiary Education Act (Republic Act 10931). Provides direct financial assistance to enrolled students in private HEIs.",
+        "benefits": ["Annual subsidy credited directly to tuition and fees", "Available to eligible students enrolled in recognized private colleges"],
+        "eligibility": ["Must be a Filipino citizen enrolled in an accredited program", "Must belong to an eligible household based on DSWD assessment", "Must not be a recipient of any full scholarship that covers all tuition costs"]
+      },
+      {
+        "id": "government-esgp",
+        "name": "ESGP-PA (Expanded Students' Grants-in-Aid Program for Poverty Alleviation)",
+        "type": "Government — CHED",
+        "description": "Provides financial assistance to students from the bottom 20% of Philippine households, enabling them to access quality higher education.",
+        "benefits": ["Monthly stipend for living expenses", "Tuition and other school fees coverage", "Textbook and learning materials allowance"],
+        "eligibility": ["Must be from a household beneficiary of the Pantawid Pamilyang Pilipino Program (4Ps)", "Must pass the AUF admission examination", "Must maintain satisfactory academic performance"]
+      },
+      {
+        "id": "external",
+        "name": "External and Corporate Scholarships",
+        "type": "External Partners",
+        "description": "Various scholarships funded by corporations, foundations, and government agencies partnered with AUF. Available to students in specific disciplines.",
+        "benefits": ["Tuition coverage and stipend (varies per sponsor)", "Mentorship and industry exposure opportunities", "Employment preference after graduation (for select corporate scholarships)"],
+        "eligibility": ["Eligibility criteria vary per scholarship program and sponsor", "Contact the Student Affairs Office for the current list of available corporate scholarships"]
+      }
+    ]
+  },
+
+  "registrar": {
+    "navLabel": "University Registrar",
+    "eyebrow": "Official records",
+    "title": "University Registrar",
+    "description": "The Office of the University Registrar (OUR) is the official custodian of all academic records at AUF. It provides a range of certification and records services to current students, graduates, and other authorized parties.",
+    "contact": {
+      "email": "registrar@auf.edu.ph",
+      "location": "Main Building, AUF Campus",
+      "hours": "Monday–Friday, 8:00 AM – 5:00 PM",
+      "phone": "+63 (045) 888-8691 local TBA"
+    },
+    "services": [
+      {
+        "id": "tor",
+        "name": "Official Transcript of Records (TOR)",
+        "description": "Official document certifying a student's academic history at AUF, signed and sealed by the Registrar. Required for employment, graduate school applications, board exams, and professional licensure.",
+        "processingTime": "5–7 working days",
+        "requirements": ["Completely filled-out request form", "Official receipt of payment", "Clear ID photo", "Authorization letter (if claimed by proxy)"]
+      },
+      {
+        "id": "cert-registration",
+        "name": "Certificate of Registration (COR)",
+        "description": "Official proof of enrollment for the current semester. Required for government transactions, scholarship applications, and other purposes.",
+        "processingTime": "Issued during enrollment period; requests for re-issuance within 1 working day",
+        "requirements": ["Student request form", "Payment of certification fee"]
+      },
+      {
+        "id": "cert-graduation",
+        "name": "Certificate of Graduation / Completion",
+        "description": "Official certification that a student has completed all academic requirements for their degree program.",
+        "processingTime": "3–5 working days",
+        "requirements": ["Clearance from all offices", "Completely filled-out request form", "Payment of certification fee"]
+      },
+      {
+        "id": "authentication",
+        "name": "Document Authentication",
+        "description": "Authentication of AUF-issued academic documents for use in government agencies, foreign institutions, or apostille purposes.",
+        "processingTime": "1–3 working days",
+        "requirements": ["Original document for authentication", "Request form", "Payment of authentication fee"]
+      },
+      {
+        "id": "good-moral",
+        "name": "Certificate of Good Moral Character",
+        "description": "Official certification attesting to a student's good standing and conduct at AUF. Required for scholarship applications, transferees, and employment.",
+        "processingTime": "1–2 working days",
+        "requirements": ["Student request form", "Clearance from Student Affairs Office", "Payment of certification fee"]
+      },
+      {
+        "id": "enrollment-verification",
+        "name": "Enrollment Verification",
+        "description": "Verification letter confirming a student's current enrollment status, year level, and program. Required for insurance claims, government benefits, and certain employment applications.",
+        "processingTime": "Same day to 1 working day",
+        "requirements": ["Request form", "Student ID", "Payment of verification fee"]
+      }
+    ],
+    "downloadableForms": [
+      { "id": "reg-request-form", "name": "Records Request Form", "description": "General form for TOR, certifications, and authentication requests", "fileUrl": null, "fileType": "PDF" },
+      { "id": "reg-auth-letter", "name": "Authorization Letter Template", "description": "For proxy claims of official documents", "fileUrl": null, "fileType": "DOCX" },
+      { "id": "reg-transfer-form", "name": "Transfer Request Form", "description": "For students requesting transfer to another institution", "fileUrl": null, "fileType": "PDF" },
+      { "id": "reg-cross-enroll", "name": "Cross-Enrollment Form", "description": "For students enrolled at AUF who wish to take subjects at another institution", "fileUrl": null, "fileType": "PDF" },
+      { "id": "reg-leave-absence", "name": "Leave of Absence Form", "description": "For students applying for temporary leave from studies", "fileUrl": null, "fileType": "PDF" }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "hero": {
+    "eyebrow": "Connect@AUF",
+    "title": "We're Here for You",
+    "subtitle": "Find the right campus, office, or point of contact for your inquiry. AUF is committed to accessible, responsive communication with students, faculty, and the community."
+  },
+  "campuses": {
+  "navLabel": "Campuses",
+  "eyebrow": "Our Campuses",
+  "title": "AUF Campuses",
+  "description": "Angeles University Foundation operates across several specialized campuses and academic buildings in Angeles City, Pampanga. Each facility is purposefully designed to support academic excellence, student development, research, athletics, and cultural formation.",
+    "campusList": [
+      {
+        "id": "main",
+        "name": "AUF Main Campus",
+        "address": "MacArthur Highway, Angeles City, Pampanga, Philippines 2009",
+        "mapEmbedUrl": "https://www.google.com/maps?q=Angeles+University+Foundation+Main+Campus,+MacArthur+Highway,+Angeles+City,+Pampanga+2009&output=embed",
+        "photoUrl": "/slider/11.jpg",
+        "phone": "(045) 888-8691",
+        "email": "info@auf.edu.ph",
+        "description": "The AUF Main Campus houses the University’s principal health science academic units and serves as a major center for instruction, clinical training, and research.",
+        "offices": [],
+        "academicUnits": [
+          { "acronym": "CAMP", "name": "College of Allied Medical Professions" },
+          { "acronym": "CON", "name": "College of Nursing" },
+          { "acronym": "SOM", "name": "School of Medicine" }
+        ]
+      },
+      {
+        "id": "professional-school",
+        "name": "AUF Professional School Building",
+        "address": "MacArthur Highway, Angeles City, Pampanga, Philippines 2009",
+        "mapEmbedUrl": "https://www.google.com/maps?q=AUF+Professional+School+Building,+MacArthur+Highway,+Angeles+City,+Pampanga+2009&output=embed",
+        "photoUrl": "/slider/13.png",
+        "phone": "(045) 888-8691",
+        "email": "info@auf.edu.ph",
+        "description": "The Professional School Building is home to AUF’s graduate and professional programs, providing modern facilities for advanced studies and international collaboration.",
+        "offices": [],
+        "academicUnits": [
+          { "acronym": "CBA", "name": "College of Business and Accountancy" },
+          { "acronym": "SOL", "name": "School of Law" },
+          { "acronym": "GS", "name": "Graduate School" },
+          { "acronym": "CI", "name": "Confucius Institute" }
+        ]
+      },
+      {
+        "id": "eya-cli",
+        "name": "AUF Emmanuel Y. Angeles-CLI Building",
+        "address": "MacArthur Highway, Angeles City, Pampanga, Philippines 2009",
+        "mapEmbedUrl": "https://www.google.com/maps?q=AUF+Emmanuel+Y.+Angeles+CLI+Building,+MacArthur+Highway,+Angeles+City,+Pampanga+2009&output=embed",
+        "photoUrl": "/slider/5.jpg",
+        "phone": "(045) 888-8691",
+        "email": "info@auf.edu.ph",
+        "description": "The Emmanuel Y. Angeles-CLI Building houses several core academic units in the arts, sciences, education, technology, engineering, and criminal justice.",
+        "offices": [],
+        "academicUnits": [
+          { "acronym": "CAS", "name": "College of Arts and Sciences" },
+          { "acronym": "CED", "name": "College of Education" },
+          { "acronym": "CCS", "name": "College of Computer Studies" },
+          { "acronym": "CCJE", "name": "College of Criminal Justice Education" },
+          { "acronym": "CEA", "name": "College of Engineering and Architecture" }
+        ]
+      },
+      {
+        "id": "sports-cultural-center",
+        "name": "AUF Sports and Cultural Center Building",
+        "address": "MacArthur Highway, Angeles City, Pampanga, Philippines 2009",
+        "mapEmbedUrl": "https://www.google.com/maps?q=AUF+Sports+and+Cultural+Center,+MacArthur+Highway,+Angeles+City,+Pampanga+2009&output=embed",
+        "photoUrl": "/slider/14.png",
+        "phone": "(045) 888-8691",
+        "email": "info@auf.edu.ph",
+        "description": "The Sports and Cultural Center serves as the venue for athletic programs, competitions, and cultural activities that enrich student life.",
+        "offices": [
+          "Athletic Office"
+        ],
+        "academicUnits": []
+      },
+      {
+        "id": "sta-barbara",
+        "name": "AUF Sta. Barbara Campus",
+        "address": "327 Maria Soledad Ave, Brgy. Ninoy Aquino, Angeles City, Pampanga, Philippines 2009",
+        "mapEmbedUrl": "https://www.google.com/maps?q=327+Maria+Soledad+Ave,+Brgy.+Ninoy+Aquino,+Angeles+City,+Pampanga+2009&output=embed",
+        "photoUrl": "/slider/4.jpg",
+        "phone": "(045) 888-8691",
+        "email": "info@auf.edu.ph",
+        "description": "The Sta. Barbara Campus is home to the AUF Integrated School, providing quality basic education in a nurturing and student-centered environment.",
+        "offices": [],
+        "academicUnits": [
+          { "acronym": "IS", "name": "AUF Integrated School" }
+        ]
+      }
+    ]
+  },
+  "directory": {
+    "navLabel": "Directory",
+    "eyebrow": "Contact Directory",
+    "title": "University Directory",
+    "description": "Use this directory to find the right office for your inquiry. For urgent matters, please call the main trunk line at (045) 888-8691 and ask the operator to transfer you to the appropriate department.",
+    "generalInquiries": [
+      {
+        "id": "gi1",
+        "inquiry": "Admissions & Enrollment",
+        "office": "Admissions Office",
+        "email": "admissions@auf.edu.ph",
+        "facebook": "AUF.Admissions",
+        "telephone": "(045) 888-8691 local 100"
+      },
+      {
+        "id": "gi2",
+        "inquiry": "Academic Records & Transcripts",
+        "office": "Office of the University Registrar",
+        "email": "registrar@auf.edu.ph",
+        "facebook": "AUF.Registrar",
+        "telephone": "(045) 888-8691 local 101"
+      },
+      {
+        "id": "gi3",
+        "inquiry": "Tuition, Fees & Financial Transactions",
+        "office": "Finance Office",
+        "email": "finance@auf.edu.ph",
+        "facebook": null,
+        "telephone": "(045) 888-8691 local 102"
+      },
+      {
+        "id": "gi4",
+        "inquiry": "Scholarships & Financial Assistance",
+        "office": "Scholarship Office",
+        "email": "scholarships@auf.edu.ph",
+        "facebook": null,
+        "telephone": "(045) 888-8691 local 103"
+      },
+      {
+        "id": "gi5",
+        "inquiry": "Student Life & Extracurricular Activities",
+        "office": "Office of Student Affairs",
+        "email": "osa@auf.edu.ph",
+        "facebook": "AUF.OSA",
+        "telephone": "(045) 888-8691 local 104"
+      },
+      {
+        "id": "gi6",
+        "inquiry": "Guidance & Counseling",
+        "office": "Guidance and Counseling Center",
+        "email": "guidance@auf.edu.ph",
+        "facebook": null,
+        "telephone": "(045) 888-8691 local 105"
+      },
+      {
+        "id": "gi7",
+        "inquiry": "Career Services & OJT / Internship",
+        "office": "Career Development Center",
+        "email": "cdc@auf.edu.ph",
+        "facebook": "AUF.CDC",
+        "telephone": "(045) 888-8691 local 106"
+      },
+      {
+        "id": "gi8",
+        "inquiry": "Research Collaboration & Grants",
+        "office": "Office of the VP for Research and Innovation",
+        "email": "research@auf.edu.ph",
+        "facebook": "AUF.Research",
+        "telephone": "(045) 888-8691 local 107"
+      },
+      {
+        "id": "gi9",
+        "inquiry": "External & International Partnerships",
+        "office": "External Affairs Office",
+        "email": "externalaffairs@auf.edu.ph",
+        "facebook": null,
+        "telephone": "(045) 888-8691 local 108"
+      },
+      {
+        "id": "gi10",
+        "inquiry": "Media, Press & Public Information",
+        "office": "Public Information Office",
+        "email": "pio@auf.edu.ph",
+        "facebook": "AngelesUniversityFoundation",
+        "telephone": "(045) 888-8691 local 109"
+      },
+      {
+        "id": "gi11",
+        "inquiry": "Alumni Affairs",
+        "office": "Alumni Affairs Office",
+        "email": "alumni@auf.edu.ph",
+        "facebook": "AUFAA.Official",
+        "telephone": "(045) 888-8691 local 110"
+      },
+      {
+        "id": "gi12",
+        "inquiry": "IT Support & System Access",
+        "office": "Information Technology Services",
+        "email": "itservice@auf.edu.ph",
+        "facebook": null,
+        "telephone": "(045) 888-8691 local 111"
+      }
+    ],
+    "collegeConcerns": [
+      {
+        "id": "cc1",
+        "acronym": "CAMP",
+        "college": "College of Allied and Medical Professions",
+        "email": "camp@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 200",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc2",
+        "acronym": "CAS",
+        "college": "College of Arts and Science",
+        "email": "cas@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 201",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc3",
+        "acronym": "CBA",
+        "college": "College of Business Administration",
+        "email": "cba@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 202",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc4",
+        "acronym": "CCJE",
+        "college": "College of Criminal Justice Education",
+        "email": "ccje@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 203",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc5",
+        "acronym": "CCS",
+        "college": "College of Computer Studies",
+        "email": "ccs@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 204",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc6",
+        "acronym": "CEA",
+        "college": "College of Engineering and Architecture",
+        "email": "cea@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 205",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc7",
+        "acronym": "CED",
+        "college": "College of Education",
+        "email": "ced@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 206",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc8",
+        "acronym": "CON",
+        "college": "College of Nursing",
+        "email": "con@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 207",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc9",
+        "acronym": "SOL",
+        "college": "School of Law",
+        "email": "sol@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 208",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc10",
+        "acronym": "SOM",
+        "college": "School of Medicine",
+        "email": "som@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 209",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc11",
+        "acronym": "GS",
+        "college": "Graduate School",
+        "email": "gradschool@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 210",
+        "mobile": "TBA"
+      },
+      {
+        "id": "cc12",
+        "acronym": "IS",
+        "college": "Integrated School",
+        "email": "integratedschool@auf.edu.ph",
+        "telephone": "(045) 888-8691 local 211",
+        "mobile": "TBA"
+      }
+    ],
+    "trunkline": "(045) 888-8691",
+    "trunklineNote": "For general inquiries, call our main trunk line and ask the operator to connect you to the appropriate office."
+  }
+}

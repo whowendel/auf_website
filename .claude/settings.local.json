@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --src-dir --eslint --import-alias \"@/*\" --use-npm --no-turbopack --skip-install --yes)",
+      "Bash(npm install *)",
+      "Bash(npx prisma *)",
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Bash(npx eslint *)",
+      "Bash(node -e \"const pkg = require\\('./node_modules/prisma/package.json'\\); console.log\\(pkg.version\\)\")",
+      "Bash(node -e \"const pkg = require\\('./node_modules/@prisma/client/package.json'\\); console.log\\(pkg.version\\)\")",
+      "Bash(node -e \"require\\('dotenv'\\).config\\(\\); console.log\\('DATABASE_URL:', process.env.DATABASE_URL\\)\")",
+      "Bash(node -e \"require\\('dotenv'\\).config\\(\\); const { Client } = require\\('pg'\\); const c = new Client\\({ connectionString: process.env.DATABASE_URL }\\); c.connect\\(\\).then\\(\\(\\) => c.query\\('SELECT current_database\\(\\), count\\(*\\) FROM information_schema.tables WHERE table_schema=\\\\'public\\\\''\\).then\\(r => { console.log\\('DB:', r.rows[0]\\); c.end\\(\\); }\\)\\).catch\\(e => console.error\\('CONNECT FAIL:', e.message\\)\\)\")",
+      "Bash(node -e \"require\\('dotenv'\\).config\\(\\); const { Client } = require\\('pg'\\); const c = new Client\\({ connectionString: process.env.DATABASE_URL }\\); c.connect\\(\\).then\\(\\(\\) => c.query\\('SELECT tablename FROM pg_tables WHERE schemaname=\\\\'public\\\\' ORDER BY tablename'\\).then\\(r => { console.log\\('Tables:', r.rows.map\\(r=>r.tablename\\)\\); c.end\\(\\); }\\)\\).catch\\(e => console.error\\('FAIL:', e.message\\)\\)\")",
+      "Bash(node -e \"const pkg = require\\('./node_modules/dotenv/package.json'\\); console.log\\('version:', pkg.version, 'main:', pkg.main, 'exports:', JSON.stringify\\(pkg.exports, null, 2\\).slice\\(0, 500\\)\\)\")",
+      "Bash(node -e \"const fs = require\\('fs'\\); console.log\\(fs.readFileSync\\('./node_modules/dotenv/config.js', 'utf8'\\).slice\\(0, 300\\)\\)\")",
+      "Bash(node --input-type=module -e \"import 'dotenv/config'; console.log\\('DATABASE_URL:', process.env.DATABASE_URL\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e \"const fs=require\\('fs'\\); const p='./node_modules/prisma/build/index.js'; const txt=fs.readFileSync\\(p,'utf8'\\); const idx=txt.indexOf\\('prisma-engines'\\); console.log\\(txt.slice\\(Math.max\\(0,idx-100\\), idx+200\\)\\)\")",
+      "Bash(Read \"C:\\\\Users\\\\ADMIN\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ADMIN-Desktop-Program-auf-website\\\\1d03cca8-60da-4004-898e-30e3e7050a9b\\\\tasks\\\\bhr00udpw.output\")",
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(node -e \"const p=require\\('./node_modules/framer-motion/package.json'\\);console.log\\('framer-motion',p.version\\)\")",
+      "Bash(rm src/server/validators/college.ts src/server/services/colleges.ts src/server/actions/colleges.ts)",
+      "Bash(rm -rf \"src/app/\\(admin\\)/admin/colleges\")",
+      "Bash(rm -f src/server/validators/college.ts src/server/services/colleges.ts src/server/actions/colleges.ts src/app/'\\(admin\\)'/admin/colleges/college-form.tsx src/app/'\\(admin\\)'/admin/colleges/new/page.tsx src/app/'\\(admin\\)'/admin/colleges/'[id]'/page.tsx src/app/'\\(admin\\)'/admin/colleges/'[id]'/programs-section.tsx)",
+      "Bash(rmdir src/app/'\\(admin\\)'/admin/colleges/new src/app/'\\(admin\\)'/admin/colleges/'[id]')",
+      "Bash(python3 -c \"import json; d=json.load\\(open\\('src/data/about.json'\\)\\); print\\(list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(node -e \"const d=require\\('./src/data/about.json'\\); console.log\\(Object.keys\\(d\\)\\)\")",
+      "Bash(node -e \"const d=require\\('./src/data/about.json'\\); console.log\\(JSON.stringify\\({history_sample: d.history.milestones?.[0], governance_sample: {intro_type: typeof d.governance.intro, keys: Object.keys\\(d.governance\\)}}, null, 2\\)\\)\")",
+      "Bash(node -e \"const d=require\\('./src/data/about.json'\\); const a=d.attributes; console.log\\('intro_type:', typeof a.intro, '| last item id:', a.items[a.items.length-1].id\\)\")",
+      "Bash(node -e \"require\\('./src/data/colleges.json'\\)\")",
+      "Bash(node -e \"const d=require\\('./src/data/colleges.json'\\); console.log\\(Array.isArray\\(d\\) ? 'array, len='+d.length : 'obj keys='+Object.keys\\(d\\)\\)\")"
+    ]
+  }
+}

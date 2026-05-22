@@ -1,0 +1,247 @@
+{
+  "hero": {
+    "eyebrow": "AUF Alumni",
+    "title": "Once an Angelenean, Always an Angelenean",
+    "subtitle": "Join thousands of AUF graduates making a difference across the Philippines and beyond. Your alma mater is proud of your achievements."
+  },
+  "overview": {
+    "navLabel": "Overview",
+    "eyebrow": "Our Alumni Network",
+    "title": "A Legacy That Lives Beyond the Classroom",
+    "description": "For over six decades, Angeles University Foundation has been shaping future leaders, innovators, and change-makers. Our alumni network spans multiple countries and represents every major industry — from medicine and engineering to law, business, and the arts.",
+    "stats": [
+      { "id": "s1", "value": "60,000+", "label": "Graduates" },
+      { "id": "s2", "value": "60+",     "label": "Years of Excellence" },
+      { "id": "s3", "value": "30+",     "label": "Countries Represented" },
+      { "id": "s4", "value": "12",      "label": "Colleges and Schools" }
+    ],
+    "highlights": [
+      "Top-performing graduates across PRC board examinations",
+      "Alumni serving in leadership roles in government and the private sector",
+      "Active alumni chapters in key cities nationwide and abroad",
+      "Ongoing mentorship programs connecting graduates with current students"
+    ]
+  },
+  "association": {
+    "navLabel": "Alumni Association",
+    "eyebrow": "AUFAA",
+    "title": "AUF Alumni Association",
+    "description": "The AUF Alumni Association (AUFAA) is the official organization of all AUF graduates. It bridges the university and its former students, fostering a lifelong connection to the institution and to each other.",
+    "objectives": [
+      "Foster camaraderie and fellowship among AUF alumni worldwide",
+      "Support the university's mission through volunteerism and active advocacy",
+      "Provide networking and professional development opportunities for all members",
+      "Establish scholarship funds and financial assistance programs for students",
+      "Represent alumni interests in university governance and policy discussions"
+    ],
+    "board": {
+      "title": "2024–2025 Board of Directors",
+      "members": [
+        { "id": "b1", "name": "TBA", "position": "President",          "college": "TBA", "batch": "TBA" },
+        { "id": "b2", "name": "TBA", "position": "Vice President",     "college": "TBA", "batch": "TBA" },
+        { "id": "b3", "name": "TBA", "position": "Secretary",          "college": "TBA", "batch": "TBA" },
+        { "id": "b4", "name": "TBA", "position": "Treasurer",          "college": "TBA", "batch": "TBA" },
+        { "id": "b5", "name": "TBA", "position": "Auditor",            "college": "TBA", "batch": "TBA" },
+        { "id": "b6", "name": "TBA", "position": "Public Relations Officer", "college": "TBA", "batch": "TBA" }
+      ]
+    },
+    "membershipNote": "All AUF graduates are automatically members of the AUFAA. Connect with your college chapter to stay active and engaged."
+  },
+  "notableAlumni": {
+    "navLabel": "Distinguished Alumni",
+    "eyebrow": "Hall of Fame",
+    "title": "Distinguished AUF Alumni",
+    "description": "We celebrate the remarkable achievements of our graduates who have brought honor to AUF through their contributions to society, their professions, and their communities.",
+    "alumni": [
+      {
+        "id": "a1",
+        "name": "TBA",
+        "batch": "TBA",
+        "college": "TBA",
+        "field": "Medicine & Public Health",
+        "achievement": "To be announced",
+        "photoUrl": null
+      },
+      {
+        "id": "a2",
+        "name": "TBA",
+        "batch": "TBA",
+        "college": "TBA",
+        "field": "Engineering & Technology",
+        "achievement": "To be announced",
+        "photoUrl": null
+      },
+      {
+        "id": "a3",
+        "name": "TBA",
+        "batch": "TBA",
+        "college": "TBA",
+        "field": "Law & Government",
+        "achievement": "To be announced",
+        "photoUrl": null
+      },
+      {
+        "id": "a4",
+        "name": "TBA",
+        "batch": "TBA",
+        "college": "TBA",
+        "field": "Business & Entrepreneurship",
+        "achievement": "To be announced",
+        "photoUrl": null
+      },
+      {
+        "id": "a5",
+        "name": "TBA",
+        "batch": "TBA",
+        "college": "TBA",
+        "field": "Education & Research",
+        "achievement": "To be announced",
+        "photoUrl": null
+      },
+      {
+        "id": "a6",
+        "name": "TBA",
+        "batch": "TBA",
+        "college": "TBA",
+        "field": "Arts, Culture & Media",
+        "achievement": "To be announced",
+        "photoUrl": null
+      }
+    ],
+    "nominationNote": "Know an outstanding AUF alumnus? Nominate them for the Distinguished Alumni Award.",
+    "nominationContactNote": "Submit nominations to the Alumni Affairs Office at alumni@auf.edu.ph"
+  },
+  "benefits": {
+    "navLabel": "Alumni Benefits",
+    "eyebrow": "Member Privileges",
+    "title": "What Your Alumni Membership Offers",
+    "description": "As an AUF alumnus, you enjoy exclusive privileges that keep you connected to your university and give you a competitive advantage in your career.",
+    "categories": [
+      {
+        "id": "c1",
+        "icon": "BookOpen",
+        "title": "Library Access",
+        "color": "navy",
+        "items": [
+          "Full access to the AUF Library and digital resource collections",
+          "Online journal and academic database subscriptions",
+          "Research assistance and interlibrary loan services"
+        ]
+      },
+      {
+        "id": "c2",
+        "icon": "Briefcase",
+        "title": "Career Services",
+        "color": "gold",
+        "items": [
+          "Job referral and placement assistance through the Career Development Center",
+          "Priority access to on-campus job fair events",
+          "Resume review and career counseling sessions"
+        ]
+      },
+      {
+        "id": "c3",
+        "icon": "Users",
+        "title": "Networking",
+        "color": "navy",
+        "items": [
+          "Access to the AUF alumni directory and global network",
+          "Invitations to exclusive alumni networking events and reunions",
+          "Mentorship program matching graduates with current students"
+        ]
+      },
+      {
+        "id": "c4",
+        "icon": "GraduationCap",
+        "title": "Continuing Education",
+        "color": "gold",
+        "items": [
+          "Discounted tuition for AUF graduate and post-graduate programs",
+          "Free access to select professional development seminars",
+          "Priority enrollment in executive education and short courses"
+        ]
+      }
+    ]
+  },
+  "events": {
+    "navLabel": "News & Events",
+    "eyebrow": "Stay in the Loop",
+    "title": "Alumni News & Events",
+    "description": "Stay connected with the latest happenings at AUF and within the alumni community.",
+    "featured": [
+      {
+        "id": "e1",
+        "type": "Homecoming",
+        "title": "AUF Grand Alumni Homecoming",
+        "date": "TBA",
+        "venue": "AUF Main Campus, MacArthur Highway, Angeles City",
+        "description": "Celebrate reunion milestones and reconnect with classmates at the biggest alumni gathering of the year. All classes are welcome."
+      },
+      {
+        "id": "e2",
+        "type": "Awards Night",
+        "title": "Distinguished Alumni Awards Night",
+        "date": "TBA",
+        "venue": "TBA",
+        "description": "An evening of recognition honoring alumni who have demonstrated outstanding achievement and service in their respective fields."
+      },
+      {
+        "id": "e3",
+        "type": "Career Fair",
+        "title": "AUF Alumni Career Fair",
+        "date": "TBA",
+        "venue": "AUF Gymnasium, Main Campus",
+        "description": "Alumni and industry partners come together to connect recent graduates with career opportunities across all sectors."
+      }
+    ],
+    "announcementNote": "For the latest updates, follow the AUF Alumni Association on social media or contact the Alumni Affairs Office."
+  },
+  "connect": {
+    "navLabel": "Stay Connected",
+    "eyebrow": "Get Involved",
+    "title": "Stay Connected with AUF",
+    "description": "Whether you graduated last year or decades ago, there are many ways to remain connected with your alma mater and help shape the next generation of AUF graduates.",
+    "channels": [
+      {
+        "id": "ch1",
+        "icon": "UserCog",
+        "title": "Update Your Profile",
+        "description": "Keep your contact and career information current so we can keep you informed about reunions, opportunities, and events relevant to your field.",
+        "action": "Update Records",
+        "href": "#"
+      },
+      {
+        "id": "ch2",
+        "icon": "MapPin",
+        "title": "Join a Chapter",
+        "description": "Connect with your college chapter or regional alumni group and take part in local events, outreach programs, and advocacy initiatives.",
+        "action": "Find a Chapter",
+        "href": "#"
+      },
+      {
+        "id": "ch3",
+        "icon": "Handshake",
+        "title": "Become a Mentor",
+        "description": "Share your expertise and lived experience with current AUF students. Our mentorship program connects you with mentees in your field.",
+        "action": "Sign Up to Mentor",
+        "href": "#"
+      },
+      {
+        "id": "ch4",
+        "icon": "Heart",
+        "title": "Support AUF",
+        "description": "Contribute to scholarships, research, and student development — and honor the institution that helped launch your own career.",
+        "action": "Give Back",
+        "href": "#"
+      }
+    ],
+    "contact": {
+      "label": "Alumni Affairs Office",
+      "building": "Main Building, Ground Floor",
+      "campus": "AUF Main Campus, MacArthur Highway, Angeles City",
+      "email": "alumni@auf.edu.ph",
+      "phone": "(045) 888-8691 local 1000",
+      "hours": "Monday – Friday, 8:00 AM – 5:00 PM"
+    }
+  }
+}

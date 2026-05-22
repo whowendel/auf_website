@@ -1,0 +1,316 @@
+{
+  "hero": {
+    "eyebrow": "International Students",
+    "title": "Your Future Begins Here in the Philippines",
+    "subtitle": "Join a thriving community of international scholars at Angeles University Foundation — a globally connected, English-medium university delivering world-class education at an exceptional value."
+  },
+  "overview": {
+    "navLabel": "Why AUF?",
+    "eyebrow": "Why Choose AUF",
+    "title": "A World-Class University in the Heart of Asia",
+    "description": "Angeles University Foundation is a premier private university in Pampanga, Philippines, recognized for academic excellence, rigorous professional programs, and a welcoming environment for students from around the world. Fully accredited and internationally networked, AUF prepares graduates who compete and lead on the global stage.",
+    "stats": [
+      { "id": "s1", "value": "60+",     "label": "Years of Excellence" },
+      { "id": "s2", "value": "30+",     "label": "Countries Represented" },
+      { "id": "s3", "value": "12",      "label": "Colleges and Schools" },
+      { "id": "s4", "value": "Top 200", "label": "Philippine University Rankings" }
+    ],
+    "reasons": [
+      {
+        "id": "r1",
+        "icon": "Award",
+        "title": "Globally Accredited",
+        "body": "AUF holds accreditation from CHED and PAASCU, and is a member of prestigious international networks including AUN-QA and AUAP — ensuring your degree is recognized worldwide."
+      },
+      {
+        "id": "r2",
+        "icon": "Languages",
+        "title": "English-Medium Instruction",
+        "body": "All academic programs at AUF are taught entirely in English, the Philippines' official language of instruction — giving international students a seamless academic experience."
+      },
+      {
+        "id": "r3",
+        "icon": "Stethoscope",
+        "title": "World-Class Health Science Programs",
+        "body": "AUF is renowned for its health science programs — Medicine, Nursing, and Allied Medical Professions — offering rich clinical exposure through the AUF Medical Center."
+      },
+      {
+        "id": "r4",
+        "icon": "Globe",
+        "title": "International Partnerships",
+        "body": "Through partnerships with universities, government agencies, and industries across Asia, Europe, and the Americas, AUF opens doors beyond the Philippines."
+      },
+      {
+        "id": "r5",
+        "icon": "MapPin",
+        "title": "Strategic Location",
+        "body": "Located minutes from Clark International Airport and within the ASEAN growth corridor, Angeles City is a vibrant, accessible gateway to all of Southeast Asia."
+      },
+      {
+        "id": "r6",
+        "icon": "DollarSign",
+        "title": "Exceptional Value",
+        "body": "AUF offers a quality education at a fraction of the cost compared to universities in Western countries — without compromising on faculty quality, facilities, or outcomes."
+      }
+    ]
+  },
+  "whyPhilippines": {
+    "navLabel": "Why the Philippines?",
+    "eyebrow": "Study in the Philippines",
+    "title": "Why Choose the Philippines?",
+    "description": "The Philippines is one of the most popular study destinations in Asia for a reason. It combines high-quality education, an English-speaking population, a rich cultural experience, and a cost of living that is among the most affordable in the region.",
+    "highlights": [
+      {
+        "id": "h1",
+        "icon": "MessageCircle",
+        "label": "English-Speaking Nation",
+        "detail": "The Philippines is among the top English-speaking nations in Asia. You'll study, communicate, and live in English from day one — no language barrier, no transition period."
+      },
+      {
+        "id": "h2",
+        "icon": "Banknote",
+        "label": "Affordable Cost of Living",
+        "detail": "Monthly living expenses average PHP 15,000–25,000 (USD 250–450), including accommodation, meals, transport, and personal expenses — significantly lower than most study destinations."
+      },
+      {
+        "id": "h3",
+        "icon": "Sun",
+        "label": "Tropical Climate Year-Round",
+        "detail": "Enjoy warm, tropical weather throughout the year. The Philippines offers a welcoming, outdoor-friendly lifestyle that is a refreshing change from colder climates."
+      },
+      {
+        "id": "h4",
+        "icon": "HeartHandshake",
+        "label": "World-Renowned Hospitality",
+        "detail": "Filipinos are globally recognized for their warmth and hospitality. International students consistently report feeling welcomed, safe, and at home in the Philippines."
+      },
+      {
+        "id": "h5",
+        "icon": "Plane",
+        "label": "Central Location in Asia",
+        "detail": "The Philippines sits at the crossroads of Southeast and East Asia. From Angeles City's Clark International Airport, you can reach major Asian cities in under four hours."
+      },
+      {
+        "id": "h6",
+        "icon": "GraduationCap",
+        "label": "Globally Recognized Degrees",
+        "detail": "Philippine medical, nursing, engineering, and professional degrees are recognized and respected in the USA, UK, Australia, Canada, the Gulf States, and across Asia."
+      }
+    ],
+    "costBreakdown": {
+      "title": "Estimated Monthly Living Costs",
+      "note": "Figures are approximate and may vary depending on lifestyle and accommodation type.",
+      "items": [
+        { "category": "Accommodation (shared)",   "low": "5,000",  "high": "10,000", "unit": "PHP/mo" },
+        { "category": "Meals (home-cooked)",      "low": "4,000",  "high": "7,000",  "unit": "PHP/mo" },
+        { "category": "Transportation",           "low": "1,000",  "high": "2,500",  "unit": "PHP/mo" },
+        { "category": "Utilities & Internet",     "low": "1,500",  "high": "3,000",  "unit": "PHP/mo" },
+        { "category": "Books & Supplies",         "low": "1,000",  "high": "2,000",  "unit": "PHP/mo" },
+        { "category": "Personal & Miscellaneous", "low": "2,000",  "high": "4,000",  "unit": "PHP/mo" }
+      ]
+    }
+  },
+  "admissions": {
+    "navLabel": "Admission Requirements",
+    "eyebrow": "How to Qualify",
+    "title": "Admission Requirements for International Students",
+    "description": "AUF welcomes qualified international applicants for undergraduate, graduate, and professional programs. Requirements vary by program level. All academic documents must be in English or accompanied by a certified English translation.",
+    "levels": [
+      {
+        "id": "l1",
+        "level": "Undergraduate Programs",
+        "description": "Open to international applicants who have completed senior secondary school or its equivalent in their home country.",
+        "requirements": [
+          "Completed Application Form (available from the Admissions Office)",
+          "Certified copy of secondary school diploma or leaving certificate",
+          "Official high school transcripts or grade reports (last 2 years)",
+          "Proof of English proficiency (IELTS 5.5+, TOEFL 61+ iBT, or equivalent)",
+          "Passport-size photographs (2x2 and 1x1, white background)",
+          "Photocopy of valid passport (data page)",
+          "Medical certificate from a licensed physician",
+          "Birth certificate or equivalent civil document"
+        ]
+      },
+      {
+        "id": "l2",
+        "level": "Graduate Programs",
+        "description": "Open to international applicants holding a baccalaureate or equivalent degree from a recognized institution.",
+        "requirements": [
+          "Completed Application Form",
+          "Official undergraduate transcripts (all years)",
+          "Copy of baccalaureate degree / diploma",
+          "Proof of English proficiency (IELTS 6.0+, TOEFL 79+ iBT, or equivalent)",
+          "Two letters of academic or professional recommendation",
+          "Statement of Purpose (500–800 words)",
+          "Photocopy of valid passport (data page)",
+          "Passport-size photographs (2x2 and 1x1, white background)",
+          "CV or professional résumé"
+        ]
+      },
+      {
+        "id": "l3",
+        "level": "School of Medicine (MD Program)",
+        "description": "Open to international applicants with a pre-medicine or related science degree. Additional entrance examination required.",
+        "requirements": [
+          "Completed Application Form",
+          "Official undergraduate transcripts (Biology, Chemistry, Physics, Math required)",
+          "Copy of pre-medicine or science baccalaureate degree",
+          "Proof of English proficiency (IELTS 6.5+)",
+          "NMAT (National Medical Admission Test) scores — or equivalent for foreign graduates",
+          "Medical certificate and immunization record",
+          "Certificate of Good Moral Character",
+          "Two letters of recommendation from science faculty",
+          "Photocopy of valid passport",
+          "Birth certificate"
+        ]
+      }
+    ],
+    "note": "All submitted documents become the property of AUF and will not be returned. Falsified documents will result in immediate disqualification and may be referred to appropriate authorities."
+  },
+  "visa": {
+    "navLabel": "Visa & Immigration",
+    "eyebrow": "Student Visa Guide",
+    "title": "Visa & Immigration",
+    "description": "International students studying at AUF for more than six months are required to hold a valid Student Visa (9f) issued by the Philippine Bureau of Immigration. AUF's International Student Office will guide you through the process.",
+    "steps": [
+      {
+        "id": "v1",
+        "step": 1,
+        "title": "Receive Your Acceptance Letter",
+        "body": "Upon successful admission, AUF will issue an official Acceptance Letter and a Student Endorsement Letter. These documents are required for your visa application."
+      },
+      {
+        "id": "v2",
+        "step": 2,
+        "title": "Apply at the Philippine Embassy",
+        "body": "Submit your visa application to the Philippine Embassy or Consulate in your home country. Bring your AUF Acceptance Letter, passport, admission documents, proof of financial capacity, and visa application form."
+      },
+      {
+        "id": "v3",
+        "step": 3,
+        "title": "Arrive and Register with BI",
+        "body": "Upon arrival in the Philippines, register with the Bureau of Immigration (BI) within 60 days. AUF's ISO will accompany first-time students to the BI regional office in Angeles City."
+      },
+      {
+        "id": "v4",
+        "step": 4,
+        "title": "Convert to Student Visa (9f)",
+        "body": "If you entered on a tourist visa (9a), you must convert to a Student Visa (9f) at the Bureau of Immigration. AUF will provide the required school endorsement letter for your conversion."
+      },
+      {
+        "id": "v5",
+        "step": 5,
+        "title": "Annual Visa Renewal",
+        "body": "Student visas must be renewed annually for the duration of your program. AUF's ISO will notify you of renewal deadlines and assist with the process each school year."
+      }
+    ],
+    "importantNotes": [
+      "Student Visa (9f) holders may not work in the Philippines without a separate Alien Employment Permit (AEP).",
+      "Always carry your valid passport and ARC (Alien Certificate of Registration) or I-Card with you.",
+      "Notify AUF's International Student Office of any changes to your immigration status immediately.",
+      "Overstaying your visa is a serious legal violation — AUF strongly advises all students to stay compliant."
+    ],
+    "contactNote": "For visa assistance, contact the International Student Office at iso@auf.edu.ph or (045) 888-8691 local 300."
+  },
+  "support": {
+    "navLabel": "Student Support",
+    "eyebrow": "You Are Not Alone",
+    "title": "International Student Support Services",
+    "description": "AUF is committed to making your transition to life in the Philippines as smooth and rewarding as possible. Our International Student Office (ISO) and campus services are here to support you every step of the way.",
+    "services": [
+      {
+        "id": "ss1",
+        "icon": "Building2",
+        "title": "International Student Office (ISO)",
+        "body": "Your primary point of contact at AUF. The ISO assists with immigration compliance, orientation, academic advising, cultural adjustment, and any concerns during your stay.",
+        "contact": "iso@auf.edu.ph"
+      },
+      {
+        "id": "ss2",
+        "icon": "Users",
+        "title": "Buddy Program",
+        "body": "Every new international student is matched with a Filipino student buddy who can help you navigate campus, explore the city, and build friendships from your very first day.",
+        "contact": null
+      },
+      {
+        "id": "ss3",
+        "icon": "Home",
+        "title": "Housing Assistance",
+        "body": "AUF maintains a curated list of verified boarding houses, dormitories, and apartments near campus. The ISO will help you find safe, affordable accommodation before arrival.",
+        "contact": "iso@auf.edu.ph"
+      },
+      {
+        "id": "ss4",
+        "icon": "HeartPulse",
+        "title": "Health & Medical Services",
+        "body": "International students have access to the AUF University Clinic and the AUF Medical Center for medical consultations, emergency care, and health monitoring.",
+        "contact": "clinic@auf.edu.ph"
+      },
+      {
+        "id": "ss5",
+        "icon": "BookOpen",
+        "title": "Academic Support",
+        "body": "Tutoring services, library access, and academic mentoring are available to all students. The Guidance Center also provides counseling for academic and personal concerns.",
+        "contact": "guidance@auf.edu.ph"
+      },
+      {
+        "id": "ss6",
+        "icon": "Globe",
+        "title": "Cultural Integration Programs",
+        "body": "From the International Student Orientation to Filipino language electives and cultural immersion events, AUF helps you embrace and celebrate your experience in the Philippines.",
+        "contact": null
+      }
+    ]
+  },
+  "apply": {
+    "navLabel": "How to Apply",
+    "eyebrow": "Start Your Application",
+    "title": "How to Apply as an International Student",
+    "description": "The application process for international students is straightforward. Our Admissions Office and ISO team are available to assist you at every step.",
+    "steps": [
+      {
+        "id": "as1",
+        "title": "Download & Complete the Application Form",
+        "body": "Download the International Student Application Form from the AUF Admissions Office or request it by email. Fill it out completely and attach all required documents."
+      },
+      {
+        "id": "as2",
+        "title": "Submit Your Application",
+        "body": "Email your completed application and documents to admissions@auf.edu.ph. Applications are accepted year-round, but enrollment is tied to the academic calendar — apply early."
+      },
+      {
+        "id": "as3",
+        "title": "Receive Assessment & Admission Decision",
+        "body": "The Admissions Office will review your application and contact you within 5–10 business days. Applicants to the School of Medicine must also take the NMAT."
+      },
+      {
+        "id": "as4",
+        "title": "Confirm Enrollment & Pay Reservation Fee",
+        "body": "Upon acceptance, confirm your enrollment by paying the non-refundable reservation fee. Instructions for payment (bank transfer or online) will be provided in your acceptance letter."
+      },
+      {
+        "id": "as5",
+        "title": "Process Your Student Visa",
+        "body": "With your AUF Acceptance Letter, proceed with your Student Visa application at the Philippine Embassy. Our ISO will guide you through this step."
+      },
+      {
+        "id": "as6",
+        "title": "Attend International Student Orientation",
+        "body": "Before classes begin, all new international students are required to attend the AUF International Student Orientation — a full-day program covering campus life, immigration, and academic expectations."
+      }
+    ],
+    "contact": {
+      "label": "International Student Office",
+      "building": "Main Building, Ground Floor",
+      "email": "iso@auf.edu.ph",
+      "admissionsEmail": "admissions@auf.edu.ph",
+      "phone": "(045) 888-8691 local 300",
+      "hours": "Monday – Friday, 8:00 AM – 5:00 PM"
+    },
+    "downloadForms": [
+      { "id": "f1", "name": "International Student Application Form",     "fileType": "PDF",  "fileUrl": null },
+      { "id": "f2", "name": "International Student Application Checklist","fileType": "PDF",  "fileUrl": null },
+      { "id": "f3", "name": "ISO Housing Request Form",                  "fileType": "DOCX", "fileUrl": null }
+    ]
+  }
+}

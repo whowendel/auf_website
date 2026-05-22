@@ -1,0 +1,267 @@
+{
+  "hero": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "subtitle": "Angeles University Foundation is committed to the responsible collection, use, and protection of your personal data in accordance with the Philippine Data Privacy Act of 2012 (RA 10173)."
+  },
+  "overview": {
+    "navLabel": "Overview",
+    "eyebrow": "Privacy Policy",
+    "title": "Overview",
+    "lastUpdated": "May 17, 2026",
+    "governingLaw": "Republic Act No. 10173 (Data Privacy Act of 2012)",
+    "intro": [
+      "Angeles University Foundation, Inc. (\"AUF,\" \"we,\" \"us,\" or \"our\") is committed to protecting the privacy and security of the personal information entrusted to us by our students, faculty, staff, alumni, applicants, and visitors. This Privacy Policy describes how we collect, use, disclose, store, and protect your personal information.",
+      "This Policy applies to all personal data collected through the AUF website, student information systems, enrollment platforms, research portals, and any other services provided by AUF or on its behalf.",
+      "By interacting with AUF — whether by visiting our website, submitting an application, enrolling in a program, or using any of our digital services — you acknowledge that you have read and understood this Privacy Policy and consent to the collection and processing of your personal information as described herein."
+    ],
+    "frameworkNote": "AUF processes personal data in compliance with Republic Act No. 10173, otherwise known as the Data Privacy Act of 2012, its Implementing Rules and Regulations, and the issuances of the National Privacy Commission (NPC) of the Philippines."
+  },
+  "informationCollect": {
+    "navLabel": "Information We Collect",
+    "eyebrow": "Data Collection",
+    "title": "Information We Collect",
+    "intro": "AUF collects personal information that is necessary, adequate, and not excessive in relation to the purposes for which it is collected and processed. The categories of personal information we collect include:",
+    "categories": [
+      {
+        "id": "c1",
+        "heading": "1. Information You Provide Directly",
+        "items": [
+          "Identity information: full name, date of birth, gender, nationality, civil status",
+          "Contact information: home address, email address, telephone and mobile numbers",
+          "Academic information: academic records, transcripts, grades, enrollment details",
+          "Financial information: billing address, payment records, scholarship and financial aid data",
+          "Government-issued identifiers: passport number, PhilSys ID, TIN, or SSS/GSIS number (where required by law or university process)",
+          "Health information: medical certificates, vaccination records, and health declarations (for clinical programs and health-related requirements)",
+          "Photographs: ID photos, event photos, and images used for official university records",
+          "Emergency contact information: name, relationship, and contact details of designated emergency contacts"
+        ]
+      },
+      {
+        "id": "c2",
+        "heading": "2. Information Collected Automatically",
+        "items": [
+          "Website usage data: IP address, browser type, device information, pages visited, and time spent on pages",
+          "Log data: server logs, access timestamps, and error reports",
+          "Cookies and similar tracking technologies (see the Cookies section for more detail)",
+          "Location data: general geographic location derived from IP address"
+        ]
+      },
+      {
+        "id": "c3",
+        "heading": "3. Information From Third Parties",
+        "items": [
+          "Academic records or verification data from previous educational institutions",
+          "Reference letters and recommendations submitted on your behalf",
+          "Employment and professional verification data (for graduate and professional programs)",
+          "Data from government agencies required for scholarship processing or visa compliance"
+        ]
+      }
+    ]
+  },
+  "howWeUse": {
+    "navLabel": "How We Use Information",
+    "eyebrow": "Data Processing",
+    "title": "How We Use Your Information",
+    "intro": "AUF processes personal data for specific, legitimate purposes. We do not process personal data in a manner incompatible with these stated purposes. Your information is used for:",
+    "purposes": [
+      {
+        "id": "p1",
+        "title": "Enrollment & Academic Administration",
+        "items": [
+          "Processing applications for admission",
+          "Managing enrollment and academic records",
+          "Issuing grades, transcripts, diplomas, and certificates",
+          "Communicating academic requirements and schedules"
+        ]
+      },
+      {
+        "id": "p2",
+        "title": "Student Services & Support",
+        "items": [
+          "Administering scholarships and financial assistance",
+          "Providing guidance and counseling services",
+          "Managing health and clinical services",
+          "Facilitating career development and job placement"
+        ]
+      },
+      {
+        "id": "p3",
+        "title": "Operations & Compliance",
+        "items": [
+          "Maintaining the security and integrity of campus facilities",
+          "Complying with legal and regulatory obligations",
+          "Responding to requests from accreditation bodies",
+          "Fulfilling obligations under government scholarship programs"
+        ]
+      },
+      {
+        "id": "p4",
+        "title": "Communications & Community",
+        "items": [
+          "Sending university announcements and academic notices",
+          "Distributing alumni newsletters and event invitations",
+          "Conducting surveys for institutional improvement",
+          "Managing the AUF digital platforms and portals"
+        ]
+      }
+    ],
+    "legalBasisNote": "AUF processes personal data on the basis of (a) consent of the data subject; (b) performance of a contract to which the data subject is a party; (c) compliance with a legal obligation; (d) protection of the vital interests of the data subject; and (e) legitimate interests of AUF, provided such interests are not overridden by the data subject's fundamental rights and freedoms."
+  },
+  "informationSharing": {
+    "navLabel": "Sharing & Disclosure",
+    "eyebrow": "Disclosure",
+    "title": "Sharing & Disclosure",
+    "intro": "AUF does not sell, rent, or trade your personal information to third parties. We may share your information only in the following circumstances:",
+    "internalSharing": "Personal data may be shared among AUF departments, offices, and authorized personnel who need the information to perform their legitimate functions in service of students and the institution.",
+    "thirdPartyProviders": "AUF may engage third-party service providers (e.g., payment processors, cloud storage providers, learning management system vendors) who process personal data on our behalf. Such parties are bound by data processing agreements and are contractually prohibited from using the data for any purpose other than the services they provide to AUF.",
+    "governmentAgencies": [
+      "Commission on Higher Education (CHED) for accreditation and compliance reporting",
+      "Professional Regulation Commission (PRC) for board exam registration and results",
+      "Bureau of Immigration (BI) for international student visa compliance",
+      "Department of Social Welfare and Development (DSWD) and scholarship agencies for government-funded scholars",
+      "Law enforcement or judicial authorities when required by law or court order"
+    ],
+    "academicVerification": "Upon written request and with the data subject's consent, AUF may verify academic credentials, enrollment status, or graduation records to prospective employers, licensing boards, or other educational institutions.",
+    "unauthorizedDisclosureWarning": "AUF does not disclose personal information to third parties without the data subject's written consent except where required by law or necessary for the protection of vital interests. Any unauthorized disclosure of personal data is a violation of AUF's data privacy policies and applicable law."
+  },
+  "cookies": {
+    "navLabel": "Cookies & Tracking",
+    "eyebrow": "Cookies",
+    "title": "Cookies & Tracking Technologies",
+    "intro": "The AUF website uses cookies and similar technologies to improve your browsing experience, analyze site traffic, and deliver relevant content. A cookie is a small text file stored on your device when you visit a website.",
+    "types": [
+      {
+        "id": "ct1",
+        "type": "Strictly Necessary",
+        "purpose": "Enable core website functions (login sessions, form submissions)",
+        "retention": "Session"
+      },
+      {
+        "id": "ct2",
+        "type": "Functional",
+        "purpose": "Remember your preferences (language, accessibility settings)",
+        "retention": "1 year"
+      },
+      {
+        "id": "ct3",
+        "type": "Analytics",
+        "purpose": "Understand how visitors use the site (page views, traffic sources)",
+        "retention": "2 years"
+      },
+      {
+        "id": "ct4",
+        "type": "Security",
+        "purpose": "Detect and prevent fraud and unauthorized access",
+        "retention": "Session"
+      }
+    ],
+    "disablingNote": "You may configure your browser to refuse cookies or to alert you when cookies are being sent. Disabling cookies may limit your ability to use certain features of our website, including student portal login and online enrollment systems."
+  },
+  "studentRecords": {
+    "navLabel": "Student Records",
+    "eyebrow": "Academic Records",
+    "title": "Student Records",
+    "intro": "AUF maintains student records in accordance with its institutional policies and applicable Philippine law, including the Data Privacy Act of 2012 (RA 10173) and the Family Code of the Philippines for records involving minors.",
+    "access": [
+      "Current students may access their own academic records through the MyAU student portal or by requesting them from the Office of the University Registrar.",
+      "Parents or guardians of minor students (below 18 years of age) may request access to the student's records by presenting valid identification and proof of guardianship.",
+      "Parents or guardians of students who are legal adults (18 years and above) may not access student records without the student's written consent.",
+      "Third parties (employers, licensing boards, other institutions) may obtain record verification only with the student's written authorization."
+    ],
+    "retention": "Academic records are retained for a minimum of ten (10) years from the date of graduation or separation from the university. Transcripts and diploma records are retained permanently as part of AUF's institutional archive.",
+    "minorsNote": "For students in the AUF Integrated School (pre-school to senior high school), parental or guardian consent is required for the collection, use, and disclosure of any personal data. AUF takes additional precautions to protect the personal data of minors, including restrictions on photography, public identification, and data sharing."
+  },
+  "dataSecurity": {
+    "navLabel": "Data Security",
+    "eyebrow": "Data Security",
+    "title": "Data Security",
+    "intro": "AUF implements appropriate technical, organizational, and physical security measures to protect personal data from unauthorized access, alteration, disclosure, or destruction. These measures include:",
+    "measures": [
+      "Encryption of sensitive data at rest and in transit using industry-standard protocols (TLS/SSL)",
+      "Role-based access controls limiting data access to authorized personnel with a legitimate need",
+      "Regular security audits and vulnerability assessments of our digital systems",
+      "Physical security measures for paper-based records, including locked storage and restricted access areas",
+      "Staff training on data privacy obligations, secure data handling, and breach response",
+      "Data minimization practices ensuring only necessary data is collected and retained",
+      "Formal incident response and breach notification procedures in line with NPC requirements"
+    ],
+    "breachNotification": "In the event of a personal data breach that is likely to result in a serious risk to your rights and freedoms, AUF will notify affected data subjects and the National Privacy Commission within seventy-two (72) hours of becoming aware of the breach, in accordance with NPC Circular No. 16-03."
+  },
+  "yourRights": {
+    "navLabel": "Your Rights (RA 10173)",
+    "eyebrow": "Data Subject Rights",
+    "title": "Your Rights Under RA 10173",
+    "intro": "Under the Data Privacy Act of 2012 (Republic Act No. 10173) and its Implementing Rules and Regulations, you have the following rights as a data subject:",
+    "rights": [
+      {
+        "id": "r1",
+        "right": "Right to Be Informed",
+        "description": "You have the right to be informed whether personal data pertaining to you is being, or has been, collected and processed by AUF, including the purpose, scope, and method of processing."
+      },
+      {
+        "id": "r2",
+        "right": "Right to Access",
+        "description": "You have the right to request access to the personal data AUF holds about you, including a copy of the data, the sources from which it was obtained, the purposes of processing, and the recipients to whom it has been disclosed."
+      },
+      {
+        "id": "r3",
+        "right": "Right to Correction / Rectification",
+        "description": "You have the right to request correction of inaccurate or incomplete personal data about you. AUF will update records accordingly and notify third parties to whom the data has been disclosed."
+      },
+      {
+        "id": "r4",
+        "right": "Right to Erasure or Blocking",
+        "description": "You have the right to request the deletion or blocking of your personal data when it is no longer necessary for the purpose for which it was collected, or when it has been unlawfully processed."
+      },
+      {
+        "id": "r5",
+        "right": "Right to Object",
+        "description": "You have the right to object to the processing of your personal data, including processing for direct marketing, profiling, or automated decision-making, unless AUF has a legitimate overriding interest."
+      },
+      {
+        "id": "r6",
+        "right": "Right to Data Portability",
+        "description": "You have the right to obtain a copy of your personal data in a structured, commonly used, and machine-readable format, and to transmit that data to another organization."
+      },
+      {
+        "id": "r7",
+        "right": "Right to Damages",
+        "description": "You have the right to claim compensation for any damages sustained as a result of inaccurate, incomplete, obsolete, false, unlawfully obtained, or unauthorized use of your personal data."
+      },
+      {
+        "id": "r8",
+        "right": "Right to File a Complaint",
+        "description": "You have the right to lodge a complaint with the National Privacy Commission (NPC) if you believe your data privacy rights have been violated. The NPC may be reached at www.privacy.gov.ph."
+      }
+    ],
+    "exerciseNote": "To exercise any of these rights, please submit a written request to the AUF Data Protection Officer (see Contact the DPO section below). AUF will respond to your request within fifteen (15) working days of receipt, subject to verification of your identity."
+  },
+  "policyChanges": {
+    "navLabel": "Policy Changes",
+    "eyebrow": "Updates",
+    "title": "Policy Changes",
+    "intro": "AUF reserves the right to update or modify this Privacy Policy at any time to reflect changes in our data practices, applicable law, or university operations. Material changes to this Policy will be communicated through:",
+    "communicationMethods": [
+      "A prominent notice on the AUF website and student portal for a minimum of thirty (30) days prior to the effective date of the change",
+      "Email notification to enrolled students and active members of the AUF community",
+      "An updated \"Last Updated\" date at the top of this page"
+    ],
+    "continuedUse": "Your continued use of AUF services following the effective date of any changes constitutes your acceptance of the revised Privacy Policy. We encourage you to review this Policy periodically to stay informed about how AUF protects your personal information.",
+    "archivedVersions": "Archived versions of previous Privacy Policies are available upon written request to the Data Protection Officer."
+  },
+  "contactDPO": {
+    "navLabel": "Contact the DPO",
+    "eyebrow": "Data Protection Officer",
+    "title": "Contact the DPO",
+    "intro": "AUF has designated a Data Protection Officer (DPO) responsible for overseeing compliance with the Data Privacy Act of 2012 and this Privacy Policy. If you have questions, concerns, or requests regarding your personal data, please contact the DPO directly.",
+    "contact": {
+      "office": "Data Protection Officer",
+      "location": "Main Building, Ground Floor, AUF Main Campus",
+      "email": "dpo@auf.edu.ph",
+      "phone": "(045) 888-8691 local 500"
+    },
+    "responseTime": "AUF will acknowledge receipt of your request within three (3) working days and provide a substantive response within fifteen (15) working days. Complex requests may require additional time, in which case we will notify you accordingly.",
+    "npcLink": "If you are not satisfied with AUF's response to your privacy concern, you may escalate your complaint to the National Privacy Commission at www.privacy.gov.ph."
+  }
+}

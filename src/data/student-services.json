@@ -1,0 +1,241 @@
+{
+  "hero": {
+    "eyebrow": "Campus Life",
+    "title": "Student Services",
+    "subtitle": "Supporting every Angelenean's journey — academically, personally, and holistically. Our student services are built around the three core virtues that define the Angelenean: Mabuti, Magaling, and May Malasakit sa Kapwa."
+  },
+  "groups": [
+    {
+      "id": "becoming-mabuti",
+      "slug": "becoming-mabuti",
+      "groupLabel": "Becoming Mabuti",
+      "tagline": "Forming Angeleneans of integrity, character, and good values.",
+      "brandColor": "#0E2247",
+      "accentColor": "#F2C300",
+      "offices": [
+        {
+          "id": "student-affairs",
+          "slug": "student-affairs",
+          "label": "Office of Student Affairs and Alumni",
+          "navLabel": "Student Affairs",
+          "tagline": "Overseeing student life, discipline, scholarships, and alumni relations to support holistic student development.",
+          "imageUrl": null,
+          "intro": null,
+          "items": [
+            {
+              "id": "purpose",
+              "heading": "Purpose",
+              "body": "The purpose of the office is to oversee all the non-academic endeavors of the students on and off-campus; the enforcement of discipline and proper decorum among the students; recommendation of appropriate disciplinary action against offenders; and, the processing of scholarship grants and other financial aids given to students. It is also tasked to supervise and coordinate the activities of the AUF-Federation of Alumni Associations (AUF-FAA) and of the different college alumni associations.",
+              "bullets": []
+            },
+            {
+              "id": "responsibility",
+              "heading": "Responsibility",
+              "body": "The office is mainly responsible for the following:",
+              "bullets": [
+                "Student Activities — organization and facilitation of orientation programs, welcome ceremonies, induction ceremonies, general assemblies, and elections; provision of leadership training; supervision of the USC in planning and executing various activities; monitoring, supervision and evaluation of student activities held on and off campus.",
+                "Student Organizations — facilitation of the formation, renewal and recognition of non-mandated organizations; evaluation of applications for candidacy and student party registration of students running for USC/CSC positions.",
+                "Student Scholarships and Awards — processing of all applications for scholarships, grants and financial aids; evaluation of SNPL applicants; organization of awards and recognition programs for exemplary student achievements.",
+                "Student Discipline — enforcement and monitoring of student discipline in accordance with the Student Handbook; creation of the Student Grievance Committee (SGC); imposition of proper disciplinary sanctions.",
+                "Alumni — organization of the annual job fair; supervision of the AUF-FAA in spearheading alumni programs and activities.",
+                "Other OSAA responsibilities — preparation of the university's master plan of activities through the collated plans of action of the different colleges and units."
+              ]
+            },
+            {
+              "id": "authority",
+              "heading": "Authority",
+              "body": null,
+              "bullets": [
+                "Student Activities — the office has control over the approval of student activities both co-curricular and extra-curricular on and off campus.",
+                "Student Organizations — the office approves the formation, renewal and recognition of mandated and non-mandated organizations.",
+                "Student Scholarships — the office implements the policies and guidelines on scholarships, grants and financial aids.",
+                "Student Discipline — the office has the authority to issue call slips to student offenders and subject them to sanctions as provided for by the Student Handbook.",
+                "Alumni — the office has the authority to control, monitor and evaluate the disbursement of alumni funds and other activities of the AUF-Federation of Alumni Associations."
+              ]
+            },
+            {
+              "id": "inter-relationships",
+              "heading": "Inter-Relationships and Intra-Relationships",
+              "body": "As the University's \"students' desk,\" the OSAA coordinates with the different deans of colleges and units rendering student personnel services, mandated and non-mandated organizations for the effective and efficient distribution of student services; with AUF-FAA and CAA for continuous communication and better rapport with the alumni; and with companies and other organizations for partnerships and linkages.",
+              "bullets": []
+            },
+            {
+              "id": "standards",
+              "heading": "Standards",
+              "body": null,
+              "bullets": [
+                "Consistent implementation of the rules and conduct on discipline to achieve a more orderly and peaceful academic community.",
+                "Proper screening, monitoring and evaluation of all student activities to complement and enhance the students' academic growth.",
+                "Effective leadership skills and good human relations to develop proactive and responsible student leaders.",
+                "Strict adherence to \"due process of law\" in the conduct of the Student Grievance Committee and in the settlement of cases.",
+                "Proactive and consistent implementation of proper decorum to develop and enhance the students' emotional intelligence and personality."
+              ]
+            },
+            {
+              "id": "facilities",
+              "heading": "Physical Facilities",
+              "body": null,
+              "bullets": [
+                "The office is conveniently located at the ground floor to allow a smooth flow of transactions with the different units/departments and colleges and to easily monitor student discipline.",
+                "The USC office is accessible to the different CSC officers. The well-equipped student activity centers provide venue for varied activities of the different mandated and non-mandated organizations."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "guidance",
+          "slug": "guidance",
+          "label": "Guidance and Counseling Center",
+          "navLabel": "Guidance",
+          "tagline": "Walking alongside Angeleneans in their journey of personal and academic growth.",
+          "imageUrl": null,
+          "intro": "The Guidance and Counseling Center of Angeles University Foundation aims to assist students with a variety of personal, educational and career concerns. Its purpose is to promote self-awareness and self-expression in students. Counselors work closely with students individually and in groups to help them identify their strengths, reach their greatest potential and eventually emerge as mature and responsible individuals ready to meet the challenges and make important decisions.",
+          "locatedAt": "A-Building, 3rd Floor, Room A-303",
+          "officeHours": "Monday–Friday, 8:00 AM – 7:00 PM; Saturday, 8:00 AM – 5:00 PM",
+          "philosophy": "The mission of Angeles University Foundation is the harmonious development of man for services to God and Humanity. In keeping with this mission, the Guidance and Counseling Center of the university aims at the optimum development of the human person so that he may live with dignity and integrity. The Guidance Center believes that its duty is to help the student become a knowing, loving, and responsible person, live a well-balanced life satisfying to himself and to society.",
+          "objectives": [
+            "To help the student identify his potentials, abilities, interests and provide opportunities for his development and effective utilization.",
+            "To help the student understand himself better — his interests, abilities, needs, and problems so that he may be able to make wise choices and adjustments.",
+            "To help the student develop wholesome attitudes and sound moral and spiritual values.",
+            "To help the student develop his ability to solve problems and to communicate and relate himself to others effectively.",
+            "To help the student develop effective learning skills in his progress from one level to another and his preparation for a life career.",
+            "To establish linkages with other units of the University and with agencies in the community to support and carry out the objectives of the program.",
+            "To conduct studies that will assist the deans, teachers and guidance staff understand students better by utilizing test/research data."
+          ],
+          "coreServices": [
+            { "id": "planning",    "title": "Individual Student Planning", "description": "Helps students create and follow personal, academic, and career plans through psychological testing, interviews, follow-ups, and career guidance." },
+            { "id": "instruction", "title": "Guidance Instruction",        "description": "Provides structured activities that build life skills and support student development." },
+            { "id": "responsive",  "title": "Responsive Services",         "description": "Offers immediate support through counseling, consultation, referral, and peer facilitation (Kayantabe Peer Support Club)." },
+            { "id": "management",  "title": "Management Systems",          "description": "Ensures services are efficiently organized and aligned with program goals." },
+            { "id": "support",     "title": "System Support",              "description": "Strengthens the guidance program through training, partnerships, and stakeholder collaboration." },
+            { "id": "assessment",  "title": "Assessment",                  "description": "Evaluates the effectiveness of services to continually improve the program." }
+          ],
+          "appointmentSteps": [
+            { "number": 1, "heading": "Walk-in or Request Online", "body": "Students may visit the Guidance and Counseling Center during office hours or submit an appointment request via the student portal." },
+            { "number": 2, "heading": "Initial Interview",          "body": "A brief intake interview will be conducted to understand your concerns and determine the appropriate support." },
+            { "number": 3, "heading": "Scheduled Sessions",         "body": "Counseling sessions are scheduled at mutually convenient times and maintained in strict confidentiality." }
+          ],
+          "confidentiality": "All information shared during counseling sessions is strictly confidential and protected by the Code of Ethics for Guidance Counselors in the Philippines (R.A. 9258). Information may only be disclosed in situations involving imminent risk to the student or others.",
+          "contact": {
+            "email": "guidance@auf.edu.ph",
+            "hours": "Monday to Friday, 8:00 AM – 5:00 PM",
+            "location": "A-Building, 3rd Floor, Room A-303"
+          }
+        }
+      ]
+    },
+    {
+      "id": "becoming-magaling",
+      "slug": "becoming-magaling",
+      "groupLabel": "Becoming Magaling",
+      "tagline": "Cultivating excellence through health, athletic achievement, and cultural expression.",
+      "brandColor": "#7A5C00",
+      "accentColor": "#F2C300",
+      "offices": [
+        {
+          "id": "health",
+          "slug": "health",
+          "label": "University Health Services",
+          "navLabel": "Health Services",
+          "tagline": "Promoting the health and well-being of every member of the AUF community.",
+          "imageUrl": null,
+          "vision": "The Office of the University Health Services envisions to provide a healthy academic community by promoting health, prevention of diseases, and curative services, thereby inculcating health consciousness through self-empowerment, leading to efficiency and productivity.",
+          "aims": [
+            "Provide quality health care through promotion of health, prevention of diseases and curative services.",
+            "Administer medical/dental services through strong collaboration with the members of the Academic community.",
+            "Empower the members of the academic community to stay healthy through accessible, affordable and quality health care.",
+            "Promote a healthy community through active participation in community extension services in collaboration with Christian Praxis."
+          ]
+        },
+        {
+          "id": "sports",
+          "slug": "sports",
+          "label": "Sports and Athletics",
+          "navLabel": "Sports & Athletics",
+          "tagline": "Building champions of character and excellence on and off the field.",
+          "imageUrl": null,
+          "intro": "The Sports and Athletics Office develops and implements comprehensive athletic programs that promote physical fitness, teamwork, discipline, and excellence among Angeleneans. AUF fields competitive varsity teams in a variety of sports across regional and national competitions.",
+          "varsitySports": [
+            "Basketball (Men's & Women's)",
+            "Volleyball (Men's & Women's)",
+            "Swimming",
+            "Track and Field",
+            "Badminton",
+            "Table Tennis",
+            "Taekwondo",
+            "Chess",
+            "Dancesport",
+            "Lawn Tennis"
+          ],
+          "intramural": "Beyond varsity, AUF hosts annual intramural games that bring together all colleges and schools in friendly competition. These events foster college pride, camaraderie, and a culture of sportsmanship across the AUF community.",
+          "scholarships": "AUF awards athletic scholarships to deserving student-athletes who demonstrate outstanding performance in their sport and maintain academic standards set by the university. Interested athletes must undergo tryouts and evaluation by the coaching staff.",
+          "facilities": [
+            "Multi-purpose gymnasium (basketball, volleyball, badminton)",
+            "Swimming pool",
+            "Track and field oval",
+            "Table tennis area",
+            "Weight room and fitness center"
+          ],
+          "contact": {
+            "email": "sports@auf.edu.ph",
+            "hours": "Monday to Saturday, 7:00 AM – 6:00 PM",
+            "location": "Gymnasium Building, Ground Floor"
+          }
+        },
+        {
+          "id": "culture",
+          "slug": "culture",
+          "label": "Culture and Arts",
+          "navLabel": "Culture & Arts",
+          "tagline": "Celebrating Filipino culture and nurturing artistic excellence among Angeleneans.",
+          "imageUrl": null,
+          "intro": [
+            "The AUF Center for Culture and the Arts is tasked to help preserve the rich cultural heritage of the Kapampangans, in particular, and the Filipinos, in general, through performances of the AUF performing arts groups. It also organizes the prestigious Mr. and Ms. University Pageant and the Annual Inter-Collegiate Cultural Competitions.",
+            "The AUF Performing Arts was initially organized by Dr. Emmanuel Y. Angeles in 1963 at the former Angeles Institute of Technology in Angeles City to provide a venue for young Kapampangan artists to share and develop their talents, while pursuing college education under scholarship.",
+            "Now under the umbrella of the AUF Center for Culture and the Arts, the AUF Performing Arts boasts of five power groups."
+          ],
+          "performingArtsGroups": [
+            { "id": "concert-chorus",    "name": "AUF Concert Chorus",        "description": "Organized in 1979, the AUF Concert Chorus has distinguished itself as a premiere chorale whose talent, creativity, discipline and personality have literally brought them places — including performances for Philippine Presidents in Malacañang and audiences here and abroad.", "photoUrl": "/assets/student-services/culture/concert-chorus.png", "gifUrl": "/assets/student-services/culture/concert-chorus.gif" },
+            { "id": "dance-troupe",      "name": "AUF Dance Troupe",          "description": "Formed in 1973, the AUF Dance Troupe expresses the full range of Filipino artistry — from folk to modern — under the directorship of Mr. Rommel \"Poklong\" Guina.", "photoUrl": "/assets/student-services/culture/dance-troupe.PNG", "gifUrl": "/assets/student-services/culture/dance-troupe.gif" },
+            { "id": "brass-band",        "name": "AUF Brass Band",            "description": "The very first group formed in 1963, the AUF Brass Band continues to entertain during religious, social, and cultural celebrations, today under the baton of Ms. Tiffany Chei Manaloto.", "photoUrl": "/assets/student-services/culture/brass-band.png", "gifUrl": "/assets/student-services/culture/brass-band.gif" },
+            { "id": "high-school-glee",  "name": "AUF High School Glee Club", "description": "Originally formed in 1995, the Glee Club charms audiences with youthful renditions ranging from broadway to contemporary pop. Members eventually graduate into the AUF Concert Chorus.", "photoUrl": "/assets/student-services/culture/glee-club.png", "gifUrl": "/assets/student-services/culture/glee-club.gif" },
+            { "id": "rondalla",          "name": "AUF Rondalla",              "description": "Partners with the Dance Troupe since 1973, the AUF Rondalla wows audiences here and abroad through renditions of local and international favorites under the baton of Mr. Leovie Ruga.", "photoUrl": "/assets/student-services/culture/rondalla.PNG", "gifUrl": "/assets/student-services/culture/rondalla.gif" }
+          ],
+          "contact": {
+            "email": "culture@auf.edu.ph",
+            "hours": "Monday to Friday, 8:00 AM – 5:00 PM",
+            "location": "Main Building, 3rd Floor"
+          }
+        }
+      ]
+    },
+    {
+      "id": "becoming-may-malasakit",
+      "slug": "becoming-may-malasakit",
+      "groupLabel": "Becoming May Malasakit",
+      "tagline": "Forming Angeleneans with a genuine concern for God, for others, and for creation.",
+      "brandColor": "#7A0019",
+      "accentColor": "#F2C300",
+      "offices": [
+        {
+          "id": "ccfp",
+          "slug": "ccfp",
+          "label": "Christian and Catholic Formation Program",
+          "navLabel": "CCFP",
+          "tagline": "Accompanying every Angelenean in their journey of faith and spiritual formation.",
+          "imageUrl": null,
+          "intro": "The Center for Christian Formation and Praxis (CCFP) is tasked to promote and sustain the Catholic character of the University through its curricular programs, community extension services, and spiritual enrichment activities. Specifically, CCFP is primarily responsible for the following programs:",
+          "programs": [
+            { "id": "ccfp-1", "body": "Offering of CFE and NSTP Curricula and initiating curricular and extra-curricular activities for students." },
+            { "id": "ccfp-2", "body": "Implementation, supervision and monitoring of all University and College-based Community Extension participated by both employees and students." },
+            { "id": "ccfp-3", "body": "Facilitation of spiritual enrichment activities including celebration of the Sacraments and related para-liturgical celebrations, Annual Faculty Retreats and Students' Recollections and Retreats." },
+            { "id": "ccfp-4", "body": "Supervision of Mandated and Non-Mandated Religious Organizations namely, National Service Corps (Praxis-NSRC) and CYA, YFC, Oikoumene, and Campus Ministry Service Groups, respectively." },
+            { "id": "ccfp-5", "body": "Provision of support for Adult Ministries namely, Couples for Christ, Singles for Christ, Lingkod ng Panginoon, Lector and Commentator Group, and the University Pastoral Council." },
+            { "id": "ccfp-6", "body": "Organizing Advocacy Programs which firm up the commitment of both students and employees to the promotion of well-being of the society and the environment." }
+          ],
+          "closing": "Overall, CCFP promotes programs and activities that are geared towards inculcation of values, deepening social awareness and responsibility, instilling volunteerism and initiative and maximizing the stakeholders' participation in the task of evangelization. Consequently, all the initiatives aim to strengthen the University Community in its faith-commitment to become authentic witnesses of God's Love."
+        }
+      ]
+    }
+  ]
+}

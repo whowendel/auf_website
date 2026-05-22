@@ -1,0 +1,1134 @@
+[
+  {
+    "id": "camp",
+    "slug": "camp",
+    "shortName": "CAMP",
+    "name": "College of Allied and Medical Professions",
+    "mascotName": "Falcons",
+    "mascotLogoUrl": "/assets/colleges/CAMPFalcons.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CAMPFalcons_w_Text.png",
+    "description": "The College of Allied and Medical Professions prepares health professionals through rigorous programs in allied and medical fields, producing competent and compassionate graduates ready to serve.",
+    "brandColor": "#0EA5E9",
+    "cardColor": "#31a0e0",
+    "accentColor": "#F2C300",
+    "sortOrder": 1,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "camp@auf.edu.ph",
+      "phone": null,
+      "address": "Health Sciences Building, AUF Campus"
+    },
+    "vision": "To be a center of excellence in allied and medical professions education producing globally competent, compassionate, and Christ-centered health professionals.",
+    "mission": "To provide quality education in allied and medical professions through excellence in instruction, research, and community service guided by Catholic values.",
+    "programs": [
+      {
+        "id": "camp_mls",
+        "slug": "medical-laboratory-science",
+        "name": "Bachelor of Science in Medical Laboratory Science",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "camp_ph",
+        "slug": "pharmacy",
+        "name": "Bachelor of Science in Pharmacy",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "camp_pt",
+        "slug": "physical-therapy",
+        "name": "Bachelor of Science in Physical Therapy",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "camp_rt",
+        "slug": "radiologic-technology",
+        "name": "Bachelor of Science in Radiologic Technology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "camp_resp",
+        "slug": "respiratory-therapy",
+        "name": "Bachelor of Science in Respiratory Therapy",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "cas",
+    "slug": "cas",
+    "shortName": "CAS",
+    "name": "College of Arts and Science",
+    "mascotName": "Dolphins",
+    "mascotLogoUrl": "/assets/colleges/CASDolphins.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CASDolphins_w_Text.png",
+    "description": "The College of Arts and Science provides a broad liberal arts and sciences education, developing well-rounded graduates prepared for leadership and service in diverse fields.",
+    "brandColor": "#1D4ED8",
+    "cardColor": "#2a55d1",
+    "accentColor": "#F2C300",
+    "sortOrder": 2,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "cas@auf.edu.ph",
+      "phone": null,
+      "address": "Main Building, AUF Campus"
+    },
+    "vision": "To be a premier college of arts and science developing globally competent graduates who are critical thinkers and ethical leaders.",
+    "mission": "To provide quality education in arts and sciences through rigorous academic programs, meaningful research, and transformative community engagement.",
+    "programs": [
+      {
+        "id": "cas_bio",
+        "slug": "biology",
+        "name": "Bachelor of Science in Biology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cas_chem",
+        "slug": "chemistry",
+        "name": "Bachelor of Science in Chemistry",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cas_comm",
+        "slug": "communication",
+        "name": "Bachelor of Arts in Communication",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cas_math",
+        "slug": "mathematics",
+        "name": "Bachelor of Science in Mathematics",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cas_psych",
+        "slug": "psychology",
+        "name": "Bachelor of Science in Psychology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cas_polsci",
+        "slug": "political-science",
+        "name": "Bachelor of Arts in Political Science",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cas_eng",
+        "slug": "english",
+        "name": "Bachelor of Arts in English Language Studies",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "cba",
+    "slug": "cba",
+    "shortName": "CBA",
+    "name": "College of Business Administration",
+    "mascotName": "Tigers",
+    "mascotLogoUrl": "/assets/colleges/CBATigers.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CBATigers_w_Text.png",
+    "description": "The College of Business Administration prepares future business leaders with a strong foundation in management, finance, marketing, and entrepreneurship guided by ethical principles.",
+    "brandColor": "#EAB308",
+    "cardColor": "#d19a02",
+    "accentColor": "#F2C300",
+    "sortOrder": 3,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "cba@auf.edu.ph",
+      "phone": null,
+      "address": "Business Building, AUF Campus"
+    },
+    "vision": "To be a center of excellence in business education producing globally competitive and ethical business professionals.",
+    "mission": "To develop competent, innovative, and socially responsible business leaders through quality education, relevant research, and meaningful community partnerships.",
+    "programs": [
+      {
+        "id": "cba_bsa",
+        "slug": "accountancy",
+        "name": "Bachelor of Science in Accountancy",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cba_bsba_hrm",
+        "slug": "business-administration-hrm",
+        "name": "BSBA major in Human Resource Management",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cba_bsba_mktg",
+        "slug": "business-administration-marketing",
+        "name": "BSBA major in Marketing Management",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cba_bsba_fm",
+        "slug": "business-administration-finance",
+        "name": "BSBA major in Financial Management",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cba_entrep",
+        "slug": "entrepreneurship",
+        "name": "Bachelor of Science in Entrepreneurship",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cba_tourism",
+        "slug": "tourism",
+        "name": "Bachelor of Science in Tourism Management",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cba_htm",
+        "slug": "hospitality",
+        "name": "Bachelor of Science in Hospitality Management",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "ccje",
+    "slug": "ccje",
+    "shortName": "CCJE",
+    "name": "College of Criminal Justice Education",
+    "mascotName": "Eagles",
+    "mascotLogoUrl": "/assets/colleges/CCJEEagles.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CCJEEagles_w_Text.png",
+    "description": "The College of Criminal Justice Education produces competent criminologists and justice professionals dedicated to upholding the rule of law and serving the community.",
+    "brandColor": "#7C3AED",
+    "cardColor": "#3b0764",
+    "accentColor": "#F2C300",
+    "sortOrder": 4,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "ccje@auf.edu.ph",
+      "phone": null,
+      "address": "Social Sciences Building, AUF Campus"
+    },
+    "vision": "To be a premier criminology program producing competent, ethical, and socially responsible criminal justice professionals.",
+    "mission": "To develop criminologists and justice professionals with strong moral character, professional competence, and commitment to justice and the rule of law.",
+    "programs": [
+      {
+        "id": "ccje_crim",
+        "slug": "criminology",
+        "name": "Bachelor of Science in Criminology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "ccs",
+    "slug": "ccs",
+    "shortName": "CCS",
+    "name": "College of Computer Studies",
+    "mascotName": "Dragons",
+    "mascotLogoUrl": "/assets/colleges/CCSDragons.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CCSDragons_w_Text.png",
+    "description": "The College of Computer Studies fosters innovation and technical excellence through programs in computer science, information technology, and information systems.",
+    "brandColor": "#DC2626",
+    "cardColor": "#4a0808",
+    "accentColor": "#F2C300",
+    "sortOrder": 5,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "ccs@auf.edu.ph",
+      "phone": null,
+      "address": "Technology Building, AUF Campus"
+    },
+    "vision": "The College of Computer Studies envisions to emerge as the center of excellence in IT education, research and community service in the region. It aims to  develop professionals who are globally competitive, socially responsible and dedicated to the advancement of the IT industry in the country and in the world.",
+    "mission": "The College aims to provide well – rounded Information Technology Education (ITE) Programs to meet the standards for professional practitioners in the country and in the global community",
+    "programs": [
+      {
+        "id": "ccs_cs",
+        "slug": "computer-science",
+        "name": "Bachelor of Science in Computer Science",
+        "headName": "Mrs. Melissa M. Pantig, MCS",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The BS Computer Science program includes the study of computing concepts and theories, algorithmic foundations, and new developments in computing. The program prepares students to design and create algorithmically complex software and develop new and effective algorithms for solving computing problems. The program also includes the study of the standards and practices in Software Engineering. It prepares students to acquire skills and disciplines required for designing, writing and modifying software components, modules and applications that comprise software solutions.",
+        "curriculum": [
+          "Data Structures and Algorithms",
+          "Discrete Mathematics for Computing",
+          "Operating Systems and Computer Architecture",
+          "Database Systems and Big Data",
+          "Software Engineering and Design Patterns",
+          "Artificial Intelligence and Machine Learning",
+          "Computer Networks and Cybersecurity",
+          "Capstone Research Project"
+        ],
+        "careers": [
+          "Software Engineer",
+          "Data Scientist",
+          "Machine Learning Engineer",
+          "Systems Analyst",
+          "Cybersecurity Specialist",
+          "Research Scientist"
+        ],
+        "specializations": [
+          {
+            "name": "Data Science",
+            "description": "Data Science is the field of study that covers the systematic analysis of data within a scientific framework. It utilizes scientific methods, algorithms, processes and systems to extract meaningful insights from data across interdisciplinary domains."
+          }
+        ],
+        "admissionRequirements": [
+          "Senior High School graduate (STEM strand preferred)",
+          "Pass the AUF College Admission Test (AUFCAT)",
+          "Submit Form 138 and Certificate of Good Moral Character",
+          "Interview with the program chair"
+        ]
+      },
+      {
+        "id": "ccs_it",
+        "slug": "information-technology",
+        "name": "Bachelor of Science in Information Technology",
+        "headName": "Dr. Adriane Brent S. Castro",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "Bachelor of Science in Information Technology (BSIT) program includes the study of the utilization of both hardware and software technologies involving planning, installing, customizing, operating, managing and administering, and maintaining information technology infrastructure that provides computing solutions to address the needs of an organization. The program prepares graduates to address various user needs involving the selection, development, application, integration and management of computing technologies within an organization.",
+        "curriculum": [
+          "Web Development (Full-Stack)",
+          "Mobile Application Development",
+          "Network and Systems Administration",
+          "Cloud Computing and DevOps",
+          "Information Assurance and Security",
+          "IT Project Management",
+          "Human-Computer Interaction",
+          "Internship and Capstone Project"
+        ],
+        "careers": [
+          "Full-Stack Developer",
+          "Mobile App Developer",
+          "Network Administrator",
+          "Cloud Engineer",
+          "IT Consultant",
+          "DevOps Engineer"
+        ],
+        "specializations": [
+          {
+            "name": "Web and Mobile Technologies",
+            "description": "The BSIT Major in Web and Mobile Application aims to give students the knowledge and abilities needed to build web applications as well as mobile applications. CCS aspires to equip students with the abilities required to be successful in such a position in order to meet that need. These competencies include:",
+            "bullets": [
+              "Website development and design",
+              "UI/UX design",
+              "Computer Programming/Scripting",
+              "Technical Communication",
+              "Database Administration",
+              "Mobile Application Development"
+            ]
+          },
+          {
+            "name": "I.T. Infrastructure",
+            "description": "The BSIT Major in I.T. Infrastructure aims to give students the knowledge and abilities needed to manage and maintain an organization's computer network. CCS seeks to equip students with the knowledge and abilities required to maintain an organization's computer network in a state of readiness in order to meet that demand. These competencies include:",
+            "bullets": [
+              "Learning networking principles",
+              "Managing and maintaining servers, computers, routers, and switches",
+              "Network configuration, network processing, centralized and distributed network connection",
+              "Installing, configuring, and administering network technologies",
+              "Learning to troubleshoot CISCO networks and devices",
+              "Cloud computing",
+              "Cloud architecting"
+            ]
+          }
+        ],
+        "admissionRequirements": [
+          "Senior High School graduate (any strand)",
+          "Pass the AUF College Admission Test (AUFCAT)",
+          "Submit Form 138 and Certificate of Good Moral Character"
+        ]
+      },
+      {
+        "id": "ccs_bma",
+        "slug": "multimedia-arts",
+        "name": "Bachelor of Multimedia Arts",
+        "headName": "Mr. Jaypee B. Patdu, MIT",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The Bachelor of Multimedia Arts aligns itself to the rapid convergence of media technologies and practices by developing conceptual, technical, aesthetic and professional competencies for effective, critical and innovative storytelling across a range or combination of media forms for various purposes. The program is concentrated on the following skills and competencies:",
+        "curriculum": [
+          "Graphic Design",
+          "Animation"
+        ],
+        "careers": [
+          "Graphic Designer",
+          "Brand Identity Specialist",
+          "Art Director",
+          "Marketing & Advertising Creative",
+          "2D / 3D Animator",
+          "VFX (Visual Effects)"
+        ],
+        "admissionRequirements": [
+          "Senior High School graduate (any strand)",
+          "Pass the AUF College Admission Test (AUFCAT)",
+          "Submit Form 138 and Certificate of Good Moral Character"
+        ]
+      }
+    ],
+    "goals": [
+      "Facilitate the instructional process for a better understanding of ITE Programs through a curriculum relevant to the needs of the industry;",
+      "Provide the students with the necessary exposure in order to relate the theoretical knowledge obtained in the College to real practices in the use of computers in the world of Information Communication Technology (ICT);",
+      "Inculcate in the students the importance of the proper utilization of computer systems resources for the growth and advancement of Information Technology;",
+      "Instill in the minds of the students a high degree of professionalism and moral values necessary in the practice of profession."
+    ],
+    "studentOrganizations": [
+      {
+        "id": "ccs_org_jpcs",
+        "name": "Junior Philippine Computer Society (JPCS) — AUF Chapter",
+        "description": "A recognized student organization for Information Technology and Computer Science students that promotes leadership, technical excellence, academic activities, and participation in technology-related events and competitions.",
+        "advisor": "TBA",
+        "type": "Academic"
+      },
+      {
+        "id": "ccs_org_honsoc",
+        "name": "Honor Society (HonSoc)",
+        "description": "An academic organization that recognizes and promotes scholastic excellence, leadership, professionalism, and student engagement among high-performing CCS students.",
+        "advisor": "TBA",
+        "type": "Academic"
+      },
+      {
+        "id": "ccs_org_msd",
+        "name": "Multimedia and System Developers (MSD)",
+        "description": "A student organization focused on multimedia production, creative design, system development, and collaboration on digital and technology-driven projects.",
+        "advisor": "TBA",
+        "type": "Creative"
+      },
+      {
+        "id": "ccs_org_datalink",
+        "name": "Datalink",
+        "description": "A student-led publication and technology organization dedicated to communication, information dissemination, digital media, and student engagement within the College of Computer Studies.",
+        "advisor": "TBA",
+        "type": "Community"
+      }
+    ],
+    "activities": [
+      {
+        "id": "ccs_act_codefest",
+        "name": "AUF CodeFest",
+        "description": "Annual 24-hour hackathon bringing together students, alumni, and industry mentors to build innovative software solutions.",
+        "date": "October 2025",
+        "type": "Competition"
+      },
+      {
+        "id": "ccs_act_techweek",
+        "name": "Dragons Tech Week",
+        "description": "A week-long celebration of computing — featuring industry talks, workshops, project showcases, and the annual capstone fair.",
+        "date": "February 2026",
+        "type": "Event"
+      },
+      {
+        "id": "ccs_act_outreach",
+        "name": "Digital Literacy Outreach",
+        "description": "Quarterly community outreach teaching basic computer literacy to public school students in surrounding barangays.",
+        "date": "Quarterly",
+        "type": "Outreach"
+      },
+      {
+        "id": "ccs_act_industry",
+        "name": "Industry Immersion Program",
+        "description": "Structured visits to local and Metro Manila tech companies, giving students first-hand exposure to professional software practices.",
+        "date": "Year-round",
+        "type": "Immersion"
+      }
+    ],
+    "affiliations": [
+      {
+        "id": "ccs_aff_adobe",
+        "name": "Adobe Creative Cloud for Education",
+        "type": "Industry Partner",
+        "description": "Provides creative tools and digital design applications that help students develop industry-relevant multimedia and production skills.",
+        "website": "https://www.adobe.com/education.html"
+      },
+      {
+        "id": "ccs_aff_acpi",
+        "name": "Animation Council of the Philippines Inc. (ACPI)",
+        "type": "Professional Organization",
+        "description": "Supports the promotion of Filipino animation talent locally and internationally while strengthening industry collaboration in 2D and 3D animation.",
+        "website": "https://www.acpi.com.ph"
+      },
+      {
+        "id": "ccs_aff_cisco",
+        "name": "Cisco Networking Academy",
+        "type": "Industry Partner",
+        "description": "Global IT and cybersecurity education program providing networking, cybersecurity, and certification training aligned with industry standards.",
+        "website": "https://www.netacad.com"
+      },
+      {
+        "id": "ccs_aff_comptia",
+        "name": "CompTIA",
+        "type": "Industry Partner",
+        "description": "Provides access to industry-recognized certifications and training programs in cybersecurity, networking, cloud computing, and IT support.",
+        "website": "https://www.comptia.org"
+      },
+      {
+        "id": "ccs_aff_huawei",
+        "name": "Huawei ICT Academy",
+        "type": "Industry Partner",
+        "description": "Promotes technological innovation and talent development through specialized training and certifications in 5G, AI, cloud computing, and IoT.",
+        "website": "https://e.huawei.com/en/talent"
+      },
+      {
+        "id": "ccs_aff_microsoft",
+        "name": "Microsoft Learn for Educators",
+        "type": "Industry Partner",
+        "description": "Provides Microsoft Official Curriculum, teaching resources, and certification-aligned learning materials for students and faculty.",
+        "website": "https://learn.microsoft.com/en-us/training/educator-center/programs/msle"
+      },
+      {
+        "id": "ccs_aff_mmaap",
+        "name": "Multimedia Arts Association of the Philippines (MMAAP)",
+        "type": "Professional Organization",
+        "description": "Professional organization that supports multimedia arts education, networking, workshops, seminars, and industry collaboration in the Philippines.",
+        "website": null
+      },
+      {
+        "id": "ccs_aff_oracle",
+        "name": "Oracle Academy",
+        "type": "Industry Partner",
+        "description": "Provides Oracle software, curriculum resources, and certification pathways to help students gain industry-relevant database and enterprise technology skills.",
+        "website": "https://academy.oracle.com"
+      },
+      {
+        "id": "ccs_aff_psite",
+        "name": "Philippine Society of Information Technology Educators (PSITE)",
+        "type": "Professional Organization",
+        "description": "Professional organization of IT educators focused on faculty development and promoting quality IT education in the Philippines.",
+        "website": "https://psite.org"
+      },
+      {
+        "id": "ccs_aff_sucp",
+        "name": "SAP University Alliance Program Council of the Philippines (SUCP)",
+        "type": "Industry Partner",
+        "description": "Provides universities with SAP software access, training opportunities, and enterprise system education aligned with global industry practices.",
+        "website": "https://www.sap.com/about/company/innovation/next-gen-innovation-platform/university-alliances.html"
+      }
+    ],
+    "collegeAccreditations": [
+      {
+        "id": "ccs_acc_ched_autonomous",
+        "body": "CHED",
+        "program": "Institutional",
+        "level": "Autonomous Status",
+        "year": "Since 2003",
+        "description": "Autonomous status granted by the Commission on Higher Education (CHED). To date, only 68 out of 2,393 Higher Educational Institutions (HEIs) are granted this status."
+      },
+      {
+        "id": "ccs_acc_faap_institutional",
+        "body": "FAAP",
+        "program": "Institutional",
+        "level": "Institutional Accreditation",
+        "year": "Current",
+        "description": "Institutional Accreditation by the Federation of Accrediting Associations of the Philippines (FAAP)."
+      },
+      {
+        "id": "ccs_acc_iso",
+        "body": "TUV-SUD",
+        "program": "Institutional",
+        "level": "ISO 9001:2015 Certified",
+        "year": "Current",
+        "description": "ISO 9001 – 2015 Certification by TUV-SUD."
+      },
+      {
+        "id": "ccs_acc_paascu_computing",
+        "body": "PAASCU",
+        "program": "BS Computer Science & BS Information Technology",
+        "level": "Level III Accredited",
+        "year": "Current",
+        "description": "Level III Accreditation by the Philippine Accrediting Association of Schools, Colleges and Universities (PAASCU) for the Computer Science and Information Technology programs."
+      }
+    ],
+    "recognitions": [
+      {
+        "id": "ccs_rec_coe_it",
+        "title": "Center of Excellence in I.T. Education",
+        "by": "Commission on Higher Education",
+        "year": "2024",
+        "description": "Recognized by the Commission on Higher Education for excellence in Information Technology education, academic quality, research, and institutional performance."
+      },
+      {
+        "id": "ccs_rec_ched_award",
+        "title": "Awarded by the Commission on Higher Education",
+        "by": "Commission on Higher Education",
+        "year": "2024",
+        "description": "Received official recognition from the Commission on Higher Education for outstanding contributions to higher education and academic development."
+      }
+    ],
+    "facilities": [
+      {
+        "id": "ccs_fac_computer_labs",
+        "name": "Computer Laboratories",
+        "description": "Five computer laboratories equipped with individual workstations and Internet connectivity to support programming, multimedia, networking, and other computing-related activities.",
+        "imageUrl": "/assets/ccs/lab.png",
+        "features": [
+          "5 computer laboratories",
+          "42 individual workstations per laboratory",
+          "Internet-enabled facilities",
+          "Located on the 1st and 2nd floors"
+        ]
+      },
+      {
+        "id": "ccs_fac_lecture_rooms",
+        "name": "Lecture Rooms",
+        "description": "Fully air-conditioned lecture rooms designed to provide a comfortable and technology-supported learning environment for students.",
+        "imageUrl": "/assets/ccs/lab.png",
+        "features": [
+          "5 fully air-conditioned rooms",
+          "Spacious learning environment",
+          "Technology-assisted instruction",
+          "Located on the 4th floor"
+        ]
+      },
+      {
+        "id": "ccs_fac_open_lab",
+        "name": "Open Laboratory",
+        "description": "An open-access laboratory that allows students to conduct research, complete coursework, and practice technical skills beyond class hours.",
+        "imageUrl": "/assets/ccs/lab.png",
+        "features": [
+          "Accessible student workspace",
+          "Internet connectivity",
+          "Supports independent learning",
+          "Located on the 3rd floor"
+        ]
+      },
+      {
+        "id": "ccs_fac_hardware_lab",
+        "name": "Hardware Laboratory",
+        "description": "A specialized laboratory dedicated to computer hardware assembly, maintenance, troubleshooting, and hands-on technical training.",
+        "imageUrl": "/assets/ccs/networking-lab.png",
+        "features": [
+          "Hands-on hardware training",
+          "Computer assembly and troubleshooting equipment",
+          "Technical laboratory environment",
+          "Located on the 2nd floor"
+        ]
+      },
+      {
+        "id": "ccs_fac_research_lab",
+        "name": "ICT Research and Development Laboratory",
+        "description": "A research-oriented laboratory supporting innovation, system development, and ICT-related research projects of students and faculty members.",
+        "imageUrl": "/assets/ccs/lab.png",
+        "features": [
+          "Research and development workspace",
+          "Supports ICT innovation projects",
+          "Collaboration area for students and faculty",
+          "Located on the 1st floor"
+        ]
+      },
+      {
+        "id": "ccs_fac_wifi",
+        "name": "Wi-Fi Access Facility",
+        "description": "Wireless Internet access point available for students and faculty to support digital learning and online academic activities.",
+        "imageUrl": "/assets/ccs/networking-lab.png",
+        "features": [
+          "Wireless Internet connectivity",
+          "Supports online learning activities",
+          "Accessible to students and faculty",
+          "Located on the 4th floor"
+        ]
+      }
+    ],
+    "topnotches": [
+      {
+        "id": "ccs_top_1",
+        "name": "Maria Clara Delos Santos",
+        "exam": "Civil Service Exam (Professional)",
+        "rank": "1st Place — Region III",
+        "year": "2024",
+        "program": "BS Information Technology"
+      },
+      {
+        "id": "ccs_top_2",
+        "name": "Juan Miguel Reyes",
+        "exam": "ASEAN Programming Contest",
+        "rank": "Top 10 — Southeast Asia",
+        "year": "2024",
+        "program": "BS Computer Science"
+      },
+      {
+        "id": "ccs_top_3",
+        "name": "Sofia Andrea Lim",
+        "exam": "AWS Certified Solutions Architect",
+        "rank": "Top Scorer — Philippines",
+        "year": "2024",
+        "program": "BS Information Systems"
+      }
+    ],
+    "cta": {
+      "eyebrow": "Apply to CCS",
+      "headline": "Build what's next.",
+      "description": "Join a community of dragons shaping the future of technology in the Philippines. Our doors are open to passionate learners.",
+      "primaryLabel": "Apply now",
+      "primaryHref": "/admissions/how-to-apply",
+      "secondaryLabel": "Talk to a chair",
+      "secondaryHref": "/c/ccs#contact"
+    }
+  },
+  {
+    "id": "cea",
+    "slug": "cea",
+    "shortName": "CEA",
+    "name": "College of Engineering and Architecture",
+    "mascotName": "Bobcats",
+    "mascotLogoUrl": "/assets/colleges/CEABobcats.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CEABobcats_w_Text.png",
+    "description": "The College of Engineering and Architecture develops skilled engineers and architects who apply scientific and technological knowledge to solve real-world problems with integrity and innovation.",
+    "brandColor": "#EA580C",
+    "cardColor": "#78350f",
+    "accentColor": "#F2C300",
+    "sortOrder": 6,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "cea@auf.edu.ph",
+      "phone": null,
+      "address": "Engineering Building, AUF Campus"
+    },
+    "vision": "To be a premier college of engineering and architecture producing globally competitive, innovative, and ethically responsible professionals.",
+    "mission": "To provide quality engineering and architecture education that integrates technical excellence, research, and social responsibility.",
+    "programs": [
+      {
+        "id": "cea_arch",
+        "slug": "architecture",
+        "name": "Bachelor of Science in Architecture",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cea_ce",
+        "slug": "civil-engineering",
+        "name": "Bachelor of Science in Civil Engineering",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cea_ece",
+        "slug": "electronics-engineering",
+        "name": "Bachelor of Science in Electronics Engineering",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cea_ee",
+        "slug": "electrical-engineering",
+        "name": "Bachelor of Science in Electrical Engineering",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cea_ie",
+        "slug": "industrial-engineering",
+        "name": "Bachelor of Science in Industrial Engineering",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "cea_me",
+        "slug": "mechanical-engineering",
+        "name": "Bachelor of Science in Mechanical Engineering",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "ced",
+    "slug": "ced",
+    "shortName": "CED",
+    "name": "College of Education",
+    "mascotName": "Marlins",
+    "mascotLogoUrl": "/assets/colleges/CEDMarlins.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CEDMarlins_w_Text.png",
+    "description": "The College of Education shapes the future of learning by developing passionate, skilled, and values-driven educators committed to transformative teaching.",
+    "brandColor": "#06B6D4",
+    "cardColor": "#083344",
+    "accentColor": "#F2C300",
+    "sortOrder": 7,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "ced@auf.edu.ph",
+      "phone": null,
+      "address": "Education Building, AUF Campus"
+    },
+    "vision": "To be a center of excellence in teacher education producing globally competent and Christ-centered educators.",
+    "mission": "To develop highly qualified, reflective, and ethical educators who are committed to continuous professional growth and service to the community.",
+    "programs": [
+      {
+        "id": "ced_beed",
+        "slug": "elementary-education",
+        "name": "Bachelor of Elementary Education",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "ced_bsed_eng",
+        "slug": "secondary-education-english",
+        "name": "Bachelor of Secondary Education major in English",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "ced_bsed_math",
+        "slug": "secondary-education-math",
+        "name": "Bachelor of Secondary Education major in Mathematics",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "ced_bsed_sci",
+        "slug": "secondary-education-science",
+        "name": "Bachelor of Secondary Education major in Science",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "ced_bsed_soc",
+        "slug": "secondary-education-social-studies",
+        "name": "Bachelor of Secondary Education major in Social Studies",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "ced_bsned",
+        "slug": "special-needs-education",
+        "name": "Bachelor of Special Needs Education",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "con",
+    "slug": "con",
+    "shortName": "CON",
+    "name": "College of Nursing",
+    "mascotName": "Serpents",
+    "mascotLogoUrl": "/assets/colleges/CONSerpents.png",
+    "mascotLogoWithTextUrl": "/assets/colleges/CONSerpents_w_Text.png",
+    "description": "The College of Nursing produces competent, compassionate, and Christ-centered nurses dedicated to promoting health and delivering quality patient care.",
+    "brandColor": "#22C55E",
+    "cardColor": "#0e3d21",
+    "accentColor": "#F2C300",
+    "sortOrder": 8,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "con@auf.edu.ph",
+      "phone": null,
+      "address": "Health Sciences Building, AUF Campus"
+    },
+    "vision": "To be a leading nursing college producing globally competent, compassionate, and Christ-centered nurse professionals.",
+    "mission": "To produce globally competent nurse professionals through excellence in nursing education, research, and community health service.",
+    "programs": [
+      {
+        "id": "con_bsn",
+        "slug": "nursing",
+        "name": "Bachelor of Science in Nursing",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "sol",
+    "slug": "sol",
+    "shortName": "SOL",
+    "name": "School of Law",
+    "mascotName": null,
+    "mascotLogoUrl": null,
+    "mascotLogoWithTextUrl": null,
+    "description": "The School of Law produces lawyers and legal professionals committed to justice, ethical practice, and the rule of law in service of the Filipino people.",
+    "brandColor": "#6D28D9",
+    "cardColor": "#2e1065",
+    "accentColor": "#F2C300",
+    "sortOrder": 9,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "sol@auf.edu.ph",
+      "phone": null,
+      "address": "Law Building, AUF Campus"
+    },
+    "vision": "To be a premier law school producing competent, ethical, and socially responsible legal professionals.",
+    "mission": "To develop lawyers and legal professionals with a deep commitment to justice, human dignity, and the common good through rigorous legal education.",
+    "programs": [
+      {
+        "id": "sol_jd",
+        "slug": "juris-doctor",
+        "name": "Juris Doctor",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "som",
+    "slug": "som",
+    "shortName": "SOM",
+    "name": "School of Medicine",
+    "mascotName": null,
+    "mascotLogoUrl": null,
+    "mascotLogoWithTextUrl": null,
+    "description": "The School of Medicine is committed to producing medical doctors of the highest caliber — scientists, clinicians, and humanitarians who serve with excellence and compassion.",
+    "brandColor": "#15803D",
+    "cardColor": "#052e16",
+    "accentColor": "#F2C300",
+    "sortOrder": 10,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "som@auf.edu.ph",
+      "phone": null,
+      "address": "Medical Building, AUF Campus"
+    },
+    "vision": "To be a leading medical school producing competent, compassionate, and socially responsible physicians committed to excellence in patient care.",
+    "mission": "To produce physicians equipped with the knowledge, skills, and values necessary to address the healthcare needs of the nation and the world.",
+    "programs": [
+      {
+        "id": "som_md",
+        "slug": "doctor-of-medicine",
+        "name": "Doctor of Medicine",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "gs",
+    "slug": "gs",
+    "shortName": "GS",
+    "name": "Graduate School",
+    "mascotName": null,
+    "mascotLogoUrl": null,
+    "mascotLogoWithTextUrl": null,
+    "description": "The Graduate School offers advanced degree programs fostering research, leadership, and professional mastery for working professionals and aspiring academics.",
+    "brandColor": "#0E2247",
+    "cardColor": "#1e3a6e",
+    "accentColor": "#F2C300",
+    "sortOrder": 11,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Dean",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "gs@auf.edu.ph",
+      "phone": null,
+      "address": "Graduate School Building, AUF Campus"
+    },
+    "vision": "To be a leading graduate school producing scholars, researchers, and professionals who contribute to national and global development.",
+    "mission": "To provide advanced education through rigorous graduate programs that develop research competence, professional excellence, and ethical leadership.",
+    "programs": [
+      {
+        "id": "gs_mba",
+        "slug": "mba",
+        "name": "Master of Business Administration",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "gs_med",
+        "slug": "master-of-education",
+        "name": "Master of Arts in Education",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "gs_msn",
+        "slug": "master-of-nursing",
+        "name": "Master of Science in Nursing",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "gs_mscs",
+        "slug": "master-of-computer-science",
+        "name": "Master of Science in Computer Science",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
+        "id": "gs_phd_ed",
+        "slug": "phd-education",
+        "name": "Doctor of Philosophy in Education",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      }
+    ]
+  },
+  {
+    "id": "is",
+    "slug": "is",
+    "shortName": "IS",
+    "name": "Integrated School",
+    "mascotName": null,
+    "mascotLogoUrl": null,
+    "mascotLogoWithTextUrl": null,
+    "description": "The Integrated School provides quality basic education from primary through senior high school, forming young Angeleneans with solid academic foundations and strong values.",
+    "brandColor": "#0E2247",
+    "cardColor": "#1e3a6e",
+    "accentColor": "#F2C300",
+    "sortOrder": 12,
+    "isActive": true,
+    "dean": {
+      "name": "TBA",
+      "title": "Principal",
+      "photoUrl": null
+    },
+    "contact": {
+      "email": "is@auf.edu.ph",
+      "phone": null,
+      "address": "Integrated School Building, AUF Campus"
+    },
+    "vision": "To be a premier integrated school forming young Angeleneans of academic excellence, strong values, and genuine concern for others.",
+    "mission": "To provide quality basic education that develops intellectually competent, morally upright, and socially responsible young individuals.",
+    "programs": [
+      {
+        "id": "is_primary",
+        "slug": "primary",
+        "name": "Primary Level (Grades 1–6)",
+        "headName": "TBA",
+        "headTitle": "Level Coordinator",
+        "contactEmail": null
+      },
+      {
+        "id": "is_jhs",
+        "slug": "junior-high-school",
+        "name": "Junior High School (Grades 7–10)",
+        "headName": "TBA",
+        "headTitle": "Level Coordinator",
+        "contactEmail": null
+      },
+      {
+        "id": "is_shs_stem",
+        "slug": "senior-high-school-stem",
+        "name": "Senior High School — STEM Strand",
+        "headName": "TBA",
+        "headTitle": "Level Coordinator",
+        "contactEmail": null
+      },
+      {
+        "id": "is_shs_humss",
+        "slug": "senior-high-school-humss",
+        "name": "Senior High School — HUMSS Strand",
+        "headName": "TBA",
+        "headTitle": "Level Coordinator",
+        "contactEmail": null
+      },
+      {
+        "id": "is_shs_abm",
+        "slug": "senior-high-school-abm",
+        "name": "Senior High School — ABM Strand",
+        "headName": "TBA",
+        "headTitle": "Level Coordinator",
+        "contactEmail": null
+      }
+    ]
+  }
+]

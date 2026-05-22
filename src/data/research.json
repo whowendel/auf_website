@@ -1,0 +1,479 @@
+{
+  "hero": {
+    "eyebrow": "AUF Research and Innovation",
+    "title": "Research",
+    "subtitle": "Advancing knowledge, driving innovation, and extending the University's impact through rigorous inquiry, meaningful discovery, and community-centered research."
+  },
+
+  "overview": {
+    "navLabel": "Overview",
+    "eyebrow": "Why research matters at AUF",
+    "title": "Overview",
+    "paragraphs": [
+      "Research is the lifeblood of a university committed to truth — and at AUF, it is both a mission and a mandate. Through systematic inquiry, creative exploration, and collaborative discovery, AUF researchers contribute to the advancement of knowledge in ways that directly address the needs of local communities and the global academic community.",
+      "AUF's research ecosystem brings together faculty researchers, student scholars, research centers, and external partners across disciplines — generating outputs that are not only academically rigorous but socially relevant. From health sciences breakthroughs to educational innovations and engineering solutions, AUF research touches every domain of human concern.",
+      "Guided by the Office of the Vice President for Research and Innovation (OVPRI), the university maintains an environment where curiosity is nurtured, excellence is rewarded, and the results of research flow back to the communities they serve."
+    ],
+    "highlights": [
+      { "label": "Research Centers", "value": "3+" },
+      { "label": "Active Grants", "value": "TBA" },
+      { "label": "Publications", "value": "TBA" },
+      { "label": "Partner Agencies", "value": "TBA" }
+    ]
+  },
+
+  "about": {
+    "navLabel": "About OVPRI",
+    "eyebrow": "Our office",
+    "title": "Office of the Vice President for Research and Innovation",
+    "acronym": "OVPRI",
+    "description": "The Office of the Vice President for Research and Innovation (OVPRI) provides strategic leadership for AUF's research enterprise — coordinating research programs, managing grants, overseeing research centers, and ensuring that the university's research outputs meet national and international standards of excellence.",
+    "roles": [
+      "Formulate and implement the University's Research and Innovation Agenda",
+      "Manage and administer internal and external research grants",
+      "Oversee the operation of research centers and institutes",
+      "Coordinate research ethics review and compliance processes",
+      "Promote publication, dissemination, and utilization of research outputs",
+      "Facilitate faculty and student participation in research programs",
+      "Build partnerships with government, industry, and international research bodies"
+    ],
+    "contact": {
+      "email": "research@auf.edu.ph",
+      "location": "Main Building, AUF Campus",
+      "hours": "Monday–Friday, 8:00 AM – 5:00 PM"
+    }
+  },
+
+  "visionMission": {
+    "navLabel": "Vision & Mission",
+    "eyebrow": "Our purpose",
+    "title": "Vision & Mission",
+    "vision": "To be a leading research university that generates knowledge contributing to national development and global academic discourse — guided by the Catholic values of truth, excellence, and compassionate service.",
+    "mission": "To cultivate a dynamic research culture at AUF through quality instruction in research methods, provision of research support services, management of competitive grants, and translation of research findings into policies, products, and practices that benefit communities."
+  },
+
+  "centers": {
+    "navLabel": "Research Centers",
+    "eyebrow": "Centers of inquiry",
+    "title": "Research Centers and Institutes",
+    "description": "AUF's research centers serve as interdisciplinary hubs where faculty and student researchers collaborate on focused agendas that address pressing societal challenges.",
+    "items": [
+      {
+        "id": "cdaic",
+        "acronym": "CDAIC",
+        "name": "Center for Data Analytics, Informatics, and Computing",
+        "description": "The CDAIC advances applied research in data science, artificial intelligence, machine learning, and information systems — translating computational methods into practical solutions for industry, government, and society.",
+        "focus": [
+          "Artificial Intelligence and Machine Learning",
+          "Big Data Analytics and Visualization",
+          "Cybersecurity and Information Assurance",
+          "Natural Language Processing",
+          "Health Informatics and Digital Health",
+          "Smart Systems and IoT Applications"
+        ],
+        "headName": "TBA",
+        "headTitle": "Center Director",
+        "email": "cdaic@auf.edu.ph"
+      },
+      {
+        "id": "cari",
+        "acronym": "CARI",
+        "name": "Center for Advanced Research and Innovation",
+        "description": "CARI drives interdisciplinary research across engineering, health sciences, and applied natural sciences — fostering innovation that bridges the laboratory and the real world. It serves as AUF's primary hub for externally funded research and technology transfer.",
+        "focus": [
+          "Biomedical Engineering and Medical Devices",
+          "Pharmaceutical Research and Drug Development",
+          "Environmental Engineering and Sustainability",
+          "Materials Science and Advanced Manufacturing",
+          "Public Health and Epidemiology",
+          "Technology Transfer and Commercialization"
+        ],
+        "headName": "TBA",
+        "headTitle": "Center Director",
+        "email": "cari@auf.edu.ph"
+      },
+      {
+        "id": "care",
+        "acronym": "CARE",
+        "name": "Center for Applied Research in Education",
+        "description": "CARE focuses on research in teaching, learning, and educational policy — generating evidence-based insights that improve educational practice, curriculum design, and institutional effectiveness at AUF and in partner schools and communities.",
+        "focus": [
+          "Curriculum Development and Evaluation",
+          "Assessment and Learning Outcomes",
+          "Educational Technology and Blended Learning",
+          "Special Education and Inclusive Practices",
+          "Teacher Professional Development",
+          "Community-Based Education and Literacy"
+        ],
+        "headName": "TBA",
+        "headTitle": "Center Director",
+        "email": "care@auf.edu.ph"
+      }
+    ]
+  },
+
+  "thrusts": {
+    "navLabel": "Research Thrusts",
+    "eyebrow": "Where we focus",
+    "title": "Research Thrusts and Priorities",
+    "description": "AUF's Research and Innovation Agenda aligns with the national Harmonized National Research and Development Agenda (HNRDA) and the Sustainable Development Goals (SDGs). The following thrusts reflect the university's disciplinary strengths and its commitment to addressing the most pressing concerns of Philippine society.",
+    "items": [
+      {
+        "id": "thrust-1",
+        "number": 1,
+        "title": "Health Sciences",
+        "description": "Research aimed at improving health outcomes, advancing medical and allied health practice, and addressing the burden of disease in Central Luzon and the Philippines.",
+        "subtopics": [
+          "Infectious and non-communicable disease research",
+          "Pharmacological and pharmaceutical studies",
+          "Public health, epidemiology, and community health",
+          "Allied health practices: nursing, pharmacy, physical therapy, medical technology",
+          "Mental health and psychosocial wellbeing"
+        ]
+      },
+      {
+        "id": "thrust-2",
+        "number": 2,
+        "title": "Education",
+        "description": "Research that enhances teaching practice, learning environments, and educational policy — with special focus on basic education, higher education, and inclusive learning.",
+        "subtopics": [
+          "Curriculum development and educational reform",
+          "Assessment, evaluation, and learning outcomes",
+          "Technology-enhanced and blended learning",
+          "Special education and inclusion",
+          "Teacher development and professional growth"
+        ]
+      },
+      {
+        "id": "thrust-3",
+        "number": 3,
+        "title": "Business and Entrepreneurship",
+        "description": "Research that advances enterprise development, economic resilience, and responsible business practice — particularly relevant to the SME landscape of Pampanga and Central Luzon.",
+        "subtopics": [
+          "SME development and entrepreneurship",
+          "Tourism, hospitality, and events management",
+          "Financial literacy and economic behavior",
+          "Sustainable business models",
+          "Supply chain and logistics management"
+        ]
+      },
+      {
+        "id": "thrust-4",
+        "number": 4,
+        "title": "Engineering and Technology",
+        "description": "Applied research in engineering disciplines that addresses infrastructure, energy, manufacturing, and technological innovation in the Philippine context.",
+        "subtopics": [
+          "Civil and structural engineering",
+          "Electrical and electronics systems",
+          "Industrial engineering and process optimization",
+          "Renewable energy and green technologies",
+          "Architectural design and sustainable construction"
+        ]
+      },
+      {
+        "id": "thrust-5",
+        "number": 5,
+        "title": "Information and Communication Technology",
+        "description": "Research at the intersection of computing, information systems, and society — addressing digital transformation, cybersecurity, and AI-driven solutions for Philippine industries.",
+        "subtopics": [
+          "Artificial intelligence and machine learning applications",
+          "Cybersecurity and data privacy",
+          "Software engineering and systems development",
+          "Digital governance and e-government",
+          "Human-computer interaction and UX"
+        ]
+      },
+      {
+        "id": "thrust-6",
+        "number": 6,
+        "title": "Social Sciences and Humanities",
+        "description": "Research that explores the human dimensions of society — examining culture, language, governance, and social change through rigorous social-scientific and humanistic inquiry.",
+        "subtopics": [
+          "Socio-cultural studies and heritage preservation",
+          "Political science and governance",
+          "Psychology and behavioral research",
+          "Communication and media studies",
+          "Language, literature, and Filipino identity"
+        ]
+      },
+      {
+        "id": "thrust-7",
+        "number": 7,
+        "title": "Environmental and Natural Sciences",
+        "description": "Research addressing environmental sustainability, biodiversity, climate change, and the responsible stewardship of natural resources in the Philippine context.",
+        "subtopics": [
+          "Biodiversity and ecosystems research",
+          "Climate change adaptation and mitigation",
+          "Water resources and waste management",
+          "Urban ecology and environmental planning",
+          "Agricultural science and food security"
+        ]
+      }
+    ]
+  },
+
+  "services": {
+    "navLabel": "Services & Support",
+    "eyebrow": "How we support researchers",
+    "title": "Research Services and Support",
+    "description": "OVPRI provides a comprehensive suite of research support services to AUF faculty and students — from conceptualization and funding to publication and dissemination.",
+    "categories": [
+      {
+        "id": "ethics",
+        "title": "Research Ethics Review",
+        "description": "The AUF Institutional Review Board (IRB) reviews all research involving human participants, ensuring compliance with ethical standards and the protection of research subjects.",
+        "forms": [
+          { "id": "irb-application", "name": "IRB Application Form", "description": "For studies involving human participants", "fileUrl": null, "fileType": "PDF" },
+          { "id": "informed-consent", "name": "Sample Informed Consent Template", "description": "Customizable template for participant consent", "fileUrl": null, "fileType": "DOCX" },
+          { "id": "adverse-event", "name": "Adverse Event Report Form", "description": "For reporting unanticipated issues in ongoing studies", "fileUrl": null, "fileType": "PDF" }
+        ]
+      },
+      {
+        "id": "funding",
+        "title": "Internal Research Funding",
+        "description": "AUF provides internal research grants for faculty and student researchers through competitive application processes managed by OVPRI.",
+        "forms": [
+          { "id": "grant-proposal", "name": "Internal Grant Proposal Form", "description": "Full research proposal for internal funding", "fileUrl": null, "fileType": "DOCX" },
+          { "id": "budget-template", "name": "Research Budget Template", "description": "Standardized budget format for proposals", "fileUrl": null, "fileType": "XLSX" },
+          { "id": "liquidation", "name": "Research Fund Liquidation Form", "description": "For reporting use of granted funds", "fileUrl": null, "fileType": "PDF" }
+        ]
+      },
+      {
+        "id": "publication",
+        "title": "Publication and Dissemination Support",
+        "description": "OVPRI assists researchers in preparing manuscripts for publication, identifying appropriate journals, and navigating the publication process.",
+        "forms": [
+          { "id": "publication-request", "name": "Publication Assistance Request", "description": "Request editorial and formatting support", "fileUrl": null, "fileType": "PDF" },
+          { "id": "conference-travel", "name": "Conference Travel Grant Application", "description": "Funding for paper presentations at conferences", "fileUrl": null, "fileType": "PDF" }
+        ]
+      },
+      {
+        "id": "completion",
+        "title": "Research Completion and Reporting",
+        "description": "All funded research must submit completion reports to OVPRI for archiving and institutional compliance.",
+        "forms": [
+          { "id": "progress-report", "name": "Research Progress Report", "description": "Mid-term update for ongoing funded projects", "fileUrl": null, "fileType": "DOCX" },
+          { "id": "completion-report", "name": "Research Completion Report", "description": "Final report upon project completion", "fileUrl": null, "fileType": "DOCX" },
+          { "id": "dissemination-report", "name": "Dissemination Activity Report", "description": "Documentation of research outputs and presentations", "fileUrl": null, "fileType": "PDF" }
+        ]
+      }
+    ]
+  },
+
+  "grants": {
+    "navLabel": "Grants & Opportunities",
+    "eyebrow": "External funding",
+    "title": "Grants and Opportunities",
+    "description": "OVPRI actively facilitates AUF faculty and student access to external research grants from government agencies, international bodies, and private foundations.",
+    "opportunities": [
+      {
+        "id": "dost-pchrd",
+        "agency": "DOST-PCHRD",
+        "name": "Philippine Council for Health Research and Development",
+        "description": "Competitive grants for health research with emphasis on diseases prevalent in the Philippines, medical innovations, and public health interventions.",
+        "url": "https://www.pchrd.dost.gov.ph",
+        "targetAreas": ["Health Sciences", "Public Health", "Pharmaceutical Research"]
+      },
+      {
+        "id": "dost-pcieerd",
+        "agency": "DOST-PCIEERD",
+        "name": "Philippine Council for Industry, Energy and Emerging Technology Research and Development",
+        "description": "Grants supporting engineering, ICT, energy, and industrial research with commercialization potential.",
+        "url": "https://www.pcieerd.dost.gov.ph",
+        "targetAreas": ["Engineering", "ICT", "Energy Technology"]
+      },
+      {
+        "id": "dost-pcaarrd",
+        "agency": "DOST-PCAARRD",
+        "name": "Philippine Council for Agriculture, Aquatic and Natural Resources Research and Development",
+        "description": "Grants for environmental science, agriculture, aquatic resources, and sustainable natural resource management.",
+        "url": "https://www.pcaarrd.dost.gov.ph",
+        "targetAreas": ["Environmental Science", "Agriculture", "Natural Resources"]
+      },
+      {
+        "id": "ched-pmrc",
+        "agency": "CHED-PMRC",
+        "name": "CHED's Program on Maritime Research and Collaboration",
+        "description": "CHED-administered competitive grants for higher education research aligned with national development priorities.",
+        "url": "https://ched.gov.ph",
+        "targetAreas": ["Education", "Social Sciences", "Multidisciplinary"]
+      },
+      {
+        "id": "international",
+        "agency": "International",
+        "name": "International Research Collaboration Grants",
+        "description": "OVPRI facilitates access to grants from international bodies including the British Council, Japan International Cooperation Agency (JICA), and other bilateral research programs.",
+        "url": null,
+        "targetAreas": ["All Disciplines", "Multidisciplinary", "International Collaboration"]
+      }
+    ],
+    "applicationForms": [
+      { "id": "external-grant-endorsement", "name": "External Grant Endorsement Letter Request", "description": "Required before submitting applications to funding agencies", "fileUrl": null, "fileType": "PDF" },
+      { "id": "moa-template", "name": "Memorandum of Agreement Template", "description": "Standard MOA for collaborative research projects", "fileUrl": null, "fileType": "DOCX" },
+      { "id": "co-authorship", "name": "Co-Authorship and IP Agreement", "description": "Intellectual property agreement for collaborative outputs", "fileUrl": null, "fileType": "PDF" }
+    ]
+  },
+
+  "archive": {
+    "navLabel": "Archive",
+    "eyebrow": "Research outputs",
+    "title": "Research Archive",
+    "description": "AUF's research archive documents the scholarly contributions of its faculty and students — from refereed journal articles and conference papers to theses and institutional publications.",
+    "featuredPublications": [
+      {
+        "id": "pub-1",
+        "title": "Machine Learning Approaches to Early Detection of Dengue Fever in Central Luzon",
+        "authors": "Santos, M.C., Reyes, J.A., and Cruz, A.L.",
+        "year": "2024",
+        "venue": "Journal of Health Informatics in Developing Countries",
+        "type": "Journal Article",
+        "url": null
+      },
+      {
+        "id": "pub-2",
+        "title": "Flipped Classroom Pedagogy and its Effects on Academic Performance in Philippine Higher Education",
+        "authors": "Dela Pena, R.S., and Manaloto, G.T.",
+        "year": "2024",
+        "venue": "Asia-Pacific Journal of Education",
+        "type": "Journal Article",
+        "url": null
+      },
+      {
+        "id": "pub-3",
+        "title": "Community-Based Disaster Risk Reduction in Pampanga: A Participatory Action Research Approach",
+        "authors": "Torres, L.M., Bautista, E.F., and Villanueva, C.J.",
+        "year": "2023",
+        "venue": "Philippine Journal of Social Development",
+        "type": "Journal Article",
+        "url": null
+      }
+    ],
+    "facultyResearch": {
+      "description": "AUF faculty actively engage in funded and unfunded research across all disciplines. Browse the faculty research repository for working papers, completed studies, and ongoing projects.",
+      "highlights": [
+        "Browse by department, research thrust, or year",
+        "Access pre-publication manuscripts and working papers",
+        "Download theses and dissertations from the AUF Graduate School",
+        "Track citations and research impact metrics"
+      ],
+      "repositoryUrl": null,
+      "thesisUrl": null
+    },
+    "journals": [
+      {
+        "id": "auf-journal",
+        "name": "AUF Research Journal",
+        "description": "AUF's flagship peer-reviewed multidisciplinary journal publishing original research, review articles, and case studies from AUF faculty and invited contributors.",
+        "issn": "TBA",
+        "frequency": "Semi-annual (June and December)",
+        "url": null,
+        "status": "Active"
+      },
+      {
+        "id": "auf-health-journal",
+        "name": "AUF Journal of Health Sciences",
+        "description": "Focused publication for health sciences research outputs from the Colleges of Nursing, Allied Health Professions, and the School of Medicine.",
+        "issn": "TBA",
+        "frequency": "Annual",
+        "url": null,
+        "status": "Active"
+      }
+    ]
+  },
+
+  "news": {
+    "navLabel": "News & Events",
+    "eyebrow": "Stay updated",
+    "title": "News & Events",
+    "upcomingEvents": [
+      {
+        "id": "evt-1",
+        "title": "AUF Research Summit 2025",
+        "date": "TBA",
+        "location": "AUF Campus, Angeles City",
+        "description": "Annual gathering of AUF researchers, faculty, and external collaborators for research presentations, workshops, and networking.",
+        "type": "Conference"
+      },
+      {
+        "id": "evt-2",
+        "title": "Research Proposal Writing Workshop",
+        "date": "TBA",
+        "location": "OVPRI Office, AUF",
+        "description": "Workshop for AUF faculty on developing competitive research proposals for DOST, CHED, and other external funding agencies.",
+        "type": "Workshop"
+      },
+      {
+        "id": "evt-3",
+        "title": "IRB Orientation for New Researchers",
+        "date": "TBA",
+        "location": "AUF Campus",
+        "description": "Mandatory orientation for faculty and students conducting research involving human participants.",
+        "type": "Training"
+      }
+    ],
+    "announcements": [
+      {
+        "id": "ann-1",
+        "title": "Call for Research Proposals — Internal Grant Program",
+        "date": "TBA",
+        "description": "OVPRI invites AUF faculty and graduate students to submit research proposals for the University's internal grant program. Download the application forms from the Services & Support section."
+      },
+      {
+        "id": "ann-2",
+        "title": "DOST-PCHRD Grant Applications Now Open",
+        "date": "TBA",
+        "description": "The Philippine Council for Health Research and Development is accepting applications for its competitive grant program. Contact OVPRI for endorsement processing."
+      }
+    ]
+  },
+
+  "directory": {
+    "navLabel": "Faculty Directory",
+    "eyebrow": "Our researchers",
+    "title": "Faculty Research Directory",
+    "description": "Explore the research profiles of AUF's faculty members — their specializations, active projects, and published works.",
+    "downloadableForms": [
+      { "id": "faculty-profile", "name": "Faculty Researcher Profile Form", "description": "For registration in the AUF Faculty Research Directory", "fileUrl": null, "fileType": "DOCX" },
+      { "id": "research-update", "name": "Research Activity Update Form", "description": "Annual update of publications, grants, and ongoing projects", "fileUrl": null, "fileType": "DOCX" },
+      { "id": "research-load", "name": "Research Load Credit Application", "description": "Application for research load credit in lieu of teaching units", "fileUrl": null, "fileType": "PDF" }
+    ],
+    "featuredResearchers": [
+      {
+        "id": "researcher-1",
+        "name": "TBA",
+        "title": "PhD",
+        "college": "College of Computer Studies",
+        "specialization": "Artificial Intelligence & Machine Learning",
+        "photoUrl": null,
+        "researchHighlights": ["TBA publications in ISI/Scopus-indexed journals", "Active DOST-funded project", "Research mentor for graduate students"]
+      },
+      {
+        "id": "researcher-2",
+        "name": "TBA",
+        "title": "PhD",
+        "college": "College of Nursing",
+        "specialization": "Public Health & Community Nursing",
+        "photoUrl": null,
+        "researchHighlights": ["Community health research in Pampanga", "Collaborative research with PCHRD", "IRB Board Member"]
+      },
+      {
+        "id": "researcher-3",
+        "name": "TBA",
+        "title": "EdD",
+        "college": "College of Education",
+        "specialization": "Educational Technology & Curriculum",
+        "photoUrl": null,
+        "researchHighlights": ["Published in the Asia-Pacific Journal of Education", "Curriculum consultant for DepEd Region III", "CARE Research Center affiliate"]
+      },
+      {
+        "id": "researcher-4",
+        "name": "TBA",
+        "title": "PhD",
+        "college": "College of Engineering and Architecture",
+        "specialization": "Environmental Engineering & Sustainability",
+        "photoUrl": null,
+        "researchHighlights": ["CARI Director", "Externally funded projects in environmental remediation", "National research award recipient"]
+      }
+    ]
+  }
+}

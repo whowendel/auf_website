@@ -1,0 +1,109 @@
+{
+  "hero": {
+    "eyebrow": "AUF External Affairs",
+    "title": "Office of the Vice President for External Affairs",
+    "subtitle": "Leading the University’s strategic partnerships, institutional branding, alumni relations, and global engagement in support of excellence in instruction, research, and community service."
+  },
+  "overview": {
+    "navLabel": "Overview",
+    "eyebrow": "Who we are",
+    "title": "Overview",
+    "intro": "The Office of the Vice President for External Affairs (OVPEA) provides strategic leadership and coherent oversight of Angeles University Foundation’s externally oriented units, ensuring meaningful engagement with local, national, and international stakeholders in support of the University’s mission and development goals.",
+    "paragraphs": [
+      "Since its establishment, the Angeles University Foundation (AUF) has been collaborating with external institutions and stakeholders to achieve its vision of becoming a center of excellence in instruction, research, and community service.",
+      "To further establish an institution-wide system that allows its academic and support units to establish meaningful partnerships with various agencies and groups at the local, national, and international levels for mutual benefits and in support of its mission and vision, the University established the Office of the Vice President for External Affairs (OVPEA).",
+      "The OVPEA is intended to provide strategic leadership and coherent oversight of units whose functions are externally oriented, ensuring strategic engagement with local, national, and international stakeholders in support of the institution’s mission and development goals.",
+      "The OVPEA ensures harmonized implementation of initiatives and programs for networking, linkage, and partnership, and adherence to the standards and policies of regulating and accrediting bodies."
+    ],
+    "highlights": [
+      { "label": "Established", "value": "March 2, 2026" },
+      { "label": "Reports To", "value": "Office of the University President" },
+      { "label": "Core Units", "value": "3" },
+      { "label": "Scope", "value": "Local to Global Partnerships" }
+    ]
+  },
+  "visionMission": {
+    "navLabel": "Vision, Mission & Goals",
+    "eyebrow": "Our direction",
+    "title": "Vision, Mission & Goals",
+    "vision": "The Office of the Vice President for External Affairs envisions Angeles University Foundation as a globally recognized, socially responsive, and industry-engaged university, strengthened by strategic partnerships, a credible institutional brand, and an empowered alumni community in support of excellence in instruction, research, and community service.",
+    "mission": "The Office of the Vice President for External Affairs is committed to leading, coordinating, and sustaining the University’s external engagements by promoting meaningful partnerships, strengthening institutional branding and visibility, and cultivating lifelong alumni relations, thereby advancing the University’s mission, strategic goals, and global standing.",
+    "goals": [
+      {
+        "id": "goal-1",
+        "number": 1,
+        "heading": "Build Strategic Partnerships",
+        "body": "Establish, manage, and sustain strategic local, national, and international partnerships with academic institutions, industry, government agencies, alumni, and other stakeholders that support instruction, research, and community engagement."
+      },
+      {
+        "id": "goal-2",
+        "number": 2,
+        "heading": "Develop Policies and Systems",
+        "body": "Formulate and implement policies, guidelines, and systems governing external relations and partnerships to ensure coherence, accountability, compliance, and alignment with the University’s strategic plan."
+      },
+      {
+        "id": "goal-3",
+        "number": 3,
+        "heading": "Strengthen Institutional Branding",
+        "body": "Enhance the University’s public image, brand identity, and global visibility through coordinated communication, public relations, marketing initiatives, and strategic representation."
+      },
+      {
+        "id": "goal-4",
+        "number": 4,
+        "heading": "Advance Alumni and Placement Programs",
+        "body": "Develop and sustain dynamic alumni relations and placement services that promote alumni engagement, career development, philanthropy, and graduate employability."
+      },
+      {
+        "id": "goal-5",
+        "number": 5,
+        "heading": "Promote Internationalization",
+        "body": "Coordinate academic exchanges, joint research, mobility programs, benchmarking, and participation in global networks in collaboration with academic and support units."
+      },
+      {
+        "id": "goal-6",
+        "number": 6,
+        "heading": "Generate Measurable Outcomes",
+        "body": "Produce measurable results in external engagement that contribute to institutional reputation, quality assurance, accreditation readiness, and global rankings."
+      },
+      {
+        "id": "goal-7",
+        "number": 7,
+        "heading": "Adopt Innovative Practices",
+        "body": "Use data-informed and innovative approaches to ensure high stakeholder satisfaction, continuous performance improvement, and responsiveness to emerging opportunities."
+      }
+    ]
+  },
+  "history": {
+    "navLabel": "History",
+    "eyebrow": "Our journey",
+    "title": "History",
+    "milestones": [
+      {
+        "year": "1997",
+        "title": "Center for Global Education Established",
+        "body": "On June 22, 1997, AUF launched the Center for Global Education (CGE) to promote internationalization, forge partnerships with institutions in the Asia-Pacific region, and facilitate exchanges of publications, faculty, and students."
+      },
+      {
+        "year": "2000s",
+        "title": "International Affairs Office",
+        "body": "Under the Office of the Vice President for Academic Affairs, the CGE evolved into the International Affairs (IA), which led initiatives to expand international partnerships, promote study abroad, strengthen ESL programs, and develop foreign-accredited offerings."
+      },
+      {
+        "year": "2023",
+        "title": "Office of Global Relations Created",
+        "body": "The Office of Global Relations (OGR) was established under the Office of the University President to provide administrative support for the planning, implementation, monitoring, and evaluation of internationalization initiatives and programs."
+      },
+      {
+        "year": "2026",
+        "title": "Office of the Vice President for External Affairs Established",
+        "body": "On March 2, 2026, AUF formally established the Office of the Vice President for External Affairs (OVPEA) to harmonize all networking, linkage, and partnership initiatives. The OVPEA oversees the Office of University Relations, Alumni Affairs and Placement Services, and the Confucius Institute."
+      }
+    ]
+  },
+  "news": {
+    "navLabel": "News & Events",
+    "eyebrow": "Latest updates",
+    "title": "News & Events",
+    "description": "Stay informed about partnership agreements, alumni initiatives, international collaborations, and other developments from the Office of the Vice President for External Affairs."
+  }
+}

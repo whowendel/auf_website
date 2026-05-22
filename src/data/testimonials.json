@@ -1,0 +1,215 @@
+{
+  "hero": {
+    "eyebrow": "Testimonials",
+    "title": "Stories That Speak for Themselves",
+    "subtitle": "Hear from the students, graduates, and families whose lives have been shaped by the AUF experience — in their own words."
+  },
+  "featured": {
+    "navLabel": "Featured Story",
+    "eyebrow": "Spotlight",
+    "quote": "AUF didn't just give me a diploma — it gave me the discipline, the confidence, and the network to build a career I'm proud of. The faculty genuinely cared about my growth, not just my grades. I would choose AUF again without hesitation.",
+    "name": "TBA",
+    "program": "TBA",
+    "batch": "TBA",
+    "college": "TBA",
+    "currentRole": "TBA",
+    "photoUrl": null
+  },
+  "stories": {
+    "navLabel": "Student Stories",
+    "eyebrow": "From Our Community",
+    "title": "What AUF Students Are Saying",
+    "description": "From freshmen finding their footing to graduates launching careers, AUF students share what the university has meant to them.",
+    "items": [
+      {
+        "id": "t1",
+        "quote": "The clinical training at AUF is unmatched. By the time I took the board exams, I felt genuinely prepared because of the real hospital exposure we had from early in the program.",
+        "name": "TBA",
+        "program": "Bachelor of Science in Nursing",
+        "batch": "TBA",
+        "college": "CON",
+        "category": "Graduate",
+        "photoUrl": null
+      },
+      {
+        "id": "t2",
+        "quote": "I chose AUF for Computer Studies and it was the best decision I ever made. The faculty pushed us beyond textbooks — we were building real systems and solving actual problems from sophomore year.",
+        "name": "TBA",
+        "program": "Bachelor of Science in Information Technology",
+        "batch": "TBA",
+        "college": "CCS",
+        "category": "Current Student",
+        "photoUrl": null
+      },
+      {
+        "id": "t3",
+        "quote": "The bar passers from AUF Law consistently rank among the best. The program is rigorous, yes, but that rigor is exactly what prepares you for a demanding legal career.",
+        "name": "TBA",
+        "program": "Juris Doctor",
+        "batch": "TBA",
+        "college": "SOL",
+        "category": "Graduate",
+        "photoUrl": null
+      },
+      {
+        "id": "t4",
+        "quote": "Being a working student while enrolled at AUF was not easy, but the support from my professors and the flexibility of the university made it possible. They really want you to succeed.",
+        "name": "TBA",
+        "program": "Bachelor of Science in Business Administration",
+        "batch": "TBA",
+        "college": "CBA",
+        "category": "Current Student",
+        "photoUrl": null
+      },
+      {
+        "id": "t5",
+        "quote": "AUF's Education program gave me a solid foundation as a teacher. The mentorship I received from my professors during student teaching was something I still draw from every day in my own classroom.",
+        "name": "TBA",
+        "program": "Bachelor of Secondary Education",
+        "batch": "TBA",
+        "college": "CED",
+        "category": "Graduate",
+        "photoUrl": null
+      },
+      {
+        "id": "t6",
+        "quote": "What sets AUF apart is the culture. Students here are competitive but not cutthroat — everyone genuinely helps each other. It made studying for board exams so much less isolating.",
+        "name": "TBA",
+        "program": "Doctor of Medicine",
+        "batch": "TBA",
+        "college": "SOM",
+        "category": "Graduate",
+        "photoUrl": null
+      },
+      {
+        "id": "t7",
+        "quote": "The engineering program challenged me in ways I didn't expect. Thesis projects, lab immersions, site visits — by graduation I had a portfolio that got me hired within a month.",
+        "name": "TBA",
+        "program": "Bachelor of Science in Civil Engineering",
+        "batch": "TBA",
+        "college": "CEA",
+        "category": "Graduate",
+        "photoUrl": null
+      },
+      {
+        "id": "t8",
+        "quote": "I was hesitant about choosing a university outside Manila, but AUF changed my entire perspective. The academic quality, the campus, the community — Angeles City became home.",
+        "name": "TBA",
+        "program": "Bachelor of Science in Psychology",
+        "batch": "TBA",
+        "college": "CAS",
+        "category": "Current Student",
+        "photoUrl": null
+      },
+      {
+        "id": "t9",
+        "quote": "The AUF Graduate School gave me exactly what I needed as a working professional — rigorous coursework, accessible scheduling, and professors who were not just academics but practitioners.",
+        "name": "TBA",
+        "program": "Master of Business Administration",
+        "batch": "TBA",
+        "college": "GS",
+        "category": "Graduate",
+        "photoUrl": null
+      }
+    ]
+  },
+  "international": {
+    "navLabel": "International Voices",
+    "eyebrow": "From Across the Globe",
+    "title": "International Students at AUF",
+    "description": "Students from across Asia, Africa, and beyond have found a home at AUF. Here are some of their stories.",
+    "items": [
+      {
+        "id": "i1",
+        "quote": "Studying medicine in the Philippines was the best choice for my career. The English-medium curriculum, the affordable tuition, and the warmth of Filipino culture made the experience truly enriching.",
+        "name": "TBA",
+        "country": "India",
+        "program": "Doctor of Medicine",
+        "college": "SOM",
+        "photoUrl": null,
+        "flagEmoji": "🇮🇳"
+      },
+      {
+        "id": "i2",
+        "quote": "AUF gave me a quality education I could not afford back home. More importantly, it gave me confidence — knowing I could compete with students from anywhere in the world.",
+        "name": "TBA",
+        "country": "Nigeria",
+        "program": "Bachelor of Science in Nursing",
+        "college": "CON",
+        "photoUrl": null,
+        "flagEmoji": "🇳🇬"
+      },
+      {
+        "id": "i3",
+        "quote": "The transition was easier than I expected because everyone spoke English and everyone was kind. My professors went out of their way to help me adjust to Filipino academic culture.",
+        "name": "TBA",
+        "country": "South Korea",
+        "program": "Bachelor of Science in Information Technology",
+        "college": "CCS",
+        "photoUrl": null,
+        "flagEmoji": "🇰🇷"
+      },
+      {
+        "id": "i4",
+        "quote": "The Buddy Program was a lifesaver. My Filipino buddy introduced me to campus life, helped me find accommodation, and became one of my closest friends throughout my entire stay in the Philippines.",
+        "name": "TBA",
+        "country": "China",
+        "program": "Bachelor of Science in Business Administration",
+        "college": "CBA",
+        "photoUrl": null,
+        "flagEmoji": "🇨🇳"
+      }
+    ]
+  },
+  "parents": {
+    "navLabel": "Parent & Family Voices",
+    "eyebrow": "From Families Who Trust AUF",
+    "title": "What Parents Are Saying",
+    "description": "For many families, choosing a university for their child is one of the most significant decisions they'll make. Here's what AUF parents have shared.",
+    "items": [
+      {
+        "id": "p1",
+        "quote": "When my daughter told me she wanted to take Medicine at AUF, I researched extensively. What I found — the accreditations, the board exam results, the clinical facilities — convinced me completely. It was the right choice.",
+        "name": "TBA",
+        "relation": "Parent of SOM Graduate",
+        "photoUrl": null
+      },
+      {
+        "id": "p2",
+        "quote": "My son initially struggled during his first year. The Guidance Office reached out to us as a family and worked with him. That kind of attention to student wellbeing is rare — and we are deeply grateful for it.",
+        "name": "TBA",
+        "relation": "Parent of CEA Student",
+        "photoUrl": null
+      },
+      {
+        "id": "p3",
+        "quote": "AUF gave my child more than a degree — it instilled values, discipline, and a sense of purpose. As a parent, that is everything. We are proud AUF alumni by proxy now.",
+        "name": "TBA",
+        "relation": "Parent of CON Graduate",
+        "photoUrl": null
+      }
+    ]
+  },
+  "stats": {
+    "navLabel": "By the Numbers",
+    "eyebrow": "AUF at a Glance",
+    "title": "AUF by the Numbers",
+    "description": "Behind every testimonial is a track record of consistent excellence. These figures reflect the trust the AUF community has placed in the university — year after year.",
+    "metrics": [
+      { "id": "m1", "value": "97%",    "label": "Student Satisfaction Rate",     "note": "Based on exit survey data" },
+      { "id": "m2", "value": "Top 3",  "label": "PRC Board Exam Performers",     "note": "In key licensure examinations" },
+      { "id": "m3", "value": "85%+",   "label": "Graduate Employment Rate",      "note": "Within 6 months of graduation" },
+      { "id": "m4", "value": "60,000+","label": "Alumni Worldwide",              "note": "Across 30+ countries" },
+      { "id": "m5", "value": "200+",   "label": "Industry & Research Partners",  "note": "Locally and internationally" },
+      { "id": "m6", "value": "6 Decades","label": "Producing Quality Graduates", "note": "Since our founding" }
+    ],
+    "cta": {
+      "heading": "Ready to Write Your Own Story?",
+      "body": "Thousands of Abacans started right where you are now. Take the next step.",
+      "primaryLabel": "Apply Now",
+      "primaryHref": "/admissions",
+      "secondaryLabel": "Contact Admissions",
+      "secondaryHref": "/admissions#university-registrar"
+    }
+  }
+}

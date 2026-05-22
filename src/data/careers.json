@@ -1,0 +1,303 @@
+{
+  "hero": {
+    "eyebrow": "AUF Career Services",
+    "title": "Launch Your Career with Confidence",
+    "subtitle": "The AUF Career Development Center bridges students and graduates with industry opportunities through job placement, career counseling, and lifelong professional development."
+  },
+  "overview": {
+    "navLabel": "Overview",
+    "eyebrow": "Career Development Center",
+    "title": "Your Career Journey Starts Here",
+    "description": "The Career Development Center (CDC) at AUF provides comprehensive career readiness programs for students and graduates. We work hand-in-hand with industry partners to connect talent with opportunity — from internship placements to full-time employment.",
+    "stats": [
+      { "id": "s1", "value": "85%",    "label": "Graduate Employment Rate" },
+      { "id": "s2", "value": "200+",   "label": "Industry Partners" },
+      { "id": "s3", "value": "1,500+", "label": "Jobs Facilitated Annually" },
+      { "id": "s4", "value": "50+",    "label": "On-Campus Recruiters" }
+    ],
+    "mission": "To prepare every AUF graduate for a meaningful career by equipping them with the skills, networks, and confidence to thrive in a rapidly changing world."
+  },
+  "services": {
+    "navLabel": "Career Services",
+    "eyebrow": "How We Help",
+    "title": "Career Services for Students & Graduates",
+    "description": "Our comprehensive suite of career services is available to currently enrolled students and recent AUF graduates. All services are provided free of charge.",
+    "servicesList": [
+      {
+        "id": "sv1",
+        "icon": "UserCheck",
+        "title": "Career Counseling",
+        "description": "One-on-one sessions with a career counselor to help you identify your strengths, explore career paths, and set actionable professional goals.",
+        "availability": "By appointment"
+      },
+      {
+        "id": "sv2",
+        "icon": "FileText",
+        "title": "Resume & CV Review",
+        "description": "Expert feedback on your resume, CV, or application materials to help you present yourself effectively to employers.",
+        "availability": "Walk-in or online"
+      },
+      {
+        "id": "sv3",
+        "icon": "MessageSquare",
+        "title": "Mock Interviews",
+        "description": "Practice interview skills in a realistic setting with constructive feedback from career counselors and industry professionals.",
+        "availability": "Scheduled sessions"
+      },
+      {
+        "id": "sv4",
+        "icon": "Briefcase",
+        "title": "Job Referral",
+        "description": "Direct referrals to partner companies actively hiring AUF graduates. We match your skills and interests with open positions across industries.",
+        "availability": "Year-round"
+      },
+      {
+        "id": "sv5",
+        "icon": "Building2",
+        "title": "OJT & Internship Placement",
+        "description": "Assistance in finding and securing on-the-job training and internship positions aligned with your degree program requirements.",
+        "availability": "Per semester"
+      },
+      {
+        "id": "sv6",
+        "icon": "Award",
+        "title": "Certification Programs",
+        "description": "Access to short-term professional certification programs offered in partnership with leading industry organizations.",
+        "availability": "Varies by program"
+      }
+    ]
+  },
+  "resources": {
+    "navLabel": "Career Resources",
+    "eyebrow": "Tools & Downloads",
+    "title": "Career Development Resources",
+    "description": "Download templates, guides, and checklists to help you build your application materials, prepare for interviews, and navigate your job search.",
+    "downloadableForms": [
+      { "id": "r1", "name": "Resume Template (Undergraduate)",          "fileType": "DOCX", "fileUrl": null },
+      { "id": "r2", "name": "CV Template (Graduate / Postgraduate)",    "fileType": "DOCX", "fileUrl": null },
+      { "id": "r3", "name": "Cover Letter Template",                    "fileType": "DOCX", "fileUrl": null },
+      { "id": "r4", "name": "Job Application Checklist",               "fileType": "PDF",  "fileUrl": null },
+      { "id": "r5", "name": "OJT Application Form",                    "fileType": "PDF",  "fileUrl": null },
+      { "id": "r6", "name": "OJT Endorsement Letter Template",         "fileType": "DOCX", "fileUrl": null },
+      { "id": "r7", "name": "Interview Preparation Guide",             "fileType": "PDF",  "fileUrl": null },
+      { "id": "r8", "name": "LinkedIn Profile Optimization Guide",     "fileType": "PDF",  "fileUrl": null }
+    ]
+  },
+  "partners": {
+    "navLabel": "Industry Partners",
+    "eyebrow": "Hiring from AUF",
+    "title": "Our Industry Partners",
+    "description": "AUF collaborates with companies and organizations across the Philippines and abroad who actively recruit our graduates. Our partnerships span all major industries.",
+    "sectors": [
+      {
+        "id": "sec1",
+        "name": "Healthcare & Medical",
+        "companies": [
+          "Philippine General Hospital",
+          "St. Luke's Medical Center",
+          "Makati Medical Center",
+          "Angeles University Medical Center",
+          "National Kidney and Transplant Institute"
+        ]
+      },
+      {
+        "id": "sec2",
+        "name": "Technology & IT Services",
+        "companies": [
+          "Accenture Philippines",
+          "Concentrix Clark",
+          "Globe Telecom",
+          "Smart Communications",
+          "IBM Philippines"
+        ]
+      },
+      {
+        "id": "sec3",
+        "name": "Engineering & Construction",
+        "companies": [
+          "DPWH Regional Office III",
+          "SMEC Philippines",
+          "EEI Corporation",
+          "Megawide Construction Corporation"
+        ]
+      },
+      {
+        "id": "sec4",
+        "name": "Banking & Finance",
+        "companies": [
+          "BDO Unibank",
+          "Metrobank",
+          "Bank of the Philippine Islands",
+          "Landbank of the Philippines"
+        ]
+      },
+      {
+        "id": "sec5",
+        "name": "Government & Public Service",
+        "companies": [
+          "Department of Health",
+          "Commission on Higher Education",
+          "Philippine National Police",
+          "Bureau of Immigration"
+        ]
+      },
+      {
+        "id": "sec6",
+        "name": "Business & Retail",
+        "companies": [
+          "SM Group of Companies",
+          "Ayala Corporation",
+          "Jollibee Foods Corporation",
+          "Robinson's Retail Holdings"
+        ]
+      }
+    ],
+    "partnershipNote": "Interested in hiring AUF graduates? Contact our Career Development Center to explore partnership opportunities and campus recruitment arrangements."
+  },
+  "openings": {
+    "navLabel": "Job Openings",
+    "eyebrow": "Opportunities",
+    "title": "Current Job & OJT Openings",
+    "description": "Browse active job postings and OJT openings from our partner companies. All listings are verified by the Career Development Center. Updated regularly — check back often.",
+    "listings": [
+      {
+        "id": "j1",
+        "type": "Full-time",
+        "title": "Staff Nurse",
+        "company": "Angeles University Medical Center",
+        "location": "Angeles City, Pampanga",
+        "colleges": ["CON", "CAMP"],
+        "postedDate": "TBA",
+        "href": null
+      },
+      {
+        "id": "j2",
+        "type": "Full-time",
+        "title": "Software Developer",
+        "company": "Concentrix Philippines",
+        "location": "Clark Freeport Zone, Pampanga",
+        "colleges": ["CCS"],
+        "postedDate": "TBA",
+        "href": null
+      },
+      {
+        "id": "j3",
+        "type": "Full-time",
+        "title": "Civil Engineer",
+        "company": "EEI Corporation",
+        "location": "Metro Manila",
+        "colleges": ["CEA"],
+        "postedDate": "TBA",
+        "href": null
+      },
+      {
+        "id": "j4",
+        "type": "OJT",
+        "title": "Business Administration Intern",
+        "company": "BDO Unibank – Pampanga Branch",
+        "location": "Angeles City, Pampanga",
+        "colleges": ["CBA"],
+        "postedDate": "TBA",
+        "href": null
+      },
+      {
+        "id": "j5",
+        "type": "Full-time",
+        "title": "Secondary School Teacher",
+        "company": "DepEd Schools Division of Angeles City",
+        "location": "Angeles City, Pampanga",
+        "colleges": ["CED"],
+        "postedDate": "TBA",
+        "href": null
+      },
+      {
+        "id": "j6",
+        "type": "OJT",
+        "title": "Criminology Intern",
+        "company": "Angeles City Police Office",
+        "location": "Angeles City, Pampanga",
+        "colleges": ["CCJE"],
+        "postedDate": "TBA",
+        "href": null
+      }
+    ],
+    "submissionNote": "Companies wishing to post job or OJT openings may submit listings to the Career Development Center for review and posting.",
+    "submissionContactNote": "Send listings to cdc@auf.edu.ph with the subject line \"Job Posting Request\"."
+  },
+  "events": {
+    "navLabel": "Career Events",
+    "eyebrow": "Upcoming Events",
+    "title": "Career Events & Job Fairs",
+    "description": "Attend our regular career events to meet employers, sharpen your professional skills, and expand your professional network.",
+    "upcomingEvents": [
+      {
+        "id": "ev1",
+        "title": "AUF Annual Job Fair",
+        "type": "Job Fair",
+        "date": "TBA",
+        "venue": "AUF Gymnasium, Main Campus",
+        "description": "Meet recruiters from 50+ companies across all industries. Bring your resume, dress professionally, and be ready to network.",
+        "registrationRequired": true
+      },
+      {
+        "id": "ev2",
+        "title": "Resume Writing Workshop",
+        "type": "Workshop",
+        "date": "TBA",
+        "venue": "Career Development Center, Main Building",
+        "description": "A hands-on workshop covering resume structure, tailoring applications to specific roles, and the most common mistakes to avoid.",
+        "registrationRequired": true
+      },
+      {
+        "id": "ev3",
+        "title": "Tech Industry Insider Talk",
+        "type": "Industry Talk",
+        "date": "TBA",
+        "venue": "CCS Auditorium",
+        "description": "Hear from IT professionals about emerging roles, high-demand skills, and navigating a career in technology.",
+        "registrationRequired": false
+      },
+      {
+        "id": "ev4",
+        "title": "Healthcare Career Forum",
+        "type": "Forum",
+        "date": "TBA",
+        "venue": "CAMP/CON Auditorium",
+        "description": "Discussions on board exam preparation, local and abroad employment, and licensure updates for health science graduates.",
+        "registrationRequired": false
+      }
+    ]
+  },
+  "contact": {
+    "navLabel": "Contact CDC",
+    "eyebrow": "Reach Out",
+    "title": "Contact the Career Development Center",
+    "description": "Our team is ready to help you navigate your career journey. Whether you're a student looking for your first job or an employer looking to recruit AUF graduates, we're here to connect you.",
+    "office": {
+      "name": "Career Development Center",
+      "building": "Main Building, Ground Floor",
+      "campus": "AUF Main Campus, MacArthur Highway, Angeles City",
+      "email": "cdc@auf.edu.ph",
+      "phone": "(045) 888-8691 local 2000",
+      "hours": "Monday – Friday, 8:00 AM – 5:00 PM"
+    },
+    "forStudents": {
+      "title": "For Students & Graduates",
+      "steps": [
+        "Visit the CDC office or email us to schedule an appointment",
+        "Bring a copy of your resume and transcript of records",
+        "Share your area of interest and preferred employment type",
+        "Our counselors will match you with relevant openings and guide you through the process"
+      ]
+    },
+    "forEmployers": {
+      "title": "For Employers & Partners",
+      "steps": [
+        "Contact us by email or phone to discuss your hiring or OJT needs",
+        "We will coordinate a campus recruitment schedule or referral arrangement",
+        "Submit job descriptions and requirements to the CDC for screening",
+        "Choose from job fair participation, referral lists, or direct campus coordination"
+      ]
+    }
+  }
+}
