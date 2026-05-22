@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AUF Website
 
-## Getting Started
+This repository contains the AUF public website built with Next.js (App Router) and TypeScript.
 
-First, run the development server:
+## Quick start
+
+Install dependencies and run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Important scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run these from the project root:
 
-## Learn More
+- `npm run dev` — start Next.js dev server
+- `npm run build` — runs `prisma generate` then builds Next.js for production
+- `npm run start` — start the production server after `npm run build`
+- `npm run lint` — run ESLint
+- `npm run typecheck` — run TypeScript type checks
 
-To learn more about Next.js, take a look at the following resources:
+Prisma / database tasks:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `npm run db:generate` — `prisma generate`
+- `npm run db:migrate` — `prisma migrate dev`
+- `npm run db:deploy` — `prisma migrate deploy`
+- `npm run db:push` — `prisma db push`
+- `npm run db:studio` — `prisma studio`
+- `npm run db:seed` — run `prisma/seed.ts` (via `tsx`)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project overview
 
-## Deploy on Vercel
+High-level layout (key folders):
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `src/app` — Next.js App Router pages and layouts
+- `src/components` — UI components (public, admin, editor, etc.)
+- `src/data` — JSON and helper modules used to populate pages
+- `src/lib` — utilities, environment helpers, and Prisma client wrapper
+- `src/server` — server-side actions, services, repositories, and validators
+- `prisma` — Prisma schema and seed script
+- `public` — static assets (images, icons, slider images)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Look at `src/components/public/chatbot/chatbot-widget.tsx` for the site chatbot implementation.
+
+## Prisma
+
+The repo uses Prisma (see `prisma/schema.prisma`). Typical workflow:
+
+```bash
+# generate client
+npm run db:generate
+
+# run migrations (dev)
+npm run db:migrate
+
+# open Studio
+npm run db:studio
+
+# seed the database
+npm run db:seed
+```
+
+Database connection and other environment variables are expected in a `.env` file at the project root.
+
+## Contributing
+
+- Follow existing code patterns (Tailwind, shadcn components, `src/app` layout structure).
+- Run `npm run lint` and `npm run typecheck` before opening a PR.
+
+## Notes
+
+- This project targets Next.js 16+ and React 19.
+- See `package.json` for the full list of dependencies and devDependencies.
+
+If you want, I can expand this README with deployment steps, CI examples, or a short developer onboarding checklist.
