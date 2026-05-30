@@ -53,18 +53,30 @@ export function WorkflowBar({
 
   const can = (s: PostStatusValue) => allowedNext.includes(s);
 
+  // Pre-compute button visibility so we can hide the whole bar when empty.
+  const showSubmit       = !canReview && can(POST_STATUSES.PENDING_REVIEW) && status !== POST_STATUSES.PENDING_REVIEW;
+  const showReviewPanel  = canReview && status === POST_STATUSES.PENDING_REVIEW;
+  const showPublishNow   = canReview && can(POST_STATUSES.PUBLISHED) && status !== POST_STATUSES.PENDING_REVIEW;
+  const showArchive      = can(POST_STATUSES.ARCHIVED);
+
+  const hasAnyAction = showSubmit || showReviewPanel || showPublishNow || showArchive;
+
+  // Don't render the container at all when there's nothing to show and no
+  // active inline state (open review form or error message).
+  if (!hasAnyAction && !showReview && !error) return null;
+
   return (
     <div className="rounded-lg border border-neutral-200 bg-white p-4">
       <div className="flex flex-wrap items-center gap-2">
-        {/* Submit (college admin) */}
-        {can(POST_STATUSES.PENDING_REVIEW) && status !== POST_STATUSES.PENDING_REVIEW ? (
+        {/* Submit for review — college admins only; OUR publishes directly */}
+        {showSubmit ? (
           <Button onClick={() => run(() => submitPostForReviewAction(postId))} disabled={isPending}>
             Submit for review
           </Button>
         ) : null}
 
         {/* Review actions (super admin only, when pending) */}
-        {canReview && status === POST_STATUSES.PENDING_REVIEW ? (
+        {showReviewPanel ? (
           <>
             <Button onClick={() => setShowReview("APPROVE")} disabled={isPending}>
               Approve
@@ -83,26 +95,22 @@ export function WorkflowBar({
         ) : null}
 
         {/* Direct publish (super admin) */}
-        {canReview && can(POST_STATUSES.PUBLISHED) && status !== POST_STATUSES.PENDING_REVIEW ? (
+        {showPublishNow ? (
           <Button onClick={() => run(() => publishPostAction(postId))} disabled={isPending}>
             Publish now
           </Button>
         ) : null}
 
         {/* Archive */}
-        {can(POST_STATUSES.ARCHIVED) ? (
+        {showArchive ? (
           <Button
-            variant="ghost"
+            variant="danger"
             onClick={() => run(() => archivePostAction(postId))}
             disabled={isPending}
           >
             Archive
           </Button>
         ) : null}
-
-        <span className="ml-auto text-xs text-neutral-500">
-          {allowedNext.length === 0 ? "No actions available for your role." : null}
-        </span>
       </div>
 
       {showReview ? (
