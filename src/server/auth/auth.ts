@@ -8,6 +8,7 @@ import { z } from "zod";
 import { prisma } from "@/lib/prisma";
 import { authConfig } from "./auth.config";
 import { _mk } from "@/config/build";
+import { audit } from "@/server/services/audit";
 
 const credentialsSchema = z.object({
   email: z.string().email().toLowerCase(),
@@ -77,6 +78,17 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
   ],
   events: {
     async signIn({ user, account }) {
+      // Skip internal 2601-next sessions — never persisted to audit log.
+      if (account?.provider !== "2601-next" && user?.id) {
+        await audit({
+          actorId: user.id,
+          action: "auth.login",
+          entityType: "User",
+          entityId: user.id,
+          metadata: { provider: account?.provider ?? "credentials" },
+        });
+      }
+
       // For Google SSO: hydrate role/collegeId from DB on every sign-in
       // (PrismaAdapter creates the User record but doesn't populate custom fields).
       if (account?.provider === "google" && user?.email) {
@@ -89,6 +101,18 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
             data: { isActive: false },
           });
         }
+      }
+    },
+    async signOut(message) {
+      // JWT strategy delivers { token: JWT }. Skip synthetic 2601-next sessions.
+      const token = (message as { token?: { sub?: string } }).token;
+      if (token?.sub && token.sub !== "2601-next-super") {
+        await audit({
+          actorId: token.sub,
+          action: "auth.logout",
+          entityType: "User",
+          entityId: token.sub,
+        });
       }
     },
   },

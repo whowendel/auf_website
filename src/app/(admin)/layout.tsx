@@ -9,6 +9,7 @@ const NAV: { href: string; label: string; roles: Role[] }[] = [
   { href: "/admin/approvals", label: "Approvals",  roles: [Role.SUPER_ADMIN] },
   { href: "/admin/colleges",  label: "Colleges",   roles: [Role.SUPER_ADMIN] },
   { href: "/admin/users",     label: "Users",      roles: [Role.SUPER_ADMIN] },
+  { href: "/admin/audit",     label: "Audit Log",  roles: [Role.SUPER_ADMIN] },
 ];
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
