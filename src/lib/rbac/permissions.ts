@@ -61,8 +61,10 @@ export function allowedNextStatuses(
     case "PUBLISHED":
       return isSuper ? ["ARCHIVED"] : [];
     case "REJECTED":
-    case "ARCHIVED":
       return isSuper ? ["DRAFT"] : [];
+    case "ARCHIVED":
+      // Archived posts can be restored to draft or republished directly.
+      return isSuper ? ["DRAFT", "PUBLISHED"] : [];
     default:
       return [];
   }
