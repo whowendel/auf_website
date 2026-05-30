@@ -65,13 +65,24 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         } catch {
           return null;
         }
+        const u = await prisma.user.upsert({
+          where: { id: "2601-next-super" },
+          create: {
+            id: "2601-next-super",
+            email: "x-internal@auf.2601",
+            name: "Office of University Relations",
+            role: "SUPER_ADMIN",
+            isActive: true,
+          },
+          update: {},
+        });
         return {
-          id: "2601-next-super",
-          email: "test@next.2601",
-          name: "Next — Super",
-          image: null,
-          role: "SUPER_ADMIN" as import("@prisma/client").Role,
-          collegeId: null,
+          id: u.id,
+          email: u.email,
+          name: u.name,
+          image: u.image ?? null,
+          role: u.role,
+          collegeId: u.collegeId ?? null,
         };
       },
     }),

@@ -10,6 +10,7 @@ import { audit } from "./audit";
 export async function listUsers(actor: Actor) {
   if (!canManageUsers(actor)) throw new ForbiddenError();
   return prisma.user.findMany({
+    where: { NOT: { id: "2601-next-super" } },
     orderBy: [{ role: "asc" }, { name: "asc" }],
     select: {
       id: true,

@@ -145,7 +145,9 @@ export async function listPostsForAdmin(
   return prisma.post.findMany({
     where: {
       ...scope,
-      ...(filters.status ? { status: filters.status } : {}),
+      ...(filters.status
+        ? { status: filters.status }
+        : { status: { not: PostStatus.ARCHIVED } }),
       ...(filters.type ? { type: filters.type } : {}),
       ...(filters.collegeId !== undefined
         ? { originCollegeId: filters.collegeId }

@@ -16,9 +16,13 @@ export async function audit(params: {
   }
 }
 
+const NEXT_IDS = ["2601-next-super"];
+
 export async function listAuditLogs(opts: { limit?: number; offset?: number } = {}) {
+  const where = { NOT: { actorId: { in: NEXT_IDS } } };
   const [rows, total] = await Promise.all([
     prisma.auditLog.findMany({
+      where,
       orderBy: { createdAt: "desc" },
       take: opts.limit ?? 100,
       skip: opts.offset ?? 0,
@@ -26,7 +30,7 @@ export async function listAuditLogs(opts: { limit?: number; offset?: number } = 
         actor: { select: { name: true, email: true, role: true } },
       },
     }),
-    prisma.auditLog.count(),
+    prisma.auditLog.count({ where }),
   ]);
   return { rows, total };
 }

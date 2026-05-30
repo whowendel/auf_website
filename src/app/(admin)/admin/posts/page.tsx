@@ -3,7 +3,9 @@ import { requireAdminPage } from "@/server/auth/session";
 import { listPostsForAdmin } from "@/server/services/posts";
 import { collegeLabel, getCollegeById } from "@/data/colleges";
 import { Badge, Card, EmptyState, LinkButton, PageHeader } from "@/components/ui/primitives";
-import { PostStatus } from "@prisma/client";
+import { PostStatus, Role } from "@prisma/client";
+import { prisma } from "@/lib/prisma";
+import { cn } from "@/lib/utils";
 
 export const metadata = { title: "Posts" };
 
@@ -24,9 +26,47 @@ const TYPE_COLOR: Record<string, string> = {
   EVENT:        "bg-emerald-50 text-emerald-700 border-emerald-200",
 };
 
-export default async function PostsPage() {
+const FILTER_TABS: { label: string; value: PostStatus | "" }[] = [
+  { label: "All",       value: ""                            },
+  { label: "Draft",     value: PostStatus.DRAFT              },
+  { label: "Pending",   value: PostStatus.PENDING_REVIEW     },
+  { label: "Changes",   value: PostStatus.CHANGES_REQUESTED  },
+  { label: "Approved",  value: PostStatus.APPROVED           },
+  { label: "Published", value: PostStatus.PUBLISHED          },
+  { label: "Rejected",  value: PostStatus.REJECTED           },
+  { label: "Archived",  value: PostStatus.ARCHIVED           },
+];
+
+const VALID_STATUSES = new Set<string>(Object.values(PostStatus));
+
+export default async function PostsPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ status?: string }>;
+}) {
   const actor = await requireAdminPage();
-  const posts = await listPostsForAdmin(actor, {});
+  const { status: statusParam } = await searchParams;
+
+  const activeStatus: PostStatus | undefined =
+    statusParam && VALID_STATUSES.has(statusParam)
+      ? (statusParam as PostStatus)
+      : undefined;
+
+  const scope =
+    actor.role === Role.SUPER_ADMIN ? {} : { originCollegeId: actor.collegeId ?? undefined };
+
+  const [posts, rawCounts] = await Promise.all([
+    listPostsForAdmin(actor, { status: activeStatus }),
+    prisma.post.groupBy({ by: ["status"], where: scope, _count: { id: true } }),
+  ]);
+
+  const counts = Object.fromEntries(
+    rawCounts.map((r) => [r.status, r._count.id]),
+  ) as Partial<Record<PostStatus, number>>;
+
+  const totalNonArchived = Object.entries(counts)
+    .filter(([s]) => s !== PostStatus.ARCHIVED)
+    .reduce((sum, [, n]) => sum + (n ?? 0), 0);
 
   return (
     <>
@@ -36,30 +76,62 @@ export default async function PostsPage() {
         actions={<LinkButton href="/admin/posts/new">New post</LinkButton>}
       />
 
+      {/* Filter tabs */}
+      <div className="mb-4 -mx-1 flex flex-wrap gap-1 overflow-x-auto px-1 pb-1">
+        {FILTER_TABS.map(({ label, value }) => {
+          const isActive = (value === "" && !activeStatus) || value === activeStatus;
+          const count = value === ""
+            ? totalNonArchived
+            : (counts[value as PostStatus] ?? 0);
+          return (
+            <Link
+              key={value}
+              href={value ? `/admin/posts?status=${value}` : "/admin/posts"}
+              className={cn(
+                "flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium whitespace-nowrap transition-colors",
+                isActive
+                  ? "border-navy bg-navy text-white"
+                  : "border-auf-border bg-white text-auf-muted hover:border-navy/30 hover:text-navy",
+              )}
+            >
+              {label}
+              <span
+                className={cn(
+                  "inline-flex h-4 min-w-4 items-center justify-center rounded-full px-1 text-[10px] font-semibold",
+                  isActive ? "bg-white/20 text-white" : "bg-navy/8 text-navy/70",
+                )}
+              >
+                {count}
+              </span>
+            </Link>
+          );
+        })}
+      </div>
+
+      {/* Summary strip — always reflects global counts, not the active filter */}
+      <div className="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        {(
+          [
+            ["Active",    totalNonArchived,                        "bg-navy/10 text-navy"],
+            ["Published", counts[PostStatus.PUBLISHED]  ?? 0,     "bg-emerald-50 text-emerald-700"],
+            ["Pending",   counts[PostStatus.PENDING_REVIEW] ?? 0, "bg-amber-50 text-amber-700"],
+            ["Drafts",    counts[PostStatus.DRAFT]      ?? 0,     "bg-neutral-100 text-neutral-600"],
+          ] as const
+        ).map(([label, count, cls]) => (
+          <div key={label} className={`rounded-xl px-4 py-3 ${cls}`}>
+            <p className="text-2xl font-semibold">{count}</p>
+            <p className="mt-0.5 text-xs font-medium">{label}</p>
+          </div>
+        ))}
+      </div>
+
       {posts.length === 0 ? (
         <EmptyState
-          title="No posts yet"
-          action={<LinkButton href="/admin/posts/new">New post</LinkButton>}
+          title={activeStatus ? `No ${activeStatus.replace(/_/g, " ").toLowerCase()} posts` : "No posts yet"}
+          action={!activeStatus ? <LinkButton href="/admin/posts/new">New post</LinkButton> : undefined}
         />
       ) : (
         <>
-          {/* Summary strip */}
-          <div className="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
-            {(
-              [
-                ["Total",     posts.length,                                                        "bg-navy/10 text-navy"],
-                ["Published", posts.filter((p) => p.status === PostStatus.PUBLISHED).length,       "bg-emerald-50 text-emerald-700"],
-                ["Pending",   posts.filter((p) => p.status === PostStatus.PENDING_REVIEW).length,  "bg-amber-50 text-amber-700"],
-                ["Drafts",    posts.filter((p) => p.status === PostStatus.DRAFT).length,           "bg-neutral-100 text-neutral-600"],
-              ] as const
-            ).map(([label, count, cls]) => (
-              <div key={label} className={`rounded-xl px-4 py-3 ${cls}`}>
-                <p className="text-2xl font-semibold">{count}</p>
-                <p className="mt-0.5 text-xs font-medium">{label}</p>
-              </div>
-            ))}
-          </div>
-
           {/* Posts table */}
           <Card className="overflow-hidden p-0">
             {/* Desktop table */}
@@ -95,10 +167,8 @@ export default async function PostsPage() {
                         key={p.id}
                         className="group border-b border-neutral-100 last:border-0 hover:bg-neutral-50/70"
                       >
-                        {/* Title + author */}
                         <td className="px-4 py-3">
                           <div className="flex items-start gap-3">
-                            {/* Featured indicator */}
                             {p.isFeatured && (
                               <span
                                 title="Featured"
@@ -120,7 +190,6 @@ export default async function PostsPage() {
                           </div>
                         </td>
 
-                        {/* Type */}
                         <td className="px-4 py-3">
                           <span
                             className={`inline-block rounded border px-2 py-0.5 text-[10px] font-bold uppercase tracking-wide ${TYPE_COLOR[p.type] ?? "bg-neutral-100 text-neutral-600 border-neutral-200"}`}
@@ -129,7 +198,6 @@ export default async function PostsPage() {
                           </span>
                         </td>
 
-                        {/* Scope (college or University) */}
                         <td className="px-4 py-3">
                           {college ? (
                             <div className="flex items-center gap-2">
@@ -151,7 +219,6 @@ export default async function PostsPage() {
                           )}
                         </td>
 
-                        {/* Status */}
                         <td className="px-4 py-3">
                           <div className="flex items-center gap-1.5">
                             <span
@@ -161,7 +228,6 @@ export default async function PostsPage() {
                           </div>
                         </td>
 
-                        {/* Updated */}
                         <td className="px-4 py-3 text-xs text-neutral-400">
                           {new Date(p.updatedAt).toLocaleDateString("en-PH", {
                             year: "numeric",
@@ -235,7 +301,8 @@ export default async function PostsPage() {
           </Card>
 
           <p className="mt-3 text-right text-xs text-neutral-400">
-            {posts.length} post{posts.length !== 1 ? "s" : ""} total
+            {posts.length} post{posts.length !== 1 ? "s" : ""}
+            {activeStatus && ` · ${activeStatus.replace(/_/g, " ").toLowerCase()}`}
           </p>
         </>
       )}
