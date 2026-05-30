@@ -24,7 +24,7 @@ export function UserActivateToggle({
           router.refresh();
         })
       }
-      className="text-xs font-medium text-neutral-700 hover:underline disabled:text-neutral-400"
+      className="text-xs font-medium text-navy/70 transition-colors hover:text-navy hover:underline disabled:text-navy/30"
     >
       {isActive ? "Deactivate" : "Activate"}
     </button>
