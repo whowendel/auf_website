@@ -2,12 +2,12 @@
 
 import { useState, useTransition } from "react";
 import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 import {
   createPostAction,
   updatePostAction,
 } from "@/server/actions/posts";
 import {
-  Alert,
   Button,
   Field,
   Input,
@@ -54,7 +54,6 @@ export function PostForm({
   initial?: Initial;
 }) {
   const router = useRouter();
-  const [error, setError] = useState<string | null>(null);
   const [isPending, startTransition] = useTransition();
   const isSuper = role === "SUPER_ADMIN";
 
@@ -63,7 +62,6 @@ export function PostForm({
   return (
     <form
       action={(fd) => {
-        setError(null);
         startTransition(async () => {
           try {
             const rawScope = String(fd.get("originCollegeId") ?? "");
@@ -88,6 +86,7 @@ export function PostForm({
                 coverImageAlt: nullable(fd.get("coverImageAlt")),
                 scheduledFor: null,
               });
+              toast.success("Post created as draft");
               router.push(`/admin/posts/${r.id}`);
             } else if (initial) {
               await updatePostAction({
@@ -104,10 +103,11 @@ export function PostForm({
                 coverImageUrl: nullable(fd.get("coverImageUrl")),
                 coverImageAlt: nullable(fd.get("coverImageAlt")),
               });
+              toast.success("Changes saved");
               router.refresh();
             }
           } catch (e) {
-            setError(e instanceof Error ? e.message : "Something went wrong");
+            toast.error(e instanceof Error ? e.message : "Something went wrong");
           }
         });
       }}
@@ -248,12 +248,6 @@ export function PostForm({
               })}
             </div>
           </Field>
-        </div>
-      ) : null}
-
-      {error ? (
-        <div className="sm:col-span-2">
-          <Alert tone="error">{error}</Alert>
         </div>
       ) : null}
 

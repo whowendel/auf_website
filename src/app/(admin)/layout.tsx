@@ -4,6 +4,7 @@ import { Role } from "@prisma/client";
 import { auth } from "@/server/auth/auth";
 import { signOutAction } from "@/server/actions/auth";
 import { Badge } from "@/components/ui/primitives";
+import { Toaster } from "@/components/ui/sonner";
 
 const NAV: { href: string; label: string; roles: Role[] }[] = [
   { href: "/admin/dashboard", label: "Dashboard",  roles: [Role.SUPER_ADMIN, Role.COLLEGE_ADMIN, Role.COLLEGE_EDITOR] },
@@ -63,6 +64,8 @@ export default async function AdminLayout({ children }: { children: React.ReactN
           <div className="mx-auto w-full max-w-6xl">{children}</div>
         </main>
       </div>
+
+      <Toaster richColors position="bottom-right" />
     </div>
   );
 }
