@@ -36,6 +36,8 @@ type Initial = {
   originCollegeId: string | null;
   collegeTagIds: string[];
   isFeatured: boolean;
+  coverImageUrl: string | null;
+  coverImageAlt: string | null;
 };
 
 export function PostForm({
@@ -191,10 +193,18 @@ export function PostForm({
       </div>
 
       <Field label="Cover image URL">
-        <Input name="coverImageUrl" type="url" placeholder="https://…" />
+        <Input
+          name="coverImageUrl"
+          type="url"
+          placeholder="https://…"
+          defaultValue={initial?.coverImageUrl ?? ""}
+        />
       </Field>
       <Field label="Cover image alt text">
-        <Input name="coverImageAlt" />
+        <Input
+          name="coverImageAlt"
+          defaultValue={initial?.coverImageAlt ?? ""}
+        />
       </Field>
 
       <div className="sm:col-span-2">

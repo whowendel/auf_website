@@ -88,6 +88,8 @@ export default async function EditPostPage({
             originCollegeId: post.originCollegeId,
             collegeTagIds: post.collegeTags.map((t) => t.collegeId),
             isFeatured: post.isFeatured,
+            coverImageUrl: post.coverImageUrl,
+            coverImageAlt: post.coverImageAlt,
           }}
         />
       </Card>
