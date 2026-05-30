@@ -7,10 +7,10 @@ type ButtonVariant = "primary" | "secondary" | "danger" | "ghost";
 type ButtonSize = "sm" | "md";
 
 const variantClasses: Record<ButtonVariant, string> = {
-  primary: "bg-neutral-900 text-white hover:bg-neutral-800 disabled:bg-neutral-400",
-  secondary: "bg-white text-neutral-900 border border-neutral-300 hover:bg-neutral-50",
+  primary: "bg-navy text-white hover:bg-navy-deep disabled:bg-navy/40",
+  secondary: "bg-white text-navy border border-navy/25 hover:bg-navy/5",
   danger: "bg-red-600 text-white hover:bg-red-700",
-  ghost: "bg-transparent text-neutral-700 hover:bg-neutral-100",
+  ghost: "bg-transparent text-navy/60 hover:bg-navy/5 hover:text-navy",
 };
 const sizeClasses: Record<ButtonSize, string> = {
   sm: "h-8 px-3 text-sm",
@@ -75,7 +75,7 @@ export const Input = React.forwardRef<HTMLInputElement, React.InputHTMLAttribute
         ref={ref}
         {...props}
         className={cn(
-          "block w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm placeholder:text-neutral-400 focus:border-neutral-500 focus:outline-none focus:ring-1 focus:ring-neutral-500",
+          "block w-full rounded-md border border-auf-border bg-white px-3 py-2 text-sm placeholder:text-neutral-400 focus:border-navy focus:outline-none focus:ring-2 focus:ring-navy/20",
           className,
         )}
       />
@@ -92,7 +92,7 @@ export const Textarea = React.forwardRef<
       ref={ref}
       {...props}
       className={cn(
-        "block w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm placeholder:text-neutral-400 focus:border-neutral-500 focus:outline-none focus:ring-1 focus:ring-neutral-500",
+        "block w-full rounded-md border border-auf-border bg-white px-3 py-2 text-sm placeholder:text-neutral-400 focus:border-navy focus:outline-none focus:ring-2 focus:ring-navy/20",
         className,
       )}
     />
@@ -108,7 +108,7 @@ export const Select = React.forwardRef<
       ref={ref}
       {...props}
       className={cn(
-        "block w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm focus:border-neutral-500 focus:outline-none focus:ring-1 focus:ring-neutral-500",
+        "block w-full rounded-md border border-auf-border bg-white px-3 py-2 text-sm focus:border-navy focus:outline-none focus:ring-2 focus:ring-navy/20",
         className,
       )}
     >
@@ -168,8 +168,8 @@ export function PageHeader({
   return (
     <div className="mb-6 flex items-end justify-between gap-4">
       <div>
-        <h1 className="text-2xl font-semibold text-neutral-900">{title}</h1>
-        {description ? <p className="mt-1 text-sm text-neutral-600">{description}</p> : null}
+        <h1 className="text-2xl font-semibold text-navy">{title}</h1>
+        {description ? <p className="mt-1 text-sm text-auf-muted">{description}</p> : null}
       </div>
       {actions ? <div className="flex gap-2">{actions}</div> : null}
     </div>
@@ -185,7 +185,7 @@ const STATUS_TONES: Record<string, string> = {
   PUBLISHED:         "bg-emerald-100 text-emerald-900",
   REJECTED:          "bg-red-100 text-red-900",
   ARCHIVED:          "bg-neutral-300 text-neutral-700",
-  SUPER_ADMIN:       "bg-purple-100 text-purple-900",
+  SUPER_ADMIN:       "bg-navy/10 text-navy",
   COLLEGE_ADMIN:     "bg-sky-100 text-sky-900",
   COLLEGE_EDITOR:    "bg-neutral-200 text-neutral-800",
 };
@@ -233,8 +233,8 @@ export function EmptyState({
   action?: React.ReactNode;
 }) {
   return (
-    <div className="rounded-lg border border-dashed border-neutral-300 bg-white p-10 text-center">
-      <h3 className="text-base font-medium text-neutral-900">{title}</h3>
+    <div className="rounded-lg border border-dashed border-auf-border bg-white p-10 text-center">
+      <h3 className="text-base font-medium text-navy">{title}</h3>
       {description ? (
         <p className="mt-1 text-sm text-neutral-600">{description}</p>
       ) : null}
