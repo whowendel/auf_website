@@ -179,6 +179,13 @@ img {
     );
 }
 
+/* ─── Admin panel background ─────────────────────────────────────────── */
+.admin-bg {
+  background-color: var(--auf-off-white);
+  background-image: radial-gradient(circle, rgba(24, 87, 206, 0.1) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
 /* ─── Custom scrollbar (webkit) ──────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }
 ::-webkit-scrollbar-track { background: transparent; }
