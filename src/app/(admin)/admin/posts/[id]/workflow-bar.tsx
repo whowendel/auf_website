@@ -29,7 +29,7 @@ export function WorkflowBar({
   if (!wf.hasAnyAction && !wf.reviewMode) return null;
 
   return (
-    <div className="rounded-lg border border-neutral-200 bg-white p-4">
+    <div className="rounded-lg border border-auf-border border-l-4 border-l-navy bg-white p-4">
       <div className="flex flex-wrap items-center gap-2">
         {wf.showSubmit && (
           <Button onClick={wf.submitForReview} disabled={wf.isPending}>
