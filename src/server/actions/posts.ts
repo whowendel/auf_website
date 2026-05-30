@@ -20,6 +20,9 @@ export async function updatePostAction(input: PostUpdateInput) {
   const actor = await requireActor();
   await postsSvc.updatePost(actor, input);
   revalidatePath("/admin/posts");
+  // A published post may have been taken offline by the edit; bust public caches.
+  revalidatePath("/");
+  revalidatePath("/news-events");
   return { ok: true as const };
 }
 

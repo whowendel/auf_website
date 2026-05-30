@@ -259,11 +259,18 @@ export async function updatePost(actor: Actor, input: PostUpdateInput) {
   if (!canEditPostInCollege(actor, existing.originCollegeId)) {
     throw new ForbiddenError();
   }
-  if (existing.status === PostStatus.PUBLISHED && actor.role !== Role.SUPER_ADMIN) {
-    throw new ForbiddenError("Published posts can only be edited by the University Admin");
-  }
 
   const data: Prisma.PostUpdateInput = {};
+
+  // Editing a published post takes it out of the published state so it
+  // must be explicitly re-published. SUPER_ADMIN goes to DRAFT (can
+  // re-publish immediately); college admins go to PENDING_REVIEW (needs
+  // OUR re-approval before going live again).
+  if (existing.status === PostStatus.PUBLISHED) {
+    data.status = actor.role === Role.SUPER_ADMIN
+      ? PostStatus.DRAFT
+      : PostStatus.PENDING_REVIEW;
+  }
   if (rest.title !== undefined) data.title = rest.title;
   if (rest.excerpt !== undefined) data.excerpt = rest.excerpt;
   if (rest.content !== undefined) data.content = rest.content as Prisma.InputJsonValue;
