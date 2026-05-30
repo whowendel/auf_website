@@ -47,10 +47,10 @@ export default async function PostsPage() {
           <div className="mb-5 grid grid-cols-2 gap-3 sm:grid-cols-4">
             {(
               [
-                ["Total",     posts.length,                                                        "bg-neutral-100 text-neutral-700"],
+                ["Total",     posts.length,                                                        "bg-navy/10 text-navy"],
                 ["Published", posts.filter((p) => p.status === PostStatus.PUBLISHED).length,       "bg-emerald-50 text-emerald-700"],
                 ["Pending",   posts.filter((p) => p.status === PostStatus.PENDING_REVIEW).length,  "bg-amber-50 text-amber-700"],
-                ["Drafts",    posts.filter((p) => p.status === PostStatus.DRAFT).length,           "bg-neutral-100 text-neutral-500"],
+                ["Drafts",    posts.filter((p) => p.status === PostStatus.DRAFT).length,           "bg-neutral-100 text-neutral-600"],
               ] as const
             ).map(([label, count, cls]) => (
               <div key={label} className={`rounded-xl px-4 py-3 ${cls}`}>
@@ -63,23 +63,23 @@ export default async function PostsPage() {
           {/* Posts table */}
           <Card className="overflow-hidden p-0">
             {/* Desktop table */}
-            <div className="hidden md:block">
+            <div className="hidden overflow-x-auto md:block">
               <table className="w-full text-sm">
-                <thead className="border-b border-neutral-200 bg-neutral-50">
+                <thead className="border-b border-auf-border bg-navy/5">
                   <tr>
-                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-neutral-500">
+                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-navy/60">
                       Post
                     </th>
-                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-neutral-500">
+                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-navy/60">
                       Type
                     </th>
-                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-neutral-500">
+                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-navy/60">
                       Scope
                     </th>
-                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-neutral-500">
+                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-navy/60">
                       Status
                     </th>
-                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-neutral-500">
+                    <th className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-wide text-navy/60">
                       Updated
                     </th>
                   </tr>
@@ -109,7 +109,7 @@ export default async function PostsPage() {
                             <div className="min-w-0">
                               <Link
                                 href={`/admin/posts/${p.id}`}
-                                className="block truncate font-semibold text-neutral-900 hover:text-neutral-600 hover:underline"
+                                className="block truncate font-semibold text-navy hover:text-navy-deep hover:underline"
                               >
                                 {p.title}
                               </Link>
@@ -188,7 +188,7 @@ export default async function PostsPage() {
                     <div className="mb-2 flex items-start justify-between gap-2">
                       <Link
                         href={`/admin/posts/${p.id}`}
-                        className="flex-1 font-semibold leading-snug text-neutral-900 hover:underline"
+                        className="flex-1 font-semibold leading-snug text-navy hover:underline"
                       >
                         {p.title}
                       </Link>

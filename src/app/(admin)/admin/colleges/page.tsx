@@ -17,9 +17,10 @@ export default async function CollegesPage() {
         title="Colleges"
         description="College data is managed in src/data/site.json. This is a read-only view."
       />
-      <Card className="p-0">
+      <Card className="overflow-hidden p-0">
+        <div className="overflow-x-auto">
         <table className="w-full text-sm">
-          <thead className="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500">
+          <thead className="border-b border-auf-border bg-navy/5 text-left text-xs uppercase tracking-wide text-navy/60">
             <tr>
               <th className="px-4 py-2">College</th>
               <th className="px-4 py-2">ID / Slug</th>
@@ -60,7 +61,7 @@ export default async function CollegesPage() {
                     href={`/c/${c.slug}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-xs text-neutral-700 hover:underline"
+                    className="text-xs text-navy hover:text-navy-deep hover:underline"
                   >
                     /c/{c.slug} ↗
                   </Link>
@@ -69,6 +70,7 @@ export default async function CollegesPage() {
             ))}
           </tbody>
         </table>
+        </div>
       </Card>
       <p className="mt-4 text-xs text-neutral-500">
         To add or edit colleges, update{" "}

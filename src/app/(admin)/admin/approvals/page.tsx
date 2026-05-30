@@ -26,9 +26,10 @@ export default async function ApprovalsPage() {
           description="There are no posts pending review right now."
         />
       ) : (
-        <Card className="p-0">
+        <Card className="overflow-hidden p-0">
+          <div className="overflow-x-auto">
           <table className="w-full text-sm">
-            <thead className="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500">
+            <thead className="border-b border-auf-border bg-navy/5 text-left text-xs uppercase tracking-wide text-navy/60">
               <tr>
                 <th className="px-4 py-2">Title</th>
                 <th className="px-4 py-2">College</th>
@@ -42,7 +43,7 @@ export default async function ApprovalsPage() {
                   <td className="px-4 py-3">
                     <Link
                       href={`/admin/posts/${p.id}`}
-                      className="font-medium text-neutral-900 hover:underline"
+                      className="font-medium text-navy hover:text-navy-deep hover:underline"
                     >
                       {p.title}
                     </Link>
@@ -62,6 +63,7 @@ export default async function ApprovalsPage() {
               ))}
             </tbody>
           </table>
+          </div>
         </Card>
       )}
     </>

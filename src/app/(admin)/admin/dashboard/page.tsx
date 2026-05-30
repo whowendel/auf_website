@@ -37,8 +37,8 @@ export default async function DashboardPage() {
         title="Dashboard"
         description={
           isSuper
-            ? "Office of University Relations — university-wide overview."
-            : "Your college overview."
+            ? "Office of University Relations"
+            : "College Overview"
         }
         actions={<LinkButton href="/admin/posts/new">New post</LinkButton>}
       />
@@ -46,16 +46,17 @@ export default async function DashboardPage() {
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {stats.map((s) => (
           <Card key={s.label} className="p-4">
-            <div className="text-xs uppercase tracking-wide text-neutral-500">{s.label}</div>
-            <div className="mt-2 text-3xl font-semibold text-neutral-900">{s.value}</div>
+            <div className="text-xs uppercase tracking-wide text-auf-muted">{s.label}</div>
+            <div className="mt-2 text-3xl font-semibold text-navy">{s.value}</div>
           </Card>
         ))}
       </div>
 
-      <h2 className="mt-8 mb-3 text-lg font-semibold text-neutral-900">Recent posts</h2>
-      <Card className="p-0">
+      <h2 className="mt-8 mb-3 text-lg font-semibold text-navy">Recent posts</h2>
+      <Card className="overflow-hidden p-0">
+        <div className="overflow-x-auto">
         <table className="w-full text-sm">
-          <thead className="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500">
+          <thead className="border-b border-auf-border bg-navy/5 text-left text-xs uppercase tracking-wide text-navy/60">
             <tr>
               <th className="px-4 py-2">Title</th>
               <th className="px-4 py-2">Scope</th>
@@ -76,7 +77,7 @@ export default async function DashboardPage() {
                   <td className="px-4 py-3">
                     <a
                       href={`/admin/posts/${p.id}`}
-                      className="font-medium text-neutral-900 hover:underline"
+                      className="font-medium text-navy hover:text-navy-deep hover:underline"
                     >
                       {p.title}
                     </a>
@@ -96,6 +97,7 @@ export default async function DashboardPage() {
             )}
           </tbody>
         </table>
+        </div>
       </Card>
     </>
   );

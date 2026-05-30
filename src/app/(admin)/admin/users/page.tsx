@@ -25,13 +25,14 @@ export default async function UsersPage() {
       <PageHeader title="Users" description="Manage who can sign in to the admin panel." />
 
       <Card className="mb-8">
-        <h2 className="mb-3 text-base font-semibold text-neutral-900">Invite a user</h2>
+        <h2 className="mb-3 text-base font-semibold text-navy">Invite a user</h2>
         <InviteUserForm colleges={colleges} />
       </Card>
 
-      <Card className="p-0">
+      <Card className="overflow-hidden p-0">
+        <div className="overflow-x-auto">
         <table className="w-full text-sm">
-          <thead className="border-b border-neutral-200 bg-neutral-50 text-left text-xs uppercase tracking-wide text-neutral-500">
+          <thead className="border-b border-auf-border bg-navy/5 text-left text-xs uppercase tracking-wide text-navy/60">
             <tr>
               <th className="px-4 py-2">Name</th>
               <th className="px-4 py-2">Email</th>
@@ -71,6 +72,7 @@ export default async function UsersPage() {
             })}
           </tbody>
         </table>
+        </div>
       </Card>
     </>
   );

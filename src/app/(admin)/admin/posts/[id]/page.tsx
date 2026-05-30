@@ -94,16 +94,16 @@ export default async function EditPostPage({
         />
       </Card>
 
-      <h2 className="mt-8 mb-3 text-lg font-semibold text-neutral-900">Approval history</h2>
+      <h2 className="mt-8 mb-3 text-lg font-semibold text-navy">Approval history</h2>
       <Card className="p-0">
         {post.approvals.length === 0 ? (
-          <p className="px-4 py-6 text-sm text-neutral-500">No history yet.</p>
+          <p className="px-4 py-6 text-sm text-auf-muted">No history yet.</p>
         ) : (
           <ul className="divide-y divide-neutral-100">
             {post.approvals.map((a) => (
               <li key={a.id} className="px-4 py-3 text-sm">
                 <div className="flex items-center justify-between">
-                  <span className="font-medium text-neutral-900">{a.action}</span>
+                  <span className="font-medium text-navy">{a.action}</span>
                   <span className="text-xs text-neutral-500">
                     {new Date(a.createdAt).toLocaleString()}
                   </span>
@@ -124,7 +124,7 @@ export default async function EditPostPage({
           <Link
             target="_blank"
             rel="noopener noreferrer"
-            className="text-neutral-700 underline"
+            className="text-navy underline hover:text-navy-deep"
             href={
               originCollege
                 ? `/c/${originCollege.slug}/posts/${post.slug}`
