@@ -36,6 +36,7 @@ export type AppointmentStep = {
   number: number;
   heading: string;
   body: string;
+  qrCodeUrl?: string;
 };
 
 export type OfficeContact = {
@@ -44,16 +45,44 @@ export type OfficeContact = {
   location: string;
 };
 
+export type GuidanceLocation = {
+  id: string;
+  label: string;
+  room: string;
+  building: string;
+  hours: string;
+};
+
+export type GuidancePhoneExtension = {
+  label: string;
+  local: string;
+};
+
+export type GuidanceContact = {
+  emails: string[];
+  phone: {
+    base: string;
+    extensions: GuidancePhoneExtension[];
+  };
+};
+
+export type GccStaffMember = {
+  id: string;
+  name: string;
+  role: string;
+};
+
 export type GuidanceOffice = OfficeBase & {
   intro: string;
-  locatedAt: string;
-  officeHours: string;
+  mainOffice: GuidanceLocation;
+  satelliteOffices: GuidanceLocation[];
   philosophy: string;
   objectives: string[];
+  staff: GccStaffMember[];
   coreServices: CoreService[];
   appointmentSteps: AppointmentStep[];
   confidentiality: string;
-  contact: OfficeContact;
+  contact: GuidanceContact;
 };
 
 export type HealthOffice = OfficeBase & {
