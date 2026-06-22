@@ -89,18 +89,39 @@
           "navLabel": "Guidance",
           "tagline": "Walking alongside Angeleneans in their journey of personal and academic growth.",
           "imageUrl": null,
-          "intro": "The Guidance and Counseling Center of Angeles University Foundation aims to assist students with a variety of personal, educational and career concerns. Its purpose is to promote self-awareness and self-expression in students. Counselors work closely with students individually and in groups to help them identify their strengths, reach their greatest potential and eventually emerge as mature and responsible individuals ready to meet the challenges and make important decisions.",
-          "locatedAt": "A-Building, 3rd Floor, Room A-303",
-          "officeHours": "Monday–Friday, 8:00 AM – 7:00 PM; Saturday, 8:00 AM – 5:00 PM",
+          "intro": "The Guidance and Counseling Center of Angeles University Foundation is committed to supporting students in addressing their personal, academic, career, and social concerns. It aims to promote self-awareness, self-understanding, self-expression, and holistic development among students. Through individual and group counseling, developmental programs, and other guidance services, counselors work collaboratively with students to help them recognize their strengths, develop resilience, make informed decisions, and effectively cope with life's challenges. The Center also seeks to foster social awareness, empathy, responsible citizenship, and positive interpersonal relationships, encouraging students to become active and contributing members of their communities. By nurturing their personal, academic, career, and social development, the Guidance and Counseling Center strives to empower students to reach their fullest potential and emerge as competent, ethical, socially responsible, and well-rounded individuals prepared for the demands of higher education, work, and life.",
+          "mainOffice": {
+            "id": "main",
+            "label": "Main Office",
+            "room": "Room A-303",
+            "building": "Angeles Hall",
+            "hours": "8:00 AM – 5:00 PM"
+          },
+          "satelliteOffices": [
+            {
+              "id": "eyacli",
+              "label": "EYACLI",
+              "room": "Room EA-101A",
+              "building": "Emmanuel Y. Angeles Center for Learning and Innovation (EYACLI Hall)",
+              "hours": "8:00 AM – 7:00 PM"
+            },
+            {
+              "id": "aufis",
+              "label": "AUF Integrated School",
+              "room": "Room SM-107",
+              "building": "Saint Mary Hall, AUF Santa Barbara Campus",
+              "hours": "8:00 AM – 5:00 PM"
+            }
+          ],
           "philosophy": "The mission of Angeles University Foundation is the harmonious development of man for services to God and Humanity. In keeping with this mission, the Guidance and Counseling Center of the university aims at the optimum development of the human person so that he may live with dignity and integrity. The Guidance Center believes that its duty is to help the student become a knowing, loving, and responsible person, live a well-balanced life satisfying to himself and to society.",
           "objectives": [
-            "To help the student identify his potentials, abilities, interests and provide opportunities for his development and effective utilization.",
-            "To help the student understand himself better — his interests, abilities, needs, and problems so that he may be able to make wise choices and adjustments.",
-            "To help the student develop wholesome attitudes and sound moral and spiritual values.",
-            "To help the student develop his ability to solve problems and to communicate and relate himself to others effectively.",
-            "To help the student develop effective learning skills in his progress from one level to another and his preparation for a life career.",
-            "To establish linkages with other units of the University and with agencies in the community to support and carry out the objectives of the program.",
-            "To conduct studies that will assist the deans, teachers and guidance staff understand students better by utilizing test/research data."
+            "To help students identify their potentials, abilities, and interests and provide opportunities for their development and effective utilization.",
+            "To help students understand themselves better—their interests, abilities, needs, and concerns—so they can make informed decisions and appropriate adjustments.",
+            "To help students develop positive attitudes and sound moral and spiritual values.",
+            "To help students develop their ability to solve problems, communicate effectively, and build healthy relationships with others.",
+            "To help students develop effective learning skills that support their progress from one educational level to another and prepare them for future career and life goals.",
+            "To establish linkages with other units of the University and with community agencies to support and achieve the objectives of the program.",
+            "To conduct studies that will assist deans, teachers, and guidance personnel in understanding students better through the appropriate use of assessment and research data."
           ],
           "coreServices": [
             { "id": "planning",    "title": "Individual Student Planning", "description": "Helps students create and follow personal, academic, and career plans through psychological testing, interviews, follow-ups, and career guidance." },
@@ -111,15 +132,37 @@
             { "id": "assessment",  "title": "Assessment",                  "description": "Evaluates the effectiveness of services to continually improve the program." }
           ],
           "appointmentSteps": [
-            { "number": 1, "heading": "Walk-in or Request Online", "body": "Students may visit the Guidance and Counseling Center during office hours or submit an appointment request via the student portal." },
+            { "number": 1, "heading": "Walk-in or Request Online", "body": "Students may visit the Guidance and Counseling Center during office hours or submit an appointment request via the student portal. Alternatively, students may set their schedule through our E-Scheduler by scanning this QR code:", "qrCodeUrl": "/assets/student-services/guidance/gcc-e-scheduler-qr.png" },
             { "number": 2, "heading": "Initial Interview",          "body": "A brief intake interview will be conducted to understand your concerns and determine the appropriate support." },
             { "number": 3, "heading": "Scheduled Sessions",         "body": "Counseling sessions are scheduled at mutually convenient times and maintained in strict confidentiality." }
           ],
+          "staff": [
+            { "id": "staff-1",  "name": "Edward G. Mendoza, MA, RGC, LPT, RPM",        "role": "Director" },
+            { "id": "staff-2",  "name": "May Y. Sabile, MA, RGC, RPM",                 "role": "Assistant Director" },
+            { "id": "staff-3",  "name": "Pinky T. Cunanan, MA, RGC, RPM",              "role": "Basic Education Counselors" },
+            { "id": "staff-4",  "name": "Danzein Jenniah M. Egang, RPM",               "role": "Basic Education Counselors" },
+            { "id": "staff-5",  "name": "Francis Jasper C. Hontanosas, RPM",           "role": "Basic Education Counselors" },
+            { "id": "staff-6",  "name": "Ana C. Caguiat, MA, RGC, RPsy",               "role": "College Counselors" },
+            { "id": "staff-7",  "name": "Aileen Katrina G. Felix, MA, RGC, LPT, RPM",  "role": "College Counselors" },
+            { "id": "staff-8",  "name": "Paul John Gojar, MAEd, RGC, LPT",             "role": "College Counselors" },
+            { "id": "staff-9",  "name": "Crismen G. Gono",                             "role": "College Counselors" },
+            { "id": "staff-10", "name": "Krizia Mae V. Lacap, RPM",                    "role": "College Counselors" },
+            { "id": "staff-11", "name": "Marvin I. Mallari, MA, RGC, LPT",             "role": "College Counselors" },
+            { "id": "staff-12", "name": "Georgia Mae C. Raquel, MA, RPM",              "role": "College Counselors" },
+            { "id": "staff-13", "name": "Daisy M. Sadsad, RPM",                        "role": "Psychometrician" },
+            { "id": "staff-14", "name": "Leticia S. Tominez",                          "role": "Staff Assistant" }
+          ],
           "confidentiality": "All information shared during counseling sessions is strictly confidential and protected by the Code of Ethics for Guidance Counselors in the Philippines (R.A. 9258). Information may only be disclosed in situations involving imminent risk to the student or others.",
           "contact": {
-            "email": "guidance@auf.edu.ph",
-            "hours": "Monday to Friday, 8:00 AM – 5:00 PM",
-            "location": "A-Building, 3rd Floor, Room A-303"
+            "emails": ["gcc@auf.edu.ph", "is.gcc@auf.edu.ph"],
+            "phone": {
+              "base": "(+63-45) 625-2888",
+              "extensions": [
+                { "label": "Main Office", "local": "1719" },
+                { "label": "AUFIS", "local": "1813" },
+                { "label": "EYACLI", "local": "1907" }
+              ]
+            }
           }
         }
       ]
