@@ -1,3 +1,5 @@
+# Updated June 22, 2026
+
 # AUF Website
 
 This repository contains the AUF public website built with Next.js (App Router) and TypeScript.
