@@ -4,14 +4,24 @@ This repository contains the AUF public website built with Next.js (App Router) 
 
 ## Quick start
 
-Install dependencies and run the development server:
+Install dependencies, start a local Postgres database, and run the development server:
 
 ```bash
 npm install
+cp .env.example .env
+
+# start a local Postgres container (credentials match .env.example)
+docker compose up -d
+
+# create the schema in the local database
+npm run db:push
+
 npm run dev
 ```
 
 Open http://localhost:3000 in your browser.
+
+If you have access to a hosted database instead (e.g. your team's Vercel/Neon/Supabase instance), skip `docker compose up -d` and put that connection string in `.env` instead.
 
 ## Important scripts
 
