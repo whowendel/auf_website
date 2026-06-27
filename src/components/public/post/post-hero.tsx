@@ -9,6 +9,7 @@ type PostHeroData = {
   excerpt: string | null;
   publishedAt: Date | null;
   author: { name: string | null; image: string | null };
+  sdgs?: number[];
 };
 
 type PostHeroContext =
@@ -46,93 +47,120 @@ export function PostHero({
         />
       )}
 
-      <div className="relative mx-auto max-w-4xl px-6 pb-12 pt-10">
-        {/* Back link */}
-        <Link
-          href={backHref}
-          className="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/40 transition-colors hover:text-white/70"
-        >
-          {context.variant === "college" && context.college.mascotLogoUrl && (
-            <div className="relative h-4 w-4 shrink-0">
-              <Image
-                src={context.college.mascotLogoUrl}
-                alt={context.college.shortName}
-                fill
-                className="object-contain"
-                sizes="16px"
-              />
-            </div>
-          )}
-          {backLabel}
-        </Link>
-
-        {/* Type badge + scope + date */}
-        <div className="mt-6 flex flex-wrap items-center gap-2">
-          <span
-            className="rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em]"
-            style={{
-              background: accentColor,
-              color: context.variant === "university" ? "var(--auf-navy)" : "white",
-            }}
+      <div className="relative mx-auto max-w-4xl px-6 pb-12 pt-10 flex flex-col md:flex-row md:justify-between md:items-end gap-8">
+        <div className="flex-1">
+          {/* Back link */}
+          <Link
+            href={backHref}
+            className="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.16em] text-white/40 transition-colors hover:text-white/70"
           >
-            {post.type}
-          </span>
-          <span className="text-[11px] text-white/40">
-            {context.variant === "college"
-              ? context.college.shortName
-              : "AUF University"}
-          </span>
-          {post.publishedAt && (
-            <>
-              <span className="text-white/20">·</span>
-              <span className="text-[11px] text-white/40">
-                {formatDate(post.publishedAt)}
-              </span>
-            </>
-          )}
-        </div>
+            {context.variant === "college" && context.college.mascotLogoUrl && (
+              <div className="relative h-4 w-4 shrink-0">
+                <Image
+                  src={context.college.mascotLogoUrl}
+                  alt={context.college.shortName}
+                  fill
+                  className="object-contain"
+                  sizes="16px"
+                />
+              </div>
+            )}
+            {backLabel}
+          </Link>
 
-        {/* Title */}
-        <h1 className="mt-4 font-display text-3xl font-semibold leading-tight text-white md:text-4xl">
-          {post.title}
-        </h1>
-
-        {/* Excerpt */}
-        {post.excerpt && (
-          <p className="mt-3 text-base leading-relaxed text-white/70">
-            {post.excerpt}
-          </p>
-        )}
-
-        {/* Author */}
-        <div className="mt-5 flex items-center gap-3">
-          {post.author.image ? (
-            <div className="relative h-8 w-8 overflow-hidden rounded-full border border-white/20">
-              <Image
-                src={post.author.image}
-                alt={post.author.name ?? ""}
-                fill
-                className="object-cover"
-                sizes="32px"
-                unoptimized
-              />
-            </div>
-          ) : (
-            <div
-              className="flex h-8 w-8 items-center justify-center rounded-full border border-white/20 font-display text-[11px] font-bold text-white"
-              style={{ background: `${accentColor}50` }}
+          {/* Type badge + scope + date */}
+          <div className="mt-6 flex flex-wrap items-center gap-2">
+            <span
+              className="rounded-full px-3 py-1 text-[10px] font-bold uppercase tracking-[0.16em]"
+              style={{
+                background: accentColor,
+                color: context.variant === "university" ? "var(--auf-navy)" : "white",
+              }}
             >
-              {post.author.name?.[0] ?? "A"}
-            </div>
+              {post.type}
+            </span>
+            <span className="text-[11px] text-white/40">
+              {context.variant === "college"
+                ? context.college.shortName
+                : "AUF University"}
+            </span>
+            {post.publishedAt && (
+              <>
+                <span className="text-white/20">·</span>
+                <span className="text-[11px] text-white/40">
+                  {formatDate(post.publishedAt)}
+                </span>
+              </>
+            )}
+          </div>
+
+          {/* Title */}
+          <h1 className="mt-4 font-display text-3xl font-semibold leading-tight text-white md:text-4xl">
+            {post.title}
+          </h1>
+
+          {/* Excerpt */}
+          {post.excerpt && (
+            <p className="mt-3 text-base leading-relaxed text-white/70">
+              {post.excerpt}
+            </p>
           )}
-          <span className="text-[12px] text-white/60">
-            By{" "}
-            <span className="font-semibold text-white/80">{post.author.name}</span>
-          </span>
+
+          {/* Author */}
+          <div className="mt-5 flex items-center gap-3">
+            {post.author.image ? (
+              <div className="relative h-8 w-8 overflow-hidden rounded-full border border-white/20">
+                <Image
+                  src={post.author.image}
+                  alt={post.author.name ?? ""}
+                  fill
+                  className="object-cover"
+                  sizes="32px"
+                  unoptimized
+                />
+              </div>
+            ) : (
+              <div
+                className="flex h-8 w-8 items-center justify-center rounded-full border border-white/20 font-display text-[11px] font-bold text-white"
+                style={{ background: `${accentColor}50` }}
+              >
+                {post.author.name?.[0] ?? "A"}
+              </div>
+            )}
+            <span className="text-[12px] text-white/60">
+              By{" "}
+              <span className="font-semibold text-white/80">{post.author.name}</span>
+            </span>
+          </div>
+
+          {/* Accent rule */}
+          <div className="mt-8 h-0.5 w-12" style={{ background: accentColor }} />
         </div>
 
-        {/* Accent rule */}
-        <div className="mt-8 h-0.5 w-12" style={{ background: accentColor }} />
+        {post.sdgs && post.sdgs.length > 0 && (
+          <div className="flex flex-col gap-2 shrink-0 md:mb-5 max-w-[280px]">
+            <span className="text-[10px] font-bold uppercase tracking-widest text-white/40">
+              Sustainable Development Goals
+            </span>
+            <div className="flex flex-wrap gap-2">
+              {post.sdgs.map((num) => (
+                <Link
+                  key={num}
+                  href={`/research/sustainable-development-goals#sdg-${num}`}
+                  className="shrink-0"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/assets/sdgs/${num}.png`}
+                    alt={`SDG ${num}`}
+                    className="h-14 w-14 rounded-lg object-contain shadow-md hover:scale-105 transition-transform"
+                    title={`SDG ${num}`}
+                  />
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

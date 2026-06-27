@@ -233,6 +233,7 @@ export async function createPost(actor: Actor, input: PostCreateInput) {
       status: PostStatus.DRAFT,
       authorId: actor.id,
       originCollegeId: data.originCollegeId,
+      sdgs: data.sdgs,
       collegeTags: {
         create: Array.from(tagIds).map((collegeId) => ({ collegeId })),
       },
@@ -282,6 +283,7 @@ export async function updatePost(actor: Actor, input: PostUpdateInput) {
   if (rest.isFeatured !== undefined) data.isFeatured = rest.isFeatured;
   if (rest.scheduledFor !== undefined) data.scheduledFor = rest.scheduledFor;
   if (rest.type !== undefined) data.type = rest.type;
+  if (rest.sdgs !== undefined) data.sdgs = rest.sdgs;
 
   if (rest.slug !== undefined) {
     data.slug = await ensureUniqueSlug(rest.slug, existing.originCollegeId, id);

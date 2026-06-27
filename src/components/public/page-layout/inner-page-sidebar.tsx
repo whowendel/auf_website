@@ -14,14 +14,14 @@ export type SidebarItem = {
  * Highlights the currently visible section using IntersectionObserver.
  * Hidden on mobile — the InnerPageMobileNav handles small screens.
  */
-export function InnerPageSidebar({ items }: { items: SidebarItem[] }) {
+export function InnerPageSidebar({ items, backHref, children }: { items: SidebarItem[]; backHref?: string; children?: React.ReactNode }) {
   const active = useActiveSection(items.map((i) => i.id));
 
   return (
     <aside className="hidden lg:block shrink-0 w-56 xl:w-64 self-stretch">
       <div className="sticky top-28">
-        <GoBackButton />
-      <nav className="space-y-0.5" aria-label="Page sections">
+        <GoBackButton href={backHref} />
+      <nav className="space-y-0.5 animate-in fade-in slide-in-from-left-4 duration-500" aria-label="Page sections">
         <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.22em] text-gold">
           On this page
         </p>
@@ -56,6 +56,11 @@ export function InnerPageSidebar({ items }: { items: SidebarItem[] }) {
           );
         })}
       </nav>
+      {children && (
+        <div className="mt-6 pt-6 border-t border-auf-border animate-in fade-in slide-in-from-left-4 duration-500 delay-150 fill-mode-both">
+          {children}
+        </div>
+      )}
       </div>
     </aside>
   );

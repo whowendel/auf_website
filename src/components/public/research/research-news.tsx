@@ -3,6 +3,7 @@ import type { ResearchNews } from "@/data/research";
 import { listPublishedUniversityPosts } from "@/server/services/posts";
 import { collegeLabel } from "@/data/colleges";
 import { formatDate } from "@/lib/utils";
+import { getSdg } from "@/data/sdgs";
 
 const EVENT_TYPE_COLORS: Record<string, string> = {
   Conference: "bg-navy/8 text-navy",
@@ -64,9 +65,28 @@ export async function ResearchNews({ news }: { news: ResearchNews }) {
                   : `/posts/${p.slug}`;
                 return (
                   <article key={p.id} className="rounded-xl border border-auf-border bg-white p-4">
-                    <span className="mb-1.5 inline-block rounded-full bg-navy/8 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-navy">
-                      {p.type}
-                    </span>
+                    <div className="mb-2 flex flex-wrap items-center gap-1.5">
+                      <span className="inline-block rounded-full bg-navy/8 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-navy">
+                        {p.type}
+                      </span>
+                      {p.sdgs && p.sdgs.length > 0 && (
+                        <div className="flex flex-wrap items-center gap-1">
+                          {p.sdgs.map((num) => {
+                            const sdg = getSdg(num);
+                            return (
+                              <span
+                                key={num}
+                                className="inline-block rounded px-1.5 py-0.5 text-[9px] font-bold text-white shrink-0"
+                                style={{ backgroundColor: sdg?.color ?? "var(--auf-gold)" }}
+                                title={sdg?.title ?? `SDG ${num}`}
+                              >
+                                SDG {num}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </div>
                     <Link href={href}>
                       <h4 className="text-sm font-semibold text-navy hover:text-navy-mid transition-colors leading-snug line-clamp-2">
                         {p.title}
