@@ -3,6 +3,7 @@ import type { ExternalAffairsNews } from "@/data/external-affairs";
 import { listPublishedUniversityPosts } from "@/server/services/posts";
 import { collegeLabel } from "@/data/colleges";
 import { formatDate } from "@/lib/utils";
+import { getSdg } from "@/data/sdgs";
 
 export async function EaNews({ news }: { news: ExternalAffairsNews }) {
   const posts = await listPublishedUniversityPosts({ limit: 6 });
@@ -68,12 +69,31 @@ export async function EaNews({ news }: { news: ExternalAffairsNews }) {
                     <span className="text-[10px] text-auf-muted/60">
                       {p.publishedAt ? formatDate(p.publishedAt) : ""}
                     </span>
-                    <Link
-                      href={href}
-                      className="text-[10px] font-semibold text-navy/50 transition-colors hover:text-navy"
-                    >
-                      Read →
-                    </Link>
+                    <div className="flex items-center gap-2">
+                      {p.sdgs && p.sdgs.length > 0 && (
+                        <div className="flex flex-wrap items-center gap-1">
+                          {p.sdgs.map((num) => {
+                            const sdg = getSdg(num);
+                            return (
+                              <span
+                                key={num}
+                                className="inline-block rounded px-1.5 py-0.5 text-[9px] font-bold text-white shrink-0"
+                                style={{ backgroundColor: sdg?.color ?? "var(--auf-gold)" }}
+                                title={sdg?.title ?? `SDG ${num}`}
+                              >
+                                SDG {num}
+                              </span>
+                            );
+                          })}
+                        </div>
+                      )}
+                      <Link
+                        href={href}
+                        className="text-[10px] font-semibold text-navy/50 transition-colors hover:text-navy shrink-0"
+                      >
+                        Read →
+                      </Link>
+                    </div>
                   </div>
                 </div>
               </article>

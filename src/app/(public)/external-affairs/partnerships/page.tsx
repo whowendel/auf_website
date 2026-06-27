@@ -40,6 +40,7 @@ export default function PartnershipsPage() {
         subtitle={partnershipsHero.subtitle}
         breadcrumbs={[
           { label: "Home", href: "/" },
+          { label: "External Affairs", href: "/external-affairs" },
           { label: "Partnerships" },
         ]}
       />
@@ -48,7 +49,7 @@ export default function PartnershipsPage() {
 
       <div className="px-6 py-12 md:px-12 md:py-16">
         <div className="flex items-start gap-12 xl:gap-16">
-          <InnerPageSidebar items={NAV_ITEMS} />
+          <InnerPageSidebar items={NAV_ITEMS} backHref="/external-affairs" />
 
           <div className="min-w-0 flex-1">
             <PartnershipsGuidelines guidelines={partnershipsGuidelines} />

@@ -90,6 +90,7 @@ export default async function EditPostPage({
             isFeatured: post.isFeatured,
             coverImageUrl: post.coverImageUrl,
             coverImageAlt: post.coverImageAlt,
+            sdgs: post.sdgs,
           }}
         />
       </Card>

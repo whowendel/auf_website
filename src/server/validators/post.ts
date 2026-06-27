@@ -24,6 +24,7 @@ export const postCreateSchema = z.object({
   collegeTagIds: z.array(z.string()).default([]),
   isFeatured: z.boolean().default(false),
   scheduledFor: z.coerce.date().optional().nullable(),
+  sdgs: z.array(z.number().int().min(1).max(17)).default([]),
 });
 
 export const postUpdateSchema = postCreateSchema.partial().extend({

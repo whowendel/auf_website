@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { InnerPageHero } from "@/components/public/page-layout/inner-page-hero";
 import { InnerPageSidebar } from "@/components/public/page-layout/inner-page-sidebar";
 import { InnerPageMobileNav } from "@/components/public/page-layout/inner-page-mobile-nav";
@@ -63,7 +64,15 @@ export default function ResearchPage() {
 
       <div className="px-6 py-12 md:px-12 md:py-16">
         <div className="flex items-start gap-12 xl:gap-16">
-          <InnerPageSidebar items={NAV_ITEMS} />
+          <InnerPageSidebar items={NAV_ITEMS}>
+            <Link
+              href="/research/sustainable-development-goals"
+              className="inline-flex w-full items-center justify-between rounded-xl bg-gold/10 px-4 py-3 text-[11px] font-bold uppercase tracking-wider text-navy transition-all hover:bg-gold hover:text-navy shadow-sm hover:shadow-md"
+            >
+              <span>Sustainable Development Goals</span>
+              <span className="text-sm font-bold">→</span>
+            </Link>
+          </InnerPageSidebar>
 
           <div className="min-w-0 flex-1">
             <ResearchOverview overview={researchOverview} />
