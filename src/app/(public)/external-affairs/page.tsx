@@ -28,6 +28,13 @@ const NAV_ITEMS: SidebarItem[] = [
   { id: "history",             label: eaHistory.navLabel },
 ];
 
+const EXTERNAL_LINKS = [
+  { label: "Connect@AUF", href: "/external-affairs/connect" },
+  { label: "Partnerships", href: "/external-affairs/partnerships" },
+  { label: "International Students", href: "/external-affairs/international-students" },
+  { label: "Testimonials", href: "/external-affairs/testimonials" },
+];
+
 export default function ExternalAffairsPage() {
   return (
     <>
@@ -43,9 +50,41 @@ export default function ExternalAffairsPage() {
 
       <InnerPageMobileNav items={NAV_ITEMS} />
 
+      {/* Mobile sub-page navigation buttons */}
+      <div className="lg:hidden px-6 pt-4 flex flex-wrap gap-2">
+        {EXTERNAL_LINKS.map((link) => (
+          <a
+            key={link.href}
+            href={link.href}
+            className="flex items-center gap-1.5 rounded-full border border-navy/10 px-4 py-2 text-[10px] font-bold uppercase tracking-wider text-navy bg-white/70 backdrop-blur-sm hover:bg-navy hover:text-white transition-all shadow-sm group"
+          >
+            {link.label}
+            <span className="transition-transform group-hover:translate-x-0.5">→</span>
+          </a>
+        ))}
+      </div>
+
       <div className="px-6 py-12 md:px-12 md:py-16">
         <div className="flex items-start gap-12 xl:gap-16">
-          <InnerPageSidebar items={NAV_ITEMS} />
+          <InnerPageSidebar items={NAV_ITEMS} backHref="/">
+            <div className="space-y-3">
+              <p className="text-[10px] font-bold uppercase tracking-[0.22em] text-gold">
+                Related Pages
+              </p>
+              <div className="flex flex-col gap-2">
+                {EXTERNAL_LINKS.map((link) => (
+                  <a
+                    key={link.href}
+                    href={link.href}
+                    className="flex items-center justify-between rounded-lg border border-navy/10 px-4 py-3 text-[11px] font-bold uppercase tracking-wider text-navy transition-all hover:bg-navy hover:text-white hover:border-navy shadow-sm bg-white/50 backdrop-blur-sm group"
+                  >
+                    {link.label}
+                    <span className="transition-transform group-hover:translate-x-0.5">→</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          </InnerPageSidebar>
 
           <div className="min-w-0 flex-1">
             <EaOverview overview={eaOverview} />

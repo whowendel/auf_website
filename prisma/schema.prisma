@@ -146,6 +146,8 @@ model Post {
   approvals   Approval[]
   revisions   PostRevision[]
 
+  sdgs        Int[]
+
   // Slug unique within a scope (null = university, non-null = college id).
   @@unique([originCollegeId, slug])
   @@index([status, publishedAt])
