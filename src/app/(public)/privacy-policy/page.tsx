@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { InnerPageHero } from "@/components/public/page-layout/inner-page-hero";
 import { InnerPageSidebar } from "@/components/public/page-layout/inner-page-sidebar";
 import { InnerPageMobileNav } from "@/components/public/page-layout/inner-page-mobile-nav";
@@ -26,6 +27,9 @@ import {
   privacyContactDPO,
 } from "@/data/privacy-policy";
 import type { SidebarItem } from "@/components/public/page-layout/inner-page-sidebar";
+
+const NPC_SEAL_URL =
+  "https://npcregistration.privacy.gov.ph/certificate/organizationRegistration/63ec52a16733827aab83e35c";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -76,6 +80,26 @@ export default function PrivacyPolicyPage() {
             <PrivacyYourRightsSection data={privacyYourRights} />
             <PrivacyPolicyChangesSection data={privacyPolicyChanges} />
             <PrivacyContactDPOSection data={privacyContactDPO} />
+
+            <div className="flex items-center gap-4 border-t border-auf-border pt-8">
+              <a
+                href={NPC_SEAL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative h-20 w-20 shrink-0"
+              >
+                <Image
+                  src="/assets/auf-data-privacy-seal.png"
+                  alt="National Privacy Commission Seal of Registration"
+                  fill
+                  className="object-contain"
+                />
+              </a>
+              <p className="text-xs leading-relaxed text-auf-muted">
+                AUF is a registered Personal Information Controller with the National Privacy
+                Commission. Click the seal to view our Certificate of Registration.
+              </p>
+            </div>
           </div>
         </div>
       </div>

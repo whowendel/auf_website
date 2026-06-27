@@ -4,6 +4,7 @@ import { listPublishedUniversityPosts } from "@/server/services/posts";
 import { collegeLabel } from "@/data/colleges";
 import { formatDate } from "@/lib/utils";
 import { getSdg } from "@/data/sdgs";
+import { VaticanNewsWidget } from "@/components/public/external-affairs/vatican-news-widget";
 
 export async function EaNews({ news }: { news: ExternalAffairsNews }) {
   const posts = await listPublishedUniversityPosts({ limit: 6 });
@@ -101,6 +102,19 @@ export async function EaNews({ news }: { news: ExternalAffairsNews }) {
           })}
         </div>
       )}
+
+      <div className="mt-14">
+        <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-gold">
+          Holy See
+        </p>
+        <h3 className="mb-3 font-display text-xl font-light text-navy md:text-2xl">
+          Vatican News Feed
+        </h3>
+        <p className="mb-6 text-sm leading-relaxed text-auf-muted">
+          Latest official video broadcasts and updates directly from the Holy See.
+        </p>
+        <VaticanNewsWidget />
+      </div>
     </section>
   );
 }
