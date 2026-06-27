@@ -1,11 +1,15 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { university } from "@/data/colleges";
 import { AufLogo } from "@/components/public/nav/auf-logo";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+
+const NPC_SEAL_URL =
+  "https://npcregistration.privacy.gov.ph/certificate/organizationRegistration/63ec52a16733827aab83e35c";
 
 /**
  * University-wide footer. Hidden automatically on college microsite paths
@@ -22,8 +26,21 @@ export function SiteFooter() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <div className="mb-4">
+            <div className="mb-4 flex items-center gap-3">
               <AufLogo href="/" className="justify-start" />
+              <a
+                href={NPC_SEAL_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="relative h-16 w-16 shrink-0"
+              >
+                <Image
+                  src="/assets/auf-data-privacy-seal.png"
+                  alt="National Privacy Commission Seal of Registration"
+                  fill
+                  className="object-contain"
+                />
+              </a>
             </div>
             <p className="max-w-[22ch] text-xs leading-relaxed text-white/55">
               {university.tagline}
