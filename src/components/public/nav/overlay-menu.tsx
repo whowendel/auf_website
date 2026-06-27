@@ -120,7 +120,9 @@ const modalVariants = {
 };
 
 // ─── Video expand modal ────────────────────────────────────────────────
-function VideoModal({ onClose }: { onClose: () => void }) {
+function VideoModal({ onClose, videoSrc }: { onClose: () => void; videoSrc: string }) {
+  const isYouTube = videoSrc.includes("youtube.com") || videoSrc.includes("youtu.be") || !videoSrc.includes(".mp4");
+
   return (
     <motion.div
       variants={modalVariants}
@@ -134,14 +136,23 @@ function VideoModal({ onClose }: { onClose: () => void }) {
         className="relative w-full max-w-4xl overflow-hidden rounded-2xl bg-black shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
-        <video
-          src="/assets/AUFCourse.mp4"
-          controls
-          autoPlay
-          playsInline
-          className="w-full aspect-video"
-          aria-label="AUF campus video"
-        />
+        {isYouTube ? (
+          <iframe
+            src={videoSrc}
+            className="w-full aspect-video border-0"
+            allow="autoplay; encrypted-media; fullscreen"
+            title="Expanded video player"
+          />
+        ) : (
+          <video
+            src={videoSrc}
+            controls
+            autoPlay
+            playsInline
+            className="w-full aspect-video"
+            aria-label="Expanded video player"
+          />
+        )}
         <button
           type="button"
           onClick={onClose}
@@ -163,25 +174,51 @@ function VideoPanel({
   onClose: () => void;
   t: MenuTheme;
 }) {
-  const videoRef = useRef<HTMLVideoElement>(null);
-  const [muted, setMuted] = useState(true);
-  const [expanded, setExpanded] = useState(false);
+  const aufVideoRef = useRef<HTMLVideoElement>(null);
+  const [aufMuted, setAufMuted] = useState(true);
+  const [expandedVideo, setExpandedVideo] = useState<string | null>(null);
+
+  // Vatican News State
+  const [vaticanData, setVaticanData] = useState<{
+    video: { title: string; videoId: string; published: string } | null;
+    news: Array<{ title: string; link: string; pubDate: string }>;
+  } | null>(null);
+  const [vaticanLoading, setVaticanLoading] = useState(true);
 
   useEffect(() => {
-    videoRef.current?.play().catch(() => { /* autoplay may be blocked */ });
+    aufVideoRef.current?.play().catch(() => { /* autoplay may be blocked */ });
+
+    // Fetch Vatican News dynamically
+    fetch("/api/vatican-news")
+      .then((res) => res.json())
+      .then((data) => {
+        setVaticanData(data);
+        setVaticanLoading(false);
+      })
+      .catch((err) => {
+        console.error("Failed to load Vatican News:", err);
+        setVaticanLoading(false);
+      });
   }, []);
 
-  const toggleMute = useCallback(() => {
-    setMuted((m) => {
-      if (videoRef.current) videoRef.current.muted = !m;
+  const toggleAufMute = useCallback(() => {
+    setAufMuted((m) => {
+      if (aufVideoRef.current) aufVideoRef.current.muted = !m;
       return !m;
     });
   }, []);
 
+  const vaticanVideoId = vaticanData?.video?.videoId;
+
   return (
     <>
       <AnimatePresence>
-        {expanded && <VideoModal onClose={() => setExpanded(false)} />}
+        {expandedVideo && (
+          <VideoModal
+            videoSrc={expandedVideo}
+            onClose={() => setExpandedVideo(null)}
+          />
+        )}
       </AnimatePresence>
 
       <motion.div
@@ -189,62 +226,136 @@ function VideoPanel({
         animate={{ opacity: 1, x: 0, transition: { delay: 0.25, duration: 0.38, ease: EASE_OUT } }}
         className="flex h-full flex-col gap-4"
       >
-        <p className={`text-[10px] font-semibold uppercase tracking-[0.18em] ${t.eyebrow}`}>
-          Featured
-        </p>
+        {/* Featured Video */}
+        <div>
+          <p className={`mb-2 text-[10px] font-semibold uppercase tracking-[0.18em] ${t.eyebrow}`}>
+            Featured Video
+          </p>
 
-        <div className={`group relative overflow-hidden rounded-xl border bg-black/40 ${t.border}`}>
-          <video
-            ref={videoRef}
-            src="/assets/AUFCourse.mp4"
-            muted
-            loop
-            playsInline
-            autoPlay
-            preload="metadata"
-            className="w-full aspect-video object-cover"
-            aria-label="AUF campus video"
-          />
+          <div className={`group relative overflow-hidden rounded-xl border bg-black/40 ${t.border}`}>
+            <video
+              ref={aufVideoRef}
+              src="/assets/AUFCourse.mp4"
+              muted
+              loop
+              playsInline
+              autoPlay
+              preload="metadata"
+              className="w-full aspect-video object-cover"
+              aria-label="AUF campus video"
+            />
 
-          <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-black/80 to-transparent" />
 
-          <div className="absolute inset-0 flex items-end justify-between p-3 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
-            <button
-              type="button"
-              onClick={toggleMute}
-              aria-label={muted ? "Unmute" : "Mute"}
-              className="flex h-7 w-7 items-center justify-center rounded-full bg-black/60 text-white/80 backdrop-blur-sm hover:text-white transition-colors"
-            >
-              {muted ? <VolumeX size={13} /> : <Volume2 size={13} />}
-            </button>
-            <button
-              type="button"
-              onClick={() => setExpanded(true)}
-              aria-label="Watch full video"
-              className="flex items-center gap-1.5 rounded-full bg-black/60 px-3 py-1.5 text-[10px] font-semibold text-white/80 backdrop-blur-sm hover:text-white transition-colors"
-            >
-              <Maximize2 size={11} />
-              Watch
-            </button>
-          </div>
-
-          <div className="absolute bottom-3 left-3 right-3 pointer-events-none">
-            <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-gold/90 drop-shadow">
-              AUF — A Look Inside
-            </p>
-            <p className="mt-0.5 text-[11px] text-white/65 drop-shadow">
-              Experience life at AUF.{" "}
+            <div className="absolute inset-0 flex items-end justify-between p-3 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
               <button
                 type="button"
-                onClick={() => setExpanded(true)}
-                className="pointer-events-auto underline decoration-white/40 hover:text-white transition-colors"
+                onClick={toggleAufMute}
+                aria-label={aufMuted ? "Unmute" : "Mute"}
+                className="flex h-7 w-7 items-center justify-center rounded-full bg-black/60 text-white/80 backdrop-blur-sm hover:text-white transition-colors"
               >
-                Watch now
+                {aufMuted ? <VolumeX size={13} /> : <Volume2 size={13} />}
               </button>
-            </p>
+              <button
+                type="button"
+                onClick={() => setExpandedVideo("/assets/AUFCourse.mp4")}
+                aria-label="Watch full video"
+                className="flex items-center gap-1.5 rounded-full bg-black/60 px-3 py-1.5 text-[10px] font-semibold text-white/80 backdrop-blur-sm hover:text-white transition-colors"
+              >
+                <Maximize2 size={11} />
+                Watch
+              </button>
+            </div>
+
+            <div className="absolute bottom-3 left-3 right-3 pointer-events-none">
+              <p className="text-[10px] font-semibold uppercase tracking-[0.14em] text-gold/90 drop-shadow">
+                AUF — A Look Inside
+              </p>
+              <p className="mt-0.5 text-[11px] text-white/65 drop-shadow">
+                Experience life at AUF.{" "}
+                <button
+                  type="button"
+                  onClick={() => setExpandedVideo("/assets/AUFCourse.mp4")}
+                  className="pointer-events-auto underline decoration-white/40 hover:text-white transition-colors"
+                >
+                  Watch now
+                </button>
+              </p>
+            </div>
           </div>
         </div>
 
+        {/* Vatican News */}
+        <div className={`border-t pt-4 ${t.border}`}>
+          <div className="flex items-center justify-between mb-2">
+            <p className={`text-[10px] font-semibold uppercase tracking-[0.18em] ${t.eyebrow}`}>
+              Vatican News
+            </p>
+            <a
+              href="https://www.vaticannews.va/en.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`flex h-6 w-6 items-center justify-center rounded-full border transition-all hover:border-gold/50 ${t.border} ${t.footerText} hover:text-gold group`}
+              aria-label="Go to Vatican News website"
+            >
+              <ChevronRight size={12} className="transition-transform group-hover:translate-x-0.5" />
+            </a>
+          </div>
+
+          {vaticanLoading ? (
+            <div className="flex items-center justify-center h-28 opacity-40 text-xs">
+              Loading Vatican News...
+            </div>
+          ) : (
+            <>
+              {vaticanVideoId && (
+                <div className={`group relative overflow-hidden rounded-xl border bg-black/40 ${t.border} aspect-video mb-3`}>
+                  <iframe
+                    src={`https://www.youtube.com/embed/${vaticanVideoId}?autoplay=1&mute=1&loop=1&playlist=${vaticanVideoId}&controls=1`}
+                    className="w-full h-full border-0"
+                    allow="autoplay; encrypted-media"
+                    title="Vatican News video"
+                  />
+                  <div className="absolute right-3 top-3 opacity-0 transition-opacity duration-200 group-hover:opacity-100 pointer-events-auto">
+                    <button
+                      type="button"
+                      onClick={() => setExpandedVideo(`https://www.youtube.com/embed/${vaticanVideoId}?autoplay=1`)}
+                      aria-label="Watch full video"
+                      className="flex items-center gap-1.5 rounded-full bg-black/60 px-3 py-1.5 text-[10px] font-semibold text-white/80 backdrop-blur-sm hover:text-white transition-colors"
+                    >
+                      <Maximize2 size={11} />
+                      Expand
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {/* Display 2 recent news articles */}
+              {vaticanData?.news && vaticanData.news.length > 0 && (
+                <div className="space-y-3 mt-3">
+                  {vaticanData.news.map((item, index) => (
+                    <a
+                      key={index}
+                      href={item.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group block"
+                    >
+                      <span className={`block text-[10px] font-medium tracking-wide ${t.eyebrow} opacity-70`}>
+                        {item.pubDate}
+                      </span>
+                      <span className={`mt-0.5 block text-[12px] font-medium leading-snug transition-colors ${t.subText} ${t.subHover} line-clamp-2`}>
+                        {item.title}
+                      </span>
+                    </a>
+                  ))}
+                </div>
+              )}
+            </>
+          )}
+        </div>
+
+        {/* Quick Links */}
         <div className={`border-t pt-4 ${t.border}`}>
           <p className={`mb-3 text-[10px] font-semibold uppercase tracking-[0.16em] ${t.eyebrow} opacity-60`}>
             Quick links

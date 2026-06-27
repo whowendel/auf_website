@@ -14,6 +14,7 @@ import {
   Select,
   Textarea,
 } from "@/components/ui/primitives";
+import { SdgSelect } from "./sdg-select";
 
 type CollegeLite = { id: string; shortName: string; name: string };
 
@@ -38,6 +39,7 @@ type Initial = {
   isFeatured: boolean;
   coverImageUrl: string | null;
   coverImageAlt: string | null;
+  sdgs: number[];
 };
 
 export function PostForm({
@@ -58,6 +60,7 @@ export function PostForm({
   const isSuper = role === "SUPER_ADMIN";
 
   const [tagIds, setTagIds] = useState<string[]>(initial?.collegeTagIds ?? []);
+  const [sdgs, setSdgs] = useState<number[]>(initial?.sdgs ?? []);
 
   return (
     <form
@@ -85,6 +88,7 @@ export function PostForm({
                 coverImageUrl: nullable(fd.get("coverImageUrl")),
                 coverImageAlt: nullable(fd.get("coverImageAlt")),
                 scheduledFor: null,
+                sdgs,
               });
               toast.success("Post created as draft");
               router.push(`/admin/posts/${r.id}`);
@@ -102,6 +106,7 @@ export function PostForm({
                 isFeatured: fd.get("isFeatured") === "on",
                 coverImageUrl: nullable(fd.get("coverImageUrl")),
                 coverImageAlt: nullable(fd.get("coverImageAlt")),
+                sdgs,
               });
               toast.success("Changes saved");
               router.refresh();
@@ -171,6 +176,12 @@ export function PostForm({
             pattern="[a-z0-9\-]+"
             placeholder="my-post-slug"
           />
+        </Field>
+      </div>
+
+      <div className="sm:col-span-2">
+        <Field label="Sustainable Development Goals (SDGs)" hint="Classify which SDGs this post covers. Select N/A if not applicable.">
+          <SdgSelect selectedSdgs={sdgs} onChange={setSdgs} />
         </Field>
       </div>
 

@@ -2,6 +2,7 @@ import Link from "next/link";
 import { activeColleges, collegeLabel } from "@/data/colleges";
 import { formatDate } from "@/lib/utils";
 import type { listPublishedUniversityPosts } from "@/server/services/posts";
+import { getSdg } from "@/data/sdgs";
 
 type Post = Awaited<ReturnType<typeof listPublishedUniversityPosts>>[number];
 
@@ -132,12 +133,31 @@ function FeaturedCard({ post }: { post: Post }) {
               <span className="text-white/20">·</span>
               <span>{post.author.name}</span>
             </div>
-            <Link
-              href={href}
-              className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-white/20 px-4 py-1.5 text-[11px] font-semibold text-white/80 transition-all hover:border-gold hover:text-gold"
-            >
-              Read <span className="transition-transform group-hover:translate-x-0.5">→</span>
-            </Link>
+            <div className="flex items-center gap-2">
+              {post.sdgs && post.sdgs.length > 0 && (
+                <div className="flex flex-wrap items-center gap-1">
+                  {post.sdgs.map((num) => {
+                    const sdg = getSdg(num);
+                    return (
+                      <span
+                        key={num}
+                        className="inline-block rounded px-1.5 py-0.5 text-[9px] font-bold text-white shrink-0"
+                        style={{ backgroundColor: sdg?.color ?? "var(--auf-gold)" }}
+                        title={sdg?.title ?? `SDG ${num}`}
+                      >
+                        SDG {num}
+                      </span>
+                    );
+                  })}
+                </div>
+              )}
+              <Link
+                href={href}
+                className="inline-flex shrink-0 items-center gap-1.5 rounded-full border border-white/20 px-4 py-1.5 text-[11px] font-semibold text-white/80 transition-all hover:border-gold hover:text-gold"
+              >
+                Read <span className="transition-transform group-hover:translate-x-0.5">→</span>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
@@ -198,13 +218,32 @@ function GridCard({ post }: { post: Post }) {
           <span className="text-[10px] text-auf-muted/60">
             {post.publishedAt ? formatDate(post.publishedAt) : ""}
           </span>
-          <Link
-            href={href}
-            className="text-[10px] font-semibold transition-colors hover:opacity-70"
-            style={{ color: accentColor }}
-          >
-            Read →
-          </Link>
+          <div className="flex items-center gap-2">
+            {post.sdgs && post.sdgs.length > 0 && (
+              <div className="flex flex-wrap items-center gap-1">
+                {post.sdgs.map((num) => {
+                  const sdg = getSdg(num);
+                  return (
+                    <span
+                      key={num}
+                      className="inline-block rounded px-1.5 py-0.5 text-[9px] font-bold text-white shrink-0"
+                      style={{ backgroundColor: sdg?.color ?? "var(--auf-gold)" }}
+                      title={sdg?.title ?? `SDG ${num}`}
+                    >
+                      SDG {num}
+                    </span>
+                  );
+                })}
+              </div>
+            )}
+            <Link
+              href={href}
+              className="text-[10px] font-semibold transition-colors hover:opacity-70 shrink-0"
+              style={{ color: accentColor }}
+            >
+              Read →
+            </Link>
+          </div>
         </div>
       </div>
     </article>

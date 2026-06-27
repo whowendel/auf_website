@@ -110,6 +110,10 @@ export const navSections: NavSection[] = [
           { label: "Vision, Mission & Goals", href: "/external-affairs#vision-mission-goals" },
           { label: "News & Events", href: "/external-affairs#news-events" },
           { label: "History", href: "/external-affairs#history" },
+          { label: "Connect@AUF", href: "/external-affairs/connect" },
+          { label: "Partnerships", href: "/external-affairs/partnerships" },
+          { label: "International Students", href: "/external-affairs/international-students" },
+          { label: "Testimonials", href: "/external-affairs/testimonials" },
         ],
       },
     ],
@@ -117,7 +121,24 @@ export const navSections: NavSection[] = [
   {
     id: "research",
     label: "Research",
-    href: "/research",
+    groups: [
+      {
+        heading: "Research",
+        items: [
+          { label: "Overview", href: "/research#overview" },
+          { label: "About OVPRI", href: "/research#about-ovpri" },
+          { label: "Vision & Mission", href: "/research#vision-mission" },
+          { label: "Research Centers", href: "/research#research-centers" },
+          { label: "Research Thrusts", href: "/research#research-thrusts" },
+          { label: "Services & Support", href: "/research#services-support" },
+          { label: "Grants & Opportunities", href: "/research#grants-opportunities" },
+          { label: "Research Archive", href: "/research#archive" },
+          { label: "News & Events", href: "/research#news-events" },
+          { label: "Faculty Directory", href: "/research#faculty-directory" },
+          { label: "Sustainable Development Goals", href: "/research/sustainable-development-goals" },
+        ],
+      },
+    ],
   },
   {
     id: "alumni",
@@ -154,19 +175,7 @@ export const navSections: NavSection[] = [
       },
     ],
   },
-  {
-    id: "connect",
-    label: "Connect@AUF",
-    groups: [
-      {
-        heading: "Connect@AUF",
-        items: [
-          { label: "Campuses",  href: "/connect#campuses" },
-          { label: "Directory", href: "/connect#directory" },
-        ],
-      },
-    ],
-  },
+
   {
     id: "about",
     label: "About",
@@ -187,42 +196,13 @@ export const navSections: NavSection[] = [
       },
     ],
   },
-  {
-    id: "partnerships",
-    label: "Partnerships",
-    groups: [
-      {
-        heading: "Guidelines & Forms",
-        items: [
-          { label: "Partnership Guidelines",     href: "/partnerships#guidelines" },
-          { label: "Partnership Forms",          href: "/partnerships#forms" },
-        ],
-      },
-      {
-        heading: "Partnership Types",
-        items: [
-          { label: "Curricular Partners",        href: "/partnerships#curricular-partners" },
-          { label: "Industry Partners",          href: "/partnerships#industry-partners" },
-          { label: "Networks (AUN-QA, AUAP)",    href: "/partnerships#networks" },
-        ],
-      },
-    ],
-  },
+
   {
     id: "news-events",
     label: "News and Events",
     href: "/news-events",
   },
-  {
-    id: "international-students",
-    label: "International Students",
-    href: "/international-students",
-  },
-  {
-    id: "testimonials",
-    label: "Testimonials",
-    href: "/testimonials",
-  },
+
   {
     id: "privacy-policy",
     label: "Privacy Policy",

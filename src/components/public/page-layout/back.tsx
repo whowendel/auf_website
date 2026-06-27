@@ -1,16 +1,20 @@
 import { ArrowLeft } from "lucide-react";
 import { useRouter } from "next/navigation";
 
-export function GoBackButton() {
+export function GoBackButton({ href }: { href?: string }) {
     const router = useRouter();
     return (
         <button
         type="button"
-        onClick={() =>
-            typeof window !== "undefined" && window.history.length > 1
-            ? router.back()
-            : router.push("/")
-        }
+        onClick={() => {
+            if (href) {
+                router.push(href);
+            } else if (typeof window !== "undefined" && window.history.length > 1) {
+                router.back();
+            } else {
+                router.push("/");
+            }
+        }}
         className="mb-5 flex items-center gap-1.5 text-[11px] text-auf-muted transition-colors group"
         >
         <ArrowLeft

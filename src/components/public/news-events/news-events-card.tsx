@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { getCollegeById } from "@/data/colleges";
 import { formatDate } from "@/lib/utils";
+import { getSdg } from "@/data/sdgs";
 
 const TYPE_STYLES: Record<string, { badge: string; placeholder: string }> = {
   NEWS:         { badge: "bg-blue-50 text-blue-700",    placeholder: "bg-blue-100" },
@@ -20,6 +21,7 @@ type PostCard = {
   originCollegeId: string | null;
   author: { name: string | null };
   collegeTags: { collegeId: string }[];
+  sdgs: number[];
 };
 
 export function NewsEventsCard({ post, featured = false }: { post: PostCard; featured?: boolean }) {
@@ -107,13 +109,32 @@ export function NewsEventsCard({ post, featured = false }: { post: PostCard; fea
               <> · {formatDate(post.publishedAt)}</>
             )}
           </span>
-          <Link
-            href={href}
-            className="text-[10px] font-semibold transition-colors hover:opacity-70"
-            style={{ color: college?.brandColor ?? "var(--auf-gold)" }}
-          >
-            Read →
-          </Link>
+          <div className="flex items-center gap-2">
+            {post.sdgs && post.sdgs.length > 0 && (
+              <div className="flex flex-wrap items-center gap-1">
+                {post.sdgs.map((num) => {
+                  const sdg = getSdg(num);
+                  return (
+                    <span
+                      key={num}
+                      className="inline-block rounded px-1.5 py-0.5 text-[9px] font-bold text-white shrink-0"
+                      style={{ backgroundColor: sdg?.color ?? "var(--auf-gold)" }}
+                      title={sdg?.title ?? `SDG ${num}`}
+                    >
+                      SDG {num}
+                    </span>
+                  );
+                })}
+              </div>
+            )}
+            <Link
+              href={href}
+              className="text-[10px] font-semibold transition-colors hover:opacity-70 shrink-0"
+              style={{ color: college?.brandColor ?? "var(--auf-gold)" }}
+            >
+              Read →
+            </Link>
+          </div>
         </div>
       </div>
     </article>
