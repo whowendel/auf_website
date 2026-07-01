@@ -1,6 +1,71 @@
 import type { PartnershipsGuidelines } from "@/data/partnerships";
 
 export function PartnershipsGuidelines({ guidelines }: { guidelines: PartnershipsGuidelines }) {
+  // Custom parser to format details lines and dynamically inject buttons and notice boxes
+  function renderStepDetails(detailsText: string) {
+    const lines = detailsText.split("\n");
+    return (
+      <div className="space-y-2">
+        {lines.map((line, index) => {
+          const trimmed = line.trim();
+          if (!trimmed) return null;
+
+          // Check if it is a link to Contact Us instruction
+          if (trimmed.startsWith("*Link to CONTACT US")) {
+            return (
+              <div key={index} className="pt-1.5">
+                <a
+                  href="/external-affairs/connect"
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-gold/30 bg-gold/5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-gold-dark hover:bg-gold hover:text-white transition-all shadow-sm group"
+                >
+                  Contact Us
+                  <span className="transition-transform group-hover:translate-x-0.5">→</span>
+                </a>
+              </div>
+            );
+          }
+
+          // Check if it is a link to Form instruction
+          if (trimmed.startsWith("*Link the Form to")) {
+            return (
+              <div key={index} className="pt-1.5">
+                <a
+                  href="#forms"
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-navy/10 bg-navy/5 px-3 py-1.5 text-[10px] font-bold uppercase tracking-wider text-navy hover:bg-navy hover:text-white transition-all shadow-sm group"
+                >
+                  Go to Forms
+                  <span className="transition-transform group-hover:translate-x-0.5">→</span>
+                </a>
+              </div>
+            );
+          }
+
+          // Check if it is a note/disclaimer (starts with asterisk)
+          if (trimmed.startsWith("*")) {
+            return (
+              <div
+                key={index}
+                className="mt-2 rounded-lg border border-gold/30 bg-gold/5 p-3 text-[11px] leading-relaxed text-gold-dark font-medium shadow-sm"
+              >
+                <span className="font-bold uppercase tracking-wider text-[9px] block mb-1 text-gold-dark/80">
+                  Notice / Disclaimer
+                </span>
+                {trimmed.substring(1).trim()}
+              </div>
+            );
+          }
+
+          // Regular details text
+          return (
+            <p key={index} className="text-xs leading-relaxed text-auf-muted">
+              {trimmed}
+            </p>
+          );
+        })}
+      </div>
+    );
+  }
+
   return (
     <section id="guidelines" className="scroll-mt-32 border-b border-auf-border py-14">
       <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-gold">
@@ -67,9 +132,7 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
 
                 {/* Details */}
                 <td className="px-4 py-4">
-                  <p className="text-xs leading-relaxed text-auf-muted whitespace-pre-line">
-                    {step.details}
-                  </p>
+                  {renderStepDetails(step.details)}
                 </td>
               </tr>
             ))}
@@ -94,7 +157,7 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
             </div>
 
             {/* Body */}
-            <div className="px-4 py-3 space-y-2">
+            <div className="px-4 py-3 space-y-3">
               <div>
                 <p className="text-[9px] font-bold uppercase tracking-[0.16em] text-navy/40">Office</p>
                 <p className="text-xs font-semibold text-navy">{step.office}</p>
@@ -102,7 +165,9 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
               </div>
               <div>
                 <p className="text-[9px] font-bold uppercase tracking-[0.16em] text-navy/40">Details</p>
-                <p className="text-xs leading-relaxed text-auf-muted whitespace-pre-line">{step.details}</p>
+                <div className="mt-1">
+                  {renderStepDetails(step.details)}
+                </div>
               </div>
             </div>
           </div>
