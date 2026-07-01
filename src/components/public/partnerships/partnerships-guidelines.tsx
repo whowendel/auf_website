@@ -45,9 +45,9 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
             return (
               <div
                 key={index}
-                className="mt-2 rounded-lg border border-gold/30 bg-gold/5 p-3 text-[11px] leading-relaxed text-gold-dark font-medium shadow-sm"
+                className="mt-2 rounded-lg border border-auf-border bg-off-white p-3 text-xs leading-relaxed text-auf-muted shadow-sm"
               >
-                <span className="font-bold uppercase tracking-wider text-[9px] block mb-1 text-gold-dark/80">
+                <span className="font-bold uppercase tracking-wider text-[9px] block mb-1 text-navy/70">
                   Notice / Disclaimer
                 </span>
                 {trimmed.substring(1).trim()}
