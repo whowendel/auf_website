@@ -25,95 +25,160 @@
       {
         "id": "f1",
         "step": 1,
-        "title": "Expression of Interest",
-        "office": "External Affairs Office",
-        "personInCharge": "Director for External Affairs",
-        "details": "The prospective partner submits a letter of intent or inquiry to the AUF External Affairs Office, indicating the nature, scope, and objectives of the proposed collaboration.",
-        "duration": "Day 1"
+        "title": "Preliminary discussion with the prospective partner",
+        "office": "Concerned Academic / Support Unit",
+        "personInCharge": "Unit Head / Dean",
+        "details": "The prospective partner shall be given a venue for a preliminary discussion on the proposed partnership. The AUF shall explain both the national and institutional requirements in terms of forging linkages and partnership.\n\nDuring the preliminary discussion, the nature and scope of the partnership shall be identified.\n\nReference: Get in touch with the Target College or Unit.\n*Link to CONTACT US"
       },
       {
         "id": "f2",
         "step": 2,
-        "title": "Submission of Partnership Proposal",
-        "office": "External Affairs Office",
-        "personInCharge": "Director for External Affairs",
-        "details": "AUF provides the official Partnership Proposal Form. The prospective partner completes and submits the form along with supporting documents including their organization profile and proposed terms of collaboration.",
-        "duration": "Within 10 business days"
+        "title": "Submission of the Proposal",
+        "office": "Prospective Partner",
+        "personInCharge": "Authorized Representative",
+        "details": "The Prospective Partner, supported by the concerned academic/support unit must accomplish the Partnership Proposal Form (Form: AUF-Form-OVPEA-1).\n\n*Link the Form to https://bit.ly/auf-ovpea1\n\nThe accomplished Partnership Proposal Form will be forwarded to the concerned College/Unit for review and to ascertain its feasibility. If the unit has decided that the proposal is feasible and will bring mutual benefits to both parties, the Unit head shall endorse the proposal to the OVPEA."
       },
       {
         "id": "f3",
         "step": 3,
-        "title": "Evaluation and Assessment",
-        "office": "External Affairs Committee",
-        "personInCharge": "VP for External Affairs · Relevant College Dean",
-        "details": "The External Affairs Committee, in consultation with the relevant dean or department head, evaluates the proposal for institutional alignment, feasibility, and mutual benefit.",
-        "duration": "5–10 business days"
+        "title": "Endorsement of the proposal",
+        "office": "Concerned Academic / Support Unit",
+        "personInCharge": "Unit Head / Dean",
+        "details": "The Unit head shall endorse the proposal by accomplishing the endorsement form (Form: AUF-Form-OVPEA-2).\n\n*Link the Form to https://bit.ly/auf-ovpea2"
       },
       {
         "id": "f4",
         "step": 4,
-        "title": "Endorsement and Approval",
-        "office": "Office of the University President",
-        "personInCharge": "University President",
-        "details": "Approved proposals are endorsed by the VP for External Affairs to the University President for final approval. Major or multi-year agreements may require Board of Trustees ratification.",
-        "duration": "3–5 business days"
+        "title": "Evaluation of the proposal",
+        "office": "OVPEA",
+        "personInCharge": "VP for External Affairs",
+        "details": "The OVPEA shall review the proposal based on the Partnership Proposal Form and Endorsement Form."
       },
       {
         "id": "f5",
         "step": 5,
-        "title": "MOA / MOU Drafting and Legal Review",
-        "office": "Office of the University Counsel",
-        "personInCharge": "University Legal Counsel",
-        "details": "The University Counsel drafts or reviews the Memorandum of Agreement (MOA) or Memorandum of Understanding (MOU), ensuring all terms, obligations, and conditions comply with applicable laws and AUF policies.",
-        "duration": "5–7 business days"
+        "title": "Clearance from the Registrar’s Office",
+        "office": "Registrar’s Office",
+        "personInCharge": "University Registrar",
+        "details": "If the proposed partnership involves curricular revisions, the OVPEA will seek clearance from the Registrar’s Office to ensure that the proposed program (curriculum) is aligned with the existing relevant policies.\n\n*If no concern with CHED’s PSGs and CMOs, this step may be omitted."
       },
       {
         "id": "f6",
         "step": 6,
-        "title": "Signing Ceremony",
-        "office": "External Affairs Office",
-        "personInCharge": "University President · Authorized Representative",
-        "details": "The finalized agreement is formally signed by authorized representatives of both parties. The External Affairs Office coordinates the ceremony and retains official copies of the signed document.",
-        "duration": "As scheduled"
+        "title": "Clearance from the OVPAd",
+        "office": "Office of the Vice President for Administration",
+        "personInCharge": "VP for Administration",
+        "details": "If the proposed partnership involves the procurement of new equipment or the construction of a new facility, the Office of the Vice President for External Affairs (OVPEA) shall seek prior clearance from the Office of the Vice President for Administration (OVPAd) regarding the availability and allocation of the required resources, equipment, and facilities necessary for the implementation of the proposal.\n\n*If the proposed partnership does not involve any facility- or equipment-related requirements, this step may be omitted."
       },
       {
         "id": "f7",
         "step": 7,
-        "title": "Implementation and Coordination",
-        "office": "Designated College / Department",
-        "personInCharge": "College Dean · Program Coordinator",
-        "details": "The relevant college or administrative office executes the partnership activities per the signed agreement. The External Affairs Office maintains oversight and facilitates inter-institutional communication.",
-        "duration": "Per agreement timeline"
+        "title": "Drafting of MOA/MOU",
+        "office": "Concerned Academic / Support Unit & Prospective Partner",
+        "personInCharge": "Unit Head & Partner Representative",
+        "details": "The OVPEA will inform the Concerned Academic / Support Unit to proceed with the drafting of the MOU or MOA.\n\n*To expedite the legal review, and if the prospective partner is amendable, the AUF template can be used. The MOU and MOA template will be forwarded to the concerned college/unit and the prospective partner."
       },
       {
         "id": "f8",
         "step": 8,
-        "title": "Monitoring, Evaluation, and Renewal",
-        "office": "External Affairs Office",
-        "personInCharge": "Director for External Affairs",
-        "details": "Annual monitoring and evaluation are conducted for all active partnerships. Partners are notified three months before expiration for renewal discussions. Non-performing partnerships may be terminated by either party with proper written notice.",
-        "duration": "Annual"
+        "title": "Clearance from the OVPAA/OVPRI",
+        "office": "Office of the VP for Academic Affairs & Office of the VP for Research & Innovation",
+        "personInCharge": "VP for Academic Affairs & VP for Research & Innovation",
+        "details": "The drafted MOU/MOA shall be cleared from the OVPAA (Teaching Delivery) and/or OVPRI (Research)."
+      },
+      {
+        "id": "f9",
+        "step": 9,
+        "title": "Clearance from the OVPF for the relevant fees",
+        "office": "Office of the Vice President for Finance",
+        "personInCharge": "VP for Finance",
+        "details": "If the drafted MOU/MOA involves collection of fees, clearance from the OVPF shall be secured by the Concerned Academic / Support Unit.\n\n*In cases where the proposed partnership involves no monetary component, this step may be omitted."
+      },
+      {
+        "id": "f10",
+        "step": 10,
+        "title": "Clearance from the Data Protection Officer",
+        "office": "Data Protection Officer",
+        "personInCharge": "DPO",
+        "details": "To ensure Data Protection of the parties involved, the OVPEA shall seek clearance from the AUF-DPO."
+      },
+      {
+        "id": "f11",
+        "step": 11,
+        "title": "Clearance from the legal counsel",
+        "office": "Office of the President",
+        "personInCharge": "University Legal Counsel",
+        "details": "The drafted MOU/MOA shall be reviewed and approved by the AUF legal counsel.\n\n*If the drafted MOU/MOA is carried over from the AUF template or previously approved MOU/MOA, this step may be omitted."
+      },
+      {
+        "id": "f12",
+        "step": 12,
+        "title": "Signing of the MOA/MOU",
+        "office": "Concerned Academic/Support Unit & OVPEA & Office of the President",
+        "personInCharge": "Unit Head & VP for External Affairs & University President",
+        "details": "The Concerned Academic/Support Unit, OVPEA, and Office of the President shall recommend how the MOA/MOU will be signed."
+      },
+      {
+        "id": "f13",
+        "step": 13,
+        "title": "Registration of the MOA/MOU to the IZN Database",
+        "office": "Concerned Academic/Support Unit",
+        "personInCharge": "Unit Head / Program Coordinator",
+        "details": "The Concerned Academic/Support Unit shall register the established partnership at the University Local and International Partnerships Registry.\n\nForm: AUF-Form-OVPEA-3 (Partnership Registration Form)\n*Link the Form to https://bit.ly/auf-ovpea3"
       }
     ],
-    "contactNote": "For partnership inquiries, contact the External Affairs Office at externalaffairs@auf.edu.ph or (045) 888-8691 local 108."
+    "contactNote": "For partnership inquiries, contact the External Affairs Office at connect@auf.edu.ph or (63) (045) 625-2888 local 1783."
   },
   "forms": {
     "navLabel": "Partnership Forms",
-    "eyebrow": "Downloadable Documents",
-    "title": "Partnership Forms",
-    "description": "Download the official AUF partnership and engagement forms below. All completed forms must be submitted to the External Affairs Office for processing. Ensure all required fields are properly accomplished before submission.",
+    "eyebrow": "Official Documents",
+    "title": "Links for Partnership Forms",
+    "description": "Access the official partnership forms and links below. You can click on the bit.ly link or scan the QR code to access the corresponding forms directly.",
     "downloadableForms": [
-      { "id": "pf1", "name": "Partnership Proposal Form",             "fileType": "PDF",  "fileUrl": null },
-      { "id": "pf2", "name": "Partnership Endorsement Form",          "fileType": "PDF",  "fileUrl": null },
-      { "id": "pf3", "name": "Partnership Registration Form",         "fileType": "PDF",  "fileUrl": null },
-      { "id": "pf4", "name": "Partnership Evaluation Form",           "fileType": "PDF",  "fileUrl": null },
-      { "id": "pf5", "name": "Engagement Request Form",               "fileType": "PDF",  "fileUrl": null },
-      { "id": "pf6", "name": "Engagement Activity Report",            "fileType": "PDF",  "fileUrl": null },
-      { "id": "pf7", "name": "AUF Policy for External Affairs",       "fileType": "PDF",  "fileUrl": null },
-      { "id": "pf8", "name": "MOA Template — Academic Exchange",      "fileType": "DOCX", "fileUrl": null },
-      { "id": "pf9", "name": "MOA Template — Clinical Training",      "fileType": "DOCX", "fileUrl": null }
+      {
+        "id": "pf1",
+        "name": "Partnership Proposal Form",
+        "description": "This form is completed by prospective local or international partners to formally present a proposed collaboration with Angeles University Foundation.",
+        "fileType": "PDF",
+        "fileUrl": "https://bit.ly/auf-ovpea1"
+      },
+      {
+        "id": "pf2",
+        "name": "Partnership Endorsement Form",
+        "description": "This form is completed by the concerned AUF academic or support unit to justify and endorse the proposed partnership.",
+        "fileType": "PDF",
+        "fileUrl": "https://bit.ly/auf-ovpea2"
+      },
+      {
+        "id": "pf3",
+        "name": "Partnership Registration Form",
+        "description": "This form is used to officially register approved partnerships in the AUF International and Local Partnerships Registry.",
+        "fileType": "PDF",
+        "fileUrl": "https://bit.ly/auf-ovpea3"
+      },
+      {
+        "id": "pf4",
+        "name": "Engagement Activity Report",
+        "description": "This report documents the implementation, outcomes, and impact of a specific internationalization or partnership-related activity.",
+        "fileType": "PDF",
+        "fileUrl": "https://bit.ly/auf-ovpea4"
+      },
+      {
+        "id": "pf5",
+        "name": "Partnership Evaluation Form",
+        "description": "This form is completed by external partners to assess the effectiveness, alignment, and sustainability of the collaboration with AUF.",
+        "fileType": "PDF",
+        "fileUrl": "https://bit.ly/auf-ovpea5"
+      },
+      {
+        "id": "pf6",
+        "name": "Engagement Request Form",
+        "description": "This form is submitted by external institutions seeking approval for a meeting, visit, or engagement activity with AUF.",
+        "fileType": "PDF",
+        "fileUrl": "https://bit.ly/auf-ovpea6"
+      }
     ],
-    "submissionNote": "Submit completed forms to the External Affairs Office, Main Building Ground Floor, or email them to externalaffairs@auf.edu.ph."
+    "submissionNote": "Submit completed forms to the External Affairs Office, or email them to connect@auf.edu.ph."
   },
   "curricularPartners": {
     "navLabel": "Curricular Partners",

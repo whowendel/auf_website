@@ -6,32 +6,12 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
       <p className="mb-2 text-[11px] font-semibold uppercase tracking-[0.22em] text-gold">
         {guidelines.eyebrow}
       </p>
-      <h2 className="mb-4 font-display text-2xl font-light text-navy md:text-3xl">{guidelines.title}</h2>
-      <p className="mb-10 text-sm leading-relaxed text-auf-muted">{guidelines.description}</p>
-
-      {/* AUF Policy card */}
-      <div className="mb-10 overflow-hidden rounded-2xl border border-auf-border bg-white">
-        <div className="flex items-center gap-3 border-b border-auf-border bg-navy px-6 py-4">
-          <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-gold text-[10px] font-bold text-navy">
-            §
-          </span>
-          <h3 className="font-display text-sm font-semibold text-white">{guidelines.policy.title}</h3>
-        </div>
-        <div className="px-6 py-5">
-          <p className="mb-4 text-sm leading-relaxed text-auf-muted">{guidelines.policy.summary}</p>
-          <p className="mb-3 text-[10px] font-bold uppercase tracking-[0.18em] text-navy/40">Key Principles</p>
-          <ul className="space-y-2">
-            {guidelines.policy.principles.map((p, i) => (
-              <li key={i} className="flex items-start gap-3">
-                <span className="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-gold/15 text-[10px] font-bold text-[#8a6800]">
-                  {i + 1}
-                </span>
-                <span className="text-sm leading-relaxed text-auf-muted">{p}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
+      <h2 className="mb-4 font-display text-2xl font-light text-navy md:text-3xl">
+        {guidelines.title}
+      </h2>
+      <p className="mb-10 text-sm leading-relaxed text-auf-muted">
+        {guidelines.description}
+      </p>
 
       {/* Process flow */}
       <p className="mb-5 text-[10px] font-bold uppercase tracking-[0.2em] text-navy/40">
@@ -43,7 +23,7 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
         <table className="w-full text-sm">
           <thead className="border-b border-auf-border bg-off-white">
             <tr>
-              {["Step", "Title", "Office / Person in Charge", "Details", "Timeline"].map((h) => (
+              {["Step", "Title", "Office / Person in Charge", "Details"].map((h) => (
                 <th
                   key={h}
                   className="px-4 py-3 text-left text-[10px] font-bold uppercase tracking-[0.12em] text-navy/50"
@@ -60,35 +40,36 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
                 className={`border-b border-auf-border last:border-0 ${i % 2 === 0 ? "bg-white" : "bg-off-white/50"}`}
               >
                 {/* Step number */}
-                <td className="px-4 py-4">
+                <td className="px-4 py-4 w-16">
                   <span className="flex h-8 w-8 items-center justify-center rounded-full bg-navy font-display text-sm font-bold text-white">
                     {step.step}
                   </span>
                 </td>
 
                 {/* Title */}
-                <td className="px-4 py-4">
-                  <span className="font-display text-sm font-semibold text-navy">{step.title}</span>
+                <td className="px-4 py-4 w-52">
+                  <span className="font-display text-sm font-semibold text-navy">
+                    {step.title}
+                  </span>
                 </td>
 
                 {/* Office / Person in Charge */}
-                <td className="px-4 py-4">
+                <td className="px-4 py-4 w-60">
                   <div className="space-y-1">
-                    <p className="text-[11px] font-semibold text-navy">{step.office}</p>
-                    <p className="text-[11px] text-auf-muted">{step.personInCharge}</p>
+                    <p className="text-[11px] font-semibold text-navy leading-snug">
+                      {step.office}
+                    </p>
+                    <p className="text-[11px] text-auf-muted">
+                      {step.personInCharge}
+                    </p>
                   </div>
                 </td>
 
                 {/* Details */}
-                <td className="max-w-xs px-4 py-4">
-                  <p className="text-xs leading-relaxed text-auf-muted">{step.details}</p>
-                </td>
-
-                {/* Duration */}
                 <td className="px-4 py-4">
-                  <span className="inline-block whitespace-nowrap rounded-full bg-navy/8 px-2.5 py-1 text-[10px] font-semibold text-navy">
-                    {step.duration}
-                  </span>
+                  <p className="text-xs leading-relaxed text-auf-muted whitespace-pre-line">
+                    {step.details}
+                  </p>
                 </td>
               </tr>
             ))}
@@ -106,10 +87,9 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
                 {step.step}
               </span>
               <div className="flex-1">
-                <p className="font-display text-sm font-semibold text-navy">{step.title}</p>
-                <span className="inline-block rounded-full bg-gold/10 px-2 py-0.5 text-[9px] font-semibold text-[#8a6800]">
-                  {step.duration}
-                </span>
+                <p className="font-display text-sm font-semibold text-navy">
+                  {step.title}
+                </p>
               </div>
             </div>
 
@@ -122,7 +102,7 @@ export function PartnershipsGuidelines({ guidelines }: { guidelines: Partnership
               </div>
               <div>
                 <p className="text-[9px] font-bold uppercase tracking-[0.16em] text-navy/40">Details</p>
-                <p className="text-xs leading-relaxed text-auf-muted">{step.details}</p>
+                <p className="text-xs leading-relaxed text-auf-muted whitespace-pre-line">{step.details}</p>
               </div>
             </div>
           </div>
