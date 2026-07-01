@@ -104,12 +104,20 @@ export const navSections: NavSection[] = [
     label: "External Affairs",
     groups: [
       {
-        heading: "External Affairs",
+        heading: "About",
         items: [
           { label: "Overview", href: "/external-affairs#overview" },
           { label: "Vision, Mission & Goals", href: "/external-affairs#vision-mission-goals" },
-          { label: "News & Events", href: "/external-affairs#news-events" },
           { label: "History", href: "/external-affairs#history" },
+          { label: "Leadership", href: "/external-affairs#leadership" },
+          { label: "Organizational Chart", href: "/external-affairs#org-chart" },
+          { label: "Facts & Figures", href: "/external-affairs#facts-figures" },
+          { label: "International Recognitions", href: "/external-affairs#recognitions" },
+        ],
+      },
+      {
+        heading: "Services & Linkages",
+        items: [
           { label: "Connect@AUF", href: "/external-affairs/connect" },
           { label: "Partnerships", href: "/external-affairs/partnerships" },
           { label: "International Students", href: "/external-affairs/international-students" },

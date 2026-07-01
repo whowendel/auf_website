@@ -3,6 +3,7 @@ import { InnerPageHero } from "@/components/public/page-layout/inner-page-hero";
 import { InnerPageSidebar } from "@/components/public/page-layout/inner-page-sidebar";
 import { InnerPageMobileNav } from "@/components/public/page-layout/inner-page-mobile-nav";
 import { PartnershipsGuidelines } from "@/components/public/partnerships/partnerships-guidelines";
+import { PartnershipsPolicy } from "@/components/public/partnerships/partnerships-policy";
 import { PartnershipsForms } from "@/components/public/partnerships/partnerships-forms";
 import { PartnershipsCurricular } from "@/components/public/partnerships/partnerships-curricular";
 import { PartnershipsIndustry } from "@/components/public/partnerships/partnerships-industry";
@@ -24,11 +25,12 @@ export const metadata: Metadata = {
 };
 
 const NAV_ITEMS: SidebarItem[] = [
-  { id: "guidelines",         label: partnershipsGuidelines.navLabel },
-  { id: "forms",              label: partnershipsForms.navLabel },
-  { id: "curricular-partners",label: partnershipsCurricular.navLabel },
-  { id: "industry-partners",  label: partnershipsIndustry.navLabel },
-  { id: "networks",           label: partnershipsNetworks.navLabel },
+  { id: "guidelines",          label: partnershipsGuidelines.navLabel },
+  { id: "policy",              label: "AUF Policy" },
+  { id: "forms",               label: partnershipsForms.navLabel },
+  { id: "curricular-partners", label: partnershipsCurricular.navLabel },
+  { id: "industry-partners",   label: partnershipsIndustry.navLabel },
+  { id: "networks",            label: partnershipsNetworks.navLabel },
 ];
 
 export default function PartnershipsPage() {
@@ -53,6 +55,7 @@ export default function PartnershipsPage() {
 
           <div className="min-w-0 flex-1">
             <PartnershipsGuidelines guidelines={partnershipsGuidelines} />
+            <PartnershipsPolicy policy={partnershipsGuidelines.policy} />
             <PartnershipsForms forms={partnershipsForms} />
             <PartnershipsCurricular curricular={partnershipsCurricular} />
             <PartnershipsIndustry industry={partnershipsIndustry} />

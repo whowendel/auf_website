@@ -33,43 +33,43 @@
         "id": "goal-1",
         "number": 1,
         "heading": "Build Strategic Partnerships",
-        "body": "Establish, manage, and sustain strategic local, national, and international partnerships with academic institutions, industry, government agencies, alumni, and other stakeholders that support instruction, research, and community engagement."
+        "body": "Establish, manage, and sustain strategic local, national, and international partnerships with academic institutions, industry, government agencies, alumni, and other stakeholders that support instruction, research, and community engagement;"
       },
       {
         "id": "goal-2",
         "number": 2,
         "heading": "Develop Policies and Systems",
-        "body": "Formulate and implement policies, guidelines, and systems governing external relations and partnerships to ensure coherence, accountability, compliance, and alignment with the University’s strategic plan."
+        "body": "Formulate and implement policies, guidelines, and systems governing external relations, partnerships, and engagements to ensure coherence, accountability, compliance with regulatory and accrediting bodies, and alignment with the University’s strategic plan;"
       },
       {
         "id": "goal-3",
         "number": 3,
         "heading": "Strengthen Institutional Branding",
-        "body": "Enhance the University’s public image, brand identity, and global visibility through coordinated communication, public relations, marketing initiatives, and strategic representation."
+        "body": "Strengthen the University’s public image, brand identity, and global visibility through coordinated communication, public relations, marketing initiatives, and strategic representation in national and international platforms;"
       },
       {
         "id": "goal-4",
         "number": 4,
         "heading": "Advance Alumni and Placement Programs",
-        "body": "Develop and sustain dynamic alumni relations and placement services that promote alumni engagement, career development, philanthropy, and graduate employability."
+        "body": "Develop and sustain dynamic alumni relations and placement programs that promote alumni participation, career development, industry collaboration, philanthropy, and graduate employability;"
       },
       {
         "id": "goal-5",
         "number": 5,
         "heading": "Promote Internationalization",
-        "body": "Coordinate academic exchanges, joint research, mobility programs, benchmarking, and participation in global networks in collaboration with academic and support units."
+        "body": "Promote and coordinate international programs and initiatives, including academic exchanges, joint research, mobility programs, benchmarking, and global networks, in collaboration with academic and support units;"
       },
       {
         "id": "goal-6",
         "number": 6,
         "heading": "Generate Measurable Outcomes",
-        "body": "Produce measurable results in external engagement that contribute to institutional reputation, quality assurance, accreditation readiness, and global rankings."
+        "body": "Generate measurable outcomes in external engagement that contribute to institutional reputation, quality assurance, accreditation readiness, and global rankings;"
       },
       {
         "id": "goal-7",
         "number": 7,
         "heading": "Adopt Innovative Practices",
-        "body": "Use data-informed and innovative approaches to ensure high stakeholder satisfaction, continuous performance improvement, and responsiveness to emerging opportunities."
+        "body": "Adopt innovative and data-informed practices to ensure high stakeholder satisfaction, continuous performance improvement, and responsiveness to emerging local and global opportunities."
       }
     ]
   },
@@ -80,23 +80,48 @@
     "milestones": [
       {
         "year": "1997",
-        "title": "Center for Global Education Established",
-        "body": "On June 22, 1997, AUF launched the Center for Global Education (CGE) to promote internationalization, forge partnerships with institutions in the Asia-Pacific region, and facilitate exchanges of publications, faculty, and students."
+        "title": "Center for Global Education (CGE) Established",
+        "body": "AUF supports internationalization or globalization, particularly the initiatives geared towards international or cross-border education. It is in this spirit that AUF launched the Center for Global Education (CGE) on June 22, 1997 which has the following objectives:",
+        "objectives": [
+          "To promote the internationalization of the University’s quest for academic excellence, thus elevating the institution’s world-class status;",
+          "To forge linkages and collaboration with other institutions of higher learning in the Asia-Pacific region;",
+          "To provide relevant training programs to meet the manpower demands of business and industry;",
+          "To serve as the center in formulating global agenda that will address key issues and strategies on higher education in preparation for the next millennium; and",
+          "To provide the exchange of publications and academic information, faculty and students."
+        ]
       },
       {
         "year": "2000s",
-        "title": "International Affairs Office",
-        "body": "Under the Office of the Vice President for Academic Affairs, the CGE evolved into the International Affairs (IA), which led initiatives to expand international partnerships, promote study abroad, strengthen ESL programs, and develop foreign-accredited offerings."
+        "title": "Evolution to International Affairs (IA)",
+        "body": "Under the Office of the Vice President for Academic Affairs (OVPAA), the CGE evolved into the International Affairs (IA). The IA was established in the same spirit as that of the CGE, that is, to be responsible for the integration and implementation of the ethos of internationalization thrust of AUF. Specifically, it has the following objectives:",
+        "objectives": [
+          "Promote AUF brand name internationally;",
+          "Network and establish partnerships with leading universities in the ASEAN region;",
+          "Improve the environment for international support services within AUF;",
+          "Promote short-term study abroad programs during summer or semestral breaks;",
+          "Enhance the quality of the ESL program;",
+          "Develop foreign-accredited programs to attract more international students to AUF;",
+          "Increase international initiatives and activities for AUF students, staff and faculty;",
+          "Expand various international research networks while strengthening the existing university-wide networks in interdisciplinary research areas; and",
+          "Explore other areas of cooperation such as joint international conference, collaborative research, and sharing of library holdings with projects and programs."
+        ]
       },
       {
         "year": "2023",
-        "title": "Office of Global Relations Created",
-        "body": "The Office of Global Relations (OGR) was established under the Office of the University President to provide administrative support for the planning, implementation, monitoring, and evaluation of internationalization initiatives and programs."
+        "title": "Office of Global Relations (OGR) Created",
+        "body": "In 2023, to further strengthen the implementation of Internationalization initiatives and programs of the University, the Office of Global Relations (OGR) was established. The OGR is under the Office of the University President and is dedicated to provide administrative support to the academic units, enabling the strategic designing and effective implementation of internationalization initiatives and programs, contributing to achieving a competitive advantage in the field of education. Specifically, it has the following objectives:",
+        "objectives": [
+          "To establish mutually beneficial partnership with international educational and research entities, institutions, agencies, and organizations, contributing to the promotion of quality education;",
+          "To provide administrative support in the planning, implementation, monitoring, and evaluation of Internationalization programs and initiatives;",
+          "To assist students, faculty, and administrators participating to Internationalization programs, both inbound and outbound;",
+          "To coordinate Internationalization activities such as school visits, benchmarking activities, and consultative conferences; and",
+          "To consistently adopt innovative practices aimed at improving the University's Internationalization programs, thereby ensuring the highest level of satisfaction among its clients."
+        ]
       },
       {
         "year": "2026",
-        "title": "Office of the Vice President for External Affairs Established",
-        "body": "On March 2, 2026, AUF formally established the Office of the Vice President for External Affairs (OVPEA) to harmonize all networking, linkage, and partnership initiatives. The OVPEA oversees the Office of University Relations, Alumni Affairs and Placement Services, and the Confucius Institute."
+        "title": "Office of the Vice President for External Affairs (OVPEA) Established",
+        "body": "In March 2, 2026, to ensure harmonized establishment of networks, linkages, and partnerships with local, national, regional, and international agencies and groups to pursue its vision, mission, and goals, the University established the Office of the Vice President for External Affairs (OVPEA) which governs three units including the Office of University Relations, Alumni Affairs and Placement Services, and Confucius Institute.\n\nThe mandate of the Vice President for External Affairs (VPEA) is to provide executive-level leadership in setting the overall direction of the University’s external relations, particularly in establishing and sustaining strategic partnerships with universities, organizations, institutions, industry partners, and other stakeholders, both local and international, to support the holistic development of students, teaching personnel, and non-teaching staff. The VPEA further institutionalizes quality assurance mechanisms and data-driven systems to ensure the continuous improvement, effective monitoring, and informed management of internationalization and external engagement programs."
       }
     ]
   },
@@ -105,5 +130,100 @@
     "eyebrow": "Latest updates",
     "title": "News & Events",
     "description": "Stay informed about partnership agreements, alumni initiatives, international collaborations, and other developments from the Office of the Vice President for External Affairs."
+  },
+  "leadership": {
+    "navLabel": "Leadership",
+    "eyebrow": "Administration",
+    "title": "Leadership & Governance",
+    "intro": "The Angeles University Foundation is governed by its Board of Trustees, composed of distinguished men and women from education, business, government, the judiciary, and the clergy, and is led by its President, Atty. Joseph Emmanuel L. Angeles, and the Management Committee.",
+    "president": {
+      "name": "Atty. Joseph E. L. Angeles, Ph.D.",
+      "title": "University President",
+      "image": "/assets/president.jpg",
+      "messageTitle": "Presidential Message",
+      "paragraphs": [
+        "On behalf of the Angelenean community, it is my distinct honor to welcome you to Angeles University Foundation (AUF), a university committed to academic excellence, global engagement, and transformative education.",
+        "As we pursue our vision of becoming a leading center of excellence in instruction, research, and community engagement, AUF continues to expand its global footprint through meaningful and sustainable strategic partnerships. We actively collaborate with universities, research institutions, industry leaders, and international organizations around the world. These partnerships foster faculty and student mobility, transnational education programs, joint research initiatives, professional development, internships, innovation platforms, and intercultural exchange—creating pathways for shared growth and global impact.",
+        "Anchored in our enduring mission of the \"Total Development of Man for God and Humanity,\" AUF integrates intellectual rigor with ethical formation and social responsibility. Our academic programs, duly recognized by the Philippine Commission on Higher Education (CHED), are designed to cultivate graduates who are not only academically competent but also morally grounded, compassionate, and service-oriented leaders.",
+        "Our commitment to quality and continuous improvement has earned AUF Autonomous Status from CHED and inclusion in the QS World University Rankings: Asia, affirming our standing within the regional and international academic community.",
+        "At AUF, we do not merely educate; we shape leaders, innovators, and nation-builders. We invite you to become part of a dynamic university where aspirations are nurtured, global perspectives are embraced, and excellence is a shared pursuit.",
+        "We look forward to welcoming you to AUF."
+      ]
+    }
+  },
+  "orgChart": {
+    "navLabel": "Organizational Chart",
+    "eyebrow": "Structure",
+    "title": "Organizational Chart",
+    "image": "/assets/org-chart-navy.png",
+    "description": "The Office of the Vice President for External Affairs (OVPEA) oversees three principal units to ensure cohesive strategy and implementation: the Office of University Relations, the Confucius Institute, and Alumni Affairs & Placement Services."
+  },
+  "factsFigures": {
+    "navLabel": "Facts & Figures",
+    "eyebrow": "Registry Data",
+    "title": "Facts & Figures",
+    "description": "Angeles University Foundation maintains key institutional data and registry reports reflecting the progress and outcomes of our external partnerships and global engagements."
+  },
+  "recognitions": {
+    "navLabel": "International Recognitions",
+    "eyebrow": "Quality Assurance & Rankings",
+    "title": "International Recognitions",
+    "intro": "The Angeles University Foundation (AUF) actively engages in global ranking initiatives such as QS World University Rankings and Times Higher Education Impact Ranking, while also upholding international quality assurance standards through its International Organization for Standardization (ISO) 21001:2018 certification. The table below provides a consolidated summary of AUF’s performance in global rankings and its international quality assurance recognitions.",
+    "items": [
+      {
+        "no": 1,
+        "initiative": "QS WORLD RANKINGS: ASIA 2026",
+        "description": "Angeles University Foundation (AUF) has been listed in the QS Asia University Rankings since 2025, underscoring its sustained efforts to achieve international recognition through excellence in teaching, research, and global engagement.",
+        "year": "2026",
+        "awardingBody": "QS World University Rankings: Asia 2026",
+        "band": "1201-1300+ band",
+        "logo": "QS World University Rankings Logo"
+      },
+      {
+        "no": 2,
+        "initiative": "QS WORLD RANKINGS: ASIA 2025",
+        "description": "Angeles University Foundation (AUF) has been listed in the QS Asia University Rankings since 2025, underscoring its sustained efforts to achieve international recognition through excellence in teaching, research, and global engagement.",
+        "year": "2025",
+        "awardingBody": "QS World University Rankings: Asia 2025",
+        "band": "901+ band",
+        "logo": "QS World University Rankings Logo"
+      },
+      {
+        "no": 3,
+        "initiative": "TIMES HIGHER EDUCATION (THE) UNIVERSITY IMPACT RANKINGS 2024",
+        "description": "Angeles University Foundation (AUF) has participated in and been recognized by the Times Higher Education (THE) Impact Rankings since 2024, demonstrating its sustained commitment to excellence in teaching, research, community engagement, and the achievement of the United Nations Sustainable Development Goals (SDGs).",
+        "year": "2024",
+        "awardingBody": "Times Higher Education (THE) Impact Rankings 2024",
+        "band": "SDG 1: No Poverty – 1001+\nSDG 3: Good Health and Well-being – 401-600",
+        "logo": "THE Impact Ranking Logo"
+      },
+      {
+        "no": 4,
+        "initiative": "TIMES HIGHER EDUCATION (THE) UNIVERSITY IMPACT RANKINGS 2025",
+        "description": "Angeles University Foundation (AUF) has participated in and been recognized by the Times Higher Education (THE) Impact Rankings since 2024, demonstrating its sustained commitment to excellence in teaching, research, community engagement, and the achievement of the United Nations Sustainable Development Goals (SDGs).",
+        "year": "2025",
+        "awardingBody": "Times Higher Education (THE) Impact Rankings 2025",
+        "band": "SDG 3 (Good Health and Well-being) – 401–600\nSDG 11 (Sustainable Cities and Communities) – 601–800\nSDG 4 (Quality Education) – 801–1000\nSDG 5 (Gender Equality) – 801–1000",
+        "logo": "THE Impact Ranking Logo"
+      },
+      {
+        "no": 5,
+        "initiative": "TIMES HIGHER EDUCATION (THE) UNIVERSITY IMPACT RANKINGS 2026",
+        "description": "Angeles University Foundation (AUF) has participated in and been recognized by the Times Higher Education (THE) Impact Rankings since 2024, demonstrating its sustained commitment to excellence in teaching, research, community engagement, and the achievement of the United Nations Sustainable Development Goals (SDGs).",
+        "year": "2026",
+        "awardingBody": "Times Higher Education (THE) Impact Rankings 2026",
+        "band": "SDG 3 (Good Health and Well-being) – 301–400\nSDG 11 (Sustainable Cities and Communities) – 401–600\nSDG 4 (Quality Education) – 401–600\nSDG 5 (Gender Equality) – 401–600",
+        "logo": "THE Impact Ranking Logo"
+      },
+      {
+        "no": 6,
+        "initiative": "ISO 21001:2018",
+        "description": "Angeles University Foundation (AUF) has been officially certified with ISO 21001:2018, an international standard established by the International Organization for Standardization (ISO) for educational organizations.",
+        "year": "2025",
+        "awardingBody": "TÜV SÜD Philippines",
+        "band": "ISO 21001:2018 Certification",
+        "logo": "TUV-SUD ISO Logo"
+      }
+    ]
   }
 }
