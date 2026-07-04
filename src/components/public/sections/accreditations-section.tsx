@@ -145,35 +145,35 @@ export function AccreditationsSection() {
               />
 
               <div className="relative">
-                {/* Header Area: Tag & Brand Logo */}
+                {/* Header Area: Tag & Brand Logo (Enlarged) */}
                 <div className="flex items-center justify-between gap-2 mb-5">
                   <span className="inline-block rounded-full border border-white/15 px-3 py-1 text-[9px] font-bold uppercase tracking-[0.18em] text-[var(--auf-gold)]">
                     {r.tag}
                   </span>
 
-                  {/* Conditional Brand Logos */}
+                  {/* Conditional Brand Logos (Enlarged for readability) */}
                   {r.name.includes("THE") && (
-                    <div className="relative h-8 w-14 shrink-0 flex items-center justify-center bg-white p-1 rounded shadow-sm overflow-hidden">
+                    <div className="relative h-12 w-24 shrink-0 flex items-center justify-center bg-white p-1 rounded shadow-sm overflow-hidden">
                       <Image
                         src="/assets/intl_recog/THE Sustainability Impact Ratings 2026 cmyk logo_COL.jpg"
                         alt="THE Logo"
                         fill
                         className="object-contain p-0.5"
-                        sizes="56px"
+                        sizes="96px"
                       />
                     </div>
                   )}
                   {r.name.includes("QS") && (
-                    <div className="relative flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
-                      <span className="font-display text-[9px] font-black text-navy tracking-tighter">QS</span>
-                      <div className="absolute -bottom-0.5 bg-gold px-0.5 py-0.5 rounded-[1.5px] text-[3.5px] font-bold text-white uppercase leading-none">
+                    <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
+                      <span className="font-display text-sm font-black text-navy tracking-tighter">QS</span>
+                      <div className="absolute -bottom-0.5 bg-gold px-1 py-0.5 rounded-[1.5px] text-[5px] font-bold text-white uppercase leading-none">
                         Ranked
                       </div>
                     </div>
                   )}
                   {r.name.includes("Innovation") && (
-                    <div className="relative flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
-                      <span className="font-display text-[8px] font-extrabold text-navy tracking-tighter">WURI</span>
+                    <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
+                      <span className="font-display text-xs font-extrabold text-navy tracking-tighter">WURI</span>
                     </div>
                   )}
                 </div>
