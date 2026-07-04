@@ -625,7 +625,7 @@ export function OverlayMenu({
                 © {new Date().getFullYear()} Angeles University Foundation
               </p>
               <div className="ml-auto flex items-center gap-5">
-                {quickLinks.slice(0, 3).map((l) => (
+                {quickLinks.slice(0, 4).map((l) => (
                   <Link
                     key={l.href}
                     href={l.href}
