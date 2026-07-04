@@ -20,13 +20,17 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
         
         {/* Card 1: QS World University Rankings */}
         <div className="rounded-2xl border border-auf-border bg-white p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
-          {/* Header Area: Logo same level as reward heading (Enlarged) */}
+          {/* Header Area: Logo same level as reward heading (Enlarged QS Logo) */}
           <div className="flex items-center gap-4 md:gap-6 mb-6">
-            <div className="relative flex h-20 w-20 md:h-24 md:w-24 shrink-0 items-center justify-center rounded-full bg-navy border-4 border-gold shadow-md">
-              <span className="font-display text-lg md:text-2xl font-black text-gold tracking-tighter">QS</span>
-              <div className="absolute -bottom-1 bg-gold px-1.5 py-0.5 rounded text-[7px] md:text-[8px] font-bold text-navy uppercase tracking-wider">
-                Ranked
-              </div>
+            <div className="relative h-20 w-32 md:h-24 md:w-44 shrink-0 flex items-center justify-center bg-white p-1.5 rounded-lg border border-auf-border shadow-sm">
+              <Image
+                src="/assets/intl_recog/qs-logo.svg"
+                alt="QS World University Rankings Logo"
+                fill
+                className="object-contain p-1"
+                sizes="(max-width: 768px) 128px, 176px"
+                priority
+              />
             </div>
             <div>
               <h3 className="font-display text-lg font-bold text-navy md:text-2xl leading-tight">
@@ -41,6 +45,28 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
           <p className="text-xs leading-relaxed text-auf-muted mb-6">
             Angeles University Foundation (AUF) has been listed in the QS Asia University Rankings since 2025, underscoring its sustained efforts to achieve international recognition through excellence in teaching, research, and global engagement.
           </p>
+
+          {/* QS Ranking Badges */}
+          <div className="flex flex-wrap gap-4 mb-6">
+            <div className="relative h-24 w-48 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+              <Image
+                src="/assets/intl_recog/QS WUR Asia 2026 badge-1.png"
+                alt="QS WUR Asia 2026 Badge"
+                fill
+                className="object-contain p-1"
+                sizes="192px"
+              />
+            </div>
+            <div className="relative h-24 w-48 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+              <Image
+                src="/assets/intl_recog/QS WUR SEA 2026 badge-1.png"
+                alt="QS WUR SEA 2026 Badge"
+                fill
+                className="object-contain p-1"
+                sizes="192px"
+              />
+            </div>
+          </div>
 
           {/* Results Table */}
           <div className="overflow-hidden rounded-xl border border-auf-border">
@@ -104,7 +130,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
               </thead>
               <tbody className="divide-y divide-auf-border text-auf-muted">
                 
-                {/* 2026 results with individual SDG icons (Enlarged icons) */}
+                {/* 2026 results with individual SDG icons */}
                 <tr className="hover:bg-off-white/40 transition-colors bg-navy/[0.01]">
                   <td className="px-4 py-4 font-semibold text-navy align-top">2026</td>
                   <td className="px-4 py-4 text-auf-muted">
@@ -212,7 +238,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
 
         {/* Card 3: ISO 21001:2018 Certification */}
         <div className="rounded-2xl border border-auf-border bg-white p-6 md:p-8 shadow-sm hover:shadow-md transition-shadow">
-          {/* Header Area: Logo same level as reward heading (Enlarged) */}
+          {/* Header Area: Logo same level as reward heading */}
           <div className="flex items-center gap-4 md:gap-6 mb-6">
             <div className="relative flex h-20 w-20 md:h-24 md:w-24 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br from-navy to-navy-deep border-4 border-gold shadow-md">
               <span className="font-display text-base md:text-xl font-black text-white text-center leading-tight">

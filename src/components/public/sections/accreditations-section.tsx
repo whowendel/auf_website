@@ -164,11 +164,14 @@ export function AccreditationsSection() {
                     </div>
                   )}
                   {r.name.includes("QS") && (
-                    <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
-                      <span className="font-display text-sm font-black text-navy tracking-tighter">QS</span>
-                      <div className="absolute -bottom-0.5 bg-gold px-1 py-0.5 rounded-[1.5px] text-[5px] font-bold text-white uppercase leading-none">
-                        Ranked
-                      </div>
+                    <div className="relative h-12 w-24 shrink-0 flex items-center justify-center bg-white p-1 rounded shadow-sm overflow-hidden">
+                      <Image
+                        src="/assets/intl_recog/qs-logo.svg"
+                        alt="QS Logo"
+                        fill
+                        className="object-contain p-1"
+                        sizes="96px"
+                      />
                     </div>
                   )}
                   {r.name.includes("Innovation") && (
