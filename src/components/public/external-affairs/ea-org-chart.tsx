@@ -50,19 +50,16 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
             </div>
           </div>
 
-          {/* Intermediate Level: Main vertical line + Staff Assistant branch with Safe Clear Spacing */}
+          {/* Intermediate Level: Main vertical line + Staff Assistant direct VPEA connection */}
           <div className="relative w-full h-32">
-            {/* Main vertical line straight down the center */}
+            {/* Main center vertical line straight down the center */}
             <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-gold/30" />
             
-            {/* Horizontal line branching right (starts directly below VPEA at top-4) */}
-            <div className="absolute left-1/2 w-[112px] h-0.5 bg-gold/30 top-4" />
-            
-            {/* Vertical line going down from horizontal branch to top center of Staff Assistant */}
-            <div className="absolute left-[calc(50%+112px)] w-0.5 h-6 bg-gold/30 top-4" />
+            {/* Direct vertical Staff line connecting bottom edge of VPEA to top of Staff Assistant */}
+            <div className="absolute left-[calc(50%+128px)] w-0.5 h-10 bg-gold/30 top-0" />
 
             {/* Staff Assistant Card on the right (positioned at top-10 to prevent any overlaps) */}
-            <div className="absolute left-[calc(50%+24px)] top-10 w-44 rounded-xl border border-navy/15 bg-white p-3 text-center shadow-sm transition-all duration-300 hover:border-gold/40 hover:shadow-md">
+            <div className="absolute left-[calc(50%+40px)] top-10 w-44 rounded-xl border border-navy/15 bg-white p-3 text-center shadow-sm transition-all duration-300 hover:border-gold/40 hover:shadow-md">
               <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
                 Support
               </span>
