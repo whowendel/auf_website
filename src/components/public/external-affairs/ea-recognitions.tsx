@@ -46,60 +46,65 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
             Angeles University Foundation (AUF) has been listed in the QS Asia University Rankings since 2025, underscoring its sustained efforts to achieve international recognition through excellence in teaching, research, and global engagement.
           </p>
 
-          {/* Results Table with Badges Placed Beside Rank Details */}
+          {/* Results Table with Badges Placed Beside Rank Details in Rows */}
           <div className="overflow-hidden rounded-xl border border-auf-border">
             <table className="w-full text-left text-xs">
               <thead className="bg-navy/5 text-navy font-bold uppercase tracking-wider border-b border-auf-border">
                 <tr>
-                  <th className="px-4 py-3 w-1/6">Year Implemented</th>
-                  <th className="px-4 py-3 w-5/12">Rank / Band Details (Asia)</th>
-                  <th className="px-4 py-3 w-5/12">South East Asia Ranking</th>
+                  <th className="px-4 py-3 w-1/6">Year</th>
+                  <th className="px-4 py-3 w-1/3">Ranking Category</th>
+                  <th className="px-4 py-3 w-1/2">Rank / Band Details</th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-auf-border text-auf-muted">
                 
-                {/* 2026 Row */}
+                {/* 2026 Asia Row */}
                 <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-4 font-semibold text-navy align-middle">2026</td>
-                  
-                  {/* Asia Ranking Column with Badge */}
-                  <td className="px-4 py-4 font-medium text-gold-dark align-middle">
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-                      <span>1201-1300+ band</span>
-                      <div className="relative h-20 w-40 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+                  <td className="px-4 py-6 font-semibold text-navy align-middle">2026</td>
+                  <td className="px-4 py-6 font-bold text-navy align-middle">QS Asia University Rankings</td>
+                  <td className="px-4 py-6 font-medium text-gold-dark align-middle">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                      <span className="text-sm font-semibold">1201-1300+ band</span>
+                      <div className="relative h-24 w-48 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
                         <Image
                           src="/assets/intl_recog/QS WUR Asia 2026 badge-1.png"
                           alt="QS WUR Asia 2026 Badge"
                           fill
                           className="object-contain p-0.5"
-                          sizes="160px"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                  
-                  {/* South East Asia Ranking Column with Badge */}
-                  <td className="px-4 py-4 font-medium text-gold-dark align-middle">
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-3">
-                      <span>#185</span>
-                      <div className="relative h-20 w-40 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
-                        <Image
-                          src="/assets/intl_recog/QS WUR SEA 2026 badge-1.png"
-                          alt="QS WUR SEA 2026 Badge"
-                          fill
-                          className="object-contain p-0.5"
-                          sizes="160px"
+                          sizes="192px"
                         />
                       </div>
                     </div>
                   </td>
                 </tr>
 
-                {/* 2025 Row */}
+                {/* 2026 South East Asia Row */}
                 <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-4 font-semibold text-navy align-middle">2025</td>
-                  <td className="px-4 py-4 font-medium text-gold-dark align-middle">901+ band</td>
-                  <td className="px-4 py-4 font-medium text-auf-muted/60 align-middle">—</td>
+                  <td className="px-4 py-6 font-semibold text-navy align-middle">2026</td>
+                  <td className="px-4 py-6 font-bold text-navy align-middle">QS South East Asia Rankings</td>
+                  <td className="px-4 py-6 font-medium text-gold-dark align-middle">
+                    <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                      <span className="text-sm font-semibold">#185</span>
+                      <div className="relative h-24 w-48 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+                        <Image
+                          src="/assets/intl_recog/QS WUR SEA 2026 badge-1.png"
+                          alt="QS WUR SEA 2026 Badge"
+                          fill
+                          className="object-contain p-0.5"
+                          sizes="192px"
+                        />
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+
+                {/* 2025 Asia Row */}
+                <tr className="hover:bg-off-white/40 transition-colors">
+                  <td className="px-4 py-6 font-semibold text-navy align-middle">2025</td>
+                  <td className="px-4 py-6 font-bold text-navy align-middle">QS Asia University Rankings</td>
+                  <td className="px-4 py-6 font-medium text-gold-dark align-middle text-sm font-semibold">
+                    901+ band
+                  </td>
                 </tr>
 
               </tbody>
