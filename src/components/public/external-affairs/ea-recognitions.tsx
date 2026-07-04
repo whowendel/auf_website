@@ -58,20 +58,20 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                 
                 {/* Asia Ranking Block */}
                 <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors">
-                  <div className="relative h-28 w-56 shrink-0 flex items-center justify-center bg-white p-1.5 rounded-lg border border-auf-border shadow-sm">
+                  <div className="relative h-56 w-40 shrink-0 rounded-lg border-2 border-navy overflow-hidden shadow-sm">
                     <Image
                       src="/assets/intl_recog/QS WUR Asia 2026 badge-1.png"
                       alt="QS WUR Asia 2026 Badge"
                       fill
-                      className="object-contain p-0.5"
-                      sizes="224px"
+                      className="object-cover"
+                      sizes="160px"
                     />
                   </div>
                   <div className="text-center md:text-left">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
                       QS Asia University Rankings
                     </span>
-                    <span className="font-display text-base font-bold text-navy">
+                    <span className="font-display text-lg font-bold text-navy block">
                       1201-1300+ band
                     </span>
                   </div>
@@ -79,20 +79,20 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
 
                 {/* SEA Ranking Block */}
                 <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors">
-                  <div className="relative h-28 w-56 shrink-0 flex items-center justify-center bg-white p-1.5 rounded-lg border border-auf-border shadow-sm">
+                  <div className="relative h-56 w-40 shrink-0 rounded-lg border-2 border-navy overflow-hidden shadow-sm">
                     <Image
                       src="/assets/intl_recog/QS WUR SEA 2026 badge-1.png"
                       alt="QS WUR SEA 2026 Badge"
                       fill
-                      className="object-contain p-0.5"
-                      sizes="224px"
+                      className="object-cover"
+                      sizes="160px"
                     />
                   </div>
                   <div className="text-center md:text-left">
                     <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
                       QS South East Asia Rankings
                     </span>
-                    <span className="font-display text-base font-bold text-navy">
+                    <span className="font-display text-lg font-bold text-navy block">
                       #185
                     </span>
                   </div>
@@ -107,7 +107,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                 2025 Rankings
               </h4>
               <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30">
-                <div className="flex h-20 w-32 md:h-24 md:w-56 shrink-0 items-center justify-center rounded-lg bg-navy/5 border border-auf-border/40">
+                <div className="flex h-20 w-32 md:h-24 md:w-40 shrink-0 items-center justify-center rounded-lg bg-navy/5 border border-auf-border/40">
                   <span className="font-display text-xs font-black text-navy/40 uppercase tracking-wider">
                     QS Asia 2025
                   </span>
@@ -166,12 +166,12 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                 
                 {/* SDG 3 */}
                 <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
-                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-navy/40 shadow-sm">
                     <Image
                       src="/assets/intl_recog/SDG 3 Instagram.png"
                       alt="SDG 3 Logo"
                       fill
-                      className="object-contain p-0.5"
+                      className="object-cover"
                       sizes="96px"
                     />
                   </div>
@@ -187,12 +187,12 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
 
                 {/* SDG 4 */}
                 <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
-                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-navy/40 shadow-sm">
                     <Image
                       src="/assets/intl_recog/SDG 4 Instagram.png"
                       alt="SDG 4 Logo"
                       fill
-                      className="object-contain p-0.5"
+                      className="object-cover"
                       sizes="96px"
                     />
                   </div>
@@ -208,12 +208,12 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
 
                 {/* SDG 5 */}
                 <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
-                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-navy/40 shadow-sm">
                     <Image
                       src="/assets/intl_recog/SDG 5 Instagram.png"
                       alt="SDG 5 Logo"
                       fill
-                      className="object-contain p-0.5"
+                      className="object-cover"
                       sizes="96px"
                     />
                   </div>
@@ -229,12 +229,12 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
 
                 {/* SDG 11 */}
                 <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
-                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-navy/40 shadow-sm">
                     <Image
                       src="/assets/intl_recog/SDG 11 Instagram.png"
                       alt="SDG 11 Logo"
                       fill
-                      className="object-contain p-0.5"
+                      className="object-cover"
                       sizes="96px"
                     />
                   </div>
@@ -257,12 +257,12 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                 2025 Rankings
               </h4>
               <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30">
-                <div className="relative h-24 w-44 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+                <div className="relative h-24 w-44 shrink-0 border border-navy/40 rounded-lg overflow-hidden shadow-sm">
                   <Image
                     src="/assets/intl_recog/THE Sustainability Impact Ratings 2026 cmyk logo_COL.jpg"
                     alt="THE Impact Rankings Logo"
                     fill
-                    className="object-contain p-1"
+                    className="object-cover"
                     sizes="176px"
                   />
                 </div>
@@ -286,12 +286,12 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                 2024 Rankings
               </h4>
               <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30">
-                <div className="relative h-24 w-44 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+                <div className="relative h-24 w-44 shrink-0 border border-navy/40 rounded-lg overflow-hidden shadow-sm">
                   <Image
                     src="/assets/intl_recog/THE Sustainability Impact Ratings 2026 cmyk logo_COL.jpg"
                     alt="THE Impact Rankings Logo"
                     fill
-                    className="object-contain p-1"
+                    className="object-cover"
                     sizes="176px"
                   />
                 </div>
