@@ -37,29 +37,32 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
           </div>
 
           {/* Level 2: Office of the VPEA with Staff Assistant side-branch */}
-          <div className="relative flex flex-col items-center w-full max-w-md">
+          <div className="flex flex-col items-center w-full max-w-md">
             
-            {/* VPEA Card */}
-            <div className="w-full rounded-xl border-2 border-gold bg-white p-5 text-center shadow-md transition-all duration-300 hover:shadow-lg">
-              <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-gold block mb-1">
-                Executive Administration
-              </span>
-              <h3 className="font-display text-base font-bold text-navy md:text-lg">
-                Office of the Vice President for External Affairs
-              </h3>
-            </div>
-
-            {/* Desktop Staff Assistant: Side-branch to the right */}
-            <div className="hidden lg:flex absolute left-full ml-8 items-center h-full top-0">
-              {/* Horizontal connector line */}
-              <div className="w-8 h-0.5 bg-gold/30" />
-              <div className="rounded-xl border border-navy/15 bg-white px-5 py-3 shadow-sm min-w-[160px] text-center transition-all duration-300 hover:border-gold/40">
-                <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
-                  Support
+            {/* Dedicated Relative wrapper for VPEA card to align Staff Assistant perfectly */}
+            <div className="relative w-full flex items-center justify-center">
+              {/* VPEA Card */}
+              <div className="w-full rounded-xl border-2 border-gold bg-white p-5 text-center shadow-md transition-all duration-300 hover:shadow-lg">
+                <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-gold block mb-1">
+                  Executive Administration
                 </span>
-                <h4 className="font-display text-xs font-bold text-navy">
-                  Staff Assistant
-                </h4>
+                <h3 className="font-display text-base font-bold text-navy md:text-lg">
+                  Office of the Vice President for External Affairs
+                </h3>
+              </div>
+
+              {/* Desktop Staff Assistant: Side-branch to the right, centered vertically with VPEA card */}
+              <div className="hidden lg:flex absolute left-full top-1/2 -translate-y-1/2 ml-8 items-center">
+                {/* Horizontal connector line */}
+                <div className="w-8 h-0.5 bg-gold/30" />
+                <div className="rounded-xl border border-navy/15 bg-white px-5 py-3 shadow-sm min-w-[160px] text-center transition-all duration-300 hover:border-gold/40">
+                  <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
+                    Support
+                  </span>
+                  <h4 className="font-display text-xs font-bold text-navy">
+                    Staff Assistant
+                  </h4>
+                </div>
               </div>
             </div>
 
