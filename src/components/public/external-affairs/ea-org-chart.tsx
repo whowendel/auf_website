@@ -59,7 +59,7 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
             <div className="absolute left-[calc(50%+128px)] w-0.5 h-10 bg-gold/30 top-0" />
 
             {/* Staff Assistant Card on the right (positioned at top-10 to prevent any overlaps) */}
-            <div className="absolute left-[calc(50%+40px)] top-10 w-44 rounded-xl border border-navy/15 bg-white p-3 text-center shadow-sm transition-all duration-300 hover:border-gold/40 hover:shadow-md">
+            <div className="absolute left-[calc(50%+40px)] top-10 w-44 rounded-xl border border-navy/15 bg-white p-4 text-center shadow-sm transition-all duration-300 hover:border-gold/40 hover:shadow-md">
               <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
                 Support
               </span>
@@ -86,39 +86,21 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
           <div className="grid gap-6 md:grid-cols-3 md:gap-4 lg:gap-6 w-full max-w-5xl">
             
             {/* Unit 1: University Relations */}
-            <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
-              <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                  <circle cx="9" cy="7" r="4" />
-                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                </svg>
-              </div>
+            <div className="w-full rounded-xl border border-navy/15 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md flex items-center justify-center min-h-[96px]">
               <h4 className="font-display text-sm font-bold text-navy leading-snug">
                 Office of University Relations
               </h4>
             </div>
 
             {/* Unit 2: Confucius Institute */}
-            <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
-              <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                </svg>
-              </div>
+            <div className="w-full rounded-xl border border-navy/15 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md flex items-center justify-center min-h-[96px]">
               <h4 className="font-display text-sm font-bold text-navy leading-snug">
                 Confucius Institute
               </h4>
             </div>
 
             {/* Unit 3: Alumni Affairs */}
-            <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
-              <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
-                </svg>
-              </div>
+            <div className="w-full rounded-xl border border-navy/15 bg-white p-6 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md flex items-center justify-center min-h-[96px]">
               <h4 className="font-display text-sm font-bold text-navy leading-snug">
                 Alumni Affairs & Placement Services
               </h4>
