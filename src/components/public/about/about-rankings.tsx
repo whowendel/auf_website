@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { AboutRankings } from "@/data/about";
 
 export function AboutRankings({ rankings }: { rankings: AboutRankings }) {
@@ -45,7 +46,42 @@ export function AboutRankings({ rankings }: { rankings: AboutRankings }) {
               style={{ background: "linear-gradient(90deg,var(--auf-gold) 0%,var(--auf-gold-light) 50%,var(--auf-gold) 100%)" }}
             />
             <div className="relative">
-              <span className="mb-3 inline-block rounded-full border border-gold/40 px-2.5 py-0.5 text-[9px] font-bold uppercase tracking-[0.16em] text-gold">{r.tag}</span>
+              {/* Header Area: Tag & Brand Logo (Enlarged) */}
+              <div className="flex items-center justify-between gap-2 mb-4">
+                <span className="inline-block rounded-full border border-gold/40 px-2.5 py-0.5 text-[9px] font-bold uppercase tracking-[0.16em] text-gold">
+                  {r.tag}
+                </span>
+
+                {/* Conditional Rankings Brand Logos (Enlarged for readability) */}
+                {r.name.includes("THE") && (
+                  <div className="relative h-12 w-24 shrink-0 flex items-center justify-center bg-white p-1 rounded shadow-sm overflow-hidden">
+                    <Image
+                      src="/assets/intl_recog/THE Sustainability Impact Ratings 2026 cmyk logo_COL.jpg"
+                      alt="THE Logo"
+                      fill
+                      className="object-contain p-0.5"
+                      sizes="96px"
+                    />
+                  </div>
+                )}
+                {r.name.includes("QS") && (
+                  <div className="relative h-12 w-24 shrink-0 flex items-center justify-center bg-white p-1 rounded shadow-sm overflow-hidden">
+                    <Image
+                      src="/assets/intl_recog/qs-logo.svg"
+                      alt="QS Logo"
+                      fill
+                      className="object-contain p-1"
+                      sizes="96px"
+                    />
+                  </div>
+                )}
+                {r.name.includes("Innovation") && (
+                  <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
+                    <span className="font-display text-xs font-extrabold text-navy tracking-tighter">WURI</span>
+                  </div>
+                )}
+              </div>
+
               <p className="text-[10px] uppercase tracking-[0.16em] text-white/40">{r.org}</p>
               <h3 className="mt-1 font-display text-base font-semibold text-white">{r.name}</h3>
               <p className="mt-3 text-xs leading-relaxed text-white/55">{r.description}</p>

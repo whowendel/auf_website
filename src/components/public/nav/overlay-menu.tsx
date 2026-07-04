@@ -405,19 +405,19 @@ function SubPanel({
             {section.groups.map((group, gi) => (
               <div key={gi}>
                 {group.heading && (
-                  <p className={`mb-3 text-[10px] font-semibold uppercase tracking-[0.15em] ${t.groupLabel}`}>
+                  <p className={`mb-2 text-[10px] font-semibold uppercase tracking-[0.15em] ${t.groupLabel}`}>
                     {group.heading}
                   </p>
                 )}
                 <ul className="space-y-0.5">
                   {group.items.map((item, ii) => (
                     <li key={ii}>
-                      <Link href={item.href} onClick={onClose} className="group block py-1.5">
-                        <span className={`block text-sm font-medium transition-colors ${t.subText} ${t.subHover}`}>
+                      <Link href={item.href} onClick={onClose} className="group block py-1">
+                        <span className={`block text-[13px] font-medium transition-colors ${t.subText} ${t.subHover}`}>
                           {item.label}
                         </span>
                         {item.description && (
-                          <span className={`mt-0.5 block text-xs transition-colors ${t.subMuted} group-hover:opacity-80`}>
+                          <span className={`mt-0.5 block text-[11px] transition-colors ${t.subMuted} group-hover:opacity-80`}>
                             {item.description}
                           </span>
                         )}
@@ -625,7 +625,7 @@ export function OverlayMenu({
                 © {new Date().getFullYear()} Angeles University Foundation
               </p>
               <div className="ml-auto flex items-center gap-5">
-                {quickLinks.slice(0, 3).map((l) => (
+                {quickLinks.slice(0, 4).map((l) => (
                   <Link
                     key={l.href}
                     href={l.href}

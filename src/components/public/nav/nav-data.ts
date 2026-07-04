@@ -222,6 +222,7 @@ export const quickLinks: QuickLink[] = [
   { label: "AUF MyClass", href: "https://auf.instructure.com/login/canvas" },
   { label: "MyAU", href: "https://sblive.auf.edu.ph/index.jsp" },
   { label: "AUF Mail", href: "https://mail.google.com/" },
+  { label: "Connect@AUF", href: "/external-affairs/connect" },
   { label: "Library", href: "/resources/library" },
   { label: "Campus Directory", href: "/connect/directory" },
 ];
