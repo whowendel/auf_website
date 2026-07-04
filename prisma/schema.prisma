@@ -1,50 +1,31 @@
-// AUF Website - Database Schema
-
 generator client {
   provider = "prisma-client-js"
 }
 
 datasource db {
   provider = "postgresql"
-  // Connection URL is provided via prisma.config.ts (which loads .env).
-}
-
-// ─────────────────────────────────────────────────────────────────────
-// AUTH (Auth.js v5 - Prisma adapter compatible)
-// ─────────────────────────────────────────────────────────────────────
-
-enum Role {
-  SUPER_ADMIN      // Office of University Relations (OUR), university-wide.
-  COLLEGE_ADMIN    // Manages a single college microsite, submits for approval.
-  COLLEGE_EDITOR   // Drafts only; cannot submit for approval.
 }
 
 model User {
-  id            String    @id @default(cuid())
-  email         String    @unique
+  id            String     @id @default(cuid())
+  email         String     @unique
   emailVerified DateTime?
   name          String
   image         String?
-  passwordHash  String?   // null when user is SSO-only
-
-  role      Role    @default(COLLEGE_EDITOR)
-  // Plain string referencing a college id from src/data/site.json.
-  // No FK — adding/renaming colleges in JSON never requires a migration.
-  collegeId String?
-
-  isActive    Boolean   @default(true)
-  lastLoginAt DateTime?
-  createdAt   DateTime  @default(now())
-  updatedAt   DateTime  @updatedAt
-
-  accounts Account[]
-  sessions Session[]
-
+  passwordHash  String?
+  role          Role       @default(COLLEGE_EDITOR)
+  collegeId     String?
+  isActive      Boolean    @default(true)
+  lastLoginAt   DateTime?
+  createdAt     DateTime   @default(now())
+  updatedAt     DateTime   @updatedAt
+  accounts      Account[]
+  approvals     Approval[]
+  auditLogs     AuditLog[]
+  uploadedMedia Media[]
   authoredPosts Post[]     @relation("PostAuthor")
   reviewedPosts Post[]     @relation("PostReviewer")
-  approvals     Approval[]
-  uploadedMedia Media[]
-  auditLogs     AuditLog[]
+  sessions      Session[]
 
   @@index([collegeId])
   @@index([role])
@@ -56,15 +37,14 @@ model Account {
   type              String
   provider          String
   providerAccountId String
-  refresh_token     String? @db.Text
-  access_token      String? @db.Text
+  refresh_token     String?
+  access_token      String?
   expires_at        Int?
   token_type        String?
   scope             String?
-  id_token          String? @db.Text
+  id_token          String?
   session_state     String?
-
-  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([provider, providerAccountId])
   @@index([userId])
@@ -88,9 +68,124 @@ model VerificationToken {
   @@unique([identifier, token])
 }
 
-// ─────────────────────────────────────────────────────────────────────
-// CONTENT: Posts (news / blog / announcement) + Approval workflow
-// ─────────────────────────────────────────────────────────────────────
+model Post {
+  id              String           @id @default(cuid())
+  type            PostType         @default(NEWS)
+  title           String
+  slug            String
+  excerpt         String?
+  content         Json
+  contentText     String?
+  coverImageUrl   String?
+  coverImageAlt   String?
+  status          PostStatus       @default(DRAFT)
+  isFeatured      Boolean          @default(false)
+  viewCount       Int              @default(0)
+  authorId        String
+  originCollegeId String?
+  reviewedById    String?
+  reviewedAt      DateTime?
+  submittedAt     DateTime?
+  publishedAt     DateTime?
+  scheduledFor    DateTime?
+  createdAt       DateTime         @default(now())
+  updatedAt       DateTime         @updatedAt
+  sdgs            Int[]
+  approvals       Approval[]
+  author          User             @relation("PostAuthor", fields: [authorId], references: [id])
+  reviewedBy      User?            @relation("PostReviewer", fields: [reviewedById], references: [id])
+  collegeTags     PostCollegeTag[]
+  revisions       PostRevision[]
+
+  @@unique([originCollegeId, slug])
+  @@index([status, publishedAt])
+  @@index([originCollegeId, status, publishedAt])
+  @@index([type, status, publishedAt])
+  @@index([authorId])
+}
+
+model PostCollegeTag {
+  postId    String
+  collegeId String
+  createdAt DateTime @default(now())
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@id([postId, collegeId])
+  @@index([collegeId])
+}
+
+model Approval {
+  id        String         @id @default(cuid())
+  postId    String
+  actorId   String
+  action    ApprovalAction
+  comment   String?
+  createdAt DateTime       @default(now())
+  actor     User           @relation(fields: [actorId], references: [id])
+  post      Post           @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@index([postId, createdAt])
+}
+
+model PostRevision {
+  id        String   @id @default(cuid())
+  postId    String
+  title     String
+  content   Json
+  editorId  String
+  createdAt DateTime @default(now())
+  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
+
+  @@index([postId, createdAt])
+}
+
+model Media {
+  id           String    @id @default(cuid())
+  url          String
+  type         MediaType @default(IMAGE)
+  mimeType     String
+  sizeBytes    Int
+  width        Int?
+  height       Int?
+  alt          String?
+  caption      String?
+  uploadedById String
+  collegeId    String?
+  createdAt    DateTime  @default(now())
+  uploadedBy   User      @relation(fields: [uploadedById], references: [id])
+
+  @@index([collegeId, createdAt])
+  @@index([uploadedById])
+}
+
+model SiteSetting {
+  key       String   @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}
+
+model AuditLog {
+  id         String   @id @default(cuid())
+  actorId    String?
+  action     String
+  entityType String
+  entityId   String
+  metadata   Json?
+  ipAddress  String?
+  userAgent  String?
+  createdAt  DateTime @default(now())
+  actor      User?    @relation(fields: [actorId], references: [id])
+
+  @@index([entityType, entityId])
+  @@index([actorId, createdAt])
+  @@index([createdAt])
+}
+
+enum Role {
+  SUPER_ADMIN
+  COLLEGE_ADMIN
+  COLLEGE_EDITOR
+}
 
 enum PostType {
   NEWS
@@ -100,73 +195,12 @@ enum PostType {
 
 enum PostStatus {
   DRAFT
-  PENDING_REVIEW    // submitted by college admin, awaiting OUR approval
-  CHANGES_REQUESTED // sent back with reviewer comments
-  APPROVED          // approved but not yet published (e.g. scheduled)
+  PENDING_REVIEW
+  CHANGES_REQUESTED
+  APPROVED
   PUBLISHED
   REJECTED
   ARCHIVED
-}
-
-model Post {
-  id          String     @id @default(cuid())
-  type        PostType   @default(NEWS)
-  title       String
-  slug        String
-  excerpt     String?    @db.Text
-  content     Json                    // Tiptap JSON document
-  contentText String?    @db.Text    // plain-text mirror for search
-
-  coverImageUrl String?
-  coverImageAlt String?
-
-  status     PostStatus @default(DRAFT)
-  isFeatured Boolean    @default(false)
-  viewCount  Int        @default(0)
-
-  authorId String
-  author   User   @relation("PostAuthor", fields: [authorId], references: [id], onDelete: Restrict)
-
-  // null = university-wide (only SUPER_ADMIN may create these).
-  // Non-null = college id from src/data/site.json (no DB FK).
-  originCollegeId String?
-
-  reviewedById String?
-  reviewedBy   User?     @relation("PostReviewer", fields: [reviewedById], references: [id], onDelete: SetNull)
-  reviewedAt   DateTime?
-
-  submittedAt  DateTime?
-  publishedAt  DateTime?
-  scheduledFor DateTime?
-
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
-
-  collegeTags PostCollegeTag[]
-  approvals   Approval[]
-  revisions   PostRevision[]
-
-  sdgs        Int[]
-
-  // Slug unique within a scope (null = university, non-null = college id).
-  @@unique([originCollegeId, slug])
-  @@index([status, publishedAt])
-  @@index([originCollegeId, status, publishedAt])
-  @@index([type, status, publishedAt])
-  @@index([authorId])
-}
-
-// Which college microsites a post appears on.
-// `collegeId` is a plain string (college slug/id from site.json — no DB FK).
-model PostCollegeTag {
-  postId    String
-  collegeId String   // references site.json college id, not a DB table
-  createdAt DateTime @default(now())
-
-  post Post @relation(fields: [postId], references: [id], onDelete: Cascade)
-
-  @@id([postId, collegeId])
-  @@index([collegeId])
 }
 
 enum ApprovalAction {
@@ -179,93 +213,9 @@ enum ApprovalAction {
   ARCHIVE
 }
 
-model Approval {
-  id        String         @id @default(cuid())
-  postId    String
-  post      Post           @relation(fields: [postId], references: [id], onDelete: Cascade)
-  actorId   String
-  actor     User           @relation(fields: [actorId], references: [id], onDelete: Restrict)
-  action    ApprovalAction
-  comment   String?        @db.Text
-  createdAt DateTime       @default(now())
-
-  @@index([postId, createdAt])
-}
-
-model PostRevision {
-  id        String   @id @default(cuid())
-  postId    String
-  post      Post     @relation(fields: [postId], references: [id], onDelete: Cascade)
-  title     String
-  content   Json
-  editorId  String
-  createdAt DateTime @default(now())
-
-  @@index([postId, createdAt])
-}
-
-// ─────────────────────────────────────────────────────────────────────
-// MEDIA
-// ─────────────────────────────────────────────────────────────────────
-
 enum MediaType {
   IMAGE
   DOCUMENT
   VIDEO
   OTHER
-}
-
-model Media {
-  id        String    @id @default(cuid())
-  url       String
-  type      MediaType @default(IMAGE)
-  mimeType  String
-  sizeBytes Int
-  width     Int?
-  height    Int?
-  alt       String?
-  caption   String?
-
-  uploadedById String
-  uploadedBy   User   @relation(fields: [uploadedById], references: [id], onDelete: Restrict)
-
-  // College context — plain string from site.json, no FK.
-  collegeId String?
-
-  createdAt DateTime @default(now())
-
-  @@index([collegeId, createdAt])
-  @@index([uploadedById])
-}
-
-// ─────────────────────────────────────────────────────────────────────
-// DYNAMIC CONFIG: university-wide key/value knobs
-// College-specific config lives in src/data/site.json; add keys there.
-// ─────────────────────────────────────────────────────────────────────
-
-model SiteSetting {
-  key       String   @id
-  value     Json
-  updatedAt DateTime @updatedAt
-}
-
-// ─────────────────────────────────────────────────────────────────────
-// AUDIT LOG
-// ─────────────────────────────────────────────────────────────────────
-
-model AuditLog {
-  id         String   @id @default(cuid())
-  actorId    String?
-  actor      User?    @relation(fields: [actorId], references: [id], onDelete: SetNull)
-  action     String
-  entityType String
-  entityId   String
-  metadata   Json?
-  ipAddress  String?
-  userAgent  String?  @db.Text
-  createdAt  DateTime @default(now())
-
-  @@index([entityType, entityId])
-  @@index([actorId, createdAt])
-  @@index([createdAt])
 }
