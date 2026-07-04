@@ -42,73 +42,87 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
             </div>
           </div>
 
-          <p className="text-xs leading-relaxed text-auf-muted mb-6">
+          <p className="text-xs leading-relaxed text-auf-muted mb-8">
             Angeles University Foundation (AUF) has been listed in the QS Asia University Rankings since 2025, underscoring its sustained efforts to achieve international recognition through excellence in teaching, research, and global engagement.
           </p>
 
-          {/* Results Table with Badges Placed Beside Rank Details in Rows */}
-          <div className="overflow-hidden rounded-xl border border-auf-border">
-            <table className="w-full text-left text-xs">
-              <thead className="bg-navy/5 text-navy font-bold uppercase tracking-wider border-b border-auf-border">
-                <tr>
-                  <th className="px-4 py-3 w-1/6">Year</th>
-                  <th className="px-4 py-3 w-1/3">Ranking Category</th>
-                  <th className="px-4 py-3 w-1/2">Rank / Band Details</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-auf-border text-auf-muted">
+          {/* Results Lists organized by Year Heading */}
+          <div className="space-y-8">
+            
+            {/* Year 2026 */}
+            <div>
+              <h4 className="font-display text-base font-bold text-navy border-b border-auf-border/60 pb-2 mb-4 tracking-wide uppercase">
+                2026 Rankings
+              </h4>
+              <div className="grid gap-4 sm:grid-cols-2">
                 
-                {/* 2026 Asia Row */}
-                <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-6 font-semibold text-navy align-middle">2026</td>
-                  <td className="px-4 py-6 font-bold text-navy align-middle">QS Asia University Rankings</td>
-                  <td className="px-4 py-6 font-medium text-gold-dark align-middle">
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-                      <span className="text-sm font-semibold">1201-1300+ band</span>
-                      <div className="relative h-24 w-48 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
-                        <Image
-                          src="/assets/intl_recog/QS WUR Asia 2026 badge-1.png"
-                          alt="QS WUR Asia 2026 Badge"
-                          fill
-                          className="object-contain p-0.5"
-                          sizes="192px"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                </tr>
+                {/* Asia Ranking Block */}
+                <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors">
+                  <div className="relative h-28 w-56 shrink-0 flex items-center justify-center bg-white p-1.5 rounded-lg border border-auf-border shadow-sm">
+                    <Image
+                      src="/assets/intl_recog/QS WUR Asia 2026 badge-1.png"
+                      alt="QS WUR Asia 2026 Badge"
+                      fill
+                      className="object-contain p-0.5"
+                      sizes="224px"
+                    />
+                  </div>
+                  <div className="text-center md:text-left">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
+                      QS Asia University Rankings
+                    </span>
+                    <span className="font-display text-base font-bold text-navy">
+                      1201-1300+ band
+                    </span>
+                  </div>
+                </div>
 
-                {/* 2026 South East Asia Row */}
-                <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-6 font-semibold text-navy align-middle">2026</td>
-                  <td className="px-4 py-6 font-bold text-navy align-middle">QS South East Asia Rankings</td>
-                  <td className="px-4 py-6 font-medium text-gold-dark align-middle">
-                    <div className="flex flex-col sm:flex-row sm:items-center gap-4">
-                      <span className="text-sm font-semibold">#185</span>
-                      <div className="relative h-24 w-48 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
-                        <Image
-                          src="/assets/intl_recog/QS WUR SEA 2026 badge-1.png"
-                          alt="QS WUR SEA 2026 Badge"
-                          fill
-                          className="object-contain p-0.5"
-                          sizes="192px"
-                        />
-                      </div>
-                    </div>
-                  </td>
-                </tr>
+                {/* SEA Ranking Block */}
+                <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors">
+                  <div className="relative h-28 w-56 shrink-0 flex items-center justify-center bg-white p-1.5 rounded-lg border border-auf-border shadow-sm">
+                    <Image
+                      src="/assets/intl_recog/QS WUR SEA 2026 badge-1.png"
+                      alt="QS WUR SEA 2026 Badge"
+                      fill
+                      className="object-contain p-0.5"
+                      sizes="224px"
+                    />
+                  </div>
+                  <div className="text-center md:text-left">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
+                      QS South East Asia Rankings
+                    </span>
+                    <span className="font-display text-base font-bold text-navy">
+                      #185
+                    </span>
+                  </div>
+                </div>
 
-                {/* 2025 Asia Row */}
-                <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-6 font-semibold text-navy align-middle">2025</td>
-                  <td className="px-4 py-6 font-bold text-navy align-middle">QS Asia University Rankings</td>
-                  <td className="px-4 py-6 font-medium text-gold-dark align-middle text-sm font-semibold">
+              </div>
+            </div>
+
+            {/* Year 2025 */}
+            <div>
+              <h4 className="font-display text-base font-bold text-navy border-b border-auf-border/60 pb-2 mb-4 tracking-wide uppercase">
+                2025 Rankings
+              </h4>
+              <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30">
+                <div className="flex h-20 w-32 md:h-24 md:w-56 shrink-0 items-center justify-center rounded-lg bg-navy/5 border border-auf-border/40">
+                  <span className="font-display text-xs font-black text-navy/40 uppercase tracking-wider">
+                    QS Asia 2025
+                  </span>
+                </div>
+                <div className="text-center md:text-left">
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
+                    QS Asia University Rankings
+                  </span>
+                  <span className="font-display text-base font-bold text-navy">
                     901+ band
-                  </td>
-                </tr>
+                  </span>
+                </div>
+              </div>
+            </div>
 
-              </tbody>
-            </table>
           </div>
         </div>
 
@@ -136,124 +150,163 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
             </div>
           </div>
 
-          <p className="text-xs leading-relaxed text-auf-muted mb-6">
+          <p className="text-xs leading-relaxed text-auf-muted mb-8">
             Angeles University Foundation (AUF) has participated in and been recognized by the Times Higher Education (THE) Impact Rankings since 2024, demonstrating its sustained commitment to excellence in teaching, research, community engagement, and the achievement of the United Nations Sustainable Development Goals (SDGs).
           </p>
 
-          {/* Results Table */}
-          <div className="overflow-hidden rounded-xl border border-auf-border">
-            <table className="w-full text-left text-xs">
-              <thead className="bg-navy/5 text-navy font-bold uppercase tracking-wider border-b border-auf-border">
-                <tr>
-                  <th className="px-4 py-3 w-1/4">Year</th>
-                  <th className="px-4 py-3">SDG & Ranking Details</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-auf-border text-auf-muted">
+          {/* Results Lists organized by Year Heading */}
+          <div className="space-y-8">
+            
+            {/* Year 2026 */}
+            <div>
+              <h4 className="font-display text-base font-bold text-navy border-b border-auf-border/60 pb-2 mb-4 tracking-wide uppercase">
+                2026 Rankings
+              </h4>
+              <div className="grid gap-4 sm:grid-cols-2">
                 
-                {/* 2026 results with individual SDG icons */}
-                <tr className="hover:bg-off-white/40 transition-colors bg-navy/[0.01]">
-                  <td className="px-4 py-4 font-semibold text-navy align-top">2026</td>
-                  <td className="px-4 py-4 text-auf-muted">
-                    <div className="grid gap-3 sm:grid-cols-2">
-                      
-                      {/* SDG 3 */}
-                      <div className="p-3 rounded-lg border border-gold/15 bg-gold/[0.02] flex items-center gap-3.5">
-                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
-                          <Image
-                            src="/assets/intl_recog/SDG 3 Instagram.png"
-                            alt="SDG 3 Logo"
-                            fill
-                            className="object-contain p-0.5"
-                            sizes="64px"
-                          />
-                        </div>
-                        <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 3: Good Health & Well-being</span>
-                          <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 301–400 (Score 63.7)</span>
-                        </div>
-                      </div>
+                {/* SDG 3 */}
+                <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                    <Image
+                      src="/assets/intl_recog/SDG 3 Instagram.png"
+                      alt="SDG 3 Logo"
+                      fill
+                      className="object-contain p-0.5"
+                      sizes="96px"
+                    />
+                  </div>
+                  <div className="text-center sm:text-left">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
+                      SDG 3: Good Health & Well-being
+                    </span>
+                    <span className="font-display text-base font-bold text-navy">
+                      Rank 301–400 (Score 63.7)
+                    </span>
+                  </div>
+                </div>
 
-                      {/* SDG 4 */}
-                      <div className="p-3 rounded-lg border border-navy/5 bg-navy/[0.01] flex items-center gap-3.5">
-                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
-                          <Image
-                            src="/assets/intl_recog/SDG 4 Instagram.png"
-                            alt="SDG 4 Logo"
-                            fill
-                            className="object-contain p-0.5"
-                            sizes="64px"
-                          />
-                        </div>
-                        <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 4: Quality Education</span>
-                          <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 401–600 (Score 55.8)</span>
-                        </div>
-                      </div>
+                {/* SDG 4 */}
+                <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                    <Image
+                      src="/assets/intl_recog/SDG 4 Instagram.png"
+                      alt="SDG 4 Logo"
+                      fill
+                      className="object-contain p-0.5"
+                      sizes="96px"
+                    />
+                  </div>
+                  <div className="text-center sm:text-left">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
+                      SDG 4: Quality Education
+                    </span>
+                    <span className="font-display text-base font-bold text-navy">
+                      Rank 401–600 (Score 55.8)
+                    </span>
+                  </div>
+                </div>
 
-                      {/* SDG 5 */}
-                      <div className="p-3 rounded-lg border border-navy/5 bg-navy/[0.01] flex items-center gap-3.5">
-                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
-                          <Image
-                            src="/assets/intl_recog/SDG 5 Instagram.png"
-                            alt="SDG 5 Logo"
-                            fill
-                            className="object-contain p-0.5"
-                            sizes="64px"
-                          />
-                        </div>
-                        <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 5: Gender Equality</span>
-                          <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 401–600 (Score 52.6)</span>
-                        </div>
-                      </div>
+                {/* SDG 5 */}
+                <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                    <Image
+                      src="/assets/intl_recog/SDG 5 Instagram.png"
+                      alt="SDG 5 Logo"
+                      fill
+                      className="object-contain p-0.5"
+                      sizes="96px"
+                    />
+                  </div>
+                  <div className="text-center sm:text-left">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
+                      SDG 5: Gender Equality
+                    </span>
+                    <span className="font-display text-base font-bold text-navy">
+                      Rank 401–600 (Score 52.6)
+                    </span>
+                  </div>
+                </div>
 
-                      {/* SDG 11 */}
-                      <div className="p-3 rounded-lg border border-gold/15 bg-gold/[0.02] flex items-center gap-3.5">
-                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
-                          <Image
-                            src="/assets/intl_recog/SDG 11 Instagram.png"
-                            alt="SDG 11 Logo"
-                            fill
-                            className="object-contain p-0.5"
-                            sizes="64px"
-                          />
-                        </div>
-                        <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 11: Sustainable Cities & Communities</span>
-                          <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 401–600 (Score 38.7)</span>
-                        </div>
-                      </div>
+                {/* SDG 11 */}
+                <div className="p-4 rounded-xl border border-auf-border bg-off-white/30 hover:bg-off-white/50 transition-colors flex flex-col sm:flex-row items-center gap-5">
+                  <div className="relative h-20 w-20 sm:h-24 sm:w-24 shrink-0 overflow-hidden rounded-lg border border-auf-border bg-white shadow-sm">
+                    <Image
+                      src="/assets/intl_recog/SDG 11 Instagram.png"
+                      alt="SDG 11 Logo"
+                      fill
+                      className="object-contain p-0.5"
+                      sizes="96px"
+                    />
+                  </div>
+                  <div className="text-center sm:text-left">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-1">
+                      SDG 11: Sustainable Cities & Communities
+                    </span>
+                    <span className="font-display text-base font-bold text-navy">
+                      Rank 401–600 (Score 38.7)
+                    </span>
+                  </div>
+                </div>
 
-                    </div>
-                  </td>
-                </tr>
-                
-                {/* 2025 results */}
-                <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-4 font-semibold text-navy align-top">2025</td>
-                  <td className="px-4 py-4 text-auf-muted">
-                    <ul className="space-y-1 pl-4 list-disc text-xs leading-normal">
-                      <li><span className="font-semibold text-navy">SDG 3 (Good Health and Well-being)</span> – 401–600</li>
-                      <li><span className="font-semibold text-navy">SDG 11 (Sustainable Cities and Communities)</span> – 601–800</li>
-                      <li><span className="font-semibold text-navy">SDG 4 (Quality Education)</span> – 801–1000</li>
-                      <li><span className="font-semibold text-navy">SDG 5 (Gender Equality)</span> – 801–1000</li>
-                    </ul>
-                  </td>
-                </tr>
+              </div>
+            </div>
 
-                {/* 2024 results */}
-                <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-4 font-semibold text-navy align-top">2024</td>
-                  <td className="px-4 py-4 text-auf-muted">
-                    <ul className="space-y-1 pl-4 list-disc text-xs leading-normal">
-                      <li><span className="font-semibold text-navy">SDG 1 (No Poverty)</span> – 1001+</li>
-                      <li><span className="font-semibold text-navy">SDG 3 (Good Health and Well-being)</span> – 401–600</li>
-                    </ul>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            {/* Year 2025 */}
+            <div>
+              <h4 className="font-display text-base font-bold text-navy border-b border-auf-border/60 pb-2 mb-4 tracking-wide uppercase">
+                2025 Rankings
+              </h4>
+              <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30">
+                <div className="relative h-24 w-44 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+                  <Image
+                    src="/assets/intl_recog/THE Sustainability Impact Ratings 2026 cmyk logo_COL.jpg"
+                    alt="THE Impact Rankings Logo"
+                    fill
+                    className="object-contain p-1"
+                    sizes="176px"
+                  />
+                </div>
+                <div>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-2 text-center md:text-left">
+                    THE Impact Rankings
+                  </span>
+                  <ul className="space-y-1.5 pl-4 list-disc text-xs text-auf-muted">
+                    <li><span className="font-semibold text-navy">SDG 3 (Good Health and Well-being)</span> – 401–600</li>
+                    <li><span className="font-semibold text-navy">SDG 11 (Sustainable Cities and Communities)</span> – 601–800</li>
+                    <li><span className="font-semibold text-navy">SDG 4 (Quality Education)</span> – 801–1000</li>
+                    <li><span className="font-semibold text-navy">SDG 5 (Gender Equality)</span> – 801–1000</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Year 2024 */}
+            <div>
+              <h4 className="font-display text-base font-bold text-navy border-b border-auf-border/60 pb-2 mb-4 tracking-wide uppercase">
+                2024 Rankings
+              </h4>
+              <div className="flex flex-col md:flex-row items-center gap-5 p-4 rounded-xl border border-auf-border bg-off-white/30">
+                <div className="relative h-24 w-44 shrink-0 flex items-center justify-center bg-white p-1 rounded-lg border border-auf-border shadow-sm">
+                  <Image
+                    src="/assets/intl_recog/THE Sustainability Impact Ratings 2026 cmyk logo_COL.jpg"
+                    alt="THE Impact Rankings Logo"
+                    fill
+                    className="object-contain p-1"
+                    sizes="176px"
+                  />
+                </div>
+                <div>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-gold-dark block mb-2 text-center md:text-left">
+                    THE Impact Rankings
+                  </span>
+                  <ul className="space-y-1.5 pl-4 list-disc text-xs text-auf-muted">
+                    <li><span className="font-semibold text-navy">SDG 1 (No Poverty)</span> – 1001+</li>
+                    <li><span className="font-semibold text-navy">SDG 3 (Good Health and Well-being)</span> – 401–600</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
 
