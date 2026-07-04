@@ -97,6 +97,14 @@ export function SiteFooter() {
                   {university.email}
                 </a>
               </li>
+              <li>
+                <Link
+                  href="/external-affairs/connect"
+                  className="hover:text-white transition-colors"
+                >
+                  Connect@AUF
+                </Link>
+              </li>
               <li className="pt-4">
                 <div className="flex items-center gap-4">
                   {university.socialLinks?.facebook && (
