@@ -14,20 +14,20 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
         {orgChart.description}
       </p>
 
-      {/* Responsive Visual Org Chart */}
+      {/* Responsive Visual Org Chart matching Website theme */}
       <div className="rounded-2xl border border-auf-border bg-off-white p-6 md:p-10 shadow-sm">
         <div className="flex flex-col items-center">
           
           {/* Level 1: Office of the President */}
           <div className="relative group flex flex-col items-center w-full max-w-sm">
-            <div className="w-full rounded-xl border border-gold/40 bg-navy p-4 text-center shadow-md transition-all duration-300 group-hover:-translate-y-1 group-hover:border-gold group-hover:shadow-lg">
-              <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-gold/80 block mb-1">
+            <div className="w-full rounded-xl border border-navy/15 bg-white p-4 text-center shadow-sm transition-all duration-300 group-hover:-translate-y-0.5 group-hover:border-gold/60 group-hover:shadow-md">
+              <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-gold block mb-1">
                 Executive Leadership
               </span>
-              <h3 className="font-display text-sm font-semibold text-white md:text-base">
+              <h3 className="font-display text-sm font-bold text-navy md:text-base">
                 Office of the University President
               </h3>
-              <p className="text-xs text-white/75 mt-1 font-medium">
+              <p className="text-xs text-auf-muted mt-1">
                 Atty. Joseph Emmanuel L. Angeles, Ph.D.
               </p>
             </div>
@@ -36,21 +36,47 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
             <div className="h-10 w-0.5 bg-gold/30" />
           </div>
 
-          {/* Level 2: Office of the VPEA */}
-          <div className="relative group flex flex-col items-center w-full max-w-md">
-            <div className="w-full rounded-xl border-2 border-gold bg-[#181E2C] p-5 text-center shadow-lg transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-xl">
+          {/* Level 2: Office of the VPEA with Staff Assistant side-branch */}
+          <div className="relative flex flex-col items-center w-full max-w-md">
+            
+            {/* VPEA Card */}
+            <div className="w-full rounded-xl border-2 border-gold bg-white p-5 text-center shadow-md transition-all duration-300 hover:shadow-lg">
               <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-gold block mb-1">
                 Executive Administration
               </span>
-              <h3 className="font-display text-base font-bold text-white md:text-lg">
+              <h3 className="font-display text-base font-bold text-navy md:text-lg">
                 Office of the Vice President for External Affairs
               </h3>
-              <p className="text-xs text-white/70 mt-1.5 leading-relaxed max-w-xs mx-auto">
-                Direct oversight and strategic direction of the University's external relations, partnerships, and global networks.
-              </p>
             </div>
 
-            {/* Connecting line pattern for divisions */}
+            {/* Desktop Staff Assistant: Side-branch to the right */}
+            <div className="hidden lg:flex absolute left-full ml-8 items-center h-full top-0">
+              {/* Horizontal connector line */}
+              <div className="w-8 h-0.5 bg-gold/30" />
+              <div className="rounded-xl border border-navy/15 bg-white px-5 py-3 shadow-sm min-w-[160px] text-center transition-all duration-300 hover:border-gold/40">
+                <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
+                  Support
+                </span>
+                <h4 className="font-display text-xs font-bold text-navy">
+                  Staff Assistant
+                </h4>
+              </div>
+            </div>
+
+            {/* Mobile/Tablet Staff Assistant: Stacked underneath */}
+            <div className="lg:hidden flex flex-col items-center">
+              <div className="h-6 w-0.5 bg-gold/30" />
+              <div className="rounded-xl border border-navy/15 bg-white px-5 py-3 shadow-sm w-60 text-center">
+                <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
+                  Support
+                </span>
+                <h4 className="font-display text-xs font-bold text-navy">
+                  Staff Assistant
+                </h4>
+              </div>
+            </div>
+
+            {/* Connecting lines for the bottom 3 division units */}
             {/* Desktop: horizontal bar + 3 vertical drop-lines */}
             <div className="hidden md:flex flex-col items-center w-full">
               <div className="h-8 w-0.5 bg-gold/30" />
@@ -74,9 +100,9 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
             <div className="group relative flex flex-col items-center">
               {/* Mobile connector line */}
               <div className="md:hidden h-2 w-0.5 bg-gold/30 absolute -top-2" />
-              <div className="w-full rounded-xl border border-navy/10 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-md">
+              <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
                 <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
                     <circle cx="9" cy="7" r="4" />
                     <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
@@ -86,9 +112,6 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
                 <h4 className="font-display text-sm font-bold text-navy leading-snug">
                   Office of University Relations
                 </h4>
-                <p className="text-[11px] text-auf-muted mt-2 leading-relaxed">
-                  Manages institutional marketing, public relations, brand identity, campus visits, and museum affairs.
-                </p>
               </div>
               {/* Mobile spacer line to next unit */}
               <div className="md:hidden h-6 w-0.5 bg-gold/30" />
@@ -98,18 +121,15 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
             <div className="group relative flex flex-col items-center">
               {/* Mobile connector line */}
               <div className="md:hidden h-2 w-0.5 bg-gold/30 absolute -top-2" />
-              <div className="w-full rounded-xl border border-navy/10 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-md">
+              <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
                 <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
                   </svg>
                 </div>
                 <h4 className="font-display text-sm font-bold text-navy leading-snug">
                   Confucius Institute
                 </h4>
-                <p className="text-[11px] text-auf-muted mt-2 leading-relaxed">
-                  Facilitates Chinese language instruction, cultural exchanges, educational programs, and local-global integrations.
-                </p>
               </div>
               {/* Mobile spacer line to next unit */}
               <div className="md:hidden h-6 w-0.5 bg-gold/30" />
@@ -119,18 +139,15 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
             <div className="group relative flex flex-col items-center">
               {/* Mobile connector line */}
               <div className="md:hidden h-2 w-0.5 bg-gold/30 absolute -top-2" />
-              <div className="w-full rounded-xl border border-navy/10 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-1 hover:border-gold/40 hover:shadow-md">
+              <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
                 <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                     <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
                   </svg>
                 </div>
                 <h4 className="font-display text-sm font-bold text-navy leading-snug">
                   Alumni Affairs & Placement Services
                 </h4>
-                <p className="text-[11px] text-auf-muted mt-2 leading-relaxed">
-                  Sustains lifelong connections with the global alumni network, drives placement services, and strengthens career programs.
-                </p>
               </div>
             </div>
 
