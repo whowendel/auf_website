@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const ACCREDITATIONS = [
   {
@@ -144,10 +145,41 @@ export function AccreditationsSection() {
               />
 
               <div className="relative">
-                {/* Ranking tag */}
-                <span className="mb-5 inline-block rounded-full border border-white/15 px-3 py-1 text-[9px] font-bold uppercase tracking-[0.18em] text-[var(--auf-gold)]">
-                  {r.tag}
-                </span>
+                {/* Header Area: Tag & Brand Logo (Enlarged) */}
+                <div className="flex items-center justify-between gap-2 mb-5">
+                  <span className="inline-block rounded-full border border-white/15 px-3 py-1 text-[9px] font-bold uppercase tracking-[0.18em] text-[var(--auf-gold)]">
+                    {r.tag}
+                  </span>
+
+                  {/* Conditional Brand Logos (Enlarged for readability) */}
+                  {r.name.includes("THE") && (
+                    <div className="relative h-12 w-24 shrink-0 flex items-center justify-center bg-white p-1 rounded shadow-sm overflow-hidden">
+                      <Image
+                        src="/assets/intl_recog/THE Sustainability Impact Ratings 2026 cmyk logo_COL.jpg"
+                        alt="THE Logo"
+                        fill
+                        className="object-contain p-0.5"
+                        sizes="96px"
+                      />
+                    </div>
+                  )}
+                  {r.name.includes("QS") && (
+                    <div className="relative h-12 w-24 shrink-0 flex items-center justify-center bg-white p-1 rounded shadow-sm overflow-hidden">
+                      <Image
+                        src="/assets/intl_recog/qs-logo.svg"
+                        alt="QS Logo"
+                        fill
+                        className="object-contain p-1"
+                        sizes="96px"
+                      />
+                    </div>
+                  )}
+                  {r.name.includes("Innovation") && (
+                    <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
+                      <span className="font-display text-xs font-extrabold text-navy tracking-tighter">WURI</span>
+                    </div>
+                  )}
+                </div>
 
                 {/* Org name */}
                 <p className="text-[10px] uppercase tracking-[0.18em] text-white/40">
