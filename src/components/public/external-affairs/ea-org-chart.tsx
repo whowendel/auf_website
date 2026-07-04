@@ -14,9 +14,11 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
         {orgChart.description}
       </p>
 
-      {/* Responsive Visual Org Chart matching Website theme */}
+      {/* Responsive Visual Org Chart matching Website Theme & Flow */}
       <div className="rounded-2xl border border-auf-border bg-off-white p-6 md:p-10 shadow-sm">
-        <div className="flex flex-col items-center">
+        
+        {/* DESKTOP HIERARCHY (md and up) */}
+        <div className="hidden md:flex flex-col items-center">
           
           {/* Level 1: Office of the President */}
           <div className="relative group flex flex-col items-center w-full max-w-sm">
@@ -32,131 +34,172 @@ export function EaOrgChart({ orgChart }: { orgChart: ExternalAffairsOrgChart }) 
               </p>
             </div>
             
-            {/* Vertical connector line */}
+            {/* Vertical connector line down to VPEA */}
             <div className="h-10 w-0.5 bg-gold/30" />
           </div>
 
-          {/* Level 2: Office of the VPEA with Staff Assistant side-branch */}
-          <div className="flex flex-col items-center w-full max-w-md">
-            
-            {/* Dedicated Relative wrapper for VPEA card to align Staff Assistant perfectly */}
-            <div className="relative w-full flex items-center justify-center">
-              {/* VPEA Card */}
-              <div className="w-full rounded-xl border-2 border-gold bg-white p-5 text-center shadow-md transition-all duration-300 hover:shadow-lg">
-                <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-gold block mb-1">
-                  Executive Administration
-                </span>
-                <h3 className="font-display text-base font-bold text-navy md:text-lg">
-                  Office of the Vice President for External Affairs
-                </h3>
-              </div>
-
-              {/* Desktop Staff Assistant: Side-branch to the right, centered vertically with VPEA card */}
-              <div className="hidden lg:flex absolute left-full top-1/2 -translate-y-1/2 ml-8 items-center">
-                {/* Horizontal connector line */}
-                <div className="w-8 h-0.5 bg-gold/30" />
-                <div className="rounded-xl border border-navy/15 bg-white px-5 py-3 shadow-sm min-w-[160px] text-center transition-all duration-300 hover:border-gold/40">
-                  <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
-                    Support
-                  </span>
-                  <h4 className="font-display text-xs font-bold text-navy">
-                    Staff Assistant
-                  </h4>
-                </div>
-              </div>
+          {/* Level 2: Office of the VPEA */}
+          <div className="w-full max-w-md flex flex-col items-center">
+            <div className="w-full rounded-xl border-2 border-gold bg-white p-5 text-center shadow-md transition-all duration-300 hover:shadow-lg">
+              <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-gold block mb-1">
+                Executive Administration
+              </span>
+              <h3 className="font-display text-base font-bold text-navy md:text-lg">
+                Office of the Vice President for External Affairs
+              </h3>
             </div>
-
-            {/* Mobile/Tablet Staff Assistant: Stacked underneath */}
-            <div className="lg:hidden flex flex-col items-center">
-              <div className="h-6 w-0.5 bg-gold/30" />
-              <div className="rounded-xl border border-navy/15 bg-white px-5 py-3 shadow-sm w-60 text-center">
-                <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
-                  Support
-                </span>
-                <h4 className="font-display text-xs font-bold text-navy">
-                  Staff Assistant
-                </h4>
-              </div>
-            </div>
-
-            {/* Connecting lines for the bottom 3 division units */}
-            {/* Desktop: horizontal bar + 3 vertical drop-lines */}
-            <div className="hidden md:flex flex-col items-center w-full">
-              <div className="h-8 w-0.5 bg-gold/30" />
-              <div className="w-4/5 h-0.5 bg-gold/30" />
-              <div className="flex justify-between w-4/5 h-8">
-                <div className="w-0.5 bg-gold/30 h-full" />
-                <div className="w-0.5 bg-gold/30 h-full" />
-                <div className="w-0.5 bg-gold/30 h-full" />
-              </div>
-            </div>
-
-            {/* Mobile: simple vertical line */}
-            <div className="h-8 w-0.5 bg-gold/30 md:hidden" />
           </div>
 
-          {/* Level 3: Division Units */}
-          {/* Desktop grid layout / Mobile vertical stacked layout */}
+          {/* Intermediate Level: Main vertical line + Staff Assistant branch */}
+          <div className="relative w-full h-28">
+            {/* Main vertical line straight down the center */}
+            <div className="absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-0.5 bg-gold/30" />
+            
+            {/* Horizontal line branching right */}
+            <div className="absolute left-1/2 w-[136px] h-0.5 bg-gold/30 top-10" />
+            
+            {/* Vertical line going down from horizontal branch to top center of Staff Assistant */}
+            <div className="absolute left-[calc(50%+136px)] w-0.5 h-4 bg-gold/30 top-10" />
+
+            {/* Staff Assistant Card on the right */}
+            <div className="absolute left-[calc(50%+40px)] top-14 w-48 rounded-xl border border-navy/15 bg-white p-3.5 text-center shadow-sm transition-all duration-300 hover:border-gold/40 hover:shadow-md">
+              <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
+                Support
+              </span>
+              <h4 className="font-display text-xs font-bold text-navy">
+                Staff Assistant
+              </h4>
+            </div>
+          </div>
+
+          {/* Level 3: 3-column horizontal branch for Division Units */}
+          <div className="flex flex-col items-center w-full">
+            {/* Horizontal bar linking all three division columns */}
+            <div className="w-4/5 h-0.5 bg-gold/30" />
+            
+            {/* 3 vertical drop-lines down to the respective cards */}
+            <div className="flex justify-between w-4/5 h-8">
+              <div className="w-0.5 bg-gold/30 h-full" />
+              <div className="w-0.5 bg-gold/30 h-full" />
+              <div className="w-0.5 bg-gold/30 h-full" />
+            </div>
+          </div>
+
+          {/* Level 4: Division Cards Grid */}
           <div className="grid gap-6 md:grid-cols-3 md:gap-4 lg:gap-6 w-full max-w-5xl">
             
             {/* Unit 1: University Relations */}
-            <div className="group relative flex flex-col items-center">
-              {/* Mobile connector line */}
-              <div className="md:hidden h-2 w-0.5 bg-gold/30 absolute -top-2" />
-              <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
-                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
-                    <circle cx="9" cy="7" r="4" />
-                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
-                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
-                  </svg>
-                </div>
-                <h4 className="font-display text-sm font-bold text-navy leading-snug">
-                  Office of University Relations
-                </h4>
+            <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
+              <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
               </div>
-              {/* Mobile spacer line to next unit */}
-              <div className="md:hidden h-6 w-0.5 bg-gold/30" />
+              <h4 className="font-display text-sm font-bold text-navy leading-snug">
+                Office of University Relations
+              </h4>
             </div>
 
             {/* Unit 2: Confucius Institute */}
-            <div className="group relative flex flex-col items-center">
-              {/* Mobile connector line */}
-              <div className="md:hidden h-2 w-0.5 bg-gold/30 absolute -top-2" />
-              <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
-                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                  </svg>
-                </div>
-                <h4 className="font-display text-sm font-bold text-navy leading-snug">
-                  Confucius Institute
-                </h4>
+            <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
+              <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
               </div>
-              {/* Mobile spacer line to next unit */}
-              <div className="md:hidden h-6 w-0.5 bg-gold/30" />
+              <h4 className="font-display text-sm font-bold text-navy leading-snug">
+                Confucius Institute
+              </h4>
             </div>
 
             {/* Unit 3: Alumni Affairs */}
-            <div className="group relative flex flex-col items-center">
-              {/* Mobile connector line */}
-              <div className="md:hidden h-2 w-0.5 bg-gold/30 absolute -top-2" />
-              <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
-                <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
-                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
-                  </svg>
-                </div>
-                <h4 className="font-display text-sm font-bold text-navy leading-snug">
-                  Alumni Affairs & Placement Services
-                </h4>
+            <div className="w-full rounded-xl border border-navy/15 bg-white p-5 text-center shadow-sm transition-all duration-300 hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-md">
+              <div className="mx-auto mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-navy/5 text-navy">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" />
+                </svg>
               </div>
+              <h4 className="font-display text-sm font-bold text-navy leading-snug">
+                Alumni Affairs & Placement Services
+              </h4>
             </div>
 
           </div>
           
         </div>
+
+        {/* MOBILE HIERARCHY (below md: stacked flow with clean connectors) */}
+        <div className="md:hidden flex flex-col items-center">
+          
+          {/* President */}
+          <div className="w-full max-w-sm rounded-xl border border-navy/15 bg-white p-4 text-center shadow-sm">
+            <span className="text-[9px] font-bold uppercase tracking-[0.18em] text-gold block mb-1">
+              Executive Leadership
+            </span>
+            <h3 className="font-display text-sm font-bold text-navy">
+              Office of the University President
+            </h3>
+            <p className="text-xs text-auf-muted mt-1">
+              Atty. Joseph Emmanuel L. Angeles, Ph.D.
+            </p>
+          </div>
+
+          <div className="h-8 w-0.5 bg-gold/30" />
+
+          {/* VPEA */}
+          <div className="w-full max-w-sm rounded-xl border-2 border-gold bg-white p-4 text-center shadow-md">
+            <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-gold block mb-1">
+              Executive Administration
+            </span>
+            <h3 className="font-display text-sm font-bold text-navy">
+              Office of the Vice President for External Affairs
+            </h3>
+          </div>
+
+          <div className="h-8 w-0.5 bg-gold/30" />
+
+          {/* Staff Assistant */}
+          <div className="w-full max-w-sm rounded-xl border border-navy/15 bg-white p-4 text-center shadow-sm">
+            <span className="text-[8px] font-bold uppercase tracking-[0.14em] text-gold block mb-0.5">
+              Support
+            </span>
+            <h4 className="font-display text-xs font-bold text-navy">
+              Staff Assistant
+            </h4>
+          </div>
+
+          <div className="h-8 w-0.5 bg-gold/30" />
+
+          {/* Division 1: University Relations */}
+          <div className="w-full max-w-sm rounded-xl border border-navy/15 bg-white p-4 text-center shadow-sm">
+            <h4 className="font-display text-xs font-bold text-navy">
+              Office of University Relations
+            </h4>
+          </div>
+
+          <div className="h-8 w-0.5 bg-gold/30" />
+
+          {/* Division 2: Confucius Institute */}
+          <div className="w-full max-w-sm rounded-xl border border-navy/15 bg-white p-4 text-center shadow-sm">
+            <h4 className="font-display text-xs font-bold text-navy">
+              Confucius Institute
+            </h4>
+          </div>
+
+          <div className="h-8 w-0.5 bg-gold/30" />
+
+          {/* Division 3: Alumni Affairs */}
+          <div className="w-full max-w-sm rounded-xl border border-navy/15 bg-white p-4 text-center shadow-sm">
+            <h4 className="font-display text-xs font-bold text-navy">
+              Alumni Affairs & Placement Services
+            </h4>
+          </div>
+
+        </div>
+
       </div>
     </section>
   );
