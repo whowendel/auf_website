@@ -16,7 +16,7 @@ import {
 } from "@/lib/rbac/permissions";
 import { isValidCollegeId } from "@/data/colleges";
 import { ForbiddenError } from "@/server/auth/session";
-import { toSlug } from "@/lib/utils";
+import { toSlug, asSdgNumbers } from "@/lib/utils";
 import {
   postCreateSchema,
   postUpdateSchema,
@@ -29,11 +29,17 @@ import { audit } from "./audit";
 
 // ─── Public-side queries ───────────────────────────────────────────────
 
+// Coerce the JSON `sdgs` column back to a number[] so UI consumers keep a
+// stable `number[]` type (MySQL stores it as JSON, typed JsonValue by Prisma).
+function withSdgNumbers<T extends { sdgs: Prisma.JsonValue }>(post: T) {
+  return { ...post, sdgs: asSdgNumbers(post.sdgs) };
+}
+
 export async function listPublishedPostsForCollege(
   collegeId: string,
   opts: { limit?: number; cursor?: string } = {},
 ) {
-  return prisma.post.findMany({
+  const posts = await prisma.post.findMany({
     where: {
       status: PostStatus.PUBLISHED,
       publishedAt: { lte: new Date() },
@@ -47,6 +53,7 @@ export async function listPublishedPostsForCollege(
     ...(opts.cursor ? { cursor: { id: opts.cursor }, skip: 1 } : {}),
     include: { author: { select: { name: true } } },
   });
+  return posts.map(withSdgNumbers);
 }
 
 /**
@@ -71,7 +78,7 @@ export async function listPublishedPostsFiltered(opts: {
       }
     : {};
 
-  return prisma.post.findMany({
+  const posts = await prisma.post.findMany({
     where: {
       status: PostStatus.PUBLISHED,
       publishedAt: { lte: new Date() },
@@ -85,10 +92,11 @@ export async function listPublishedPostsFiltered(opts: {
       collegeTags: { select: { collegeId: true } },
     },
   });
+  return posts.map(withSdgNumbers);
 }
 
 export async function listPublishedUniversityPosts(opts: { limit?: number } = {}) {
-  return prisma.post.findMany({
+  const posts = await prisma.post.findMany({
     where: {
       status: PostStatus.PUBLISHED,
       publishedAt: { lte: new Date() },
@@ -98,13 +106,14 @@ export async function listPublishedUniversityPosts(opts: { limit?: number } = {}
     take: opts.limit ?? 20,
     include: { author: { select: { name: true } } },
   });
+  return posts.map(withSdgNumbers);
 }
 
 export async function getPostForView(args: {
   slug: string;
   collegeId: string | null; // null = university scope
 }) {
-  return prisma.post.findFirst({
+  const post = await prisma.post.findFirst({
     where: {
       slug: args.slug,
       status: PostStatus.PUBLISHED,
@@ -126,6 +135,7 @@ export async function getPostForView(args: {
       collegeTags: { select: { collegeId: true } },
     },
   });
+  return post ? withSdgNumbers(post) : null;
 }
 
 // ─── Admin-side queries ────────────────────────────────────────────────
@@ -152,9 +162,9 @@ export async function listPostsForAdmin(
       ...(filters.collegeId !== undefined
         ? { originCollegeId: filters.collegeId }
         : {}),
-      ...(filters.search
-        ? { title: { contains: filters.search, mode: "insensitive" } }
-        : {}),
+      // MySQL's utf8mb4_unicode_ci collation is case-insensitive by default,
+      // so no Postgres-style `mode: "insensitive"` is needed here.
+      ...(filters.search ? { title: { contains: filters.search } } : {}),
     },
     orderBy: { updatedAt: "desc" },
     take: 100,
@@ -233,7 +243,7 @@ export async function createPost(actor: Actor, input: PostCreateInput) {
       status: PostStatus.DRAFT,
       authorId: actor.id,
       originCollegeId: data.originCollegeId,
-      sdgs: data.sdgs,
+      sdgs: data.sdgs as Prisma.InputJsonValue,
       collegeTags: {
         create: Array.from(tagIds).map((collegeId) => ({ collegeId })),
       },
@@ -283,7 +293,7 @@ export async function updatePost(actor: Actor, input: PostUpdateInput) {
   if (rest.isFeatured !== undefined) data.isFeatured = rest.isFeatured;
   if (rest.scheduledFor !== undefined) data.scheduledFor = rest.scheduledFor;
   if (rest.type !== undefined) data.type = rest.type;
-  if (rest.sdgs !== undefined) data.sdgs = rest.sdgs;
+  if (rest.sdgs !== undefined) data.sdgs = rest.sdgs as Prisma.InputJsonValue;
 
   if (rest.slug !== undefined) {
     data.slug = await ensureUniqueSlug(rest.slug, existing.originCollegeId, id);

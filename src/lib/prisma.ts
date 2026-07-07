@@ -1,33 +1,21 @@
 import { PrismaClient } from "@prisma/client";
-import { PrismaPg } from "@prisma/adapter-pg";
-import { Pool } from "pg";
+import { PrismaMariaDb } from "@prisma/adapter-mariadb";
 
 const globalForPrisma = globalThis as unknown as {
   prisma?: PrismaClient;
-  prismaPool?: Pool;
   databaseUrl?: string;
 };
 
 // Check if the DATABASE_URL has changed (e.g. from hot-reloading .env updates)
 const hasUrlChanged = globalForPrisma.databaseUrl !== process.env.DATABASE_URL;
 
-if (hasUrlChanged && globalForPrisma.prismaPool) {
-  // Gracefully terminate the old pool and clear cache
-  globalForPrisma.prismaPool.end().catch(() => {});
-  delete globalForPrisma.prismaPool;
+if (hasUrlChanged) {
+  // Drop the cached client so a new adapter/pool is created for the new URL
   delete globalForPrisma.prisma;
 }
 
-const pool =
-  globalForPrisma.prismaPool ??
-  new Pool({ connectionString: process.env.DATABASE_URL });
-
-// Listen to unexpected errors on idle connections to prevent process crashes
-pool.on("error", (err) => {
-  console.warn("Unexpected database pool client error:", err.message);
-});
-
-const adapter = new PrismaPg(pool);
+// The MariaDB adapter (MySQL-compatible) manages its own connection pool.
+const adapter = new PrismaMariaDb(process.env.DATABASE_URL as string);
 
 export const prisma =
   globalForPrisma.prisma ??
@@ -38,6 +26,5 @@ export const prisma =
 
 if (process.env.NODE_ENV !== "production") {
   globalForPrisma.prisma = prisma;
-  globalForPrisma.prismaPool = pool;
   globalForPrisma.databaseUrl = process.env.DATABASE_URL;
 }

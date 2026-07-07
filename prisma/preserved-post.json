@@ -1,0 +1,97 @@
+{
+  "authorEmail": "our@auf.edu.ph",
+  "post": {
+    "id": "cmqv76b8l000klcdldzlo61gm",
+    "type": "NEWS",
+    "title": "Katuwang sa Byahe: Fueling Heroes on the Road Donation Drive",
+    "slug": "katuwang-sa-byahe-fueling-heroes-on-the-road-donation-drive",
+    "excerpt": "The College of Computer Studies conducted the outreach program \"Katuwang sa Byahe: Fueling Heroes on the Road\" to provide assistance to transport and delivery drivers affected by rising fuel prices and increasing living expenses",
+    "content": {
+      "type": "doc",
+      "content": [
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "The program provided meaningful support to those who continue to serve the public despite economic challenges. It also demonstrated the College's commitment to extending assistance to the community through purposeful and responsive initiatives. The outreach program was successfully conducted and achieved its objective of assisting transport and delivery workers through the collective efforts of the College of Computer Studies and the CCS Student Council (ALPAS).",
+              "type": "text"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "content": [
+            {
+              "text": "Specific Accomplishment ",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "●\tSuccessfully conducted a community outreach program benefiting transport and delivery workers..",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "●\tDistributed assistance packages consisting of 5 kilograms of rice, refreshments, and snacks.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "●\tReached a total of 130 beneficiaries comprising jeepney drivers and delivery riders.",
+              "type": "text"
+            },
+            {
+              "type": "hardBreak"
+            },
+            {
+              "text": "●\tDemonstrated the College's commitment to social responsibility during economic challenges which promoted volunteerism and community engagement among CCS students and officers.",
+              "type": "text"
+            }
+          ]
+        }
+      ]
+    },
+    "contentText": "The program provided meaningful support to those who continue to serve the public despite economic challenges. It also demonstrated the College's commitment to extending assistance to the community through purposeful and responsive initiatives. The outreach program was successfully conducted and achieved its objective of assisting transport and delivery workers through the collective efforts of the College of Computer Studies and the CCS Student Council (ALPAS).\n\nSpecific Accomplishment \n●\tSuccessfully conducted a community outreach program benefiting transport and delivery workers..\n●\tDistributed assistance packages consisting of 5 kilograms of rice, refreshments, and snacks.\n●\tReached a total of 130 beneficiaries comprising jeepney drivers and delivery riders.\n●\tDemonstrated the College's commitment to social responsibility during economic challenges which promoted volunteerism and community engagement among CCS students and officers.",
+    "coverImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReLRBnzRLw-dgqMyXKLfEkbgXUfl753gkl1rwioxUwG0hfFrqaJpGcNWiZ&s=10",
+    "coverImageAlt": null,
+    "status": "PUBLISHED",
+    "isFeatured": false,
+    "viewCount": 0,
+    "authorId": "cmqu9nmcr0000lkdlxp7micjw",
+    "originCollegeId": null,
+    "reviewedById": "cmqu9nmcr0000lkdlxp7micjw",
+    "reviewedAt": "2026-06-26T09:20:57.899Z",
+    "submittedAt": null,
+    "publishedAt": "2026-06-26T09:20:57.899Z",
+    "scheduledFor": null,
+    "createdAt": "2026-06-26T09:20:54.117Z",
+    "updatedAt": "2026-06-26T09:20:57.962Z",
+    "sdgs": [
+      2,
+      3
+    ]
+  },
+  "approvals": [
+    {
+      "id": "cmqv76e89000mlcdlltxn7fgv",
+      "postId": "cmqv76b8l000klcdldzlo61gm",
+      "actorId": "cmqu9nmcr0000lkdlxp7micjw",
+      "action": "PUBLISH",
+      "comment": null,
+      "createdAt": "2026-06-26T09:20:57.993Z"
+    }
+  ],
+  "collegeTags": [
+    {
+      "postId": "cmqv76b8l000klcdldzlo61gm",
+      "collegeId": "ccs",
+      "createdAt": "2026-06-26T09:20:54.117Z"
+    }
+  ]
+}
