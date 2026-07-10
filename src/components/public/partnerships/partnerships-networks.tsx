@@ -25,12 +25,27 @@ export function PartnershipsNetworks({ networks }: { networks: PartnershipsNetwo
             {/* Header */}
             <div className="flex flex-col gap-3 border-b border-auf-border bg-off-white px-6 py-5 sm:flex-row sm:items-center sm:justify-between">
               <div className="flex items-center gap-4">
-                {/* Acronym badge */}
-                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-navy">
-                  <span className="font-display text-[11px] font-bold leading-tight text-gold text-center px-1">
-                    {membership.acronym}
-                  </span>
-                </div>
+                {/* Logo / Acronym badge */}
+                <a
+                  href={membership.website}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex h-14 min-w-[56px] max-w-[120px] shrink-0 items-center justify-center rounded-xl border border-auf-border bg-white px-3 shadow-sm transition-all duration-200 hover:scale-105 hover:border-navy/20"
+                >
+                  {membership.logoUrl ? (
+                    <img
+                      src={membership.logoUrl}
+                      alt={membership.acronym}
+                      className="max-h-10 max-w-full object-contain"
+                    />
+                  ) : (
+                    <div className="flex h-10 w-10 items-center justify-center bg-navy rounded-lg">
+                      <span className="font-display text-[10px] font-bold leading-tight text-gold text-center px-1">
+                        {membership.acronym}
+                      </span>
+                    </div>
+                  )}
+                </a>
 
                 <div>
                   <h3 className="font-display text-base font-semibold text-navy">{membership.acronym}</h3>

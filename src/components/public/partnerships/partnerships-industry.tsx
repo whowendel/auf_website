@@ -34,9 +34,6 @@ export function PartnershipsIndustry({ industry }: { industry: PartnershipsIndus
                   >
                     <div className="mb-1.5 flex items-start justify-between gap-2">
                       <p className="font-display text-sm font-semibold text-navy">{partner.name}</p>
-                      <span className="shrink-0 rounded-full bg-white border border-auf-border px-2 py-0.5 text-[9px] font-medium text-navy/50">
-                        {partner.type}
-                      </span>
                     </div>
                     <p className="mb-1 text-xs leading-relaxed text-auf-muted">{partner.description}</p>
                     <p className="text-[10px] text-auf-muted/60">{partner.location}</p>

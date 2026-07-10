@@ -181,122 +181,370 @@
     "submissionNote": "Submit completed forms to the External Affairs Office, or email them to connect@auf.edu.ph."
   },
   "curricularPartners": {
-    "navLabel": "Curricular Partners",
-    "eyebrow": "Academic Collaboration",
-    "title": "Curricular Partners",
-    "description": "AUF's curricular partnerships with universities, hospitals, professional schools, and training organizations enrich academic programs through faculty exchange, clinical rotations, joint research, and curriculum development.",
+    "navLabel": "International Partners",
+    "eyebrow": "Global Linkages",
+    "title": "International Partners",
+    "description": "AUF's partnerships with international universities, industry leaders, and research institutions promote global perspectives, cross-border mobility, joint academic research, and curricular enrichment.",
     "categories": [
       {
-        "id": "cat1",
-        "label": "Academic Institutions",
+        "id": "cat_int_industry",
+        "label": "International Industry Partners",
         "partners": [
           {
-            "id": "cp1",
-            "name": "TBA",
-            "type": "Local University",
-            "country": "Philippines",
-            "location": "TBA",
+            "id": "iip1",
+            "name": "Adobe Creative Cloud for Education",
+            "logoUrl": "/assets/partners/Adobe Creative Cloud for Education.png",
+            "type": "Technology Partner",
+            "country": "USA",
+            "location": "San Jose, California, USA",
             "since": "TBA",
-            "description": "To be announced. This partner slot is reserved for local university academic exchange and joint research collaboration.",
-            "focus": ["Faculty Exchange", "Research Collaboration", "Joint Publications"]
+            "description": "Collaboration on digital literacy, offering students and educators creative tools to develop critical communication and digital skills.",
+            "focus": ["Digital Literacy", "Creative Software", "Skills Training"]
           },
           {
-            "id": "cp2",
-            "name": "TBA",
-            "type": "State University",
-            "country": "Philippines",
-            "location": "TBA",
+            "id": "iip2",
+            "name": "Amazon Web Services Inc.",
+            "logoUrl": "/assets/partners/Amazon Web Services Inc..jpg",
+            "type": "Cloud Services Partner",
+            "country": "USA",
+            "location": "Seattle, Washington, USA",
             "since": "TBA",
-            "description": "To be announced.",
-            "focus": ["Academic Exchange", "Curriculum Development"]
+            "description": "Strategic collaboration on cloud computing education, providing access to AWS Academy curricula, cloud labs, and professional certifications.",
+            "focus": ["Cloud Computing", "AWS Academy", "IT Infrastructure"]
+          },
+          {
+            "id": "iip3",
+            "name": "Celebes Nursing Journal (Indonesia)",
+            "logoUrl": "/assets/partners/Celebes Nursing Journal (Indonesia).jpg",
+            "type": "Academic Journal",
+            "country": "Indonesia",
+            "location": "Indonesia",
+            "since": "TBA",
+            "description": "Joint publication and research peer-review collaboration in health sciences, supporting global nursing knowledge exchange.",
+            "focus": ["Nursing Research", "Academic Publishing", "Peer Review"]
+          },
+          {
+            "id": "iip4",
+            "name": "CISCO Networking Academy",
+            "logoUrl": "/assets/partners/CISCO Networking Academy.jpg",
+            "type": "Networking Academy",
+            "country": "USA",
+            "location": "San Jose, California, USA",
+            "since": "TBA",
+            "description": "Long-standing academy partnership providing networking, cybersecurity, and IoT curriculum, labs, and student certifications.",
+            "focus": ["Computer Networks", "Cybersecurity", "IT Training"]
+          },
+          {
+            "id": "iip5",
+            "name": "CompTIA",
+            "logoUrl": "/assets/partners/CompTIA.jpg",
+            "type": "IT Certification Partner",
+            "country": "USA",
+            "location": "Downers Grove, Illinois, USA",
+            "since": "TBA",
+            "description": "Authorized partner program offering standard IT foundations, security, and infrastructure certifications for computing students.",
+            "focus": ["IT Certifications", "Tech Education", "Career Pathways"]
+          },
+          {
+            "id": "iip6",
+            "name": "Huawei ICT Academy",
+            "logoUrl": "/assets/partners/Huawei ICT Academy.png",
+            "type": "ICT Academy",
+            "country": "China",
+            "location": "Shenzhen, China",
+            "since": "TBA",
+            "description": "Joint academy delivering enterprise-level routing, switching, cloud, and 5G network training and technical certification courses.",
+            "focus": ["ICT Training", "Enterprise Networks", "5G Technology"]
+          },
+          {
+            "id": "iip7",
+            "name": "Microsoft Learn for Educators (MSLE)",
+            "logoUrl": "/assets/partners/Microsoft Learn for Educators (MSLE).jfif",
+            "type": "Education Partner",
+            "country": "USA",
+            "location": "Redmond, Washington, USA",
+            "since": "TBA",
+            "description": "Enables faculty to teach Microsoft curriculum and prepare students for industry-recognized cloud and data science certifications.",
+            "focus": ["Microsoft Curricula", "Cloud Certifications", "Faculty Development"]
+          },
+          {
+            "id": "iip8",
+            "name": "Oracle Academy",
+            "logoUrl": "/assets/partners/Oracle Academy.png",
+            "type": "Database & Java Partner",
+            "country": "USA",
+            "location": "Austin, Texas, USA",
+            "since": "TBA",
+            "description": "Educational partnership providing database design, SQL, PL/SQL, and Java programming resources, curriculum, and software tools.",
+            "focus": ["Java Programming", "Database Design", "SQL Curriculum"]
+          },
+          {
+            "id": "iip9",
+            "name": "Smartbridge Educational Services PVT. LTD.",
+            "logoUrl": "/assets/partners/Smartbridge Educational Services PVT. LTD..jfif",
+            "type": "Educational Tech Partner",
+            "country": "India",
+            "location": "Hyderabad, India",
+            "since": "TBA",
+            "description": "Partnership focusing on emerging technologies like IoT, AI, and Machine Learning training, virtual internships, and project mentoring.",
+            "focus": ["AI & IoT", "Virtual Internships", "Emerging Tech"]
+          },
+          {
+            "id": "iip10",
+            "name": "Chinese Testing International Co., Ltd",
+            "logoUrl": "/assets/partners/Chinese Testing International Co., Ltd.png",
+            "type": "Language Testing Partner",
+            "country": "China",
+            "location": "Beijing, China",
+            "since": "TBA",
+            "description": "Collaboration on Chinese language testing, HSK examinations, and Chinese language education resources and certification.",
+            "focus": ["Language Proficiency", "HSK Testing", "Chinese Education"]
           }
         ]
       },
       {
-        "id": "cat2",
-        "label": "Clinical Training Sites",
+        "id": "cat_int_curricular",
+        "label": "International Curricular Partners",
         "partners": [
           {
-            "id": "cp3",
-            "name": "AUF Medical Center",
-            "type": "Tertiary Hospital",
-            "country": "Philippines",
-            "location": "MacArthur Highway, Angeles City, Pampanga",
-            "since": "2000",
-            "description": "The primary clinical training facility for AUF's medical, nursing, and allied health programs. AUFMC provides supervised clinical rotations, clerkship, and internship placements with full faculty oversight.",
-            "focus": ["Medical Clerkship", "Nursing Practicum", "Allied Health Training", "Residency Programs"]
+            "id": "icp1",
+            "name": "Asian Institute of Technology",
+            "logoUrl": "/assets/partners/ASIAN INSTITUTE OF TECHNOLOGY (AIT), THAILAND.png",
+            "type": "International Institute",
+            "country": "Thailand",
+            "location": "Pathum Thani, Thailand",
+            "since": "TBA",
+            "description": "Academic cooperation focusing on student exchange, dual degree pathways, and joint engineering and technology research.",
+            "focus": ["Student Exchange", "Joint Research", "Dual Degrees"]
           },
           {
-            "id": "cp4",
-            "name": "TBA",
-            "type": "Government Hospital",
-            "country": "Philippines",
-            "location": "TBA",
+            "id": "icp2",
+            "name": "Daegu Health College",
+            "logoUrl": "/assets/partners/Daegu Health College.png",
+            "type": "Health Sciences College",
+            "country": "South Korea",
+            "location": "Daegu, South Korea",
             "since": "TBA",
-            "description": "To be announced. Government hospital partner for expanded clinical rotation and practicum placements.",
-            "focus": ["Clinical Rotation", "Nursing Practicum", "Public Health Exposure"]
+            "description": "Active collaboration on nursing and allied health student mobility, cultural exchanges, and clinical skill benchmarking.",
+            "focus": ["Student Mobility", "Allied Health", "Cultural Exchange"]
           },
           {
-            "id": "cp5",
-            "name": "TBA",
-            "type": "Specialty Hospital",
-            "country": "Philippines",
-            "location": "TBA",
+            "id": "icp3",
+            "name": "Dong Nai Technology University",
+            "logoUrl": "/assets/partners/Dong Nai Technology University.png",
+            "type": "Technology University",
+            "country": "Vietnam",
+            "location": "Bien Hoa, Dong Nai, Vietnam",
             "since": "TBA",
-            "description": "To be announced.",
-            "focus": ["Specialty Medicine", "Internship Placement"]
-          }
-        ]
-      },
-      {
-        "id": "cat3",
-        "label": "International Academic Partners",
-        "partners": [
+            "description": "Partnership focusing on academic exchange, curriculum alignment, and joint conferences in engineering, business, and computer science.",
+            "focus": ["Academic Exchange", "Joint Conferences", "Faculty Mobility"]
+          },
           {
-            "id": "cp6",
-            "name": "TBA",
+            "id": "icp4",
+            "name": "Fuzhou University of International Studies and Trade",
+            "logoUrl": "/assets/partners/Fuzhou University of International Studies and Trade.png",
+            "type": "International Studies University",
+            "country": "China",
+            "location": "Fuzhou, Fujian, China",
+            "since": "TBA",
+            "description": "Cooperation on student cultural exchanges, business study programs, and foreign language teaching collaborations.",
+            "focus": ["Cultural Exchange", "Business Programs", "Language Teaching"]
+          },
+          {
+            "id": "icp5",
+            "name": "Guiyang Institute of Information Science and Technology",
+            "logoUrl": "/assets/partners/Guiyang Institute of Information Science and Technology.webp",
+            "type": "Information Technology Institute",
+            "country": "China",
+            "location": "Guiyang, Guizhou, China",
+            "since": "TBA",
+            "description": "Collaboration on information technology curricula, cloud computing joint projects, and IT student exchange.",
+            "focus": ["IT Curriculum", "Joint Projects", "Student Exchange"]
+          },
+          {
+            "id": "icp6",
+            "name": "Hannam University",
+            "logoUrl": "/assets/partners/Hannam University.jpg",
+            "type": "Private University",
+            "country": "South Korea",
+            "location": "Daejeon, South Korea",
+            "since": "TBA",
+            "description": "Academic cooperation facilitating student exchange semesters, intensive Korean language programs, and joint research projects.",
+            "focus": ["Student Exchange", "Language Programs", "Joint Research"]
+          },
+          {
+            "id": "icp7",
+            "name": "Hawai'i Pacific University",
+            "logoUrl": "/assets/partners/Hawai_i Pacific University.png",
+            "type": "Private University",
+            "country": "USA",
+            "location": "Honolulu, Hawaii, USA",
+            "since": "TBA",
+            "description": "Partnership facilitating academic collaboration, nursing exchange programs, and Pacific-region joint academic research.",
+            "focus": ["Nursing Exchange", "Academic Mobility", "Joint Research"]
+          },
+          {
+            "id": "icp8",
+            "name": "Universitas Muhammadiyah Klaten",
+            "logoUrl": "/assets/partners/Health and Technology Faculty UMKLA INDONESIA.jpg",
+            "type": "Islamic University",
+            "country": "Indonesia",
+            "location": "Klaten, Central Java, Indonesia",
+            "since": "TBA",
+            "description": "Collaboration focusing on health sciences, nursing student exchanges, and joint community development projects.",
+            "focus": ["Nursing Exchange", "Health Sciences", "Community Projects"]
+          },
+          {
+            "id": "icp9",
+            "name": "Huachiew Chalermprakiet University",
+            "logoUrl": "/assets/partners/Huachiew Chalermprakiet University.webp",
+            "type": "Private University",
+            "country": "Thailand",
+            "location": "Samut Prakan, Thailand",
+            "since": "TBA",
+            "description": "Cooperation in Chinese studies, traditional medicine exchange, and Southeast Asian joint academic research.",
+            "focus": ["Traditional Medicine", "Chinese Studies", "Joint Research"]
+          },
+          {
+            "id": "icp10",
+            "name": "Incheon Catholic University",
+            "logoUrl": "/assets/partners/Incheon Catholic University.jfif",
+            "type": "Catholic University",
+            "country": "South Korea",
+            "location": "Incheon, South Korea",
+            "since": "TBA",
+            "description": "Partnership focusing on Catholic higher education collaboration, cultural exchanges, and joint fine arts programs.",
+            "focus": ["Catholic Education", "Cultural Exchange", "Fine Arts"]
+          },
+          {
+            "id": "icp11",
+            "name": "Inti International University",
+            "logoUrl": "/assets/partners/Inti International University (Malaysia).png",
             "type": "International University",
-            "country": "TBA",
-            "location": "TBA",
+            "country": "Malaysia",
+            "location": "Nilai, Negeri Sembilan, Malaysia",
             "since": "TBA",
-            "description": "To be announced. International university partner for student and faculty exchange programs.",
-            "focus": ["Student Exchange", "Faculty Mobility", "Joint Research"]
+            "description": "Strategic partnership on student exchange, dual degree pathways, and joint business and IT research publications.",
+            "focus": ["Dual Degrees", "Student Exchange", "Joint Research"]
           },
           {
-            "id": "cp7",
-            "name": "TBA",
-            "type": "International University",
-            "country": "TBA",
-            "location": "TBA",
+            "id": "icp12",
+            "name": "Korea Institute of Electronic Communication Sciences",
+            "logoUrl": "/assets/partners/Korea Institute of Electronic Communication Sciences.png",
+            "type": "Research Institute",
+            "country": "South Korea",
+            "location": "South Korea",
             "since": "TBA",
-            "description": "To be announced.",
-            "focus": ["Academic Exchange", "Dual Degree Program"]
-          }
-        ]
-      },
-      {
-        "id": "cat4",
-        "label": "Professional Training Organizations",
-        "partners": [
+            "description": "Scientific collaboration on electronic communications research, technical workshops, and joint engineering seminars.",
+            "focus": ["Electronics Research", "Technical Seminars", "Workshops"]
+          },
           {
-            "id": "cp8",
-            "name": "TBA",
-            "type": "Professional Organization",
-            "country": "Philippines",
-            "location": "TBA",
+            "id": "icp13",
+            "name": "Tokyo Metropolitan University",
+            "logoUrl": "/assets/partners/Tokyo Metropolitan University.webp",
+            "type": "Public University",
+            "country": "Japan",
+            "location": "Tokyo, Japan",
             "since": "TBA",
-            "description": "To be announced. Professional association partner for continuing education and board exam review programs.",
-            "focus": ["Board Review", "Professional Development", "Licensure Preparation"]
+            "description": "Academic cooperation facilitating graduate student research, joint public health studies, and faculty exchange.",
+            "focus": ["Graduate Research", "Public Health", "Faculty Mobility"]
+          },
+          {
+            "id": "icp14",
+            "name": "Universitas Muhammadiyah Prof. DR. HAMKA",
+            "logoUrl": "/assets/partners/Universitas Muhammadiyah Prof. Dr. UHAMKA.webp",
+            "type": "Islamic University",
+            "country": "Indonesia",
+            "location": "Jakarta, Indonesia",
+            "since": "TBA",
+            "description": "Cooperation in teacher education, business programs, student teaching mobility, and joint academic publications.",
+            "focus": ["Teacher Mobility", "Student Teaching", "Joint Publications"]
+          },
+          {
+            "id": "icp15",
+            "name": "Universitas Muhammadiyah Purwokerto",
+            "logoUrl": "/assets/partners/Universita Muhammadiyah Purwokerto.png",
+            "type": "Islamic University",
+            "country": "Indonesia",
+            "location": "Purwokerto, Central Java, Indonesia",
+            "since": "TBA",
+            "description": "Partnership focusing on pharmacy, business studies, student mobility, and joint community extensions.",
+            "focus": ["Pharmacy Exchange", "Student Mobility", "Community Outreach"]
+          },
+          {
+            "id": "icp16",
+            "name": "Universitas Muhammadiyah Yogyakarta",
+            "logoUrl": "/assets/partners/Universitas Muhammadiyah Yogyakarta, INDONESIA.png",
+            "type": "Islamic University",
+            "country": "Indonesia",
+            "location": "Yogyakarta, Indonesia",
+            "since": "TBA",
+            "description": "Cooperation in nursing, international relations, joint research, and international credit transfer programs.",
+            "focus": ["Credit Transfer", "Nursing Exchange", "Joint Research"]
+          },
+          {
+            "id": "icp17",
+            "name": "Universitas Muhammadiyah Purworejo",
+            "logoUrl": "/assets/partners/Universitas Muhammadiyah Purworejo.jfif",
+            "type": "Islamic University",
+            "country": "Indonesia",
+            "location": "Purworejo, Central Java, Indonesia",
+            "since": "TBA",
+            "description": "Cooperation on teacher training curricula, student community service, and joint educational research.",
+            "focus": ["Teacher Training", "Community Service", "Joint Research"]
+          },
+          {
+            "id": "icp18",
+            "name": "Fujian Normal University",
+            "logoUrl": "/assets/partners/Fujian Normal University.png",
+            "type": "Public University",
+            "country": "China",
+            "location": "Fuzhou, Fujian, China",
+            "since": "TBA",
+            "description": "Partnership facilitating Confucius Institute programs, Chinese language teacher training, and cultural exchanges.",
+            "focus": ["Confucius Institute", "Chinese Language", "Cultural Exchange"]
+          },
+          {
+            "id": "icp19",
+            "name": "National Taipei University of Education",
+            "logoUrl": "/assets/partners/National Taipei University of Education.png",
+            "type": "National University",
+            "country": "Taiwan",
+            "location": "Taipei, Taiwan",
+            "since": "TBA",
+            "description": "Academic cooperation facilitating teacher education student exchange, joint language programs, and faculty exchange.",
+            "focus": ["Teacher Exchange", "Language Programs", "Student Mobility"]
+          },
+          {
+            "id": "icp20",
+            "name": "Chinese International Education Foundation",
+            "logoUrl": "/assets/partners/Chinese International Education Foundation.png",
+            "type": "Educational Foundation",
+            "country": "China",
+            "location": "Beijing, China",
+            "since": "TBA",
+            "description": "Support for Chinese international education, Confucius Institute establishment, and language learning materials.",
+            "focus": ["Confucius Institute", "Chinese Education", "Resource Support"]
+          },
+          {
+            "id": "icp21",
+            "name": "Yucheng Occupation Education Center",
+            "type": "Vocational Center",
+            "country": "China",
+            "location": "Yucheng, Shandong, China",
+            "since": "TBA",
+            "description": "Vocational education partnership focusing on technical skills training, teacher mobility, and curriculum development.",
+            "focus": ["Vocational Skills", "Technical Training", "Teacher Mobility"]
           }
         ]
       }
     ]
   },
   "industryPartners": {
-    "navLabel": "Industry Partners",
-    "eyebrow": "Private Sector Collaboration",
-    "title": "Industry Partners",
-    "description": "AUF's industry partnerships bridge academia and the professional world, providing students with internship placements, real-world project exposure, guest lecture programs, and direct pathways to employment.",
+    "navLabel": "Local Partners",
+    "eyebrow": "Domestic Cooperation",
+    "title": "Local Partners",
+    "description": "AUF's domestic partnerships with industries, hospitals, schools, and private sectors bridge academia and the professional world, providing students with internship placements, real-world project exposure, and direct pathways to employment.",
     "sectors": [
       {
         "id": "sec1",
@@ -441,48 +689,88 @@
     "description": "AUF is an active member of prestigious international and national academic networks that promote quality assurance, academic excellence, institutional transparency, and cross-border collaboration among universities.",
     "memberships": [
       {
-        "id": "n1",
-        "acronym": "AUN-QA",
-        "name": "ASEAN University Network Quality Assurance",
-        "region": "Southeast Asia",
-        "website": "https://www.aunsec.org",
+        "id": "n_aseaccu",
+        "acronym": "ASEACCU",
+        "name": "Association of Southeast and East Asian Catholic Colleges and Universities",
+        "region": "Southeast & East Asia",
+        "website": "https://aseaccu.org/",
+        "logoUrl": "/assets/partners/aseaccu.png",
         "since": "TBA",
-        "description": "AUN-QA is the regional quality assurance framework for universities within the Association of Southeast Asian Nations (ASEAN). Membership involves rigorous quality assessments of academic programs and institutional-level reviews conducted by international peer evaluators.",
-        "whatItMeans": "AUF's participation in AUN-QA demonstrates its commitment to meeting internationally recognized standards for curriculum design, teaching quality, student outcomes, and institutional governance.",
-        "focus": ["Quality Assurance", "Curriculum Standards", "Institutional Assessment", "Regional Benchmarking"]
+        "description": "ASEACCU is a regional association of Catholic higher education institutions in Southeast and East Asia, promoting academic collaboration and spiritual growth in Catholic education.",
+        "whatItMeans": "AUF benefits from regional Catholic educational exchange, leadership workshops, student camps, and collaborative projects with member universities.",
+        "focus": ["Catholic Identity", "Student Camps", "Academic Cooperation", "Regional Linkages"]
       },
       {
-        "id": "n2",
+        "id": "n_auap",
         "acronym": "AUAP",
-        "name": "Association of Universities of Asia and the Pacific",
+        "name": "The Association of Universities of Asia and the Pacific",
         "region": "Asia-Pacific",
-        "website": "https://www.auap.org",
+        "website": "https://auap.org/",
+        "logoUrl": "/assets/partners/auap.png",
         "since": "TBA",
-        "description": "AUAP is a multilateral consortium of universities across the Asia-Pacific region committed to promoting educational cooperation, research exchange, and academic mobility. Member universities collaborate on joint programs, conferences, and student exchange initiatives.",
-        "whatItMeans": "Through AUAP, AUF students and faculty gain access to academic exchange programs, international conferences, and collaborative research opportunities with partner universities across Asia and the Pacific.",
-        "focus": ["Academic Exchange", "Research Collaboration", "Leadership Development", "Student Mobility"]
+        "description": "AUAP is a platform for interaction and collaboration among members of higher education institutions in the Asia-Pacific region, promoting regional exchange and development.",
+        "whatItMeans": "AUF gains access to regional student mobility programs, faculty research fellowships, and institutional leadership networks across the Asia-Pacific.",
+        "focus": ["Regional Exchange", "Research Fellowships", "Student Mobility", "Institutional Development"]
       },
       {
-        "id": "n3",
+        "id": "n_acup",
+        "acronym": "ACUP",
+        "name": "Association of Catholic Universities of the Philippines",
+        "region": "Philippines",
+        "website": "https://www.facebook.com/ACUP1973/",
+        "logoUrl": "/assets/partners/acup.jpg",
+        "since": "TBA",
+        "description": "ACUP is a national association of Catholic higher education institutions in the Philippines, working to preserve Catholic identity, promote quality education, and foster cooperation.",
+        "whatItMeans": "AUF collaborates with Philippine Catholic schools on value-centered educational policies, advocacy, and national academic development.",
+        "focus": ["Preserving Catholic Identity", "Educational Advocacy", "National Cooperation"]
+      },
+      {
+        "id": "n_ceap",
+        "acronym": "CEAP",
+        "name": "Catholic Educational Association of the Philippines",
+        "region": "Philippines",
+        "website": "https://ceap.org.ph/",
+        "logoUrl": "/assets/partners/ceap.png",
+        "since": "TBA",
+        "description": "CEAP is the national association of Catholic schools in the Philippines, representing thousands of Catholic educational institutions nationwide.",
+        "whatItMeans": "Through CEAP, AUF actively participates in national educational policymaking, values education advocacy, and private school welfare representation.",
+        "focus": ["Values Education", "Policy Representation", "Educational Seminars", "Private School Advocacy"]
+      },
+      {
+        "id": "n_paascu",
         "acronym": "PAASCU",
-        "name": "Philippine Accrediting Association of Schools, Colleges, and Universities",
+        "name": "Philippine Accrediting Association of Schools, Colleges and Universities",
         "region": "Philippines",
-        "website": "https://www.paascu.org.ph",
+        "website": "https://paascu.org.ph/",
+        "logoUrl": "/assets/partners/paascu.png",
         "since": "TBA",
-        "description": "PAASCU is the foremost voluntary accreditation agency for private schools, colleges, and universities in the Philippines. AUF's accredited programs undergo periodic quality assessments covering faculty qualifications, curriculum, facilities, research output, and student services.",
-        "whatItMeans": "PAASCU accreditation is a mark of academic excellence recognized by CHED and by employers nationwide. AUF programs with PAASCU Level III or IV accreditation enjoy deregulated status and additional government benefits.",
-        "focus": ["Program Accreditation", "Institutional Standards", "Quality Review", "Faculty Assessment"]
+        "description": "PAASCU is a voluntary accrediting agency that assesses the quality of academic programs and institutional performance of private schools and universities in the Philippines.",
+        "whatItMeans": "AUF's accredited programs verify the university's compliance with national quality standards, earning deregulated status and public recognition.",
+        "focus": ["Program Accreditation", "Quality Standards", "Institutional Assessment", "Continuous Improvement"]
       },
       {
-        "id": "n4",
-        "acronym": "PACUCOA",
-        "name": "Philippine Association of Colleges and Universities Commission on Accreditation",
+        "id": "n_pacu",
+        "acronym": "PACU",
+        "name": "Philippine Association of Colleges and Universities",
         "region": "Philippines",
-        "website": "https://www.pacucoa.ph",
+        "website": "https://www.pacu.org.ph/",
+        "logoUrl": "/assets/partners/pacu.png",
         "since": "TBA",
-        "description": "PACUCOA provides voluntary accreditation for private higher education institutions in the Philippines. AUF participates in PACUCOA's accreditation process for select academic programs, ensuring they meet defined quality benchmarks.",
-        "whatItMeans": "PACUCOA accreditation signals to students, parents, and employers that AUF's programs meet rigorous, independently validated standards of quality.",
-        "focus": ["Academic Accreditation", "Program Quality", "Institutional Improvement", "Peer Review"]
+        "description": "PACU is a national association representing private colleges and universities in the Philippines, advocating for private education development and university welfare.",
+        "whatItMeans": "AUF cooperates with private higher education institutions on advocacy, research, capacity building, and lobbying for constructive education policies.",
+        "focus": ["Private Education Welfare", "Capacity Building", "Educational Lobbying", "National Cooperation"]
+      },
+      {
+        "id": "n_aunqa",
+        "acronym": "AUN-QA",
+        "name": "ASEAN University Network-Quality Assurance",
+        "region": "Southeast Asia",
+        "website": "https://www.aunsec.org/discover-aun/thematic-networks/aun-q",
+        "logoUrl": "/assets/partners/aunqa.png",
+        "since": "TBA",
+        "description": "AUN-QA is the quality assurance network of the ASEAN University Network (AUN) that coordinates quality assessment and program benchmarking across Southeast Asian universities.",
+        "whatItMeans": "AUF's participation in AUN-QA program assessments certifies that its curriculum, teaching, and learning outcomes match international standards.",
+        "focus": ["Quality Assurance", "Program Assessment", "ASEAN Benchmarking", "Educational Standards"]
       }
     ]
   }

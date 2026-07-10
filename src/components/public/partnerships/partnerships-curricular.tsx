@@ -38,12 +38,22 @@ export function PartnershipsCurricular({ curricular }: { curricular: Partnership
                   key={partner.id}
                   className="flex flex-col overflow-hidden rounded-2xl border border-auf-border bg-white"
                 >
-                  {/* Logo placeholder */}
-                  <div className="flex h-20 items-center justify-center border-b border-auf-border bg-off-white/60">
-                    <span className="font-display text-[10px] font-light italic text-navy/25">
-                      {partner.name === "TBA" ? "Logo — To be announced" : partner.name}
-                    </span>
-                  </div>
+                  {/* Logo */}
+                  {partner.logoUrl ? (
+                    <div className="flex h-20 items-center justify-center border-b border-auf-border bg-white p-4">
+                      <img
+                        src={partner.logoUrl}
+                        alt={partner.name}
+                        className="max-h-full max-w-full object-contain"
+                      />
+                    </div>
+                  ) : (
+                    <div className="flex h-20 items-center justify-center border-b border-auf-border bg-off-white/60">
+                      <span className="font-display text-[10px] font-light italic text-navy/25">
+                        {partner.name === "TBA" ? "Logo — To be announced" : partner.name}
+                      </span>
+                    </div>
+                  )}
 
                   {/* Content */}
                   <div className="flex flex-1 flex-col p-4">
@@ -51,13 +61,8 @@ export function PartnershipsCurricular({ curricular }: { curricular: Partnership
                       <h3 className="font-display text-sm font-semibold text-navy">{partner.name}</h3>
                     </div>
 
-                    {/* Type badge + location */}
-                    <div className="mb-3 flex flex-wrap items-center gap-1.5">
-                      <span
-                        className={`rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.1em] ${TYPE_STYLES[partner.type] ?? "bg-off-white text-navy/60"}`}
-                      >
-                        {partner.type}
-                      </span>
+                    {/* Location */}
+                    <div className="mb-3 flex items-center">
                       <span className="text-[11px] text-auf-muted">{partner.location}</span>
                     </div>
 
