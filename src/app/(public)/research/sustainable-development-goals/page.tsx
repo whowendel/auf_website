@@ -25,7 +25,8 @@ type SdgPost = {
   coverImageUrl: string | null;
   publishedAt: Date | null;
   originCollegeId: string | null;
-  sdgs: number[];
+  // Stored as a JSON array of SDG numbers (nullable); coerce before use.
+  sdgs: number[] | null;
 };
 
 function SdgPostCard({ post }: { post: SdgPost }) {
@@ -154,7 +155,7 @@ export default async function SustainableDevelopmentGoalsPage() {
               {/* SDG Sections */}
               <div className="space-y-12">
                 {SDG_LIST.map((sdg) => {
-                  const sdgPosts = posts.filter((p) => p.sdgs.includes(sdg.number));
+                  const sdgPosts = posts.filter((p) => (p.sdgs ?? []).includes(sdg.number));
                   const count = sdgPosts.length;
 
                   return (

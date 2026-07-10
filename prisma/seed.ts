@@ -1,14 +1,12 @@
 import "dotenv/config";
 import { PrismaClient, PostStatus, PostType, Role } from "@prisma/client";
-import { PrismaPg } from "@prisma/adapter-pg";
-import { Pool } from "pg";
+import { PrismaMariaDb } from "@prisma/adapter-mariadb";
 import bcrypt from "bcryptjs";
 // Import college IDs straight from colleges.json — no DB table, no migration.
 import siteData from "../src/data/site.json";
 import collegesData from "../src/data/colleges.json";
 
-const pool = new Pool({ connectionString: process.env.DATABASE_URL });
-const adapter = new PrismaPg(pool);
+const adapter = new PrismaMariaDb(process.env.DATABASE_URL as string);
 const prisma = new PrismaClient({ adapter });
 
 const SEED_PASSWORD = process.env.SEED_PASSWORD ?? "password";
@@ -129,5 +127,4 @@ main()
   })
   .finally(async () => {
     await prisma.$disconnect();
-    await pool.end();
   });

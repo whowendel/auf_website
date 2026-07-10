@@ -1,15 +1,17 @@
 services:
   db:
-    image: postgres:16-alpine
+    image: mysql:8
     restart: unless-stopped
-    environment:  
-      POSTGRES_USER: auf
-      POSTGRES_PASSWORD: auf
-      POSTGRES_DB: auf_website
+    environment:
+      MYSQL_USER: auf
+      MYSQL_PASSWORD: auf
+      MYSQL_DATABASE: auf_website
+      MYSQL_ROOT_PASSWORD: auf_root
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     ports:
-      - "5432:5432"
+      - "3306:3306"
     volumes:
-      - auf_pgdata:/var/lib/postgresql/data
+      - auf_mysqldata:/var/lib/mysql
 
 volumes:
-  auf_pgdata:
+  auf_mysqldata:

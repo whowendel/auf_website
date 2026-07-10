@@ -3,7 +3,7 @@ generator client {
 }
 
 datasource db {
-  provider = "postgresql"
+  provider = "mysql"
 }
 
 model User {
@@ -11,7 +11,7 @@ model User {
   email         String     @unique
   emailVerified DateTime?
   name          String
-  image         String?
+  image         String?    @db.Text
   passwordHash  String?
   role          Role       @default(COLLEGE_EDITOR)
   collegeId     String?
@@ -37,13 +37,13 @@ model Account {
   type              String
   provider          String
   providerAccountId String
-  refresh_token     String?
-  access_token      String?
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
   expires_at        Int?
   token_type        String?
-  scope             String?
-  id_token          String?
-  session_state     String?
+  scope             String? @db.Text
+  id_token          String? @db.Text
+  session_state     String? @db.Text
   user              User    @relation(fields: [userId], references: [id], onDelete: Cascade)
 
   @@unique([provider, providerAccountId])
@@ -71,13 +71,13 @@ model VerificationToken {
 model Post {
   id              String           @id @default(cuid())
   type            PostType         @default(NEWS)
-  title           String
+  title           String           @db.Text
   slug            String
-  excerpt         String?
+  excerpt         String?          @db.Text
   content         Json
-  contentText     String?
-  coverImageUrl   String?
-  coverImageAlt   String?
+  contentText     String?          @db.Text
+  coverImageUrl   String?          @db.Text
+  coverImageAlt   String?          @db.Text
   status          PostStatus       @default(DRAFT)
   isFeatured      Boolean          @default(false)
   viewCount       Int              @default(0)
@@ -90,7 +90,7 @@ model Post {
   scheduledFor    DateTime?
   createdAt       DateTime         @default(now())
   updatedAt       DateTime         @updatedAt
-  sdgs            Int[]
+  sdgs            Json?
   approvals       Approval[]
   author          User             @relation("PostAuthor", fields: [authorId], references: [id])
   reviewedBy      User?            @relation("PostReviewer", fields: [reviewedById], references: [id])
@@ -119,7 +119,7 @@ model Approval {
   postId    String
   actorId   String
   action    ApprovalAction
-  comment   String?
+  comment   String?        @db.Text
   createdAt DateTime       @default(now())
   actor     User           @relation(fields: [actorId], references: [id])
   post      Post           @relation(fields: [postId], references: [id], onDelete: Cascade)
@@ -130,7 +130,7 @@ model Approval {
 model PostRevision {
   id        String   @id @default(cuid())
   postId    String
-  title     String
+  title     String   @db.Text
   content   Json
   editorId  String
   createdAt DateTime @default(now())
@@ -141,14 +141,14 @@ model PostRevision {
 
 model Media {
   id           String    @id @default(cuid())
-  url          String
+  url          String    @db.Text
   type         MediaType @default(IMAGE)
   mimeType     String
   sizeBytes    Int
   width        Int?
   height       Int?
-  alt          String?
-  caption      String?
+  alt          String?   @db.Text
+  caption      String?   @db.Text
   uploadedById String
   collegeId    String?
   createdAt    DateTime  @default(now())
@@ -172,7 +172,7 @@ model AuditLog {
   entityId   String
   metadata   Json?
   ipAddress  String?
-  userAgent  String?
+  userAgent  String?  @db.Text
   createdAt  DateTime @default(now())
   actor      User?    @relation(fields: [actorId], references: [id])
 
