@@ -48,6 +48,28 @@ export function MicrositeIdentity({ college }: { college: College }) {
           </div>
         </div>
 
+        {/* History — conditional */}
+        {college.history && (
+          <div className="mt-16 border-t border-[var(--auf-border)] pt-12">
+            <p
+              className="mb-3 text-[10px] font-bold uppercase tracking-[0.2em]"
+              style={{ color: college.brandColor }}
+            >
+              Our History
+            </p>
+            <h3 className="font-display text-2xl font-light text-[var(--auf-navy)] md:text-3xl">
+              How we started
+            </h3>
+            <div className="mt-6 space-y-4 text-sm leading-relaxed text-[var(--auf-text)] md:text-base">
+              {Array.isArray(college.history) ? (
+                college.history.map((p, idx) => <p key={idx}>{p}</p>)
+              ) : (
+                <p>{college.history}</p>
+              )}
+            </div>
+          </div>
+        )}
+
         {/* Goals — conditional */}
         {hasGoals && (
           <div className="mt-16 border-t border-[var(--auf-border)] pt-12">

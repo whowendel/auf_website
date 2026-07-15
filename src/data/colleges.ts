@@ -112,6 +112,7 @@ export type College = {
   vision: string;
   mission: string;
   programs: Program[];
+  history?: string | string[];
   // ─── Optional microsite sections (conditional rendering) ──────────
   goals?: string[];
   studentOrganizations?: StudentOrganization[];
