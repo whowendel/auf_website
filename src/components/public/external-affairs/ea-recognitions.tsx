@@ -175,7 +175,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                       <div className="p-3 rounded-lg border border-gold/15 bg-gold/[0.02] flex items-center gap-3.5">
                         <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
                           <Image
-                            src="/assets/intl_recog/SDG 3 Instagram.png"
+                            src="/assets/sdgs/3.png"
                             alt="SDG 3 Logo"
                             fill
                             className="object-contain p-0.5"
@@ -192,7 +192,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                       <div className="p-3 rounded-lg border border-navy/5 bg-navy/[0.01] flex items-center gap-3.5">
                         <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
                           <Image
-                            src="/assets/intl_recog/SDG 4 Instagram.png"
+                            src="/assets/sdgs/4.png"
                             alt="SDG 4 Logo"
                             fill
                             className="object-contain p-0.5"
@@ -209,7 +209,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                       <div className="p-3 rounded-lg border border-navy/5 bg-navy/[0.01] flex items-center gap-3.5">
                         <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
                           <Image
-                            src="/assets/intl_recog/SDG 5 Instagram.png"
+                            src="/assets/sdgs/5.png"
                             alt="SDG 5 Logo"
                             fill
                             className="object-contain p-0.5"
@@ -226,7 +226,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                       <div className="p-3 rounded-lg border border-gold/15 bg-gold/[0.02] flex items-center gap-3.5">
                         <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
                           <Image
-                            src="/assets/intl_recog/SDG 11 Instagram.png"
+                            src="/assets/sdgs/11.png"
                             alt="SDG 11 Logo"
                             fill
                             className="object-contain p-0.5"
@@ -243,27 +243,125 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                   </td>
                 </tr>
                 
-                {/* 2025 results */}
+                {/* 2025 results with individual SDG icons */}
                 <tr className="hover:bg-off-white/40 transition-colors">
                   <td className="px-4 py-4 font-semibold text-navy align-top">2025</td>
                   <td className="px-4 py-4 text-auf-muted">
-                    <ul className="space-y-1 pl-4 list-disc text-xs leading-normal">
-                      <li><span className="font-semibold text-navy">SDG 3 (Good Health and Well-being)</span> – 401–600</li>
-                      <li><span className="font-semibold text-navy">SDG 11 (Sustainable Cities and Communities)</span> – 601–800</li>
-                      <li><span className="font-semibold text-navy">SDG 4 (Quality Education)</span> – 801–1000</li>
-                      <li><span className="font-semibold text-navy">SDG 5 (Gender Equality)</span> – 801–1000</li>
-                    </ul>
+                    <div className="grid gap-3 sm:grid-cols-2">
+                      
+                      {/* SDG 3 */}
+                      <div className="p-3 rounded-lg border border-gold/15 bg-gold/[0.02] flex items-center gap-3.5">
+                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
+                          <Image
+                            src="/assets/sdgs/3.png"
+                            alt="SDG 3 Logo"
+                            fill
+                            className="object-contain p-0.5"
+                            sizes="64px"
+                          />
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 3: Good Health & Well-being</span>
+                          <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 401–600</span>
+                        </div>
+                      </div>
+
+                      {/* SDG 11 */}
+                      <div className="p-3 rounded-lg border border-gold/15 bg-gold/[0.02] flex items-center gap-3.5">
+                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
+                          <Image
+                            src="/assets/sdgs/11.png"
+                            alt="SDG 11 Logo"
+                            fill
+                            className="object-contain p-0.5"
+                            sizes="64px"
+                          />
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 11: Sustainable Cities & Communities</span>
+                          <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 601–800</span>
+                        </div>
+                      </div>
+
+                      {/* SDG 4 */}
+                      <div className="p-3 rounded-lg border border-navy/5 bg-navy/[0.01] flex items-center gap-3.5">
+                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
+                          <Image
+                            src="/assets/sdgs/4.png"
+                            alt="SDG 4 Logo"
+                            fill
+                            className="object-contain p-0.5"
+                            sizes="64px"
+                          />
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 4: Quality Education</span>
+                          <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 801–1000</span>
+                        </div>
+                      </div>
+
+                      {/* SDG 5 */}
+                      <div className="p-3 rounded-lg border border-navy/5 bg-navy/[0.01] flex items-center gap-3.5">
+                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
+                          <Image
+                            src="/assets/sdgs/5.png"
+                            alt="SDG 5 Logo"
+                            fill
+                            className="object-contain p-0.5"
+                            sizes="64px"
+                          />
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 5: Gender Equality</span>
+                          <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 801–1000</span>
+                        </div>
+                      </div>
+
+                    </div>
                   </td>
                 </tr>
 
-                {/* 2024 results */}
+                {/* 2024 results with individual SDG icons */}
                 <tr className="hover:bg-off-white/40 transition-colors">
                   <td className="px-4 py-4 font-semibold text-navy align-top">2024</td>
                   <td className="px-4 py-4 text-auf-muted">
-                    <ul className="space-y-1 pl-4 list-disc text-xs leading-normal">
-                      <li><span className="font-semibold text-navy">SDG 1 (No Poverty)</span> – 1001+</li>
-                      <li><span className="font-semibold text-navy">SDG 3 (Good Health and Well-being)</span> – 401–600</li>
-                    </ul>
+                    <div className="grid gap-3 sm:grid-cols-2">
+                      
+                      {/* SDG 3 */}
+                      <div className="p-3 rounded-lg border border-gold/15 bg-gold/[0.02] flex items-center gap-3.5">
+                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
+                          <Image
+                            src="/assets/sdgs/3.png"
+                            alt="SDG 3 Logo"
+                            fill
+                            className="object-contain p-0.5"
+                            sizes="64px"
+                          />
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 3: Good Health & Well-being</span>
+                          <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 401–600</span>
+                        </div>
+                      </div>
+
+                      {/* SDG 1 */}
+                      <div className="p-3 rounded-lg border border-navy/5 bg-navy/[0.01] flex items-center gap-3.5">
+                        <div className="relative h-14 w-14 sm:h-16 sm:w-16 shrink-0 overflow-hidden rounded-md border border-auf-border bg-white shadow-sm">
+                          <Image
+                            src="/assets/sdgs/1.png"
+                            alt="SDG 1 Logo"
+                            fill
+                            className="object-contain p-0.5"
+                            sizes="64px"
+                          />
+                        </div>
+                        <div className="min-w-0">
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 1: No Poverty</span>
+                          <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 1001+</span>
+                        </div>
+                      </div>
+
+                    </div>
                   </td>
                 </tr>
               </tbody>

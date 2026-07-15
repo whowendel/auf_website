@@ -11,14 +11,14 @@
     "description": "AUF welcomes collaborative relationships with local and international institutions, industries, government agencies, and non-governmental organizations. All partnerships must align with AUF's vision, mission, and institutional priorities, and must undergo the standard partnership establishment process outlined below.",
     "policy": {
       "title": "AUF Policy for External Affairs",
-      "summary": "AUF's policy for external affairs governs all institutional partnerships and collaborative agreements. It ensures that partnerships serve the university's academic mission, uphold ethical standards, and are mutually beneficial to both parties.",
+      "summary": "The AUF is guided by its mission, vision, and educational philosophy in setting standards and guidelines for harmonized, effective and efficient implementation of its programs and initiatives for establishing networks, linkages, and partnerships. The AUF Policy on External Affairs guides the university towards achieving its goal on establishing strategic partnerships with external partners to support the holistic development of its students, teaching employee, and non-teaching staff.",
       "principles": [
-        "Partnerships must contribute to the quality of academic programs, research, or community service",
-        "All partnership agreements must undergo legal review and be signed by an authorized university representative",
-        "Partnerships are established for a defined period and are subject to annual monitoring and evaluation",
-        "Both parties must fulfill their respective obligations as stipulated in the signed agreement",
-        "AUF reserves the right to terminate any partnership that violates its policies, values, or applicable laws",
-        "Confidentiality of proprietary information shared between parties must be upheld at all times"
+        "Partnerships shall be mutually beneficial and support one or more of the University's three-fold functions: instruction, research, and community engagement.",
+        "Partnerships shall align with the University's Vision, Mission, Educational Philosophy, strategic priorities, and institutional values, and shall contribute to enhancing the University's reputation and long-term development.",
+        "Partnerships shall adhere to the requirements of applicable laws, regulations, and the policies of relevant regulatory and accrediting bodies.",
+        "Partnerships shall undergo the review and approval process established by the University prior to execution and implementation.",
+        "Partnerships for internship, practicum, clinical placement, and other academic experiential learning activities shall be reviewed and endorsed by the Office of the Vice President for Academic Affairs (OVPAA).",
+        "Partnerships shall be established for a defined period and shall be subject to regular monitoring, evaluation, and renewal based on performance, relevance, and mutual compliance with the agreed terms."
       ]
     },
     "flow": [
@@ -693,7 +693,7 @@
         "acronym": "ASEACCU",
         "name": "Association of Southeast and East Asian Catholic Colleges and Universities",
         "region": "Southeast & East Asia",
-        "website": "https://aseaccu.org/",
+        "website": "https://aseaccu.asia",
         "logoUrl": "/assets/partners/aseaccu.png",
         "since": "TBA",
         "description": "ASEACCU is a regional association of Catholic higher education institutions in Southeast and East Asia, promoting academic collaboration and spiritual growth in Catholic education.",

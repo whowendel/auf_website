@@ -3,7 +3,8 @@
 // re-seed) by resolving the original author email in the new database.
 import "dotenv/config";
 import { readFileSync } from "node:fs";
-import { PrismaClient } from "@prisma/client";
+import pkg from "@prisma/client";
+const { PrismaClient } = pkg;
 import { PrismaMariaDb } from "@prisma/adapter-mariadb";
 
 const adapter = new PrismaMariaDb(process.env.DATABASE_URL);

@@ -49,13 +49,6 @@ const RANKINGS = [
       "Acknowledged among the top universities in Asia, highlighting AUF's growing international presence, research output, and academic excellence across disciplines.",
     tag: "Top Asian University",
   },
-  {
-    org: "WURI",
-    name: "World University Rankings for Innovation",
-    description:
-      "Recognized for its innovative approaches to education and research, demonstrating AUF's commitment to producing graduates who drive positive change in industry and society.",
-    tag: "Innovation Leader",
-  },
 ] as const;
 
 export function AccreditationsSection() {
@@ -123,7 +116,7 @@ export function AccreditationsSection() {
         </div>
 
         {/* ── International Rankings ──────────────────────────────────── */}
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2 max-w-5xl mx-auto">
           {RANKINGS.map((r, i) => (
             <div
               key={r.name}
@@ -172,11 +165,6 @@ export function AccreditationsSection() {
                         className="object-contain p-1"
                         sizes="96px"
                       />
-                    </div>
-                  )}
-                  {r.name.includes("Innovation") && (
-                    <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white border border-gold/40 shadow-sm">
-                      <span className="font-display text-xs font-extrabold text-navy tracking-tighter">WURI</span>
                     </div>
                   )}
                 </div>
