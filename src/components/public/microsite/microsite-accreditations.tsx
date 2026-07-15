@@ -10,7 +10,7 @@ export function MicrositeAccreditations({ college }: { college: College }) {
   const accs = college.collegeAccreditations ?? [];
   const recs = college.recognitions ?? [];
 
-  if (accs.length === 0 && recs.length === 0) return null;
+  if (accs.length === 0 && recs.length === 0 && !college.licensurePerformance) return null;
 
   return (
     <SectionShell
@@ -128,6 +128,45 @@ export function MicrositeAccreditations({ college }: { college: College }) {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      )}
+
+      {/* Licensure Performance Records */}
+      {college.licensurePerformance && (
+        <div className="mt-16 border-t border-[var(--auf-border)] pt-12">
+          <p
+            className="mb-5 text-[10px] font-bold uppercase tracking-[0.2em]"
+            style={{ color: `${college.brandColor}80` }}
+          >
+            Licensure Performance Records
+          </p>
+          <h3 className="font-display text-2xl font-light text-[var(--auf-navy)] md:text-3xl mb-6">
+            {college.licensurePerformance.exam} Historical Performance
+          </h3>
+          <div className="overflow-x-auto rounded-2xl border bg-white" style={{ borderColor: `${college.brandColor}20` }}>
+            <table className="w-full border-collapse text-left text-sm text-[var(--auf-text)]">
+              <thead>
+                <tr className="border-b bg-neutral-50" style={{ borderColor: `${college.brandColor}15` }}>
+                  <th className="px-6 py-4 font-semibold text-[var(--auf-navy)]">Period</th>
+                  <th className="px-6 py-4 font-semibold text-[var(--auf-navy)]">First Timers</th>
+                  <th className="px-6 py-4 font-semibold text-[var(--auf-navy)]">Repeaters</th>
+                  <th className="px-6 py-4 font-semibold text-[var(--auf-navy)]">Overall Passing Rate</th>
+                  <th className="px-6 py-4 font-semibold text-[var(--auf-navy)]">National Average</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y" style={{ borderColor: `${college.brandColor}15` }}>
+                {college.licensurePerformance.records.map((rec, i) => (
+                  <tr key={i} className="hover:bg-neutral-50/50">
+                    <td className="px-6 py-4 font-semibold text-[var(--auf-navy)]">{rec.period}</td>
+                    <td className="px-6 py-4">{rec.firstTimers}</td>
+                    <td className="px-6 py-4">{rec.repeaters}</td>
+                    <td className="px-6 py-4 font-medium" style={{ color: college.brandColor }}>{rec.overall}</td>
+                    <td className="px-6 py-4 text-[var(--auf-muted)]">{rec.nationalAverage}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
           </div>
         </div>
       )}

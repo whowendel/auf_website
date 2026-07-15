@@ -92,6 +92,19 @@ export type CollegeCta = {
   secondaryHref?: string;
 };
 
+export type LicensurePerformanceRecord = {
+  period: string;
+  firstTimers: string;
+  repeaters: string;
+  overall: string;
+  nationalAverage: string;
+};
+
+export type LicensurePerformance = {
+  exam: string;
+  records: LicensurePerformanceRecord[];
+};
+
 // ─── Main College record ──────────────────────────────────────────────
 export type College = {
   id: string;
@@ -122,6 +135,7 @@ export type College = {
   recognitions?: Recognition[];
   facilities?: Facility[];
   topnotches?: Topnotcher[];
+  licensurePerformance?: LicensurePerformance;
   cta?: CollegeCta;
 };
 

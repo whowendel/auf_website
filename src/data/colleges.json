@@ -916,12 +916,12 @@
       "photoUrl": null
     },
     "contact": {
-      "email": "ccje@auf.edu.ph",
-      "phone": null,
+      "email": "ccje.support@auf.edu.ph",
+      "phone": "(045) 625-2888 LOCAL 1740",
       "address": "Social Sciences Building, AUF Campus"
     },
-    "vision": "To be a premier criminology program producing competent, ethical, and socially responsible criminal justice professionals.",
-    "mission": "To develop criminologists and justice professionals with strong moral character, professional competence, and commitment to justice and the rule of law.",
+    "vision": "The College of Criminal Justice Education envisions becoming a premier institution of criminal justice education, producing globally competent, ethically grounded, and Christ-centered professionals dedicated to public safety, justice, and community empowerment.",
+    "mission": "The College of Criminal Justice Education is committed to providing premium education in criminology and forensic sciences through advanced instruction, innovative research, progressive community partnerships, and specialized tactical training anchored on Catholic values and professional ethics.",
     "programs": [
       {
         "id": "ccje_crim",
@@ -929,7 +929,172 @@
         "name": "Bachelor of Science in Criminology",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The Bachelor of Science in Criminology degree program aims to produce graduates who can:",
+        "curriculum": [
+          "Demonstrate technical competence and foundational knowledge in criminal law, law enforcement administration, crime detection and investigation, forensic sciences, correctional administration, and criminology research;",
+          "Perform accurate criminal detection, forensic data documentation, and specialized evidence investigation workflows using modern instrumentation aligned with legal protocols;",
+          "Execute institutional or non-institutional correctional interventions and rehabilitation programs centered on human rights and ethical accountability;",
+          "Exhibit proficient communication skills, multi-professional collaboration abilities, and professional leadership in diverse public safety agencies;",
+          "Design data-driven crime prevention programs, strategic community policing strategies, and public safety risk management frameworks; and",
+          "Uphold professional code of ethics, constitutional mandates, and civic values while striving for continuous professional development and passing the Criminologist Licensure Examination."
+        ]
+      }
+    ],
+    "history": [
+      "In 1979, the College of Arts and Sciences offered the Bachelor of Science in Criminology degree as one of its academic programs. It was in 1982 when the College of Criminology was established as a separate college with Prof. Jose B. Maniwang as founding dean. Under his leadership, the College of Criminology was granted recognition on June 18, 1984 by the Department of Education, Culture and Sports pursuant to DECS Order No. 23, s. 1984.",
+      "The College started with only seventy nine (79) students in 1979 and its enrolment gradually increased in the following years. It has produced a total of eight (8) topnotchers since 1990 and has graduated more than a thousand students who are now gainfully employed as law enforcement officers, laboratory technicians, signature verifiers, security officers, criminal investigators in various private and public offices in the Philippines and abroad.",
+      "Today, AUF's BS Criminology program is the only PAASCU Level 3 Reaccredited program and the only Center of Excellence in Central Luzon. The AUF CRIM program is recognized in both regional and national levels such as Center for Human Rights Education in Region 3 and a top performing school in the February 2025 Criminologist Licensure Examination. The AUF Criminology passing rate exceeds the national average for multiple consecutive years. These awards and distinctions demonstrate the program's strong commitment to academic excellence, effective instructions, relevant and dynamic curriculum and premium laboratory equipment and facilities."
+    ],
+    "goals": [
+      "Foster deep moral values, civic consciousness, and Christian values required for ethical and transparent governance in public safety and criminal justice systems;",
+      "Equip students with advanced theoretical knowledge, critical thinking, and technical competencies necessary for modern law enforcement, scientific crime detection, and forensic analysis;",
+      "Provide comprehensive operational, hands-on, and field-based experiential training activities to build professional leadership and tactical readiness;",
+      "Instill a culture of ongoing professional growth, legal excellence, adherence to human rights standards, and collaborative scientific research; and",
+      "Mobilize progressive community development advocacies, public safety awareness, crime prevention frameworks, and civic interventions that uplift human dignity."
+    ],
+    "studentOrganizations": [
+      {
+        "id": "ccje_org_csc",
+        "name": "Criminology Student Council (CSC)",
+        "description": "The official student governing body of the college. It spearheads student representation, academic-administrative coordination, leadership assemblies, and institutional welfare projects to advance the collective goals of the student body.",
+        "type": "Academic"
+      },
+      {
+        "id": "ccje_org_crimson_shield",
+        "name": "AUF Crimson Shield Society",
+        "description": "A specialized academic-tactical student organization focused on advancing crime investigation skills, procedural law drills, specialized disaster management protocols, public security administration field studies, and civic safety advocacies.",
+        "type": "Academic"
+      },
+      {
+        "id": "ccje_org_fss",
+        "name": "Forensic Science Society (FSS)",
+        "description": "The professional student collective for criminology students specialized in forensic science workflows. It coordinates advanced workshops on latent print development, forensic chemistry, question document verifications, ballistics indexing, and simulated crime scene processing workflows.",
+        "type": "Academic"
+      }
+    ],
+    "topnotches": [
+      {
+        "id": "ccje_top_1",
+        "name": "Marcial M. Pineda",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "5th Place",
+        "year": "1993"
+      },
+      {
+        "id": "ccje_top_2",
+        "name": "Rommel P. Sunga",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "7th Place",
+        "year": "1998"
+      },
+      {
+        "id": "ccje_top_3",
+        "name": "Dennis D. Gomez",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "9th Place",
+        "year": "2004"
+      },
+      {
+        "id": "ccje_top_4",
+        "name": "Jerry M. Tolentino",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "8th Place",
+        "year": "2007"
+      },
+      {
+        "id": "ccje_top_5",
+        "name": "Marlon K. Rivera",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "4th Place",
+        "year": "2011"
+      },
+      {
+        "id": "ccje_top_6",
+        "name": "Jefferson A. Almario",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "3rd Place",
+        "year": "2015"
+      },
+      {
+        "id": "ccje_top_7",
+        "name": "John Carlo M. Valencia",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "6th Place",
+        "year": "2018"
+      },
+      {
+        "id": "ccje_top_8",
+        "name": "Alvin J. De Leon",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "10th Place",
+        "year": "2023"
+      }
+    ],
+    "licensurePerformance": {
+      "exam": "Criminologist Licensure Examination",
+      "records": [
+        {
+          "period": "December 2022",
+          "firstTimers": "100.00% (21/21)",
+          "repeaters": "0.00% (0/1)",
+          "overall": "95.45% (21/22)",
+          "nationalAverage": "33.18% (+62.27%)"
+        },
+        {
+          "period": "April 2023",
+          "firstTimers": "100.00% (5/5)",
+          "repeaters": "0.00% (0/1)",
+          "overall": "83.33% (5/6)",
+          "nationalAverage": "31.84% (+51.49%)"
+        },
+        {
+          "period": "February 2024",
+          "firstTimers": "94.12% (32/34)",
+          "repeaters": "0.00% (0/0)",
+          "overall": "94.12% (32/34)",
+          "nationalAverage": "48.27% (+45.85%)"
+        },
+        {
+          "period": "February 2025",
+          "firstTimers": "87.50% (28/32)",
+          "repeaters": "0.00% (0/0)",
+          "overall": "87.50% (28/32)",
+          "nationalAverage": "48.27% (+39.23%)"
+        }
+      ]
+    },
+    "facilities": [
+      {
+        "id": "ccje_fac_crimescene",
+        "name": "Crime Scene Room",
+        "description": "A specialized laboratory designed to simulate realistic mock crime scenes. It serves as an active learning center where students apply physical security techniques, secure areas, practice lifting and documentation of latent fingerprints, reconstruct crime trajectories, identify evidentiary tracking matrices, and practice real-world chain of custody processing protocols under rigorous forensic standards."
+      },
+      {
+        "id": "ccje_fac_chemtox",
+        "name": "Forensic Chemistry and Toxicology Room",
+        "description": "Equipped with advanced instrumentation setups for qualitative and quantitative micro-chemical testing workflows. It provides a technical testing facility for identifying chemical residues, blood splatter configurations, micro-biological compounds, narcotics classification, qualitative toxicological indexing, glass fracture behaviors, and specialized soil/powder examinations."
+      },
+      {
+        "id": "ccje_fac_qdoc",
+        "name": "Questioned Document Room",
+        "description": "Designed for structural penmanship, ink, and document analysis. This facility contains optical comparators, ultraviolet/infrared analysis lamps, and high-fidelity measurement systems to examine security paper fibers, handwriting variations, structural erasures, counterfeit currency profiles, and forgery detection matrices."
+      },
+      {
+        "id": "ccje_fac_polygraphy",
+        "name": "Polygraphy Room",
+        "description": "A soundproof interrogation and biometric recording suite. It houses professional multi-channel electronic polygraph systems to monitor cardiosphygmograph variations, pneumograph activity, and galvanic skin resistances, training students in forensic interviewing methodologies and truth-verification tracking data."
+      },
+      {
+        "id": "ccje_fac_dacty",
+        "name": "Dactyloscopy Room",
+        "description": "A fingerprint processing and archiving station. Features professional fingerprint taking kit benches, latent card indexing storage drawers, customized magnifying glasses, ridges counting tools, and electronic fingerprint scanners to master identification classification methods (Henry System) and comparison verification."
+      },
+      {
+        "id": "ccje_fac_ballistics",
+        "name": "Forensic Ballistics Room",
+        "description": "Contains technical displays of ammunition types, propellant profiles, firing pin configurations, and firearm classifications. Features a specialized bullet recovery box apparatus alongside comparison stereomicroscopes to analyze rifling marks, land and groove configurations, and bullet striation mapping data."
       }
     ]
   },
@@ -1410,8 +1575,8 @@
       "phone": null,
       "address": "Engineering Building, AUF Campus"
     },
-    "vision": "To be a premier college of engineering and architecture producing globally competitive, innovative, and ethically responsible professionals.",
-    "mission": "To provide quality engineering and architecture education that integrates technical excellence, research, and social responsibility.",
+    "vision": "The College of Engineering and Architecture envisions to produce the country's builders of environment-friendly structures and systems.",
+    "mission": "To realize its vision, the College is committed to develop responsive and responsible engineers and architects who shall become leaders and citizens of the twenty-first century.",
     "programs": [
       {
         "id": "cea_arch",
@@ -1430,36 +1595,92 @@
         "contactEmail": null
       },
       {
+        "id": "cea_cpe",
+        "slug": "computer-engineering",
+        "name": "Bachelor of Science in Computer Engineering",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null
+      },
+      {
         "id": "cea_ece",
         "slug": "electronics-engineering",
         "name": "Bachelor of Science in Electronics Engineering",
         "headName": "TBA",
         "headTitle": "Program Chair",
         "contactEmail": null
+      }
+    ],
+    "goals": [
+      "Develop competent, productive and self-reliant engineers and architects imbued with sound moral values;",
+      "Conduct and encourage relevant and innovative researches in the field of engineering, architecture and technology;",
+      "Provide extension services that will contribute to community development in terms of skills training, engineering and other technical assistance;",
+      "Promote and maintain mutually beneficial linkages and networking with professional organizations, educational institutions and the industry; and",
+      "Generate goodwill and support of the alumni and the community through active involvement in their activities."
+    ],
+    "affiliations": [
+      {
+        "id": "cea_aff_pcs",
+        "name": "Philippine Computer Society",
+        "type": "Local"
       },
       {
-        "id": "cea_ee",
-        "slug": "electrical-engineering",
-        "name": "Bachelor of Science in Electrical Engineering",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
+        "id": "cea_aff_pice",
+        "name": "Philippine Institute of Civil Engineers",
+        "type": "Local"
       },
       {
-        "id": "cea_ie",
-        "slug": "industrial-engineering",
-        "name": "Bachelor of Science in Industrial Engineering",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
+        "id": "cea_aff_iecep",
+        "name": "Institute of Electronics and Communications Engineering of the Philippines",
+        "type": "Local"
       },
       {
-        "id": "cea_me",
-        "slug": "mechanical-engineering",
-        "name": "Bachelor of Science in Mechanical Engineering",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
+        "id": "cea_aff_aceep",
+        "name": "Association of Civil Engineering Educators of the Philippines",
+        "type": "Local"
+      },
+      {
+        "id": "cea_aff_dost",
+        "name": "Department of Science and Technology",
+        "type": "Local"
+      },
+      {
+        "id": "cea_aff_pate",
+        "name": "Philippine Association of Technology Educators",
+        "type": "Local"
+      },
+      {
+        "id": "cea_aff_nrcp",
+        "name": "National Research Council of The Philippines",
+        "type": "Local"
+      },
+      {
+        "id": "cea_aff_patleepam",
+        "name": "Philippine Association of Tertiary Level Educational Institutions in Environmental Protection and Management",
+        "type": "Local"
+      },
+      {
+        "id": "cea_aff_pcierd",
+        "name": "Philippine Council for Industry and Energy Research and Development",
+        "type": "Local"
+      },
+      {
+        "id": "cea_aff_griffith",
+        "name": "Griffith University – Australia",
+        "type": "International",
+        "description": "Academic Partner"
+      },
+      {
+        "id": "cea_aff_ait",
+        "name": "Asian Institute of Technology- Thailand",
+        "type": "International",
+        "description": "Academic Partner"
+      },
+      {
+        "id": "cea_aff_psu",
+        "name": "Prince of Songkhla University – Thailand",
+        "type": "International",
+        "description": "Academic Partner"
       }
     ]
   },
@@ -1487,56 +1708,176 @@
       "phone": null,
       "address": "Education Building, AUF Campus"
     },
-    "vision": "To be a center of excellence in teacher education producing globally competent and Christ-centered educators.",
-    "mission": "To develop highly qualified, reflective, and ethical educators who are committed to continuous professional growth and service to the community.",
+    "vision": "The College of Education envisions to be the center for excellence in instruction, research, community service and other scholarly activities in teacher education, whose sphere of intellectual influence extends to both public and private schools.",
+    "mission": "To realize its vision, the College is committed to develop Christian educators who are dedicated to help the youth to emerge as the nation’s partners of development and the protectors of human life and the environment.",
     "programs": [
       {
         "id": "ced_beed",
         "slug": "elementary-education",
-        "name": "Bachelor of Elementary Education",
+        "name": "Bachelor of Elementary Education (BEEd)",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The Bachelor of Elementary Education (BEEd) degree program aims to:",
+        "curriculum": [
+          "Prepare the prospective teachers to handle any grade in the elementary level with confidence, expertise, competence and dedication;",
+          "Enable the prospective teachers to direct and facilitate effectively the learning of pre-elementary and elementary pupils;",
+          "Assist the prospective teachers to acquire the necessary skills in guiding the character formation of pupils by serving as role models;",
+          "Promote students' interest in research and further studies as part of capability building in the teaching profession; and",
+          "Help the students become advocates of Christian principles, virtues, and values at all times, in campus and out campus."
+        ],
+        "specializations": [
+          {
+            "name": "General Education"
+          },
+          {
+            "name": "Special Education"
+          },
+          {
+            "name": "Pre-School Education"
+          }
+        ]
       },
       {
-        "id": "ced_bsed_eng",
-        "slug": "secondary-education-english",
-        "name": "Bachelor of Secondary Education major in English",
+        "id": "ced_bsed",
+        "slug": "secondary-education",
+        "name": "Bachelor of Secondary Education (BSEd)",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The Bachelor of Secondary Education (BSE) degree program aims to:",
+        "curriculum": [
+          "Develop high school teachers who can teach in one of the different learning areas in high school such as, but not limited to Biological Sciences, English, Filipino, Mathematics, P.E.H.M among others;",
+          "Enable the prospective teachers to direct and facilitate effectively the learning of high school students;",
+          "Assist the prospective teachers in acquiring the necessary skills in guiding the character formation of students;",
+          "Promote students' interest in research and further studies as part of capability building in the teaching profession; and",
+          "Help the students become advocates of Christian principles, virtues, and values at all times, in campus and out campus."
+        ],
+        "specializations": [
+          {
+            "name": "Biological Science"
+          },
+          {
+            "name": "Chinese Language Teaching"
+          },
+          {
+            "name": "English"
+          },
+          {
+            "name": "Filipino"
+          },
+          {
+            "name": "General Science"
+          },
+          {
+            "name": "Mathematics"
+          },
+          {
+            "name": "Social Studies"
+          },
+          {
+            "name": "Values Education"
+          }
+        ]
+      }
+    ],
+    "history": [
+      "The College of Education (CED) was established in 1962 as part of the College of Arts and Sciences (CAS) and was mainly tasked to handle undergraduate programs. In 1980, it was tasked by DECS to supervise private schools which were implementing the New Elementary Schools Curriculum (NESC) in Central Luzon. Two years later in 1983, it emerged as a separate unit and was selected by the Department of Education, Culture and Sports as a pilot college in Region III.",
+      "The College started offering Bachelor of Elementary Education (BEEd) in 1986 and Bachelor of Secondary Education (BSEd) in 1989. Specializations under the BEEd program include General Education, Preschool Education, and Special Education. The BSEd program offers eight areas of specialization namely, English, Filipino, Biological Sciences, General Science, Mathematics, Social Studies, Values Education, and MAPEH. In 2011, Chinese Language Teaching (CLT) was offered as a BSEd double-major program in partnership with the Confucius Institute and the Fujian Normal University, People’s Republic of China.",
+      "Today, the College is a Center of Excellence in Teacher Education, PAASCU Level IV Accredited and ISO 9001:2008 certified by TUV-SUD.",
+      "From a small unit in 1962 that gradually emerged as a formidable college, CED has produced topnotchers, passers in the Licensure Examination for Teachers (LET) and hundreds of graduates who are now gainfully employed as educators and education managers."
+    ],
+    "goals": [
+      "Develop a deep love of country and an abiding faith in God and man;",
+      "Stimulate students' leadership potentials and assist them become effective change agents through specialized development programs;",
+      "Provide an academic environment which will open avenues to update students on local, national and global issues and concerns vis-à-vis the developments in science and technology and other matters in education; and",
+      "Equip students with sound pedagogical theories and strategies together with the corresponding skills to enable them to teach in the elementary and secondary levels of education."
+    ],
+    "studentOrganizations": [
+      {
+        "id": "ced_org_teacherspen",
+        "name": "Teacher’s Pen",
+        "description": "This is the official publication of the College considered as the hub of writers, photojournalists, and cartoonists who keep the community updated, persuaded, and entertained.",
+        "type": "Academic"
       },
       {
-        "id": "ced_bsed_math",
-        "slug": "secondary-education-math",
-        "name": "Bachelor of Secondary Education major in Mathematics",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
+        "id": "ced_org_elnb",
+        "name": "ELNB Educational Leaders for Nation Building",
+        "description": "ELNB is the community extension organization of the College.",
+        "type": "Academic"
       },
       {
-        "id": "ced_bsed_sci",
-        "slug": "secondary-education-science",
-        "name": "Bachelor of Secondary Education major in Science",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
+        "id": "ced_org_clts",
+        "name": "Chinese Language Teaching (CLT) Society",
+        "description": "The CLT Society promotes the appreciation and propagation of Chinese language, art, culture and history through education.",
+        "type": "Academic"
       },
       {
-        "id": "ced_bsed_soc",
-        "slug": "secondary-education-social-studies",
-        "name": "Bachelor of Secondary Education major in Social Studies",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
+        "id": "ced_org_metaart",
+        "name": "Meta Art",
+        "description": "Artists from CED come home to MetArt where their skills and styles are developed and shared.",
+        "type": "Academic"
       },
       {
-        "id": "ced_bsned",
-        "slug": "special-needs-education",
-        "name": "Bachelor of Special Needs Education",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
+        "id": "ced_org_metanoia",
+        "name": "Metanoia Dance Troupe",
+        "description": "This performing group brings out the creativity in the members. Students move the groove with workshops and projects in traditional and modern dance.",
+        "type": "Academic"
+      },
+      {
+        "id": "ced_org_metaeuphony",
+        "name": "Metaeuphony Glee",
+        "description": "This singing group unites music lovers with songs across all genres.",
+        "type": "Academic"
+      },
+      {
+        "id": "ced_org_kisaf",
+        "name": "Kapisanang Itinatag sa Asignaturang Filipino (KISAF)",
+        "description": "Ang KISAF ay organisasyong itinatag ng mga mag-aaral ng AUF na kumukuha ng asignaturang Filipino. Layunin nitong masanay ang mga mag-aaral sa kanilang kakayahang pagkamalikhain sa pamamagitan ng paggawa at pakikiisa sa mga proyekto o gawaing pampaaralan na may kinalaman sa pagpapalawak ng Wikang Filipino.",
+        "type": "Academic"
+      },
+      {
+        "id": "ced_org_englishclub",
+        "name": "AUF English Club",
+        "description": "The AUF English Club is open to all students taking up English courses. It spearheads academic contests and seminars to sharpen and develop the English language skills of members.",
+        "type": "Academic"
+      },
+      {
+        "id": "ced_org_peclub",
+        "name": "AUF PE Club",
+        "description": "All PE students are welcome to this organization that provides opportunities for students to explore and enhance their physical prowess through dance, sports and recreational activities while developing positive social values with and for others.",
+        "type": "Academic"
+      },
+      {
+        "id": "ced_org_guardianangel",
+        "name": "Guardian Angel Society",
+        "description": "This organization provides mentoring activities to Education students and spearheads seminars, exhibits and other meaningful projects.",
+        "type": "Academic"
+      }
+    ],
+    "topnotches": [
+      {
+        "id": "ced_top_1",
+        "name": "Ms. Pauline Joviene D. Quiazon",
+        "exam": "Licensure Examination for Teachers (LET) - BEEd Special Education",
+        "rank": "1st Place",
+        "year": "2015"
+      },
+      {
+        "id": "ced_top_2",
+        "name": "Mr. Raymond B. Canlapan",
+        "exam": "Licensure Examination for Teachers (LET) - BSEd Math",
+        "rank": "10th Place",
+        "year": "2010"
+      },
+      {
+        "id": "ced_top_3",
+        "name": "Ms. Lourdes Gonzales",
+        "exam": "Licensure Examination for Teachers (LET) - BSE Math",
+        "rank": "5th Place",
+        "year": "1995"
       }
     ]
   },
