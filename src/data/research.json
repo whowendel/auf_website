@@ -16,8 +16,8 @@
     ],
     "highlights": [
       { "label": "Research Centers", "value": "3+" },
-      { "label": "Active Grants", "value": "TBA" },
-      { "label": "Publications", "value": "TBA" },
+      { "label": "Active Grants", "value": "2" },
+      { "label": "Faculty w/ Scopus/WoS Pubs", "value": "29" },
       { "label": "Partner Agencies", "value": "TBA" }
     ]
   },
@@ -322,39 +322,78 @@
     "featuredPublications": [
       {
         "id": "pub-1",
-        "title": "Machine Learning Approaches to Early Detection of Dengue Fever in Central Luzon",
-        "authors": "Santos, M.C., Reyes, J.A., and Cruz, A.L.",
-        "year": "2024",
-        "venue": "Journal of Health Informatics in Developing Countries",
+        "title": "Diagnostic efficiency of fecal lactoferrin in detecting bacterial gastroenteritis: a systematic review and meta-analysis",
+        "authors": [
+          { "name": "Tiongco, Raphael Enrique", "role": "Main Author", "college": "College of Allied Medical Professions" },
+          { "name": "Flores, John Ashley", "role": "Co-author", "college": "College of Allied Medical Professions" },
+          { "name": "Lacson, Mona Lisa", "role": "Co-author", "college": "Center for Advanced Research & Innovation" }
+        ],
+        "year": "2025",
+        "venue": "The Egyptian Journal of Internal Medicine",
         "type": "Journal Article",
+        "sdgs": [3],
         "url": null
       },
       {
         "id": "pub-2",
-        "title": "Flipped Classroom Pedagogy and its Effects on Academic Performance in Philippine Higher Education",
-        "authors": "Dela Pena, R.S., and Manaloto, G.T.",
+        "title": "Research on construction schedule optimization model based on particle swarm optimization algorithm",
+        "authors": [
+          { "name": "Dr. Joey Aviles", "role": "Co-author", "college": "College of Computer Studies, Graduate School" }
+        ],
         "year": "2024",
-        "venue": "Asia-Pacific Journal of Education",
-        "type": "Journal Article",
+        "venue": "2024 8th International Conference on Electrical, Mechanical and Computer Engineering (ICEMCE 2024)",
+        "type": "Conference Paper",
+        "sdgs": [9, 11],
         "url": null
       },
       {
         "id": "pub-3",
-        "title": "Community-Based Disaster Risk Reduction in Pampanga: A Participatory Action Research Approach",
-        "authors": "Torres, L.M., Bautista, E.F., and Villanueva, C.J.",
-        "year": "2023",
-        "venue": "Philippine Journal of Social Development",
+        "title": "Construction Scheduling Optimization of Prefabricated Buildings Under Resource Constraints Based on an Improved Whale Optimization Algorithm",
+        "authors": [
+          { "name": "Dr. Joey Aviles", "role": "Co-author", "college": "College of Computer Studies, Graduate School" }
+        ],
+        "year": "2024",
+        "venue": "International Journal of Computational Intelligence Systems",
         "type": "Journal Article",
+        "sdgs": [9, 11],
+        "url": null
+      },
+      {
+        "id": "pub-4",
+        "title": "Trust-Aware Hybrid Collaborative Recommendation with Locality-Sensitive Hashing",
+        "authors": [
+          { "name": "Dr. James Esquivel", "role": "Co-author", "college": "College of Computer Studies, Graduate School" }
+        ],
+        "year": "2025",
+        "venue": "Tsinghua Science and Technology",
+        "type": "Journal Article",
+        "sdgs": [9],
+        "url": null
+      },
+      {
+        "id": "pub-5",
+        "title": "When Health Behavior Meets Technology: Artificial Neural Network–Based Prediction of Breast Self-Examination Intentions Among Filipino Female College Students",
+        "authors": [
+          { "name": "Tiongco, Raphael Enrique", "role": "Main Author", "college": "College of Allied Medical Professions" },
+          { "name": "Navarro, Annalyn T.", "role": "Co-author", "college": "Office of the VP for R & I, College of Allied Medical Professions" },
+          { "name": "Santillan, Jennifer P.", "role": "Co-author", "college": "College of Education" },
+          { "name": "Dayrit, Sofia Alexis", "role": "Co-author", "college": "College of Allied Medical Profession" },
+          { "name": "Mañalac, Arch Raphael", "role": "Co-author", "college": "College of Allied Medical Profession" }
+        ],
+        "year": "2025",
+        "venue": "Journal of Cancer Education",
+        "type": "Journal Article",
+        "sdgs": [3],
         "url": null
       }
     ],
     "facultyResearch": {
-      "description": "AUF faculty actively engage in funded and unfunded research across all disciplines. Browse the faculty research repository for working papers, completed studies, and ongoing projects.",
+      "description": "Discover ongoing and completed research projects led by AUF faculty and graduate students. Each entry includes:",
       "highlights": [
-        "Browse by department, research thrust, or year",
-        "Access pre-publication manuscripts and working papers",
-        "Download theses and dissertations from the AUF Graduate School",
-        "Track citations and research impact metrics"
+        "Title and abstract",
+        "Author(s) and affiliation",
+        "Publication venue or status",
+        "Downloadable links (if available)"
       ],
       "repositoryUrl": null,
       "thesisUrl": null
@@ -379,6 +418,77 @@
         "status": "Active"
       }
     ]
+  },
+
+  "researchMetrics": {
+    "navLabel": "Metrics & Impact",
+    "eyebrow": "Tracking our progress",
+    "title": "Research Metrics and Impact",
+    "description": "AUF's research output and funding performance, tracked against national and international benchmarks.",
+    "rankings": {
+      "theQs": "The university has also achieved sustained visibility in international rankings, consistently appearing in multiple Times Higher Education (THE) Impact Rankings categories such as SDG 3, SDG 4, SDG 5, and SDG 11 between 2023 and 2025, as well as maintaining a QS World University Ranking position in 2025. Compared to regional peers, AUF's publication volume remains competitive and has shown steady year-on-year growth, enabling it to sustain its presence in global ranking tables. To maintain and improve its international standing, AUF must continue increasing high-quality indexed publications, expand participation across colleges, and strengthen research visibility initiatives to ensure higher impact and recognition in future THE and QS rankings.",
+      "wuri": "In the 2025 WURI Rankings, AUF earned two significant recognitions that underscore its commitment to innovation and transformative education. AUF placed 52nd in the Infrastructure/Technology (B6) category for its AUFlex Academy, a flagship faculty development program offering flexible, technology-driven micro-courses through the MyCLASS platform. Designed to enhance teaching effectiveness and promote student-centered learning, the AUFlex Academy engaged 616 faculty members across all colleges, achieving a 73% average completion rate. The initiative incorporated Project Zero Thinking Routines and received highly favorable feedback for its practical design and impact on classroom practices. Its success was made possible through the collaborative efforts of CARE, OVPAA, HRDC, CQICs, and AB Communication students."
+    },
+    "facultyPublications": {
+      "title": "Full-time Faculty with Publications in Scopus, Web of Science, or ASEAN Citation-Indexed Journals",
+      "columns": ["College", "Total FT Faculty (2nd Sem 24-25)", "Scopus", "WoS", "Scopus or WoS", "Proportion"],
+      "rows": [
+        { "college": "CAMP", "totalFaculty": 60, "scopus": 7, "wos": 7, "scopusOrWos": 8, "proportion": "13.33%" },
+        { "college": "CBA", "totalFaculty": 18, "scopus": 1, "wos": 0, "scopusOrWos": 1, "proportion": "5.56%" },
+        { "college": "CCS", "totalFaculty": 12, "scopus": 4, "wos": 2, "scopusOrWos": 4, "proportion": "33.33%" },
+        { "college": "CCFP", "totalFaculty": 19, "scopus": 1, "wos": 1, "scopusOrWos": 1, "proportion": "5.26%" },
+        { "college": "CON", "totalFaculty": 58, "scopus": 9, "wos": 2, "scopusOrWos": 9, "proportion": "15.52%" },
+        { "college": "GS", "totalFaculty": 2, "scopus": 1, "wos": 0, "scopusOrWos": 1, "proportion": "50.00%" },
+        { "college": "Concurrent FT", "totalFaculty": 13, "scopus": 4, "wos": 4, "scopusOrWos": 5, "proportion": "41.67%" }
+      ],
+      "totalLabel": "Total FT faculty with publication in Scopus or WoS, 2nd Sem 24-25 (out of 386 total FT faculty)",
+      "totalCount": 29,
+      "totalProportion": "7.51%"
+    },
+    "funding": {
+      "internal": {
+        "title": "Internally Funded Research Projects",
+        "rows": [
+          {
+            "title": "No true or false, real or distorted: Familiarity, knowledge, and constructs of teachers and students on gender identity and sexual orientation in a private university",
+            "leader": "Dame B. Avelino",
+            "unit": "Department of Mass Communication, College of Arts and Sciences"
+          },
+          {
+            "title": "Quality of Work Life (QWL) among Senior High School Teachers",
+            "leader": "Dr. Bernadette M. Dalusung",
+            "unit": "Department of Social Sciences, College of Arts and Sciences"
+          }
+        ]
+      },
+      "external": {
+        "title": "Externally Funded Research Projects",
+        "rows": [
+          {
+            "id": "ext-nicer",
+            "title": "Accelerated R&D Program for Capacity Building of Research and Development Institutions and Industrial Competitiveness: Niche Centers in the Regions for R&D (NICER) Program — Biomaterials for Diagnostics and Therapeutics Research and Development Center",
+            "approvalDate": "February 1, 2022",
+            "duration": "36 months (completed January 31, 2025)",
+            "leader": "Program Leader: Dr. Reynaldo DL. Bundalian Jr. Project leaders: Dr. Reynaldo DL. Bundalian Jr., Mr. Raphael Enrique G. Tiongco, Engr. Carolyn A. Arbotante",
+            "amount": "Php 24,328,690.03",
+            "source": "DOST-GIA",
+            "status": "ON-GOING",
+            "remark": "Preparation of the terminal report for three projects under the program is underway."
+          },
+          {
+            "id": "ext-magnus",
+            "title": "AUF-MAGNUS H-Hub (Mobilizing & Accelerating Growth of Nascent, Useful, and Sustainable Health Technologies)",
+            "approvalDate": "June 2025",
+            "duration": "12 months (target completion May 2026)",
+            "leader": "Project leader: Mona Lisa B. Lacson",
+            "amount": "Php 4,556,044.00",
+            "source": "PCHRD",
+            "status": "ON-GOING",
+            "remark": "Field-level data collection activities, including courtesy visits, key informant interviews, and focused group discussions with institutional research leaders and stakeholders, are currently in progress."
+          }
+        ]
+      }
+    }
   },
 
   "news": {

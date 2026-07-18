@@ -1,4 +1,5 @@
 import type { ResearchArchive } from "@/data/research";
+import { SDG_LIST } from "@/data/sdgs";
 
 const TYPE_COLORS: Record<string, string> = {
   "Journal Article": "bg-navy/8 text-navy",
@@ -35,11 +36,30 @@ export function ResearchArchive({ archive }: { archive: ResearchArchive }) {
                   {pub.type}
                 </span>
                 <span className="text-[10px] font-semibold text-auf-muted">{pub.year}</span>
+                {pub.sdgs?.map((num) => {
+                  const sdg = SDG_LIST.find((s) => s.number === num);
+                  if (!sdg) return null;
+                  return (
+                    <span
+                      key={num}
+                      title={`SDG ${num}: ${sdg.title}`}
+                      className="inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[9px] font-bold text-white"
+                      style={{ backgroundColor: sdg.color }}
+                    >
+                      SDG {num}
+                    </span>
+                  );
+                })}
               </div>
               <p className="font-display text-sm font-semibold leading-snug text-navy md:text-base">
                 {pub.title}
               </p>
-              <p className="mt-1 text-xs text-auf-muted">{pub.authors}</p>
+              <p className="mt-1 text-xs text-auf-muted">
+                {pub.authors.map((a) => a.name).join(", ")}
+              </p>
+              <p className="mt-0.5 text-[11px] text-auf-muted/70">
+                {pub.authors[0]?.role}, {pub.authors[0]?.college}
+              </p>
               {pub.venue && (
                 <p className="mt-1 text-xs italic text-auf-muted/70">{pub.venue}</p>
               )}

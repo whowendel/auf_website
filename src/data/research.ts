@@ -27,6 +27,11 @@ export type FeaturedPublication = typeof rawData.archive.featuredPublications[nu
 export type ResearchJournal = typeof rawData.archive.journals[number];
 export type ResearchArchive = typeof rawData.archive;
 
+export type FacultyPublicationRow = typeof rawData.researchMetrics.facultyPublications.rows[number];
+export type InternalFundingRow = typeof rawData.researchMetrics.funding.internal.rows[number];
+export type ExternalFundingRow = typeof rawData.researchMetrics.funding.external.rows[number];
+export type ResearchMetrics = typeof rawData.researchMetrics;
+
 export type UpcomingEvent = typeof rawData.news.upcomingEvents[number];
 export type Announcement = typeof rawData.news.announcements[number];
 export type ResearchNews = typeof rawData.news;
@@ -45,5 +50,6 @@ export const researchThrusts: ResearchThrusts = rawData.thrusts;
 export const researchServices: ResearchServices = rawData.services;
 export const researchGrants: ResearchGrants = rawData.grants;
 export const researchArchive: ResearchArchive = rawData.archive;
+export const researchMetrics: ResearchMetrics = rawData.researchMetrics;
 export const researchNews: ResearchNews = rawData.news;
 export const researchDirectory: ResearchDirectory = rawData.directory;

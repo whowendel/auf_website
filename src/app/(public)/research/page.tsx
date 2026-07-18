@@ -11,6 +11,7 @@ import { ResearchThrusts } from "@/components/public/research/research-thrusts";
 import { ResearchServices } from "@/components/public/research/research-services";
 import { ResearchGrants } from "@/components/public/research/research-grants";
 import { ResearchArchive } from "@/components/public/research/research-archive";
+import { ResearchMetrics } from "@/components/public/research/research-metrics";
 import { ResearchNews } from "@/components/public/research/research-news";
 import { ResearchDirectory } from "@/components/public/research/research-directory";
 import {
@@ -23,6 +24,7 @@ import {
   researchServices,
   researchGrants,
   researchArchive,
+  researchMetrics,
   researchNews,
   researchDirectory,
 } from "@/data/research";
@@ -43,6 +45,7 @@ const NAV_ITEMS: SidebarItem[] = [
   { id: "services-support",    label: researchServices.navLabel },
   { id: "grants-opportunities", label: researchGrants.navLabel },
   { id: "archive",             label: researchArchive.navLabel },
+  { id: "metrics-impact",      label: researchMetrics.navLabel },
   { id: "news-events",         label: researchNews.navLabel },
   { id: "faculty-directory",   label: researchDirectory.navLabel },
 ];
@@ -83,6 +86,7 @@ export default function ResearchPage() {
             <ResearchServices services={researchServices} />
             <ResearchGrants grants={researchGrants} />
             <ResearchArchive archive={researchArchive} />
+            <ResearchMetrics metrics={researchMetrics} />
             {/* ResearchNews is async — fetches recent posts from DB */}
             <ResearchNews news={researchNews} />
             <ResearchDirectory directory={researchDirectory} />
