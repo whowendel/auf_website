@@ -3694,8 +3694,98 @@
       "phone": null,
       "address": "Law Building, AUF Campus"
     },
-    "vision": "To be a premier law school producing competent, ethical, and socially responsible legal professionals.",
-    "mission": "To develop lawyers and legal professionals with a deep commitment to justice, human dignity, and the common good through rigorous legal education.",
+    "vision": "The AUF School of Law envisions to emerge as the center of excellence in legal education north of Metro Manila.",
+    "mission": "In keeping with Christian values and virtues, the AUF School of Law is committed to providing quality legal education that is accessible to students in the Central Luzon area, committed to the observance of the highest standard of professional conduct and competencies, and responsive to technological advances, globalization, and socio-economic conditions.",
+    "history": [
+      "The AUF School of Law was established in response to the clamor for quality legal education in Central Luzon. The establishment of the School earned approval from the AUF Board of Trustees on August 19, 2003 during its 56th Regular Meeting presided over by Pampanga Archbishop Paciano B. Aniceto, D.D., in his capacity as Chairman of the Board. The approval was followed by immense planning and preparation that spanned three years, which included the construction of the AUF Professional Schools Building, now home to the School.",
+      "The Commission on Higher Education, upon the recommendation of the Technical Panel for Legal Education, resolved to grant AUF the permit to operate the School of Law on March 13, 2006. Under the leadership of Retired Supreme Court Justice Jose C. Vitug as Founding Dean and Atty. Domingo M. Navarro as Vice Dean, the School boasts a roster of faculty members composed of jurists and distinguished law professors. The School is equipped with a modern law library, a moot court, and state-of-the-art facilities that provide a conducive teaching and learning environment.",
+      "The School of Law received a Certificate of Recognition from the Legal Education Board for its notable performance in the 2012, 2013, and 2014 Bar Examinations, as certified by the Office of the Bar Confidant. It was listed as the top performing law school among those with 19 or fewer examinees. Today, the School of Law is consistently among the Top 10 law schools nationwide and the No. 1 in Northern and Central Luzon."
+    ],
+    "goals": [
+      "Prepare students for the practice of law.",
+      "Produce competent and committed members of the legal profession imbued with sound social conscience.",
+      "Train students for national leadership.",
+      "Contribute to the advancement of the country’s legal and judicial systems in the light of current national and international developments."
+    ],
+    "admissions": {
+      "intro": "Applicants for the Juris Doctor (JD) degree must satisfy the following requirements:",
+      "groups": [
+        {
+          "id": "sol_adm_jd",
+          "title": "Juris Doctor Admission Requirements",
+          "items": [
+            "A holder of a four-year bachelor’s degree from a duly recognized institution, having earned at least 18 units in English, 6 units in Mathematics, and 18 units in Social Science (History, Political Science, Economics, Philosophy, Psychology, etc.); a holder of a Bachelor of Science or Arts degree with deficiencies of not more than 9 units in these subjects may still be admitted if the units of deficiency are taken during the first curriculum year.",
+            "Applicant must have obtained a general weighted average of at least 85%, subject to the provisions below.",
+            "Applicant must successfully pass the AUF Law Admissions Test, which includes two essays on topics determined by the School.",
+            "Applicant must hurdle an evaluation interview before the Admissions Committee.",
+            "An applicant who does not meet the required minimum general weighted average of 85% but produces satisfactory essays and possesses a satisfactory character reference may be admitted “on probation” if he or she passes the AUF Law Admissions Test and the evaluation interview; a probationary student may apply for a change of status to regular after completing the first semester with an average of at least 78% and no failing or incomplete grades, subject to evaluation by the School Dean on recommendation of the Admissions Committee.",
+            "Transfer credits may be allowed on a case-to-case basis at the discretion of the Dean, in consultation with the School of Law Admissions Committee."
+          ]
+        }
+      ],
+      "note": "Applicants are given a test schedule upon compliance with all documentary requirements."
+    },
+    "faculty": {
+      "leads": [
+        { "id": "sol_lead_dean", "name": "Justice Jose C. Vitug", "title": "Founding Dean" },
+        { "id": "sol_lead_vicedean", "name": "Atty. Marianne Elizabeth B. Angeles", "title": "Vice Dean" }
+      ],
+      "rosterLabel": "Founding Faculty",
+      "roster": [
+        "Justice Ernesto D. Acosta",
+        "Presiding Judge Ed Vincent S. Albano",
+        "Prof. Joseph Emmanuel L. Angeles",
+        "Prof. Marianne Elizabeth B. Angeles",
+        "Justice Hilarion L. Aquino",
+        "Fr. Ranhilio C. Aquino",
+        "Prof. Timoteo B. Aquino",
+        "Justice Alfredo L. Benipayo",
+        "Judge Irin Zenaida S. Buan",
+        "Dean Sedfrey M. Candelaria",
+        "Prof. Noel T. Canlas",
+        "Prof. Tristan A. Catindig",
+        "Prof. Arnold F. De Vera",
+        "Prof. Gwen Grecia De Vera",
+        "Justice Japar B. Dimaampao",
+        "Prof. Monalisa C. Dimalanta",
+        "Prof. Domingo P. Disini, Jr.",
+        "Justice Alicia Simpio-Diy",
+        "Prof. Charles Escolin",
+        "Prof. Ramon S. Esguerra",
+        "Judge Katrina Nora B. Factora",
+        "Justice Hugo E. Gutierrez, Jr.",
+        "Justice Oscar M. Hererra",
+        "Judge Ramon Paul L. Hernando",
+        "Justice Hector L. Hofileña",
+        "Prof. Teodoro Jumamil",
+        "Prof. Ma. Tanya Karina A. Lat",
+        "Prof. Francis Ed Lim",
+        "Justice Regalado E. Maambong",
+        "Dean Merlin M. Magallona",
+        "Prof. Vicente C. Mamalateo",
+        "Judge Sixto C. Marella, Jr.",
+        "Justice Vicente V. Mendoza",
+        "Prof. Alberto T. Muyot",
+        "Hon. Antonio Eduardo B. Nachura",
+        "Dean Domingo M. Navarro",
+        "Justice Rodolfo G. Palattao",
+        "Prof. Elizabeth A. Pangalangan",
+        "Dean Raul C. Pangalangan",
+        "Justice Diosdado M. Peralta",
+        "Judge Eduardo B. Peralta",
+        "Usec. Ernesto Pineda",
+        "Presiding Justice Ruben T. Reyes",
+        "Justice Jose L. Sabio, Jr.",
+        "Sen. Renato Saguisag",
+        "Justice Edilberto G. Sandoval",
+        "Dean Jose R. Sundiang",
+        "Prof. Alfredo F. Tadiar",
+        "Justice Noel G. Tijan",
+        "Prof. Mario E. Valderrama",
+        "Dean Cesar Villanueva",
+        "Prof. Edgardo Carlo L. Vistan II"
+      ]
+    },
     "programs": [
       {
         "id": "sol_jd",
@@ -3731,8 +3821,67 @@
       "phone": null,
       "address": "Medical Building, AUF Campus"
     },
-    "vision": "To be a leading medical school producing competent, compassionate, and socially responsible physicians committed to excellence in patient care.",
-    "mission": "To produce physicians equipped with the knowledge, skills, and values necessary to address the healthcare needs of the nation and the world.",
+    "vision": "The School of Medicine envisions itself as a center for quality and relevant medical education as evidenced by its programs and services recognized locally and internationally, resulting in the total satisfaction of its customers and other stakeholders around the world.",
+    "mission": "To realize its vision, the School of Medicine is committed to produce quality and compassionate medical practitioners imbued with a social conscience and dedication to the service of God and humanity.",
+    "history": [
+      "The Angeles University Foundation School of Medicine (AUF-SOM) was established in June 1983 by the authority of the Board of Medical Education and the Department of Education, Culture, and Sports with Dr. Rodolfo C. Dimayuga as founding dean, Dr. Presentacion C. Peralta as assistant dean and concurrently school secretary, and a faculty of 18, eight of whom boast of 20 years teaching experience. The AUF-SOM was initially housed in the AUF San Lorenzo Ruiz Building until it was gutted down by fire in 1993. This tragedy gave way to the construction of a new health sciences building which now houses the AUF-SOM office, lecture rooms and laboratories.",
+      "The AUF-SOM was solely affiliated with Jose B. Lingad Memorial Regional Hospital for the clinical training of students until the establishment of the AUF Medical Center on February 23, 1990. The 125-bed AUFMC is the only private tertiary teaching, training and research hospital in Central Luzon which serves as the base hospital of AUF medical and allied medical students. Acknowledged for their expertise and integrity, the AUF-SOM faculty play an active role in elevating the standards of Philippine medical education through their involvement as accreditors, technical panelists and board specialty examiners.",
+      "The AUF Doctor of Medicine program is the only PAASCU accredited program in Central Luzon. It was the first in the region given ISO 9001-2000 certification by TUV-SUD in 2008 and the only one north of Manila that is ISO 9001-2008 certified by TUV-SUD.",
+      "The AUF Doctor of Medicine program has produced outstanding board performance in the Philippine medical board exam, stellar performance at the Indian Medical Council Screening Test, and a 100% pass rate in the 2014 Nepal Medical Council Screening Test. As a result, an increased number of Indian students are now enrolled in the AUF BS Psychology program leading to the degree Doctor of Medicine."
+    ],
+    "goals": [
+      "Prepare students to practise medicine in the service of God and humanity.",
+      "Instill in students the human qualities of dedication to duty, kindness, patience and compassion.",
+      "Encourage and maintain awareness on social and economic conditions of the country and of the world at large.",
+      "Equip students with adequate knowledge and skills in basic medical sciences, the clinical disciplines, and preventive medicine.",
+      "Inspire students to keep abreast with developments, innovations and researches in the field of medicine.",
+      "Motivate students to pursue lifelong learning in their field of specialization."
+    ],
+    "admissions": {
+      "groups": [
+        {
+          "id": "som_adm_min",
+          "title": "Minimum Requirements",
+          "items": [
+            "Applicant must be a holder of any baccalaureate degree.",
+            "Applicant must have taken the National Medical Admission Test (NMAT) and obtained a score of 40% or higher."
+          ]
+        },
+        {
+          "id": "som_adm_app",
+          "title": "Application Requirements (scanned image files, for initial evaluation)",
+          "items": [
+            "Application for Admission (AUF Form SOM-01)",
+            "Official Bachelor’s Degree Transcript of Records",
+            "Diploma or Certificate of Graduation",
+            "NMAT Result"
+          ]
+        },
+        {
+          "id": "som_adm_foreign",
+          "title": "Foreign Students — Additional Documents",
+          "items": [
+            "Passport",
+            "Birth certificate",
+            "Medical fitness certificate",
+            "Police clearance"
+          ]
+        }
+      ],
+      "note": "The following must be prepared (not emailed) and submitted, together with the originals of all previously emailed documents, on the date of psychometric testing: a Certification of General Weighted Average, and two Good Moral Character certifications — one from the Dean of the undergraduate course and one from either the Guidance Counselor or the Office of Student Affairs — each submitted in a sealed envelope."
+    },
+    "studentOrganizations": [
+      {
+        "id": "som_org_msc",
+        "name": "Medical Student Council",
+        "description": "The AUF SOM Medical Student Council serves as the collective voice of the student body, inspiring innovation, fostering cooperation, providing a forum for ideas, and promoting action to empower students to become the best physicians of the future."
+      },
+      {
+        "id": "som_org_amsms",
+        "name": "Angeles Medical Surgical Mission Society (AMSMS)",
+        "description": "The community service organization of medical students aimed at providing free health care to poor patients."
+      }
+    ],
     "programs": [
       {
         "id": "som_md",
@@ -3753,63 +3902,280 @@
     "mascotLogoUrl": "/assets/colleges/GSOwls.png",
     "mascotLogoWithTextUrl": "/assets/colleges/GSOwls.png",
     "description": "The Graduate School offers advanced degree programs fostering research, leadership, and professional mastery for working professionals and aspiring academics.",
-    "brandColor": "#0E2247",
-    "cardColor": "#1e3a6e",
+    "brandColor": "#6B4423",
+    "cardColor": "#2E1B0E",
     "accentColor": "#F2C300",
     "sortOrder": 11,
     "isActive": true,
     "dean": {
-      "name": "TBA",
+      "name": "Dr. Elvira S. Balinas",
       "title": "Dean",
       "photoUrl": null
     },
     "contact": {
-      "email": "gs@auf.edu.ph",
-      "phone": null,
+      "email": "graduateschool@auf.edu.ph",
+      "phone": "(045) 625 2888 loc. 1780 / 0962 154 1525",
       "address": "Graduate School Building, AUF Campus"
     },
-    "vision": "To be a leading graduate school producing scholars, researchers, and professionals who contribute to national and global development.",
-    "mission": "To provide advanced education through rigorous graduate programs that develop research competence, professional excellence, and ethical leadership.",
+    "vision": "The Graduate School envisions to be the leading higher education institution in the region offering graduate programs that are responsive to the professional and executive development needs of the human resources of corporate entities and educational institutions in the private and public sectors.",
+    "mission": "The AUF Graduate School aims to produce high-level professionals capable of meeting the national and international needs in the dynamic and competitive global market through the provision of graduate and continuing professional education programs anchored on advanced theories, modern technologies, best practices and current trends in the various fields.",
+    "history": [
+      "In support of the University’s mission of promoting research studies and instruction in the natural and social sciences and the humanities, the Graduate School was organized during the school year 1966–1967 with an initial enrolment of 15 in the Master of Arts in Education Program. Dr. Cristian Alcantara was appointed the first Dean of the Graduate School. During the school year 1975–1976, the Doctor of Philosophy in Education major in Educational Management and the Master of Science in Mathematics programs were added to the offerings of the Graduate School. Dr. Fredeswinda Serrano, the former Vice President for Academic Affairs of Pampanga Agricultural College (PAC), was the first Ph.D. graduate of the University. After a year, the Graduate School started offering a Master’s in Business Administration.",
+      "From 1966 to the present, the Graduate School has offered the following degree programs: Ph.D. Educational Management, Ph.D. in Curriculum and Instruction, Ph.D. Public Administration, Ph.D. in Management, Doctor in Business Administration, Doctor of Public Health in Health Promotion and Education, Doctor of Information Technology, Master of Arts in Education, Master of Arts in Special Education, Master of Arts in Teaching, Master of Science in Mathematics, Master in Business Administration, Master in Public Administration, Master of Arts in Nursing, Master in Nursing, Master of Science in Information Technology, Master in Public Health, and Master of Science in Medical Laboratory Science among others.",
+      "The successful graduates of the Graduate School are regional directors of government agencies; school administrators, e.g., public school superintendents, supervisors, principals, and head teachers; government officials; businessmen, and military and police officers. It has likewise awarded honorary degrees to prominent educators, public officials, and well-known businessmen and dignitaries.",
+      "Having adopted the trimester scheme since the academic year 1983–1984, the Graduate School has been enrolling professionals including lawyers, medical doctors, engineers, accountants, executives in business and industry, public relations practitioners, and educational managers for professional growth.",
+      "In keeping faith with the University’s thrust of ensuring quality in its program offerings, the Graduate School embarked on its journey toward accreditation. On August 7–8, 2015, the Master of Arts in Education and Master in Business Administration were visited by PAASCU and were granted initial accreditation for three years, effective December 12, 2015. The same programs were visited by PAASCU on March 1–2, 2019, and were granted re-accreditation for five (5) years.",
+      "To ensure that its programs remain current and on par with the requirements set by globalization and internationalization of higher education and the new policies, standards, and guidelines of CHED, all curricula were revised and implemented effective AY 2021–2022.",
+      "Believing in the tenet that a school is only as strong as its faculty, the Graduate School continuously maintains a team of competent, experienced, and efficient faculty and administrators."
+    ],
+    "deanHistory": [
+      { "name": "Dr. Cristian Alcantara", "years": "1966–1969" },
+      { "name": "Dr. Alejandrino Q. Perez", "years": "1969–1970" },
+      { "name": "Dr. Maria Berringer", "years": "1970–1972" },
+      { "name": "Dr. Pedro R. Lingad", "years": "1972–1978" },
+      { "name": "Dr. Ricardo C. Galang", "years": "1978–1982" },
+      { "name": "Dr. Concesa R. Milan-Baduel", "years": "1982–1991, 1992–1998" },
+      { "name": "Dr. Evangelina H. Lacson", "years": "1991–1992" },
+      { "name": "Dr. Archimedes T. David", "years": "1998–1999, 2000–2001, 2006–2007" },
+      { "name": "Dr. Peter Murray Heasley", "years": "2003–2004" },
+      { "name": "Dr. Wilson DG Solis", "years": "2004–2005" },
+      { "name": "Dr. Nicanor C. Austriaco", "years": "2005–2006, 2007–2010" },
+      { "name": "Dr. Bella G. Panlilio", "years": "2010–2012" },
+      { "name": "Dr. Carmela S. Dizon", "years": "2012–2019" },
+      { "name": "Dr. Elvira S. Balinas", "years": "2019–present" }
+    ],
+    "admissions": {
+      "groups": [
+        {
+          "id": "gs_adm_docs",
+          "title": "Application Requirements",
+          "items": [
+            "Bachelor’s degree Transcript of Records — applicants for a Master’s degree",
+            "Master’s degree Transcript of Records — applicants for a Doctoral degree",
+            "Bachelor’s degree Diploma or Certification of Graduation",
+            "Personal Statement for Pursuing Graduate Studies",
+            "Birth Certificate (PSA or issued by the country of origin)",
+            "Marriage Certificate — for females who prefer to use their married names",
+            "Digital ID picture (clear and well-defined, white background)"
+          ]
+        },
+        {
+          "id": "gs_adm_intl",
+          "title": "For International Students",
+          "items": [
+            "Passport data and visa pages",
+            "Police Clearance (if residing outside the Philippines)"
+          ]
+        }
+      ],
+      "note": "At least one Recommendation Form accomplished by a current or former professor or employer is required. The AUF Admissions Office sends the Recommendation Form link directly to your recommenders — enter their names and email addresses in your Personal Information Sheet when you apply through MyAU. Full details on the admissions process are published on the AUF website."
+    },
     "programs": [
       {
-        "id": "gs_mba",
-        "slug": "mba",
-        "name": "Master of Business Administration",
+        "id": "gs_phd_ci",
+        "slug": "phd-curriculum-and-instruction",
+        "name": "Doctor of Philosophy in Curriculum and Instruction",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "category": "Education Programs",
+        "specializations": [{ "name": "English Language Teaching" }]
       },
       {
-        "id": "gs_med",
-        "slug": "master-of-education",
-        "name": "Master of Arts in Education",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
-      },
-      {
-        "id": "gs_msn",
-        "slug": "master-of-nursing",
-        "name": "Master of Science in Nursing",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
-      },
-      {
-        "id": "gs_mscs",
-        "slug": "master-of-computer-science",
-        "name": "Master of Science in Computer Science",
-        "headName": "TBA",
-        "headTitle": "Program Chair",
-        "contactEmail": null
-      },
-      {
-        "id": "gs_phd_ed",
+        "id": "gs_phd_edm",
         "slug": "phd-education",
         "name": "Doctor of Philosophy in Education",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "category": "Education Programs",
+        "specializations": [{ "name": "Educational Management" }]
+      },
+      {
+        "id": "gs_ma_ed",
+        "slug": "master-of-arts-in-education",
+        "name": "Master of Arts in Education",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Education Programs",
+        "specializations": [
+          { "name": "Educational Management" },
+          { "name": "English" },
+          { "name": "General Science" },
+          { "name": "Guidance and Counseling" },
+          { "name": "Early Childhood Education" },
+          { "name": "Chinese Language Teaching" },
+          { "name": "Special Needs and Inclusive Education" }
+        ]
+      },
+      {
+        "id": "gs_phd_mgmt",
+        "slug": "phd-management",
+        "name": "Doctor of Philosophy in Management",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Business and Public Administration Programs"
+      },
+      {
+        "id": "gs_dba",
+        "slug": "doctor-of-business-administration",
+        "name": "Doctor of Business Administration",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Business and Public Administration Programs"
+      },
+      {
+        "id": "gs_mba",
+        "slug": "mba",
+        "name": "Master in Business Administration",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Business and Public Administration Programs"
+      },
+      {
+        "id": "gs_dph",
+        "slug": "doctor-of-public-health",
+        "name": "Doctor of Public Health in Health Promotion and Education",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Health Sciences Programs"
+      },
+      {
+        "id": "gs_phd_hs",
+        "slug": "phd-health-sciences",
+        "name": "Doctor of Philosophy in Health Sciences by Research",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Health Sciences Programs",
+        "specializations": [
+          { "name": "Public Health Promotion and Education" },
+          { "name": "Biomedical Sciences" }
+        ]
+      },
+      {
+        "id": "gs_mph",
+        "slug": "master-in-public-health",
+        "name": "Master in Public Health",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Health Sciences Programs"
+      },
+      {
+        "id": "gs_msph",
+        "slug": "master-of-science-in-public-health",
+        "name": "Master of Science in Public Health",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Health Sciences Programs"
+      },
+      {
+        "id": "gs_msmls",
+        "slug": "master-of-science-in-medical-laboratory-science",
+        "name": "Master of Science in Medical Laboratory Science",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Health Sciences Programs"
+      },
+      {
+        "id": "gs_dit",
+        "slug": "doctor-of-information-technology",
+        "name": "Doctor of Information Technology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Information Technology Programs",
+        "specializations": [{ "name": "Business Intelligence and Data Analytics" }]
+      },
+      {
+        "id": "gs_mit",
+        "slug": "master-in-information-technology",
+        "name": "Master in Information Technology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Information Technology Programs"
+      },
+      {
+        "id": "gs_mds",
+        "slug": "master-in-data-science",
+        "name": "Master in Data Science",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Information Technology Programs"
+      },
+      {
+        "id": "gs_man",
+        "slug": "master-of-arts-in-nursing",
+        "name": "Master of Arts in Nursing",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Nursing Programs",
+        "specializations": [
+          { "name": "Medical-Surgical Nursing" },
+          { "name": "Maternal and Child Health Nursing" }
+        ]
+      },
+      {
+        "id": "gs_mn",
+        "slug": "master-in-nursing",
+        "name": "Master in Nursing",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Nursing Programs",
+        "specializations": [
+          { "name": "Medical-Surgical Nursing" },
+          { "name": "Maternal and Child Health Nursing" }
+        ]
+      },
+      {
+        "id": "gs_map",
+        "slug": "master-of-arts-in-psychology",
+        "name": "Master of Arts in Psychology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Psychology Programs",
+        "specializations": [{ "name": "Clinical Psychology" }]
+      },
+      {
+        "id": "gs_babamapsych",
+        "slug": "ba-ma-psychology",
+        "name": "Straight Bachelor of Arts in Psychology–Master of Arts in Psychology",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Psychology Programs"
+      },
+      {
+        "id": "gs_mscj",
+        "slug": "master-of-science-in-criminal-justice",
+        "name": "Master of Science in Criminal Justice",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Criminology Program",
+        "specializations": [{ "name": "Criminology" }]
+      },
+      {
+        "id": "gs_csc",
+        "slug": "certificate-in-school-counseling",
+        "name": "Certificate in School Counseling",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "category": "Certification Program"
       }
     ]
   },
@@ -3837,8 +4203,179 @@
       "phone": null,
       "address": "Integrated School Building, AUF Campus"
     },
-    "vision": "To be a premier integrated school forming young Angeleneans of academic excellence, strong values, and genuine concern for others.",
-    "mission": "To provide quality basic education that develops intellectually competent, morally upright, and socially responsible young individuals.",
+    "vision": "Born from the Heart of the Church, the Integrated School envisions to emerge as an exemplar school, promoting excellence in curriculum and instruction, community empowerment, and research and innovation for the protection and advancement of human dignity.",
+    "mission": "Guided by the University mission of “total development of man for God and humanity,” the Integrated School is committed to providing quality basic education as a way of becoming an evangelized and evangelizing institution towards the holistic development of the child as an agent of societal transformation.",
+    "goals": [
+      "Provide quality basic education program inspired by the teachings of Christ, geared towards excellence in the delivery of various learning areas, thus promoting cognitive, affective and psychomotor development for the good of humanity.",
+      "Promote research and innovation in curriculum and instruction through relevant and responsive programs in Science, Technology, Engineering and Mathematics (STEM) and Humanities, fostering 21st century skills of communication and collaboration, critical thinking and problem-solving, coding and engineering skills and technology literacy, creativity, and lifelong learning skills.",
+      "Hone Catholicity and Christian values and ideals of students with peace education, global understanding, and character education through various curricular and co-curricular programs and activities, aligned with the goals of Christian Formation Education.",
+      "Develop responsible, law-abiding young leaders and citizens with deep love and concern for others, for the environment, the community and the country, manifested in their active involvement in community empowerment programs and advocacies.",
+      "Enhance the physical well-being, cultural orientation, and art appreciation of the students through various sports, recreational and cultural activities.",
+      "Produce graduates imbued with the characteristics of Christ-centeredness, social and environmental responsibility, wisdom and academic excellence, commitment to lifelong learning, creative, innovative and critical thinking, and peace and global understanding."
+    ],
+    "coreValues": {
+      "intro": "The AUF Integrated School is committed to the total development of the child based on Catholic Church teachings and Christian values. It nurtures its students to be “Mabuti, Magaling at May Malasakit sa Kapwa.”",
+      "items": [
+        {
+          "id": "is_cv_mabuti",
+          "name": "Mabuti or Integrity of Character — “Virtus”",
+          "bullets": [
+            "This core value implies courage, worth, integrity and character; to be virtuous means to be respectful, humble, kind, true and honest in all aspects of one’s life.",
+            "Inspired by the theological virtues of faith, hope and love, including the cardinal virtues of justice, prudence, temperance and fortitude, the Angelenean is expected to manifest integrity of character, shown as goodness in thought, speech and action.",
+            "Values faith, hope and love, and Christ-centeredness through respect, humility, kindness, truth and honesty in one’s thought, speech and action.",
+            "Manifests good manners and right conduct with deep respect and regard for others.",
+            "Abides by the rules and regulations of the school, the community and the country with respect for ethical standards and moral values.",
+            "Shows love and respect for God, humanity, the country and the environment."
+          ]
+        },
+        {
+          "id": "is_cv_magaling",
+          "name": "Magaling or Competence for Excellence — “Veritas”",
+          "bullets": [
+            "Commitment to learning and academic competence are, in essence, a search for that which is true; the school takes part in the ardent search for truth and its unselfish transmission to youth and to all those learning to think rigorously, so as to act rightly and to serve humanity better (Ex Corde Ecclesiae 2).",
+            "The Angelenean upholds the value of the search for truth and knowledge for brilliant disposition.",
+            "Demonstrates wisdom and competence for academic work, and commitment to lifelong learning.",
+            "Manifests pursuit of excellence and truth in speech and action.",
+            "Shows adeptness in time management, leadership responsibilities, and problem-solving activities for curricular or co-curricular activities.",
+            "Collaborates harmoniously with others as a competent member of a group.",
+            "Seeks help or lends a helping hand in times of challenges.",
+            "Demonstrates grit to accomplish academic tasks or life challenges.",
+            "Accomplishes remarkable output or valuable innovative or creative work."
+          ]
+        },
+        {
+          "id": "is_cv_malasakit",
+          "name": "May Malasakit sa Kapwa or Charity as Mission — “Caritas”",
+          "bullets": [
+            "To practice care and concern for others is to be charitable of one’s self; charity is self-giving love, the highest form of love (John 15:13); to love is to offer one’s self for others. The Angelenean aspires to practice charity.",
+            "Practices concern and care for others, especially the poor, the disabled and the marginalized members of society through leadership, volunteerism, service, and acts of generosity.",
+            "Initiates or participates in school-based, classroom-based, and community-based advocacies for cultural understanding, peace, respect for human rights and preservation of the environment.",
+            "Contributes time and resources for the fulfillment of the mission of the school towards community empowerment, responsible citizenship, and societal transformation."
+          ]
+        }
+      ]
+    },
+    "learningOutcomes": {
+      "intro": "The Angeles University Foundation envisions its graduates to be responsible and competent citizens of the country and the world, imbued with the core values of “Mabuti, Magaling at May Malasakit sa Kapwa.” The Integrated School envisions its graduates to demonstrate the following outcomes:",
+      "items": [
+        {
+          "id": "is_lo_christ",
+          "title": "Christ-centeredness (Aligned with “Mabuti”)",
+          "bullets": [
+            "Embracing Christ’s way of life through moral living and social accountability.",
+            "Adhering to truth and Christian values amidst challenges brought about by social, political, economic and environmental crises.",
+            "Practicing fairness, honesty and integrity in all aspects of life.",
+            "Demonstrating positive disposition, maturity and courage, rooted in Catholic values, in the face of adversity."
+          ]
+        },
+        {
+          "id": "is_lo_social",
+          "title": "Social and environmental responsibility (Aligned with “Malasakit sa Kapwa”)",
+          "bullets": [
+            "Fosters the ethical principle that an Angelenean has an obligation to act for the benefit of the community and the environment.",
+            "Engaging in advocacies for peace, cultural heritage and the environment.",
+            "Demonstrating concern through active involvement in socio-civic activities.",
+            "Practicing tolerance for differences in race, culture, and exceptionalities.",
+            "Respecting individual dignity and human diversity."
+          ]
+        },
+        {
+          "id": "is_lo_wisdom",
+          "title": "Wisdom and academic excellence (Aligned with “Magaling”)",
+          "bullets": [
+            "Demonstrating competence in various disciplines and fields of study.",
+            "Collaborating skillfully and effectively with peers, colleagues, authorities and institutions.",
+            "Demonstrating proficiency in oral and written communication using various media.",
+            "Manifesting wise decision-making, judgment and evaluation relevant to specific disciplines and academic endeavors."
+          ]
+        },
+        {
+          "id": "is_lo_lifelong",
+          "title": "Commitment to lifelong learning (Aligned with “Magaling”)",
+          "bullets": [
+            "Practicing the value of further development of skills and competence in their respective fields of endeavor.",
+            "Adapting to the demands of innovation in their fields of endeavor.",
+            "Manifesting growth in moral, spiritual, socio-civic, and physical aspects of their lives.",
+            "Participating in collaborative learning for continual improvement."
+          ]
+        },
+        {
+          "id": "is_lo_creative",
+          "title": "Creative, innovative and critical thinking (Aligned with “Magaling”)",
+          "bullets": [
+            "Demonstrating skills and competence in producing creative or innovative work, using logical and critical thinking, scientific process, and competence with the use of technology.",
+            "Analyzing and evaluating arguments and evidence logically.",
+            "Generating ideas, producing novel and useful works, methods, and approaches to solve problems.",
+            "Demonstrating competence in scientific research process and the use of technology for innovation."
+          ]
+        },
+        {
+          "id": "is_lo_peace",
+          "title": "Peace and universal understanding (Aligned with “Malasakit sa Kapwa”)",
+          "bullets": [
+            "Underscores the importance of wisdom and academic excellence towards promoting peace and universal understanding.",
+            "Possessing national and international perspectives towards peace and universal understanding.",
+            "Demonstrating awareness, knowledge and skills when interacting effectively in culturally or linguistically diverse contexts.",
+            "Advocating peace and cultural, historical, political, environmental, and technological understanding as means of responsible citizenship in the local, national, and international contexts.",
+            "Using academic competence and technological skills in promoting Christian ideals, nationalism, environmental protection, and global understanding."
+          ]
+        }
+      ]
+    },
+    "curriculum": {
+      "intro": "The AUF Integrated School offers a complete array of academic basic education programs:",
+      "levels": [
+        {
+          "id": "is_curr_pre",
+          "level": "Pre-Elementary",
+          "items": ["Nursery", "Kindergarten"]
+        },
+        {
+          "id": "is_curr_elem",
+          "level": "Elementary",
+          "items": ["Grades 1 to 6"]
+        },
+        {
+          "id": "is_curr_jhs",
+          "level": "Junior High School",
+          "items": ["Grades 7 to 10"]
+        },
+        {
+          "id": "is_curr_shs",
+          "level": "Senior High School Academic Strands (Grades 11 to 12)",
+          "items": [
+            "General Academic (GA)",
+            "Business and Accounting (ABM)",
+            "Health Sciences (STEM-Health)",
+            "IT, Engineering and Architecture (STEM-Non-Health / Tech-Voc)"
+          ]
+        }
+      ]
+    },
+    "studentOrganizations": [
+      { "id": "is_org_issc", "name": "Integrated School Student Council (ISSC)", "type": "Mandated" },
+      { "id": "is_org_hssc", "name": "High School Student Council (HSSC)", "type": "Mandated" },
+      { "id": "is_org_gssc", "name": "Grade School Student Council (GSSC)", "type": "Mandated" },
+      { "id": "is_org_cors", "name": "Classroom Organizations (CORs)", "type": "Mandated" },
+      { "id": "is_org_english", "name": "English Club", "type": "Academic" },
+      { "id": "is_org_filipino", "name": "Filipino Club", "type": "Academic" },
+      { "id": "is_org_math", "name": "Math Club", "type": "Academic" },
+      { "id": "is_org_science", "name": "Science Club", "type": "Academic" },
+      { "id": "is_org_social_studies", "name": "Social Studies Club", "type": "Academic" },
+      { "id": "is_org_tle", "name": "TLE Club", "type": "Academic" },
+      { "id": "is_org_boys_choir", "name": "Boys’ Choir", "type": "Cultural" },
+      { "id": "is_org_hs_dance", "name": "HS Dance Club", "type": "Cultural" },
+      { "id": "is_org_hs_glee", "name": "HS Glee Club", "type": "Cultural" },
+      { "id": "is_org_pangkat", "name": "Pangkat Pambata", "type": "Cultural" },
+      { "id": "is_org_mapeh", "name": "MAPEH Club", "type": "Physical" },
+      { "id": "is_org_catechists", "name": "Catechists Children of Mary Immaculate", "type": "Religious" },
+      { "id": "is_org_cya", "name": "Christ Youth in Action", "type": "Religious" },
+      { "id": "is_org_kobs", "name": "Knights of the Blessed Sacrament", "type": "Religious" },
+      { "id": "is_org_scay", "name": "Student Catholic Action Youth for Christ", "type": "Religious" },
+      { "id": "is_org_book_lovers", "name": "Book Lovers Club", "type": "Social / Literary" },
+      { "id": "is_org_foreign_students", "name": "Foreign Students Club", "type": "Social / Literary" },
+      { "id": "is_org_peer_helpers", "name": "Peer Helpers Club", "type": "Social / Literary" }
+    ],
     "programs": [
       {
         "id": "is_primary",

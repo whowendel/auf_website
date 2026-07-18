@@ -40,6 +40,17 @@ export function MicrositeContact({ college }: { college: College }) {
                   </a>
                 </li>
               )}
+              {college.contact.phone && (
+                <li className="flex items-start gap-3">
+                  <span
+                    className="mt-0.5 text-[10px] font-bold uppercase tracking-[0.14em] opacity-60"
+                    style={{ color: college.accentColor }}
+                  >
+                    Phone
+                  </span>
+                  <span className="text-sm text-white/80">{college.contact.phone}</span>
+                </li>
+              )}
               {college.contact.address && (
                 <li className="flex items-start gap-3">
                   <span

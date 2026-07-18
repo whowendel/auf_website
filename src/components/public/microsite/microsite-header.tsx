@@ -15,8 +15,15 @@ function getNavItems(college: College) {
   const items: { label: string; href: string }[] = [
     { label: "About", href: "#identity" },
   ];
+  if (college.coreValues?.items.length) items.push({ label: "Core Values", href: "#core-values" });
+  if (college.learningOutcomes?.items.length) items.push({ label: "Learning Outcomes", href: "#learning-outcomes" });
   if (college.programs.length > 0) items.push({ label: "Programs", href: "#programs" });
+  if (college.curriculum?.levels.length) items.push({ label: "Curriculum", href: "#curriculum" });
+  if (college.admissions?.groups.length) items.push({ label: "Admissions", href: "#admissions" });
   if (college.studentOrganizations?.length) items.push({ label: "Organizations", href: "#organizations" });
+  if (college.faculty && (college.faculty.leads.length || college.faculty.roster.length)) {
+    items.push({ label: "Faculty", href: "#faculty" });
+  }
   if (college.activities?.length) items.push({ label: "Activities", href: "#activities" });
   if (college.affiliations?.length) items.push({ label: "Affiliations", href: "#affiliations" });
   if ((college.collegeAccreditations?.length ?? 0) + (college.recognitions?.length ?? 0) > 0) {

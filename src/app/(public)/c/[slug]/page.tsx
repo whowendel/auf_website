@@ -4,9 +4,14 @@ import { getCollegeBySlug } from "@/data/colleges";
 import { listPublishedPostsForCollege } from "@/server/services/posts";
 import { MicrositeHeader } from "@/components/public/microsite/microsite-header";
 import { MicrositeIdentity } from "@/components/public/microsite/microsite-identity";
+import { MicrositeCoreValues } from "@/components/public/microsite/microsite-core-values";
+import { MicrositeLearningOutcomes } from "@/components/public/microsite/microsite-learning-outcomes";
 import { MicrositeNews } from "@/components/public/microsite/microsite-news";
 import { MicrositePrograms } from "@/components/public/microsite/microsite-programs";
+import { MicrositeCurriculum } from "@/components/public/microsite/microsite-curriculum";
+import { MicrositeAdmissions } from "@/components/public/microsite/microsite-admissions";
 import { MicrositeOrgs } from "@/components/public/microsite/microsite-orgs";
+import { MicrositeFaculty } from "@/components/public/microsite/microsite-faculty";
 import { MicrositeActivities } from "@/components/public/microsite/microsite-activities";
 import { MicrositeAffiliations } from "@/components/public/microsite/microsite-affiliations";
 import { MicrositeAccreditations } from "@/components/public/microsite/microsite-accreditations";
@@ -47,9 +52,14 @@ export default async function CollegeMicrositePage({ params }: Params) {
         defines the page flow.
       */}
       <MicrositeIdentity college={college} />
+      <MicrositeCoreValues college={college} />
+      <MicrositeLearningOutcomes college={college} />
       <MicrositeNews college={college} posts={posts} />
       <MicrositePrograms college={college} />
+      <MicrositeCurriculum college={college} />
+      <MicrositeAdmissions college={college} />
       <MicrositeOrgs college={college} />
+      <MicrositeFaculty college={college} />
       <MicrositeActivities college={college} />
       <MicrositeAffiliations college={college} />
       <MicrositeAccreditations college={college} />

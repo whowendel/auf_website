@@ -99,7 +99,7 @@ function ProgramCard({
             className="overflow-hidden"
           >
             <div
-              className="border-t px-6 py-7 md:px-8 md:py-8"
+              className="space-y-8 border-t px-6 py-7 md:px-8 md:py-8"
               style={{ borderColor: `${brandColor}15` }}
             >
               {program.description && (
@@ -108,26 +108,29 @@ function ProgramCard({
                 </p>
               )}
 
-              <div className="mt-8 grid gap-8 md:grid-cols-2">
-                {program.curriculum && program.curriculum.length > 0 && (
-                  <ProgramSubList
-                    label="Curriculum highlights"
-                    items={program.curriculum}
-                    brandColor={brandColor}
-                    accentColor={accentColor}
-                  />
-                )}
-                {program.careers && program.careers.length > 0 && (
-                  <ProgramChipList
-                    label="Career opportunities"
-                    items={program.careers}
-                    brandColor={brandColor}
-                  />
-                )}
-              </div>
+              {((program.curriculum && program.curriculum.length > 0) ||
+                (program.careers && program.careers.length > 0)) && (
+                <div className="grid gap-8 md:grid-cols-2">
+                  {program.curriculum && program.curriculum.length > 0 && (
+                    <ProgramSubList
+                      label="Curriculum highlights"
+                      items={program.curriculum}
+                      brandColor={brandColor}
+                      accentColor={accentColor}
+                    />
+                  )}
+                  {program.careers && program.careers.length > 0 && (
+                    <ProgramChipList
+                      label="Career opportunities"
+                      items={program.careers}
+                      brandColor={brandColor}
+                    />
+                  )}
+                </div>
+              )}
 
               {program.specializations && program.specializations.length > 0 && (
-                <div className="mt-8">
+                <div>
                   <p
                     className="mb-4 text-[10px] font-bold uppercase tracking-[0.18em]"
                     style={{ color: brandColor }}
@@ -173,7 +176,7 @@ function ProgramCard({
               )}
 
               {program.admissionRequirements && program.admissionRequirements.length > 0 && (
-                <div className="mt-8 border-t pt-6" style={{ borderColor: `${brandColor}15` }}>
+                <div className="border-t pt-6" style={{ borderColor: `${brandColor}15` }}>
                   <ProgramSubList
                     label="Admission requirements"
                     items={program.admissionRequirements}
@@ -262,11 +265,28 @@ function ProgramChipList({
   );
 }
 
+// ─── Category grouping ─────────────────────────────────────────────────
+function groupByCategory(programs: Program[]): { category: string | null; programs: Program[] }[] {
+  const groups: { category: string | null; programs: Program[] }[] = [];
+  for (const p of programs) {
+    const category = p.category ?? null;
+    const last = groups[groups.length - 1];
+    if (last && last.category === category) {
+      last.programs.push(p);
+    } else {
+      groups.push({ category, programs: [p] });
+    }
+  }
+  return groups;
+}
+
 // ─── Main section ─────────────────────────────────────────────────────
 export function MicrositePrograms({ college }: { college: College }) {
   const [openId, setOpenId] = useState<string | null>(null);
 
   if (college.programs.length === 0) return null;
+
+  const groups = groupByCategory(college.programs);
 
   return (
     <section
@@ -291,17 +311,31 @@ export function MicrositePrograms({ college }: { college: College }) {
           </p>
         </div>
 
-        <div className="space-y-4">
-          {college.programs.map((p, i) => (
-            <ProgramCard
-              key={p.id}
-              program={p}
-              brandColor={college.brandColor}
-              accentColor={college.accentColor}
-              index={i}
-              isOpen={openId === p.id}
-              onToggle={() => setOpenId((cur) => (cur === p.id ? null : p.id))}
-            />
+        <div className="space-y-12">
+          {groups.map((group, gi) => (
+            <div key={group.category ?? `ungrouped-${gi}`}>
+              {group.category && (
+                <p
+                  className="mb-4 text-[10px] font-bold uppercase tracking-[0.18em]"
+                  style={{ color: college.brandColor }}
+                >
+                  {group.category}
+                </p>
+              )}
+              <div className="space-y-4">
+                {group.programs.map((p, i) => (
+                  <ProgramCard
+                    key={p.id}
+                    program={p}
+                    brandColor={college.brandColor}
+                    accentColor={college.accentColor}
+                    index={i}
+                    isOpen={openId === p.id}
+                    onToggle={() => setOpenId((cur) => (cur === p.id ? null : p.id))}
+                  />
+                ))}
+              </div>
+            </div>
           ))}
         </div>
       </div>

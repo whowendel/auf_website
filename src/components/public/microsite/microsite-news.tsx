@@ -229,7 +229,11 @@ export function MicrositeNews({
   const gridPosts    = featuredPost ? posts.filter((p) => !p.isFeatured) : posts;
 
   return (
-    <section id="news" className="bg-white py-20 md:py-28">
+    <section
+      id="news"
+      className="pt-12 pb-20 md:pt-16 md:pb-28"
+      style={{ background: `${college.brandColor}05` }}
+    >
       <div className="mx-auto max-w-7xl px-6 md:px-12">
 
         {/* Header */}

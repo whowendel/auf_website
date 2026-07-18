@@ -20,15 +20,50 @@ export type Program = {
     description?: string;
     bullets?: string[];
   }[];
+  category?: string;          // groups programs under a heading, e.g. "Health Sciences Programs"
 };
 
 // ─── Optional microsite section data ──────────────────────────────────
 export type StudentOrganization = {
   id: string;
   name: string;
-  description: string;
+  description?: string | null;
   advisor?: string | null;
   type?: string | null;       // "Academic" | "Service" | "Religious" | ...
+};
+
+// ─── Core values / learning outcomes / curriculum (basic-ed microsites) ───
+export type CoreValue = {
+  id: string;
+  name: string;               // e.g. "Mabuti or Integrity of Character — 'Virtus'"
+  bullets: string[];
+};
+
+export type CoreValues = {
+  intro?: string;
+  items: CoreValue[];
+};
+
+export type LearningOutcome = {
+  id: string;
+  title: string;              // e.g. "Christ-centeredness (Aligned with 'Mabuti')"
+  bullets: string[];
+};
+
+export type LearningOutcomes = {
+  intro?: string;
+  items: LearningOutcome[];
+};
+
+export type CurriculumLevel = {
+  id: string;
+  level: string;               // e.g. "Senior High School Academic Strands (Grades 11 to 12)"
+  items: string[];
+};
+
+export type Curriculum = {
+  intro?: string;
+  levels: CurriculumLevel[];
 };
 
 export type Activity = {
@@ -105,6 +140,31 @@ export type LicensurePerformance = {
   records: LicensurePerformanceRecord[];
 };
 
+// ─── Admissions / faculty roster (college-wide, not tied to one program) ──
+export type AdmissionsGroup = {
+  id: string;
+  title: string;
+  items: string[];
+};
+
+export type Admissions = {
+  intro?: string;
+  groups: AdmissionsGroup[];
+  note?: string;
+};
+
+export type FacultyLead = {
+  id: string;
+  name: string;
+  title: string;
+};
+
+export type Faculty = {
+  leads: FacultyLead[];
+  rosterLabel?: string;
+  roster: string[];
+};
+
 // ─── Main College record ──────────────────────────────────────────────
 export type College = {
   id: string;
@@ -126,8 +186,12 @@ export type College = {
   mission: string;
   programs: Program[];
   history?: string | string[];
+  deanHistory?: { name: string; years: string }[];
   // ─── Optional microsite sections (conditional rendering) ──────────
   goals?: string[];
+  coreValues?: CoreValues;
+  learningOutcomes?: LearningOutcomes;
+  curriculum?: Curriculum;
   studentOrganizations?: StudentOrganization[];
   activities?: Activity[];
   affiliations?: Affiliation[];
@@ -136,6 +200,8 @@ export type College = {
   facilities?: Facility[];
   topnotches?: Topnotcher[];
   licensurePerformance?: LicensurePerformance;
+  admissions?: Admissions;
+  faculty?: Faculty;
   cta?: CollegeCta;
 };
 

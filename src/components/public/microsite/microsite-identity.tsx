@@ -67,6 +67,30 @@ export function MicrositeIdentity({ college }: { college: College }) {
                 <p>{college.history}</p>
               )}
             </div>
+
+            {college.deanHistory && college.deanHistory.length > 0 && (
+              <div className="mt-10">
+                <p
+                  className="mb-4 text-[10px] font-bold uppercase tracking-[0.18em]"
+                  style={{ color: college.brandColor }}
+                >
+                  Past deans
+                </p>
+                <ol className="divide-y divide-[var(--auf-border)] overflow-hidden rounded-xl border border-[var(--auf-border)]">
+                  {college.deanHistory.map((d, idx) => (
+                    <li
+                      key={idx}
+                      className="flex items-baseline justify-between gap-4 px-4 py-3 text-sm"
+                    >
+                      <span className="font-medium text-[var(--auf-navy)]">{d.name}</span>
+                      <span className="shrink-0 tabular-nums text-[var(--auf-muted)]">
+                        {d.years}
+                      </span>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            )}
           </div>
         )}
 
@@ -100,38 +124,6 @@ export function MicrositeIdentity({ college }: { college: College }) {
           </div>
         )}
 
-        {/* Dean's message */}
-        <div
-          className="mt-16 rounded-2xl border-l-4 p-8 md:p-10"
-          style={{
-            borderColor: college.brandColor,
-            background: `${college.brandColor}08`,
-          }}
-        >
-          <p
-            className="mb-3 text-[10px] font-bold uppercase tracking-[0.2em]"
-            style={{ color: college.brandColor }}
-          >
-            Message from the {college.dean.title}
-          </p>
-          <p className="font-display text-lg font-light italic leading-relaxed text-[var(--auf-navy)]">
-            &ldquo;We are committed to providing every student with a transformative educational
-            experience that prepares them not only as professionals, but as individuals of
-            strong character and genuine concern for others.&rdquo;
-          </p>
-          <div className="mt-5 flex items-center gap-3">
-            <div
-              className="h-10 w-10 rounded-full"
-              style={{ background: `${college.brandColor}25` }}
-            />
-            <div>
-              <p className="text-sm font-semibold text-[var(--auf-navy)]">{college.dean.name}</p>
-              <p className="text-xs text-[var(--auf-muted)]">
-                {college.dean.title}, {college.name}
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

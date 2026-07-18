@@ -41,9 +41,11 @@ export function MicrositeOrgs({ college }: { college: College }) {
               <h3 className="font-display text-base font-semibold leading-snug text-[var(--auf-navy)]">
                 {org.name}
               </h3>
-              <p className="mt-2 flex-1 text-sm leading-relaxed text-[var(--auf-muted)]">
-                {org.description}
-              </p>
+              {org.description && (
+                <p className="mt-2 flex-1 text-sm leading-relaxed text-[var(--auf-muted)]">
+                  {org.description}
+                </p>
+              )}
               {org.advisor && (
                 <p className="mt-4 text-xs text-[var(--auf-muted)]/70">
                   Advisor: <span className="text-[var(--auf-text)]">{org.advisor}</span>
