@@ -110,7 +110,7 @@
       "On the very day the Angeles Institute of Technology opened, a massive fire razed the Angeles City public market, leaving thousands homeless. Moved by compassion, Barbara and her husband Agustin Angeles immediately extended free tuition and scholarship opportunities to the children of fire victims — an act of generosity that deeply endeared the couple to the people of Angeles City.",
       "Dr. Barbara Y. Angeles was a woman of wisdom, faith, and unwavering purpose. Though she witnessed firsthand the pain of betrayal and human frailty, she remained undaunted. That dream lives on today through Angeles University Foundation — an enduring testament to her vision, resilience, and heart for service."
     ],
-    "quote": "No one should be denied of education due to poverty.",
+    "quote": "No one should be denied education due to poverty.",
     "quoteAttribution": "Dr. Barbara Yap-Angeles, Founder"
   },
   "governance": {
@@ -122,22 +122,26 @@
       "Guided by its commitment to excellence and accountability, the University upholds the principles of shared leadership and participatory management, fostering collaboration across all levels of the academic community."
     ],
     "boardOfTrustees": [
-      { "id": "bot-1", "name": "TBA", "role": "Chair, Board of Trustees" },
-      { "id": "bot-2", "name": "TBA", "role": "Vice Chair, Board of Trustees" },
-      { "id": "bot-3", "name": "TBA", "role": "Trustee" },
-      { "id": "bot-4", "name": "TBA", "role": "Trustee" },
-      { "id": "bot-5", "name": "TBA", "role": "Trustee" },
-      { "id": "bot-6", "name": "TBA", "role": "Trustee" },
-      { "id": "bot-7", "name": "TBA", "role": "Trustee" }
+      { "id": "bot-1", "name": "HON. GLORIA MACAPAGAL - ARROYO", "role": "Chairman" },
+      { "id": "bot-2", "name": "MOST. REV. PACIANO B. ANICETO, D.D.", "role": "Vice Chairman" },
+      { "id": "bot-3", "name": "DR. ALBERTO P. FENIX, JR.", "role": "Member" },
+      { "id": "bot-4", "name": "DR. MARIA LORETO ANGELES - CANLAS", "role": "Member" },
+      { "id": "bot-5", "name": "DR. RICARDO P. PAMA", "role": "Member" },
+      { "id": "bot-6", "name": "DR. JOSEPH EMMANUEL L. ANGELES", "role": "Member" },
+      { "id": "bot-7", "name": "REV. FR. QUIRICO T. PEDREGOSA, JR., O.P.", "role": "Member" },
+      { "id": "bot-8", "name": "JUSTICE JOSE C. VITUG", "role": "Member" },
+      { "id": "bot-9", "name": "MRS. JESUSA ANGELES - MIRANDA", "role": "Member" },
+      { "id": "bot-10", "name": "DR. ANDREW L. ANGELES", "role": "Member" },
+      { "id": "bot-11", "name": "DR. EMMANUEL Y. ANGELES", "role": "Chancellor Emeritus" },
+      { "id": "bot-12", "name": "ATTY. AGUSTIN L. ANGELES", "role": "Corporate Secretary" }
     ],
     "administration": [
-      { "id": "adm-1", "name": "TBA", "role": "University President" },
-      { "id": "adm-2", "name": "TBA", "role": "Vice President for Academic Affairs" },
-      { "id": "adm-3", "name": "TBA", "role": "Vice President for Finance and Administration" },
-      { "id": "adm-4", "name": "TBA", "role": "Vice President for Research and Development" },
-      { "id": "adm-5", "name": "TBA", "role": "Vice President for Student Affairs" },
-      { "id": "adm-6", "name": "TBA", "role": "University Registrar" },
-      { "id": "adm-7", "name": "TBA", "role": "Director, Office of University Relations" }
+      { "id": "adm-1", "name": "Dr. Joseph Emmanuel L. Angeles", "role": "University President" },
+      { "id": "adm-2", "name": "Dr. Olga Angelinetta P. Tulabut", "role": "Vice President for Academic Affairs" },
+      { "id": "adm-3", "name": "Dr. Annalyn T. Navarro", "role": "Vice President for Research and Innovation" },
+      { "id": "adm-4", "name": "Dr. Maria Loreto A. Canlas", "role": "Vice President for Finance" },
+      { "id": "adm-5", "name": "Ms. Ana Marie A. Rodriguez", "role": "Vice President for Administration" },
+      { "id": "adm-6", "name": "Dr. Cavin F. Pamintuan", "role": "Vice President for External Affairs" }
     ]
   },
   "visionMission": {

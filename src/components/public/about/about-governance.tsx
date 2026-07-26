@@ -33,7 +33,7 @@ export function AboutGovernance({ governance }: { governance: AboutGovernance })
 
         {/* Administration */}
         <div>
-          <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.2em] text-navy/40">University Administration</p>
+          <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.2em] text-navy/40">Management Committee</p>
           <ul className="divide-y divide-auf-border overflow-hidden rounded-xl border border-auf-border bg-off-white">
             {governance.administration.map((p, i) => (
               <li key={p.id} className="flex items-center gap-3 bg-white px-4 py-3">
