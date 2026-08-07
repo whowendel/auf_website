@@ -6,7 +6,8 @@ import bcrypt from "bcryptjs";
 import siteData from "../src/data/site.json";
 import collegesData from "../src/data/colleges.json";
 
-const adapter = new PrismaMariaDb(process.env.DATABASE_URL as string);
+const dbUrl = (process.env.DATABASE_URL || "").replace(/^mysql:\/\//, "mariadb://");
+const adapter = new PrismaMariaDb(dbUrl);
 const prisma = new PrismaClient({ adapter });
 
 const SEED_PASSWORD = process.env.SEED_PASSWORD ?? "password";

@@ -2,7 +2,8 @@ import { PrismaClient } from "@prisma/client";
 import { PrismaMariaDb } from "@prisma/adapter-mariadb";
 
 const createPrismaClient = () => {
-  const adapter = new PrismaMariaDb(process.env.DATABASE_URL!);
+  const dbUrl = (process.env.DATABASE_URL || "").replace(/^mysql:\/\//, "mariadb://");
+  const adapter = new PrismaMariaDb(dbUrl);
 
   const basePrisma = new PrismaClient({
     adapter,
