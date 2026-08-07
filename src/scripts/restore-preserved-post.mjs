@@ -5,8 +5,25 @@ import "dotenv/config";
 import { readFileSync } from "node:fs";
 import pkg from "@prisma/client";
 const { PrismaClient } = pkg;
+import { PrismaMariaDb } from "@prisma/adapter-mariadb";
 
-const prisma = new PrismaClient();
+const getDbUrl = (url) => {
+  if (!url) return "";
+  try {
+    const u = new URL(url);
+    if (u.protocol === "mysql:") u.protocol = "mariadb:";
+    if (u.searchParams.has("sslaccept") || u.searchParams.has("sslcert") || u.searchParams.get("ssl") === "1" || u.hostname.includes("psdb.cloud") || u.hostname.includes("tidbcloud.com")) {
+      u.searchParams.set("ssl", "true");
+    }
+    return u.toString();
+  } catch (e) {
+    return url.replace(/^mysql:\/\//, "mariadb://");
+  }
+};
+
+const dbUrl = getDbUrl(process.env.DATABASE_URL);
+const adapter = new PrismaMariaDb(dbUrl);
+const prisma = new PrismaClient({ adapter });
 
 const bundle = JSON.parse(readFileSync("prisma/preserved-post.json", "utf8"));
 const { post, approvals, collegeTags, authorEmail } = bundle;
