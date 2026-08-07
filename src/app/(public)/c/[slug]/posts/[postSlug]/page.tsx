@@ -22,7 +22,12 @@ export default async function CollegePostPage({ params }: Params) {
   const college = getCollegeBySlug(slug);
   if (!college) notFound();
 
-  const post = await getPostForView({ slug: postSlug, collegeId: college.id });
+  let post = null;
+  try {
+    post = await getPostForView({ slug: postSlug, collegeId: college.id });
+  } catch (err) {
+    console.error(`Failed to load post ${postSlug} for college ${college.id}:`, err);
+  }
   if (!post) notFound();
 
   return (

@@ -39,7 +39,12 @@ export default async function CollegeMicrositePage({ params }: Params) {
   const college = getCollegeBySlug(slug);
   if (!college || !college.isActive) notFound();
 
-  const posts = await listPublishedPostsForCollege(college.id, { limit: 6 });
+  let posts: Awaited<ReturnType<typeof listPublishedPostsForCollege>> = [];
+  try {
+    posts = await listPublishedPostsForCollege(college.id, { limit: 6 });
+  } catch (err) {
+    console.error(`Failed to load posts for college ${college.id}:`, err);
+  }
 
   return (
     <>
