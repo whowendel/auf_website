@@ -9,7 +9,12 @@ import { VisionMissionSection } from "@/components/public/sections/vision-missio
 import { listPublishedUniversityPosts } from "@/server/services/posts";
 
 export default async function HomePage() {
-  const posts = await listPublishedUniversityPosts({ limit: 7 });
+  let posts: Awaited<ReturnType<typeof listPublishedUniversityPosts>> = [];
+  try {
+    posts = await listPublishedUniversityPosts({ limit: 7 });
+  } catch (err) {
+    console.error("Failed to load university posts for home page:", err);
+  }
 
   return (
     <>

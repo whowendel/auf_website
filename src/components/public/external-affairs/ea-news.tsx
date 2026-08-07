@@ -7,7 +7,12 @@ import { getSdg } from "@/data/sdgs";
 import { VaticanNewsWidget } from "@/components/public/external-affairs/vatican-news-widget";
 
 export async function EaNews({ news }: { news: ExternalAffairsNews }) {
-  const posts = await listPublishedUniversityPosts({ limit: 6 });
+  let posts: Awaited<ReturnType<typeof listPublishedUniversityPosts>> = [];
+  try {
+    posts = await listPublishedUniversityPosts({ limit: 6 });
+  } catch (err) {
+    console.error("Failed to load posts for EaNews:", err);
+  }
 
   return (
     <section id="news-events" className="scroll-mt-32 py-14">

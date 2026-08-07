@@ -10,14 +10,23 @@ type Params = { params: Promise<{ slug: string }> };
 
 export async function generateMetadata({ params }: Params): Promise<Metadata> {
   const { slug } = await params;
-  const post = await getPostForView({ slug, collegeId: null });
-  if (!post) return {};
-  return { title: post.title, description: post.excerpt ?? undefined };
+  try {
+    const post = await getPostForView({ slug, collegeId: null });
+    if (!post) return {};
+    return { title: post.title, description: post.excerpt ?? undefined };
+  } catch (err) {
+    return {};
+  }
 }
 
 export default async function UniversityPostPage({ params }: Params) {
   const { slug } = await params;
-  const post = await getPostForView({ slug, collegeId: null });
+  let post = null;
+  try {
+    post = await getPostForView({ slug, collegeId: null });
+  } catch (err) {
+    console.error(`Failed to load post ${slug}:`, err);
+  }
   if (!post) notFound();
 
   return (

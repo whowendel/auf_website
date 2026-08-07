@@ -82,26 +82,31 @@ function SdgPostCard({ post }: { post: SdgPost }) {
 
 export default async function SustainableDevelopmentGoalsPage() {
   // Fetch all published posts
-  const posts = (await prisma.post.findMany({
-    where: {
-      status: PostStatus.PUBLISHED,
-      publishedAt: { lte: new Date() },
-    },
-    orderBy: {
-      publishedAt: "desc",
-    },
-    select: {
-      id: true,
-      slug: true,
-      title: true,
-      excerpt: true,
-      type: true,
-      coverImageUrl: true,
-      publishedAt: true,
-      originCollegeId: true,
-      sdgs: true,
-    },
-  })) as SdgPost[];
+  let posts: SdgPost[] = [];
+  try {
+    posts = (await prisma.post.findMany({
+      where: {
+        status: PostStatus.PUBLISHED,
+        publishedAt: { lte: new Date() },
+      },
+      orderBy: {
+        publishedAt: "desc",
+      },
+      select: {
+        id: true,
+        slug: true,
+        title: true,
+        excerpt: true,
+        type: true,
+        coverImageUrl: true,
+        publishedAt: true,
+        originCollegeId: true,
+        sdgs: true,
+      },
+    })) as SdgPost[];
+  } catch (err) {
+    console.error("Failed to load SDG posts from database:", err);
+  }
 
   // Map SDG list to sidebar navigation items
   const sidebarItems: SidebarItem[] = SDG_LIST.map((sdg) => ({

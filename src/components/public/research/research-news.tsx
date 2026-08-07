@@ -12,7 +12,12 @@ const EVENT_TYPE_COLORS: Record<string, string> = {
 };
 
 export async function ResearchNews({ news }: { news: ResearchNews }) {
-  const recentPosts = await listPublishedUniversityPosts({ limit: 3 });
+  let recentPosts: Awaited<ReturnType<typeof listPublishedUniversityPosts>> = [];
+  try {
+    recentPosts = await listPublishedUniversityPosts({ limit: 3 });
+  } catch (err) {
+    console.error("Failed to load posts for ResearchNews:", err);
+  }
 
   return (
     <section id="news-events" className="scroll-mt-32 border-b border-auf-border py-14">

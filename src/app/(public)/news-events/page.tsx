@@ -25,11 +25,16 @@ const colleges = activeColleges.map((c) => ({
 export default async function NewsEventsPage({ searchParams }: PageProps) {
   const { college, type } = await searchParams;
 
-  const posts = await listPublishedPostsFiltered({
-    collegeId: college || undefined,
-    type: type || undefined,
-    limit: 24,
-  });
+  let posts: Awaited<ReturnType<typeof listPublishedPostsFiltered>> = [];
+  try {
+    posts = await listPublishedPostsFiltered({
+      collegeId: college || undefined,
+      type: type || undefined,
+      limit: 24,
+    });
+  } catch (err) {
+    console.error("Failed to load posts for NewsEventsPage:", err);
+  }
 
   const featured = posts.find((p) => p.isFeatured) ?? null;
   const rest = featured ? posts.filter((p) => p.id !== featured.id) : posts;
