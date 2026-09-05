@@ -89,7 +89,7 @@
           "navLabel": "Guidance",
           "tagline": "Walking alongside Angeleneans in their journey of personal and academic growth.",
           "imageUrl": null,
-          "intro": "The Guidance and Counseling Center of Angeles University Foundation is committed to supporting students in addressing their personal, academic, career, and social concerns. It aims to promote self-awareness, self-understanding, self-expression, and holistic development among students. Through individual and group counseling, developmental programs, and other guidance services, counselors work collaboratively with students to help them recognize their strengths, develop resilience, make informed decisions, and effectively cope with life's challenges. The Center also seeks to foster social awareness, empathy, responsible citizenship, and positive interpersonal relationships, encouraging students to become active and contributing members of their communities. By nurturing their personal, academic, career, and social development, the Guidance and Counseling Center strives to empower students to reach their fullest potential and emerge as competent, ethical, socially responsible, and well-rounded individuals prepared for the demands of higher education, work, and life.",
+          "intro": "The Guidance and Counseling Center of Angeles University Foundation is committed to supporting students in addressing their personal, academic, career, and social concerns while fostering the University's core values of being Mabuti (good and ethical), Magaling (competent and excellent), and May Malasakit sa Kapwa (compassionate and socially responsible). The Center aims to promote self-awareness, self-understanding, self-expression, and holistic development among students. Through individual and group counseling, developmental programs, and other guidance services, counselors work collaboratively with students to recognize their strengths, develop resilience, make informed decisions, and effectively cope with life's challenges. The Center also seeks to cultivate empathy, social awareness, responsible citizenship, and positive interpersonal relationships, inspiring students to care for others, contribute meaningfully to their communities, and embody the values of service and compassion. By nurturing students' personal, academic, career, and social development, the Guidance and Counseling Center empowers them to reach their fullest potential and emerge as competent, ethical, compassionate, and socially responsible individuals who exemplify the ideals of being Mabuti, Magaling, and May Malasakit sa Kapwa, prepared to meet the demands of higher education, work, and life.",
           "mainOffice": {
             "id": "main",
             "label": "Main Office",
@@ -139,16 +139,16 @@
           "staff": [
             { "id": "staff-1",  "name": "Edward G. Mendoza, MA, RGC, LPT, RPM",        "role": "Director" },
             { "id": "staff-2",  "name": "May Y. Sabile, MA, RGC, RPM",                 "role": "Assistant Director" },
-            { "id": "staff-3",  "name": "Pinky T. Cunanan, MA, RGC, RPM",              "role": "Basic Education Counselors" },
-            { "id": "staff-4",  "name": "Danzein Jenniah M. Egang, RPM",               "role": "Basic Education Counselors" },
-            { "id": "staff-5",  "name": "Francis Jasper C. Hontanosas, RPM",           "role": "Basic Education Counselors" },
+            { "id": "staff-3",  "name": "Pinky T. Cunanan, MA, RGC, RPm",              "role": "Basic Education Counselors" },
+            { "id": "staff-4",  "name": "Danzein Jenniah M. Egang, RPm",               "role": "Basic Education Counselors" },
+            { "id": "staff-5",  "name": "Francis Jasper C. Hontanosas, RPm",           "role": "Basic Education Counselors" },
             { "id": "staff-6",  "name": "Ana C. Caguiat, MA, RGC, RPsy",               "role": "College Counselors" },
-            { "id": "staff-7",  "name": "Aileen Katrina G. Felix, MA, RGC, LPT, RPM",  "role": "College Counselors" },
+            { "id": "staff-7",  "name": "Aileen Katrina G. Felix, MA, RGC, LPT, RPm",  "role": "College Counselors" },
             { "id": "staff-8",  "name": "Paul John Gojar, MAEd, RGC, LPT",             "role": "College Counselors" },
-            { "id": "staff-9",  "name": "Crismen G. Gono",                             "role": "College Counselors" },
-            { "id": "staff-10", "name": "Krizia Mae V. Lacap, RPM",                    "role": "College Counselors" },
+            { "id": "staff-9",  "name": "Crismen G. Gono, RPm",                        "role": "College Counselors" },
+            { "id": "staff-10", "name": "Krizia Mae V. Lacap, RPm",                    "role": "College Counselors" },
             { "id": "staff-11", "name": "Marvin I. Mallari, MA, RGC, LPT",             "role": "College Counselors" },
-            { "id": "staff-12", "name": "Georgia Mae C. Raquel, MA, RPM",              "role": "College Counselors" },
+            { "id": "staff-12", "name": "Georgia Mae C. Raquel, MA, RPm",              "role": "College Counselors" },
             { "id": "staff-13", "name": "Daisy M. Sadsad, RPM",                        "role": "Psychometrician" },
             { "id": "staff-14", "name": "Leticia S. Tominez",                          "role": "Staff Assistant" }
           ],
@@ -160,7 +160,7 @@
               "extensions": [
                 { "label": "Main Office", "local": "1719" },
                 { "label": "AUFIS", "local": "1813" },
-                { "label": "EYACLI", "local": "1907" }
+                { "label": "EYACLI", "local": "1901" }
               ]
             }
           }
@@ -182,12 +182,14 @@
           "navLabel": "Health Services",
           "tagline": "Promoting the health and well-being of every member of the AUF community.",
           "imageUrl": null,
-          "vision": "The Office of the University Health Services envisions to provide a healthy academic community by promoting health, prevention of diseases, and curative services, thereby inculcating health consciousness through self-empowerment, leading to efficiency and productivity.",
+          "intro": "The University Health Services (UHS) office is a cornerstone of student and employee health on the campus, providing an inclusive, supportive, and non-discriminatory environment where all stakeholders can have equal access to comprehensive range of medical, dental, mental health support, wellness services and other resources to promote a healthy learning and work environment without fear of bias or exclusion. With a vision of fostering a community where every student and employee thrives, the office offers both in-person and virtual appointments to accommodate diverse needs. Services include general health consultations, immunization, and mental health support among others. Emphasizing preventive care and education, the office also engages in community outreach and health promotion activities. The office is staffed with dedicated and licensed professionals including doctors, dentists, and nurses committed to delivering compassionate and confidential care to ensure the well-being of students and employees.",
           "aims": [
-            "Provide quality health care through promotion of health, prevention of diseases and curative services.",
-            "Administer medical/dental services through strong collaboration with the members of the Academic community.",
-            "Empower the members of the academic community to stay healthy through accessible, affordable and quality health care.",
-            "Promote a healthy community through active participation in community extension services in collaboration with Christian Praxis."
+            "Promotion of health through information campaigns on communicable and non-communicable diseases.",
+            "Assessment of the academic community's health status through physical and medical examinations.",
+            "Prevention of diseases through immunization, periodic monitoring of university facilities such as potability of water, pest control and sanitation.",
+            "Provision of medical and dental consultation, and management of diseases.",
+            "Facilitates wellness program activities and evaluation.",
+            "Implementation of Medical Health Benefits."
           ]
         },
         {
@@ -197,32 +199,147 @@
           "navLabel": "Sports & Athletics",
           "tagline": "Building champions of character and excellence on and off the field.",
           "imageUrl": null,
-          "intro": "The Sports and Athletics Office develops and implements comprehensive athletic programs that promote physical fitness, teamwork, discipline, and excellence among Angeleneans. AUF fields competitive varsity teams in a variety of sports across regional and national competitions.",
-          "varsitySports": [
-            "Basketball (Men's & Women's)",
-            "Volleyball (Men's & Women's)",
-            "Swimming",
-            "Track and Field",
-            "Badminton",
-            "Table Tennis",
-            "Taekwondo",
-            "Chess",
-            "Dancesport",
-            "Lawn Tennis"
+          "intro": "The University's Athletics Office (AO) is a dynamic hub, central to the coordination and management of the university's sports programs. This office is responsible for the planning and execution of athletic events, ensuring compliance with athletic regulations, and overseeing the maintenance of sports facilities. The office oversees the hiring of coaches and staff, schedules games and competitions, and ensures that all athletic programs operate within the set guidelines and standards. The office serves as a bridge between the university's athletic teams and the wider community, promoting sportsmanship, teamwork, and the holistic development of student-athletes.",
+          "varsityDivisions": [
+            {
+              "id": "senior",
+              "label": "Senior Teams - College",
+              "sports": ["Basketball Men", "Swimming Men", "Swimming Women", "Volleyball Men", "Volleyball Women"]
+            },
+            {
+              "id": "youth",
+              "label": "Youth Teams - High School",
+              "sports": ["Basketball Boys", "Swimming Boys", "Swimming Girls", "Volleyball Girls"]
+            }
           ],
-          "intramural": "Beyond varsity, AUF hosts annual intramural games that bring together all colleges and schools in friendly competition. These events foster college pride, camaraderie, and a culture of sportsmanship across the AUF community.",
-          "scholarships": "AUF awards athletic scholarships to deserving student-athletes who demonstrate outstanding performance in their sport and maintain academic standards set by the university. Interested athletes must undergo tryouts and evaluation by the coaching staff.",
+          "programs": [
+            {
+              "id": "intramural",
+              "label": "Intramural Programs",
+              "items": ["College Sportsfest", "University Games (Intramural)"]
+            },
+            {
+              "id": "extramural",
+              "label": "Extramural Programs",
+              "items": [
+                "PRISAA",
+                "Provincial/City Meet",
+                "Regional Meet",
+                "National Games",
+                "DepEd Palaro",
+                "ACAAA Meet (Angeles City Amateur Athletic Association)",
+                "CLRAA Meet (Central Luzon Regional Athletic Association)",
+                "Palarong Pambansa",
+                "UCLAA (United Central Luzon Athletic Association)"
+              ]
+            }
+          ],
+          "scholarship": {
+            "intro": "Student-athlete applicants may proceed to the Athletics Office to apply for an athletic scholarship.",
+            "requirements": ["PSA Original Copy", "Transcript of Records or SF10 (Copy of Grades)"],
+            "location": "Athletics Office, Room 303, AUF Sports and Cultural Center, Lourdes Sur East, Mac Arthur Highway, Angeles City.",
+            "tryoutNote": "Try-out schedules for applicants are posted on the AUF Facebook Page."
+          },
           "facilities": [
-            "Multi-purpose gymnasium (basketball, volleyball, badminton)",
-            "Swimming pool",
-            "Track and field oval",
+            "Arena - Wooden Basketball Court",
+            "Events Hall - Multi-purpose hall (basketball, volleyball, badminton, pickleball)",
             "Table tennis area",
-            "Weight room and fitness center"
+            "Weight room and fitness center",
+            "Zumba, aerobics and dance hall",
+            "Football Field - SBC",
+            "Covered Court (multi-purpose court) - SBC"
+          ],
+          "staffGroups": [
+            {
+              "id": "full-time",
+              "label": "Full-Time Staff",
+              "members": [
+                { "id": "sports-staff-1", "name": "Jeffrey T. Jervoso", "role": "Athletic Director / AUF SCC Building Manager", "email": "jervosojt@auf.edu.ph", "phone": "0917-303-6914" },
+                { "id": "sports-staff-2", "name": "Benjamin T. Angga", "role": "Sports Coordinator", "email": "angga.benjamin@auf.edu.ph", "phone": "0917-204-7504" }
+              ]
+            },
+            {
+              "id": "coaching",
+              "label": "Coaching Staff",
+              "members": [
+                { "id": "sports-coach-1", "name": "Jeffrey T. Jervoso", "role": "Coach, Volleyball Senior Men's Team (College)", "credentials": ["FIVB Coach Level 1 Accredited (Federation International de Volleyball)", "IWF Coach Level 1 Accredited (International Weightlifting Federation)"] },
+                { "id": "sports-coach-2", "name": "Benjamin T. Angga", "role": "Coach, Volleyball Senior Women's Team (College) and Volleyball Youth Girls Team (High School)", "credentials": ["FIVB Coach Level 1 Accredited (Federation International de Volleyball)"] }
+              ]
+            },
+            {
+              "id": "coaching-part-time",
+              "label": "Coaching Staff - Part Time",
+              "members": [
+                { "id": "sports-coach-3", "name": "Limmuel Moises M. Manarang", "role": "Head Coach, Basketball Senior Men's Team (College) and Basketball Youth Boys' Team (High School)", "credentials": ["National Coach Accredited"], "email": "limmuelmanarang@gmail.com", "phone": "0917-159-6740" },
+                { "id": "sports-coach-4", "name": "Marc Martino D. De Guzman", "role": "Assistant Coach, Basketball Senior Men's Team (College) and Basketball Youth Boys' Team (High School)", "credentials": ["National Coach Accredited"], "email": "maceyerinne_dg@yahoo.com" },
+                { "id": "sports-coach-5", "name": "Bernardino D. Alindogan", "role": "Coach, Swimming Senior Men and Women's Team (College) and Swimming Youth Boys and Girls Team (High School)", "credentials": ["National Coach Accredited"], "phone": "0945-974-0832" }
+              ]
+            }
+          ],
+          "achievements": [
+            {
+              "id": "prisaa-2026",
+              "title": "National PRISAA Games 2026",
+              "dates": "May 9-15, 2026",
+              "venue": "Bacolod City, Negros Occidental",
+              "events": [
+                {
+                  "event": "Basketball",
+                  "division": "Men's Division",
+                  "result": "2nd Runner-Up (Bronze Medalist)",
+                  "coach": "Limmuel Moises M. Manarang",
+                  "assistantCoach": "Marc Martino D. De Guzman",
+                  "athletes": [
+                    { "name": "Atuel, Vince Neck P.", "year": "3", "course": "BSBA MM" },
+                    { "name": "Buitison, Charles Jiemwel G.", "year": "3", "course": "BSBA MM" },
+                    { "name": "Cruz, Jian Akira C.", "year": "3", "course": "BSMA" },
+                    { "name": "Cuison, Yoj T.", "year": "3", "course": "BSIT" },
+                    { "name": "David, Carlos Miguel C.", "year": "3", "course": "BSBA ME" },
+                    { "name": "Delos Reyes, Gabriel A.", "year": "1", "course": "BSA" },
+                    { "name": "Elospa, Mavin Josh M.", "year": "2", "course": "BSBA MM" },
+                    { "name": "Lagman, Leomar Lei R.", "year": "3", "course": "BSBA MM" },
+                    { "name": "Laquindanum, Jan Paolo M.", "year": "2", "course": "BSCE" },
+                    { "name": "Manalo, Genreve L.", "year": "3", "course": "BSBA MM" },
+                    { "name": "Puno, Brian M.", "year": "3", "course": "BSBA ME" },
+                    { "name": "Garcia, Sean M.", "year": "1", "course": "BSA" }
+                  ]
+                },
+                {
+                  "event": "Swimming",
+                  "division": "Men's Division",
+                  "athletes": [
+                    { "name": "Liberato, Paulo Angelo C.", "year": "1", "course": "BSMT", "medals": ["Gold Medalist – 200m Freestyle", "Bronze Medalist – 200m Individual Medley", "Bronze Medalist – 400m Freestyle Relay"] },
+                    { "name": "Mallari, Cris Jemuel A.", "year": "3", "course": "BSMA", "medals": ["Gold Medalist – 50m Breaststroke", "Gold Medalist – 200m Breaststroke", "Silver Medalist – 100m Breaststroke", "Bronze Medalist – 50m Freestyle", "Bronze Medalist – 400m Freestyle Relay"] },
+                    { "name": "Ponio, Cyrus Allen R.", "year": "3", "course": "BSMA", "medals": ["Bronze Medalist – 400m Freestyle Relay"] }
+                  ]
+                },
+                {
+                  "event": "Swimming",
+                  "division": "Women's Division",
+                  "athletes": [
+                    { "name": "Viray, Sachi Rae B.", "year": "2", "course": "BSPsy", "medals": ["Silver Medalist – 50m Backstroke", "Silver Medalist – 100m Backstroke", "Silver Medalist – 200m Backstroke"] }
+                  ]
+                },
+                {
+                  "event": "Swimming 12-15",
+                  "division": "HS Girls Division",
+                  "coach": "Bernardino D. Alindogan",
+                  "athletes": [
+                    { "name": "Mallari, Margaux C.", "year": "7", "course": "JHS", "medals": ["Bronze Medalist – 200m Medley Relay"] }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "uclaa-2025",
+              "title": "UCLAA 2025 (United Central Luzon Athletic Association) Basketball Tournament",
+              "summary": "AUF Men's Basketball Team - 1st Runner-Up"
+            }
           ],
           "contact": {
-            "email": "sports@auf.edu.ph",
-            "hours": "Monday to Saturday, 7:00 AM – 6:00 PM",
-            "location": "Gymnasium Building, Ground Floor"
+            "emails": ["athletics@auf.edu.ph", "jervosojt@auf.edu.ph"],
+            "hours": "Monday to Friday, 8:00 AM – 7:00 PM",
+            "location": "Room 303, AUF Sports and Cultural Center, Lourdes Sur East, Mac Arthur Highway, Angeles City 2009"
           }
         },
         {
