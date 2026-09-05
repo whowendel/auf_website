@@ -181,7 +181,7 @@ export type College = {
   mascotLogoUrl: string | null;
   mascotLogoWithTextUrl: string | null;
   dean: { name: string; title: string; photoUrl: string | null };
-  contact: { email: string | null; phone: string | null; address: string | null };
+  contact: { email: string | null; emailAlt?: string | null; phone: string | null; address: string | null };
   vision: string;
   mission: string;
   programs: Program[];

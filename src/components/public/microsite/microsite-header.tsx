@@ -71,19 +71,19 @@ export function MicrositeHeader({ college }: { college: College }) {
         />
 
         {/* AUF back link */}
-        <div className="relative border-b border-white/10">
+        <div className="relative z-30 border-b border-white/15 bg-black/10 backdrop-blur-xs">
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2.5 md:px-12">
             <Link
               href="/"
-              className="flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.18em] text-white/50 transition-colors hover:text-white"
+              className="flex items-center gap-1.5 rounded-full border border-white/40 bg-white/10 px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.16em] text-white backdrop-blur-xs transition-all hover:border-white hover:bg-white hover:text-[var(--auf-navy)] shadow-xs"
             >
               <ChevronLeft size={13} />
               Home
             </Link>
-            <div className="flex items-center gap-2">
+            <div className="flex items-center gap-2.5">
               <Link
                 href="/admissions/how-to-apply"
-                className="rounded-full border border-white/20 px-3 py-1 text-[10px] font-semibold uppercase tracking-[0.14em] text-white/70 transition-all hover:border-[var(--auf-gold)] hover:text-[var(--auf-gold)]"
+                className="rounded-full border border-white/50 bg-white/15 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-white shadow-xs backdrop-blur-xs transition-all hover:border-white hover:bg-white hover:text-[var(--auf-navy)]"
               >
                 Apply now
               </Link>
@@ -97,7 +97,7 @@ export function MicrositeHeader({ college }: { college: College }) {
         </div>
 
         {/* Hero content */}
-        <div className="relative mx-auto max-w-7xl px-6 pb-16 pt-12 md:px-12 md:pb-20 md:pt-16">
+        <div className="relative z-10 mx-auto max-w-7xl px-6 pb-16 pt-12 md:px-12 md:pb-20 md:pt-16">
           <div className="flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:gap-16">
 
             {/* Left — identity */}
@@ -197,7 +197,7 @@ export function MicrositeHeader({ college }: { college: College }) {
             <a
               key={item.href}
               href={item.href}
-              className="shrink-0 border-b-2 border-transparent px-4 py-3.5 text-xs font-semibold uppercase tracking-[0.16em] text-white/55 transition-colors hover:border-[var(--auf-gold-light)] hover:text-white"
+              className="shrink-0 border-b-2 border-transparent px-4 py-3.5 text-xs font-bold uppercase tracking-[0.16em] text-white/75 transition-colors hover:border-[var(--auf-gold-light)] hover:text-white"
             >
               {item.label}
             </a>

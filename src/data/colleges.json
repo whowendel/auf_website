@@ -10,7 +10,7 @@
     "description": "The College of Allied and Medical Professions prepares health professionals through rigorous programs in allied and medical fields, producing competent and compassionate graduates ready to serve.",
     "brandColor": "#0EA5E9",
     "cardColor": "#31a0e0",
-    "accentColor": "#F2C300",
+    "accentColor": "#0c2d48",
     "sortOrder": 1,
     "isActive": true,
     "dean": {
@@ -20,11 +20,12 @@
     },
     "contact": {
       "email": "camp@auf.edu.ph",
-      "phone": null,
-      "address": "Health Sciences Building, AUF Campus"
+      "phone": "(+63-45) 625-2888 loc. 1710",
+      "address": "3/F San Agustin Hall AUF Main Campus MacArthur Highway Angeles City Philippines 2009",
+      "emailAlt": "camp.admissions@auf.edu.ph"
     },
-    "vision": "The College of Allied Medical Professions envisions to help in the promotion of optimal health and function through the application of scientific principles to effectively meet the existing and emerging health care needs.",
-    "mission": "The College aims to prepare competent and compassionate graduates who can provide professional health care in the local and global community.",
+    "vision": "To be a center of excellence in allied and medical professions education producing globally competent, compassionate, and Christ-centered health professionals.",
+    "mission": "To provide quality education in allied and medical professions through excellence in instruction, research, and community service guided by Catholic values.",
     "programs": [
       {
         "id": "camp_mls",
@@ -251,6 +252,234 @@
           "Simulated Pharmacy"
         ]
       }
+    ],
+    "topnotches": [],
+    "affiliations": [
+      {
+        "id": "camp_aff_pmha",
+        "name": "Philippine Mental Health Association, Inc. (PMHA)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_ncmh",
+        "name": "National Center for Mental Health (NCMH)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_illc",
+        "name": "Independent Living Learning Centre (ILLC)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_poc_ot",
+        "name": "Philippine Orthopedic Center (POC)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_phc",
+        "name": "Philippine Heart Center (PHC)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_ftc",
+        "name": "Friends Therapy Center (FTC)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_kctc_ot",
+        "name": "Kids Can Therapy Center (KCTC)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_nch",
+        "name": "National Children's Hospital (NCH)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_mmwgh",
+        "name": "Mariveles Mental Wellness & General Hospital (MMWGH)",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_bghmc_ot",
+        "name": "Bataan General Hospital and Medical Center",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_nedhi",
+        "name": "Nueva Ecija Doctors Hospital, Inc.",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_drpjg",
+        "name": "Dr. Paulino J. Garcia Memorial Research and Medical Center",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_bulacan",
+        "name": "Bulacan Medical Center",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_jblmgh_ot",
+        "name": "Jose B. Lingad Memorial General Hospital",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_jlgmh",
+        "name": "James L. Gordon Memorial Hospital",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_drjnr",
+        "name": "Dr. Jose N. Rodriguez Memorial Hospital",
+        "type": "Occupational Therapy"
+      },
+      {
+        "id": "camp_aff_aufmc",
+        "name": "Angeles University Foundation Medical Center – Center for Sports, Physical Medicine, and Rehabilitation, Angeles City",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_auf_magalang",
+        "name": "Angeles University Foundation – Magalang Community-based Rehabilitation Program, Magalang, Pampanga",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_sandbox",
+        "name": "Sandbox Clinic Clark",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_rehub",
+        "name": "Re-hub Physical Therapy and Recovery Clinic",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_summit",
+        "name": "Summit Wellness Center, Pasig City",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_kctc_pt",
+        "name": "Kids Can Therapy Center, City of San Fernando, Pampanga",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_physiolab",
+        "name": "Physiolab Physical Therapy Performance, Mandaluyong",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_pgh",
+        "name": "Philippine General Hospital, Manila",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_poc_pt",
+        "name": "Philippine Orthopedic Center, Quezon City",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_amosup",
+        "name": "AMOSUP-Seamen's Hospital, Manila",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_centromedico",
+        "name": "Centro Medico Santissimo Rosario, Balanga City, Bataan",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_cldh_pt",
+        "name": "Central Luzon Doctors' Hospital",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_bghmc_pt",
+        "name": "Baguio General Hospital and Medical Center",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_cprf",
+        "name": "Community Physiotherapy and Rehabilitators Facilitators, Inc.",
+        "type": "Physical Therapy"
+      },
+      {
+        "id": "camp_aff_apli",
+        "name": "Allied Pharmaceutical Laboratories Inc.",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_bghmc_ph",
+        "name": "Bataan General Hospital and Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_dralg",
+        "name": "Dr. Amando L. Garcia Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_greencity",
+        "name": "GreenCity Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_mtcmc",
+        "name": "Mother Teresa of Calcutta Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_olmcmc",
+        "name": "Our Lady of Mt. Carmel Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_pmsh",
+        "name": "Pampanga Medical Specialist Hospital",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_rlmmc",
+        "name": "Rafael Lazatin Memorial Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_shmc",
+        "name": "Sacred Heart Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_scafmc",
+        "name": "St. Catherine of Alexandria Foundation and Medical Center",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_srmc",
+        "name": "St. Raphael Medical Center Inc.",
+        "type": "Pharmacy"
+      },
+      {
+        "id": "camp_aff_cldh_rt",
+        "name": "Central Luzon Doctors' Hospital",
+        "type": "Radiologic Technology"
+      },
+      {
+        "id": "camp_aff_auf_rt",
+        "name": "Angeles University Foundation",
+        "type": "Radiologic Technology"
+      },
+      {
+        "id": "camp_aff_jblmgh_rt",
+        "name": "Jose B. Lingad Memorial General Hospital",
+        "type": "Radiologic Technology"
+      },
+      {
+        "id": "camp_aff_bgh_rt",
+        "name": "Baguio General Hospital",
+        "type": "Radiologic Technology"
+      }
     ]
   },
   {
@@ -263,7 +492,7 @@
     "mascotLogoWithTextUrl": "/assets/colleges/CASDolphins_w_Text.png",
     "description": "The College of Arts and Science provides a broad liberal arts and sciences education, developing well-rounded graduates prepared for leadership and service in diverse fields.",
     "brandColor": "#1D4ED8",
-    "cardColor": "#2a55d1",
+    "cardColor": "#93c5fd",
     "accentColor": "#F2C300",
     "sortOrder": 2,
     "isActive": true,
@@ -274,11 +503,12 @@
     },
     "contact": {
       "email": "cas@auf.edu.ph",
-      "phone": "(045) 625 2888 LOCAL 1915",
-      "address": "Main Building, AUF Campus"
+      "phone": "(+63-45) 625-2888 loc. 1915",
+      "address": "2/F Emmanuel Y. Angeles Center for Learning and Innovation Hall MacArthur Highway Angeles City Philippines 2009",
+      "emailAlt": "cas.admissions@auf.edu.ph"
     },
-    "vision": "The College of Arts and Sciences envisions to be the fountainhead for the preservation of culture, the propagation of the arts, and the promotion of science and technology through an ambiance of academic excellence.",
-    "mission": "Cognizant of its vision, the College of Arts and Sciences is dedicated to promote quality liberal education and professional education in Biology, Psychology and Communication.",
+    "vision": "To be a premier college of arts and science developing globally competent graduates who are critical thinkers and ethical leaders.",
+    "mission": "To provide quality education in arts and sciences through rigorous academic programs, meaningful research, and transformative community engagement.",
     "programs": [
       {
         "id": "cas_bio",
@@ -396,7 +626,7 @@
       },
       {
         "id": "cas_org_kasauf",
-        "name": "Kapisanan ng mga Sikolohista sa Angeles University Foundation (KASAUF)",
+        "name": "Kapisanan ng mga Mag-aaral ng Sikolohiya sa Angeles University Foundation (KASAUF)",
         "description": "Kapisanan ng mga Sikolohista sa Angeles University Foundation (KASAUF) is a non-mandated organization which promotes social responsibility among members by providing them opportunities to serve AUF and the community. It aims to promote the physical, moral and psychological well-being of its members.",
         "type": "Academic"
       },
@@ -641,7 +871,7 @@
         "headName": "TBA",
         "headTitle": "Program Chair",
         "contactEmail": null,
-        "duration": "4 years",
+        "duration": "3 years",
         "description": "The Bachelor of Science in Business Administration major in Marketing Management program aims to produce graduates who can:",
         "curriculum": [
           "Formulate integrated marketing communication strategies, product placement designs, and pricing models based on consumer behavior analysis;",
@@ -654,22 +884,40 @@
         ]
       },
       {
+        "id": "cba_bsba_lm",
+        "slug": "legal-management",
+        "name": "Bachelor of Science in Business Administration major in Legal Management (BSBA-LM)",
+        "headName": "TBA",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "3 years",
+        "description": "The Bachelor of Science in Business Administration major in Legal Management (BSBA-LM) is a dynamic three-year interdisciplinary program designed for students who want to operate at the intersection of business and law. It combines core business disciplines—such as finance, marketing, operations, and strategic management—with essential legal studies, including corporate law, contracts, labor law, taxation, regulatory compliance, trade, and intellectual property. This unique combination provides students with a competitive foundation for understanding both the commercial and legal dimensions of organizational decisions. As a three-year accelerated pathway, the program also prepares students for Juris Doctor (JD) and other graduate or professional studies, while developing practical competencies relevant to diverse industries and professional settings.",
+        "curriculum": [
+          "Apply business and legal principles in analyzing organizational, corporate, and regulatory issues across various industries;",
+          "Analyze and solve complex business and legal problems using critical thinking, legal reasoning, research, and management tools;",
+          "Evaluate contracts, policies, regulations, and business transactions to support sound organizational decisions and promote legal and regulatory compliance;",
+          "Integrate legal knowledge with business functions such as finance, marketing, human resources, operations, and strategic management;",
+          "Communicate and collaborate effectively with clients, management, employees, government agencies, regulators, and other stakeholders in professional settings;",
+          "Demonstrate ethical leadership, corporate citizenship, and social responsibility while making decisions consistent with professional and legal standards; and",
+          "Pursue diverse career opportunities and further studies in corporate legal services, compliance, risk management, human resources, regulatory affairs, business, entrepreneurship, and law."
+        ]
+      },
+      {
         "id": "cba_htm",
         "slug": "hospitality",
         "name": "Bachelor of Science in Hospitality Management (BSHM)",
         "headName": "TBA",
         "headTitle": "Program Chair",
         "contactEmail": null,
-        "duration": "4 years",
-        "description": "The Bachelor of Science in Hospitality Management (BSHM) program aims to produce graduates who can:",
+        "duration": "3 years",
+        "description": "The Bachelor of Science in Hospitality Management is a 3-year compressed degree program that is designed to prepare students for their careers in hotel, restaurant, resort, and event management. It covers aspects from food and beverage service, hotel operations, customer service, and business management, giving them a strong foundation in the hospitality industry. It also prepares students to become competent, innovative, ethical, and globally competitive hospitality professionals who can respond confidently to the changing needs of the hospitality and tourism industry. The program combines classroom learning with hands-on training and an internship in real hospitality settings. It allows students to develop their practical skills, professionalism, and confidence.",
         "curriculum": [
-          "Demonstrate operational competencies in food and beverage production, front office management, housekeeping operations, and event coordination based on industry standards;",
-          "Apply management principles, financial controls, legal compliance, and human resource strategies effectively in hospitality establishments;",
-          "Deliver high-quality guest services, customer relationship management, and service recovery strategies with cultural sensitivity;",
-          "Utilize hospitality-specific information systems, point-of-sale software, and technological solutions proficiently in hospitality workflows;",
-          "Exhibit excellent communication, problem-solving, teamwork, and leadership skills in diverse hospitality environments;",
-          "Practice high ethical standards, environmental sustainability, and corporate social responsibility in global hospitality operations; and",
-          "Pursue continuous professional certifications, executive career ladders, and entrepreneurial opportunities in lodging, food service, and recreation sectors."
+          "Deliver exceptional guest experiences through professional, personalized, and service-oriented hospitality;",
+          "Apply industry knowledge and practical skills in managing a wide range of hospitality operations;",
+          "Demonstrate leadership, entrepreneurial, and managerial abilities in both local and international hospitality settings;",
+          "Use technology and innovative approaches to improve hospitality services and operational efficiency;",
+          "Incorporate sustainable and responsible practices into hospitality operations and decision-making; and",
+          "Embrace lifelong learning and professional growth as they adapt to new trends, technologies, and opportunities in the industry."
         ]
       },
       {
@@ -679,16 +927,15 @@
         "headName": "TBA",
         "headTitle": "Program Chair",
         "contactEmail": null,
-        "duration": "4 years",
-        "description": "The Bachelor of Science in Tourism Management (BSTM) program aims to produce graduates who can:",
+        "duration": "3 years",
+        "description": "The Bachelor of Science in Tourism Management is a 3-year program that prepares students for careers in the tourism and hospitality industry. It provides knowledge and skills in travel services, tour operations, event planning, and customer service. Graduates are equipped to work in airlines, hotels, travel agencies, and other tourism-related industries.",
         "curriculum": [
-          "Formulate sustainable tourism plans, destination marketing strategies, and tourism policy frameworks aligned with socio-cultural, economic, and environmental goals;",
-          "Manage travel agency operations, tour guiding services, transport services, and corporate itinerary planning based on international guidelines;",
-          "Conduct tourism research, heritage mapping, and market segmentation analysis to address emerging developments and innovations in global travel industries;",
-          "Utilize global distribution systems (GDS), airline reservation software, and digital travel platforms proficiently in tourism operations;",
-          "Demonstrate advanced communication, cross-cultural diplomacy, public relations, and leadership skills across global tourism platforms;",
-          "Champion cultural heritage preservation, environmental protection, ecotourism values, and ethical business codes in travel industries; and",
-          "Establish specialized careers, professional certifications, and entrepreneurial ventures in destination management, travel consultancy, and airline industries."
+          "Demonstrate the knowledge, skills, and professional attitude needed to work effectively in tourism and hospitality establishments such as airlines, hotels, travel agencies, resorts, and tour companies.",
+          "Develop tour packages, itineraries, travel programs, and related travel services that meet the needs and expectations of different types of tourists.",
+          "Design and organize tourism-related events, conferences, meetings, and other activities by applying appropriate planning, coordination, and management skills.",
+          "Develop tourism projects and recommendations that promote environmental protection, cultural heritage preservation, community participation, and responsible tourism practices.",
+          "Create tourism marketing outputs such as promotional campaigns, digital content, brochures, social media materials, and destination marketing plans to promote tourism products and destinations.",
+          "Prepare business plans, feasibility studies, service improvement proposals, or innovative tourism solutions that address the needs of the tourism and hospitality industry."
         ]
       },
       {
@@ -702,10 +949,21 @@
       {
         "id": "cba_entrep",
         "slug": "entrepreneurship",
-        "name": "Bachelor of Science in Entrepreneurship",
+        "name": "Bachelor of Science in Business Administration major in Management and Entrepreneurship",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "duration": "3 years",
+        "description": "The Bachelor of Science in Business Administration major in Management and Entrepreneurship is a 3-year degree program with a compressed curriculum that highlights professional courses responsive to industry needs, equipping students with the principles of management and entrepreneurship while covering the theoretical framework of business operations from conceptualization to actual implementation. Beyond classroom learning, the program actively engages students in seminars, training, and competitions such as Business Plan and Business Pitching, while also integrating meaningful community service initiatives that strengthen social responsibility and civic engagement. These opportunities sharpen entrepreneurial skills, enhance critical thinking, and develop management competencies, and preparing graduates to become innovative, values-driven leaders capable of thriving in modern enterprises and contributing positively to society.",
+        "curriculum": [
+          "Demonstrate strong management and leadership skills in planning, organizing, and directing business operations.",
+          "Apply entrepreneurial thinking to identify opportunities, innovate, and create sustainable ventures.",
+          "Utilize research and analytical tools for sound decision-making in business and organizational contexts.",
+          "Communicate effectively in both written and oral forms to engage stakeholders and lead teams.",
+          "Practice ethical and socially responsible management, integrating community service and corporate social responsibility into business strategies.",
+          "Collaborate and adapt in diverse environments, fostering teamwork and resilience in dynamic business settings.",
+          "Develop and implement business plans that align with market needs, financial viability, and long-term growth."
+        ]
       }
     ],
     "history": [
@@ -738,19 +996,31 @@
       {
         "id": "cba_org_jma",
         "name": "Junior Marketing Association (JMA) – AUF Chapter",
-        "description": "The academic organization for Marketing Management students. It cultivates creative and analytical talents through advertising exhibits, digital marketing forums, brand competitions, and networking with marketing professionals to expose students to corporate landscapes.",
+        "description": "The AUF-JMA is a non-mandated student organization affiliated with the Philippine Junior Marketing Association. It serves as a platform that actively engages students in various activities, including hands-on projects, events, competitions, and community service initiatives. Through these experiences, the organization helps students build meaningful connections and develop the skills needed to become competent, confident, and career-ready marketing professionals.",
         "type": "Academic"
       },
       {
         "id": "cba_org_hms",
-        "name": "Hospitality Management Society (HMS)",
-        "description": "The official student organization for Hospitality Management students. It organizes food conventions, culinary showcases, mixology challenges, bar service competitions, and corporate networking events to nurture hands-on mastery in hospitality industries.",
+        "name": "Council of Hospitality Management Students (CHMS)",
+        "description": "The Council of Hospitality Management Students (CHMS) is a non-mandated organization that aims to develop the competencies necessary for BSHM students. It strengthens students’ leadership and management skills through active involvement in planning and organizing events. It also nurtures entrepreneurial skills by encouraging creativity, innovation, and initiative through industry-based experiences and hospitality activities such as catering, restaurant simulation events, bar and beverage management, front office and housekeeping demonstrations, community outreach programs, hospitality seminars and workshops, and customer service training. By fostering collaboration, discipline, and social responsibility, CHMS helps prepare students to become globally competitive, industry-ready hospitality professionals and future leaders in the field of hospitality and tourism.",
         "type": "Academic"
       },
       {
         "id": "cba_org_tms",
-        "name": "Tourism Management Society (TMS)",
-        "description": "The official student organization for Tourism Management students. It spearheads tour guiding competitions, destination planning seminars, cultural heritage exposures, eco-tourism projects, and flight cabin simulations to develop global standards in travel services.",
+        "name": "League of Tourism Students of the Philippines – AUF Chapter (LTSP)",
+        "description": "The AUF LTSP is a nationally recognized, student-led organization for Tourism students, built to empower future industry leaders. While non-mandated, it stands as a dynamic platform where passion meets opportunity. LTSP goes beyond the classroom by creating meaningful experiences that help members thrive both academically and personally. From enriching curricular support to exciting extracurricular engagements, AUF LTSP is committed to honing skills, building confidence, and preparing students to excel in the ever-evolving world of tourism.",
+        "type": "Academic"
+      },
+      {
+        "id": "cba_org_almas",
+        "name": "AUF Legal Management Society (ALMAS)",
+        "description": "The AUF Legal Management Society (ALMAS) is a non-mandated student organization and the official organization of students taking up BSBA Major in Legal Management at Angeles University Foundation. It serves as the central body that unites Legal Management students through academic, civic, and professional initiatives designed to shape future leaders in law, business, and governance. Founded on the principles of democracy, academic freedom, and social responsibility, ALMAS is committed to cultivating a dynamic and empowered student community that upholds integrity, critical thinking, collaboration, and excellence. As a platform for student leadership, representation, and holistic development, it actively participates in and supports programs such as academic forums, seminars, debate competitions, legal argumentation workshops, leadership training, and networking opportunities with professionals in the legal and business sectors. Beyond campus, ALMAS engages in community extension initiatives that promote social responsibility and public service. The organization collaborates with partners in organizing legal aid outreach programs, rights awareness campaigns, and community-based initiatives aimed at improving access to basic legal knowledge and assistance. Through these efforts, ALMAS empowers its members to become competent, ethical, and socially responsive individuals, well-prepared to navigate the intersections of law, business, and governance.",
+        "type": "Academic"
+      },
+      {
+        "id": "cba_org_yes",
+        "name": "Young Entrepreneurs’ Society – AUF Chapter (AUF-YES)",
+        "description": "The Young Entrepreneurs’ Society – AUF Chapter (AUF-YES) is a non-mandated organization of Management and Entrepreneurship students who share a common passion for excellence in business and professional growth. Established under the vision of YES Philippines, AUF YES is dedicated to educating, promoting, encouraging, networking, and developing aspiring and successful entrepreneurs through engagements with business leaders, learning events, mentorship, and networking opportunities. It prepares future entrepreneurs and managers by enhancing management skills and competencies, fostering self-awareness, promoting cooperation within the academic community, supporting educational initiatives, advancing learning activities within the college, and engaging in meaningful community service, ultimately shaping students into capable, values-driven leaders ready to thrive in the world of business.",
         "type": "Academic"
       }
     ],
@@ -872,12 +1142,12 @@
       {
         "id": "cba_fac_mockhotel",
         "name": "Mock Hotel Room",
-        "description": "Features an exact replication of a standard premium hotel room setting, designed to train students in real-world housekeeping standards, room maintenance workflows, guest check-in/out scenarios, and general accommodation operations."
+        "description": "The AUF Residences / Mock Hotel Room serves both as an accommodation facility and a hands-on learning space for giving students the opportunity to experience hotel operations. It is designed to reflect the setting and standards of a premium hotel room, the facility allows students to gain practical experience in housekeeping, room preparation and maintenance, guest check-in and check-out procedures, and other essential accommodation operations. The front desk also provides a dedicated space where students can practice basic front office tasks such as guest reception, registration, communication, and service."
       },
       {
         "id": "cba_fac_travelbureau",
         "name": "Travel Bureau Room",
-        "description": "A simulated travel agency and flight operations workspace. Equipped with terminal workstations, global distribution software (GDS), airline reservation systems, and an integrated airplane cabin mock-up workspace to train students in corporate ticketing, itinerary generation, destination marketing, and flight cabin protocols."
+        "description": "Tourism Management Laboratory features a Mock Travel Facility where students simulate real-world travel distribution and hotel system operations. It allows students to have hands-on experience in booking flights, managing reservations, and handling customer transactions using industry-standard platforms. This practical training prepares them for careers in travel agencies, airlines, and hospitality establishments."
       },
       {
         "id": "cba_fac_frontdesk",
@@ -887,12 +1157,12 @@
       {
         "id": "cba_fac_bar",
         "name": "Bar and Beverage Counter",
-        "description": "Replicates the architecture and logistical setup of a commercial professional lounge bar. Provides a high-fidelity workspace for mastering hands-on beverage preparation, mixology techniques, barista workflows, wine storage, and professional bar hospitality standards."
+        "description": "The Bar and Beverage Counter is designed to replicate the setup and operations of a professional bar found in hotels and restaurants, in accordance with industry standards. It provides a dynamic learning environment where students develop hands-on skills in beverage preparation, mixology, and bar service using industry-grade tools and equipment. The facility includes a fully equipped bar station, beverage preparation area, glassware storage, and display sections, all arranged to simulate real-world bar operations. This practical training environment equips students with the knowledge, technical skills, and professionalism required for successful careers in hospitality establishments, particularly in food and beverage service."
       },
       {
         "id": "cba_fac_kitchen",
         "name": "Hospitality Management Kitchen Laboratory",
-        "description": "Modeled precisely after first-class corporate hotels and professional production kitchens. This advanced workspace features a cold kitchen section, a hot kitchen workflow configuration, an integrated high-volume commercial food production workspace, specialized pastry/baking infrastructure, industrial-grade ovens, commercial refrigerators, and safety ventilation systems."
+        "description": "The Hospitality Management Kitchen Laboratory is designed to replicate the layout and operations of a first-class hotel and restaurant, in accordance with industry standards. It provides a dynamic learning environment where students gain hands-on experience using the tools and equipment essential to their field of specialization. The facility features a cold kitchen, a hot kitchen, a quantity food production area, and designated storage spaces, all organized to simulate real-world kitchen operations. This practical training environment equips students with the competencies and confidence needed for successful careers in hospitality establishments."
       }
     ]
   },
@@ -916,9 +1186,10 @@
       "photoUrl": null
     },
     "contact": {
-      "email": "ccje.support@auf.edu.ph",
-      "phone": "(045) 625-2888 LOCAL 1740",
-      "address": "Social Sciences Building, AUF Campus"
+      "email": "ccje@auf.edu.ph",
+      "emailAlt": "ccje.admissions@auf.edu.ph",
+      "phone": "(+63-45) 625-2888 loc. 1906",
+      "address": "Ground Floor, Emmanuel Y. Angeles Center for Learning and Innovation Hall MacArthur Highway Angeles City Philippines 2009"
     },
     "vision": "The College of Criminal Justice Education envisions becoming a premier institution of criminal justice education, producing globally competent, ethically grounded, and Christ-centered professionals dedicated to public safety, justice, and community empowerment.",
     "mission": "The College of Criminal Justice Education is committed to providing premium education in criminology and forensic sciences through advanced instruction, innovative research, progressive community partnerships, and specialized tactical training anchored on Catholic values and professional ethics.",
@@ -945,7 +1216,7 @@
     "history": [
       "In 1979, the College of Arts and Sciences offered the Bachelor of Science in Criminology degree as one of its academic programs. It was in 1982 when the College of Criminology was established as a separate college with Prof. Jose B. Maniwang as founding dean. Under his leadership, the College of Criminology was granted recognition on June 18, 1984 by the Department of Education, Culture and Sports pursuant to DECS Order No. 23, s. 1984.",
       "The College started with only seventy nine (79) students in 1979 and its enrolment gradually increased in the following years. It has produced a total of eight (8) topnotchers since 1990 and has graduated more than a thousand students who are now gainfully employed as law enforcement officers, laboratory technicians, signature verifiers, security officers, criminal investigators in various private and public offices in the Philippines and abroad.",
-      "Today, AUF's BS Criminology program is the only PAASCU Level 3 Reaccredited program and the only Center of Excellence in Central Luzon. The AUF CRIM program is recognized in both regional and national levels such as Center for Human Rights Education in Region 3 and a top performing school in the February 2025 Criminologist Licensure Examination. The AUF Criminology passing rate exceeds the national average for multiple consecutive years. These awards and distinctions demonstrate the program's strong commitment to academic excellence, effective instructions, relevant and dynamic curriculum and premium laboratory equipment and facilities."
+      "Today, AUF's BS Criminology program is the only PAASCU Level 3 Reaccredited program in the country and the only Center of Excellence in Central Luzon. The AUF BS Criminology program is recognized in both regional and national levels such as Center for Human Rights Education in Region 3 and a top performing school in the February 2025 Criminologist Licensure Examination. The AUF Criminology passing rate exceeds the national average for multiple consecutive years. These awards and distinctions demonstrate the program's strong commitment to academic excellence, effective instructions, relevant and dynamic curriculum and premium laboratory equipment and facilities."
     ],
     "goals": [
       "Foster deep moral values, civic consciousness, and Christian values required for ethical and transparent governance in public safety and criminal justice systems;",
@@ -958,78 +1229,97 @@
       {
         "id": "ccje_org_csc",
         "name": "Criminology Student Council (CSC)",
-        "description": "The official student governing body of the college. It spearheads student representation, academic-administrative coordination, leadership assemblies, and institutional welfare projects to advance the collective goals of the student body.",
+        "description": "The official student governing body of the College. It represents the interests of CCJE students, facilitates coordination with the College administration, organizes leadership and student-development initiatives, and promotes student welfare and institutional participation.",
         "type": "Academic"
       },
       {
-        "id": "ccje_org_crimson_shield",
-        "name": "AUF Crimson Shield Society",
-        "description": "A specialized academic-tactical student organization focused on advancing crime investigation skills, procedural law drills, specialized disaster management protocols, public security administration field studies, and civic safety advocacies.",
+        "id": "ccje_org_jrpcap",
+        "name": "AUF Junior Professional Criminologists Association of the Philippines (Junior PCAP)",
+        "description": "The student organization affiliated with the Professional Criminologists Association of the Philippines. It promotes professional identity, ethical practice, leadership development, and early engagement with the criminology profession.",
         "type": "Academic"
       },
       {
-        "id": "ccje_org_fss",
-        "name": "Forensic Science Society (FSS)",
-        "description": "The professional student collective for criminology students specialized in forensic science workflows. It coordinates advanced workshops on latent print development, forensic chemistry, question document verifications, ballistics indexing, and simulated crime scene processing workflows.",
+        "id": "ccje_org_jlea",
+        "name": "Junior Law Enforcement Association (JLEA)",
+        "description": "An academic and professional organization that develops students’ knowledge, leadership, discipline, and practical competencies in law enforcement, public safety, crime prevention, and related fields.",
         "type": "Academic"
+      },
+      {
+        "id": "ccje_org_crimsoc",
+        "name": "Criminology Society",
+        "description": "A student organization that advances academic excellence, camaraderie, community involvement, and professional development through scholarly, civic, cultural, and extracurricular activities.",
+        "type": "Academic"
+      },
+      {
+        "id": "ccje_org_crimwatch",
+        "name": "CRIMWATCH",
+        "description": "The official student publication of the AUF College of Criminal Justice Education. It serves as a platform for responsible campus journalism, student expression, criminological discourse, institutional updates, and the documentation of College activities and accomplishments.",
+        "type": "Student Publication"
       }
     ],
     "topnotches": [
       {
         "id": "ccje_top_1",
-        "name": "Marcial M. Pineda",
+        "name": "Vince Reginald O. Pangilinan",
         "exam": "Criminologist Licensure Examination",
-        "rank": "5th Place",
-        "year": "1993"
+        "rank": "4th Place",
+        "year": "December 2017"
       },
       {
         "id": "ccje_top_2",
-        "name": "Rommel P. Sunga",
+        "name": "P/Insp. Resty S. Astrero",
         "exam": "Criminologist Licensure Examination",
-        "rank": "7th Place",
-        "year": "1998"
+        "rank": "3rd Place",
+        "year": "October 2012"
       },
       {
         "id": "ccje_top_3",
-        "name": "Dennis D. Gomez",
+        "name": "Ms. Shirley V. Sarmiento",
         "exam": "Criminologist Licensure Examination",
-        "rank": "9th Place",
-        "year": "2004"
+        "rank": "3rd Place",
+        "year": "September 2002"
       },
       {
         "id": "ccje_top_4",
-        "name": "Jerry M. Tolentino",
+        "name": "Mr. Dickson G. Tolentino",
         "exam": "Criminologist Licensure Examination",
-        "rank": "8th Place",
-        "year": "2007"
+        "rank": "5th Place",
+        "year": "September 2001"
       },
       {
         "id": "ccje_top_5",
-        "name": "Marlon K. Rivera",
+        "name": "Mr. Dennis G. Hipolito",
         "exam": "Criminologist Licensure Examination",
-        "rank": "4th Place",
-        "year": "2011"
+        "rank": "2nd Place",
+        "year": "March 1998"
       },
       {
         "id": "ccje_top_6",
-        "name": "Jefferson A. Almario",
+        "name": "Mr. Felix A. Verbo Jr.",
         "exam": "Criminologist Licensure Examination",
-        "rank": "3rd Place",
-        "year": "2015"
+        "rank": "5th Place",
+        "year": "November 1992"
       },
       {
         "id": "ccje_top_7",
-        "name": "John Carlo M. Valencia",
+        "name": "Mr. Arnaldo C. Nunag",
         "exam": "Criminologist Licensure Examination",
-        "rank": "6th Place",
-        "year": "2018"
+        "rank": "11th Place",
+        "year": "November 1991"
       },
       {
         "id": "ccje_top_8",
-        "name": "Alvin J. De Leon",
+        "name": "Mr. Wilfredo M. Lagman",
         "exam": "Criminologist Licensure Examination",
-        "rank": "10th Place",
-        "year": "2023"
+        "rank": "8th Place",
+        "year": "November 1990"
+      },
+      {
+        "id": "ccje_top_9",
+        "name": "Mr. Eduardo G. Tuazon Jr.",
+        "exam": "Criminologist Licensure Examination",
+        "rank": "12th Place",
+        "year": "November 1990"
       }
     ],
     "licensurePerformance": {
@@ -1092,6 +1382,16 @@
         "description": "A fingerprint processing and archiving station. Features professional fingerprint taking kit benches, latent card indexing storage drawers, customized magnifying glasses, ridges counting tools, and electronic fingerprint scanners to master identification classification methods (Henry System) and comparison verification."
       },
       {
+        "id": "ccje_fac_photo",
+        "name": "Forensic Photography Room",
+        "description": "A specialized instructional laboratory equipped for photographing, processing, and documenting physical evidence and simulated crime scenes. It enables students to develop competencies in camera operation, lighting, image enhancement, evidence photography, and the proper preservation of photographic records for investigative and judicial purposes."
+      },
+      {
+        "id": "ccje_fac_mootcourt",
+        "name": "Moot Court",
+        "description": "A simulated courtroom designed to develop students’ competencies in court procedures, case presentation, legal argumentation, direct and cross-examination, and the proper presentation of testimonial and documentary evidence. It provides an experiential learning environment for mock trials, court testimony exercises, and other criminal justice proceedings."
+      },
+      {
         "id": "ccje_fac_ballistics",
         "name": "Forensic Ballistics Room",
         "description": "Contains technical displays of ammunition types, propellant profiles, firing pin configurations, and firearm classifications. Features a specialized bullet recovery box apparatus alongside comparison stereomicroscopes to analyze rifling marks, land and groove configurations, and bullet striation mapping data."
@@ -1119,8 +1419,9 @@
     },
     "contact": {
       "email": "ccs@auf.edu.ph",
-      "phone": null,
-      "address": "Technology Building, AUF Campus"
+      "phone": "(+63-45) 625-2888 loc. 1912",
+      "address": "Ground Floor, Emmanuel Y. Angeles Center for Learning and Innovation Hall MacArthur Highway Angeles City Philippines 2009",
+      "emailAlt": "ccs.admissions@auf.edu.ph"
     },
     "vision": "The College of Computer Studies envisions to emerge as the center of excellence in IT education, research and community service in the region. It aims to  develop professionals who are globally competitive, socially responsible and dedicated to the advancement of the IT industry in the country and in the world.",
     "mission": "The College aims to provide well – rounded Information Technology Education (ITE) Programs to meet the standards for professional practitioners in the country and in the global community",
@@ -1129,7 +1430,7 @@
         "id": "ccs_cs",
         "slug": "computer-science",
         "name": "Bachelor of Science in Computer Science",
-        "headName": "Mrs. Melissa M. Pantig, MCS",
+        "headName": "Ms. Melissa Pantig",
         "headTitle": "Program Chair",
         "contactEmail": null,
         "duration": "4 years",
@@ -1169,7 +1470,7 @@
         "id": "ccs_it",
         "slug": "information-technology",
         "name": "Bachelor of Science in Information Technology",
-        "headName": "Dr. Adriane Brent S. Castro",
+        "headName": "Dr. Joey Avilles",
         "headTitle": "Program Chair",
         "contactEmail": null,
         "duration": "4 years",
@@ -1229,7 +1530,7 @@
         "id": "ccs_bma",
         "slug": "multimedia-arts",
         "name": "Bachelor of Multimedia Arts",
-        "headName": "Mr. Jaypee B. Patdu, MIT",
+        "headName": "Dr. Daisy S. Yap",
         "headTitle": "Program Chair",
         "contactEmail": null,
         "duration": "4 years",
@@ -1572,8 +1873,8 @@
     },
     "contact": {
       "email": "cea@auf.edu.ph",
-      "phone": null,
-      "address": "Engineering Building, AUF Campus"
+      "phone": "(+63-45) 625-2888 loc. 1909",
+      "address": "Ground Floor, Emmanuel Y. Angeles Center for Learning and Innovation Hall MacArthur Highway Angeles City Philippines 2009"
     },
     "vision": "The College of Engineering and Architecture envisions to produce the country's builders of environment-friendly structures and systems.",
     "mission": "To realize its vision, the College is committed to develop responsive and responsible engineers and architects who shall become leaders and citizens of the twenty-first century.",
@@ -1584,7 +1885,42 @@
         "name": "Bachelor of Science in Architecture",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "description": "The Bachelor of Science in Architecture (BS Architecture) program includes the study of architectural design, planning, building technology, environmental systems, construction methods, architectural history and theory, and emerging developments in the built environment. The program prepares students to plan, design, and develop safe, functional, sustainable, and aesthetically responsive buildings and spaces while acquiring the knowledge, technical competencies, and professional skills necessary to produce architectural solutions in accordance with applicable laws, standards, and professional practice.",
+        "curriculum": [
+          "Design Studio-Centered Learning",
+          "Building Technology and Construction",
+          "Professional Practice and Construction Management",
+          "Planning, Sustainability, and Environmental Design",
+          "Interdisciplinary and Collaborative Learning",
+          "Practice-Oriented Learning Experiences",
+          "Digital Design and BIM Integration",
+          "Research and Innovation"
+        ],
+        "careers": [
+          "Architectural Design and Consultant",
+          "Construction and Project Manager",
+          "Building Information Modeling (BIM) and Digital Designer",
+          "Urban Planning and Community Developer",
+          "Facilities and Building Administrators",
+          "Interior and Workplace Designer",
+          "Government and Public Service",
+          "Heritage and Conservation Consultant"
+        ],
+        "specializations": [
+          {
+            "name": "Architectural Design and Planning",
+            "description": "This specialization aims to develop competent design professionals who can conceptualize, plan, and deliver innovative, sustainable, and functional architectural projects while applying design thinking, professional ethics, and relevant building regulations."
+          },
+          {
+            "name": "Building Technology and Construction Management",
+            "description": "This specialization aims to prepare students to become industry-ready professionals capable of managing construction projects, coordinating multidisciplinary teams, and delivering quality architectural projects from design development through project completion."
+          },
+          {
+            "name": "Digital Architecture and Sustainable Built Environment",
+            "description": "This specialization aims to produce future-ready architects who leverage digital innovation and sustainable design strategies to create resilient, intelligent, and environmentally responsible built environments for local and global communities."
+          }
+        ]
       },
       {
         "id": "cea_ce",
@@ -1592,7 +1928,38 @@
         "name": "Bachelor of Science in Civil Engineering",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "description": "The Bachelor of Science in Civil Engineering (BSCE) program provides students with a comprehensive foundation in the planning, analysis, design, construction, operation, and maintenance of infrastructure and the built environment. The program integrates mathematics, engineering sciences, and emerging technologies with practical applications in structural engineering, transportation engineering, geotechnical engineering, water resources engineering, construction engineering and management, and environmental engineering. The program prepares students to become competent, ethical, and innovative civil engineers capable of designing safe, resilient, sustainable, and cost-effective infrastructure while addressing the evolving needs of society. Graduates are equipped with the technical knowledge, problem-solving skills, leadership abilities, and professional competencies necessary to practice civil engineering in accordance with national and international standards.",
+        "curriculum": [
+          "Outcome-Based Engineering Education (OBE)",
+          "Structural Analysis and Design",
+          "Geotechnical Engineering and Foundation Design",
+          "Transportation and Traffic Engineering",
+          "Water Resources and Hydraulic Engineering",
+          "Construction Engineering and Project Management",
+          "Environmental and Sustainable Infrastructure",
+          "Surveying",
+          "Laboratory, Fieldwork, and Industry-Based Learning",
+          "Research, Innovation, and Community Engagement"
+        ],
+        "careers": [
+          "Structural Design Engineer",
+          "Construction and Project Engineer",
+          "Transportation and Traffic Engineer",
+          "Geotechnical and Foundation Engineer",
+          "Water Resources and Hydraulic Engineer",
+          "Environmental and Sanitary Engineer",
+          "Quantity Surveyor and Cost Engineer",
+          "Infrastructure Planning and Development Specialist",
+          "Government and Public Service Engineer",
+          "Engineering Consultant and Project Manager"
+        ],
+        "specializations": [
+          {
+            "name": "Geotechnical Engineering",
+            "description": "This specialization equips students with the knowledge and technical skills in soil mechanics, foundation engineering, site investigation, and earth structures. It prepares future civil engineers to analyze subsurface conditions, design safe and reliable foundation systems, and develop sustainable geotechnical solutions for infrastructure projects."
+          }
+        ]
       },
       {
         "id": "cea_cpe",
@@ -1600,7 +1967,21 @@
         "name": "Bachelor of Science in Computer Engineering",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "careers": [
+          "Embedded Systems Engineer",
+          "AI Engineer",
+          "Robotics Engineer",
+          "Machine Learning Engineer",
+          "FPGA Engineer",
+          "Software Engineer",
+          "Systems Engineer",
+          "Network Engineer",
+          "IoT Developer",
+          "Firmware Engineer",
+          "Cloud Engineer",
+          "Automation Engineer"
+        ]
       },
       {
         "id": "cea_ece",
@@ -1608,7 +1989,26 @@
         "name": "Bachelor of Science in Electronics Engineering",
         "headName": "TBA",
         "headTitle": "Program Chair",
-        "contactEmail": null
+        "contactEmail": null,
+        "curriculum": [
+          "Broadcasting & Communication Technologies (Digital Communication, Analog and Digital Transmission, Modulation and Coding, Communication Systems, Broadcasting Technologies, Wireless Communication, Signal Processing)",
+          "Cisco Networking (Network Fundamentals, Routing and Switching, Network Configuration, Network Troubleshooting, IP Networking, Network Security Fundamentals, Industry-oriented networking practices)",
+          "Integrated ECE Review Courses (Review major ECE concepts, Practice board-examination-type problems, Identify areas for improvement, Strengthen problem-solving skills, Develop confidence for the licensure examination)"
+        ],
+        "careers": [
+          "Telecommunications & Networking",
+          "Broadcasting & Media Technology",
+          "Electronics & Technology",
+          "Automation & Emerging Technologies",
+          "Networking & Digital Technologies",
+          "Research",
+          "Entrepreneurship",
+          "Education",
+          "Government",
+          "Technical Sales",
+          "Project Management",
+          "Engineering Consultancy"
+        ]
       }
     ],
     "goals": [
@@ -1620,67 +2020,262 @@
     ],
     "affiliations": [
       {
-        "id": "cea_aff_pcs",
-        "name": "Philippine Computer Society",
-        "type": "Local"
+        "id": "cea_aff_uap",
+        "name": "United Architects of the Philippines (UAP)",
+        "type": "Architecture",
+        "description": "A recognized organization that serves as a valued industry partner of the school by fostering collaboration in architectural education through professional development, mentorship, academic engagement, community extension, and the promotion of ethical and competent architectural practice among students and faculty."
+      },
+      {
+        "id": "cea_aff_philasa",
+        "name": "Philippine Architecture Schools Association (PhilASA)",
+        "type": "Architecture",
+        "description": "A national organization of architecture schools that strengthens a school's commitment to quality architectural education."
       },
       {
         "id": "cea_aff_pice",
-        "name": "Philippine Institute of Civil Engineers",
-        "type": "Local"
+        "name": "Philippine Institute of Civil Engineers (PICE)",
+        "type": "Civil Engineering",
+        "description": "A recognized professional organization that serves as a valued industry partner of the school by promoting excellence in civil engineering education through professional development, technical collaboration, mentorship, industry engagement, community extension, and the advancement of ethical and competent civil engineering practice among students and faculty."
+      },
+      {
+        "id": "cea_aff_icpep",
+        "name": "Institute of Computer Engineers of the Philippines (ICpEP)",
+        "type": "Computer Engineering",
+        "description": "Official professional organization of Computer Engineers in the Philippines committed to advancing the Computer Engineering profession by promoting excellence in education, innovation, research, and industry collaboration."
+      },
+      {
+        "id": "cea_aff_mrsp",
+        "name": "Mechatronics and Robotics Society of the Philippines",
+        "type": "Computer Engineering",
+        "description": "A national professional organization dedicated to advancing the fields of mechatronics, robotics, automation, and intelligent systems."
+      },
+      {
+        "id": "cea_aff_cisco",
+        "name": "Cisco Networking Academy",
+        "type": "Computer Engineering",
+        "description": "Industry Partner"
+      },
+      {
+        "id": "cea_aff_duke",
+        "name": "Duke Software Development Center",
+        "type": "Computer Engineering",
+        "description": "Industry Partner"
+      },
+      {
+        "id": "cea_aff_twist",
+        "name": "TwistResources, Inc.",
+        "type": "Computer Engineering",
+        "description": "Industry Partner"
+      },
+      {
+        "id": "cea_aff_ti",
+        "name": "Texas Instruments Philippines",
+        "type": "Computer Engineering",
+        "description": "Industry Partner"
+      },
+      {
+        "id": "cea_aff_travel_leisure",
+        "name": "Travel + Leisure Global Support Services Philippines, Inc.",
+        "type": "Computer Engineering",
+        "description": "Industry Partner"
+      },
+      {
+        "id": "cea_aff_shore360",
+        "name": "Shore360, Inc.",
+        "type": "Computer Engineering",
+        "description": "Industry Partner"
+      },
+      {
+        "id": "cea_aff_psite",
+        "name": "Philippine Society of Information Technology Educators (PSITE)",
+        "type": "Computer Engineering",
+        "description": "Professional Organization"
       },
       {
         "id": "cea_aff_iecep",
-        "name": "Institute of Electronics and Communications Engineering of the Philippines",
-        "type": "Local"
+        "name": "Institute of Electronics Engineers of the Philippines (IECEP)",
+        "type": "Electronics Engineering",
+        "description": "Professional Organization"
       },
       {
-        "id": "cea_aff_aceep",
-        "name": "Association of Civil Engineering Educators of the Philippines",
-        "type": "Local"
+        "id": "cea_aff_paes",
+        "name": "Philippine Association of Engineering Schools (PAES)",
+        "type": "Electronics Engineering",
+        "description": "A national organization of engineering higher education institutions that strengthens the school's commitment to quality engineering education by promoting academic excellence, curriculum enhancement, faculty development, research collaboration, industry engagement, and institutional partnerships."
+      }
+    ],
+    "topnotches": [
+      {
+        "id": "cea_top_1",
+        "name": "Kurt Justine D. Sarmiento, Xavier Clay P. Ardillo, Nathalia Ela M. Hingpit",
+        "exam": "National CPE Challenge 2026",
+        "rank": "Champion - Quiz Bowl Competition",
+        "year": "2026",
+        "program": "BS Computer Engineering"
       },
       {
-        "id": "cea_aff_dost",
-        "name": "Department of Science and Technology",
-        "type": "Local"
+        "id": "cea_top_2",
+        "name": "Kurt Justine D. Sarmiento",
+        "exam": "Asia-Pacific, Japan, and Greater China (APJC) Cisco NetAcad Riders 2026",
+        "rank": "Silver Medal - International Networking Competition",
+        "year": "2026",
+        "program": "BS Computer Engineering"
       },
       {
-        "id": "cea_aff_pate",
-        "name": "Philippine Association of Technology Educators",
-        "type": "Local"
+        "id": "cea_top_3",
+        "name": "Angeles University Foundation",
+        "exam": "9th Regional CPE Challenge 2026",
+        "rank": "Overall Champion among Universities and Colleges in the Region",
+        "year": "2026",
+        "program": "College of Engineering and Architecture"
       },
       {
-        "id": "cea_aff_nrcp",
-        "name": "National Research Council of The Philippines",
-        "type": "Local"
+        "id": "cea_top_4",
+        "name": "Kurt Justine D. Sarmiento, Xavier Clay P. Ardillo, Sean Andrei Luis R. Nabong",
+        "exam": "9th Regional CPE Challenge 2026",
+        "rank": "Champion - Quiz Bowl Competition",
+        "year": "2026",
+        "program": "BS Computer Engineering"
       },
       {
-        "id": "cea_aff_patleepam",
-        "name": "Philippine Association of Tertiary Level Educational Institutions in Environmental Protection and Management",
-        "type": "Local"
+        "id": "cea_top_5",
+        "name": "Jobert H. Aguirre",
+        "exam": "9th Regional CPE Challenge 2026",
+        "rank": "Champion - Digital Poster Competition",
+        "year": "2026",
+        "program": "BS Computer Engineering"
       },
       {
-        "id": "cea_aff_pcierd",
-        "name": "Philippine Council for Industry and Energy Research and Development",
-        "type": "Local"
+        "id": "cea_top_6",
+        "name": "Andrei Lance P. Asuncion",
+        "exam": "9th Regional CPE Challenge 2026",
+        "rank": "1st Runner Up - C++ Programming Competition",
+        "year": "2026",
+        "program": "BS Computer Engineering"
       },
       {
-        "id": "cea_aff_griffith",
-        "name": "Griffith University – Australia",
-        "type": "International",
-        "description": "Academic Partner"
+        "id": "cea_top_7",
+        "name": "Stephen Kurl G. Pinacate",
+        "exam": "9th Regional CPE Challenge 2026",
+        "rank": "2nd Runner Up - Networking Competition",
+        "year": "2026",
+        "program": "BS Computer Engineering"
       },
       {
-        "id": "cea_aff_ait",
-        "name": "Asian Institute of Technology- Thailand",
-        "type": "International",
-        "description": "Academic Partner"
+        "id": "cea_top_8",
+        "name": "Mark Jennel M. Batongbacal",
+        "exam": "9th Regional CPE Challenge 2026",
+        "rank": "3rd Runner Up - C Programming",
+        "year": "2026",
+        "program": "BS Computer Engineering"
+      }
+    ],
+    "studentOrganizations": [
+      {
+        "id": "cea_org_uapsa",
+        "name": "United Architects of the Philippines Student Auxiliary - AUF Chapter (UAPSA-AUF)",
+        "description": "The official student organization affiliated with the AUF, providing architecture students with opportunities for leadership development, professional networking, academic enrichment, community service, and active engagement with the architectural profession while upholding the values and standards of the United Architects of the Philippines.",
+        "type": "Architecture"
       },
       {
-        "id": "cea_aff_psu",
-        "name": "Prince of Songkhla University – Thailand",
-        "type": "International",
-        "description": "Academic Partner"
+        "id": "cea_org_pice",
+        "name": "Philippine Institute of Civil Engineers – AUF Student Chapter (PICE-AUF)",
+        "description": "The official student organization affiliated with the Philippine Institute of Civil Engineers, providing civil engineering students with opportunities for leadership development, professional networking, technical enrichment, community service, research engagement, and active participation in the civil engineering profession while upholding the values and standards of the Philippine Institute of Civil Engineers.",
+        "type": "Civil Engineering"
+      },
+      {
+        "id": "cea_org_icpep_se",
+        "name": "Institute of Computer Engineers of the Philippines Student Edition (ICpEP.SE)",
+        "description": "It is the official student organization for Computer Engineering students in the Philippines. It empowers future computer engineers by promoting academic excellence, technical competence, leadership, innovation, and social responsibility. Through seminars, competitions, industry partnerships, and community outreach programs, ICpEP.SE prepares students to become skilled professionals and future leaders in the field of Computer Engineering.",
+        "type": "Computer Engineering"
+      },
+      {
+        "id": "cea_org_jiecep",
+        "name": "Junior Institute of Electronics Engineers of the Philippines – Angeles University Foundation (JIECEP-AUF)",
+        "description": "The JIECEP-AUF is the student organization of Electronics Engineering students at Angeles University Foundation, providing a platform where future Electronics Engineers can develop not only their technical knowledge but also their leadership, teamwork, communication, and professional skills. Through technical activities, seminars, competitions, outreach programs, industry engagements, and student-led projects, JIECEP-AUF helps students bring their classroom learning into real-world applications.",
+        "type": "Electronics Engineering"
+      }
+    ],
+    "facilities": [
+      {
+        "id": "cea_fac_drafting",
+        "name": "Drafting Studio",
+        "description": "Dedicated studio facility for BS Architecture students designed for manual drafting, architectural rendering, and design studio courses."
+      },
+      {
+        "id": "cea_fac_material_studio",
+        "name": "Material Studio",
+        "description": "Specialized studio for BS Architecture students for material exploration, physical model making, and construction material analysis."
+      },
+      {
+        "id": "cea_fac_fluid_mech",
+        "name": "Surveying, Fluid Mechanics & Hydraulics Laboratory",
+        "description": "Instructional and testing laboratory for BS Civil Engineering students supporting surveying instrumentation, fluid flow analysis, and hydraulic experiments."
+      },
+      {
+        "id": "cea_fac_mat_testing",
+        "name": "Material Testing & Soil Mechanics Laboratory",
+        "description": "Testing laboratory for BS Civil Engineering students equipped for soil mechanics testing, concrete stress analysis, and construction material quality assessment."
+      },
+      {
+        "id": "cea_fac_physics",
+        "name": "Physics Laboratory",
+        "description": "Laboratory facility serving BSCE, BSCPE, and BSECE students for experimental physics, mechanics, and wave optics coursework."
+      },
+      {
+        "id": "cea_fac_dsp_cad",
+        "name": "DSP / CAD Laboratory",
+        "description": "Computer-aided design and digital signal processing laboratory serving BSCE, BSCPE, BSECE, and BSAR students with industry-standard engineering and CAD software."
+      },
+      {
+        "id": "cea_fac_electronics",
+        "name": "Electronics Laboratory",
+        "description": "Hardware laboratory for BSECE and BSCPE students equipped with oscilloscopes, signal generators, circuit prototyping stations, and testing equipment."
+      },
+      {
+        "id": "cea_fac_digital",
+        "name": "Digital Laboratory",
+        "description": "Specialized laboratory for BSECE and BSCPE students for digital logic design, microcontrollers, FPGA development, and embedded computing."
+      },
+      {
+        "id": "cea_fac_comms",
+        "name": "Communications Laboratory",
+        "description": "Advanced telecommunications and RF engineering laboratory for BSECE students supporting analog and digital communication systems, modulation testing, and antenna experimentation."
+      }
+    ],
+    "collegeAccreditations": [
+      {
+        "id": "cea_acc_ched_autonomous",
+        "body": "CHED",
+        "program": "Institutional",
+        "level": "Autonomous Status",
+        "year": "Current",
+        "description": "Autonomous status granted by the Commission on Higher Education (CHED)."
+      },
+      {
+        "id": "cea_acc_paascu_level3",
+        "body": "PAASCU",
+        "program": "Engineering Programs",
+        "level": "Level III Accredited",
+        "year": "Current",
+        "description": "Level III Accreditation by the Philippine Accrediting Association of Schools, Colleges and Universities (PAASCU)."
+      },
+      {
+        "id": "cea_acc_iso",
+        "body": "TUV-SUD",
+        "program": "Institutional",
+        "level": "ISO 9001:2015 Certified",
+        "year": "Current",
+        "description": "ISO 9001:2015 Certification by TUV-SUD."
+      }
+    ],
+    "recognitions": [
+      {
+        "id": "cea_rec_cod",
+        "title": "Center of Development",
+        "by": "Commission on Higher Education (CHED)",
+        "year": "Current",
+        "description": "Recognized by CHED as a Center of Development in Engineering Education."
       }
     ]
   },
@@ -1699,23 +2294,77 @@
     "sortOrder": 7,
     "isActive": true,
     "dean": {
-      "name": "TBA",
+      "name": "Dr. Jennifer P. Santillan",
       "title": "Dean",
       "photoUrl": null
     },
     "contact": {
       "email": "ced@auf.edu.ph",
-      "phone": null,
-      "address": "Education Building, AUF Campus"
+      "phone": "(+63-45) 625-2888 loc. 1903 / 1904",
+      "address": "Room 102 (Office) / Room 113 (Faculty), Ground Floor, Emmanuel Y. Angeles Building, AUF Main Campus, MacArthur Highway, Angeles City, Philippines 2009"
     },
     "vision": "The College of Education envisions to be the center for excellence in instruction, research, community service and other scholarly activities in teacher education, whose sphere of intellectual influence extends to both public and private schools.",
     "mission": "To realize its vision, the College is committed to develop Christian educators who are dedicated to help the youth to emerge as the nation’s partners of development and the protectors of human life and the environment.",
     "programs": [
       {
+        "id": "ced_bsed",
+        "slug": "secondary-education",
+        "name": "Bachelor of Secondary Education (BSEd)",
+        "headName": "Mr. Christian Nicole M. Estrada, MAT-PE, LPT",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The Bachelor of Secondary Education (BSE) degree program aims to:",
+        "curriculum": [
+          "Develop high school teachers who can teach in one of the different learning areas in high school such as, but not limited to English, Filipino, Mathematics, Sciences, Social Studies and Values Education;",
+          "Enable the prospective teachers to direct and facilitate effectively the learning of high school students;",
+          "Assist the prospective teachers in acquiring the necessary skills in guiding the character formation of students;",
+          "Promote students' interest in research and further studies as part of capability building in the teaching profession; and",
+          "Help the students to become advocates of Christian principles, virtues, and values at all times, on campus and off campus."
+        ],
+        "specializations": [
+          {
+            "name": "English"
+          },
+          {
+            "name": "English and Chinese Language Teaching"
+          },
+          {
+            "name": "Filipino"
+          },
+          {
+            "name": "Mathematics"
+          },
+          {
+            "name": "Science"
+          },
+          {
+            "name": "Social Studies"
+          },
+          {
+            "name": "Values Education"
+          }
+        ],
+        "admissionRequirements": [
+          "Satisfactory performance in the AUF College Admissions Test (AUFCAT)",
+          "Complete documentary requirements submitted via MyAU (Senior high school report card/ TOR for transferees, PSA birth certificate, Picture)",
+          "Interview attendance as may be required",
+          "Recommendations from guidance counselor and class adviser"
+        ],
+        "careers": [
+          "Secondary School Teacher (Public or Private)",
+          "Senior High School Teacher",
+          "Curriculum and Learning Resource Developer",
+          "Educational Research Assistant/ Specialist",
+          "Subject Area Specialist",
+          "Academic Coordinator or Student Development Officer"
+        ]
+      },
+      {
         "id": "ced_beed",
         "slug": "elementary-education",
         "name": "Bachelor of Elementary Education (BEEd)",
-        "headName": "TBA",
+        "headName": "Mr. Christian Nicole M. Estrada, MAT-PE, LPT",
         "headTitle": "Program Chair",
         "contactEmail": null,
         "duration": "4 years",
@@ -1725,136 +2374,173 @@
           "Enable the prospective teachers to direct and facilitate effectively the learning of pre-elementary and elementary pupils;",
           "Assist the prospective teachers to acquire the necessary skills in guiding the character formation of pupils by serving as role models;",
           "Promote students' interest in research and further studies as part of capability building in the teaching profession; and",
-          "Help the students become advocates of Christian principles, virtues, and values at all times, in campus and out campus."
+          "Help the students become advocates of Christian principles, virtues, and values at all times, on campus and off campus."
         ],
-        "specializations": [
-          {
-            "name": "General Education"
-          },
-          {
-            "name": "Special Education"
-          },
-          {
-            "name": "Pre-School Education"
-          }
+        "admissionRequirements": [
+          "Satisfactory performance in the AUF College Admissions Test (AUFCAT)",
+          "Complete documentary requirements submitted via MyAU (Senior high school report card/ TOR for transferees, PSA birth certificate, Picture)",
+          "Interview attendance as may be required",
+          "Recommendations from guidance counselor and class adviser"
+        ],
+        "careers": [
+          "Elementary School Teacher (Public or Private)",
+          "Preschool or Early Childhood Educator",
+          "Learning Support or Intervention Teacher",
+          "Curriculum and Learning Resource Developer",
+          "Educational Research Assistant/ Specialist"
         ]
       },
       {
-        "id": "ced_bsed",
-        "slug": "secondary-education",
-        "name": "Bachelor of Secondary Education (BSEd)",
-        "headName": "TBA",
+        "id": "ced_beced",
+        "slug": "early-childhood-education",
+        "name": "Bachelor of Early Childhood Education (BECEd)",
+        "headName": "Mr. Christian Nicole M. Estrada, MAT-PE, LPT",
         "headTitle": "Program Chair",
         "contactEmail": null,
         "duration": "4 years",
-        "description": "The Bachelor of Secondary Education (BSE) degree program aims to:",
+        "description": "The Bachelor of Early Childhood Education (BECEd) degree program aims to:",
         "curriculum": [
-          "Develop high school teachers who can teach in one of the different learning areas in high school such as, but not limited to Biological Sciences, English, Filipino, Mathematics, P.E.H.M among others;",
-          "Enable the prospective teachers to direct and facilitate effectively the learning of high school students;",
-          "Assist the prospective teachers in acquiring the necessary skills in guiding the character formation of students;",
-          "Promote students' interest in research and further studies as part of capability building in the teaching profession; and",
-          "Help the students become advocates of Christian principles, virtues, and values at all times, in campus and out campus."
+          "Educate individuals to become competent early childhood practitioners working with children from 0-8 years old in the various early childhood settings (home, community, school and workplace). The program is aligned with the National Early Learning Framework (NELF), the Philippine Professional Standards for Teachers (PPST) and the first key stage which is K to 3."
         ],
-        "specializations": [
-          {
-            "name": "Biological Science"
-          },
-          {
-            "name": "Chinese Language Teaching"
-          },
-          {
-            "name": "English"
-          },
-          {
-            "name": "Filipino"
-          },
-          {
-            "name": "General Science"
-          },
-          {
-            "name": "Mathematics"
-          },
-          {
-            "name": "Social Studies"
-          },
-          {
-            "name": "Values Education"
-          }
+        "admissionRequirements": [
+          "Satisfactory performance in the AUF College Admissions Test (AUFCAT)",
+          "Complete documentary requirements submitted via MyAU (Senior high school report card/ TOR for transferees, PSA birth certificate, Picture)",
+          "Interview attendance as may be required",
+          "Recommendations from guidance counselor and class adviser"
+        ],
+        "careers": [
+          "Early Childhood Educator (Child Development Centers, Preschools, or Kindergartens)",
+          "Kindergarten or Primary Grades (K–3) Teacher",
+          "Child Development Program Coordinator",
+          "Early Childhood Curriculum and Learning Resource Developer",
+          "Family and Community Early Childhood Development Facilitator"
+        ]
+      },
+      {
+        "id": "ced_bsned",
+        "slug": "special-needs-education",
+        "name": "Bachelor of Special Needs Education (SNEd)",
+        "headName": "Mr. Christian Nicole M. Estrada, MAT-PE, LPT",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The Bachelor of Special Needs Education (SNEd) degree program aims to:",
+        "curriculum": [
+          "Prepare teachers who will instruct and manage students with additional needs in inclusive and segregated educational settings.",
+          "Equip graduates to teach the basic education curriculum and alternate curricula depending on the needs of the students. Those who will teach in the elementary level will be trained across different subject areas. Those who will teach in the secondary level will provide educational support to students with additional needs in inclusive classrooms or provide educational services to students who may be enrolled in special education centers.",
+          "Produce teachers in regular and special education schools as a teacher provided that he/she passes the Board Licensure Examination for Professional Teachers (BLEPT) in his/her subject area of specialization."
+        ],
+        "admissionRequirements": [
+          "Satisfactory performance in the AUF College Admissions Test (AUFCAT)",
+          "Complete documentary requirements submitted via MyAU (Senior high school report card/ TOR for transferees, PSA birth certificate, Picture)",
+          "Interview attendance as may be required",
+          "Recommendations from guidance counselor and class adviser"
+        ],
+        "careers": [
+          "Special Education (SPED) Teacher (Elementary, Junior High School, or Senior High School)",
+          "Inclusive Education Teacher or Learning Support Teacher",
+          "Special Education Center Teacher",
+          "Individualized Education Program (IEP) Coordinator or Case Manager",
+          "Special Education Curriculum and Learning Resource Developer/ Specialist"
+        ]
+      },
+      {
+        "id": "ced_bpe",
+        "slug": "physical-education",
+        "name": "Bachelor of Physical Education major in School P.E.",
+        "headName": "Mr. Christian Nicole M. Estrada, MAT-PE, LPT",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "4 years",
+        "description": "The Bachelor of Physical Education (BPE) major in School P.E degree program aims to:",
+        "curriculum": [
+          "Provide prospective teachers with a broadly based understanding of the discipline through theoretical and practical courses in P.E; and",
+          "Provide opportunity to prospective teachers to pursue various combinations of courses in teaching, coaching and administering within their particular area of interest."
+        ],
+        "admissionRequirements": [
+          "Satisfactory performance in the AUF College Admissions Test (AUFCAT)",
+          "Complete documentary requirements submitted via MyAU (Senior high school report card/ TOR for transferees, PSA birth certificate, Picture)",
+          "Interview attendance as may be required",
+          "Recommendations from guidance counselor and class adviser"
+        ],
+        "careers": [
+          "Physical Education Teacher (Elementary, Junior High School, or Senior High School)",
+          "Sports Coach",
+          "Sports and Recreation Program Coordinator",
+          "Athletics or Sports Development Officer",
+          "Fitness and Wellness Instructor"
+        ]
+      },
+      {
+        "id": "ced_pcct",
+        "slug": "certificate-in-teaching",
+        "name": "Professional Certificate Course in Teaching (PCCT)",
+        "headName": "Mr. Christian Nicole M. Estrada, MAT-PE, LPT",
+        "headTitle": "Program Chair",
+        "contactEmail": null,
+        "duration": "18 units",
+        "description": "The Professional Certificate Course in Teaching (PCCT) aims to:",
+        "curriculum": [
+          "Prepare non-education graduates to qualify for the Board Licensure Examination for Professional Teachers (BLEPT); and",
+          "Provide foundation to the teaching profession by taking 18 units of professional education courses."
+        ],
+        "careers": [
+          "Secondary School Teacher (Public or Private)",
+          "Senior High School Teacher",
+          "Curriculum and Learning Resource Developer",
+          "Educational Research Assistant/ Specialist",
+          "Subject Area Specialist",
+          "Academic Coordinator or Student Development Officer"
         ]
       }
     ],
     "history": [
-      "The College of Education (CED) was established in 1962 as part of the College of Arts and Sciences (CAS) and was mainly tasked to handle undergraduate programs. In 1980, it was tasked by DECS to supervise private schools which were implementing the New Elementary Schools Curriculum (NESC) in Central Luzon. Two years later in 1983, it emerged as a separate unit and was selected by the Department of Education, Culture and Sports as a pilot college in Region III.",
-      "The College started offering Bachelor of Elementary Education (BEEd) in 1986 and Bachelor of Secondary Education (BSEd) in 1989. Specializations under the BEEd program include General Education, Preschool Education, and Special Education. The BSEd program offers eight areas of specialization namely, English, Filipino, Biological Sciences, General Science, Mathematics, Social Studies, Values Education, and MAPEH. In 2011, Chinese Language Teaching (CLT) was offered as a BSEd double-major program in partnership with the Confucius Institute and the Fujian Normal University, People’s Republic of China.",
-      "Today, the College is a Center of Excellence in Teacher Education, PAASCU Level IV Accredited and ISO 9001:2008 certified by TUV-SUD.",
-      "From a small unit in 1962 that gradually emerged as a formidable college, CED has produced topnotchers, passers in the Licensure Examination for Teachers (LET) and hundreds of graduates who are now gainfully employed as educators and education managers."
+      "The College of Education started at the time of the Angeles Institute of Technology (now Angeles University Foundation), was established on May 25, 1962 as part of the College of Arts and Sciences (CAS). It initially focused on undergraduate programs. Four years later in 1966, the Graduate School was organized. Though established as an independent unit with its own dean and support staff, the College of Education and the Graduate School co-existed, supporting and strengthening each other’s programs.",
+      "CED’s growth path would not stop. The College in Higher Education Act and aiming to upgrade the Teacher Education program through the implementation of CHED Memorandum Order (CMO) 30 series of 2004, the Commission on Higher Education (CHED) involved AUF College of Education faculty to take charge of the Region 3 capacity building and orientation on the implementation of the new Teacher Education curriculum.",
+      "The College started offering Bachelor of Elementary Education (BEEd) curriculum in 1986 and Bachelor of Secondary Education (BSE) in 1989. The AUF Integrated School, which offers elementary and high school, functions as the college’s laboratory school.",
+      "In the Academic Year 1991-1992, the two programs of the College were classified under category “A” by the DECS, Region III, a distinction awarded to very few institutions of higher learning in Central Luzon.",
+      "An administrative re-structuring was implemented in the Academic Year 1999-2000 with the introduction of the verticalized structure. The structure provided for the clustering of related programs in both graduate and undergraduate levels under one college, i.e. all the graduate programs in education were under the College of Education, the Public Administration and Business administration under the College of Business Administration and the Nursing program under the College of Nursing. The vertical structure concept for the academic disciplines was especially recommended by the CHED for universities with strong undergraduate programs.",
+      "In the Academic Year 2003-2004, the verticalized structure of the College of Education was replaced by the “old” structure. Once again, the College was made to focus on undergraduate programs. The College then offered two curricular programs. Bachelor of Elementary Education (BEEd) with six areas of concentration (English, Filipino, General Science, Mathematics, Social Studies and MAPE); Bachelor of Secondary Education (BSEd) with eight major fields (English, Filipino, Biology, Biology-Chemistry, General Science, Mathematics, Social Studies and Physical Education, Health and Music or PEHM. These curricular offerings underwent revisions based on CHED requirements and to respond better to the peculiar needs of the AUF prospective teachers.",
+      "In one of the assemblies of the CED College Parents Association (CPA), it was announced to the parents that the college would offer Chinese language Teaching (CLT) as part of the double-major program intended for BSEd. Hence in June 2010, CLT has become a tandem course of any area of specialization offered by the BSEd program in partnership with the Confucius Institute and the Fujian Normal University, People’s Republic of China. Two years after, the program prioritized having CLT paired-up with the language courses, English and Filipino. At present, CED has already produced six (6) batches of graduates who have successfully completed the double-degree program.",
+      "In June 2014, CED offered the Bachelor of Physical Education (BPE) major in School P.E cognizant to the CMO 23, series of 2011, and in June 2019, CED offered Bachelor of Special Needs Education (SNEd) degree program in line with the CMO No. 77, series of 2017.",
+      "In its quest for excellence, accrediting agencies have accorded awards to the College. These include the following: Center of Excellence for Teacher Education awarded by the Commission on Higher Education for establishing and maintaining a good record in teacher education, research and community service from 2010-2025; Center of Training School in the region as a service provider in the intensive mass training on K-12 curriculum for the in-service elementary and high school teachers of the DepEd. This recognition was given by Teacher Education Council (TEC) of the Department of Education; Partner institution, prototype teacher education syllabi developers, and developers of learning resource packages in the MATATAG curriculum of Department of Education and Philippine National Research Center for Teacher Quality; Level IV Accredited Status to both Bachelor of Elementary Education and Bachelor of Secondary Education programs as awarded by the Federation of Accrediting Agencies of the Philippines for having met the standards and the requirements of PAASCU (Philippine Accrediting Association of Schools, Colleges, and Universities); ISO 21001:2018 (International Organization for Standards) for having established and applied a quality management system for the development and provision of the academic program of CED together with the other units in the university; From a small unit in 1962 that gradually emerged as a formidable college, CED has produced topnotchers, passers in the Licensure Examination for Teachers (LET) and hundreds of graduates who are now gainfully employed as educators and education managers."
     ],
     "goals": [
       "Develop a deep love of country and an abiding faith in God and man;",
       "Stimulate students' leadership potentials and assist them become effective change agents through specialized development programs;",
       "Provide an academic environment which will open avenues to update students on local, national and global issues and concerns vis-à-vis the developments in science and technology and other matters in education; and",
-      "Equip students with sound pedagogical theories and strategies together with the corresponding skills to enable them to teach in the elementary and secondary levels of education."
+      "Equip students with sound pedagogical theories and strategies together with the corresponding skills to enable them to teach in the elementary and the secondary levels of education."
     ],
     "studentOrganizations": [
       {
+        "id": "ced_org_csc",
+        "name": "College Student Council (CSC)",
+        "description": "This is the official organization of the College for student-leaders who serve as the primary representatives of the student body. It champions student welfare, leadership, and active participation by organizing programs, advocating students' interests, and fostering collaboration among students in building a vibrant, inclusive, and progressive academic community.",
+        "type": "Academic"
+      },
+      {
         "id": "ced_org_teacherspen",
-        "name": "Teacher’s Pen",
-        "description": "This is the official publication of the College considered as the hub of writers, photojournalists, and cartoonists who keep the community updated, persuaded, and entertained.",
+        "name": "The Teacher's Pen (TPen)",
+        "description": "This is the official student publication of the College considered as the hub of writers, photojournalists, and cartoonists who keep the community updated about the latest events, trends, and concerns.",
+        "type": "Student Publication"
+      },
+      {
+        "id": "ced_org_pesoc",
+        "name": "Physical Education (PE) Society",
+        "description": "This is the official organization of students taking Physical Education courses in the University. It promotes active engagement in physical and athletic activities for fitness and health.",
         "type": "Academic"
       },
       {
-        "id": "ced_org_elnb",
-        "name": "ELNB Educational Leaders for Nation Building",
-        "description": "ELNB is the community extension organization of the College.",
+        "id": "ced_org_clcs",
+        "name": "Chinese Language and Culture Society (CLCS)",
+        "description": "This is the official organization of students specializing in English and Chinese Language Teaching in the College. It promotes development of Chinese language proficiency, cultural appreciation, and intercultural understanding through academic, cultural, and community engagement activities that prepare members to become globally competent language educators and advocates of multilingualism in a cross-cultural world.",
         "type": "Academic"
       },
       {
-        "id": "ced_org_clts",
-        "name": "Chinese Language Teaching (CLT) Society",
-        "description": "The CLT Society promotes the appreciation and propagation of Chinese language, art, culture and history through education.",
-        "type": "Academic"
-      },
-      {
-        "id": "ced_org_metaart",
-        "name": "Meta Art",
-        "description": "Artists from CED come home to MetArt where their skills and styles are developed and shared.",
-        "type": "Academic"
-      },
-      {
-        "id": "ced_org_metanoia",
-        "name": "Metanoia Dance Troupe",
-        "description": "This performing group brings out the creativity in the members. Students move the groove with workshops and projects in traditional and modern dance.",
-        "type": "Academic"
-      },
-      {
-        "id": "ced_org_metaeuphony",
-        "name": "Metaeuphony Glee",
-        "description": "This singing group unites music lovers with songs across all genres.",
-        "type": "Academic"
-      },
-      {
-        "id": "ced_org_kisaf",
-        "name": "Kapisanang Itinatag sa Asignaturang Filipino (KISAF)",
-        "description": "Ang KISAF ay organisasyong itinatag ng mga mag-aaral ng AUF na kumukuha ng asignaturang Filipino. Layunin nitong masanay ang mga mag-aaral sa kanilang kakayahang pagkamalikhain sa pamamagitan ng paggawa at pakikiisa sa mga proyekto o gawaing pampaaralan na may kinalaman sa pagpapalawak ng Wikang Filipino.",
-        "type": "Academic"
-      },
-      {
-        "id": "ced_org_englishclub",
-        "name": "AUF English Club",
-        "description": "The AUF English Club is open to all students taking up English courses. It spearheads academic contests and seminars to sharpen and develop the English language skills of members.",
-        "type": "Academic"
-      },
-      {
-        "id": "ced_org_peclub",
-        "name": "AUF PE Club",
-        "description": "All PE students are welcome to this organization that provides opportunities for students to explore and enhance their physical prowess through dance, sports and recreational activities while developing positive social values with and for others.",
-        "type": "Academic"
-      },
-      {
-        "id": "ced_org_guardianangel",
-        "name": "Guardian Angel Society",
-        "description": "This organization provides mentoring activities to Education students and spearheads seminars, exhibits and other meaningful projects.",
-        "type": "Academic"
+        "id": "ced_org_yakap",
+        "name": "Youth Advocates of Kapampangan (YAKAP) Language and Culture",
+        "description": "This is the official organization of students in the University, committed to promoting, preserving, and celebrating the Kapampangan language, culture, and history. It fosters cultural awareness, linguistic heritage, and community engagement through academic and cultural activities that advocate for local Kapampangan identity and heritage.",
+        "type": "Cultural"
       }
     ],
     "topnotches": [
@@ -1892,7 +2578,7 @@
     "description": "The College of Nursing produces competent, compassionate, and Christ-centered nurses dedicated to promoting health and delivering quality patient care.",
     "brandColor": "#22C55E",
     "cardColor": "#0e3d21",
-    "accentColor": "#F2C300",
+    "accentColor": "#052e16",
     "sortOrder": 8,
     "isActive": true,
     "dean": {
@@ -1902,10 +2588,11 @@
     },
     "contact": {
       "email": "con@auf.edu.ph",
-      "phone": null,
-      "address": "Health Sciences Building, AUF Campus"
+      "emailAlt": "con.admissions@auf.edu.ph",
+      "phone": "(+63-45) 625-2888 loc. 1711",
+      "address": "Ground Floor, San Agustin Hall, AUF Main Campus, MacArthur Highway, Angeles City, Philippines 2009"
     },
-    "vision": "The College of Nursing is the center for the promotion of quality nursing education, geared towards competence, compassion, and competitiveness in the global context.",
+    "vision": "The College of Nursing envisions to promote excellent nursing education and prepare globally competitive nurses who are compassionate, dedicated and committed.",
     "mission": "To realize its vision, the College is committed to the development of quality nursing practice dedicated towards disease prevention, health promotion, curative activities and rehabilitation.",
     "programs": [
       {
@@ -1916,7 +2603,7 @@
         "headTitle": "Program Chair",
         "contactEmail": null,
         "duration": "4 years",
-        "description": "The Bachelor of Science in Nursing program is a four-year program designed to prepare students to become professional nurses who are competent, compassionate, and Christ-centered in providing nursing care."
+        "description": "To date, the AUF College of Nursing was granted Center of Development, the first in the region, PAASCU Level IV Accreditation, and ISO 9001:2015 certification, proving that the College of Nursing does not just sit on its laurels but endeavor earnestly to maintain its position as the premier producer of competent nurses in Central Luzon."
       }
     ],
     "goals": [
@@ -1930,96 +2617,64 @@
       {
         "id": "con_aff_aufmc",
         "name": "Angeles University Foundation Medical Center",
-        "type": "Base Hospital / Clinical Affiliate"
+        "type": "Base Hospital"
       },
       {
-        "id": "con_aff_jblmrh",
-        "name": "Jose B. Lingad Memorial Regional Hospital",
-        "type": "Clinical Affiliate"
+        "id": "con_aff_jblmgh",
+        "name": "Jose B. Lingad Memorial General Hospital",
+        "type": "Affiliating Hospital"
       },
       {
-        "id": "con_aff_ona",
-        "name": "Ospital Ning Angeles",
-        "type": "Clinical Affiliate"
+        "id": "con_aff_rlmmc",
+        "name": "Rafael Lazatin Memorial Medical Center",
+        "type": "Affiliating Hospital"
+      },
+      {
+        "id": "con_aff_srmc",
+        "name": "St. Raphael Medical Center, Inc.",
+        "type": "Affiliating Hospital"
       },
       {
         "id": "con_aff_communities",
-        "name": "Partner Communities (Sitio Monicayo, Brgy. Lourdes Sur East, Brgy. Lourdes Northwest, Brgy. Sto. Domingo, Brgy. Pulungbulu, Brgy. Pulung Cacutud, Brgy. Balibago, Brgy. Mining, Brgy. Sapa Libutad, Brgy. Ninoy Aquino, Brgy. Cutcut, Brgy. San Jose, and Diosdado Macapagal Village)",
-        "type": "Community RLE Partner"
+        "name": "Partner Communities (Brgy. Lourdes Northwest, Brgy. Salapungan, Brgy. Ninoy Aquino, Brgy. Cutcut, Brgy. Malabanias)",
+        "type": "Affiliating Community"
       },
       {
-        "id": "con_aff_mdh",
-        "name": "Mabalacat District Hospital",
-        "type": "Clinical Affiliate"
-      },
-      {
-        "id": "con_aff_bdh",
-        "name": "Balitucan District Hospital",
-        "type": "Clinical Affiliate"
-      },
-      {
-        "id": "con_aff_dpmdh",
-        "name": "Diosdado P. Macapagal District Hospital",
-        "type": "Clinical Affiliate"
-      },
-      {
-        "id": "con_aff_rprdh",
-        "name": "Ricardo P. Rodriguez Memorial District Hospital",
-        "type": "Clinical Affiliate"
-      },
-      {
-        "id": "con_aff_mmw",
-        "name": "Mariveles Mental Ward",
-        "type": "Clinical Affiliate"
+        "id": "con_aff_mmwgh",
+        "name": "Mariveles Mental and Wellness General Hospital",
+        "type": "Affiliating Hospital"
       },
       {
         "id": "con_aff_ncmh",
         "name": "National Center for Mental Health",
-        "type": "Clinical Affiliate"
+        "type": "Affiliating Hospital"
       },
       {
         "id": "con_aff_poh",
         "name": "Philippine Orthopedic Hospital",
-        "type": "Clinical Affiliate"
+        "type": "Affiliating Hospital"
       },
       {
         "id": "con_aff_slh",
         "name": "San Lazaro Hospital",
-        "type": "Clinical Affiliate"
+        "type": "Affiliating Hospital"
       }
     ],
     "facilities": [
       {
         "id": "con_fac_nal",
         "name": "Nursing Arts Laboratory",
-        "description": "Four air-conditioned Nursing Arts Laboratories equipped with facilities for demonstration of basic nursing procedures, simulating hospital wards, operating rooms, delivery rooms, nurseries, and emergency settings.",
-        "features": [
-          "Four air-conditioned laboratory rooms",
-          "Amphitheater set-up for demonstration viewing",
-          "Adjacent hospital simulation room (beds, OR, DR, nursery, emergency room)",
-          "Accommodates up to sixty (60) students per laboratory"
-        ]
+        "description": "The four air-conditioned Nursing Arts Laboratories are equipped with facilities used for the demonstration of basic nursing procedures, the specific goal of which is to meet the learning needs of the students through their Related Learning Experience. Equipment and supplies reinforce classroom discussions on the concept of man, family, health, nursing process and therapeutics. The NALs are utilized for both lecture and demonstration purposes and can accommodate as many as sixty (60) students. Each laboratory has an amphitheater set-up to facilitate viewing of demonstration procedures. Adjacent to them is a hospital simulation room complete with hospital beds, operating room, delivery room, nursery and emergency room."
       },
       {
         "id": "con_fac_nutrition",
         "name": "Nutrition Laboratories",
-        "description": "Practice areas for Level II nursing students, containing dedicated working, storage, and dining areas.",
-        "features": [
-          "Working area: intended for cooking; equipped with a sink and faucet",
-          "Storage area: holds refrigerator and cabinets for dinner wares and utensils",
-          "Dining area: consists of a dining table (1 x 22m) and ten (10) dining chairs",
-          "Accommodates up to fifty (50) students"
-        ]
+        "description": "The Nutrition Laboratory is a practice area for the Level II nursing students. The laboratory is utilized for both lecture and demonstration purposes and can accommodate as many as fifty (50) students. The lab has three (3) areas utilized for working, storage and dining: Working area - intended for cooking, equipped with a sink and faucet; Storage area - holds a refrigerator and cabinets for dinner wares and other utensils; Dining area - consists of a dining table (1 x 22m) and ten (10) dining chairs."
       },
       {
         "id": "con_fac_anatomy",
         "name": "Anatomy and Physiology Rooms",
-        "description": "Fully air-conditioned rooms used for lecture and demonstration purposes, containing human skeletal, muscular, and organ models.",
-        "features": [
-          "Fully air-conditioned facilities",
-          "Diverse human anatomy models (skeletal, muscular, and organ systems)",
-          "Accommodates 50 students at any given time"
-        ]
+        "description": "The fully air-conditioned Anatomy and Physiology Rooms are used for lecture and demonstration purposes. The laboratory houses different human anatomy models such as the skeletal and muscular systems, and different human organs. It can accommodate 50 students at a given time."
       }
     ],
     "topnotches": [
@@ -3690,21 +4345,22 @@
       "photoUrl": null
     },
     "contact": {
-      "email": "sol@auf.edu.ph",
-      "phone": null,
-      "address": "Law Building, AUF Campus"
+      "email": "law@auf.edu.ph",
+      "phone": "(+63-45) 625-2888 loc. 1778",
+      "address": "Ground Floor, Professional Schools Building MacArthur Highway Angeles City Philippines 2009",
+      "emailAlt": "sol.admissions@auf.edu.ph"
     },
-    "vision": "The AUF School of Law envisions to emerge as the center of excellence in legal education north of Metro Manila.",
-    "mission": "In keeping with Christian values and virtues, the AUF School of Law is committed to providing quality legal education that is accessible to students in the Central Luzon area, committed to the observance of the highest standard of professional conduct and competencies, and responsive to technological advances, globalization, and socio-economic conditions.",
+    "vision": "To be a premier law school producing competent, ethical, and socially responsible legal professionals.",
+    "mission": "To develop lawyers and legal professionals with a deep commitment to justice, human dignity, and the common good through rigorous legal education.",
     "history": [
-      "The AUF School of Law was established in response to the clamor for quality legal education in Central Luzon. The establishment of the School earned approval from the AUF Board of Trustees on August 19, 2003 during its 56th Regular Meeting presided over by Pampanga Archbishop Paciano B. Aniceto, D.D., in his capacity as Chairman of the Board. The approval was followed by immense planning and preparation that spanned three years, which included the construction of the AUF Professional Schools Building, now home to the School.",
-      "The Commission on Higher Education, upon the recommendation of the Technical Panel for Legal Education, resolved to grant AUF the permit to operate the School of Law on March 13, 2006. Under the leadership of Retired Supreme Court Justice Jose C. Vitug as Founding Dean and Atty. Domingo M. Navarro as Vice Dean, the School boasts a roster of faculty members composed of jurists and distinguished law professors. The School is equipped with a modern law library, a moot court, and state-of-the-art facilities that provide a conducive teaching and learning environment.",
-      "The School of Law received a Certificate of Recognition from the Legal Education Board for its notable performance in the 2012, 2013, and 2014 Bar Examinations, as certified by the Office of the Bar Confidant. It was listed as the top performing law school among those with 19 or fewer examinees. Today, the School of Law is consistently among the Top 10 law schools nationwide and the No. 1 in Northern and Central Luzon."
+      "The AUF School of Law was established in response to the clamor for quality legal education in Central Luzon. The establishment of the School earned approval from the AUF Board of Trustees on August 19, 2003 during its 56th Regular Meeting presided over by Pampanga Archbishop Paciano B. Aniceto, D.D., in his capacity as Chairman of the Board. The approval was followed by immense planning and preparation that spanned three years which included the construction of the AUF Professional Schools Building, now home to the School.",
+      "The Commission on Higher Education, upon the recommendation of the Technical Panel for Legal Education, resolved to grant AUF the permit to operate the School of Law on March 13, 2006. Under the leadership of Retired Supreme Court Justice Jose C. Vitug as Founding Dean and Atty. Domingo M. Navarro as Vice Dean, the School boasts of a roster of faculty members composed of jurists and distinguished law professors. The School is equipped with a modern law library, a moot court and state-of-the-art facilities which provide for a conducive teaching and learning environment.",
+      "The School of Law received a Certificate of Recognition from the Legal Education Board for its notable performance in the 2012, 2013 and 2014 Bar Examinations as certified by the Office of the Bar Confidant. It was listed as the top performing law school among those with 19 or less examinees. Today, the School of Law is consistently among the Top 10 law schools nationwide and the No. 1 in Northern and Central Luzon."
     ],
     "goals": [
-      "Prepare students for the practice of law.",
-      "Produce competent and committed members of the legal profession imbued with sound social conscience.",
-      "Train students for national leadership.",
+      "Prepare students for the practice of law;",
+      "Produce competent and committed members of the legal profession imbued with sound social conscience;",
+      "Train students for national leadership;",
       "Contribute to the advancement of the country’s legal and judicial systems in the light of current national and international developments."
     ],
     "admissions": {
@@ -3714,21 +4370,27 @@
           "id": "sol_adm_jd",
           "title": "Juris Doctor Admission Requirements",
           "items": [
-            "A holder of a four-year bachelor’s degree from a duly recognized institution, having earned at least 18 units in English, 6 units in Mathematics, and 18 units in Social Science (History, Political Science, Economics, Philosophy, Psychology, etc.); a holder of a Bachelor of Science or Arts degree with deficiencies of not more than 9 units in these subjects may still be admitted if the units of deficiency are taken during the first curriculum year.",
-            "Applicant must have obtained a general weighted average of at least 85%, subject to the provisions below.",
-            "Applicant must successfully pass the AUF Law Admissions Test, which includes two essays on topics determined by the School.",
-            "Applicant must hurdle an evaluation interview before the Admissions Committee.",
-            "An applicant who does not meet the required minimum general weighted average of 85% but produces satisfactory essays and possesses a satisfactory character reference may be admitted “on probation” if he or she passes the AUF Law Admissions Test and the evaluation interview; a probationary student may apply for a change of status to regular after completing the first semester with an average of at least 78% and no failing or incomplete grades, subject to evaluation by the School Dean on recommendation of the Admissions Committee.",
+            "The enrollee must be a holder of a four-year bachelor’s degree from a duly recognized institution.",
+            "The enrollee shall submit the following: a. PSA-issued birth certificate; b. The official transcripts of records for all college-level and post-graduate studies issued by the school where the student last graduated, annotated that such is “for further studies”; c. An essay on a topic to be determined by the AUF School of Law Admissions Committee and evaluated “Satisfactory” on the bases of: substantive content, coherent organization and written English language proficiency; and d. Two (2) reference letters in sealed envelopes from a previous professor and/or university counselor, or from a supervisor where he works, with the following key contents: impressions on student’s intellectual ability, aptitude in library/internet-based research, personal character, the quality of student’s work and potential for future productive scholarship;",
+            "The enrollee must hurdle an evaluation interview before the Admissions Committee.",
             "Transfer credits may be allowed on a case-to-case basis at the discretion of the Dean, in consultation with the School of Law Admissions Committee."
           ]
         }
       ],
-      "note": "Applicants are given a test schedule upon compliance with all documentary requirements."
+      "note": "Applicants are given a schedule for in-person essay submission; the interview schedule is provided after compliance with all documentary requirements."
     },
     "faculty": {
       "leads": [
-        { "id": "sol_lead_dean", "name": "Justice Jose C. Vitug", "title": "Founding Dean" },
-        { "id": "sol_lead_vicedean", "name": "Atty. Marianne Elizabeth B. Angeles", "title": "Vice Dean" }
+        {
+          "id": "sol_lead_dean",
+          "name": "Justice Jose C. Vitug",
+          "title": "Founding Dean"
+        },
+        {
+          "id": "sol_lead_vicedean",
+          "name": "Atty. Marianne Beltran-Angeles",
+          "title": "Associate Dean"
+        }
       ],
       "rosterLabel": "Founding Faculty",
       "roster": [
@@ -3818,8 +4480,9 @@
     },
     "contact": {
       "email": "som@auf.edu.ph",
-      "phone": null,
-      "address": "Medical Building, AUF Campus"
+      "emailAlt": "som.admissions@auf.edu.ph",
+      "phone": "(+63-45) 625-2888 loc. 1709",
+      "address": "3/F San Agustin Hall, AUF Main Campus, MacArthur Highway, Angeles City, Philippines 2009"
     },
     "vision": "The School of Medicine envisions itself as a center for quality and relevant medical education as evidenced by its programs and services recognized locally and internationally, resulting in the total satisfaction of its customers and other stakeholders around the world.",
     "mission": "To realize its vision, the School of Medicine is committed to produce quality and compassionate medical practitioners imbued with a social conscience and dedication to the service of God and humanity.",
@@ -3830,12 +4493,12 @@
       "The AUF Doctor of Medicine program has produced outstanding board performance in the Philippine medical board exam, stellar performance at the Indian Medical Council Screening Test, and a 100% pass rate in the 2014 Nepal Medical Council Screening Test. As a result, an increased number of Indian students are now enrolled in the AUF BS Psychology program leading to the degree Doctor of Medicine."
     ],
     "goals": [
-      "Prepare students to practise medicine in the service of God and humanity.",
-      "Instill in students the human qualities of dedication to duty, kindness, patience and compassion.",
-      "Encourage and maintain awareness on social and economic conditions of the country and of the world at large.",
-      "Equip students with adequate knowledge and skills in basic medical sciences, the clinical disciplines, and preventive medicine.",
-      "Inspire students to keep abreast with developments, innovations and researches in the field of medicine.",
-      "Motivate students to pursue lifelong learning in their field of specialization."
+      "Prepare students to practise medicine in the service of God and humanity;",
+      "Instill in students the human qualities of dedication to duty, kindness, patience and compassion;",
+      "Encourage and maintain awareness on social and economic conditions of the country and of the world at large;",
+      "Equip students with adequate knowledge and skills in basic medical sciences, the clinical disciplines, and preventive medicine;",
+      "Inspire students to keep abreast with developments, innovations and researches in the field of medicine; and",
+      "Motivate students to pursue life long learning in their field of specialization."
     ],
     "admissions": {
       "groups": [
@@ -3843,15 +4506,16 @@
           "id": "som_adm_min",
           "title": "Minimum Requirements",
           "items": [
-            "Applicant must be a holder of any baccalaureate degree.",
+            "Applicant must be holder of any baccalaureate degree",
             "Applicant must have taken the National Medical Admission Test (NMAT) and obtained a score of 40% or higher."
           ]
         },
         {
           "id": "som_adm_app",
-          "title": "Application Requirements (scanned image files, for initial evaluation)",
+          "title": "Application Requirements",
+          "intro": "For initial evaluation, applicants must send the accomplished application form, together with the following requirements as scanned image files:",
           "items": [
-            "Application for Admission (AUF Form SOM-01)",
+            "Application for Admissions (AUF-Form- SOM-01)",
             "Official Bachelor’s Degree Transcript of Records",
             "Diploma or Certificate of Graduation",
             "NMAT Result"
@@ -3859,7 +4523,8 @@
         },
         {
           "id": "som_adm_foreign",
-          "title": "Foreign Students — Additional Documents",
+          "title": "Foreign Students",
+          "intro": "Foreign students must send the following documents, in addition to the above:",
           "items": [
             "Passport",
             "Birth certificate",
@@ -3868,18 +4533,20 @@
           ]
         }
       ],
-      "note": "The following must be prepared (not emailed) and submitted, together with the originals of all previously emailed documents, on the date of psychometric testing: a Certification of General Weighted Average, and two Good Moral Character certifications — one from the Dean of the undergraduate course and one from either the Guidance Counselor or the Office of Student Affairs — each submitted in a sealed envelope."
+      "note": "The following documents are to be prepared but not to be sent via email. These must be submitted on the date of the psychometric testing, along with the originals of all documents previously sent via email:\n• Certification of General Weighted Average\n• Two (2) good moral character certification, from the Dean of the undergraduate course AND from either the Guidance Counselor or Office of Student Affairs. Each must be submitted in a sealed envelope."
     },
     "studentOrganizations": [
       {
         "id": "som_org_msc",
         "name": "Medical Student Council",
-        "description": "The AUF SOM Medical Student Council serves as the collective voice of the student body, inspiring innovation, fostering cooperation, providing a forum for ideas, and promoting action to empower students to become the best physicians of the future."
+        "description": "The AUF SOM Medical Student Council aims to serve as the collective voice of the student body, inspire innovation, foster cooperation, provide a forum for ideas, and promote action to empower students to become the best physicians of the future.",
+        "type": "Mandated"
       },
       {
         "id": "som_org_amsms",
-        "name": "Angeles Medical Surgical Mission Society (AMSMS)",
-        "description": "The community service organization of medical students aimed at providing free health care to poor patients."
+        "name": "Angeles Medical Surgical Mission Society",
+        "description": "The AMSMS is the community service organization of medical students aimed at providing free health care to poor patients.",
+        "type": "Service"
       }
     ],
     "programs": [
@@ -3929,20 +4596,62 @@
       "Believing in the tenet that a school is only as strong as its faculty, the Graduate School continuously maintains a team of competent, experienced, and efficient faculty and administrators."
     ],
     "deanHistory": [
-      { "name": "Dr. Cristian Alcantara", "years": "1966–1969" },
-      { "name": "Dr. Alejandrino Q. Perez", "years": "1969–1970" },
-      { "name": "Dr. Maria Berringer", "years": "1970–1972" },
-      { "name": "Dr. Pedro R. Lingad", "years": "1972–1978" },
-      { "name": "Dr. Ricardo C. Galang", "years": "1978–1982" },
-      { "name": "Dr. Concesa R. Milan-Baduel", "years": "1982–1991, 1992–1998" },
-      { "name": "Dr. Evangelina H. Lacson", "years": "1991–1992" },
-      { "name": "Dr. Archimedes T. David", "years": "1998–1999, 2000–2001, 2006–2007" },
-      { "name": "Dr. Peter Murray Heasley", "years": "2003–2004" },
-      { "name": "Dr. Wilson DG Solis", "years": "2004–2005" },
-      { "name": "Dr. Nicanor C. Austriaco", "years": "2005–2006, 2007–2010" },
-      { "name": "Dr. Bella G. Panlilio", "years": "2010–2012" },
-      { "name": "Dr. Carmela S. Dizon", "years": "2012–2019" },
-      { "name": "Dr. Elvira S. Balinas", "years": "2019–present" }
+      {
+        "name": "Dr. Cristian Alcantara",
+        "years": "1966–1969"
+      },
+      {
+        "name": "Dr. Alejandrino Q. Perez",
+        "years": "1969–1970"
+      },
+      {
+        "name": "Dr. Maria Berringer",
+        "years": "1970–1972"
+      },
+      {
+        "name": "Dr. Pedro R. Lingad",
+        "years": "1972–1978"
+      },
+      {
+        "name": "Dr. Ricardo C. Galang",
+        "years": "1978–1982"
+      },
+      {
+        "name": "Dr. Concesa R. Milan-Baduel",
+        "years": "1982–1991, 1992–1998"
+      },
+      {
+        "name": "Dr. Evangelina H. Lacson",
+        "years": "1991–1992"
+      },
+      {
+        "name": "Dr. Archimedes T. David",
+        "years": "1998–1999, 2000–2001, 2006–2007"
+      },
+      {
+        "name": "Dr. Peter Murray Heasley",
+        "years": "2003–2004"
+      },
+      {
+        "name": "Dr. Wilson DG Solis",
+        "years": "2004–2005"
+      },
+      {
+        "name": "Dr. Nicanor C. Austriaco",
+        "years": "2005–2006, 2007–2010"
+      },
+      {
+        "name": "Dr. Bella G. Panlilio",
+        "years": "2010–2012"
+      },
+      {
+        "name": "Dr. Carmela S. Dizon",
+        "years": "2012–2019"
+      },
+      {
+        "name": "Dr. Elvira S. Balinas",
+        "years": "2019–present"
+      }
     ],
     "admissions": {
       "groups": [
@@ -3979,7 +4688,11 @@
         "headTitle": "Program Chair",
         "contactEmail": null,
         "category": "Education Programs",
-        "specializations": [{ "name": "English Language Teaching" }]
+        "specializations": [
+          {
+            "name": "English Language Teaching"
+          }
+        ]
       },
       {
         "id": "gs_phd_edm",
@@ -3989,7 +4702,11 @@
         "headTitle": "Program Chair",
         "contactEmail": null,
         "category": "Education Programs",
-        "specializations": [{ "name": "Educational Management" }]
+        "specializations": [
+          {
+            "name": "Educational Management"
+          }
+        ]
       },
       {
         "id": "gs_ma_ed",
@@ -4000,13 +4717,27 @@
         "contactEmail": null,
         "category": "Education Programs",
         "specializations": [
-          { "name": "Educational Management" },
-          { "name": "English" },
-          { "name": "General Science" },
-          { "name": "Guidance and Counseling" },
-          { "name": "Early Childhood Education" },
-          { "name": "Chinese Language Teaching" },
-          { "name": "Special Needs and Inclusive Education" }
+          {
+            "name": "Educational Management"
+          },
+          {
+            "name": "English"
+          },
+          {
+            "name": "General Science"
+          },
+          {
+            "name": "Guidance and Counseling"
+          },
+          {
+            "name": "Early Childhood Education"
+          },
+          {
+            "name": "Chinese Language Teaching"
+          },
+          {
+            "name": "Special Needs and Inclusive Education"
+          }
         ]
       },
       {
@@ -4054,8 +4785,12 @@
         "contactEmail": null,
         "category": "Health Sciences Programs",
         "specializations": [
-          { "name": "Public Health Promotion and Education" },
-          { "name": "Biomedical Sciences" }
+          {
+            "name": "Public Health Promotion and Education"
+          },
+          {
+            "name": "Biomedical Sciences"
+          }
         ]
       },
       {
@@ -4093,7 +4828,11 @@
         "headTitle": "Program Chair",
         "contactEmail": null,
         "category": "Information Technology Programs",
-        "specializations": [{ "name": "Business Intelligence and Data Analytics" }]
+        "specializations": [
+          {
+            "name": "Business Intelligence and Data Analytics"
+          }
+        ]
       },
       {
         "id": "gs_mit",
@@ -4122,8 +4861,12 @@
         "contactEmail": null,
         "category": "Nursing Programs",
         "specializations": [
-          { "name": "Medical-Surgical Nursing" },
-          { "name": "Maternal and Child Health Nursing" }
+          {
+            "name": "Medical-Surgical Nursing"
+          },
+          {
+            "name": "Maternal and Child Health Nursing"
+          }
         ]
       },
       {
@@ -4135,8 +4878,12 @@
         "contactEmail": null,
         "category": "Nursing Programs",
         "specializations": [
-          { "name": "Medical-Surgical Nursing" },
-          { "name": "Maternal and Child Health Nursing" }
+          {
+            "name": "Medical-Surgical Nursing"
+          },
+          {
+            "name": "Maternal and Child Health Nursing"
+          }
         ]
       },
       {
@@ -4147,7 +4894,11 @@
         "headTitle": "Program Chair",
         "contactEmail": null,
         "category": "Psychology Programs",
-        "specializations": [{ "name": "Clinical Psychology" }]
+        "specializations": [
+          {
+            "name": "Clinical Psychology"
+          }
+        ]
       },
       {
         "id": "gs_babamapsych",
@@ -4166,7 +4917,11 @@
         "headTitle": "Program Chair",
         "contactEmail": null,
         "category": "Criminology Program",
-        "specializations": [{ "name": "Criminology" }]
+        "specializations": [
+          {
+            "name": "Criminology"
+          }
+        ]
       },
       {
         "id": "gs_csc",
@@ -4328,17 +5083,24 @@
         {
           "id": "is_curr_pre",
           "level": "Pre-Elementary",
-          "items": ["Nursery", "Kindergarten"]
+          "items": [
+            "Nursery",
+            "Kindergarten"
+          ]
         },
         {
           "id": "is_curr_elem",
           "level": "Elementary",
-          "items": ["Grades 1 to 6"]
+          "items": [
+            "Grades 1 to 6"
+          ]
         },
         {
           "id": "is_curr_jhs",
           "level": "Junior High School",
-          "items": ["Grades 7 to 10"]
+          "items": [
+            "Grades 7 to 10"
+          ]
         },
         {
           "id": "is_curr_shs",
@@ -4353,28 +5115,116 @@
       ]
     },
     "studentOrganizations": [
-      { "id": "is_org_issc", "name": "Integrated School Student Council (ISSC)", "type": "Mandated" },
-      { "id": "is_org_hssc", "name": "High School Student Council (HSSC)", "type": "Mandated" },
-      { "id": "is_org_gssc", "name": "Grade School Student Council (GSSC)", "type": "Mandated" },
-      { "id": "is_org_cors", "name": "Classroom Organizations (CORs)", "type": "Mandated" },
-      { "id": "is_org_english", "name": "English Club", "type": "Academic" },
-      { "id": "is_org_filipino", "name": "Filipino Club", "type": "Academic" },
-      { "id": "is_org_math", "name": "Math Club", "type": "Academic" },
-      { "id": "is_org_science", "name": "Science Club", "type": "Academic" },
-      { "id": "is_org_social_studies", "name": "Social Studies Club", "type": "Academic" },
-      { "id": "is_org_tle", "name": "TLE Club", "type": "Academic" },
-      { "id": "is_org_boys_choir", "name": "Boys’ Choir", "type": "Cultural" },
-      { "id": "is_org_hs_dance", "name": "HS Dance Club", "type": "Cultural" },
-      { "id": "is_org_hs_glee", "name": "HS Glee Club", "type": "Cultural" },
-      { "id": "is_org_pangkat", "name": "Pangkat Pambata", "type": "Cultural" },
-      { "id": "is_org_mapeh", "name": "MAPEH Club", "type": "Physical" },
-      { "id": "is_org_catechists", "name": "Catechists Children of Mary Immaculate", "type": "Religious" },
-      { "id": "is_org_cya", "name": "Christ Youth in Action", "type": "Religious" },
-      { "id": "is_org_kobs", "name": "Knights of the Blessed Sacrament", "type": "Religious" },
-      { "id": "is_org_scay", "name": "Student Catholic Action Youth for Christ", "type": "Religious" },
-      { "id": "is_org_book_lovers", "name": "Book Lovers Club", "type": "Social / Literary" },
-      { "id": "is_org_foreign_students", "name": "Foreign Students Club", "type": "Social / Literary" },
-      { "id": "is_org_peer_helpers", "name": "Peer Helpers Club", "type": "Social / Literary" }
+      {
+        "id": "is_org_issc",
+        "name": "Integrated School Student Council (ISSC)",
+        "type": "Mandated"
+      },
+      {
+        "id": "is_org_hssc",
+        "name": "High School Student Council (HSSC)",
+        "type": "Mandated"
+      },
+      {
+        "id": "is_org_gssc",
+        "name": "Grade School Student Council (GSSC)",
+        "type": "Mandated"
+      },
+      {
+        "id": "is_org_cors",
+        "name": "Classroom Organizations (CORs)",
+        "type": "Mandated"
+      },
+      {
+        "id": "is_org_english",
+        "name": "English Club",
+        "type": "Academic"
+      },
+      {
+        "id": "is_org_filipino",
+        "name": "Filipino Club",
+        "type": "Academic"
+      },
+      {
+        "id": "is_org_math",
+        "name": "Math Club",
+        "type": "Academic"
+      },
+      {
+        "id": "is_org_science",
+        "name": "Science Club",
+        "type": "Academic"
+      },
+      {
+        "id": "is_org_social_studies",
+        "name": "Social Studies Club",
+        "type": "Academic"
+      },
+      {
+        "id": "is_org_tle",
+        "name": "TLE Club",
+        "type": "Academic"
+      },
+      {
+        "id": "is_org_boys_choir",
+        "name": "Boys’ Choir",
+        "type": "Cultural"
+      },
+      {
+        "id": "is_org_hs_dance",
+        "name": "HS Dance Club",
+        "type": "Cultural"
+      },
+      {
+        "id": "is_org_hs_glee",
+        "name": "HS Glee Club",
+        "type": "Cultural"
+      },
+      {
+        "id": "is_org_pangkat",
+        "name": "Pangkat Pambata",
+        "type": "Cultural"
+      },
+      {
+        "id": "is_org_mapeh",
+        "name": "MAPEH Club",
+        "type": "Physical"
+      },
+      {
+        "id": "is_org_catechists",
+        "name": "Catechists Children of Mary Immaculate",
+        "type": "Religious"
+      },
+      {
+        "id": "is_org_cya",
+        "name": "Christ Youth in Action",
+        "type": "Religious"
+      },
+      {
+        "id": "is_org_kobs",
+        "name": "Knights of the Blessed Sacrament",
+        "type": "Religious"
+      },
+      {
+        "id": "is_org_scay",
+        "name": "Student Catholic Action Youth for Christ",
+        "type": "Religious"
+      },
+      {
+        "id": "is_org_book_lovers",
+        "name": "Book Lovers Club",
+        "type": "Social / Literary"
+      },
+      {
+        "id": "is_org_foreign_students",
+        "name": "Foreign Students Club",
+        "type": "Social / Literary"
+      },
+      {
+        "id": "is_org_peer_helpers",
+        "name": "Peer Helpers Club",
+        "type": "Social / Literary"
+      }
     ],
     "programs": [
       {

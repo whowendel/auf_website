@@ -32,12 +32,22 @@ export function MicrositeContact({ college }: { college: College }) {
                   >
                     Email
                   </span>
-                  <a
-                    href={`mailto:${college.contact.email}`}
-                    className="text-sm text-white/80 transition-colors hover:text-white"
-                  >
-                    {college.contact.email}
-                  </a>
+                  <div className="flex flex-col gap-1">
+                    <a
+                      href={`mailto:${college.contact.email}`}
+                      className="text-sm text-white/80 transition-colors hover:text-white"
+                    >
+                      {college.contact.email}
+                    </a>
+                    {college.contact.emailAlt && (
+                      <a
+                        href={`mailto:${college.contact.emailAlt}`}
+                        className="text-sm text-white/80 transition-colors hover:text-white"
+                      >
+                        {college.contact.emailAlt}
+                      </a>
+                    )}
+                  </div>
                 </li>
               )}
               {college.contact.phone && (

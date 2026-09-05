@@ -62,13 +62,14 @@ export function CollegesDropdown({ currentCollegeId, accentColor, brandColor }: 
         aria-expanded={open}
         aria-haspopup="dialog"
         aria-label="Browse all colleges"
-        className="flex items-center gap-1.5 border-b-2 border-transparent px-4 py-3.5 text-xs font-semibold uppercase tracking-[0.16em] text-white/55 transition-colors hover:text-white"
+        className="flex items-center gap-1.5 rounded-full border border-white/50 bg-white/15 px-3.5 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-white shadow-xs backdrop-blur-xs transition-all hover:border-white hover:bg-white hover:text-[var(--auf-navy)]"
         style={{
-          borderBottomColor: open ? accentColor : "transparent",
-          color: open ? "white" : undefined,
+          backgroundColor: open ? "white" : undefined,
+          color: open ? "var(--auf-navy)" : undefined,
+          borderColor: open ? "white" : undefined,
         }}
       >
-        <LayoutGrid size={13} />
+        <LayoutGrid size={13} className="shrink-0" />
         <span className="hidden sm:inline">All Colleges</span>
       </button>
 
