@@ -86,17 +86,84 @@ export type GuidanceOffice = OfficeBase & {
 };
 
 export type HealthOffice = OfficeBase & {
-  vision: string;
+  intro: string;
   aims: string[];
+};
+
+export type VarsityDivision = {
+  id: string;
+  label: string;
+  sports: string[];
+};
+
+export type ProgramList = {
+  id: string;
+  label: string;
+  items: string[];
+};
+
+export type ScholarshipInfo = {
+  intro: string;
+  requirements: string[];
+  location: string;
+  tryoutNote: string;
+};
+
+export type SportsStaffMember = {
+  id: string;
+  name: string;
+  role: string;
+  credentials?: string[];
+  email?: string;
+  phone?: string;
+};
+
+export type SportsStaffGroup = {
+  id: string;
+  label: string;
+  members: SportsStaffMember[];
+};
+
+export type AchievementAthlete = {
+  name: string;
+  year: string;
+  course: string;
+  medals?: string[];
+};
+
+export type AchievementEvent = {
+  event: string;
+  division: string;
+  result?: string;
+  coach?: string;
+  assistantCoach?: string;
+  athletes: AchievementAthlete[];
+};
+
+export type Achievement = {
+  id: string;
+  title: string;
+  dates?: string;
+  venue?: string;
+  summary?: string;
+  events?: AchievementEvent[];
+};
+
+export type SportsContact = {
+  emails: string[];
+  hours: string;
+  location: string;
 };
 
 export type SportsOffice = OfficeBase & {
   intro: string;
-  varsitySports: string[];
-  intramural: string;
-  scholarships: string;
+  varsityDivisions: VarsityDivision[];
+  programs: ProgramList[];
+  scholarship: ScholarshipInfo;
   facilities: string[];
-  contact: OfficeContact;
+  staffGroups: SportsStaffGroup[];
+  achievements: Achievement[];
+  contact: SportsContact;
 };
 
 export type PerformingArtsGroup = {
