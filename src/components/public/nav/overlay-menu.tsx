@@ -2,7 +2,6 @@
 
 import { useState, useCallback, useEffect, useMemo, useRef } from "react";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { Search, Maximize2, X, Volume2, VolumeX, ChevronRight } from "lucide-react";
 import { AnimatePresence, motion } from "framer-motion";
 import { navSections, quickLinks } from "./nav-data";
@@ -58,30 +57,6 @@ const DARK_THEME: MenuTheme = {
   footerText: "text-white/80",
   footerHover: "hover:text-white/60",
   divider: "bg-white/55",
-};
-
-const LIGHT_THEME: MenuTheme = {
-  bg: "#FFFFFF",
-  overlay: "#FFFFFF",
-  border: "border-navy/10",
-  navText: "text-navy",
-  navHover: "group-hover:text-navy-deep",
-  activeText: "text-navy-deep",
-  activeLine: "bg-navy",
-  groupLabel: "text-gold",
-  subText: "text-navy/80",
-  subHover: "group-hover:text-navy",
-  subMuted: "text-navy/40",
-  quickLinkText: "text-navy/50",
-  quickLinkHover: "hover:text-navy",
-  searchBg: "bg-navy/5",
-  searchBorder: "border-navy/15",
-  searchText: "text-navy/80",
-  searchPlaceholder: "placeholder:text-navy/35",
-  eyebrow: "text-gold",
-  footerText: "text-navy/30",
-  footerHover: "hover:text-navy/60",
-  divider: "bg-navy/15",
 };
 
 // ─── Animation variants ────────────────────────────────────────────────
@@ -468,9 +443,7 @@ export function OverlayMenu({
   const [active, setActive] = useState<string | null>(null);
   const [query, setQuery] = useState("");
 
-  const pathname = usePathname() ?? "";
-  const isMicrosite = pathname.startsWith("/c/");
-  const t = isMicrosite ? LIGHT_THEME : DARK_THEME;
+  const t = DARK_THEME;
 
   const filteredSections = useMemo(() => {
     const normalized = query.trim().toLowerCase();
@@ -515,7 +488,7 @@ export function OverlayMenu({
           initial="hidden"
           animate="visible"
           exit="exit"
-          className={`fixed inset-0 z-40 flex flex-col ${!isMicrosite ? "auf-diamond-pattern" : ""}`}
+          className="fixed inset-0 z-40 flex flex-col auf-diamond-pattern"
           style={{ background: t.overlay }}
         >
           {/* Header spacer (matches fixed header height) */}
@@ -530,7 +503,7 @@ export function OverlayMenu({
                 {/* Search */}
                 <div className="mb-5">
                   <div className="relative">
-                    <Search className={`pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 opacity-40 ${isMicrosite ? "text-navy" : "text-white"}`} />
+                    <Search className="pointer-events-none absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 opacity-40 text-white" />
                     <Input
                       type="search"
                       value={query}

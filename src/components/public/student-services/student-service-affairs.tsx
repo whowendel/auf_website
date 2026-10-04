@@ -1,85 +1,70 @@
-"use client";
-
-import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import type { StudentAffairsOffice, OfficeItem, ServiceGroup } from "@/data/student-services";
 import { OfficeHeader } from "./_office-header";
 
-const EASE_OUT: [number, number, number, number] = [0.22, 1, 0.36, 1];
-
-function AccordionItem({
-  item,
-  brandColor,
-  isOpen,
-  onToggle,
-  index,
-}: {
-  item: OfficeItem;
-  brandColor: string;
-  isOpen: boolean;
-  onToggle: () => void;
-  index: number;
-}) {
+function Label({ children, color, className = "mb-4" }: { children: string; color: string; className?: string }) {
   return (
-    <div
-      className="overflow-hidden rounded-xl border transition-all"
-      style={{
-        borderColor: isOpen ? brandColor : "var(--auf-border)",
-        background: isOpen ? `${brandColor}05` : "white",
-      }}
-    >
-      <button
-        type="button"
-        onClick={onToggle}
-        aria-expanded={isOpen}
-        className="group flex w-full items-start gap-4 px-5 py-4 text-left"
-      >
-        <span
-          className="shrink-0 font-display text-2xl font-bold tabular-nums leading-none"
-          style={{ color: isOpen ? brandColor : `${brandColor}35` }}
-        >
-          {String(index + 1).padStart(2, "0")}
-        </span>
-        <div className="flex flex-1 items-center justify-between gap-4">
-          <span className="text-sm font-semibold text-navy md:text-base">{item.heading}</span>
-          <motion.span
-            animate={{ rotate: isOpen ? 45 : 0 }}
-            transition={{ duration: 0.22, ease: EASE_OUT }}
-            className="shrink-0 text-xl leading-none"
-            style={{ color: brandColor }}
-          >
-            +
-          </motion.span>
-        </div>
-      </button>
+    <p className={`${className} text-[10px] font-bold uppercase tracking-[0.2em]`} style={{ color }}>
+      {children}
+    </p>
+  );
+}
 
-      <AnimatePresence initial={false}>
-        {isOpen && (
-          <motion.div
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            transition={{ duration: 0.3, ease: EASE_OUT }}
-            className="overflow-hidden"
-          >
-            <div className="border-t px-5 pb-5 pt-4 pl-15" style={{ borderColor: `${brandColor}20` }}>
-              {item.body && (
-                <p className="mb-3 text-sm leading-relaxed text-auf-muted">{item.body}</p>
-              )}
-              {item.bullets.length > 0 && (
-                <ul className="space-y-2">
-                  {item.bullets.map((bullet: string, i: number) => (
-                    <li key={i} className="flex items-start gap-2.5 text-sm text-auf-muted">
-                      <span aria-hidden className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full" style={{ background: brandColor }} />
-                      <span className="leading-relaxed">{bullet}</span>
-                    </li>
-                  ))}
-                </ul>
-              )}
+function BulletList({ bullets, color }: { bullets: string[]; color: string }) {
+  return (
+    <ul className="mt-2 space-y-1.5">
+      {bullets.map((bullet) => (
+        <li key={bullet} className="flex items-start gap-2.5 text-sm text-auf-muted">
+          <span aria-hidden className="mt-2 inline-block h-1.5 w-1.5 shrink-0 rounded-full" style={{ background: color }} />
+          <span className="leading-relaxed">{bullet}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function StaffCards({ bullets, color }: { bullets: string[]; color: string }) {
+  return (
+    <div className="grid gap-3 sm:grid-cols-2">
+      {bullets.map((entry) => {
+        const [name, role] = entry.split(" — ");
+        return (
+          <div key={entry} className="rounded-xl border border-auf-border bg-off-white p-4">
+            <p className="mb-1.5 text-sm font-bold" style={{ color }}>{role}</p>
+            <p className="text-sm font-semibold leading-relaxed text-auf-muted">{name}</p>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function ContactBox({ item, color }: { item: OfficeItem; color: string }) {
+  return (
+    <div className="rounded-xl p-4" style={{ background: `${color}08`, border: `1px solid ${color}25` }}>
+      <Label color={color} className="mb-3">{item.heading}</Label>
+      <ul className="space-y-1.5 text-sm text-auf-muted">
+        {item.bullets.map((line) => <li key={line}>{line}</li>)}
+      </ul>
+    </div>
+  );
+}
+
+function ContentBlock({ item, color }: { item: OfficeItem; color: string }) {
+  return (
+    <div>
+      <Label color={color}>{item.heading}</Label>
+      {item.body && <p className="mb-4 text-sm leading-relaxed text-auf-muted">{item.body}</p>}
+      {item.sections && (
+        <div className="grid gap-3 sm:grid-cols-2">
+          {item.sections.map((section) => (
+            <div key={section.heading} className="rounded-xl border border-auf-border bg-off-white p-4">
+              <p className="mb-1.5 text-sm font-bold" style={{ color }}>{section.heading}</p>
+              {section.body && <p className="text-sm leading-relaxed text-auf-muted">{section.body}</p>}
+              {section.bullets && <BulletList bullets={section.bullets} color={color} />}
             </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -93,7 +78,7 @@ export function StudentAffairsSection({
   group: ServiceGroup;
   isFirst: boolean;
 }) {
-  const [openId, setOpenId] = useState<string | null>(null);
+  const color = group.brandColor;
 
   return (
     <section
@@ -101,17 +86,22 @@ export function StudentAffairsSection({
       className={`scroll-mt-32 pb-14 ${isFirst ? "pt-2" : "border-t border-auf-border pt-14"}`}
     >
       <OfficeHeader office={office} group={group} />
-      <div className="space-y-3">
-        {office.items.map((item: OfficeItem, i: number) => (
-          <AccordionItem
-            key={item.id}
-            item={item}
-            brandColor={group.brandColor}
-            index={i}
-            isOpen={openId === item.id}
-            onToggle={() => setOpenId((cur) => (cur === item.id ? null : item.id))}
-          />
-        ))}
+      <div className="space-y-8">
+        {office.items.map((item) => {
+          if (item.id === "purpose") {
+            return <p key={item.id} className="text-sm leading-relaxed text-auf-muted md:text-base">{item.body}</p>;
+          }
+          if (item.id === "staff") {
+            return (
+              <div key={item.id}>
+                <Label color={color}>{item.heading}</Label>
+                <StaffCards bullets={item.bullets} color={color} />
+              </div>
+            );
+          }
+          if (item.id === "contact") return <ContactBox key={item.id} item={item} color={color} />;
+          return <ContentBlock key={item.id} item={item} color={color} />;
+        })}
       </div>
     </section>
   );
