@@ -1,0 +1,48 @@
+services:
+  db:
+    image: mysql:8
+    container_name: auf_db
+    restart: unless-stopped
+    environment:
+      MYSQL_USER: ${DB_USER:-auf}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-auf_password}
+      MYSQL_DATABASE: ${DB_NAME:-auf_website}
+      MYSQL_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-auf_root_secret}
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - auf_mysqldata:/var/lib/mysql
+    networks:
+      - auf_network
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 10
+      start_period: 20s
+
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: auf_web
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: "mysql://${DB_USER:-auf}:${DB_PASSWORD:-auf_password}@db:3306/${DB_NAME:-auf_website}"
+      NEXTAUTH_URL: ${NEXTAUTH_URL:-http://localhost:3000}
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET}
+      AUTH_TRUST_HOST: "true"
+      GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID}
+      GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET}
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - auf_network
+
+volumes:
+  auf_mysqldata:
+
+networks:
+  auf_network:
+    driver: bridge

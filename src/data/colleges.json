@@ -1406,7 +1406,7 @@
     "mascotName": "Dragons",
     "mascotLogoUrl": "/assets/colleges/CCSDragons.png",
     "mascotLogoWithTextUrl": "/assets/colleges/CCSDragons_w_Text.png",
-    "description": "The College of Computer Studies fosters innovation and technical excellence through programs in computer science, information technology, and information systems.",
+    "description": "The College of Computer Studies fosters innovation and technical excellence through programs in computer science, information technology, and multimedia arts — delivering the AI-enhanced advantage to future-proof your degree.",
     "brandColor": "#DC2626",
     "cardColor": "#4a0808",
     "accentColor": "#F2C300",
@@ -1455,8 +1455,15 @@
         ],
         "specializations": [
           {
-            "name": "Data Science",
-            "description": "Data Science is the field of study that covers the systematic analysis of data within a scientific framework. It utilizes scientific methods, algorithms, processes and systems to extract meaningful insights from data across interdisciplinary domains."
+            "name": "AI & Data Engineering",
+            "description": "Professional track focusing on artificial intelligence, machine learning, algorithmic foundations, big data architecture, and data engineering to design and build intelligent, data-driven systems.",
+            "bullets": [
+              "Artificial Intelligence and Machine Learning Foundations",
+              "Big Data Engineering and Scalable Data Pipelines",
+              "Data Architecture, Mining, and Predictive Analytics",
+              "Natural Language Processing and Computer Vision",
+              "Algorithmic Problem Solving and Intelligent Systems"
+            ]
           }
         ],
         "admissionRequirements": [
@@ -1495,28 +1502,25 @@
         ],
         "specializations": [
           {
-            "name": "Web and Mobile Technologies",
-            "description": "The BSIT Major in Web and Mobile Application aims to give students the knowledge and abilities needed to build web applications as well as mobile applications. CCS aspires to equip students with the abilities required to be successful in such a position in order to meet that need. These competencies include:",
+            "name": "Applied AI Solutions and Applications Development",
+            "description": "Professional track designed to equip students with expertise in developing modern web, mobile, and enterprise applications powered and enhanced by applied artificial intelligence.",
             "bullets": [
-              "Website development and design",
-              "UI/UX design",
-              "Computer Programming/Scripting",
-              "Technical Communication",
-              "Database Administration",
-              "Mobile Application Development"
+              "Applied AI Integration and Intelligent Software Solutions",
+              "Full-Stack Web and Mobile Application Development",
+              "User Interface and User Experience (UI/UX) Design",
+              "API Development and Cloud-Native Applications",
+              "Database Administration and Enterprise Computing"
             ]
           },
           {
-            "name": "I.T. Infrastructure",
-            "description": "The BSIT Major in I.T. Infrastructure aims to give students the knowledge and abilities needed to manage and maintain an organization's computer network. CCS seeks to equip students with the knowledge and abilities required to maintain an organization's computer network in a state of readiness in order to meet that demand. These competencies include:",
+            "name": "Cloud Infrastructure & AI Operations",
+            "description": "Professional track focusing on enterprise network management, cloud architectures, virtualization, information security, and AI operations (AIOps).",
             "bullets": [
-              "Learning networking principles",
-              "Managing and maintaining servers, computers, routers, and switches",
-              "Network configuration, network processing, centralized and distributed network connection",
-              "Installing, configuring, and administering network technologies",
-              "Learning to troubleshoot CISCO networks and devices",
-              "Cloud computing",
-              "Cloud architecting"
+              "Cloud Infrastructure and Multi-Cloud Architectures",
+              "AI Operations (AIOps) and DevOps Automation",
+              "Enterprise Network Administration and Cisco Technologies",
+              "Cybersecurity, Information Assurance, and Systems Defense",
+              "Server Management, Virtualization, and Troubleshooting"
             ]
           }
         ],
@@ -1546,6 +1550,19 @@
           "Marketing & Advertising Creative",
           "2D / 3D Animator",
           "VFX (Visual Effects)"
+        ],
+        "specializations": [
+          {
+            "name": "Intelligent Media Design and Creative Technologies",
+            "description": "Professional track combining conceptual artistry, graphic design, animation, and multimedia storytelling with emerging artificial intelligence tools and creative technologies.",
+            "bullets": [
+              "AI-Powered Creative Tools and Generative Media",
+              "Digital Graphic Design and Visual Branding",
+              "2D and 3D Animation and Motion Graphics",
+              "Visual Effects (VFX) and Interactive Media Production",
+              "Creative Technologies and Immersive Digital Experiences"
+            ]
+          }
         ],
         "admissionRequirements": [
           "Senior High School graduate (any strand)",
@@ -1843,9 +1860,9 @@
       }
     ],
     "cta": {
-      "eyebrow": "Apply to CCS",
-      "headline": "Build what's next.",
-      "description": "Join a community of dragons shaping the future of technology in the Philippines. Our doors are open to passionate learners.",
+      "eyebrow": "The AI-Enhanced Advantage",
+      "headline": "One College. Three AI-Powered Futures.",
+      "description": "Future-proof your degree at the AUF College of Computer Studies with specialized professional tracks in AI, data engineering, cloud infrastructure, and intelligent media design.",
       "primaryLabel": "Apply now",
       "primaryHref": "/admissions/how-to-apply",
       "secondaryLabel": "Talk to a chair",
