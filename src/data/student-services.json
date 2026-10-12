@@ -16,68 +16,121 @@
         {
           "id": "student-affairs",
           "slug": "student-affairs",
-          "label": "Office of Student Affairs and Alumni",
-          "navLabel": "Student Affairs",
-          "tagline": "Overseeing student life, discipline, scholarships, and alumni relations to support holistic student development.",
+          "label": "Office of Student Affairs and Financial Aid",
+          "navLabel": "OSAFA",
+          "tagline": "Overseeing student life, discipline, and scholarships to support holistic student development.",
           "imageUrl": null,
           "intro": null,
           "items": [
             {
               "id": "purpose",
               "heading": "Purpose",
-              "body": "The purpose of the office is to oversee all the non-academic endeavors of the students on and off-campus; the enforcement of discipline and proper decorum among the students; recommendation of appropriate disciplinary action against offenders; and, the processing of scholarship grants and other financial aids given to students. It is also tasked to supervise and coordinate the activities of the AUF-Federation of Alumni Associations (AUF-FAA) and of the different college alumni associations.",
+              "body": "The Office of Student Affairs and Financial Aid (OSAFA) aims to empower students by upholding the University core values: Mabuti, Magaling, and May Malasakit sa Kapwa. It oversees all the co- and extracurricular activities of the students on and off-campus. It also facilitates student leadership formation. It supports maintaining discipline and proper decorum among the students and recommends appropriate disciplinary measures when necessary. It also handles scholarship grants and other financial aid given to deserving students.",
               "bullets": []
             },
             {
-              "id": "responsibility",
-              "heading": "Responsibility",
-              "body": "The office is mainly responsible for the following:",
-              "bullets": [
-                "Student Activities — organization and facilitation of orientation programs, welcome ceremonies, induction ceremonies, general assemblies, and elections; provision of leadership training; supervision of the USC in planning and executing various activities; monitoring, supervision and evaluation of student activities held on and off campus.",
-                "Student Organizations — facilitation of the formation, renewal and recognition of non-mandated organizations; evaluation of applications for candidacy and student party registration of students running for USC/CSC positions.",
-                "Student Scholarships and Awards — processing of all applications for scholarships, grants and financial aids; evaluation of SNPL applicants; organization of awards and recognition programs for exemplary student achievements.",
-                "Student Discipline — enforcement and monitoring of student discipline in accordance with the Student Handbook; creation of the Student Grievance Committee (SGC); imposition of proper disciplinary sanctions.",
-                "Alumni — organization of the annual job fair; supervision of the AUF-FAA in spearheading alumni programs and activities.",
-                "Other OSAA responsibilities — preparation of the university's master plan of activities through the collated plans of action of the different colleges and units."
+              "id": "our-services",
+              "heading": "Our Services",
+              "body": "To achieve the total development of students, the office primarily aims to facilitate student formation through various opportunities and relevant activities that are geared towards fostering personal growth, academic excellence, and social responsibility.",
+              "bullets": [],
+              "sections": [
+                {
+                  "heading": "Student Formation",
+                  "body": "The OSAFA is responsible for facilitating the formation of student organizations relevant to the general welfare and development of students. It encourages and supports students’ involvement in mandated and non-mandated organizations and supervises and monitors all activities of the University and the College Student Councils, University-based and College-based organizations."
+                },
+                {
+                  "heading": "Student Activities",
+                  "body": "The Office is responsible for fostering student engagement, leadership development, advocacies, and school community building through its support of student activities. Moreover, the OSAFA is responsible for monitoring and evaluating student activities that would serve as a basis in constructing a comprehensive Master Calendar of Activities for each academic year based on the approved action plans by all colleges."
+                },
+                {
+                  "heading": "Scholarships and Grants",
+                  "body": "The OSAFA provides information and assistance, facilitates the processing for the application/renewal of scholarships or grants offered by the University and external partners for deserving, academically-gifted and talented students. It is also responsible for evaluating and monitoring the progress of student grantees and scholars in their academic journey."
+                },
+                {
+                  "heading": "Student Discipline",
+                  "body": "The OSAFA plays an active role in ensuring that the University core values are exhibited by all students, nurturing a culture of discipline and proper decorum. Furthermore, it ensures that offenses and violations of students are properly meted out based on the student handbook."
+                }
               ]
             },
             {
-              "id": "authority",
-              "heading": "Authority",
-              "body": null,
-              "bullets": [
-                "Student Activities — the office has control over the approval of student activities both co-curricular and extra-curricular on and off campus.",
-                "Student Organizations — the office approves the formation, renewal and recognition of mandated and non-mandated organizations.",
-                "Student Scholarships — the office implements the policies and guidelines on scholarships, grants and financial aids.",
-                "Student Discipline — the office has the authority to issue call slips to student offenders and subject them to sanctions as provided for by the Student Handbook.",
-                "Alumni — the office has the authority to control, monitor and evaluate the disbursement of alumni funds and other activities of the AUF-Federation of Alumni Associations."
+              "id": "scholarships-and-grants",
+              "heading": "Scholarships and Grants",
+              "body": "“No one should be denied education due to poverty.” — Dr. Barbara Yap-Angeles, AUF’s Founder and First President. Hence, AUF generously offers a variety of scholarships and grants to support deserving students in their education.",
+              "bullets": [],
+              "sections": [
+                {
+                  "heading": "Barbara Yap-Angeles (BYA) Scholarship (for incoming Grade 7, 11, and College Freshmen)",
+                  "body": "This was established in honor of AUF’s Founder and First President. It is granted to Filipino honor graduates pursuing any academic program in AUF. The BYA Scholarship is granted to incoming first year college students who graduated at the top of their grade school, junior high school, or senior high school graduating/completing class according to a specific range of population. The student is entitled to a FULL SCHOLARSHIP GRANT (free tuition, miscellaneous, and laboratory fees). The scholarship may be enjoyed for four or five years provided that grades and other requirements are met."
+                },
+                {
+                  "heading": "Expanded Agustin P. Angeles (E-APA) Memorial Scholarship Program",
+                  "body": "The Agustin P. Angeles Memorial Scholarship Program (APA) was established in honor of the Co-founder and First Chairman of the Board. It was originally given to college freshmen belonging to the top 10 of a high school graduating class of 100 and above. However, starting Academic Year 2023-2024, APA has been granted to freshmen in all educational levels, from basic education to post-baccalaureate programs, who satisfy the qualifications for the said scholarship grant, hence, referred to as Expanded Agustin P. Angeles Memorial Scholarship Program (E-APA). This scholarship grant is intended for financially disadvantaged but deserving students who meet the required academic and entrance test standards, as well as other eligibility requirements."
+                },
+                {
+                  "heading": "Academic Scholarships (for College and University Scholars)",
+                  "body": "Academic Scholarships are extended to AUF Filipino college students who obtained the following grade requirements:",
+                  "bullets": [
+                    "General weighted average (GWA) of not less than 95% with no grade lower than 87% in any of the enrolled courses for UNIVERSITY SCHOLARS.",
+                    "General weighted average (GWA) of not less than 90% with no grade lower than 85% for COLLEGE SCHOLARS in the immediately preceding semester."
+                  ]
+                },
+                {
+                  "heading": "Activity Grants (for University Athletic Teams and University Performing Arts)",
+                  "body": "Activity Grants are extended to students who are qualified and active members of the University Athletic Teams and of the University Performing Arts. The grant is enjoyed for as long as the student is an active member of the team or group but not more than the number of years required for the course they are pursuing. The amount of discounts for activity grants shall depend on the number of years of service as well as on the caliber, category and talents of the grantee."
+                },
+                {
+                  "heading": "Service Grants (for Student Aides)",
+                  "body": "Service Grants are extended to students who are serving the University as student assistants (student aides)."
+                },
+                {
+                  "heading": "AFP Scholarship Grant",
+                  "body": "By virtue of P.D. 577, it is given to dependents of Military Personnel of the Armed Forces of the Philippines who died or were incapacitated in line of duty, as of September 21, 1972. It is good for 10 years from first availment and is transferable to any dependent of the deceased or incapacitated military personnel."
+                },
+                {
+                  "heading": "Resolution 7960 Scholarship Grant",
+                  "body": "Resolution 7960 Scholarship Grant is given to the active members and legitimate children of the Philippine National Police (PNP), Bureau of Jail Management and Penology (BJMP) and Bureau of Fire Protection (BFP) assigned in Angeles City. The resolution also includes dependent of military personnel of the Philippine Army, Navy and Philippine Air Force and retired military personnel and other uniformed personnel of Angeles City."
+                },
+                {
+                  "heading": "External Scholarships",
+                  "body": "The University also offers scholarships established through collaborations with distinguished individuals, organizations, government agencies, and partner institutions that share the University’s commitment to supporting students’ education. Through these grants, qualified students receive financial assistance, incentives, or tuition discounts based on academic programs, service, affiliation, or demonstrated need. The following are some of AUF’s generous partner companies/institutions that provide scholarships and financial assistance to our students. Note: the list of qualifications and documentary requirements for external scholarships can be accessed through the institution’s official website or through its regional/local office.",
+                  "bullets": [
+                    "Megaworld Foundation",
+                    "SM Foundation Inc.",
+                    "Jenra Foundation, Inc.",
+                    "WindTunnel Inc.",
+                    "Department of Science and Technology-Science Education Institute (DOST-SEI) Scholarships Programs",
+                    "Commission on Higher Education (CHED) Scholarship Programs"
+                  ]
+                },
+                {
+                  "heading": "Important Reminders",
+                  "body": null,
+                  "bullets": [
+                    "Scholarships and grants are subject to review and renewal every semester or term as the case may be.",
+                    "A student can enjoy only one scholarship or grant during a particular semester or term.",
+                    "Scholarships and grants are revocable if the scholar is found to have violated university rules and regulations, or to have joined an unauthorized student organization or activity."
+                  ]
+                }
               ]
             },
             {
-              "id": "inter-relationships",
-              "heading": "Inter-Relationships and Intra-Relationships",
-              "body": "As the University's \"students' desk,\" the OSAA coordinates with the different deans of colleges and units rendering student personnel services, mandated and non-mandated organizations for the effective and efficient distribution of student services; with AUF-FAA and CAA for continuous communication and better rapport with the alumni; and with companies and other organizations for partnerships and linkages.",
-              "bullets": []
-            },
-            {
-              "id": "standards",
-              "heading": "Standards",
+              "id": "staff",
+              "heading": "OSAFA Staff",
               "body": null,
               "bullets": [
-                "Consistent implementation of the rules and conduct on discipline to achieve a more orderly and peaceful academic community.",
-                "Proper screening, monitoring and evaluation of all student activities to complement and enhance the students' academic growth.",
-                "Effective leadership skills and good human relations to develop proactive and responsible student leaders.",
-                "Strict adherence to \"due process of law\" in the conduct of the Student Grievance Committee and in the settlement of cases.",
-                "Proactive and consistent implementation of proper decorum to develop and enhance the students' emotional intelligence and personality."
+                "Prince Romel S. Pangilinan — Director",
+                "Renz Matthew I. Hipolito — Staff Assistant",
+                "Ma. Lourdes B. David — Office Secretary"
               ]
             },
             {
-              "id": "facilities",
-              "heading": "Physical Facilities",
+              "id": "contact",
+              "heading": "Contact Us",
               "body": null,
               "bullets": [
-                "The office is conveniently located at the ground floor to allow a smooth flow of transactions with the different units/departments and colleges and to easily monitor student discipline.",
-                "The USC office is accessible to the different CSC officers. The well-equipped student activity centers provide venue for varied activities of the different mandated and non-mandated organizations."
+                "Email: osafa@auf.edu.ph",
+                "Telephone: 625-2888 local 1713",
+                "Location: A-208, Angeles Hall, AUF Main Campus"
               ]
             }
           ]

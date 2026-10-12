@@ -14,11 +14,18 @@ export type OfficeBase = {
 
 // ─── Explicit per-office types ─────────────────────────────────────────
 
+export type OfficeItemSection = {
+  heading: string;
+  body: string | null;
+  bullets?: string[];
+};
+
 export type OfficeItem = {
   id: string;
   heading: string;
   body: string | null;
   bullets: string[];
+  sections?: OfficeItemSection[];
 };
 
 export type StudentAffairsOffice = OfficeBase & {

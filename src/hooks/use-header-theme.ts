@@ -35,20 +35,11 @@ export function useHeaderTheme(
   const scrolled = useScrolled(60, effectiveTransparent);
   const isTransparent = effectiveTransparent && !scrolled && !menuOpen;
 
-  const textClass = isMicrosite
-    ? "text-[var(--auf-navy)] opacity-80 hover:opacity-100"
-    : "text-white/80 hover:text-white";
-
-  const menuLabelClass = isMicrosite
-    ? "text-[var(--auf-navy)] opacity-80 group-hover:opacity-100"
-    : "text-white/80 group-hover:text-white";
-
-  const barClass = isMicrosite ? "bg-[var(--auf-navy)]" : "bg-white";
-
+  const textClass = "text-white/80 hover:text-white";
+  const menuLabelClass = "text-white/80 group-hover:text-white";
+  const barClass = "bg-white";
   const dividerStyle: React.CSSProperties = {
-    background: isMicrosite
-      ? "rgba(14, 34, 71, 0.2)"
-      : "rgba(255, 255, 255, 0.2)",
+    background: "rgba(255, 255, 255, 0.2)",
   };
 
   return {

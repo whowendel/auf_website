@@ -32,14 +32,10 @@ export function SiteHeader({
         animate={{
           backgroundColor: theme.isTransparent
             ? "rgba(24, 87, 206, 0)"
-            : theme.isMicrosite
-              ? "rgba(255, 255, 255, 0.92)"
-              : "rgba(24, 87, 206, 0.85)",
+            : "rgba(24, 87, 206, 0.85)",
           boxShadow: theme.isTransparent
             ? "0 0 0 0 transparent"
-            : theme.isMicrosite
-              ? "0 1px 0 0 rgba(14, 34, 71, 0.12)"
-              : "0 1px 0 0 rgba(255, 255, 255, 0.12)",
+            : "0 1px 0 0 rgba(255, 255, 255, 0.12)",
         }}
         transition={{ duration: 0.3, ease: "easeInOut" }}
         className="fixed top-0 left-0 right-0 z-50 h-22"
@@ -50,9 +46,7 @@ export function SiteHeader({
           <AufLogo
             href="/"
             onClick={() => setMenuOpen(false)}
-            wordmarkTextClassName={
-              theme.isMicrosite ? "text-[var(--auf-navy)]" : "text-white"
-            }
+            wordmarkTextClassName="text-white"
           />
 
           {/* Right controls */}

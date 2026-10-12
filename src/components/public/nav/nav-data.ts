@@ -64,7 +64,7 @@ export const navSections: NavSection[] = [
       {
         heading: "Becoming Mabuti",
         items: [
-          { label: "Student Affairs", href: "student-services#student-affairs" },
+          { label: "OSAFA", href: "/student-services#student-affairs" },
           { label: "Guidance", href: "/student-services#guidance" },
         ],
       },
