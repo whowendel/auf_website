@@ -505,6 +505,119 @@
           ]
         }
       ]
+    },
+    {
+      "slug": "auf-initiatives-towards-the-sdgs",
+      "title": "Angeles University Foundation Initiatives towards the SDGs",
+      "sdgs": [
+        17
+      ],
+      "tags": [
+        "SDG policy and initiatives"
+      ],
+      "featured": false,
+      "draft": true,
+      "intro": [],
+      "sections": [],
+      "sourceNote": "Excel D10: Link to the article. E10: Embed if possible"
+    },
+    {
+      "slug": "education-for-the-sdgs",
+      "title": "Education for the SDGs Meaningful Learning for Every AUF Student",
+      "sdgs": [
+        17
+      ],
+      "tags": [
+        "Education for SDGs",
+        "Education on sustainability"
+      ],
+      "featured": false,
+      "draft": true,
+      "intro": [],
+      "sections": [],
+      "sourceNote": "Excel D11: Link to the article"
+    },
+    {
+      "slug": "free-employee-shuttle-electric-vehicles",
+      "title": "Moving Greener: AUF's Free Employee Shuttle Service and Electric Vehicles",
+      "sdgs": [
+        11
+      ],
+      "tags": [
+        "Sustainable commuting"
+      ],
+      "featured": false,
+      "draft": true,
+      "intro": [],
+      "sections": [],
+      "sourceNote": "Excel D12: Link to the article. E12: To add pictures of AUF BYD Vehicles"
+    },
+    {
+      "slug": "after-school-program-for-auf-families",
+      "title": "Exploring an After-School Program for AUF Families",
+      "sdgs": [
+        5
+      ],
+      "tags": [
+        "After-school Program",
+        "Childcare Facility"
+      ],
+      "featured": false,
+      "draft": true,
+      "intro": [],
+      "sections": [],
+      "sourceNote": "Excel D13: Link to the article"
+    },
+    {
+      "slug": "magnus-h-hub-health-technology-innovation",
+      "title": "AUF Advances Health Technology Innovation Through Magnus H-Hub",
+      "sdgs": [
+        3
+      ],
+      "tags": [
+        "AUF health programs",
+        "Health partnerships and collaborations"
+      ],
+      "featured": false,
+      "draft": true,
+      "intro": [],
+      "sections": [],
+      "sourceNote": "Excel D14: Link to article - Magnus. E14: Link to images - Magnus"
+    },
+    {
+      "slug": "center-for-culture-and-the-arts",
+      "title": "AUF Center for Culture and the Arts Brings Music and Cultural Performances to University and Community Events",
+      "sdgs": [
+        11
+      ],
+      "tags": [
+        "Arts and Heritage"
+      ],
+      "featured": false,
+      "draft": true,
+      "intro": [],
+      "sections": [],
+      "sourceNote": "Excel D15: Link to the article"
+    },
+    {
+      "slug": "temporary-accommodation-employee-support",
+      "title": "AUF Strengthens Employee Support Through Temporary Accommodation",
+      "sdgs": [
+        11
+      ],
+      "tags": [
+        "Transient accomodation and housing"
+      ],
+      "featured": false,
+      "draft": true,
+      "intro": [
+        "Angeles University Foundation (AUF) continues to support its employees by providing temporary accommodation for personnel who were severely affected by flooding. The AUF Hostel in Marisol currently has 60 available beds for affected employees who need a safe place to stay.",
+        "In addition to this emergency accommodation, AUF also provides transient accommodation at the AUF Residences for employees, personnel, and outsourced speakers who need short-term housing during their assignments at the University. The facility offers a convenient and cost-effective option, with basic amenities to support guests during their temporary stay.",
+        "Employees requiring temporary accommodation may coordinate directly with their respective department heads to request placement."
+      ],
+      "sections": [],
+      "sourceNote": "Excel E16: Link to images (Images will be replaced if there are more recent pictures of the hostel and residences)",
+      "closing": "Through these accommodation facilities, AUF reaffirms its commitment to the well-being of its employees and the university community by extending practical support to those in need."
     }
   ]
 }

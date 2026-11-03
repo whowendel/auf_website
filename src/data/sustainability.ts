@@ -24,6 +24,10 @@ export type SustainabilityArticle = {
   intro: string[];
   sections: SustainabilitySection[];
   closing?: string;
+  /** Unfinished article: shown only outside production, so it can be built without going live. */
+  draft?: boolean;
+  /** Verbatim note from the Excel map (image/embed instructions); never rendered. */
+  sourceNote?: string;
 };
 
 type RawImage = { file: string; w: number; h: number };
@@ -43,9 +47,11 @@ const toImage = (slug: string, i: RawImage, alt: string): SustainabilityImage =>
   h: i.h,
 });
 
-export const sustainabilityArticles: SustainabilityArticle[] = (raw.articles as RawArticle[]).map((a) => ({
+const SHOW_DRAFTS = process.env.NODE_ENV !== "production";
+
+const allArticles: SustainabilityArticle[] = (raw.articles as RawArticle[]).map((a) => ({
   ...a,
-  excerpt: a.intro[0],
+  excerpt: a.intro[0] ?? "",
   cover: a.cover && toImage(a.slug, a.cover, a.title),
   video: a.video && {
     src: asset(a.slug, `${a.video.file}.mp4`),
@@ -61,6 +67,8 @@ export const sustainabilityArticles: SustainabilityArticle[] = (raw.articles as 
     ),
   })),
 }));
+
+export const sustainabilityArticles = allArticles.filter((a) => SHOW_DRAFTS || !a.draft);
 
 export const getSustainabilityArticle = (slug: string) =>
   sustainabilityArticles.find((a) => a.slug === slug);

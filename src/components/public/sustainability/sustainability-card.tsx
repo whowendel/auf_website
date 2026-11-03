@@ -60,6 +60,11 @@ export function SustainabilityCard({ article }: { article: SustainabilityArticle
       </div>
       <div className="flex flex-1 flex-col p-5">
         <div className="mb-3 flex flex-wrap items-center gap-2">
+          {article.draft && (
+            <span className="rounded-full bg-amber-100 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-amber-800">
+              Draft
+            </span>
+          )}
           {article.sdgs.map((n) => (
             <SdgChip key={n} num={n} />
           ))}
@@ -67,7 +72,9 @@ export function SustainabilityCard({ article }: { article: SustainabilityArticle
         <h3 className="line-clamp-2 font-display text-base font-semibold leading-snug text-navy transition-colors group-hover:text-navy/70">
           {article.title}
         </h3>
-        <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-auf-muted">{article.excerpt}</p>
+        {article.excerpt && (
+          <p className="mt-2 line-clamp-2 text-xs leading-relaxed text-auf-muted">{article.excerpt}</p>
+        )}
         <div className="mt-auto flex flex-wrap gap-1.5 pt-4">
           {article.tags.map((t) => (
             <TagPill key={t}>{t}</TagPill>

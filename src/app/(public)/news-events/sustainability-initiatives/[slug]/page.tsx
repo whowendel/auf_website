@@ -73,6 +73,13 @@ export default async function SustainabilityArticlePage({ params }: Params) {
         </div>
       </InnerPageHero>
 
+      {article.draft && (
+        <p className="bg-amber-100 px-6 py-2 text-center text-xs font-semibold text-amber-900">
+          Draft: hidden in production. Remove &quot;draft&quot; in sustainability.json to publish.
+          {article.sourceNote && <> Source note: {article.sourceNote}</>}
+        </p>
+      )}
+
       {article.video ? (
         <ArticleVideo video={article.video} />
       ) : (
