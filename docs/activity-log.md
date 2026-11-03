@@ -1,5 +1,13 @@
 # Activity Log
 
+## 2026-11-03 - Student Discipline Handbook download & Academic Scholarships copy update
+
+- `src/data/student-services.json`:
+  - Added download link for `AUF College Student Handbook` under `Our Services` > `Student Discipline` sub-section pointing to `https://bit.ly/AUFCollegeStudentHandbook` with access restriction note (@auf.edu.ph account required).
+  - Updated `Scholarships and Grants` > `Academic Scholarships (College and University Scholars)` sub-section text to revised copy.
+- `src/data/student-services.ts`: updated `OfficeItemSection` type to support `download` and `downloads` (`OfficeItemDownload`).
+- `student-service-affairs.tsx`: rendered download button and access restriction disclaimer in section cards.
+
 ## 2026-10-04 - OSAFA content update
 
 Source: `temp_docs/WEB CONTENT_OSAFA.xlsx` (OSAFA and ADDITIONAL SECTIONS tabs).

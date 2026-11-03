@@ -56,13 +56,56 @@ function ContentBlock({ item, color }: { item: OfficeItem; color: string }) {
       {item.body && <p className="mb-4 text-sm leading-relaxed text-auf-muted">{item.body}</p>}
       {item.sections && (
         <div className="grid gap-3 sm:grid-cols-2">
-          {item.sections.map((section) => (
-            <div key={section.heading} className="rounded-xl border border-auf-border bg-off-white p-4">
-              <p className="mb-1.5 text-sm font-bold" style={{ color }}>{section.heading}</p>
-              {section.body && <p className="text-sm leading-relaxed text-auf-muted">{section.body}</p>}
-              {section.bullets && <BulletList bullets={section.bullets} color={color} />}
-            </div>
-          ))}
+          {item.sections.map((section) => {
+            const downloads = section.downloads ?? (section.download ? [section.download] : []);
+            return (
+              <div
+                key={section.heading}
+                className="flex flex-col justify-between rounded-xl border border-auf-border bg-off-white p-4"
+              >
+                <div>
+                  <p className="mb-1.5 text-sm font-bold" style={{ color }}>{section.heading}</p>
+                  {section.body && <p className="text-sm leading-relaxed text-auf-muted">{section.body}</p>}
+                  {section.bullets && section.bullets.length > 0 && <BulletList bullets={section.bullets} color={color} />}
+                </div>
+
+                {downloads.length > 0 && (
+                  <div className="mt-4 border-t border-auf-border/70 pt-3 space-y-2">
+                    {downloads.map((dl) => (
+                      <div key={dl.url} className="space-y-1.5">
+                        <a
+                          href={dl.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="inline-flex items-center gap-2 rounded-lg border border-auf-border bg-white px-3.5 py-2 text-xs font-semibold text-navy shadow-2xs transition-colors hover:border-navy hover:bg-navy hover:text-white group"
+                        >
+                          <span
+                            className="flex h-5 w-5 shrink-0 items-center justify-center rounded text-[10px] font-bold"
+                            style={{ background: `${color}15`, color }}
+                          >
+                            ↓
+                          </span>
+                          <span>{dl.label}</span>
+                          <span className="text-[10px] font-semibold text-auf-muted group-hover:text-white/70 transition-colors">
+                            ↗
+                          </span>
+                        </a>
+                        {dl.restriction && (
+                          <div className="flex items-start gap-1.5 text-[11px] leading-relaxed text-auf-muted">
+                            <span className="shrink-0 text-navy/70" aria-hidden>🔒</span>
+                            <span>
+                              <strong className="font-semibold text-navy">Access Restriction: </strong>
+                              {dl.restriction}
+                            </span>
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       )}
     </div>

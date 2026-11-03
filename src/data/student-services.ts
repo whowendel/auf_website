@@ -14,10 +14,19 @@ export type OfficeBase = {
 
 // ─── Explicit per-office types ─────────────────────────────────────────
 
+export type OfficeItemDownload = {
+  label: string;
+  url: string;
+  fileType?: string;
+  restriction?: string;
+};
+
 export type OfficeItemSection = {
   heading: string;
   body: string | null;
   bullets?: string[];
+  download?: OfficeItemDownload;
+  downloads?: OfficeItemDownload[];
 };
 
 export type OfficeItem = {

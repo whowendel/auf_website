@@ -48,7 +48,13 @@
                 },
                 {
                   "heading": "Student Discipline",
-                  "body": "The OSAFA plays an active role in ensuring that the University core values are exhibited by all students, nurturing a culture of discipline and proper decorum. Furthermore, it ensures that offenses and violations of students are properly meted out based on the student handbook."
+                  "body": "The OSAFA plays an active role in ensuring that the University core values are exhibited by all students, nurturing a culture of discipline and proper decorum. Furthermore, it ensures that offenses and violations of students are properly meted out based on the student handbook.",
+                  "download": {
+                    "label": "AUF College Student Handbook",
+                    "url": "https://bit.ly/AUFCollegeStudentHandbook",
+                    "fileType": "PDF",
+                    "restriction": "Accessible only to users logged in with AUF email accounts (@auf.edu.ph) to prevent unauthorized access by non-AUF students."
+                  }
                 }
               ]
             },
@@ -67,12 +73,8 @@
                   "body": "The Agustin P. Angeles Memorial Scholarship Program (APA) was established in honor of the Co-founder and First Chairman of the Board. It was originally given to college freshmen belonging to the top 10 of a high school graduating class of 100 and above. However, starting Academic Year 2023-2024, APA has been granted to freshmen in all educational levels, from basic education to post-baccalaureate programs, who satisfy the qualifications for the said scholarship grant, hence, referred to as Expanded Agustin P. Angeles Memorial Scholarship Program (E-APA). This scholarship grant is intended for financially disadvantaged but deserving students who meet the required academic and entrance test standards, as well as other eligibility requirements."
                 },
                 {
-                  "heading": "Academic Scholarships (for College and University Scholars)",
-                  "body": "Academic Scholarships are extended to AUF Filipino college students who obtained the following grade requirements:",
-                  "bullets": [
-                    "General weighted average (GWA) of not less than 95% with no grade lower than 87% in any of the enrolled courses for UNIVERSITY SCHOLARS.",
-                    "General weighted average (GWA) of not less than 90% with no grade lower than 85% for COLLEGE SCHOLARS in the immediately preceding semester."
-                  ]
+                  "heading": "Academic Scholarships (College and University Scholars)",
+                  "body": "Academic scholarships may be awarded to qualified full-time Filipino students who maintain regular status, demonstrate outstanding academic performance, and meet the prescribed eligibility requirements, subject to the availability of funds and compliance with the applicable AUF Scholarship Policies. Qualified students may be awarded the University Scholar or College Scholar distinction, as applicable."
                 },
                 {
                   "heading": "Activity Grants (for University Athletic Teams and University Performing Arts)",
