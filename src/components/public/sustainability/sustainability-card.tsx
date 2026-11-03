@@ -2,12 +2,26 @@ import Link from "next/link";
 import { getSdg } from "@/data/sdgs";
 import { sustainabilityPath, type SustainabilityArticle } from "@/data/sustainability";
 
-export function SdgChip({ num }: { num: number }) {
+export function SdgChip({ num, large }: { num: number; large?: boolean }) {
   const sdg = getSdg(num);
+  const color = sdg?.color ?? "var(--auf-gold)";
+  if (large) {
+    return (
+      <span
+        className="inline-flex shrink-0 items-center gap-2.5 rounded-full py-1 pl-1 pr-4 text-sm font-bold text-white"
+        style={{ backgroundColor: color }}
+      >
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={`/assets/sdgs/${num}.png`} alt="" className="h-8 w-8 rounded-full object-cover" />
+        SDG {num}
+        {sdg && <span className="hidden font-semibold opacity-90 sm:inline">{sdg.title}</span>}
+      </span>
+    );
+  }
   return (
     <span
-      className="inline-block shrink-0 rounded-full px-2 py-0.5 text-[9px] font-bold text-white"
-      style={{ backgroundColor: sdg?.color ?? "var(--auf-gold)" }}
+      className="inline-block shrink-0 rounded-full px-2.5 py-1 text-[11px] font-bold text-white"
+      style={{ backgroundColor: color }}
       title={sdg?.title}
     >
       SDG {num}

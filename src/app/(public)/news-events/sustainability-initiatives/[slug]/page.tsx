@@ -66,9 +66,9 @@ export default async function SustainabilityArticlePage({ params }: Params) {
           { label: "Sustainability Initiatives", href: sustainabilityPath },
         ]}
       >
-        <div className="mt-6 flex flex-wrap items-center gap-2 pb-6 md:pb-8">
+        <div className="mt-6 flex flex-wrap items-center gap-3 pb-6 md:pb-8">
           {article.sdgs.map((n) => (
-            <SdgChip key={n} num={n} />
+            <SdgChip key={n} num={n} large />
           ))}
         </div>
       </InnerPageHero>
@@ -86,7 +86,7 @@ export default async function SustainabilityArticlePage({ params }: Params) {
         article.cover && <ArticleCover img={article.cover} />
       )}
 
-      <article className="mx-auto max-w-3xl px-6 py-12 md:py-16">
+      <article className="mx-auto max-w-5xl px-6 py-12 md:py-16">
         <ArticleBody article={article} />
 
         <div className="mt-10 flex flex-wrap gap-2" aria-label="Tags">

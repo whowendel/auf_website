@@ -3,7 +3,7 @@ import raw from "./sustainability.json";
 export type SustainabilityImage = { src: string; alt: string; w: number; h: number };
 export type SustainabilityVideo = { src: string; poster: string; title: string };
 
-/** Table cell: plain text, or text plus the URLs it links to (rendered as "Post 1", "Post 2"...). */
+/** Table cell: plain text, or text plus the URLs it links to (labelled by site, e.g. "Facebook post"). */
 export type SustainabilityCell = string | { text: string; links: string[] };
 
 /** Ordered rich content, used when a source mixes paragraphs, lists, tables and photos. */

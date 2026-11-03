@@ -9,10 +9,27 @@ import { ArticleEmbed } from "./sustainability-embed";
 
 const text = "text-base leading-8 text-gray-700";
 
-function Cell({ cell }: { cell: SustainabilityCell }) {
-  if (typeof cell === "string") return <span className="whitespace-pre-line">{cell}</span>;
+/** Link label from its site, e.g. "Facebook post"; numbered only when a cell has several. */
+function linkLabel(href: string, i: number, total: number) {
+  const host = new URL(href).hostname.replace(/^(www|m)\./, "").split(".")[0];
+  const site = host.charAt(0).toUpperCase() + host.slice(1);
+  return total > 1 ? `${site} post ${i + 1}` : `${site} post`;
+}
+
+/** In the title column, a multi-line cell shows its first line bold and the rest as details. */
+function Cell({ cell, titled }: { cell: SustainabilityCell; titled: boolean }) {
+  if (typeof cell === "string") {
+    const [first, ...rest] = cell.split("\n");
+    if (!titled || !rest.length) return <span className="whitespace-pre-line">{cell}</span>;
+    return (
+      <span className="flex min-w-60 flex-col gap-1 md:min-w-72">
+        <span className="font-semibold text-navy">{first}</span>
+        <span className="whitespace-pre-line text-xs leading-5 text-auf-muted">{rest.join("\n")}</span>
+      </span>
+    );
+  }
   return (
-    <span className="flex flex-col gap-1">
+    <span className="flex flex-col items-start gap-1.5">
       {cell.text && <span className="whitespace-pre-line">{cell.text}</span>}
       {cell.links.map((href, i) => (
         <a
@@ -20,9 +37,9 @@ function Cell({ cell }: { cell: SustainabilityCell }) {
           href={href}
           target="_blank"
           rel="noopener noreferrer"
-          className="font-semibold text-navy underline decoration-gold underline-offset-2 hover:text-gold"
+          className="whitespace-nowrap rounded-full border border-auf-border bg-white px-3 py-1 text-xs font-semibold text-navy transition-colors hover:border-navy hover:bg-navy hover:text-white"
         >
-          Post {i + 1}
+          {linkLabel(href, i, cell.links.length)} &#8599;
         </a>
       ))}
     </span>
@@ -30,14 +47,15 @@ function Cell({ cell }: { cell: SustainabilityCell }) {
 }
 
 function Table({ head, rows }: { head?: string[]; rows: SustainabilityCell[][] }) {
+  const titleCol = head?.[0] === "#" ? 1 : 0;
   return (
     <div className="mt-6 overflow-x-auto rounded-xl border border-auf-border">
-      <table className={`w-full border-collapse text-left text-sm ${(rows[0]?.length ?? 0) > 3 ? "min-w-[640px]" : ""}`}>
+      <table className={`w-full border-collapse text-left text-sm leading-6 ${(rows[0]?.length ?? 0) > 3 ? "min-w-[720px]" : ""}`}>
         {head && (
           <thead>
             <tr className="bg-navy text-white">
               {head.map((h, i) => (
-                <th key={i} className="px-4 py-3 text-[10px] font-bold uppercase tracking-wider">
+                <th key={i} className={`px-5 py-3.5 text-[11px] font-bold uppercase tracking-wider ${h === "#" ? "w-12" : ""}`}>
                   {h}
                 </th>
               ))}
@@ -48,8 +66,8 @@ function Table({ head, rows }: { head?: string[]; rows: SustainabilityCell[][] }
           {rows.map((row, r) => (
             <tr key={r} className="border-t border-auf-border align-top odd:bg-off-white first:border-t-0">
               {row.map((c, i) => (
-                <td key={i} className={`px-4 py-3 text-gray-700 ${i === 0 && !head ? "font-semibold text-navy" : ""}`}>
-                  <Cell cell={c} />
+                <td key={i} className={`px-5 py-4 text-gray-700 ${i === 0 && !head ? "font-semibold text-navy" : ""}`}>
+                  <Cell cell={c} titled={i === titleCol} />
                 </td>
               ))}
             </tr>
@@ -60,11 +78,42 @@ function Table({ head, rows }: { head?: string[]; rows: SustainabilityCell[][] }
   );
 }
 
+const gridCols: Record<number, string> = { 2: "sm:grid-cols-2", 3: "sm:grid-cols-3" };
+
+/** Single photo keeps its shape; a group shares one crop ratio so rows line up. */
 function Images({ images }: { images: SustainabilityImage[] }) {
+  if (images.length === 1) {
+    const [img] = images;
+    return (
+      <a href={img.src} target="_blank" rel="noopener noreferrer" className="mt-8 block">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={img.src}
+          alt={img.alt}
+          width={img.w}
+          height={img.h}
+          loading="lazy"
+          className="mx-auto h-auto max-h-144 w-auto max-w-full rounded-xl shadow-sm"
+        />
+      </a>
+    );
+  }
+  const ratio = Math.min(1.6, Math.max(0.67, images.reduce((s, i) => s + i.w / i.h, 0) / images.length));
   return (
-    <div className={`mt-6 grid items-start gap-3 ${images.length > 1 ? "sm:grid-cols-2" : ""}`}>
+    <div className={`mt-8 grid gap-3 ${gridCols[images.length] ?? "sm:grid-cols-2"}`}>
       {images.map((img) => (
-        <Figure key={img.src} img={img} />
+        <a key={img.src} href={img.src} target="_blank" rel="noopener noreferrer" className="group block overflow-hidden rounded-xl">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={img.src}
+            alt={img.alt}
+            width={img.w}
+            height={img.h}
+            loading="lazy"
+            style={{ aspectRatio: ratio }}
+            className="h-auto w-full object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        </a>
       ))}
     </div>
   );
@@ -123,20 +172,6 @@ function Blocks({ blocks }: { blocks: SustainabilityBlock[] }) {
       }
     }
   });
-}
-
-function Figure({ img }: { img: SustainabilityImage }) {
-  return (
-    // eslint-disable-next-line @next/next/no-img-element
-    <img
-      src={img.src}
-      alt={img.alt}
-      width={img.w}
-      height={img.h}
-      loading="lazy"
-      className="h-auto w-full rounded-xl bg-off-white object-contain"
-    />
-  );
 }
 
 /** Cover shows the whole image: contained, over a blurred copy of itself. */
