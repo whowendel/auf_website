@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { SustainabilityArticle } from "@/data/sustainability";
-import { SdgChip, TagPill, articleHref } from "./sustainability-card";
+import { CoverOrSdg, SdgChip, TagPill, articleHref } from "./sustainability-card";
 
 const GAP = 16;
 const AUTOPLAY_MS = 6000;
@@ -91,10 +91,8 @@ function Slide({ article }: { article: SustainabilityArticle }) {
     >
       <div className="flex h-72 items-center justify-center overflow-hidden bg-navy-deep md:h-80">
         {/* contain keeps posters uncropped */}
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img
-          src={article.cover.src}
-          alt={article.cover.alt}
+        <CoverOrSdg
+          article={article}
           className="h-full w-full object-contain transition-transform duration-500 group-hover:scale-[1.02]"
         />
       </div>

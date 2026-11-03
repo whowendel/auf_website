@@ -1,4 +1,4 @@
-import type { SustainabilityArticle, SustainabilityImage } from "@/data/sustainability";
+import type { SustainabilityArticle, SustainabilityImage, SustainabilityVideo } from "@/data/sustainability";
 
 function Figure({ img }: { img: SustainabilityImage }) {
   return (
@@ -37,6 +37,23 @@ export function ArticleCover({ img }: { img: SustainabilityImage }) {
   );
 }
 
+/** Video in the cover slot; poster loads first, file only on play. */
+export function ArticleVideo({ video }: { video: SustainabilityVideo }) {
+  return (
+    <div className="relative mx-auto -mt-10 max-w-5xl px-6">
+      <video
+        controls
+        preload="none"
+        poster={video.poster}
+        aria-label={video.title}
+        className="aspect-video w-full rounded-2xl bg-black shadow-xl"
+      >
+        <source src={video.src} type="video/mp4" />
+      </video>
+    </div>
+  );
+}
+
 export function ArticleBody({ article }: { article: SustainabilityArticle }) {
   return (
     <>
@@ -56,6 +73,13 @@ export function ArticleBody({ article }: { article: SustainabilityArticle }) {
               {p}
             </p>
           ))}
+          {s.bullets.length > 0 && (
+            <ul className="mt-4 list-disc space-y-2 pl-6 text-base leading-8 text-gray-700 marker:text-gold">
+              {s.bullets.map((b) => (
+                <li key={b}>{b}</li>
+              ))}
+            </ul>
+          )}
           {s.images.length > 0 && (
             <div className={`mt-6 grid items-start gap-3 ${s.images.length > 1 ? "sm:grid-cols-2" : ""}`}>
               {s.images.map((img) => (

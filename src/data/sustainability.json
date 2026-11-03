@@ -5,10 +5,20 @@
       "title": "Strengthening Community Health: AUF's Health Outreach Initiatives for A.Y. 2025-2026",
       "excerpt": "Medical missions, blood donation drives, life support training, and free physical therapy clinics: 528 bags of blood, 108 patients treated, and 120 personnel trained this academic year.",
       "category": "Health Outreach",
-      "sdgs": [3],
-      "tags": ["AUF health programs", "Health outreach programs"],
+      "sdgs": [
+        3
+      ],
+      "tags": [
+        "AUF health programs",
+        "Health outreach programs"
+      ],
       "featured": true,
-      "cover": { "file": "bls-training", "alt": "Basic Life Support training for public school personnel", "w": 1600, "h": 1063 },
+      "cover": {
+        "file": "bls-training",
+        "alt": "Basic Life Support training for public school personnel",
+        "w": 1600,
+        "h": 1063
+      },
       "intro": [
         "Throughout the academic year, Angeles University Foundation (AUF) together with its colleges, student organizations, alumni, and community partners extended healthcare services and education beyond the university. Through community-based health initiatives, AUF addressed local health needs while also providing students with opportunities to apply their knowledge and skills in real-world settings.",
         "Guided by its core values of being Mabuti, Magaling, at May Malasakit sa Kapwa, AUF translated its commitment to service into meaningful action through medical missions, health education programs, physical therapy services, voluntary blood donation drives, and emergency response training. The following outreach programs highlight the university's collective efforts to promote health and community well-being, while making healthcare more accessible to the community."
@@ -16,48 +26,103 @@
       "sections": [
         {
           "heading": "Regular Health Services for Barangay Ninoy Aquino",
-          "paragraphs": ["Angeles University Foundation (AUF) and the AUF Medical Center (AUFMC) Department of Pediatrics signed a Memorandum of Agreement (MOA) on July 31, 2025 to provide regular health services to Barangay Ninoy Aquino through the AUF Don Emiliano J. Valdez Charity Clinic. Services include preventive care, child health consultations, and wellness education for local families."],
-          "images": [{ "file": "moa-valdez-clinic", "alt": "Signing of the AUF-AUFMC Memorandum of Agreement for the Valdez Charity Clinic", "w": 1600, "h": 1066 }]
+          "paragraphs": [
+            "Angeles University Foundation (AUF) and the AUF Medical Center (AUFMC) Department of Pediatrics signed a Memorandum of Agreement (MOA) on July 31, 2025 to provide regular health services to Barangay Ninoy Aquino through the AUF Don Emiliano J. Valdez Charity Clinic. Services include preventive care, child health consultations, and wellness education for local families."
+          ],
+          "images": [
+            {
+              "file": "moa-valdez-clinic",
+              "alt": "Signing of the AUF-AUFMC Memorandum of Agreement for the Valdez Charity Clinic",
+              "w": 1600,
+              "h": 1066
+            }
+          ]
         },
         {
           "heading": "Community Medical Missions",
-          "paragraphs": ["The AUF College of Nursing Community Encounter with Responsive Nurses (CONCERN) maintains a partnership with the Returned and Services League (RSL) of Australia-Angeles City Chapter in providing regular medical missions to communities in Pampanga. Conducted every first Saturday of the month, faculty and nursing students work with physicians, local health units, barangay health workers, and community volunteers in providing health assessments, medical consultations, basic treatment, wound care, immunization support, and health education."],
-          "images": [{ "file": "rsl-medical-missions", "alt": "College of Nursing medical mission with the RSL of Australia-Angeles City Chapter", "w": 1600, "h": 1200 }]
+          "paragraphs": [
+            "The AUF College of Nursing Community Encounter with Responsive Nurses (CONCERN) maintains a partnership with the Returned and Services League (RSL) of Australia-Angeles City Chapter in providing regular medical missions to communities in Pampanga. Conducted every first Saturday of the month, faculty and nursing students work with physicians, local health units, barangay health workers, and community volunteers in providing health assessments, medical consultations, basic treatment, wound care, immunization support, and health education."
+          ],
+          "images": [
+            {
+              "file": "rsl-medical-missions",
+              "alt": "College of Nursing medical mission with the RSL of Australia-Angeles City Chapter",
+              "w": 1600,
+              "h": 1200
+            }
+          ]
         },
         {
           "heading": "Basic Life Support (BLS) Training",
-          "paragraphs": ["In partnership with the Angeles City Disaster Risk Reduction and Management Office and DepEd Tayo Angeles City, the AUF College of Nursing Alumni Association (AUF-CONAA) conducted Basic Life Support training on January 22 and 28, 2026 for 10 division personnel and 110 teaching and non-teaching personnel from 52 public schools. The training combined essential emergency response discussions with hands-on exercises to equip participants with skills in life-threatening emergencies."],
-          "images": [{ "file": "bls-training", "alt": "Participants practicing Basic Life Support", "w": 1600, "h": 1063 }]
+          "paragraphs": [
+            "In partnership with the Angeles City Disaster Risk Reduction and Management Office and DepEd Tayo Angeles City, the AUF College of Nursing Alumni Association (AUF-CONAA) conducted Basic Life Support training on January 22 and 28, 2026 for 10 division personnel and 110 teaching and non-teaching personnel from 52 public schools. The training combined essential emergency response discussions with hands-on exercises to equip participants with skills in life-threatening emergencies."
+          ],
+          "images": [
+            {
+              "file": "bls-training",
+              "alt": "Participants practicing Basic Life Support",
+              "w": 1600,
+              "h": 1063
+            }
+          ]
         },
         {
           "heading": "Community-Based Health Education Programs",
-          "paragraphs": ["CBSU staff, together with the AUF College of Nursing, conducted a health education seminar in Sitio Matahimik, City of San Fernando on May 28, 2026. The seminar covered communicable disease prevention, proper handwashing, and personal hygiene, as well as hygiene kit distribution and BMI measurements for children. Another seminar was conducted for community health volunteers of SACOP and Munting Tahanan ng Nazareth, Inc on June 19, 2026, which focused on proper bandaging and emergency response, combining discussions with hands-on practice."]
+          "paragraphs": [
+            "CBSU staff, together with the AUF College of Nursing, conducted a health education seminar in Sitio Matahimik, City of San Fernando on May 28, 2026. The seminar covered communicable disease prevention, proper handwashing, and personal hygiene, as well as hygiene kit distribution and BMI measurements for children. Another seminar was conducted for community health volunteers of SACOP and Munting Tahanan ng Nazareth, Inc on June 19, 2026, which focused on proper bandaging and emergency response, combining discussions with hands-on practice."
+          ]
         },
         {
           "heading": "Mass Blood Donation Drives",
-          "paragraphs": ["The Medical Technology students of the AUF College of Allied Medical Professions (AUF-CAMP), in collaboration with Jose B. Lingad Memorial General Hospital, successfully conducted Mass Blood Donation Drives on April 18 and May 2, 2026, at the AUF Sports and Cultural Center. The activity was organized to support the continuous demand for safe blood and to promote voluntary blood donation within the community. Through the collective efforts of the organizers, volunteers, donors, and partner institutions, the initiative achieved remarkable success, resulting in the collection of 528 bags of blood."],
-          "images": [{ "file": "blood-donation", "alt": "Mass blood donation drive at the AUF Sports and Cultural Center", "w": 590, "h": 590 }]
+          "paragraphs": [
+            "The Medical Technology students of the AUF College of Allied Medical Professions (AUF-CAMP), in collaboration with Jose B. Lingad Memorial General Hospital, successfully conducted Mass Blood Donation Drives on April 18 and May 2, 2026, at the AUF Sports and Cultural Center. The activity was organized to support the continuous demand for safe blood and to promote voluntary blood donation within the community. Through the collective efforts of the organizers, volunteers, donors, and partner institutions, the initiative achieved remarkable success, resulting in the collection of 528 bags of blood."
+          ],
+          "images": [
+            {
+              "file": "blood-donation",
+              "alt": "Mass blood donation drive at the AUF Sports and Cultural Center",
+              "w": 590,
+              "h": 590
+            }
+          ]
         },
         {
           "heading": "FreeHab Clinic 2026",
-          "paragraphs": ["The AUF-CAMP Physical Therapy (PT) Department successfully conducted the three-day FreeHab Clinic 2026 at the AUF Main Campus on June 8, 9, and 16, 2026. This activity provided free physical therapy services to community members while allowing PT interns to apply their clinical knowledge under supervision. The clinic assessed and treated 108 patients, with support from the CAMP Parents' Association, CAMP Alumni Association, Center for Christian Formation and Praxis, and Ms. Vilma Balatbat, president of the PWD Community in Barangay Ninoy Aquino."],
-          "images": [{ "file": "freehab-clinic", "alt": "Physical therapy services at the FreeHab Clinic 2026", "w": 940, "h": 940 }]
+          "paragraphs": [
+            "The AUF-CAMP Physical Therapy (PT) Department successfully conducted the three-day FreeHab Clinic 2026 at the AUF Main Campus on June 8, 9, and 16, 2026. This activity provided free physical therapy services to community members while allowing PT interns to apply their clinical knowledge under supervision. The clinic assessed and treated 108 patients, with support from the CAMP Parents' Association, CAMP Alumni Association, Center for Christian Formation and Praxis, and Ms. Vilma Balatbat, president of the PWD Community in Barangay Ninoy Aquino."
+          ],
+          "images": [
+            {
+              "file": "freehab-clinic",
+              "alt": "Physical therapy services at the FreeHab Clinic 2026",
+              "w": 940,
+              "h": 940
+            }
+          ]
         },
         {
           "heading": "PTSS AUF U-Week PT Sports Clinic",
-          "paragraphs": ["The Physical Therapy Student Society (PTSS) conducted a five-day sports clinic as part of the university's U-Week celebration, providing sports-related rehabilitation services to student-athletes and members of the Angelenean community on March 23-27, 2026. Under the supervision of faculty members and licensed professionals, Physical Therapy students and interns assessed and treated 525 athletes, supporting their physical well-being and sports-related needs."]
+          "paragraphs": [
+            "The Physical Therapy Student Society (PTSS) conducted a five-day sports clinic as part of the university's U-Week celebration, providing sports-related rehabilitation services to student-athletes and members of the Angelenean community on March 23-27, 2026. Under the supervision of faculty members and licensed professionals, Physical Therapy students and interns assessed and treated 525 athletes, supporting their physical well-being and sports-related needs."
+          ]
         },
         {
           "heading": "Marathon Sports Clinic",
-          "paragraphs": ["In partnership with Stretch Lab PH, third-year Physical Therapy students of AUF participated in the 16th TCS Clark Animo International Marathon Sports Clinic at Clark Global City. The students engaged in this community-based sports rehabilitation initiative by providing post-run stretching services to marathon runners, assisting them in their recovery and cool-down process following the race."]
+          "paragraphs": [
+            "In partnership with Stretch Lab PH, third-year Physical Therapy students of AUF participated in the 16th TCS Clark Animo International Marathon Sports Clinic at Clark Global City. The students engaged in this community-based sports rehabilitation initiative by providing post-run stretching services to marathon runners, assisting them in their recovery and cool-down process following the race."
+          ]
         },
         {
           "heading": "JPPhA AUF Botika",
-          "paragraphs": ["The AUF Pharmacy, located at SL-102, continued to provide accessible pharmaceutical services to students through its free medication program. The initiative was established to support the healthcare needs of the student population by ensuring access to prescribed medications at no cost, after undergoing free medical assessment at the University Health Services (UHS)."]
+          "paragraphs": [
+            "The AUF Pharmacy, located at SL-102, continued to provide accessible pharmaceutical services to students through its free medication program. The initiative was established to support the healthcare needs of the student population by ensuring access to prescribed medications at no cost, after undergoing free medical assessment at the University Health Services (UHS)."
+          ]
         },
         {
           "heading": "Occupational Therapy Fieldwork",
-          "paragraphs": ["As part of their fieldwork education program, Occupational Therapy students from AUF conducted learning and service activities at the Balay Silangan Reformation Center, applying their knowledge through community-based rehabilitation activities for residents undergoing reformation and recovery. Through assessments, therapeutic interactions, and individualized interventions, students supported residents' personal development, self-esteem, coping skills, and participation in daily activities while gaining practical experience in rehabilitation and community reintegration."]
+          "paragraphs": [
+            "As part of their fieldwork education program, Occupational Therapy students from AUF conducted learning and service activities at the Balay Silangan Reformation Center, applying their knowledge through community-based rehabilitation activities for residents undergoing reformation and recovery. Through assessments, therapeutic interactions, and individualized interventions, students supported residents' personal development, self-esteem, coping skills, and participation in daily activities while gaining practical experience in rehabilitation and community reintegration."
+          ]
         }
       ],
       "closing": "These health outreach initiatives reflect AUF's commitment to putting its core values into practice. Through continued community engagement, AUF reinforces its role in promoting health and well-being, strengthening community development, and nurturing students' sense of social responsibility and service."
@@ -67,24 +132,48 @@
       "title": "AUF Promotes Student Health Through HIV and Reproductive Health Seminars",
       "excerpt": "Free advocacy and educational seminars through the University Health Services and student organizations on HIV, AIDS, and teenage pregnancy.",
       "category": "Seminar",
-      "sdgs": [3],
-      "tags": ["AUF health programs", "Sexual and reproductive health education"],
+      "sdgs": [
+        3
+      ],
+      "tags": [
+        "AUF health programs",
+        "Sexual and reproductive health education"
+      ],
       "featured": true,
-      "cover": { "file": "cover", "alt": "Poster for the HIV, AIDS, Teenage Pregnancy and Reproductive Health Seminar", "w": 1364, "h": 1153 },
+      "cover": {
+        "file": "cover",
+        "alt": "Poster for the HIV, AIDS, Teenage Pregnancy and Reproductive Health Seminar",
+        "w": 1364,
+        "h": 1153
+      },
       "intro": [
         "In line with the Angeles University Foundation's (AUF) commitment to fostering health and well-being, the University continues to implement free advocacy and educational seminars addressing key health concerns among students through the UHS. As part of its continuing health promotion initiatives, AUF conducted the following seminars on HIV/AIDS Awareness and Teenage Pregnancy, aimed at raising awareness, encouraging responsible behavior, and empowering students to make informed decisions for their health and overall well-being."
       ],
       "sections": [
         {
           "heading": "HIV, AIDS, Teenage Pregnancy and Reproductive Health Seminar",
-          "paragraphs": ["On November 13, 2025, the University Health Services (UHS) in collaboration with the AUF Integrated School conducted a seminar among junior and senior high school students which provided them with essential information on HIV, AIDS, teenage pregnancy, and reproductive health. It aimed to correct misconceptions, promote awareness of preventive measures, and encourage responsible decision-making to support students' well-being and foster a healthier school community."]
+          "paragraphs": [
+            "On November 13, 2025, the University Health Services (UHS) in collaboration with the AUF Integrated School conducted a seminar among junior and senior high school students which provided them with essential information on HIV, AIDS, teenage pregnancy, and reproductive health. It aimed to correct misconceptions, promote awareness of preventive measures, and encourage responsible decision-making to support students' well-being and foster a healthier school community."
+          ]
         },
         {
           "heading": "HIV Awareness Seminar: Health starts when you STAP",
-          "paragraphs": ["STAP stands for Stop stigma, Test Today, Act with Awareness, Practice Protection. On January 28, 2026, the Society of Future Medical Technologists (SFMT), in partnership with the AUF University Student Council and the Association of DOST Scholars - AUF Chapter, conducted an HIV Awareness Seminar for undergraduate students. Led by resource speaker Mr. Kael Mata of Positibong Pasigueño, the seminar discussed HIV prevention, testing, and awareness. The seminar addressed misconceptions, stigma, and discrimination while also emphasizing empathy, respect, and inclusive, patient-centered care for people living with HIV."],
+          "paragraphs": [
+            "STAP stands for Stop stigma, Test Today, Act with Awareness, Practice Protection. On January 28, 2026, the Society of Future Medical Technologists (SFMT), in partnership with the AUF University Student Council and the Association of DOST Scholars - AUF Chapter, conducted an HIV Awareness Seminar for undergraduate students. Led by resource speaker Mr. Kael Mata of Positibong Pasigueño, the seminar discussed HIV prevention, testing, and awareness. The seminar addressed misconceptions, stigma, and discrimination while also emphasizing empathy, respect, and inclusive, patient-centered care for people living with HIV."
+          ],
           "images": [
-            { "file": "sfmt-1", "alt": "Participants of the SFMT HIV Awareness Seminar", "w": 1600, "h": 1066 },
-            { "file": "sfmt-2", "alt": "Resource speaker and organizers of the SFMT HIV Awareness Seminar", "w": 1600, "h": 1066 }
+            {
+              "file": "sfmt-1",
+              "alt": "Participants of the SFMT HIV Awareness Seminar",
+              "w": 1600,
+              "h": 1066
+            },
+            {
+              "file": "sfmt-2",
+              "alt": "Resource speaker and organizers of the SFMT HIV Awareness Seminar",
+              "w": 1600,
+              "h": 1066
+            }
           ]
         }
       ],
@@ -95,16 +184,364 @@
       "title": "AUF Reaffirms Its No Smoking, No Vaping Policy",
       "excerpt": "A strict campus-wide policy that applies to all students, faculty, staff, personnel, and visitors.",
       "category": "Policy",
-      "sdgs": [3],
-      "tags": ["AUF health programs", "No smoking policy"],
+      "sdgs": [
+        3
+      ],
+      "tags": [
+        "AUF health programs",
+        "No smoking policy"
+      ],
       "featured": true,
-      "cover": { "file": "cover", "alt": "No smoking, no vaping, no exceptions poster", "w": 1122, "h": 1402 },
+      "cover": {
+        "file": "cover",
+        "alt": "No smoking, no vaping, no exceptions poster",
+        "w": 1122,
+        "h": 1402
+      },
       "intro": [
         "Angeles University Foundation upholds a strict NO SMOKING and NO VAPING Policy within and around the campus premises. This policy is enforced at all times and applies to all students, faculty, staff, personnel, and visitors, including those participating in after-school activities and events.",
         "Maintaining a smoke-free and vape-free environment reflects our shared commitment to protect the health, safety, and well-being of the entire AUF community.",
         "Let us continue working together to foster a clean, safe, and healthy place for learning and growth."
       ],
       "sections": []
+    },
+    {
+      "slug": "non-discrimination-commitment",
+      "title": "AUF Reaffirms Its Commitment to Non-Discrimination",
+      "excerpt": "AUF upholds a safe environment free from all forms of discrimination and harassment, guided by its core values of Mabuti, Magaling, and May Malasakit sa Kapwa.",
+      "category": "Policy",
+      "sdgs": [
+        4,
+        5
+      ],
+      "tags": [
+        "Non-discrimination",
+        "Lifelong learning"
+      ],
+      "featured": false,
+      "cover": {
+        "file": "avp-poster",
+        "alt": "Still from the AUF Non-Discrimination Commitment video teaser",
+        "w": 1280,
+        "h": 720
+      },
+      "video": {
+        "file": "avp-teaser",
+        "poster": "avp-poster",
+        "title": "AUF Non-Discrimination Commitment AVP teaser 2026"
+      },
+      "intro": [
+        "The Angeles University Foundation, as the first Catholic University in Central Luzon, is faithful to the Church's teachings on the value and the promotion of the human dignity of every person as the imago Dei (image of God).",
+        "Therefore, the University upholds a strong commitment to fostering a safe and secure environment free from all forms of discrimination and harassment, providing equal opportunities for the Angelenean community. This includes, but is not limited to, discrimination based on age, civil/marital status, citizenship, ethnicity and/or race, color, body type and/or size, physical or mental condition, religion, cultural and/or political beliefs, gender, language and/or other forms of discrimination prohibited by law.",
+        "This commitment encompasses all areas of the University's academic, administrative, and operational functions across both higher education and basic education levels."
+      ],
+      "sections": [
+        {
+          "heading": "Guiding Principles",
+          "paragraphs": [
+            "Guided by the University's core values - Mabuti, Magaling and May Malasakit sa Kapwa - the University's commitment to non-discrimination is founded on the following:"
+          ]
+        },
+        {
+          "heading": "Mabuti (Inner Goodness)",
+          "paragraphs": [
+            "The University affirms that every individual is a person of integrity, principle and character. Hence, each has been endowed with unique gifts that contribute to nation-building and the common good. With this belief, AUF is committed to nurturing a working-learning environment that empowers all Angeleneans to realize their fullest potential while respecting the diversity and differences."
+          ]
+        },
+        {
+          "heading": "Magaling (Excellence)",
+          "paragraphs": [
+            "Recognizing that every person is created in the image and likeness of God, the University is committed to ensuring equal opportunities for all, without discrimination based on personal attributes or socio-political standing. This commitment includes providing fair access to education, employment, benefits, services, and facilities, guided by laws and policies."
+          ]
+        },
+        {
+          "heading": "May Malasakit sa Kapwa (Genuine Concern for Others)",
+          "paragraphs": [
+            "The University is called to embody the love of Christ and live out the Gospel values by fostering a community that is inclusive and attentive to the needs of the marginalized, homeless, voiceless and vulnerable, promoting teaching and learning practices, health and well-being, gender inclusivity, and support for individuals with special needs."
+          ]
+        }
+      ],
+      "closing": "The Non-Discrimination Commitment of the University is fundamentally supported by the various policies and programs of the Angelenean community, and is integrated into its teaching, learning, and administrative processes."
+    },
+    {
+      "slug": "safe-spaces-confidential-reporting",
+      "title": "Promoting Safe Spaces and Confidential Reporting at AUF",
+      "excerpt": "AUF maintains policies and procedures so that any stakeholder who feels unsafe receives appropriate and immediate assistance, with reports treated confidentially.",
+      "category": "Policy",
+      "sdgs": [
+        5
+      ],
+      "tags": [
+        "Non-discrimination"
+      ],
+      "featured": false,
+      "intro": [
+        "Angeles University Foundation is committed to maintaining a safe and secure environment free from all forms of distress and fear that may impede the educational process or affect the lives of those who call this their \"second home.\"",
+        "The University has policies and procedures in place to ensure any stakeholder who feels unsafe will receive appropriate and immediate assistance. As we strive to foster a respectful environment at AUF, we advise the Angelenean community to seek help through the proper channels.",
+        "We encourage you to responsibly use your voice and get in touch with us for assistance, counseling, or consultation. Rest assured that the University management shall treat reports with utmost confidentiality. Help the University help you by reaching out through hrdc.grievance@auf.edu.ph."
+      ],
+      "sections": []
+    },
+    {
+      "slug": "maternity-paternity-benefits",
+      "title": "Maternity and Paternity Benefits at AUF",
+      "excerpt": "AUF supports employee and family well-being through maternity, paternity, special, and solo parent leave benefits in accordance with Philippine laws.",
+      "category": "Policy",
+      "sdgs": [
+        5
+      ],
+      "tags": [
+        "Maternity policy",
+        "Paternity policy"
+      ],
+      "featured": false,
+      "intro": [
+        "Angeles University Foundation supports employee and family well-being by providing access to maternity, paternity, and other parental leave benefits in accordance with applicable Philippine laws. These benefits recognize the importance of family care, maternal health, and the employees' roles as parents.",
+        "The University's policy covers benefits provided under the following laws:"
+      ],
+      "sections": [
+        {
+          "heading": "Expanded Maternity Leave - Republic Act No. 11210 (2019)",
+          "paragraphs": [
+            "Maternity leave benefits are granted by SSS to female academic staff members, in lieu of their salaries during their leave of absence.",
+            "A pregnant female academic staff member shall be granted a maternity leave of 105 days with full pay, regardless of whether she gave birth via caesarian section or natural delivery, while maternity leave of 60 days with full pay shall be granted for miscarriage or emergency termination of pregnancy regardless of frequency.",
+            "A female academic staff member must have at least three (3) months contributions in the 12-month period immediately preceding the semester of childbirth, miscarriage, or emergency termination of pregnancy.",
+            "In case the employee qualifies as a solo parent under Republic Act No. 8972, or the \"Solo Parents' Welfare Act,\" the employee shall be paid an additional maternity benefit of 15 days.",
+            "An additional maternity leave of 30 days, without pay, can be availed of at the option of the female worker, provided that the employer shall be given due notice, in writing, at least 45 days before the end of her maternity leave. Provided further, that no prior notice shall be necessary in the event of a medical emergency, but subsequent notice shall be given to the HRDC.",
+            "A female academic staff must notify AUF of her pregnancy and probable date of her childbirth. Such notice shall be transmitted to the SSS in accordance with its rules and regulations."
+          ]
+        },
+        {
+          "heading": "Special Leave Benefits for Women - Magna Carta of Women, Republic Act No. 9710 (2009)",
+          "paragraphs": [
+            "All full-time female academic staff members with at least six (6) months of service are entitled to a special leave benefit of up to two (2) months with full pay based on gross monthly compensation, following surgery for gynecological disorders."
+          ]
+        },
+        {
+          "heading": "Paternity Leave - Republic Act No. 8187 (1997)",
+          "paragraphs": [
+            "A married full-time male academic staff member is entitled to a paternity leave benefit of seven (7) working days with full pay for the first four (4) deliveries, provided:"
+          ],
+          "bullets": [
+            "His legitimate wife has delivered a child, or had a miscarriage or an abortion.",
+            "He and his wife must be living together at the time of delivery, miscarriage, or abortion.",
+            "He is employed at the time of delivery and has duly notified his employer of his wife's pregnancy and expected date of delivery.",
+            "He avails of this benefit before, during, or after the delivery, but not later than 60 days after said delivery."
+          ]
+        },
+        {
+          "heading": "Solo Parent Leave - Republic Act No. 8972, as amended by Republic Act No. 11861",
+          "paragraphs": [
+            "Any solo parent employee, regardless of employment status, who has rendered service of at least six (6) months shall be granted, in addition to leave privileges under existing laws, a forfeitable and non-cumulative parental leave of not more than seven (7) working days with pay every year, provided that his or her immediate head has been notified within a reasonable time period prior to the availment of such leave. Parental leave, if availed of on a staggered basis, shall follow the schedule below:"
+          ],
+          "bullets": [
+            "1st Semester = 2 days",
+            "2nd Semester = 2 days",
+            "Summer Term = 3 days"
+          ]
+        },
+        {
+          "heading": "AUF Maternity Benefits",
+          "paragraphs": [
+            "In addition to these statutory leave benefits, AUF provides a maternity benefit subsidy for married female academic staff members for up to two (2) childbirths delivered at the AUF Medical Center."
+          ]
+        }
+      ],
+      "closing": "Through these provisions, AUF reinforces its commitment to employee welfare and family well-being while recognizing the importance of supporting personnel through significant life events. Employees are encouraged to coordinate with the Human Resources Development Center (HRDC) for information on eligibility, documentary requirements, and procedures for availing of the applicable benefits."
+    },
+    {
+      "slug": "education-outreach-2025-2026",
+      "title": "Extending Learning Beyond the Campus: AUF's Education Outreach Initiatives for A.Y. 2025-2026",
+      "excerpt": "Tutorials, teacher training, digital literacy, and first aid seminars bringing AUF's academic units and student organizations to partner schools and communities.",
+      "category": "Education Outreach",
+      "sdgs": [
+        4
+      ],
+      "tags": [
+        "Education outreach programs"
+      ],
+      "featured": false,
+      "cover": {
+        "file": "data-smart-teachers",
+        "alt": "Data Smart Teachers Workshop by the OVPRI",
+        "w": 1600,
+        "h": 1200
+      },
+      "intro": [
+        "Angeles University Foundation (AUF) extends its educational initiatives beyond the university through community outreach programs that support learning and skills development. During the previous academic year, different academic units and student organizations engaged with educators, learners, and other beneficiaries from local schools and communities through activities involving academic tutorials, teacher training, digital literacy and technology education, and health education to name a few. The following are some of the outreach programs which highlight the university's efforts to support the educational and developmental needs of its partner schools and communities:"
+      ],
+      "sections": [
+        {
+          "heading": "AUF CED joins ARAL Program Anew",
+          "paragraphs": [
+            "For its second year in the Academic Recovery and Accessible Learning (ARAL) Program, the AUF College of Education (CED), in collaboration with the Center for Christian Formation and Praxis, will deploy 43 volunteer pre-service teachers as learning tutors in three partner public schools namely, Dr. Clemente Dayrit Sr. Elementary School (ES), Marisol Bliss ES, and Salapungan ES. This year's program includes mathematics alongside other subject areas. The CED held an orientation for the volunteer tutors on August 11, 2026, with the CED Alumni Association co-sponsoring the initiative."
+          ]
+        },
+        {
+          "heading": "AUF CED Teacher's Pen sponsors journalism training for ACNHS",
+          "paragraphs": [
+            "The AUF CED Teacher's Pen, the official publication of the college, together with The Pioneer, the official publication of AUF, conducted their annual External Journalistic Skills Training on September 6, 2025, for student journalists and their adviser from Angeles City National High School - Senior High School (ACNHS-SHS). The training covered news, column, feature, and sports writing, photojournalism, and graphics and layout editing under the theme \"LAPIS: Lakas ng Adhikain, Panulat, Integridad, at Serbisyo.\""
+          ],
+          "images": [
+            {
+              "file": "teachers-pen-journalism",
+              "alt": "Journalism training for student journalists of ACNHS-SHS",
+              "w": 1600,
+              "h": 1066
+            }
+          ]
+        },
+        {
+          "heading": "Basic Accounting Tutorials to public schools",
+          "paragraphs": [
+            "The Junior Philippine Institute of Accountants - AUF (JPIA AUF) conducted the Accountancy in Action: SHS - ABM Tutorials for the Grade 11 ABM students of Francis G. Nepomuceno Memorial High School on March 13, 2026. The session covered Basic Accounting, Business Finance, and Basic Taxation, helping students strengthen their understanding of fundamental accounting concepts and their practical applications."
+          ],
+          "images": [
+            {
+              "file": "jpia-accounting-tutorials",
+              "alt": "JPIA AUF basic accounting tutorials for Grade 11 ABM students",
+              "w": 1440,
+              "h": 814
+            }
+          ]
+        },
+        {
+          "heading": "Beyond the Bandage: Strengthening Skills in First Aid, Emergency Response and Recovery Care",
+          "paragraphs": [
+            "The AUF College of Nursing facilitated a Community-Based Health Program (CBHP) seminar for community health volunteers of SACOP and Munting Tahanan ng Nazareth, Inc., on June 19, 2026. The session focused on proper bandaging and emergency response, combining discussions with hands-on practice to strengthen participants' first-aid skills and preparedness to assist their communities. Participants learned how to respond promptly and effectively to emergencies to help prevent further injury and provide immediate care."
+          ]
+        },
+        {
+          "heading": "OVPRI & GS Community Project in Action: Data Smart Teachers Workshop",
+          "paragraphs": [
+            "On January 16, 2026, the Office of the Vice President for Research and Innovation (OVPRI), in collaboration with the Center for Data Analytics, Informatics and Computing (CDAIC), the Center for Advanced Research in Education (CARE), and the Center for Advanced Research and Innovation (CARI), conducted the Data Smart Teachers Workshop on Research Statistics for Don Jesus Gonzales High School in Mexico, Pampanga. The workshop provided research and mathematics teachers and graduate students with training in data analysis, statistics, and research methodologies through lectures, hands-on sessions, and research consultations."
+          ],
+          "images": [
+            {
+              "file": "data-smart-teachers",
+              "alt": "Data Smart Teachers Workshop on Research Statistics",
+              "w": 1600,
+              "h": 1200
+            }
+          ]
+        },
+        {
+          "heading": "\"Batang Matatag, Batang Digital\"",
+          "paragraphs": [
+            "In support of AUF's commitment to community engagement and social responsibility through its \"Malasakit sa Kapwa: Angelenean-Adopt-A-Learner Program,\" the College of Computer Studies (CCS) successfully conducted its community extension activity entitled \"Batang Matatag, Batang Digital\" on June 26, 2025. The initiative aimed to empower Grade 6 students of Marisol Bliss Elementary School by providing opportunities to develop essential digital literacy skills while encouraging creativity and self-expression."
+          ]
+        },
+        {
+          "heading": "The Orbit: A Creative Learning Session with Director Avid Liongoren",
+          "paragraphs": [
+            "The AUF-CCS hosted \"The Orbit\" on October 29, 2025, at St. Cecilia's Auditorium, providing students with an opportunity to explore the creative industry through an interactive learning session with Director Avid Liongoren of Rocketsheep Studio, a prominent figure in Philippine animation and filmmaking. The event brought together 212 participants, including students from AUF and external community participants from Claro M. Recto ICT High School and Dr. Clemente N. Dayrit Sr. Memorial High School."
+          ]
+        },
+        {
+          "heading": "The Ethical Use of Artificial Intelligence in the Digital Age for ALS learners",
+          "paragraphs": [
+            "In response to the growing demand for digital literacy and AI awareness, the BSIT students of the CCS conducted a seminar titled \"The Ethical Use of Artificial Intelligence in the Digital Age\" on November 7, 2025. This was attended by ALS learners from Gueco Balibago Elementary School and youth representatives from Barangay Sto. Cristo Sangguniang Kabataan. The seminar aimed to strengthen participants' understanding of AI concepts, ethical frameworks, and practical automation tools."
+          ]
+        },
+        {
+          "heading": "AI Automation Workshop",
+          "paragraphs": [
+            "On November 21, 2025, 4th-year Computer Science students organized and facilitated a specialized workshop focused on Artificial Intelligence (AI) and AI Automation for the students of Angeles City Science High School (AcSci). The event aimed to bridge the gap between theoretical computer science concepts and practical, modern-day applications. The session provided the students with a foundational understanding of AI, followed by live demonstrations of automation workflows."
+          ],
+          "images": [
+            {
+              "file": "ai-automation-workshop",
+              "alt": "AI Automation Workshop for students of Angeles City Science High School",
+              "w": 1525,
+              "h": 1031
+            }
+          ]
+        },
+        {
+          "heading": "Chinese Language and Culture Society Teaching Immersion",
+          "paragraphs": [
+            "The Chinese Language and Culture Society (CLCS), with support from the AUF College of Education, Confucius Institute at AUF, and Angeles City Science High School, conducted a student-led teaching immersion to Grade 9 and 10 students. CLCS officers and members facilitated Chinese language lessons and cultural activities, extending language and culture education beyond the university."
+          ],
+          "images": [
+            {
+              "file": "chinese-teaching-immersion",
+              "alt": "CLCS teaching immersion for Grade 9 and 10 students",
+              "w": 1600,
+              "h": 1600
+            }
+          ]
+        }
+      ],
+      "closing": "Through these outreach activities, AUF continues to support learning and skills development while further strengthening partnerships with local schools and communities. These efforts reflect the university's commitment to community engagement services, guided by its core values of being Mabuti and May Malasakit sa Kapwa."
+    },
+    {
+      "slug": "kapampangan-studies-language-heritage",
+      "title": "Preserving Language, Celebrating Heritage: The AUF-CED Institute of Kapampangan Studies",
+      "excerpt": "Through lectures, partnerships, and Buwan ng Wika programs, the Institute of Kapampangan Studies keeps Kapampangan language, literature, and culture alive across generations.",
+      "category": "Arts and Heritage",
+      "sdgs": [
+        11
+      ],
+      "tags": [
+        "Arts and heritage"
+      ],
+      "featured": false,
+      "cover": {
+        "file": "mou-signing",
+        "alt": "Signing of the Memorandum of Understanding establishing the Sentro ng Wika at Kultura",
+        "w": 1080,
+        "h": 1080
+      },
+      "intro": [
+        "The Institute of Kapampangan Studies (IKS) of the Angeles University Foundation-College of Education (AUF-CED) works to preserve, study, and promote the Kapampangan language, literature, and culture. Through public lectures, partnerships with cultural organizations, and student-centered programs, the Institute connects scholars, educators, writers, and students in keeping Kapampangan heritage alive and sustained across generations.",
+        "In recent months, the Institute's activities have ranged from literary lectures to institutional partnerships and language celebrations:"
+      ],
+      "sections": [
+        {
+          "heading": "Building Language Partnerships (March to May 2026)",
+          "paragraphs": [
+            "On March 27, 2026, the Institute, together with BSED Filipino 2, organized a lecture featuring Dr. Reggie O. Cruz, Kapampangan Language Commissioner of the Komisyon sa Wikang Filipino (KWF). Held in Room EA212, the talk highlighted KWF's initiatives and projects. It was attended by Filipino teachers and students from the AUF College of Education and the AUF Integrated School.",
+            "The collaboration with KWF was further strengthened in May. A landmark Memorandum of Understanding (MOU) was signed on May 6, 2026, establishing the Sentro ng Wika at Kultura (SWK) at Angeles University Foundation. The agreement marks an important step in institutionalizing the study and promotion of language and culture on campus."
+          ],
+          "images": [
+            {
+              "file": "mou-signing",
+              "alt": "Signing of the Memorandum of Understanding establishing the Sentro ng Wika at Kultura",
+              "w": 1080,
+              "h": 1080
+            }
+          ]
+        },
+        {
+          "heading": "Honoring Kapampangan Literature (April to June 2026)",
+          "paragraphs": [
+            "On April 7, 2026, the Institute held a public lecture titled \"Ang Poeta Laureado at Ang Ari ning Parnaso: Mga Alagad ng Panitikang Kapampangan\" (The Poet Laureate and the King of Parnassus: Disciples of Kapampangan Literature) at the St. John Paul II Professional Schools Building. Dr. Ariel Gutierrez, vice president of Ing Akademyang Kapampangan and chair of the AUF Integrated School, discussed the history and significance of the \"Poeta Laureado\" and \"Ari ng Parnaso\" awards, which recognize contributions to Kapampangan culture, literature, and identity. Poeta Laureado Francisco Guinto also recited his original poems. Participants included AUF faculty and students, staff from the University of the Assumption, and members of the public.",
+            "The Institute continued this focus on literature on June 10, 2026, when it co-hosted the Ing Akademyang Kapampangan (AKKAP), Inc. Lecture and General Assembly at the Emmanuel Y. Angeles Center for Learning and Innovation, Room 301. With the theme \"Literaturang Kapampangan: Nanu Ya Parasan?\", educators, writers, and cultural advocates gathered to discuss the relevance and future of local literature. The event aimed to promote appreciation for Kapampangan heritage, encourage scholarly and creative engagement, and strengthen collaboration among institutions in preserving Kapampangan literary traditions."
+          ]
+        },
+        {
+          "heading": "Buwan ng Wika 2026 (August 2026)",
+          "paragraphs": [
+            "The Institute's Sentro ng Wika at Kultura led programs for this year's Buwan ng Wika celebration.",
+            "On August 13, 2026, the Palihan 2026, part of Tertulyang Pangwika 2026, took place at St. John Paul II Hall B. Themed \"Wikang Filipino at AI: Kasangkapan sa Pananaliksik at Tulay sa Yaman ng Impormasyon,\" the afternoon featured discussion, research presentations, and knowledge-sharing on the role of artificial intelligence in Filipino-language scholarship.",
+            "On August 27, 2026, Dagliang Talakayan, the second program of the Sentro ng Wika at Kultura for Buwan ng Wika, was held at the Teacher Resource Center in the EA Building. Students from various majors of the College of Education took part, showcasing their knowledge, quick thinking, and skill in using the Filipino language."
+          ],
+          "images": [
+            {
+              "file": "palihan-2026",
+              "alt": "Palihan 2026 during Tertulyang Pangwika 2026",
+              "w": 1600,
+              "h": 1000
+            },
+            {
+              "file": "dagliang-talakayan",
+              "alt": "Dagliang Talakayan during Buwan ng Wika 2026",
+              "w": 1600,
+              "h": 1000
+            }
+          ]
+        }
+      ]
     }
   ]
 }

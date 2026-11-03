@@ -23,6 +23,21 @@ export function TagPill({ children }: { children: React.ReactNode }) {
   );
 }
 
+/** Cover photo, or an SDG-colored block with the goal icon when the article has no photo. */
+export function CoverOrSdg({ article, className }: { article: SustainabilityArticle; className: string }) {
+  if (article.cover) {
+    // eslint-disable-next-line @next/next/no-img-element
+    return <img src={article.cover.src} alt={article.cover.alt} loading="lazy" className={className} />;
+  }
+  const n = article.sdgs[0];
+  return (
+    <div className={`flex items-center justify-center ${className}`} style={{ background: getSdg(n)?.color }}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img src={`/assets/sdgs/${n}.png`} alt="" className="h-24 w-24 rounded-xl shadow-lg" />
+    </div>
+  );
+}
+
 export function articleHref(a: SustainabilityArticle) {
   return `${sustainabilityPath}/${a.slug}`;
 }
@@ -37,13 +52,12 @@ export function SustainabilityCard({ article }: { article: SustainabilityArticle
       className="group flex flex-col overflow-hidden rounded-2xl border border-auf-border bg-white transition-shadow hover:shadow-md"
     >
       <div className="h-1 w-full shrink-0" style={{ background: color }} />
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={article.cover.src}
-        alt={article.cover.alt}
-        loading="lazy"
-        className="h-44 w-full object-cover transition-transform duration-500 group-hover:scale-105"
-      />
+      <div className="overflow-hidden">
+        <CoverOrSdg
+          article={article}
+          className="h-44 w-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+      </div>
       <div className="flex flex-1 flex-col p-5">
         <div className="mb-3 flex flex-wrap items-center gap-2">
           <span className="rounded-full bg-navy/8 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-navy">

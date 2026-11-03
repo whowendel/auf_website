@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { InnerPageHero } from "@/components/public/page-layout/inner-page-hero";
-import { ArticleBody, ArticleCover } from "@/components/public/sustainability/sustainability-article-body";
+import { ArticleBody, ArticleCover, ArticleVideo } from "@/components/public/sustainability/sustainability-article-body";
 import { SdgChip, TagPill, articleHref } from "@/components/public/sustainability/sustainability-card";
 import { getSdg } from "@/data/sdgs";
 import { getSustainabilityArticle, sustainabilityArticles, sustainabilityPath } from "@/data/sustainability";
@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
     title: a.title,
     description: a.excerpt,
     keywords: [...a.tags, ...a.sdgs.map((n) => `SDG ${n} ${getSdg(n)?.title ?? ""}`.trim())],
-    openGraph: { title: a.title, description: a.excerpt, images: [a.cover.src] },
+    openGraph: { title: a.title, description: a.excerpt, images: a.cover ? [a.cover.src] : undefined },
   };
 }
 
@@ -39,7 +39,13 @@ export default async function SustainabilityArticlePage({ params }: Params) {
     "@type": "Article",
     headline: article.title,
     description: article.excerpt,
-    image: article.cover.src,
+    image: article.cover?.src,
+    video: article.video && {
+      "@type": "VideoObject",
+      name: article.video.title,
+      thumbnailUrl: article.video.poster,
+      contentUrl: article.video.src,
+    },
     keywords: [...sdgLabels, ...article.tags].join(", "),
     articleSection: article.category,
     publisher: { "@type": "CollegeOrUniversity", name: "Angeles University Foundation" },
@@ -71,7 +77,11 @@ export default async function SustainabilityArticlePage({ params }: Params) {
         </div>
       </InnerPageHero>
 
-      <ArticleCover img={article.cover} />
+      {article.video ? (
+        <ArticleVideo video={article.video} />
+      ) : (
+        article.cover && <ArticleCover img={article.cover} />
+      )}
 
       <article className="mx-auto max-w-3xl px-6 py-12 md:py-16">
         <ArticleBody article={article} />
