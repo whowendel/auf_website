@@ -1,4 +1,129 @@
-import type { SustainabilityArticle, SustainabilityImage, SustainabilityVideo } from "@/data/sustainability";
+import type {
+  SustainabilityArticle,
+  SustainabilityBlock,
+  SustainabilityCell,
+  SustainabilityImage,
+  SustainabilityVideo,
+} from "@/data/sustainability";
+import { ArticleEmbed } from "./sustainability-embed";
+
+const text = "text-base leading-8 text-gray-700";
+
+function Cell({ cell }: { cell: SustainabilityCell }) {
+  if (typeof cell === "string") return <span className="whitespace-pre-line">{cell}</span>;
+  return (
+    <span className="flex flex-col gap-1">
+      {cell.text && <span className="whitespace-pre-line">{cell.text}</span>}
+      {cell.links.map((href, i) => (
+        <a
+          key={href}
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-semibold text-navy underline decoration-gold underline-offset-2 hover:text-gold"
+        >
+          Post {i + 1}
+        </a>
+      ))}
+    </span>
+  );
+}
+
+function Table({ head, rows }: { head?: string[]; rows: SustainabilityCell[][] }) {
+  return (
+    <div className="mt-6 overflow-x-auto rounded-xl border border-auf-border">
+      <table className={`w-full border-collapse text-left text-sm ${(rows[0]?.length ?? 0) > 3 ? "min-w-[640px]" : ""}`}>
+        {head && (
+          <thead>
+            <tr className="bg-navy text-white">
+              {head.map((h, i) => (
+                <th key={i} className="px-4 py-3 text-[10px] font-bold uppercase tracking-wider">
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+        )}
+        <tbody>
+          {rows.map((row, r) => (
+            <tr key={r} className="border-t border-auf-border align-top odd:bg-off-white first:border-t-0">
+              {row.map((c, i) => (
+                <td key={i} className={`px-4 py-3 text-gray-700 ${i === 0 && !head ? "font-semibold text-navy" : ""}`}>
+                  <Cell cell={c} />
+                </td>
+              ))}
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function Images({ images }: { images: SustainabilityImage[] }) {
+  return (
+    <div className={`mt-6 grid items-start gap-3 ${images.length > 1 ? "sm:grid-cols-2" : ""}`}>
+      {images.map((img) => (
+        <Figure key={img.src} img={img} />
+      ))}
+    </div>
+  );
+}
+
+function Blocks({ blocks }: { blocks: SustainabilityBlock[] }) {
+  return blocks.map((b, i) => {
+    switch (b.type) {
+      case "p":
+        return <p key={i} className={`mt-4 ${text}`}>{b.text}</p>;
+      case "label":
+        return <h4 key={i} className="mt-5 text-xs font-bold uppercase tracking-wider text-gold">{b.text}</h4>;
+      case "list": {
+        const List = b.ordered ? "ol" : "ul";
+        return (
+          <List key={i} className={`mt-3 space-y-2 pl-6 ${text} ${b.ordered ? "list-decimal" : "list-disc"} marker:text-gold`}>
+            {b.items.map((item) => (
+              <li key={item}>{item}</li>
+            ))}
+          </List>
+        );
+      }
+      case "table":
+        return <Table key={i} head={b.head} rows={b.rows} />;
+      case "terms":
+        return (
+          <dl key={i} className="mt-6 grid gap-3 sm:grid-cols-2">
+            {b.items.map((t) => (
+              <div key={t.term} className="rounded-xl border border-auf-border bg-off-white p-4">
+                <dt className="font-display text-base font-semibold text-navy">{t.term}</dt>
+                <dd className="mt-1 text-sm leading-6 text-gray-700">{t.text}</dd>
+              </div>
+            ))}
+          </dl>
+        );
+      case "images":
+        return <Images key={i} images={b.images} />;
+      case "embed":
+        return <ArticleEmbed key={i} src={b.src} title={b.title} preview={b.preview} />;
+      case "group": {
+        const title = <h3 className="font-display text-xl font-semibold leading-snug text-navy">{b.heading}</h3>;
+        return b.collapsible ? (
+          <details key={i} className="group mt-3 rounded-xl border border-auf-border px-5 py-3 open:pb-5">
+            <summary className="flex cursor-pointer list-none items-center justify-between gap-4 [&::-webkit-details-marker]:hidden">
+              {title}
+              <span aria-hidden className="text-gold transition-transform group-open:rotate-45">+</span>
+            </summary>
+            <Blocks blocks={b.blocks} />
+          </details>
+        ) : (
+          <div key={i} className="mt-8">
+            {title}
+            <Blocks blocks={b.blocks} />
+          </div>
+        );
+      }
+    }
+  });
+}
 
 function Figure({ img }: { img: SustainabilityImage }) {
   return (
@@ -65,28 +190,23 @@ export function ArticleBody({ article }: { article: SustainabilityArticle }) {
         ))}
       </div>
 
-      {article.sections.map((s) => (
-        <section key={s.heading} className="mt-12">
-          <h2 className="font-display text-2xl font-semibold leading-snug text-navy">{s.heading}</h2>
+      {article.sections.map((s, si) => (
+        <section key={s.heading || si} className={s.heading ? "mt-12" : "mt-6"}>
+          {s.heading && <h2 className="font-display text-2xl font-semibold leading-snug text-navy">{s.heading}</h2>}
           {s.paragraphs.map((p, i) => (
-            <p key={i} className="mt-4 text-base leading-8 text-gray-700">
+            <p key={i} className={`mt-4 ${text}`}>
               {p}
             </p>
           ))}
           {s.bullets.length > 0 && (
-            <ul className="mt-4 list-disc space-y-2 pl-6 text-base leading-8 text-gray-700 marker:text-gold">
+            <ul className={`mt-4 list-disc space-y-2 pl-6 ${text} marker:text-gold`}>
               {s.bullets.map((b) => (
                 <li key={b}>{b}</li>
               ))}
             </ul>
           )}
-          {s.images.length > 0 && (
-            <div className={`mt-6 grid items-start gap-3 ${s.images.length > 1 ? "sm:grid-cols-2" : ""}`}>
-              {s.images.map((img) => (
-                <Figure key={img.src} img={img} />
-              ))}
-            </div>
-          )}
+          {s.images.length > 0 && <Images images={s.images} />}
+          <Blocks blocks={s.blocks} />
         </section>
       ))}
 

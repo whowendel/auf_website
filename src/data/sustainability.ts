@@ -3,11 +3,27 @@ import raw from "./sustainability.json";
 export type SustainabilityImage = { src: string; alt: string; w: number; h: number };
 export type SustainabilityVideo = { src: string; poster: string; title: string };
 
+/** Table cell: plain text, or text plus the URLs it links to (rendered as "Post 1", "Post 2"...). */
+export type SustainabilityCell = string | { text: string; links: string[] };
+
+/** Ordered rich content, used when a source mixes paragraphs, lists, tables and photos. */
+export type SustainabilityBlock<I = SustainabilityImage> =
+  | { type: "p"; text: string }
+  | { type: "label"; text: string }
+  | { type: "list"; items: string[]; ordered?: boolean }
+  | { type: "table"; head?: string[]; rows: SustainabilityCell[][] }
+  | { type: "terms"; items: { term: string; text: string }[] }
+  | { type: "images"; images: I[] }
+  | { type: "embed"; src: string; title: string; preview?: I }
+  | { type: "group"; heading: string; collapsible?: boolean; blocks: SustainabilityBlock<I>[] };
+
 export type SustainabilitySection = {
+  /** Empty heading renders no title (content continues the article flow). */
   heading: string;
   paragraphs: string[];
   bullets: string[];
   images: SustainabilityImage[];
+  blocks: SustainabilityBlock[];
 };
 
 export type SustainabilityArticle = {
@@ -34,7 +50,13 @@ type RawImage = { file: string; w: number; h: number };
 type RawArticle = Omit<SustainabilityArticle, "excerpt" | "cover" | "video" | "sections"> & {
   cover?: RawImage;
   video?: { file: string; poster: string; title: string };
-  sections: { heading: string; paragraphs: string[]; bullets?: string[]; images?: RawImage[] }[];
+  sections: {
+    heading: string;
+    paragraphs?: string[];
+    bullets?: string[];
+    images?: RawImage[];
+    blocks?: SustainabilityBlock<RawImage & { alt?: string }>[];
+  }[];
 };
 
 const asset = (slug: string, file: string) => `/assets/sustainability/${slug}/${file}`;
@@ -49,7 +71,27 @@ const toImage = (slug: string, i: RawImage, alt: string): SustainabilityImage =>
 
 const SHOW_DRAFTS = process.env.NODE_ENV !== "production";
 
-const allArticles: SustainabilityArticle[] = (raw.articles as RawArticle[]).map((a) => ({
+/** Photos inside blocks take their alt from the nearest heading (group, else section, else title). */
+const toBlocks = (
+  slug: string,
+  blocks: SustainabilityBlock<RawImage & { alt?: string }>[],
+  heading: string,
+): SustainabilityBlock[] =>
+  blocks.map((b) => {
+    if (b.type === "images")
+      return {
+        type: "images",
+        images: b.images.map((i, n, all) =>
+          toImage(slug, i, i.alt ?? (all.length > 1 ? `${heading} (photo ${n + 1})` : heading)),
+        ),
+      };
+    if (b.type === "embed")
+      return { ...b, preview: b.preview && toImage(slug, b.preview, b.preview.alt ?? b.title) };
+    if (b.type === "group") return { ...b, blocks: toBlocks(slug, b.blocks, b.heading) };
+    return b;
+  });
+
+const allArticles: SustainabilityArticle[] = (raw.articles as unknown as RawArticle[]).map((a) => ({
   ...a,
   excerpt: a.intro[0] ?? "",
   cover: a.cover && toImage(a.slug, a.cover, a.title),
@@ -60,11 +102,12 @@ const allArticles: SustainabilityArticle[] = (raw.articles as RawArticle[]).map(
   },
   sections: a.sections.map((s) => ({
     heading: s.heading,
-    paragraphs: s.paragraphs,
+    paragraphs: s.paragraphs ?? [],
     bullets: s.bullets ?? [],
     images: (s.images ?? []).map((i, n, all) =>
       toImage(a.slug, i, all.length > 1 ? `${s.heading} (photo ${n + 1})` : s.heading),
     ),
+    blocks: toBlocks(a.slug, s.blocks ?? [], s.heading || a.title),
   })),
 }));
 

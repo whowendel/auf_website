@@ -516,9 +516,1254 @@
         "SDG policy and initiatives"
       ],
       "featured": false,
-      "draft": true,
-      "intro": [],
-      "sections": [],
+      "intro": [
+        "Angeles University Foundation (AUF) is committed to contributing to the United Nations Sustainable Development Goals (SDGs) through the work it does every day: in the classroom, in research, in the communities it serves, and in the way the University is governed. This page brings together our SDG initiatives, our research contributions, and our performance in the Times Higher Education (THE) Impact Rankings.",
+        "Our approach follows the four areas of the UNESCO SET4HEI framework: Teaching and Learning, Research, Engagement, and Governance and Administration. We continue to track our progress, learn from the results, and strengthen our contributions each year."
+      ],
+      "sections": [
+        {
+          "heading": "Part 1: SDG Initiative Blueprint",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The Blueprint sets out the key actions AUF undertakes under each SDG, organized by the four SET4HEI areas."
+            },
+            {
+              "type": "group",
+              "heading": "SDG 1: No Poverty",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Integrate content on poverty reduction and inclusive economic development across relevant academic courses, such as social science courses.",
+                    "Expand access to education through scholarship programs such as the E-APA scholarship program.",
+                    "Promote admissions and retention support mechanisms."
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Align research with national and regional anti-poverty thrusts",
+                    "Encourage studies linking economic development, governance, and social protection."
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Implement community extension programs that promote livelihood development and economic empowerment such as CBA's livelihood and business programs.",
+                    "Partnering with government and other bodies for community-based solutions."
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize equitable admissions policies and financial assistance frameworks",
+                    "Institutional mechanisms that track, analyze, and report on inclusion indicators, by data-informed systems supported by the university's CDAIC to strengthen data-based monitoring, strategic planning, and improvement initiatives."
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 2: Zero Hunger",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Integration of hunger issues, waste reduction, and sustainable consumption",
+                    "Availability of assistance or subsidy programs for students and staff"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Support engagement in research linking environmental sustainability with food production"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Deliver outreach programs supporting food access, community nutrition education, and sustainable food practices",
+                    "Support initiatives and food waste reduction awareness"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize campus waste monitoring",
+                    "Establish institutional policies supporting food security among students and staff"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 3: Good Health and Well-Being",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Produce graduates in health and allied health professions aligned with national needs",
+                    "Integrate mental health, well-being, public health, and sexual-reproductive health competencies in academic programs through dedicated general education courses and professional curricula",
+                    "Provide students with comprehensive on-campus health services through the University Health Services (UHS), including primary care, referral mechanisms, and reproductive health education",
+                    "Maintain a smoke-free and health-promoting campus environment in compliance with institutional policy (in force since 1994) and enforced through UHS and campus security"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Advance health systems research, diagnostic innovation, and community health evidence generation through the AUF–MAGNUS Health Innovation Hub (CARI) and research from the various colleges",
+                    "Participate and collaborate with health-related organizations on approaches and global health-security research",
+                    "Support interdisciplinary research linking health equity, mental health, public health, and preventive care"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Deliver community health programs, medical missions, and public health outreach through the CON, CAMP, SOM, and other colleges",
+                    "Provide capacity building programs such as Basic Life Support (BLS) and CPR training to community groups",
+                    "Promote mental health awareness in the wider community through GCC/CAS advocacy campaigns and outreach events"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize comprehensive health policies for students, faculty, and staff including the UHS mental health framework, smoke-free campus policy (since 1994), and the partnerships for specialized referral services",
+                    "Maintain institutional commitments to health-promoting campus environments, and health services to students and staff"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 4: Quality Education",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Produce graduates in teacher education programs, including those who gain qualifications for primary school teaching, aligned with DepEd and CHED standards",
+                    "Support first-generation students through access, scholarship, and retention programs",
+                    "Deliver flexible learning modalities and inclusive pedagogy across academic programs through the university's learning plans",
+                    "Provide free access to educational resources and facilities users through the University Library's Readers' Services Section and the Confucius Institute's Chinese language teaching platform"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Conduct research on educational quality, pedagogy, assessment, and inclusive learning systems",
+                    "Contribute to education policy through evidence-based studies and faculty engagement",
+                    "Align research with DepEd, CHED, and international educational development priorities"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Serve as lead institution for SPFL-Chinese Mandarin teacher training through the Confucius Institute, having trained public school teachers and providing free access to CI-AUF's teaching platform nationwide",
+                    "Implement the ARAL Program (Academic Recovery and Accessible Learning) in partnership with DepEd Angeles City",
+                    "Offer vocational and professional development programs open to the public through the Graduate School and other programs",
+                    "Conduct of the Alternative Learning System (ALS) for out-of-school youth",
+                    "Host public educational events such as the CCS Regional Assembly on Information Technology Education (RAITE 2024)"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize non-discrimination and inclusive access through the Non-Discrimination Commitment Policy ensuring equitable access to education",
+                    "Ensure program accreditation through PAASCU and CHED as quality assurance mechanisms",
+                    "Maintain governance mechanisms supporting learning access, including the SMART Learning Plan to integrate analytics for data-driven strategic planning and retention mechanisms such as the Early Academic Support Intervention Policy"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 5: Gender Equality",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Promote equitable enrollment, retention, and graduation across all genders. AUF systematically tracks women's application and acceptance rates through the admissions system (MyAU/CDAIC analytics)",
+                    "Provide women's access schemes, including inclusive scholarships and the VICTORS support group for widows in the AUF community",
+                    "Integrate gender studies and gender-responsive pedagogy in relevant programs",
+                    "Encourage applications by women in underrepresented fields through open, non-discriminatory outreach such as the annual University College Fair"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Advance research on gender equality, women's issues, and gender-based development",
+                    "Support women scholars through research grants and mentorship programs"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Promote women's leadership and participation in public life through community programs",
+                    "Deliver gender advocacy, awareness, and empowerment outreach activities"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize gender equality and non-discrimination through the Non-Discrimination Commitment",
+                    "Representation of women in senior academic leadership",
+                    "Maintain anti-discrimination, anti-harassment, and reporting mechanisms as institutionalized policies"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 6: Clean Water and Sanitation",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Integrate water conservation, sanitation, and water resource management in relevant programs",
+                    "Embed sustainability and water stewardship awareness into campus learning environments",
+                    "Support graduates in engineering"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Support research on water management, sanitation, and climate-water resilience",
+                    "Generate research contributing to national water security frameworks"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Conduct community programs on water conservation, sanitation, and watershed management",
+                    "Promote water-smart practices through public education and outreach initiatives"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize water management systems, wastewater treatment, and water reuse policies",
+                    "Monitor campus water usage, quality, and infrastructure performance",
+                    "Implement rainwater harvesting and sustainable water infrastructure on campus"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 7: Affordable and Clean Energy",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Promote energy literacy and clean energy awareness in campus academic and co-curricular programs",
+                    "Integrate renewable energy and energy efficiency content in engineering, environmental, and science curricula",
+                    "Engage students in campus energy monitoring and sustainability initiatives"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Advance research on renewable energy adoption, energy efficiency, and clean energy systems",
+                    "Support interdisciplinary studies on energy transition, climate, and sustainable infrastructure"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Support community transition to clean energy through training, outreach, and technical assistance",
+                    "Provide community access to knowledge resources on affordable and sustainable energy"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize energy efficiency, carbon reduction, and renewable energy transition policies including adoption of solar power and electric vehicles",
+                    "Inclusion of environmental sustainability in university plans"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 8: Decent Work and Economic Growth",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Prepare students for employment through work-integrated learning, internships, and skills development programs",
+                    "Align curricula with labor market needs, industry standards, and emerging workforce competencies",
+                    "Monitor graduate employability outcomes across disciplines via AUF tracer studies by AAPS"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Support research on labor, employment, economic development, and responsible business practices",
+                    "Inform policy on decent work, fair wages, and inclusive economic growth"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Promote decent work through partnerships with industry, labor organizations, and government agencies",
+                    "Support workforce development initiatives and entrepreneurship programs for communities, such as AUF Career Fairs"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize inclusive workplace policies such as alternative work arrangements or economic incentives"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 9: Industry, Innovation, and Infrastructure",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Develop innovation and entrepreneurship competencies through industry-linked academic programs",
+                    "Integrate digital technologies, engineering design, and creative problem-solving in curricula",
+                    "Expose students to incubation, startup ecosystems, and industry collaboration experiences"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Support research on digital transformation, AI, smart systems, and infrastructure innovation",
+                    "Strengthen technology transfer, intellectual property management"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Support innovation ecosystems through spin-offs, startups, and community technology initiatives",
+                    "Engage industry and community partners in AUF Career Fairs"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize policies supporting innovation such as in OVPRI innovation and research centers",
+                    "Dedicated support structures for IP management",
+                    "Invest in digital and research infrastructure to support innovation-driven institutional growth"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 10: Reduced Inequalities",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Expand inclusive access to higher education for disadvantaged, marginalized, and underrepresented student groups",
+                    "Support first-generation, PWD, through scholarships and retention programs"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Support research on inequality, social inclusion, access, and marginalization"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Implement community outreach promoting inclusion, social mobility, and access to services"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize Non-Discrimination Commitment Policy",
+                    "Establish anti-harassment, non-discrimination, and accommodation policies",
+                    "Accessible facilities and accommodation systems"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 11: Sustainable Cities and Communities",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Integrate sustainable urban development, cultural heritage, and community resilience into relevant programs, particularly through Tourism, Environmental Science, Architecture, and Social Sciences curricula",
+                    "Embed appreciation for Kapampangan cultural heritage and local arts through academic programs, including immersion activities in heritage sites and the Confucius Institute's cultural education programs",
+                    "Support student engagement in community sustainability and cultural heritage documentation"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Conduct research on sustainable cities, community development, cultural heritage, and urban mobility",
+                    "Contribute to local and national urban planning and resilience policy through evidence-based research",
+                    "Support interdisciplinary studies addressing urban sustainability and community well-being"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Provide public access to campus cultural and community assets: the Institute of Kapampangan Studies with collections on regional cultural heritage; the University Library (UL) extending access researchers and external communities through the Readers' Services Section; and the UL-Barangay Ninoy Aquino Community Learning Hub providing residents with free access to educational resources",
+                    "Promote community arts and cultural heritage through the AUF Center for Culture and the Arts (CCA), staging public performances annually through the AUF Concert Chorus, Dance Troupe, and Rondalla",
+                    "Preserve and showcase Kapampangan cultural heritage through the Tourism and Hospitality Management gastro-cultural immersion tours across Pampanga heritage sites",
+                    "Support the adopted community of Marisol Bliss through campus access programs and open-campus engagement activities for prospective students and the general public"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize sustainable campus planning, mobility policies, and green infrastructure standards",
+                    "Develop transportation and sustainability policies for institutional stakeholders",
+                    "Sustainable Environment in AUF Strategic directions"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 12: Responsible Consumption and Production",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Promote responsible consumption, sustainability awareness, and ethical behavior among students",
+                    "Encourage student participation in campus sustainability campaigns and behavioral change programs such as in CAS-STS plastic bottles recycling, and plastic waste management initiatives"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Support research on waste management, circular economy, sustainable production, and supply chain responsibility",
+                    "Generate applied research on sustainability innovations relevant to local industries and communities",
+                    "Collaborate with stakeholders on practical sustainability solutions and green economy research"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Implement campus-wide waste reduction, recycling, and responsible procurement programs",
+                    "Engage students, staff, and community stakeholders in responsible consumption initiatives",
+                    "Partner with suppliers and community organizations to promote sustainable practices"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Establish institutional sustainability mechanisms",
+                    "Campus waste and plastic minimization policy implementation",
+                    "Institutional sustainability compliance and reporting"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 13: Climate Action",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Integrate climate change education, disaster risk reduction, and environmental adaptation in academic curricula",
+                    "Engage students in climate action programs, workshops, and community immersion activities"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Advance interdisciplinary research on climate science, energy transition, resilience, and environmental adaptation",
+                    "Collaborate with government, LGUs, and international bodies on climate research and monitoring"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Deliver climate awareness campaigns, training, and community-based resilience programs",
+                    "Partner with NGOs, government, and regional networks on climate education and advocacy"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize climate policies",
+                    "Establish institutional systems for emissions, energy, and environmental performance"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 14: Life Below Water",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Support academic programs related to environmental science, marine biology, and sustainable fisheries",
+                    "Engage students in training and community education on ocean and water resource management"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Advance research on aquatic ecosystems, biodiversity, watershed management, and marine conservation including existing CAS-Biology Research on the Pampanga River"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Support communities through awareness programs, partnerships, and co-management of aquatic ecosystems",
+                    "Partner with fisherfolk communities, LGUs"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize policies on water quality, wastewater management, and marine ecosystem protection"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 15: Life on Land",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Promote ecological education, biodiversity conservation, and sustainable land use in academic programs",
+                    "Engage students in campus-based environmental activities, including tree planting and biodiversity programs of CAS",
+                    "Integrate ecosystem protection and sustainable agriculture in relevant curricula"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Advance research on biodiversity, ecosystem restoration, sustainable land systems, and environmental conservation",
+                    "Generate research on waste management innovation, plastic reduction, and environmental impact",
+                    "Collaborate with environmental agencies, LGUs, and NGOs on conservation research and sustainable land management"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Support communities and stakeholders in sustainable land management, conservation, and environmental stewardship",
+                    "Deliver environmental campaigns promoting waste reduction, recycling, and biodiversity conservation",
+                    "Collaborate with LGUs and NGOs on community-based conservation programs"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize biodiversity conservation, land use, and sustainable campus ecosystem policies",
+                    "Maintain campus green spaces, and biodiversity monitoring mechanisms"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 16: Peace, Justice, and Strong Institutions",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Strengthen programs in law, governance, public administration, and justice systems",
+                    "Embed ethics, leadership, social responsibility, and civic education across all disciplines including in NSTP",
+                    "Integrate values formation, anti-corruption, and democratic governance in holistic student development such as in CCFP-led initiatives"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Support policy-oriented research on governance, justice, institutional reform, and social accountability",
+                    "Collaborate with government, legal institutions, and civil society on governance research"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Engage government, community, and civil society through advisory, training, and policy dialogue platforms",
+                    "Deliver civic education, values-based community programs, and governance capacity-building",
+                    "Support community access to legal, governance, and institutional knowledge resources"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Ensure governance mechanisms include stakeholder engagement and accountability"
+                  ]
+                }
+              ],
+              "collapsible": true
+            },
+            {
+              "type": "group",
+              "heading": "SDG 17: Partnerships for the Goals",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "Teaching and Learning"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Integrate the SDGs and multi-stakeholder partnership competencies across academic programs",
+                    "Offer sustainability-focused initiatives, and service-learning experiences"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Research"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Alignment of SDG with the AUF Research Agenda (AURA 2025-2028)",
+                    "Collaborate with international institutions, networks, and organizations on SDG-aligned research",
+                    "Advance research partnerships contributing to national and global SDG progress"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Engagement"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Promote cross-sectoral dialogue and partnerships with government, NGOs, industry, and international organizations",
+                    "Engage with society partners"
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "Governance and Administration"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Institutionalize SDG frameworks",
+                    "Participate in national and international SDG accountability mechanisms (THE Impact Rankings, SET4HEI)"
+                  ]
+                }
+              ],
+              "collapsible": true
+            }
+          ]
+        },
+        {
+          "heading": "Part 2: Research Report",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "AUF's research contributions to the SDGs are drawn from Scopus, the abstract and citation database of peer-reviewed literature. Scopus maps documents to SDGs using Elsevier's keyword queries supplemented by machine learning, and Times Higher Education uses this same data mapping in its Impact Rankings."
+            },
+            {
+              "type": "p",
+              "text": "In Scopus, AUF has 468 documents by 504 authors. A single document can be mapped to more than one SDG, so the figures below should not be added together."
+            },
+            {
+              "type": "table",
+              "head": [
+                "SDG",
+                "Documents"
+              ],
+              "rows": [
+                [
+                  "Goal 1: No poverty",
+                  "3"
+                ],
+                [
+                  "Goal 2: Zero hunger",
+                  "3"
+                ],
+                [
+                  "Goal 3: Good health and well-being",
+                  "123"
+                ],
+                [
+                  "Goal 4: Quality education",
+                  "21"
+                ],
+                [
+                  "Goal 5: Gender equality",
+                  "5"
+                ],
+                [
+                  "Goal 6: Clean water and sanitation",
+                  "5"
+                ],
+                [
+                  "Goal 7: Affordable and clean energy",
+                  "3"
+                ],
+                [
+                  "Goal 8: Decent work and economic growth",
+                  "6"
+                ],
+                [
+                  "Goal 9: Industry, innovation and infrastructure",
+                  "6"
+                ],
+                [
+                  "Goal 10: Reduced inequalities",
+                  "5"
+                ],
+                [
+                  "Goal 11: Sustainable cities and communities",
+                  "15"
+                ],
+                [
+                  "Goal 12: Responsible consumption and production",
+                  "4"
+                ],
+                [
+                  "Goal 13: Climate action",
+                  "2"
+                ],
+                [
+                  "Goal 14: Life below water",
+                  "4"
+                ],
+                [
+                  "Goal 15: Life on land",
+                  "4"
+                ],
+                [
+                  "Goal 16: Peace, justice and strong institutions",
+                  "10"
+                ],
+                [
+                  "Goal 17: Partnership for the goals",
+                  "6"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Our research is strongest in Good Health and Well-Being (SDG 3), followed by Quality Education (SDG 4) and Sustainable Cities and Communities (SDG 11). Research under each SDG is guided by the AUF Research Agenda (AURA 2025-2028)."
+            },
+            {
+              "type": "group",
+              "heading": "SDG Research Directory",
+              "blocks": [
+                {
+                  "type": "p",
+                  "text": "Browse AUF's research contributions to the SDGs in our SDG Research Directory."
+                },
+                {
+                  "type": "embed",
+                  "src": "https://script.google.com/a/macros/auf.edu.ph/s/AKfycbw2TFISm2JGeQpjVwIu_BBVDbWx0TplnMKDzul7_Dx6-3AfSIkMrqkTdGFnGbqSq29T/exec",
+                  "title": "SDG Research Directory",
+                  "preview": {
+                    "file": "research-directory",
+                    "w": 1600,
+                    "h": 800
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Part 3: Performance in the SDG Rankings",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "AUF takes part in the Times Higher Education (THE) Impact Rankings, which assess universities on their contributions to the SDGs. AUF is ranked in four SDGs: Good Health and Well-Being, Quality Education, Gender Equality, and Sustainable Cities and Communities. Between the 2025 and 2026 rankings, AUF improved its score and ranking band in SDGs 3, 4, and 5."
+            },
+            {
+              "type": "table",
+              "head": [
+                "SDG",
+                "2025 Score",
+                "2025 Rank",
+                "2026 Score",
+                "2026 Rank"
+              ],
+              "rows": [
+                [
+                  "SDG 3: Good Health and Well-Being",
+                  "57.2",
+                  "401-600 (of 1788)",
+                  "63.7",
+                  "301-400 (of 1254)"
+                ],
+                [
+                  "SDG 4: Quality Education",
+                  "46.6",
+                  "801-1000 (of 1975)",
+                  "55.8",
+                  "401-600 (of 1335)"
+                ],
+                [
+                  "SDG 5: Gender Equality",
+                  "42.5",
+                  "801-1000 (of 1559)",
+                  "52.6",
+                  "401-600 (of 1095)"
+                ],
+                [
+                  "SDG 11: Sustainable Cities and Communities",
+                  "38.7",
+                  "401-600 (of 865)",
+                  "38.7",
+                  "401-600 (of 865)"
+                ]
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "SDG 3: Good Health and Well-Being",
+              "blocks": [
+                {
+                  "type": "table",
+                  "head": [
+                    "Indicator",
+                    "2025",
+                    "2026"
+                  ],
+                  "rows": [
+                    [
+                      "SDG3 research",
+                      "19.2",
+                      "23.3"
+                    ],
+                    [
+                      "N graduating in health",
+                      "95.3",
+                      "93.2"
+                    ],
+                    [
+                      "Collaborations and health services",
+                      "49.6",
+                      "65.5"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "SDG 4: Quality Education",
+              "blocks": [
+                {
+                  "type": "table",
+                  "head": [
+                    "Indicator",
+                    "2025",
+                    "2026"
+                  ],
+                  "rows": [
+                    [
+                      "SDG4 research",
+                      "62.6",
+                      "60.8"
+                    ],
+                    [
+                      "% grads w/ teaching quals",
+                      "95.4",
+                      "96.1"
+                    ],
+                    [
+                      "Lifelong learning measures",
+                      "38.7",
+                      "73.5"
+                    ],
+                    [
+                      "% 1st gen students",
+                      "15.2",
+                      "15.7"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "SDG 5: Gender Equality",
+              "blocks": [
+                {
+                  "type": "table",
+                  "head": [
+                    "Indicator",
+                    "2025",
+                    "2026"
+                  ],
+                  "rows": [
+                    [
+                      "SDG5 research",
+                      "30.2",
+                      "60.8"
+                    ],
+                    [
+                      "% 1st gen female students",
+                      "3.7",
+                      "15.2"
+                    ],
+                    [
+                      "Student access measures",
+                      "24.4",
+                      "29.4"
+                    ],
+                    [
+                      "% senior female academics",
+                      "85.5",
+                      "79.8"
+                    ],
+                    [
+                      "% women receiving degrees",
+                      "96.1",
+                      "88.3"
+                    ],
+                    [
+                      "Women's progress measures",
+                      "38.1",
+                      "44.8"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "SDG 11: Sustainable Cities and Communities",
+              "blocks": [
+                {
+                  "type": "table",
+                  "head": [
+                    "Indicator",
+                    "2025",
+                    "2026"
+                  ],
+                  "rows": [
+                    [
+                      "SDG11 research",
+                      "31.0",
+                      "31.0"
+                    ],
+                    [
+                      "Arts & heritage support",
+                      "38.0",
+                      "38.0"
+                    ],
+                    [
+                      "Arts & heritage expend.",
+                      "47.4",
+                      "47.4"
+                    ],
+                    [
+                      "Sustainable practices",
+                      "41.4",
+                      "41.4"
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Looking Ahead",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "AUF will continue to align its teaching, research, engagement, and governance with the SDGs, and to report openly on its progress."
+            }
+          ]
+        }
+      ],
       "sourceNote": "Excel D10: Link to the article. E10: Embed if possible"
     },
     {
@@ -532,9 +1777,247 @@
         "Education on sustainability"
       ],
       "featured": false,
-      "draft": true,
-      "intro": [],
-      "sections": [],
+      "intro": [
+        "At Angeles University Foundation (AUF), education about the Sustainable Development Goals (SDGs) is not reserved for a few programs or electives. It is part of the curriculum of every student, as part of the general education curriculum, and it is taught through the course Contemporary World (CW)."
+      ],
+      "sections": [
+        {
+          "heading": "Learning Sustainability",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "AUF is committed to meaningful education around the SDGs across the university, relevant and applicable to all students. Whatever a student's program, every AUF graduate learns what the SDGs are, why they matter, and how they connect to the student's own profession, community, and sense of responsibility as a global citizen. This commitment is rooted in the University's mission of the \"total development of man for God and humanity.\""
+            }
+          ]
+        },
+        {
+          "heading": "Contemporary World: an overview",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Contemporary World is a 3-unit lecture course (54 contact hours) delivered in person by the College of Arts and Sciences. It introduces students to the many dimensions of globalization: the economic, social, political, environmental, and cultural changes that have made people and places around the world increasingly connected."
+            },
+            {
+              "type": "p",
+              "text": "Sustainability runs through the whole course. Students are introduced to the UN Sustainable Development Goals in the very first module, and the course closes with a module on the environmental crisis and sustainable development. There, students study why the SDGs matter, present the SDGs related to their chosen profession, and apply what they have learned to a global concern through an action research project."
+            },
+            {
+              "type": "p",
+              "text": "The course also asks students to look beyond the classroom. Through a portfolio called the Journey Towards Responsible Global Citizenship, they set personal goals, take part in activities and advocacy, and connect their own values to the ideals of global citizenship. By the end of the course, students are expected to be able to:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "analyze contemporary global issues using various social science perspectives;",
+                "develop informed arguments and advocate for socio-civic causes related to global politics, the world economy, and sustainability;",
+                "develop an ethical framework for understanding and addressing global issues, emphasizing fairness, justice, and sustainability; and",
+                "cultivate a sense of global citizenship, recognizing the rights and responsibilities that come with being a member of the global community."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "In this way, AUF students do not only learn about the challenges facing our world. They are prepared to respond to them."
+            }
+          ]
+        },
+        {
+          "heading": "Course syllabus",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The full course syllabus (AUF-SYL-CAS/GEC06, Rev. 07, July 28, 2025) is available for download. Its main contents are reproduced below."
+            },
+            {
+              "type": "group",
+              "heading": "Course details",
+              "blocks": [
+                {
+                  "type": "table",
+                  "head": [
+                    "Course Code",
+                    "CW"
+                  ],
+                  "rows": [
+                    [
+                      "Course Title",
+                      "Contemporary World"
+                    ],
+                    [
+                      "Course Type",
+                      "Lecture"
+                    ],
+                    [
+                      "Credit Units",
+                      "3 units"
+                    ],
+                    [
+                      "Contact Hours",
+                      "54 hours"
+                    ],
+                    [
+                      "Prerequisites",
+                      "None"
+                    ],
+                    [
+                      "Mode of Delivery",
+                      "In Person"
+                    ]
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "Course description",
+              "blocks": [
+                {
+                  "type": "p",
+                  "text": "This course introduces students to the contemporary world by examining the multifaceted phenomenon of globalization. Using the various disciplines of the social sciences, it examines the economic, social, political, environmental, and other transformations that have created an increasing awareness of the interconnectedness of people and places around the globe. To this end, the course seeks to engage learners to advocate for socio-civic causes relating to the various debates and issues in global politics, socio-economic development, and sustainability. Beyond exposing the student to the world outside the Philippines, it aims to inculcate a sense of global citizenship and global ethical responsibility."
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "Terminal requirement",
+              "blocks": [
+                {
+                  "type": "p",
+                  "text": "The Final Requirement in the Contemporary World is a portfolio documenting the learner's journey towards responsible global citizenship. Its primary objective is for the students to realize the meaning of global citizenship and at the same time, \"real-ize\" (to make it real) it by initiating and completing various tasks and activities. As such, it allows students to choose their own adventure and customize their journey as they align their personal goals to the university's mission and vision and anchor their deepest convictions and values to the ideals of global citizenship."
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "Course learning outcomes",
+              "blocks": [
+                {
+                  "type": "p",
+                  "text": "At the end of the course, students should be able:"
+                },
+                {
+                  "type": "label",
+                  "text": "A. Competencies"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Demonstrate the ability to analyze contemporary global issues using various social science perspectives.",
+                    "Articulate the interconnectedness of global communities and the impact of globalization on different regions and cultures particularly in the Philippines.",
+                    "Develop informed arguments and advocate for socio-civic causes related to global politics, world economy and sustainability."
+                  ],
+                  "ordered": true
+                },
+                {
+                  "type": "label",
+                  "text": "B. Skills"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Apply critical thinking skills to assess the implications of globalization on diverse communities and propose viable solutions to global challenges.",
+                    "Conduct research on global issues, utilizing social science methodologies to gather, analyze, and interpret data effectively.",
+                    "Effectively communicate complex ideas and perspectives on globalization through written, oral and digital media to various audiences."
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "C. Values"
+                },
+                {
+                  "type": "list",
+                  "items": [
+                    "Cultivate a sense of global citizenship, recognizing the rights and responsibilities that come with being a member of the global community.",
+                    "Develop an ethical framework for understanding and addressing global issues, emphasizing the importance of fairness, justice and sustainability.",
+                    "Foster cultural sensitivity and appreciation for diverse perspectives recognizing the value of inclusivity and respect in global interactions."
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "Topics and learning activities",
+              "blocks": [
+                {
+                  "type": "p",
+                  "text": "Each module runs for 6 hours."
+                },
+                {
+                  "type": "table",
+                  "head": [
+                    "Module",
+                    "Weeks",
+                    "Objectives",
+                    "CLO",
+                    "Required output"
+                  ],
+                  "rows": [
+                    [
+                      "1. The Concepts and Dimensions of Globalization",
+                      "1-2",
+                      "Explain globalization as a process, condition and ideology and global citizenship; explain globalization from the economic, political and cultural perspective; introduce UN's Sustainable Development Goals; discuss the impact of globalization to self and society via a globalization story.",
+                      "1, 2, 6, 9",
+                      "My Globalization Story (Essay)"
+                    ],
+                    [
+                      "2. The Global Economic Order",
+                      "3-4",
+                      "Discuss economic globalization as a condition, its history and basic concepts with emphasis on Neoliberalism; identify the factors that affect economic globalization and articulate a stance on global economic integration; explain the role of global financial institutions in the contemporary world.",
+                      "1, 3, 6",
+                      "Online Awareness Campaign / Digital Advocacy on Economic Globalization"
+                    ],
+                    [
+                      "3. Political Globalization",
+                      "5-6",
+                      "Explain political globalization, its history and other related concepts particularly Neoliberalism and Internationalism; explain the role of the United Nations and regional and trading blocs (e.g. ASEAN, EU, BRICS, NATO) in the contemporary world.",
+                      "1, 2",
+                      "Online Awareness Campaign / Digital Advocacy on Political Globalization"
+                    ],
+                    [
+                      "4. Cultural Globalization",
+                      "7-8",
+                      "Discuss the contrasting perspectives of religious groups on globalization and the varying points of view regarding the future of religion; explain the role of media and religion in the globalization of culture; compose an informed opinion regarding the issue as to whether globalization leads to cultural imperialism and the decline of local culture.",
+                      "2, 6, 9",
+                      "Photo Essay; Midterm Examination"
+                    ],
+                    [
+                      "5. Global Demography and Migration",
+                      "10-11",
+                      "Discuss the impact of globalization in global demography and migration; narrate the current issues and concerns of migration in the contemporary world.",
+                      "1, 2, 4",
+                      "Draft copy of Journey Towards Responsible Global Citizenship (JTRGC) for checking"
+                    ],
+                    [
+                      "6. The Global City",
+                      "12-13",
+                      "Identify the defining characteristics of global cities; analyze common problems and challenges faced by global cities and propose innovative and feasible solutions.",
+                      "1, 4",
+                      "My Global City Experience"
+                    ],
+                    [
+                      "7. Peace Education",
+                      "14-15",
+                      "Articulate fundamental principles of peace education, recognizing its importance in fostering a culture of non-violence and social justice; develop practical skills in conflict resolution, applying these techniques in case studies involving community and international conflicts.",
+                      "1, 3, 5, 7, 8, 9",
+                      "Draft copy of Journey Towards Responsible Global Citizenship (JTRGC) for checking"
+                    ],
+                    [
+                      "8. Environmental Crisis and Sustainable Development",
+                      "16-17",
+                      "Explain the importance of the UN Sustainable Development Goals; apply relevant knowledge and skills to effectively solve problems related to global concerns outlined in the SDGs. Activities include a presentation of selected SDGs related to the student's chosen profession.",
+                      "1, 3, 5, 7, 8",
+                      "Action Research; Final Examination"
+                    ]
+                  ]
+                },
+                {
+                  "type": "p",
+                  "text": "In every module, teachers prepare learning materials on the Learning Management System (MyClass), facilitate discussion and question-and-answer sessions, and provide a summary of the main points. Students study the materials on their own, answer a pre-discussion activity, take part in class discussion, and continue their JTRGC portfolio. Each module is assessed through recitation and quizzes."
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "sourceNote": "Excel D11: Link to the article"
     },
     {
@@ -547,9 +2030,9 @@
         "Sustainable commuting"
       ],
       "featured": false,
-      "draft": true,
       "intro": [],
       "sections": [],
+      "draft": true,
       "sourceNote": "Excel D12: Link to the article. E12: To add pictures of AUF BYD Vehicles"
     },
     {
@@ -563,9 +2046,111 @@
         "Childcare Facility"
       ],
       "featured": false,
-      "draft": true,
-      "intro": [],
-      "sections": [],
+      "intro": [
+        "Angeles University Foundation (AUF) is exploring an after-school program for the elementary-aged children of its employees. The aim is a safe, nurturing, and developmentally appropriate place where children can stay engaged after school while their parents finish their workday.",
+        "AUF recognizes that accessible childcare is part of caring for the people who study and work in the University. When parents know their children are safe and well looked after, they are better able to attend to their studies, their work, and their families. The After-School Program is one of the ways AUF is looking at how to make that support real."
+      ],
+      "sections": [
+        {
+          "heading": "The focus group discussion",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "On November 7, 2025, the Office of the Vice President for Academic Affairs (OVPAA) spearheaded a focus group discussion (FGD) at the AUF Integrated School on the proposed After-School Program. Employee-parents and representatives from across the University took part."
+            },
+            {
+              "type": "p",
+              "text": "The discussion set out to:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "understand parents' key priorities in choosing an after-school program;",
+                "determine preferred activities and experiences that support children's growth;",
+                "identify practical considerations for scheduling, location, and participation;",
+                "assess the potential impact of the program on employees' work-life balance; and",
+                "gather suggestions for the affordability of the proposed program."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "What we heard",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Safety and care come first. Participants emphasized safety, trustworthy staff, and holistic development. They also valued academic support, creative activities, and positive interaction with peers. A welcoming and well-supervised environment was seen as essential, with children grouped by age, grade level, and needs, and close supervision for very young children."
+            },
+            {
+              "type": "p",
+              "text": "Learning, play, and rest. Suggested activities included:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "lesson review, homework assistance, reading time, and tutorials;",
+                "a sleeping or resting area;",
+                "arts and crafts, creative activities, physical play, and talent and skills development;",
+                "social skills development and spiritual enhancement activities; and",
+                "a special needs program."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Convenient and close by. Participants preferred a schedule that begins right after school hours and ends at 5 PM, ideally located near the workplace or within school premises."
+            },
+            {
+              "type": "p",
+              "text": "Better balance for working parents. Participants believed the program would help reduce stress, improve focus at work, and strengthen family relationships by making sure children are safe and meaningfully engaged. They saw it as a valuable employee benefit that can promote productivity and peace of mind."
+            },
+            {
+              "type": "p",
+              "text": "Accessible to all. Participants recommended that the program be affordable or partly subsidized by the University."
+            }
+          ]
+        },
+        {
+          "heading": "Key insights",
+          "blocks": [
+            {
+              "type": "list",
+              "items": [
+                "There is strong support for establishing the program, which parents see as a solution to daily childcare and productivity challenges.",
+                "Its success will depend on quality supervision, meaningful activities, and affordability.",
+                "Combining educational enrichment with recreation meets the needs of both employees and children."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Recommendations moving forward",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The discussion produced the following recommendations for the proposed program:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Program design: academic, creative, and recreational components.",
+                "Staffing: qualified caregivers and teachers, with the possible involvement of education students and interns.",
+                "Schedule: operating from after school until the parents' workday ends.",
+                "Cost: free or at an affordable fee, with consideration for a transportation allowance for student and intern staff.",
+                "Pilot run: starting with a pilot for Grades 1-3 to test logistics and gather feedback."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Looking ahead",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The focus group affirmed both the need for an After-School Program and the enthusiasm for it. Parents appreciated the administration's effort to support family welfare and employee well-being. AUF will continue to explore the program, guided by what its community has shared."
+            }
+          ]
+        }
+      ],
       "sourceNote": "Excel D13: Link to the article"
     },
     {
@@ -579,9 +2164,208 @@
         "Health partnerships and collaborations"
       ],
       "featured": false,
-      "draft": true,
-      "intro": [],
-      "sections": [],
+      "intro": [
+        "The establishment of the Angeles University Foundation-MAGNUS H-Hub aims to create better collaboration between health researchers, industry partners, and other stakeholders to have a supportive ecosystem where health innovations are generated and can reach the market. By providing an avenue for networking and partnership-building, the H-Hub seeks to accelerate the development of health relevant technologies, equipping researchers with right skills and connections needed to bring their innovations from the laboratory to the public, ultimately contributing to the health and well-being of the Filipino people."
+      ],
+      "sections": [
+        {
+          "heading": "Angeles University Foundation-MAGNUS H-Hub",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "(Mobilizing & Accelerating Growth of Nascent, Useful, and Sustainable Health Technologies)"
+            },
+            {
+              "type": "p",
+              "text": "The target activities under the MAGNUS H-Hub are as follows:"
+            },
+            {
+              "type": "terms",
+              "items": [
+                {
+                  "term": "Health Innovation Ecosystem Inventory",
+                  "text": "This involves creating an inventory of health innovation ecosystem actors in Central Luzon and analyze the ecosystem to identify key challenges and opportunities"
+                },
+                {
+                  "term": "MAGNUSprint: Targeted Brainstorming Activities",
+                  "text": "The MAGNUSprint allows multi-disciplinary teams to collaborate in advancing existing health technology prototypes and preparing proposals for real-world use."
+                },
+                {
+                  "term": "MAGNUS RDLead Competition",
+                  "text": "This initiative incentivizes faculty–student research teams developing innovative health technologies, with winning teams receiving MAGNUS HI-Support for prototype development."
+                },
+                {
+                  "term": "MAGNUS PitchFlip",
+                  "text": "This is an app-based platform connecting health technology developers with key stakeholders through concise pitches that enable industry executives to conveniently explore existing health technologies."
+                },
+                {
+                  "term": "MAGNUS UPskill - Capacity Building Activities for Health Researchers and Innovators",
+                  "text": "This involves a combination of training modules integrated into the PitchFlip app and series of trainings to strengthen innovators and researchers’ entrepreneurial skills and facilitate the transition of health technologies from the laboratory to the public."
+                },
+                {
+                  "term": "MAGNUS HI (Health Innovation) - Support",
+                  "text": "This serves as a health technology incubator providing researchers and innovators with technical and consultative services, as well as access to CARI’s facilities, materials, and reagents to support health technology development."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Recent Activities of the AUF-MAGNUS H-Hub",
+          "blocks": [
+            {
+              "type": "group",
+              "heading": "MAGNUS UPskill Initiative: Skills-based Training Programs",
+              "blocks": [
+                {
+                  "type": "label",
+                  "text": "1. Understanding Intellectual Property: An Introduction to IP & Patent Search"
+                },
+                {
+                  "type": "p",
+                  "text": "Organized under the MAGNUS UPskill initiative, the AUF-MAGNUS H-Hub conducted a seminar-workship titled Understanding Intellectual Property: An Introduction to IP and Patent Search on November 27-28, 2025 for health technology innovators, researchers, and entrepreneurs from various universities and micro, small, and medium enterprises (MSMEs) across Central Luzon."
+                },
+                {
+                  "type": "p",
+                  "text": "Through lectures and interactive sessions, participants learned the fundamentals of intellectual property, including IP rights and their importance in health technology innovation. This is one of the capacity-building initiatives of the project designed to equip researchers and innovators with the knowledge and skills needed to move health innovations toward practical application."
+                },
+                {
+                  "type": "images",
+                  "images": [
+                    {
+                      "file": "ip-patent-1",
+                      "w": 1440,
+                      "h": 810
+                    },
+                    {
+                      "file": "ip-patent-2",
+                      "w": 1440,
+                      "h": 810
+                    },
+                    {
+                      "file": "ip-patent-3",
+                      "w": 1440,
+                      "h": 810
+                    }
+                  ]
+                },
+                {
+                  "type": "label",
+                  "text": "2. LaunchPoint: Branding and Pitching Workshop for Innovators"
+                },
+                {
+                  "type": "p",
+                  "text": "On June 3, 2026, the AUF-MAGNUS H-Hub conducted LaunchPoint, a skills-based workshop that equipped health innovators from higher education institutions (HEIs) and MSMEs with practical skills in product branding, public speaking, and investor pitching. With support from the Department of Science and Technology–Pampanga Provincial Science and Technology Office, resource speakers Atty. Charles Bautista, Mrs. Jennifer Wieneke, and Mr. Jorge Noel Wieneke shared their expertise in intellectual property, marketing, and business development. The workshop helped participants strengthen their ability to communicate the value and market potential of their innovations and explore opportunities for investment and commercialization."
+                },
+                {
+                  "type": "p",
+                  "text": "Participating HEIs included Systems Plus College Foundation, Centro Escolar University–Malolos, Republic Central Colleges, President Ramon Magsaysay State University, City College of Angeles, Central Luzon State University, Bataan Peninsula State University, and AUF. Representatives of MSMEs, including FAST Laboratories, Nutridelights, Teresa’s Mushroom Products, MCDF Beauty and Health Products, and Mama Ri’s Kamote Chips, also took part in the workshop."
+                },
+                {
+                  "type": "images",
+                  "images": [
+                    {
+                      "file": "launchpoint-1",
+                      "w": 1600,
+                      "h": 900
+                    },
+                    {
+                      "file": "launchpoint-2",
+                      "w": 1600,
+                      "h": 1205
+                    },
+                    {
+                      "file": "launchpoint-3",
+                      "w": 1600,
+                      "h": 1200
+                    },
+                    {
+                      "file": "launchpoint-4",
+                      "w": 1600,
+                      "h": 1200
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "MAGNUS Project in Action: Focus Group Discussions",
+              "blocks": [
+                {
+                  "type": "p",
+                  "text": "In August 2025, the Center for Advance Research and Innovation (CARI) conducted a series of Focus Group Discussions (FGDs) to identify research priorities and foster collaboration with academic institutions. The FGDs were held at the Pampanga State Agricultural University (PSAU), Centro Escolar University (CEU), Bulacan State University (BulSU), Nueva Ecija University of Science and Technology (NEUST). The discussions gathered valuable insights from faculty researchers regarding health research priorities and opportunities for future joint initiatives under the MAGNUS H-Hub."
+                },
+                {
+                  "type": "images",
+                  "images": [
+                    {
+                      "file": "fgd-1",
+                      "w": 1333,
+                      "h": 2000
+                    },
+                    {
+                      "file": "fgd-2",
+                      "w": 1333,
+                      "h": 2000
+                    },
+                    {
+                      "file": "fgd-3",
+                      "w": 1333,
+                      "h": 2000
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "group",
+              "heading": "MAGNUS PitchFlip Platform Launch",
+              "blocks": [
+                {
+                  "type": "p",
+                  "text": "The AUF-MAGNUS H-Hub officially launched the MAGNUS PitchFlip Platform on June 19, 2026, at Hotel Seoul, Clark, bringing together researchers, entrepreneurs, investors, government agencies, and industry partners to advance health innovation across the region."
+                },
+                {
+                  "type": "p",
+                  "text": "The launch featured speakers Dr. Julius Caesar V. Sicat of DOST Region III, Dir. Edna D. Dizon of DTI Region III, Dr. Cavin F. Pamintuan of AUF, and industry leaders Mr. Jomar L. David and Mr. Jorge Noel Y. Wieneke. Representatives from higher education institutions across Central Luzon, Department of Science and Technology (DOST) and the Department of Trade and Industry (DTI), the Central Luzon Health Research and Development Consortium (CLHRDC), DOST Provincial Science and Technology Offices in Pampanga and Zambales, FAST Laboratories, and MSMEs also attended. By bringing innovators and key industry players together, PitchFlip opens new pathways for collaboration, investment, and the development of health technologies with real-world applications."
+                },
+                {
+                  "type": "images",
+                  "images": [
+                    {
+                      "file": "pitchflip-1",
+                      "w": 1600,
+                      "h": 900
+                    },
+                    {
+                      "file": "pitchflip-2",
+                      "w": 1600,
+                      "h": 1066
+                    },
+                    {
+                      "file": "pitchflip-3",
+                      "w": 1600,
+                      "h": 1066
+                    },
+                    {
+                      "file": "pitchflip-4",
+                      "w": 1600,
+                      "h": 1066
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "file": "pitchflip-2",
+        "w": 1600,
+        "h": 1066
+      },
+      "closing": "Through these initiatives, the AUF-MAGNUS H-Hub continues to strengthen collaborations among researchers, academic institutions, industry partners, government agencies, and entrepreneurs across Central Luzon. By combining research collaboration, capacity-building activities, innovation support, and industry engagement, the H-Hub advances its goal of mobilizing and accelerating the growth of nascent, useful, and sustainable health technologies that can contribute to improved health outcomes and the well-being of Filipino communities.",
       "sourceNote": "Excel D14: Link to article - Magnus. E14: Link to images - Magnus"
     },
     {
@@ -594,9 +2378,582 @@
         "Arts and Heritage"
       ],
       "featured": false,
-      "draft": true,
-      "intro": [],
-      "sections": [],
+      "intro": [
+        "The AUF-Center for Culture and the Arts (CCA) showcases the University's artistic talent through musical performances and cultural presentations at academic ceremonies, institutional celebrations, and community events. Through the AUF Band, Concert Chorus, Rondalla, and Dance Troupe, the Center provides opportunities for students and performers to share their talents while contributing to the cultural life of the University and the wider community.",
+        "The following highlights the performances rendered by the AUF Center for Culture and the Arts during Academic Year 2025–2026, showcasing its participation in various academic, cultural, and community events:"
+      ],
+      "sections": [
+        {
+          "heading": "",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "#",
+                "Activity / Performance",
+                "Description",
+                "Public posts"
+              ],
+              "rows": [
+                [
+                  "1",
+                  "NSTP-ROTC Graduation Ceremonies\nJune 3, 2025 | St.Cecilia’s Auditorium",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloist for the NSTP-ROTC Graduation Ceremonies",
+                  ""
+                ],
+                [
+                  "2",
+                  "127th Philippine Independence Day\nJune 12, 2025 | Museum of the Philippine Social History",
+                  "AUF Band and Concert Chorus performance for Angeles City’s celebration of Philippine Independence Day",
+                  ""
+                ],
+                [
+                  "3",
+                  "24th Chinese Bridge : Chinese Proficiency Competition\nJune 12, 2025 |Sports & Cultural Center",
+                  "AUF Concert Chorus and Dance Troupe cultural presentation for the 24th Chinese Bridge Proficiency Competition",
+                  ""
+                ],
+                [
+                  "4",
+                  "AUF Concert Chorus Required Individual Singing\nJune 26, 2025 | St.Cecilia’s Auditorium",
+                  "Annual individual evaluation of the members of the AUF Concert Chorus",
+                  ""
+                ],
+                [
+                  "5",
+                  "AUF Dance Troupe Group Evaluation\nJune 28, 2025 | St.Cecilia’s Auditorium",
+                  "Annual group evaluation of the members of the AUF Dance Troupe",
+                  ""
+                ],
+                [
+                  "6",
+                  "Philippine Liatsan Family Northern & Central Luzon Chapter Inauguration and Turn-over Ceremony\nJune 29, 2025 | Royce Hotel & Casino, Clark",
+                  "AUF Concert Chorus performance for the Philippine Liatsan Family Northern & Central Luzon Chapter Inauguration and Turn-over Ceremony",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/17aEatMadC"
+                    ]
+                  }
+                ],
+                [
+                  "7",
+                  "AUF Rondalla Evaluation\nJuly 5, 2025 | St.Cecilia’s Auditorium",
+                  "Annual group evaluation of the members of the AUF Rondalla",
+                  ""
+                ],
+                [
+                  "8",
+                  "College Commencement Exercises Day 1\nJuly 9, 2025 | AUF Sports & Cultural Center",
+                  "AUF Band, Concert Chorus, and Rondalla performances for the AUF Commencement Exercises",
+                  ""
+                ],
+                [
+                  "9",
+                  "College Commencement Exercises Day 2\nJuly 10, 2025 | AUF Sports & Cultural Center",
+                  "AUF Band, Concert Chorus, and Rondalla performances for the AUF Commencement Exercises",
+                  ""
+                ],
+                [
+                  "10",
+                  "College Commencement Exercises Day 3\nJuly 11, 2025 | AUF Sports & Cultural Center",
+                  "AUF Band, Concert Chorus, and Rondalla performances for the AUF Commencement Exercises",
+                  ""
+                ],
+                [
+                  "11",
+                  "AUF: Student-Personnel-Services Orientation\nJuly 16-18, 2025 | AUF Sports & Cultural Center",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloists for the AUF: Student-Personnel-Services Orientation",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/1ER5aK9GTp/"
+                    ]
+                  }
+                ],
+                [
+                  "12",
+                  "Harmony of Hearts : A Chinese Music Festival\nfor Love & Peace\nJuly 18, 2025 | SM City Clark",
+                  "AUF Concert Chorus and Dance Troupe cultural presentation for the Chinese Musical Festival conducted by the Confucius Institute at AUF",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/16SgUU4bDo/"
+                    ]
+                  }
+                ],
+                [
+                  "13",
+                  "AUF-IS Roll Call\nAugust 5, 2025 | AUF Sports & Cultural Center",
+                  "AUF Band performance for the AUF Integrated School Roll Call",
+                  ""
+                ],
+                [
+                  "14",
+                  "NTP/Faculty General Assembly\nAugust 8, 2025 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus, Dance Troupe and Rondalla performances for the AUF General Assembly",
+                  ""
+                ],
+                [
+                  "15",
+                  "Chef Howard Dizon: Thanksgiving\nAugust 10, 2025 | Grand Palazzo Royale",
+                  "AUF Concert Chorus’ invitational performance for Chef Howard Dizon’s Thanksgiving",
+                  ""
+                ],
+                [
+                  "16",
+                  "CCA General Assembly\nAugust 16, 2025 | St. Cecilia’s Auditorium",
+                  "Annual General Assembly of the Center for Culture & the Arts",
+                  ""
+                ],
+                [
+                  "17",
+                  "PASIBAYU:\nWelcome Freshmen Ceremonies 2025-2026\nAugust 20, 2025 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus, Dance Troupe and Rondalla performances for the Welcome Freshmen Ceremony",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/1EDMyCnTqG/",
+                      "https://www.facebook.com/share/p/17HBo6YZ2C/",
+                      "https://www.facebook.com/share/p/17HLFRqXqo/"
+                    ]
+                  }
+                ],
+                [
+                  "18",
+                  "PINOY TUGTUGAN: Concert @ the Park\nAugust 24, 2025\nOpen-Air Auditorium Rizal Park, Luneta Manila",
+                  "In celebration of the Buwan Ng Wika, the AUF Center for Culture and the Arts presented a cultural concert featuring the AUF Rondalla together with the AUF Dance Troupe and AUF Concert Chorus’ alumni at the Rizal Park, Luneta Manila",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/17UULYxi8Q/",
+                      "https://www.facebook.com/share/p/1AX3nnKTdz/"
+                    ]
+                  }
+                ],
+                [
+                  "19",
+                  "76th Founding Anniversary of People’s Republic of China\nSeptember 28, 2025\nKingsborough International Convention Center",
+                  "AUF Concert Chorus performance for the\n76th Founding Anniversary of People’s Republic of China",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/19nRNJ4eKw/"
+                    ]
+                  }
+                ],
+                [
+                  "20",
+                  "Commencement Exercises:SOL, SOM, GS, BSMT\nOctober 3, 2025 | AUF Sports & Cultural Center",
+                  "AUF Band, Concert Chorus, and Rondalla performances for the AUF Commencement Exercises",
+                  ""
+                ],
+                [
+                  "21",
+                  "Phil Che Yong Cua & Chua Family Association:\n68th National Convention\nOctober 5, 2025\nKingsborough International Convention Center",
+                  "AUF Concert Chorus performance for the Phil Che Yong Cua & Chua Family Association: 68th National Convention",
+                  ""
+                ],
+                [
+                  "22",
+                  "ZONYASNAO:\nA Fashion Display of Philippine Couture\nOctober 5, 2025 | Royce Hotel & Casino",
+                  "AUF Dance Troupe rendered folk dances for Royce Hotel & Casino’s ZONYASNAO:\nA Fashion Display of Philippine Couture",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1F78w4c1Kz/"
+                    ]
+                  }
+                ],
+                [
+                  "23",
+                  "Mr. & Ms. Coop 2025\nOctober 16, 2025 | Angeles City Library Auditorium",
+                  "Intermission numbers rendered by an alumnus of the AUF Concert Chorus for the Angeles City Cooperative Development Council",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/19gPbUoY8v/"
+                    ]
+                  }
+                ],
+                [
+                  "24",
+                  "Ceremonial Christmas Lighting of Centerpiece\n@ SM Pampanga\nOctober 24, 2025 | SM City Pampanga",
+                  "Christmas presentation by the AUF Concert Chorus for the SM Supermalls- Pampanga’s Ceremonial Lighting of Christmas Display",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/16vMdQRoey/"
+                    ]
+                  }
+                ],
+                [
+                  "25",
+                  "Ceremonial Christmas Lighting of Centerpiece\n@ SM Clark\nOctober 25, 2025 |SM City Clark",
+                  "Christmas presentation by the AUF Concert Chorus for the SM Supermalls- Clark’s Ceremonial Lighting of Christmas Display",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/17XGpy4bLP/"
+                    ]
+                  }
+                ],
+                [
+                  "26",
+                  "Intercollegiate Cultural Competitions 2025-2026\nOctober 29, 2025 |AUF Sports & Cultural Center",
+                  "AUF Concert Chorus’ intermission numbers for the annual Intercollegiate Cultural Competitions 2025-2026, a university-wide activity organized by the AUF Center for Culture & the Arts.",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1EgZvbfDxP/"
+                    ]
+                  }
+                ],
+                [
+                  "27",
+                  "AUF Mandated & Non-Mandated Organizations\nInduction Ceremonies\nOctober 30, 2025 | AUF Sports & Cultural Center",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloists for the AUF Mandated & Non-Mandated Organizations\nInduction Ceremonies",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/1CZGWmSXMD/"
+                    ]
+                  }
+                ],
+                [
+                  "28",
+                  "ASEAN Federation of Engineering Organizations\n43rd Conference (CAFEO 43)\nOctober 30, 2025 | SMX Convention Center",
+                  "Invitational cultural performance of the AUF Dance Troupe for the ASEAN Federation of Engineering Organizations\n43rd Conference (CAFEO 43)",
+                  ""
+                ],
+                [
+                  "29",
+                  "KATIMAWAN:\nPreserving Press Freedom against Media Assaults\n(AUF Annual Media Congress 2025)\nNovember 6, 2025 | AUF Sports & Cultural Center",
+                  "Intermission numbers rendered by AUF Rondalla for the AUF Annual Media Congress",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1DJk8FFV5s/"
+                    ]
+                  }
+                ],
+                [
+                  "30",
+                  "16th Midyear Convention of the Philippine Society of Pathologists, Inc. (Central Luzon Chapter)\nNovember 13, 2025 | Quest Hotel, Clark",
+                  "Invitational performance of the AUF Rondalla for the Philippine Society of Pathologists, Inc. (Central Luzon Chapter)- 16th Midyear Convention",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1HdNoDExzr/"
+                    ]
+                  }
+                ],
+                [
+                  "31",
+                  "Christmas Tree Lighting Ceremony\nNovember 14, 2025 | Midori Hotel, Clark",
+                  "Christmas presentation by the AUF Concert Chorus for the Midori Clark Hotel’s Christmas Tree Lighting Ceremony",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1U8GmytkYJ/"
+                    ]
+                  }
+                ],
+                [
+                  "32",
+                  "Season of Splendor : Lighting Ceremony @ Royce November 15, 2025 | Royce Hotel & Casino, Clark",
+                  "Christmas presentation by the AUF Concert Chorus for the Royce Hotel & Casino’s Christmas Tree Lighting Ceremony",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1HnsKEgFVc/"
+                    ]
+                  }
+                ],
+                [
+                  "33",
+                  "Christmas Tree Lighting\nNovember 22, 2025\nAlviera Country Club, Porac Pampamga",
+                  "Christmas presentation by the AUF Concert Chorus and Rondalla for the Alviera Country Club",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/17S8QyTtKt/",
+                      "https://www.facebook.com/share/p/17chiDipdy/"
+                    ]
+                  }
+                ],
+                [
+                  "34",
+                  "AUF Campus Open Day 1\nDecember 3, 2025 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus , Dance Troupe and Rondalla performances for the AUF Campus Open (Day 1)",
+                  ""
+                ],
+                [
+                  "35",
+                  "AUF Founder’s Day Wreath-Laying & Eucharistic Celebration\nDecember 4, 2025 |Holy Mary Memorial Cemetery & AUF Sports & Cultural Center",
+                  "AUF Band & Concert Chorus’ performances for the AUF Founder’s Day",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1B5ZvrH2rJ/"
+                    ]
+                  }
+                ],
+                [
+                  "36",
+                  "AUF Campus Open Day 2\nDecember 5, 2025 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus , Dance Troupe and Rondalla performances for the AUF Campus Open (Day 2)",
+                  ""
+                ],
+                [
+                  "37",
+                  "GED Commission Meeting & Year-End Party\nDecember 16, 2025 | EYA-CLI, Room 301",
+                  "AUF Concert Chorus’ Christmas presentation for the GED Commission Meeting",
+                  ""
+                ],
+                [
+                  "38",
+                  "AUFCC Christmas Concert @ the Lobby\nDecember 24, 2025 | AUF Medical Center",
+                  "AUF Concert Chorus Christmas Concert at the Lobby at the AUF Medical Center",
+                  ""
+                ],
+                [
+                  "39",
+                  "CI-AUF 15TH Founding Anniversary\nJanuary 15, 2026 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus , Dance Troupe and Rondalla performances for the 15TH Founding Anniversary of the Confucius Institute at AUF",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1EW9v8pQM4/",
+                      "https://www.facebook.com/share/r/1DetmNK9Ee/"
+                    ]
+                  }
+                ],
+                [
+                  "40",
+                  "Mr. & Ms. University Pictorial\nJanuary 31, 2026 | AUF Sports & Cultural Center",
+                  "Mr. & Ms. University candidates pictorial activity",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/v/1CMJGMSPRc/"
+                    ]
+                  }
+                ],
+                [
+                  "41",
+                  "Central Luzon Sangkan : Isang Angkan Kay Kristo\nJanuary 31, 2026 | Mother of Good Counsel Seminary, CSFP",
+                  "Invitational performance of the AUF Rondalla for the Mother of Good Counsel Seminary’s Central Luzon Sangkan : Isang Angkan Kay Kristo",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/199zuogQt1/"
+                    ]
+                  }
+                ],
+                [
+                  "42",
+                  "50th Anniversary Reunion of H.S. Batch 1976\nFebruary 7, 2026 | AUF Main Campus Lobby",
+                  "AUF Rondalla’s cultural presentation for the Alumni 50th Anniversary reunion of Batch 1976",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/18ntd9KtJV/"
+                    ]
+                  }
+                ],
+                [
+                  "43",
+                  "Eucharistic Celebration :\n48th Anniversary of AUF as Catholic University\nFebruary 13, 2026 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus’performance for the 48th Anniversary of AUF as Catholic University",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1GS3FwWt73/"
+                    ]
+                  }
+                ],
+                [
+                  "44",
+                  "Love Duet 2026: A Valentine Showdown\nFebruary 13, 2026 | St. Cecilia’s Auditorium",
+                  "A vocal duet competition participated by the AUF employees and students conducted by the AUF-CCA and College of Business & Accountancy",
+                  ""
+                ],
+                [
+                  "45",
+                  "Mr. & Ms. University Pre-Pageant\nFebruary 14, 2026 | AUF Sports & Cultural Center",
+                  "Mr. & Ms. University candidates pre-pageant & talent portion activity",
+                  ""
+                ],
+                [
+                  "46",
+                  "CI-AUF Chinese New Year Extravaganza\nFebruary 15, 2026 | SM City Clark",
+                  "A Chinese cultural presentation by the AUF Concert Chorus for the Confucius Institute at AUF celebration of Chinese New Year",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/18iz9uWuX5/"
+                    ]
+                  }
+                ],
+                [
+                  "47",
+                  "Mr. & Ms. University Grand Finals & Coronation Night\nFebruary 20, 2026 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus and Dance Troupe intermission numbers for the annual Mr. & Ms. University Grand Finals & Coronation Night, a university-wide activity organized by the AUF Center for Culture & the Arts.",
+                  ""
+                ],
+                [
+                  "48",
+                  "Opening of University Week\nMarch 23, 2026 | AUF SCC Arena",
+                  "AUF Band and Dance Troupe performances for the Opening of University Week",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/14SDTezcxU3/",
+                      "https://www.facebook.com/share/p/19JBLq8ZJK/"
+                    ]
+                  }
+                ],
+                [
+                  "",
+                  "English Academic Contest\nMarch 23, 2026 | St. Cecilia’s Auditorium",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloists for the academic competitions",
+                  ""
+                ],
+                [
+                  "49",
+                  "Bible Quiz Bee & Exposition\nMarch 24, 2026 | St. Cecilia’s Auditorium",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloists for the academic competitions",
+                  ""
+                ],
+                [
+                  "50",
+                  "Awit at Ala-ala: Pagpupugay sa Musikang Pilipino featuring the AUF Concert Chorus\nApril 12, 2026\nSFIC La Verna Chapel II, St. Joseph’s College,\nQuezon City",
+                  "AUF Concert Chorus’ tribute concert for the Franciscan Sisters of the Immaculate Conception of the Holy Mother of God held at the La Verna Chapel II, St. Joseph’s College,\nQuezon City",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1Fi9dU1f5A/"
+                    ]
+                  }
+                ],
+                [
+                  "51",
+                  "Summer Art Workshop Orientation of the Students/Parents\nApril 13, 2026 | St. Cecilia’s Auditorium",
+                  "Orientation of the students’ and parents’ for the Summer Art Workshop",
+                  ""
+                ],
+                [
+                  "52",
+                  "AUF TOS and College Recognition Day\nApril 23, 2026 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus and Rondalla’s performances for the AUF TOS and College Recognition Day",
+                  ""
+                ],
+                [
+                  "53",
+                  "AUF – Integrated School TOS and Recognition Day\nApril 28, 2026 | AUF Sports & Cultural Center",
+                  "AUF Concert Chorus and Rondalla’s performances for the AUF Integrated School – The Outstanding Student (TOS) and Recognition Day",
+                  ""
+                ],
+                [
+                  "54",
+                  "AUF – Integrated School Commencement Exercises\nApril 29, 2026 | AUF Sports & Cultural Center",
+                  "AUF Band, Concert Chorus, and Rondalla performances for the AUF Commencement Exercises",
+                  ""
+                ],
+                [
+                  "55",
+                  "ASEAN Bar Leaders Association Summit\nMay 4, 2026 | Edsa Shangri-La Hotel, Manila",
+                  "Invitational cultural performance of the AUF Concert Chorus and Dance Troupe for the ASEAN Bar Leaders Association Summit held at the Edsa Shangri-La Hotel, Manila",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/17fWfqCoAm/",
+                      "https://www.facebook.com/share/p/1GTTGUTufF/"
+                    ]
+                  }
+                ],
+                [
+                  "56",
+                  "Likna: SAMASKOM Awards Ceremony\nMay 14, 2026 | St. Cecilia’s Auditorium",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloists for the College of Arts & Sciences",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/1C6CTe3kQw/"
+                    ]
+                  }
+                ],
+                [
+                  "57",
+                  "Summer Art Workshop 2026 Recital Day\nMay 16, 2026 | St. Cecilia’s Auditorium",
+                  "AUF Concert Chorus , Dance Troupe and Rondalla’s intermission numbers for the annual Summer Art Workshop Recital Day,a university-wide activity organized by the AUF Center for Culture & the Arts.",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/p/1DKhQk5iEC/",
+                      "https://www.facebook.com/share/v/1E34pDrTrL/"
+                    ]
+                  }
+                ],
+                [
+                  "58",
+                  "Reyna Ning Flores de Mayo General Assembly & Orientation\nMay 16, 2026 | AUF Sports & Cultural Center",
+                  "General assembly and orientation of the sagalas (candidates) for the Reyna Ning Flores de Mayo",
+                  ""
+                ],
+                [
+                  "59",
+                  "Reyna Ning Flores de Mayo Courtesy Call & Presentation of Sagalas\nMay 20, 2026 | AUF Boardroom / SM City Clark",
+                  "Sagalas’ courtesy call with the University officials and presentation at SM City Clark",
+                  ""
+                ],
+                [
+                  "60",
+                  "Chinese Bridge Competition 2026\nMay 21, 2026 | St. Cecilia’s Auditorium",
+                  "A Chinese cultural presentation by the AUF Concert Chorus for the Chinese Bridge Competition 2026 hosted by the Confucius Institute at AUF",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/r/1C4oDfG1HP/"
+                    ]
+                  }
+                ],
+                [
+                  "61",
+                  "Reyna Ning Flores de Mayo Grand Parade & Coronation Night\nMay 24, 2026 | SM City Clark",
+                  "AUF Performing Arts performances for the Reyna Ning Flores de Mayo Grand Parade & Coronation Night, an annual pageant organized by the Angeles University Foundation Center for Culture & the Arts and SM City Clark",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/r/1CNK8byqts/",
+                      "https://www.facebook.com/share/p/18jam83cPP/"
+                    ]
+                  }
+                ],
+                [
+                  "62",
+                  "CED Night : CEDLestial Dreams\nMay 26, 2026 | AUF Sports & Cultural Center",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloist for the College of Education.",
+                  {
+                    "text": "",
+                    "links": [
+                      "https://www.facebook.com/share/1BfhpGui3N/"
+                    ]
+                  }
+                ],
+                [
+                  "63",
+                  "Criminology Night 2026 :\n“Noir of Justice – A Night Beyond the Shadows”\nMay 29, 2026\nAUF Sports & Cultural Center",
+                  "Intermission numbers rendered by AUF Concert Chorus’ soloists for the College of Criminal Justice Education",
+                  ""
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "closing": "Through these engagements, the AUF Center for Culture and the Arts continues to nurture artistic expression and provide performances that enrich traditions and community celebrations. By bringing music and cultural presentations to diverse audiences, the Center reinforces the role of the performing arts in fostering cultural appreciation, community participation, and a vibrant university culture.",
       "sourceNote": "Excel D15: Link to the article"
     },
     {
@@ -609,15 +2966,42 @@
         "Transient accommodation and housing"
       ],
       "featured": false,
-      "draft": true,
       "intro": [
         "Angeles University Foundation (AUF) continues to support its employees by providing temporary accommodation for personnel who were severely affected by flooding. The AUF Hostel in Marisol currently has 60 available beds for affected employees who need a safe place to stay.",
         "In addition to this emergency accommodation, AUF also provides transient accommodation at the AUF Residences for employees, personnel, and outsourced speakers who need short-term housing during their assignments at the University. The facility offers a convenient and cost-effective option, with basic amenities to support guests during their temporary stay.",
         "Employees requiring temporary accommodation may coordinate directly with their respective department heads to request placement."
       ],
-      "sections": [],
-      "sourceNote": "Excel E16: Link to images (Images will be replaced if there are more recent pictures of the hostel and residences)",
-      "closing": "Through these accommodation facilities, AUF reaffirms its commitment to the well-being of its employees and the university community by extending practical support to those in need."
+      "sections": [
+        {
+          "heading": "",
+          "blocks": [
+            {
+              "type": "images",
+              "images": [
+                {
+                  "file": "hostel",
+                  "w": 1545,
+                  "h": 1031,
+                  "alt": "AUF Hostel"
+                },
+                {
+                  "file": "residences",
+                  "w": 1549,
+                  "h": 1031,
+                  "alt": "AUF Residences"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "cover": {
+        "file": "hostel",
+        "w": 1545,
+        "h": 1031
+      },
+      "closing": "Through these accommodation facilities, AUF reaffirms its commitment to the well-being of its employees and the university community by extending practical support to those in need.",
+      "sourceNote": "Excel E16: Link to images (Images will be replaced if there are more recent pictures of the hostel and residences)"
     }
   ]
 }
