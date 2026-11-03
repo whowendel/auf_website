@@ -1,5 +1,16 @@
 import { NextResponse } from "next/server";
 
+// Upstream feed content is untrusted: only pass through well-formed ids and https Vatican links.
+const YT_ID = /^[A-Za-z0-9_-]{11}$/;
+const isVaticanLink = (u: string) => {
+  try {
+    const url = new URL(u);
+    return url.protocol === "https:" && url.hostname.endsWith("vaticannews.va");
+  } catch {
+    return false;
+  }
+};
+
 export async function GET() {
   try {
     // 1. Fetch YouTube RSS Feed for latest video
@@ -16,9 +27,9 @@ export async function GET() {
       const title = (entryContent.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || "";
       const videoId = (entryContent.match(/<yt:videoId>([\s\S]*?)<\/yt:videoId>/) || [])[1] || "";
       const published = (entryContent.match(/<published>([\s\S]*?)<\/published>/) || [])[1] || "";
-      video = {
+      video = !YT_ID.test(videoId.trim()) ? null : {
         title: title.replace(/&quot;/g, '"').replace(/&amp;/g, '&').trim(),
-        videoId,
+        videoId: videoId.trim(),
         published,
       };
     }
@@ -64,6 +75,7 @@ export async function GET() {
         formattedDate = pubDate;
       }
 
+      if (!isVaticanLink(link.trim())) continue;
       newsItems.push({
         title: title.replace(/&amp;/g, '&').trim(),
         link: link.trim(),

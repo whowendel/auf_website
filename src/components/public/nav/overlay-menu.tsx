@@ -342,6 +342,7 @@ function VideoPanel({
                   href={l.href}
                   onClick={onClose}
                   className={`group flex items-center gap-2 text-[12px] transition-colors ${t.quickLinkText} ${t.quickLinkHover}`}
+                  {...(l.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 >
                   <span className={`h-px w-3 transition-all group-hover:w-5 ${t.activeLine} opacity-30 group-hover:opacity-100`} />
                   {l.label}
@@ -387,7 +388,12 @@ function SubPanel({
                 <ul className="space-y-0.5">
                   {group.items.map((item, ii) => (
                     <li key={ii}>
-                      <Link href={item.href} onClick={onClose} className="group block py-1">
+                      <Link
+                        href={item.href}
+                        onClick={onClose}
+                        className="group block py-1"
+                        {...(item.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                      >
                         <span className={`block text-[13px] font-medium transition-colors ${t.subText} ${t.subHover}`}>
                           {item.label}
                         </span>

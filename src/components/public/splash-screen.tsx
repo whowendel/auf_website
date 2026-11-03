@@ -12,11 +12,11 @@ export function SplashScreen() {
   const [phase, setPhase] = useState<"showing" | "exiting" | "done">("done");
 
   useEffect(() => {
-    // Only show once per browser session
+    // Once per browser session; a session cookie (unlike sessionStorage) is shared across tabs
     if (typeof window === "undefined") return;
-    if (sessionStorage.getItem(SESSION_KEY)) return;
+    if (document.cookie.split("; ").includes(`${SESSION_KEY}=1`)) return;
 
-    sessionStorage.setItem(SESSION_KEY, "1");
+    document.cookie = `${SESSION_KEY}=1; path=/; SameSite=Lax`;
     setPhase("showing");
 
     // Begin exit after 2.2s

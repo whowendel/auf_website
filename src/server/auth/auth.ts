@@ -15,9 +15,34 @@ const credentialsSchema = z.object({
   password: z.string().min(8),
 });
 
+const baseAdapter = PrismaAdapter(prisma);
+
 export const { handlers, auth, signIn, signOut } = NextAuth({
   ...authConfig,
-  adapter: PrismaAdapter(prisma),
+  adapter: {
+    ...baseAdapter,
+    // Auto-provisioned (SSO) users must be activated by a SUPER_ADMIN before they can sign in.
+    async createUser({ id, ...data }) {
+      void id;
+      return prisma.user.create({ data: { ...data, name: data.name ?? data.email, isActive: false } });
+    },
+  },
+  callbacks: {
+    ...authConfig.callbacks,
+    // Re-check the DB on every session read so deactivation and role changes take effect immediately.
+    async jwt(params) {
+      const token = await authConfig.callbacks.jwt(params);
+      if (!token.sub) return null;
+      const u = await prisma.user.findUnique({
+        where: { id: token.sub },
+        select: { isActive: true, role: true, collegeId: true },
+      });
+      if (!u?.isActive) return null;
+      token.role = u.role;
+      token.collegeId = u.collegeId;
+      return token;
+    },
+  },
   providers: [
     ...authConfig.providers,
     Credentials({
@@ -98,20 +123,6 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           entityId: user.id,
           metadata: { provider: account?.provider ?? "credentials" },
         });
-      }
-
-      // For Google SSO: hydrate role/collegeId from DB on every sign-in
-      // (PrismaAdapter creates the User record but doesn't populate custom fields).
-      if (account?.provider === "google" && user?.email) {
-        const dbUser = await prisma.user.findUnique({ where: { email: user.email } });
-        if (!dbUser) {
-          // Auto-provisioned Google user — leave as default COLLEGE_EDITOR + inactive.
-          // SUPER_ADMIN must activate them via the admin UI before they can log in.
-          await prisma.user.update({
-            where: { email: user.email },
-            data: { isActive: false },
-          });
-        }
       }
     },
     async signOut(message) {
