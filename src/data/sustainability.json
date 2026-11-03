@@ -3,8 +3,6 @@
     {
       "slug": "community-health-outreach-2025-2026",
       "title": "Strengthening Community Health: AUF's Health Outreach Initiatives for A.Y. 2025-2026",
-      "excerpt": "Medical missions, blood donation drives, life support training, and free physical therapy clinics: 528 bags of blood, 108 patients treated, and 120 personnel trained this academic year.",
-      "category": "Health Outreach",
       "sdgs": [
         3
       ],
@@ -15,7 +13,6 @@
       "featured": true,
       "cover": {
         "file": "bls-training",
-        "alt": "Basic Life Support training for public school personnel",
         "w": 1600,
         "h": 1063
       },
@@ -32,7 +29,6 @@
           "images": [
             {
               "file": "moa-valdez-clinic",
-              "alt": "Signing of the AUF-AUFMC Memorandum of Agreement for the Valdez Charity Clinic",
               "w": 1600,
               "h": 1066
             }
@@ -46,7 +42,6 @@
           "images": [
             {
               "file": "rsl-medical-missions",
-              "alt": "College of Nursing medical mission with the RSL of Australia-Angeles City Chapter",
               "w": 1600,
               "h": 1200
             }
@@ -60,7 +55,6 @@
           "images": [
             {
               "file": "bls-training",
-              "alt": "Participants practicing Basic Life Support",
               "w": 1600,
               "h": 1063
             }
@@ -80,7 +74,6 @@
           "images": [
             {
               "file": "blood-donation",
-              "alt": "Mass blood donation drive at the AUF Sports and Cultural Center",
               "w": 590,
               "h": 590
             }
@@ -89,12 +82,11 @@
         {
           "heading": "FreeHab Clinic 2026",
           "paragraphs": [
-            "The AUF-CAMP Physical Therapy (PT) Department successfully conducted the three-day FreeHab Clinic 2026 at the AUF Main Campus on June 8, 9, and 16, 2026. This activity provided free physical therapy services to community members while allowing PT interns to apply their clinical knowledge under supervision. The clinic assessed and treated 108 patients, with support from the CAMP Parents' Association, CAMP Alumni Association, Center for Christian Formation and Praxis, and Ms. Vilma Balatbat, president of the PWD Community in Barangay Ninoy Aquino."
+            "The AUF-CAMP Physical Therapy (PT) Department successfully conducted the three-day FreeHab Clinic 2026 at the AUF Main Campus last June 8, 9, & 16, 2026. This activity provided free physical therapy services to community members while allowing PT interns to apply their clinical knowledge under supervision. The clinic assessed and treated 108 patients, with support from the CAMP Parents' Association, CAMP Alumni Association, Center for Christian Formation and Praxis, and Ms. Vilma Balatbat, president of the PWD Community in Barangay Ninoy Aquino."
           ],
           "images": [
             {
               "file": "freehab-clinic",
-              "alt": "Physical therapy services at the FreeHab Clinic 2026",
               "w": 940,
               "h": 940
             }
@@ -103,13 +95,13 @@
         {
           "heading": "PTSS AUF U-Week PT Sports Clinic",
           "paragraphs": [
-            "The Physical Therapy Student Society (PTSS) conducted a five-day sports clinic as part of the university's U-Week celebration, providing sports-related rehabilitation services to student-athletes and members of the Angelenean community on March 23-27, 2026. Under the supervision of faculty members and licensed professionals, Physical Therapy students and interns assessed and treated 525 athletes, supporting their physical well-being and sports-related needs."
+            "The Physical Therapy Student Society (PTSS) conducted a five-day sports clinic as part of the university's U-Week celebration, providing sports-related rehabilitation services to student-athletes and members of the Angelenean community last March 23-27, 2026. Under the supervision of faculty members and licensed professionals, Physical Therapy students and interns assessed and treated 525 athletes, supporting their physical well-being and sports-related needs."
           ]
         },
         {
           "heading": "Marathon Sports Clinic",
           "paragraphs": [
-            "In partnership with Stretch Lab PH, third-year Physical Therapy students of AUF participated in the 16th TCS Clark Animo International Marathon Sports Clinic at Clark Global City. The students engaged in this community-based sports rehabilitation initiative by providing post-run stretching services to marathon runners, assisting them in their recovery and cool-down process following the race."
+            "In partnership with Stretch Lab PH, third-year Physical Therapy students of AUF participated in the 16th TCS Clark Animo International Marathon Sports Clinic at Clark Global City. The students engage in this community-based sports rehabilitation initiative by providing post-run stretching services to marathon runners, assisting them in their recovery and cool-down process following the race."
           ]
         },
         {
@@ -130,8 +122,6 @@
     {
       "slug": "hiv-reproductive-health-seminars",
       "title": "AUF Promotes Student Health Through HIV and Reproductive Health Seminars",
-      "excerpt": "Free advocacy and educational seminars through the University Health Services and student organizations on HIV, AIDS, and teenage pregnancy.",
-      "category": "Seminar",
       "sdgs": [
         3
       ],
@@ -142,7 +132,6 @@
       "featured": true,
       "cover": {
         "file": "cover",
-        "alt": "Poster for the HIV, AIDS, Teenage Pregnancy and Reproductive Health Seminar",
         "w": 1364,
         "h": 1153
       },
@@ -157,20 +146,18 @@
           ]
         },
         {
-          "heading": "HIV Awareness Seminar: Health starts when you STAP",
+          "heading": "HIV Awareness Seminar: Health starts when you STAP (Stop stigma, Test Today, Act with Awareness, Practice Protection)",
           "paragraphs": [
-            "STAP stands for Stop stigma, Test Today, Act with Awareness, Practice Protection. On January 28, 2026, the Society of Future Medical Technologists (SFMT), in partnership with the AUF University Student Council and the Association of DOST Scholars - AUF Chapter, conducted an HIV Awareness Seminar for undergraduate students. Led by resource speaker Mr. Kael Mata of Positibong Pasigueño, the seminar discussed HIV prevention, testing, and awareness. The seminar addressed misconceptions, stigma, and discrimination while also emphasizing empathy, respect, and inclusive, patient-centered care for people living with HIV."
+            "On January 28, 2026, the Society of Future Medical Technologists (SFMT), in partnership with the AUF University Student Council and the Association of DOST Scholars - AUF Chapter, conducted an HIV Awareness Seminar for undergraduate students. Led by resource speaker Mr. Kael Mata of Positibong Pasigueño, the seminar discussed HIV prevention, testing, and awareness. The seminar addressed misconceptions, stigma, and discrimination while also emphasizing empathy, respect, and inclusive, patient-centered care for people living with HIV."
           ],
           "images": [
             {
               "file": "sfmt-1",
-              "alt": "Participants of the SFMT HIV Awareness Seminar",
               "w": 1600,
               "h": 1066
             },
             {
               "file": "sfmt-2",
-              "alt": "Resource speaker and organizers of the SFMT HIV Awareness Seminar",
               "w": 1600,
               "h": 1066
             }
@@ -182,8 +169,6 @@
     {
       "slug": "no-smoking-no-vaping-policy",
       "title": "AUF Reaffirms Its No Smoking, No Vaping Policy",
-      "excerpt": "A strict campus-wide policy that applies to all students, faculty, staff, personnel, and visitors.",
-      "category": "Policy",
       "sdgs": [
         3
       ],
@@ -194,7 +179,6 @@
       "featured": true,
       "cover": {
         "file": "cover",
-        "alt": "No smoking, no vaping, no exceptions poster",
         "w": 1122,
         "h": 1402
       },
@@ -208,8 +192,6 @@
     {
       "slug": "non-discrimination-commitment",
       "title": "AUF Reaffirms Its Commitment to Non-Discrimination",
-      "excerpt": "AUF upholds a safe environment free from all forms of discrimination and harassment, guided by its core values of Mabuti, Magaling, and May Malasakit sa Kapwa.",
-      "category": "Policy",
       "sdgs": [
         4,
         5
@@ -221,7 +203,6 @@
       "featured": false,
       "cover": {
         "file": "avp-poster",
-        "alt": "Still from the AUF Non-Discrimination Commitment video teaser",
         "w": 1280,
         "h": 720
       },
@@ -266,8 +247,6 @@
     {
       "slug": "safe-spaces-confidential-reporting",
       "title": "Promoting Safe Spaces and Confidential Reporting at AUF",
-      "excerpt": "AUF maintains policies and procedures so that any stakeholder who feels unsafe receives appropriate and immediate assistance, with reports treated confidentially.",
-      "category": "Policy",
       "sdgs": [
         5
       ],
@@ -277,7 +256,7 @@
       "featured": false,
       "intro": [
         "Angeles University Foundation is committed to maintaining a safe and secure environment free from all forms of distress and fear that may impede the educational process or affect the lives of those who call this their \"second home.\"",
-        "The University has policies and procedures in place to ensure any stakeholder who feels unsafe will receive appropriate and immediate assistance. As we strive to foster a respectful environment at AUF, we advise the Angelenean community to seek help through the proper channels.",
+        "The University has policies and procedures in place to ensure any stakeholder who feels unsafe will receive appropriate and immediate assistance. As we strive to foster a respectful environment at AUF, we advise the Angeleenean community to seek help through the proper channels.",
         "We encourage you to responsibly use your voice and get in touch with us for assistance, counseling, or consultation. Rest assured that the University management shall treat reports with utmost confidentiality. Help the University help you by reaching out through hrdc.grievance@auf.edu.ph."
       ],
       "sections": []
@@ -285,14 +264,12 @@
     {
       "slug": "maternity-paternity-benefits",
       "title": "Maternity and Paternity Benefits at AUF",
-      "excerpt": "AUF supports employee and family well-being through maternity, paternity, special, and solo parent leave benefits in accordance with Philippine laws.",
-      "category": "Policy",
       "sdgs": [
         5
       ],
       "tags": [
-        "Maternity policy",
-        "Paternity policy"
+        "Maternity Policy",
+        "Paternity Policy"
       ],
       "featured": false,
       "intro": [
@@ -312,7 +289,7 @@
           ]
         },
         {
-          "heading": "Special Leave Benefits for Women - Magna Carta of Women, Republic Act No. 9710 (2009)",
+          "heading": "Special Leave Benefits for Women under the Magna Carta of Women, Republic Act No. 9710 (2009)",
           "paragraphs": [
             "All full-time female academic staff members with at least six (6) months of service are entitled to a special leave benefit of up to two (2) months with full pay based on gross monthly compensation, following surgery for gynecological disorders."
           ]
@@ -352,18 +329,15 @@
     {
       "slug": "education-outreach-2025-2026",
       "title": "Extending Learning Beyond the Campus: AUF's Education Outreach Initiatives for A.Y. 2025-2026",
-      "excerpt": "Tutorials, teacher training, digital literacy, and first aid seminars bringing AUF's academic units and student organizations to partner schools and communities.",
-      "category": "Education Outreach",
       "sdgs": [
         4
       ],
       "tags": [
-        "Education outreach programs"
+        "Education Outreach Programs"
       ],
       "featured": false,
       "cover": {
         "file": "data-smart-teachers",
-        "alt": "Data Smart Teachers Workshop by the OVPRI",
         "w": 1600,
         "h": 1200
       },
@@ -385,7 +359,6 @@
           "images": [
             {
               "file": "teachers-pen-journalism",
-              "alt": "Journalism training for student journalists of ACNHS-SHS",
               "w": 1600,
               "h": 1066
             }
@@ -399,7 +372,6 @@
           "images": [
             {
               "file": "jpia-accounting-tutorials",
-              "alt": "JPIA AUF basic accounting tutorials for Grade 11 ABM students",
               "w": 1440,
               "h": 814
             }
@@ -419,7 +391,6 @@
           "images": [
             {
               "file": "data-smart-teachers",
-              "alt": "Data Smart Teachers Workshop on Research Statistics",
               "w": 1600,
               "h": 1200
             }
@@ -440,7 +411,7 @@
         {
           "heading": "The Ethical Use of Artificial Intelligence in the Digital Age for ALS learners",
           "paragraphs": [
-            "In response to the growing demand for digital literacy and AI awareness, the BSIT students of the CCS conducted a seminar titled \"The Ethical Use of Artificial Intelligence in the Digital Age\" on November 7, 2025. This was attended by ALS learners from Gueco Balibago Elementary School and youth representatives from Barangay Sto. Cristo Sangguniang Kabataan. The seminar aimed to strengthen participants' understanding of AI concepts, ethical frameworks, and practical automation tools."
+            "In response to the growing demand for digital literacy and AI awareness, the BSIT students of the CCS conducted a seminar titled \"The Ethical Use of Artificial Intelligence in the Digital Age\" on November 07, 2025. This was attended by ALS learners from Gueco Balibago Elementary School and youth representatives from Barangay Sto. Cristo Sangguniang Kabataan. The seminar aimed to strengthen participants' understanding of AI concepts, ethical frameworks, and practical automation tools."
           ]
         },
         {
@@ -451,7 +422,6 @@
           "images": [
             {
               "file": "ai-automation-workshop",
-              "alt": "AI Automation Workshop for students of Angeles City Science High School",
               "w": 1525,
               "h": 1031
             }
@@ -465,7 +435,6 @@
           "images": [
             {
               "file": "chinese-teaching-immersion",
-              "alt": "CLCS teaching immersion for Grade 9 and 10 students",
               "w": 1600,
               "h": 1600
             }
@@ -477,18 +446,15 @@
     {
       "slug": "kapampangan-studies-language-heritage",
       "title": "Preserving Language, Celebrating Heritage: The AUF-CED Institute of Kapampangan Studies",
-      "excerpt": "Through lectures, partnerships, and Buwan ng Wika programs, the Institute of Kapampangan Studies keeps Kapampangan language, literature, and culture alive across generations.",
-      "category": "Arts and Heritage",
       "sdgs": [
         11
       ],
       "tags": [
-        "Arts and heritage"
+        "Arts and Heritage"
       ],
       "featured": false,
       "cover": {
         "file": "mou-signing",
-        "alt": "Signing of the Memorandum of Understanding establishing the Sentro ng Wika at Kultura",
         "w": 1080,
         "h": 1080
       },
@@ -506,7 +472,6 @@
           "images": [
             {
               "file": "mou-signing",
-              "alt": "Signing of the Memorandum of Understanding establishing the Sentro ng Wika at Kultura",
               "w": 1080,
               "h": 1080
             }
@@ -529,13 +494,11 @@
           "images": [
             {
               "file": "palihan-2026",
-              "alt": "Palihan 2026 during Tertulyang Pangwika 2026",
               "w": 1600,
               "h": 1000
             },
             {
               "file": "dagliang-talakayan",
-              "alt": "Dagliang Talakayan during Buwan ng Wika 2026",
               "w": 1600,
               "h": 1000
             }

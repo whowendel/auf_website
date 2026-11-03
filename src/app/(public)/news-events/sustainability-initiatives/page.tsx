@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import { InnerPageHero } from "@/components/public/page-layout/inner-page-hero";
 import { SustainabilityBrowser } from "@/components/public/sustainability/sustainability-browser";
 import { SustainabilityCarousel } from "@/components/public/sustainability/sustainability-carousel";
-import { sustainabilityArticles, sustainabilityPath } from "@/data/sustainability";
+import { shortText, sustainabilityArticles, sustainabilityPath } from "@/data/sustainability";
 
-const description =
-  "Stories of how Angeles University Foundation advances the UN Sustainable Development Goals on campus and beyond.";
+const description = "Sustainability Initiatives of Angeles University Foundation.";
+const keywords = [...new Set(sustainabilityArticles.flatMap((a) => a.tags))];
 
 export const metadata: Metadata = {
   title: "Sustainability Initiatives",
   description,
-  keywords: ["AUF", "Angeles University Foundation", "sustainability", "Sustainable Development Goals", "SDG"],
+  keywords,
 };
 
 const jsonLd = {
@@ -22,7 +22,7 @@ const jsonLd = {
   hasPart: sustainabilityArticles.map((a) => ({
     "@type": "Article",
     headline: a.title,
-    description: a.excerpt,
+    description: shortText(a.excerpt),
     url: `${sustainabilityPath}/${a.slug}`,
     keywords: a.tags.join(", "),
   })),
@@ -40,7 +40,6 @@ export default function SustainabilityInitiativesPage() {
       <InnerPageHero
         eyebrow="News and Events"
         title="Sustainability Initiatives"
-        subtitle={description}
         breadcrumbs={[
           { label: "Home", href: "/" },
           { label: "News and Events", href: "/news-events" },

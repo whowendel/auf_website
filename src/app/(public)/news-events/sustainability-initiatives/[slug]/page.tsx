@@ -5,7 +5,7 @@ import { InnerPageHero } from "@/components/public/page-layout/inner-page-hero";
 import { ArticleBody, ArticleCover, ArticleVideo } from "@/components/public/sustainability/sustainability-article-body";
 import { SdgChip, TagPill, articleHref } from "@/components/public/sustainability/sustainability-card";
 import { getSdg } from "@/data/sdgs";
-import { getSustainabilityArticle, sustainabilityArticles, sustainabilityPath } from "@/data/sustainability";
+import { getSustainabilityArticle, shortText, sustainabilityArticles, sustainabilityPath } from "@/data/sustainability";
 
 type Params = { params: Promise<{ slug: string }> };
 
@@ -19,9 +19,9 @@ export async function generateMetadata({ params }: Params): Promise<Metadata> {
   if (!a) return {};
   return {
     title: a.title,
-    description: a.excerpt,
+    description: shortText(a.excerpt),
     keywords: [...a.tags, ...a.sdgs.map((n) => `SDG ${n} ${getSdg(n)?.title ?? ""}`.trim())],
-    openGraph: { title: a.title, description: a.excerpt, images: a.cover ? [a.cover.src] : undefined },
+    openGraph: { title: a.title, description: shortText(a.excerpt), images: a.cover ? [a.cover.src] : undefined },
   };
 }
 
@@ -38,7 +38,7 @@ export default async function SustainabilityArticlePage({ params }: Params) {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: article.title,
-    description: article.excerpt,
+    description: shortText(article.excerpt),
     image: article.cover?.src,
     video: article.video && {
       "@type": "VideoObject",
@@ -47,7 +47,6 @@ export default async function SustainabilityArticlePage({ params }: Params) {
       contentUrl: article.video.src,
     },
     keywords: [...sdgLabels, ...article.tags].join(", "),
-    articleSection: article.category,
     publisher: { "@type": "CollegeOrUniversity", name: "Angeles University Foundation" },
     mainEntityOfPage: `${sustainabilityPath}/${article.slug}`,
   };
@@ -71,9 +70,6 @@ export default async function SustainabilityArticlePage({ params }: Params) {
           {article.sdgs.map((n) => (
             <SdgChip key={n} num={n} />
           ))}
-          <span className="rounded-full bg-white/15 px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-widest text-white">
-            {article.category}
-          </span>
         </div>
       </InnerPageHero>
 

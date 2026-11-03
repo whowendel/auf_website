@@ -98,9 +98,6 @@ function Slide({ article }: { article: SustainabilityArticle }) {
       </div>
       <div className="flex flex-col justify-center gap-3 p-6 md:p-8">
         <div className="flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-navy/8 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-navy">
-            {article.category}
-          </span>
           {article.sdgs.map((n) => (
             <SdgChip key={n} num={n} />
           ))}
@@ -108,7 +105,7 @@ function Slide({ article }: { article: SustainabilityArticle }) {
         <h2 className="font-display text-xl font-semibold leading-snug text-navy md:text-2xl">
           {article.title}
         </h2>
-        <p className="text-sm leading-relaxed text-auf-muted">{article.excerpt}</p>
+        <p className="line-clamp-4 text-sm leading-relaxed text-auf-muted">{article.excerpt}</p>
         <div className="flex flex-wrap gap-1.5">
           {article.tags.map((t) => (
             <TagPill key={t}>{t}</TagPill>

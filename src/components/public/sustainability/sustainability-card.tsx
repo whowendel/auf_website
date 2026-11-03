@@ -60,9 +60,6 @@ export function SustainabilityCard({ article }: { article: SustainabilityArticle
       </div>
       <div className="flex flex-1 flex-col p-5">
         <div className="mb-3 flex flex-wrap items-center gap-2">
-          <span className="rounded-full bg-navy/8 px-2 py-0.5 text-[9px] font-bold uppercase tracking-widest text-navy">
-            {article.category}
-          </span>
           {article.sdgs.map((n) => (
             <SdgChip key={n} num={n} />
           ))}
