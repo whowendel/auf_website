@@ -208,7 +208,15 @@ export const navSections: NavSection[] = [
   {
     id: "news-events",
     label: "News and Events",
-    href: "/news-events",
+    groups: [
+      {
+        heading: "News and Events",
+        items: [
+          { label: "All News & Events", href: "/news-events" },
+          { label: "Sustainability Initiatives", href: "/news-events/sustainability-initiatives" },
+        ],
+      },
+    ],
   },
 
   {

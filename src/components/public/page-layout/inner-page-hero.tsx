@@ -8,6 +8,7 @@ type InnerPageHeroProps = {
   title: string;
   subtitle?: string;
   breadcrumbs?: Breadcrumb[];
+  children?: React.ReactNode;
 };
 
 /**
@@ -19,6 +20,7 @@ export function InnerPageHero({
   title,
   subtitle,
   breadcrumbs,
+  children,
 }: InnerPageHeroProps) {
   return (
     <div className="relative overflow-hidden bg-[var(--auf-navy)] pt-22">
@@ -89,6 +91,7 @@ export function InnerPageHero({
             {subtitle}
           </p>
         )}
+        {children}
       </div>
     </div>
   );

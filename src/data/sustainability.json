@@ -1,0 +1,110 @@
+{
+  "articles": [
+    {
+      "slug": "community-health-outreach-2025-2026",
+      "title": "Strengthening Community Health: AUF's Health Outreach Initiatives for A.Y. 2025-2026",
+      "excerpt": "Medical missions, blood donation drives, life support training, and free physical therapy clinics: 528 bags of blood, 108 patients treated, and 120 personnel trained this academic year.",
+      "category": "Health Outreach",
+      "sdgs": [3],
+      "tags": ["AUF health programs", "Health outreach programs"],
+      "featured": true,
+      "cover": { "file": "bls-training", "alt": "Basic Life Support training for public school personnel", "w": 1600, "h": 1063 },
+      "intro": [
+        "Throughout the academic year, Angeles University Foundation (AUF) together with its colleges, student organizations, alumni, and community partners extended healthcare services and education beyond the university. Through community-based health initiatives, AUF addressed local health needs while also providing students with opportunities to apply their knowledge and skills in real-world settings.",
+        "Guided by its core values of being Mabuti, Magaling, at May Malasakit sa Kapwa, AUF translated its commitment to service into meaningful action through medical missions, health education programs, physical therapy services, voluntary blood donation drives, and emergency response training. The following outreach programs highlight the university's collective efforts to promote health and community well-being, while making healthcare more accessible to the community."
+      ],
+      "sections": [
+        {
+          "heading": "Regular Health Services for Barangay Ninoy Aquino",
+          "paragraphs": ["Angeles University Foundation (AUF) and the AUF Medical Center (AUFMC) Department of Pediatrics signed a Memorandum of Agreement (MOA) on July 31, 2025 to provide regular health services to Barangay Ninoy Aquino through the AUF Don Emiliano J. Valdez Charity Clinic. Services include preventive care, child health consultations, and wellness education for local families."],
+          "images": [{ "file": "moa-valdez-clinic", "alt": "Signing of the AUF-AUFMC Memorandum of Agreement for the Valdez Charity Clinic", "w": 1600, "h": 1066 }]
+        },
+        {
+          "heading": "Community Medical Missions",
+          "paragraphs": ["The AUF College of Nursing Community Encounter with Responsive Nurses (CONCERN) maintains a partnership with the Returned and Services League (RSL) of Australia-Angeles City Chapter in providing regular medical missions to communities in Pampanga. Conducted every first Saturday of the month, faculty and nursing students work with physicians, local health units, barangay health workers, and community volunteers in providing health assessments, medical consultations, basic treatment, wound care, immunization support, and health education."],
+          "images": [{ "file": "rsl-medical-missions", "alt": "College of Nursing medical mission with the RSL of Australia-Angeles City Chapter", "w": 1600, "h": 1200 }]
+        },
+        {
+          "heading": "Basic Life Support (BLS) Training",
+          "paragraphs": ["In partnership with the Angeles City Disaster Risk Reduction and Management Office and DepEd Tayo Angeles City, the AUF College of Nursing Alumni Association (AUF-CONAA) conducted Basic Life Support training on January 22 and 28, 2026 for 10 division personnel and 110 teaching and non-teaching personnel from 52 public schools. The training combined essential emergency response discussions with hands-on exercises to equip participants with skills in life-threatening emergencies."],
+          "images": [{ "file": "bls-training", "alt": "Participants practicing Basic Life Support", "w": 1600, "h": 1063 }]
+        },
+        {
+          "heading": "Community-Based Health Education Programs",
+          "paragraphs": ["CBSU staff, together with the AUF College of Nursing, conducted a health education seminar in Sitio Matahimik, City of San Fernando on May 28, 2026. The seminar covered communicable disease prevention, proper handwashing, and personal hygiene, as well as hygiene kit distribution and BMI measurements for children. Another seminar was conducted for community health volunteers of SACOP and Munting Tahanan ng Nazareth, Inc on June 19, 2026, which focused on proper bandaging and emergency response, combining discussions with hands-on practice."]
+        },
+        {
+          "heading": "Mass Blood Donation Drives",
+          "paragraphs": ["The Medical Technology students of the AUF College of Allied Medical Professions (AUF-CAMP), in collaboration with Jose B. Lingad Memorial General Hospital, successfully conducted Mass Blood Donation Drives on April 18 and May 2, 2026, at the AUF Sports and Cultural Center. The activity was organized to support the continuous demand for safe blood and to promote voluntary blood donation within the community. Through the collective efforts of the organizers, volunteers, donors, and partner institutions, the initiative achieved remarkable success, resulting in the collection of 528 bags of blood."],
+          "images": [{ "file": "blood-donation", "alt": "Mass blood donation drive at the AUF Sports and Cultural Center", "w": 590, "h": 590 }]
+        },
+        {
+          "heading": "FreeHab Clinic 2026",
+          "paragraphs": ["The AUF-CAMP Physical Therapy (PT) Department successfully conducted the three-day FreeHab Clinic 2026 at the AUF Main Campus on June 8, 9, and 16, 2026. This activity provided free physical therapy services to community members while allowing PT interns to apply their clinical knowledge under supervision. The clinic assessed and treated 108 patients, with support from the CAMP Parents' Association, CAMP Alumni Association, Center for Christian Formation and Praxis, and Ms. Vilma Balatbat, president of the PWD Community in Barangay Ninoy Aquino."],
+          "images": [{ "file": "freehab-clinic", "alt": "Physical therapy services at the FreeHab Clinic 2026", "w": 940, "h": 940 }]
+        },
+        {
+          "heading": "PTSS AUF U-Week PT Sports Clinic",
+          "paragraphs": ["The Physical Therapy Student Society (PTSS) conducted a five-day sports clinic as part of the university's U-Week celebration, providing sports-related rehabilitation services to student-athletes and members of the Angelenean community on March 23-27, 2026. Under the supervision of faculty members and licensed professionals, Physical Therapy students and interns assessed and treated 525 athletes, supporting their physical well-being and sports-related needs."]
+        },
+        {
+          "heading": "Marathon Sports Clinic",
+          "paragraphs": ["In partnership with Stretch Lab PH, third-year Physical Therapy students of AUF participated in the 16th TCS Clark Animo International Marathon Sports Clinic at Clark Global City. The students engaged in this community-based sports rehabilitation initiative by providing post-run stretching services to marathon runners, assisting them in their recovery and cool-down process following the race."]
+        },
+        {
+          "heading": "JPPhA AUF Botika",
+          "paragraphs": ["The AUF Pharmacy, located at SL-102, continued to provide accessible pharmaceutical services to students through its free medication program. The initiative was established to support the healthcare needs of the student population by ensuring access to prescribed medications at no cost, after undergoing free medical assessment at the University Health Services (UHS)."]
+        },
+        {
+          "heading": "Occupational Therapy Fieldwork",
+          "paragraphs": ["As part of their fieldwork education program, Occupational Therapy students from AUF conducted learning and service activities at the Balay Silangan Reformation Center, applying their knowledge through community-based rehabilitation activities for residents undergoing reformation and recovery. Through assessments, therapeutic interactions, and individualized interventions, students supported residents' personal development, self-esteem, coping skills, and participation in daily activities while gaining practical experience in rehabilitation and community reintegration."]
+        }
+      ],
+      "closing": "These health outreach initiatives reflect AUF's commitment to putting its core values into practice. Through continued community engagement, AUF reinforces its role in promoting health and well-being, strengthening community development, and nurturing students' sense of social responsibility and service."
+    },
+    {
+      "slug": "hiv-reproductive-health-seminars",
+      "title": "AUF Promotes Student Health Through HIV and Reproductive Health Seminars",
+      "excerpt": "Free advocacy and educational seminars through the University Health Services and student organizations on HIV, AIDS, and teenage pregnancy.",
+      "category": "Seminar",
+      "sdgs": [3],
+      "tags": ["AUF health programs", "Sexual and reproductive health education"],
+      "featured": true,
+      "cover": { "file": "cover", "alt": "Poster for the HIV, AIDS, Teenage Pregnancy and Reproductive Health Seminar", "w": 1364, "h": 1153 },
+      "intro": [
+        "In line with the Angeles University Foundation's (AUF) commitment to fostering health and well-being, the University continues to implement free advocacy and educational seminars addressing key health concerns among students through the UHS. As part of its continuing health promotion initiatives, AUF conducted the following seminars on HIV/AIDS Awareness and Teenage Pregnancy, aimed at raising awareness, encouraging responsible behavior, and empowering students to make informed decisions for their health and overall well-being."
+      ],
+      "sections": [
+        {
+          "heading": "HIV, AIDS, Teenage Pregnancy and Reproductive Health Seminar",
+          "paragraphs": ["On November 13, 2025, the University Health Services (UHS) in collaboration with the AUF Integrated School conducted a seminar among junior and senior high school students which provided them with essential information on HIV, AIDS, teenage pregnancy, and reproductive health. It aimed to correct misconceptions, promote awareness of preventive measures, and encourage responsible decision-making to support students' well-being and foster a healthier school community."]
+        },
+        {
+          "heading": "HIV Awareness Seminar: Health starts when you STAP",
+          "paragraphs": ["STAP stands for Stop stigma, Test Today, Act with Awareness, Practice Protection. On January 28, 2026, the Society of Future Medical Technologists (SFMT), in partnership with the AUF University Student Council and the Association of DOST Scholars - AUF Chapter, conducted an HIV Awareness Seminar for undergraduate students. Led by resource speaker Mr. Kael Mata of Positibong Pasigueño, the seminar discussed HIV prevention, testing, and awareness. The seminar addressed misconceptions, stigma, and discrimination while also emphasizing empathy, respect, and inclusive, patient-centered care for people living with HIV."],
+          "images": [
+            { "file": "sfmt-1", "alt": "Participants of the SFMT HIV Awareness Seminar", "w": 1600, "h": 1066 },
+            { "file": "sfmt-2", "alt": "Resource speaker and organizers of the SFMT HIV Awareness Seminar", "w": 1600, "h": 1066 }
+          ]
+        }
+      ],
+      "closing": "Through these seminars, AUF reinforces its commitment to student health by providing opportunities to access reliable information on sexual and reproductive health, and promote a more inclusive university community."
+    },
+    {
+      "slug": "no-smoking-no-vaping-policy",
+      "title": "AUF Reaffirms Its No Smoking, No Vaping Policy",
+      "excerpt": "A strict campus-wide policy that applies to all students, faculty, staff, personnel, and visitors.",
+      "category": "Policy",
+      "sdgs": [3],
+      "tags": ["AUF health programs", "No smoking policy"],
+      "featured": true,
+      "cover": { "file": "cover", "alt": "No smoking, no vaping, no exceptions poster", "w": 1122, "h": 1402 },
+      "intro": [
+        "Angeles University Foundation upholds a strict NO SMOKING and NO VAPING Policy within and around the campus premises. This policy is enforced at all times and applies to all students, faculty, staff, personnel, and visitors, including those participating in after-school activities and events.",
+        "Maintaining a smoke-free and vape-free environment reflects our shared commitment to protect the health, safety, and well-being of the entire AUF community.",
+        "Let us continue working together to foster a clean, safe, and healthy place for learning and growth."
+      ],
+      "sections": []
+    }
+  ]
+}
