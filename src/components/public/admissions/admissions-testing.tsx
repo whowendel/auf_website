@@ -86,8 +86,8 @@ export function AdmissionsTesting({ testing }: { testing: AdmissionsTesting }) {
         <p className="mb-4 text-[10px] font-bold uppercase tracking-[0.2em] text-navy/40">
           Examination Schedule
         </p>
-        <div className="overflow-hidden rounded-xl border border-auf-border">
-          <table className="w-full text-sm">
+        <div className="overflow-x-auto rounded-xl border border-auf-border">
+          <table className="w-full min-w-[640px] text-sm">
             <thead className="border-b border-auf-border bg-off-white">
               <tr>
                 {["Examination", "Batch", "Registration Deadline", "Exam Date", "Venue"].map((h) => (

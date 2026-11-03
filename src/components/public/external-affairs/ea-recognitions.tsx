@@ -155,11 +155,11 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
           </p>
 
           {/* Results Table */}
-          <div className="overflow-hidden rounded-xl border border-auf-border">
+          <div className="overflow-x-auto rounded-xl border border-auf-border">
             <table className="w-full text-left text-xs">
               <thead className="bg-navy/5 text-navy font-bold uppercase tracking-wider border-b border-auf-border">
                 <tr>
-                  <th className="px-4 py-3 w-1/4">Year</th>
+                  <th className="px-3 py-3 sm:px-4 w-16 sm:w-1/4">Year</th>
                   <th className="px-4 py-3">SDG & Ranking Details</th>
                 </tr>
               </thead>
@@ -167,7 +167,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                 
                 {/* 2026 results with individual SDG icons */}
                 <tr className="hover:bg-off-white/40 transition-colors bg-navy/[0.01]">
-                  <td className="px-4 py-4 font-semibold text-navy align-top">2026</td>
+                  <td className="px-3 py-4 sm:px-4 font-semibold text-navy align-top">2026</td>
                   <td className="px-4 py-4 text-auf-muted">
                     <div className="grid gap-3 sm:grid-cols-2">
                       
@@ -183,7 +183,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 3: Good Health & Well-being</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 3: Good Health & Well-being</span>
                           <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 301–400 (Score 63.7)</span>
                         </div>
                       </div>
@@ -200,7 +200,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 4: Quality Education</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 4: Quality Education</span>
                           <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 401–600 (Score 55.8)</span>
                         </div>
                       </div>
@@ -217,7 +217,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 5: Gender Equality</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 5: Gender Equality</span>
                           <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 401–600 (Score 52.6)</span>
                         </div>
                       </div>
@@ -234,7 +234,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 11: Sustainable Cities & Communities</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 11: Sustainable Cities & Communities</span>
                           <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 401–600 (Score 38.7)</span>
                         </div>
                       </div>
@@ -245,7 +245,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                 
                 {/* 2025 results with individual SDG icons */}
                 <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-4 font-semibold text-navy align-top">2025</td>
+                  <td className="px-3 py-4 sm:px-4 font-semibold text-navy align-top">2025</td>
                   <td className="px-4 py-4 text-auf-muted">
                     <div className="grid gap-3 sm:grid-cols-2">
                       
@@ -261,7 +261,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 3: Good Health & Well-being</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 3: Good Health & Well-being</span>
                           <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 401–600</span>
                         </div>
                       </div>
@@ -278,7 +278,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 11: Sustainable Cities & Communities</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 11: Sustainable Cities & Communities</span>
                           <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 601–800</span>
                         </div>
                       </div>
@@ -295,7 +295,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 4: Quality Education</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 4: Quality Education</span>
                           <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 801–1000</span>
                         </div>
                       </div>
@@ -312,7 +312,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 5: Gender Equality</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 5: Gender Equality</span>
                           <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 801–1000</span>
                         </div>
                       </div>
@@ -323,7 +323,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
 
                 {/* 2024 results with individual SDG icons */}
                 <tr className="hover:bg-off-white/40 transition-colors">
-                  <td className="px-4 py-4 font-semibold text-navy align-top">2024</td>
+                  <td className="px-3 py-4 sm:px-4 font-semibold text-navy align-top">2024</td>
                   <td className="px-4 py-4 text-auf-muted">
                     <div className="grid gap-3 sm:grid-cols-2">
                       
@@ -339,7 +339,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 3: Good Health & Well-being</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 3: Good Health & Well-being</span>
                           <span className="text-gold-dark font-bold text-xs sm:text-sm mt-1 block">Rank 401–600</span>
                         </div>
                       </div>
@@ -356,7 +356,7 @@ export function EaRecognitions({ recognitions }: { recognitions: ExternalAffairs
                           />
                         </div>
                         <div className="min-w-0">
-                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight truncate">SDG 1: No Poverty</span>
+                          <span className="font-semibold text-navy block text-[11px] sm:text-xs leading-tight break-words">SDG 1: No Poverty</span>
                           <span className="text-navy/80 font-bold text-xs sm:text-sm mt-1 block">Rank 1001+</span>
                         </div>
                       </div>

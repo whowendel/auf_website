@@ -28,9 +28,33 @@ export const shiftColor = (hex: string, amount: number) => {
   );
 };
 
-const isLightColor = (hex: string) => {
+export const isLightColor = (hex: string) => {
   const rgb = hexToRgb(hex);
   if (!rgb) return false;
   const luminance = (0.2126 * rgb.r + 0.7152 * rgb.g + 0.0722 * rgb.b) / 255;
   return luminance > 0.6;
 };
+const luminance = (hex: string) => {
+  const rgb = hexToRgb(hex);
+  if (!rgb) return 0;
+  const [r, g, b] = [rgb.r, rgb.g, rgb.b].map((v) => {
+    const c = v / 255;
+    return c <= 0.03928 ? c / 12.92 : ((c + 0.055) / 1.055) ** 2.4;
+  });
+  return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+};
+
+/** WCAG contrast ratio between two hex colours. */
+export const contrast = (a: string, b: string) => {
+  const [hi, lo] = [luminance(a), luminance(b)].sort((x, y) => y - x);
+  return (hi + 0.05) / (lo + 0.05);
+};
+
+const NAVY = "#0b1f4b";
+
+/** White or navy, whichever reads better on the given background. */
+export const textOn = (bg: string) => (contrast("#ffffff", bg) >= contrast(NAVY, bg) ? "#ffffff" : NAVY);
+
+/** The accent colour if legible on bg (3:1), otherwise a legible text colour. */
+export const readableAccent = (accent: string, bg: string) =>
+  contrast(accent, bg) >= 3 ? accent : textOn(bg);

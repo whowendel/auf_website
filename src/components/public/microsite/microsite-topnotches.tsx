@@ -174,9 +174,9 @@ export function MicrositeTopnotches({ college }: { college: College }) {
                             className="relative overflow-hidden rounded-xl border bg-white p-5 transition-transform hover:-translate-y-0.5"
                             style={{ borderColor: `${college.brandColor}15` }}
                           >
-                            <div className="flex justify-between items-start gap-4">
-                              <div>
-                                <h4 className="font-display text-base font-bold text-[var(--auf-navy)]">
+                            <div className="flex flex-col items-start gap-2 sm:flex-row sm:justify-between sm:gap-4">
+                              <div className="min-w-0">
+                                <h4 className="break-words font-display text-base font-bold text-[var(--auf-navy)]">
                                   {t.name}
                                 </h4>
                                 <p className="text-xs text-[var(--auf-muted)] mt-0.5">
@@ -184,7 +184,7 @@ export function MicrositeTopnotches({ college }: { college: College }) {
                                 </p>
                               </div>
                               <span
-                                className="shrink-0 rounded-full px-2.5 py-0.5 text-xs font-bold whitespace-nowrap"
+                                className="max-w-full rounded-xl px-2.5 py-0.5 text-xs font-bold sm:shrink-0"
                                 style={{
                                   background: `${college.brandColor}12`,
                                   color: college.brandColor,

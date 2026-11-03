@@ -11,6 +11,20 @@ import { MdEmail } from "react-icons/md";
 const NPC_SEAL_URL =
   "https://npcregistration.privacy.gov.ph/certificate/organizationRegistration/63ec52a16733827aab83e35c";
 
+const ABOUT_LINKS = [
+  { label: "History & Heritage", href: "/about#history" },
+  { label: "Vision & Mission", href: "/about#vision-mission" },
+  { label: "Administration", href: "/about#governance" },
+  { label: "Accreditations", href: "/about#rankings" },
+];
+
+const ADMISSIONS_LINKS = [
+  { label: "How to Apply", href: "/admissions#application-guide" },
+  { label: "Scholarships", href: "/admissions#scholarships-grants" },
+  { label: "Academic Calendar", href: "/admissions#academic-calendar" },
+  { label: "Registrar", href: "/admissions#university-registrar" },
+];
+
 /**
  * University-wide footer. Hidden automatically on college microsite paths
  * (/c/<slug>), since microsites render their own MicrositeFooter.
@@ -54,15 +68,13 @@ export function SiteFooter() {
               About
             </p>
             <ul className="space-y-2 text-sm text-white/60">
-              {["History & Heritage", "Vision & Mission", "Administration", "Accreditations"].map(
-                (label) => (
-                  <li key={label}>
-                    <Link href="/about" className="hover:text-white transition-colors">
-                      {label}
-                    </Link>
-                  </li>
-                ),
-              )}
+              {ABOUT_LINKS.map(({ label, href }) => (
+                <li key={label}>
+                  <Link href={href} className="hover:text-white transition-colors">
+                    {label}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -72,9 +84,9 @@ export function SiteFooter() {
               Admissions
             </p>
             <ul className="space-y-2 text-sm text-white/60">
-              {["How to Apply", "Scholarships", "Academic Calendar", "Registrar"].map((label) => (
+              {ADMISSIONS_LINKS.map(({ label, href }) => (
                 <li key={label}>
-                  <Link href="#" className="hover:text-white transition-colors">
+                  <Link href={href} className="hover:text-white transition-colors">
                     {label}
                   </Link>
                 </li>
@@ -151,7 +163,7 @@ export function SiteFooter() {
             © {new Date().getFullYear()} {university.name}. All rights reserved. MJS - MJC
           </p>
           <div className="flex gap-5 text-[11px] text-white/35">
-            <Link href="#" className="hover:text-white/70 transition-colors">Privacy</Link>
+            <Link href="/privacy-policy" className="hover:text-white/70 transition-colors">Privacy</Link>
             <Link href="#" className="hover:text-white/70 transition-colors">Terms</Link>
             <Link href="/login" className="hover:text-white/70 transition-colors">Admin</Link>
           </div>

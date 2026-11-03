@@ -37,7 +37,7 @@ export function AdmissionsCalendar({ calendar }: { calendar: AdmissionsCalendar 
 
       {/* Event table */}
       {active && (
-        <div className="overflow-hidden rounded-xl border border-auf-border">
+        <div className="overflow-x-auto rounded-xl border border-auf-border">
           <table className="w-full text-sm">
             <thead className="border-b border-auf-border bg-off-white">
               <tr>
