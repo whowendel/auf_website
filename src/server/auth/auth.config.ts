@@ -47,8 +47,9 @@ export const authConfig = {
     },
     async signIn({ account, profile }) {
       if (account?.provider === "google") {
-        const email = (profile as { email?: string } | undefined)?.email;
-        if (!email) return false;
+        const p = profile as { email?: string; email_verified?: boolean } | undefined;
+        const email = p?.email;
+        if (!email || p?.email_verified !== true) return false;
         const domain = email.split("@")[1]?.toLowerCase();
         if (domain !== env.AUTH_GOOGLE_ALLOWED_DOMAIN.toLowerCase()) return false;
       }
