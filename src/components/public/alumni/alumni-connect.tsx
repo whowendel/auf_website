@@ -37,12 +37,13 @@ export function AlumniConnect({ connect }: { connect: AlumniConnect }) {
               </div>
               <h3 className="mb-1.5 font-display text-sm font-semibold text-navy">{ch.title}</h3>
               <p className="mb-4 flex-1 text-xs leading-relaxed text-auf-muted">{ch.description}</p>
-              <a
-                href={ch.href}
+              {/* Design only for now: intentionally inert until destinations are provided. */}
+              <button
+                type="button"
                 className="self-start rounded-full border border-navy px-4 py-1.5 text-[11px] font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
               >
                 {ch.action} →
-              </a>
+              </button>
             </div>
           );
         })}

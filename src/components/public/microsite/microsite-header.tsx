@@ -3,7 +3,7 @@ import Link from "next/link";
 import type { College } from "@/data/colleges";
 import { DottedGlowBackground } from "@/components/ui/dotted-glow-background";
 import { CollegesDropdown } from "./colleges-dropdown";
-import { shiftColor } from "@/lib/color";
+import { shiftColor, textOn, readableAccent } from "@/lib/color";
 import { ChevronLeft } from "lucide-react";
 
 /**
@@ -40,6 +40,10 @@ export function MicrositeHeader({ college }: { college: College }) {
   const navItems = getNavItems(college);
   const gradientStart = shiftColor(college.brandColor, 0.2);
   const gradientEnd = shiftColor(college.brandColor, -0.28);
+  // Legible text/accent colours for this brand colour (e.g. gold-on-gold otherwise)
+  const fg = textOn(college.brandColor);
+  const accent = readableAccent(college.accentColor, college.brandColor);
+  const pill = { color: fg, borderColor: `${fg}80`, background: `${fg}20` };
   return (
     <>
       <div
@@ -75,15 +79,17 @@ export function MicrositeHeader({ college }: { college: College }) {
           <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2.5 md:px-12">
             <Link
               href="/"
-              className="flex items-center gap-1.5 rounded-full border border-white/40 bg-white/10 px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.16em] text-white backdrop-blur-xs transition-all hover:border-white hover:bg-white hover:text-[var(--auf-navy)] shadow-xs"
+              style={pill}
+              className="flex items-center gap-1.5 rounded-full border px-3.5 py-1 text-[11px] font-bold uppercase tracking-[0.16em] backdrop-blur-xs transition-all hover:!border-white hover:!bg-white hover:!text-[var(--auf-navy)] shadow-xs"
             >
               <ChevronLeft size={13} />
               Home
             </Link>
             <div className="flex items-center gap-2.5">
               <Link
-                href="/admissions/how-to-apply"
-                className="rounded-full border border-white/50 bg-white/15 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] text-white shadow-xs backdrop-blur-xs transition-all hover:border-white hover:bg-white hover:text-[var(--auf-navy)]"
+                href="/admissions#application-guide"
+                style={pill}
+                className="rounded-full border px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.14em] shadow-xs backdrop-blur-xs transition-all hover:!border-white hover:!bg-white hover:!text-[var(--auf-navy)]"
               >
                 Apply now
               </Link>
@@ -139,23 +145,26 @@ export function MicrositeHeader({ college }: { college: College }) {
               )}
 
               <p
-                className="mb-2 text-[10px] font-semibold uppercase tracking-[0.22em] opacity-60"
-                style={{ color: college.accentColor }}
+                className="mb-2 text-[10px] font-semibold uppercase tracking-[0.22em] opacity-80"
+                style={{ color: accent }}
               >
                 Angeles University Foundation
               </p>
-              <h1 className="font-display text-3xl font-light leading-tight text-white sm:text-4xl md:text-5xl lg:text-6xl">
+              <h1
+                className="font-display text-3xl font-light leading-tight sm:text-4xl md:text-5xl lg:text-6xl"
+                style={{ color: fg }}
+              >
                 {college.name}
               </h1>
               {college.mascotName && (
                 <p
-                  className="mt-2 text-sm font-semibold uppercase tracking-[0.18em] opacity-50"
-                  style={{ color: college.accentColor }}
+                  className="mt-2 text-sm font-semibold uppercase tracking-[0.18em] opacity-80"
+                  style={{ color: accent }}
                 >
                   The {college.mascotName}
                 </p>
               )}
-              <p className="mt-5 max-w-xl text-sm leading-relaxed text-white/60 md:text-base">
+              <p className="mt-5 max-w-xl text-sm leading-relaxed opacity-85 md:text-base" style={{ color: fg }}>
                 {college.description}
               </p>
             </div>
@@ -168,16 +177,16 @@ export function MicrositeHeader({ college }: { college: College }) {
               ].map((s) => (
                 <div
                   key={s.label}
-                  className="w-40 sm:w-48 rounded-xl border bg-white/25 px-5 py-4 text-right backdrop-blur-sm transition-colors"
-                  style={{ borderColor: college.accentColor }}
+                  className="w-40 sm:w-48 rounded-xl border px-5 py-4 text-right backdrop-blur-sm transition-colors"
+                  style={{ borderColor: accent, background: `${fg}1f` }}
                 >
                   <div
                     className="font-display text-2xl font-semibold md:text-3xl"
-                    style={{ color: college.accentColor }}
+                    style={{ color: accent }}
                   >
                     {s.value}
                   </div>
-                  <div className="mt-0.5 text-[10px] uppercase tracking-[0.14em] text-white">
+                  <div className="mt-0.5 text-[10px] uppercase tracking-[0.14em]" style={{ color: fg }}>
                     {s.label}
                   </div>
                 </div>
@@ -192,7 +201,8 @@ export function MicrositeHeader({ college }: { college: College }) {
           className="sticky top-22 z-10 border-t border-white/10 backdrop-blur-sm"
           style={{ background: gradientEnd }}
         >
-        <div className="flex justify-center overflow-x-auto px-6 md:px-12">
+        <div className="overflow-x-auto px-6 md:px-12">
+          <div className="mx-auto flex w-max">
           {navItems.map((item) => (
             <a
               key={item.href}
@@ -202,6 +212,7 @@ export function MicrositeHeader({ college }: { college: College }) {
               {item.label}
             </a>
           ))}
+          </div>
         </div>
       </div>
     </>

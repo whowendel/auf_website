@@ -40,9 +40,9 @@ export function AdmissionsRegistrar({ registrar }: { registrar: AdmissionsRegist
             {registrar.services.map((svc) => (
               <div key={svc.id} className="rounded-xl border border-auf-border bg-white p-4 md:p-5">
                 <div className="mb-2 flex items-start justify-between gap-3">
-                  <h3 className="font-display text-sm font-semibold text-navy">{svc.name}</h3>
+                  <h3 className="min-w-0 font-display text-sm font-semibold text-navy">{svc.name}</h3>
                   {svc.processingTime && (
-                    <span className="shrink-0 rounded-full bg-navy/8 px-2 py-0.5 text-[9px] font-medium text-navy/60">
+                    <span className="max-w-[45%] rounded-xl bg-navy/8 px-2 py-0.5 text-[9px] font-medium text-navy/60">
                       {svc.processingTime}
                     </span>
                   )}

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { OverlayMenu } from "./overlay-menu";
 import { AufLogo } from "./auf-logo";
@@ -32,7 +31,7 @@ export function SiteHeader({
         animate={{
           backgroundColor: theme.isTransparent
             ? "rgba(24, 87, 206, 0)"
-            : "rgba(24, 87, 206, 0.85)",
+            : "rgba(24, 87, 206, 0.97)",
           boxShadow: theme.isTransparent
             ? "0 0 0 0 transparent"
             : "0 1px 0 0 rgba(255, 255, 255, 0.12)",
@@ -59,13 +58,15 @@ export function SiteHeader({
                 { label: "MyClass", href: "https://auf.instructure.com/login/canvas" },
                 { label: "Gmail",   href: "https://mail.google.com/" },
               ].map(({ label, href }) => (
-                <Link
+                <a
                   key={label}
                   href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={`text-[11px] font-semibold uppercase tracking-[0.12em] transition-colors ${theme.textClass}`}
                 >
                   {label}
-                </Link>
+                </a>
               ))}
             </div>
 

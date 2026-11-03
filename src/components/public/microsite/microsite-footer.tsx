@@ -30,7 +30,7 @@ export function MicrositeFooter({ college }: { college: College }) {
             <Link href="/" className="hover:text-white transition-colors">
               AUF Home
             </Link>
-            <Link href="/admissions/how-to-apply" className="hover:text-white transition-colors">
+            <Link href="/admissions#application-guide" className="hover:text-white transition-colors">
               Admissions
             </Link>
             <a

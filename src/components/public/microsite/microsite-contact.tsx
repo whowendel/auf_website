@@ -1,7 +1,13 @@
 import type { College } from "@/data/colleges";
 import { university } from "@/data/colleges";
+import { textOn, readableAccent } from "@/lib/color";
+
+// Official campus map (Google Maps short link).
+const CAMPUS_MAP_URL = "https://maps.app.goo.gl/jFqGd8x7yiLYiDXWA";
 
 export function MicrositeContact({ college }: { college: College }) {
+  const fg = textOn(college.brandColor);
+  const accent = readableAccent(college.accentColor, college.brandColor);
   return (
     <section
       id="contact"
@@ -14,12 +20,12 @@ export function MicrositeContact({ college }: { college: College }) {
           {/* College contact */}
           <div>
             <p
-              className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] opacity-60"
-              style={{ color: college.accentColor }}
+              className="mb-3 text-[11px] font-semibold uppercase tracking-[0.22em] opacity-90"
+              style={{ color: accent }}
             >
               Reach us
             </p>
-            <h2 className="font-display text-3xl font-light text-white md:text-4xl">
+            <h2 className="font-display text-3xl font-light md:text-4xl" style={{ color: fg }}>
               Contact the {college.shortName}
             </h2>
 
@@ -27,22 +33,22 @@ export function MicrositeContact({ college }: { college: College }) {
               {college.contact.email && (
                 <li className="flex items-start gap-3">
                   <span
-                    className="mt-0.5 text-[10px] font-bold uppercase tracking-[0.14em] opacity-60"
-                    style={{ color: college.accentColor }}
+                    className="mt-0.5 text-[10px] font-bold uppercase tracking-[0.14em] opacity-90"
+                    style={{ color: accent }}
                   >
                     Email
                   </span>
                   <div className="flex flex-col gap-1">
                     <a
                       href={`mailto:${college.contact.email}`}
-                      className="text-sm text-white/80 transition-colors hover:text-white"
+                      className="text-sm underline-offset-2 hover:underline" style={{ color: fg }}
                     >
                       {college.contact.email}
                     </a>
                     {college.contact.emailAlt && (
                       <a
                         href={`mailto:${college.contact.emailAlt}`}
-                        className="text-sm text-white/80 transition-colors hover:text-white"
+                        className="text-sm underline-offset-2 hover:underline" style={{ color: fg }}
                       >
                         {college.contact.emailAlt}
                       </a>
@@ -53,53 +59,59 @@ export function MicrositeContact({ college }: { college: College }) {
               {college.contact.phone && (
                 <li className="flex items-start gap-3">
                   <span
-                    className="mt-0.5 text-[10px] font-bold uppercase tracking-[0.14em] opacity-60"
-                    style={{ color: college.accentColor }}
+                    className="mt-0.5 text-[10px] font-bold uppercase tracking-[0.14em] opacity-90"
+                    style={{ color: accent }}
                   >
                     Phone
                   </span>
-                  <span className="text-sm text-white/80">{college.contact.phone}</span>
+                  <span className="text-sm" style={{ color: fg }}>{college.contact.phone}</span>
                 </li>
               )}
               {college.contact.address && (
                 <li className="flex items-start gap-3">
                   <span
-                    className="mt-0.5 text-[10px] font-bold uppercase tracking-[0.14em] opacity-60"
-                    style={{ color: college.accentColor }}
+                    className="mt-0.5 text-[10px] font-bold uppercase tracking-[0.14em] opacity-90"
+                    style={{ color: accent }}
                   >
                     Location
                   </span>
-                  <span className="text-sm text-white/80">{college.contact.address}</span>
+                  <span className="text-sm" style={{ color: fg }}>{college.contact.address}</span>
                 </li>
               )}
             </ul>
           </div>
 
           {/* University contact */}
-          <div className="rounded-2xl border border-white/10 bg-white/5 p-8 backdrop-blur-sm">
-            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-white/50">
+          <div
+            className="rounded-2xl border p-8 backdrop-blur-sm"
+            style={{ borderColor: `${fg}33`, background: `${fg}12`, color: fg }}
+          >
+            <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] opacity-80">
               University contact
             </p>
-            <p className="font-display text-lg font-light text-white">{university.name}</p>
-            <ul className="mt-4 space-y-2 text-sm text-white/60">
+            <p className="font-display text-lg font-light">{university.name}</p>
+            <ul className="mt-4 space-y-2 text-sm opacity-90">
               <li>{university.address}</li>
               <li>
-                <a href={`tel:${university.phone}`} className="hover:text-white transition-colors">
+                <a href={`tel:${university.phone}`} className="underline-offset-2 hover:underline">
                   {university.phone}
                 </a>
               </li>
               <li>
                 <a
                   href={`mailto:${university.email}`}
-                  className="hover:text-white transition-colors"
+                  className="underline-offset-2 hover:underline"
                 >
                   {university.email}
                 </a>
               </li>
             </ul>
             <a
-              href="/contact"
-              className="mt-6 inline-flex items-center gap-1.5 rounded-full border border-white/20 px-4 py-2 text-xs font-semibold text-white/70 transition-all hover:border-white/50 hover:text-white"
+              href={CAMPUS_MAP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-6 inline-flex items-center gap-1.5 rounded-full border px-4 py-2 text-xs font-semibold transition-opacity hover:opacity-70"
+              style={{ borderColor: `${fg}66` }}
             >
               View campus map →
             </a>

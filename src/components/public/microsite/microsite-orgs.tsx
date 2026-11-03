@@ -7,11 +7,14 @@ import { SectionShell } from "./section-shell";
 function OrgCard({
   org,
   brandColor,
+  open,
+  onToggle,
 }: {
   org: NonNullable<College["studentOrganizations"]>[number];
   brandColor: string;
+  open: boolean;
+  onToggle: () => void;
 }) {
-  const [open, setOpen] = useState(false);
 
   return (
     <div
@@ -21,7 +24,8 @@ function OrgCard({
       {/* Header / trigger */}
       <button
         type="button"
-        onClick={() => setOpen((prev) => !prev)}
+        onClick={onToggle}
+        aria-expanded={open}
         className="flex w-full items-start gap-3 p-5 text-left"
       >
         {/* Coloured left bar */}
@@ -89,6 +93,7 @@ function OrgCard({
 }
 
 export function MicrositeOrgs({ college }: { college: College }) {
+  const [openId, setOpenId] = useState<string | null>(null);
   if (!college.studentOrganizations?.length) return null;
 
   return (
@@ -100,9 +105,15 @@ export function MicrositeOrgs({ college }: { college: College }) {
       brandColor={college.brandColor}
       tone="white"
     >
-      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid items-start gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {college.studentOrganizations.map((org) => (
-          <OrgCard key={org.id} org={org} brandColor={college.brandColor} />
+          <OrgCard
+            key={org.id}
+            org={org}
+            brandColor={college.brandColor}
+            open={openId === org.id}
+            onToggle={() => setOpenId(openId === org.id ? null : org.id)}
+          />
         ))}
       </div>
     </SectionShell>
