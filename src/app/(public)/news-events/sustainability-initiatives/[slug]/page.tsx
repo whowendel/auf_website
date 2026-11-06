@@ -80,7 +80,11 @@ export default async function SustainabilityArticlePage({ params }: Params) {
         </p>
       )}
 
-      <nav aria-label="Article navigation" className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 pt-6">
+      {/* Extra bottom padding clears the cover/video, which overlaps upward by 2.5rem. */}
+      <nav
+        aria-label="Article navigation"
+        className={`mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 pt-6 ${article.video || article.cover ? "pb-14" : ""}`}
+      >
         <Link
           href={sustainabilityPath}
           className="rounded-full border border-auf-border px-4 py-2 text-xs font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
