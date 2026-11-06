@@ -93,7 +93,13 @@ function OrgCard({
 }
 
 export function MicrositeOrgs({ college }: { college: College }) {
-  const [openId, setOpenId] = useState<string | null>(null);
+  const [openIds, setOpenIds] = useState<Set<string>>(new Set());
+  const toggle = (id: string) =>
+    setOpenIds((prev) => {
+      const next = new Set(prev);
+      if (!next.delete(id)) next.add(id);
+      return next;
+    });
   if (!college.studentOrganizations?.length) return null;
 
   return (
@@ -111,8 +117,8 @@ export function MicrositeOrgs({ college }: { college: College }) {
             key={org.id}
             org={org}
             brandColor={college.brandColor}
-            open={openId === org.id}
-            onToggle={() => setOpenId(openId === org.id ? null : org.id)}
+            open={openIds.has(org.id)}
+            onToggle={() => toggle(org.id)}
           />
         ))}
       </div>
