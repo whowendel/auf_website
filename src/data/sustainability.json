@@ -2030,10 +2030,73 @@
         "Sustainable commuting"
       ],
       "featured": false,
-      "intro": [],
-      "sections": [],
+      "intro": [
+        "Angeles University Foundation (AUF) is working to make the daily trip to campus more sustainable. Through a free employee shuttle service and a growing electric vehicle fleet, the University is helping its people spend less time driving alone and leave a smaller carbon footprint."
+      ],
+      "sections": [
+        {
+          "heading": "A free shuttle for employees",
+          "paragraphs": [
+            "Since April 10, 2023, the Office of the Vice President for Administration (OVPAD) has run a free employee shuttle bus service on fixed schedules, reducing single-occupancy vehicle use. The shuttle runs between the Sta. Barbara Campus and the Main Campus. It also makes selected stops at common commuter transit points, so employees can combine public transportation and the shuttle on a single trip."
+          ]
+        },
+        {
+          "heading": "New commuter routes this semester",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "As part of its continuing commitment to employee well-being and support, AUF has offered a free employee shuttle service from Monday through Friday since October 15, 2026. It runs on two routes, each served by an AUF Commuter Van with 12 passenger seats."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "Route 1: Dau-Marquee-AUF",
+                "Route 2: Cutcut-Essel Park-AUF"
+              ],
+              "rows": [
+                [
+                  "Morning pick-up",
+                  "Jollibee Dau, 7:20 AM",
+                  "Caltex Gas Station, Cutcut, 7:20 AM"
+                ],
+                [
+                  "Route",
+                  "Via NLEX to Marquee Mall",
+                  "Via APU Road to Essel Park Subdivision"
+                ],
+                [
+                  "Second pick-up",
+                  "Mercury Drugstore, Marquee Mall, 7:35 AM, then to AUF",
+                  "7-Eleven, Essel Park Subdivision, 7:35 AM, then to AUF"
+                ],
+                [
+                  "Afternoon departure",
+                  "AUF front gate, 5:10 PM, following the morning route",
+                  "AUF front gate, 5:10 PM, via Sto. Entierro Street to the Porac Jeepney Station in Sto. Rosario, then to 7-Eleven, Essel Park Subdivision"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Seats are limited and available on a first-come, first-served basis. For inquiries, please contact the Administrative Services office at local 1705."
+            },
+            {
+              "type": "p",
+              "text": "The service aims to improve employee mobility, punctuality, and overall welfare, particularly for those who rely on public transportation and are affected by rising commuting costs, multiple vehicle transfers, travel delays, and adverse weather conditions."
+            }
+          ]
+        },
+        {
+          "heading": "Electric vehicles for the shuttle fleet",
+          "paragraphs": [
+            "In 2026, AUF purchased three (3) BYD electric vehicles for the shuttle service. These vehicles lower the carbon footprint of the service and move the University's commuting fleet toward zero tailpipe emissions."
+          ]
+        }
+      ],
       "draft": true,
-      "sourceNote": "Excel D12: Link to the article. E12: To add pictures of AUF BYD Vehicles"
+      "sourceNote": "Excel D12: Link to the article. E12: To add pictures of AUF BYD Vehicles",
+      "closing": "Sustainable commuting is part of how AUF cares for its community and its campuses. By offering a free shuttle service, supporting the use of public transportation, and adding electric vehicles to its fleet, AUF will continue to look for practical ways to make commuting cleaner, easier, and shared."
     },
     {
       "slug": "after-school-program-for-auf-families",
