@@ -80,6 +80,24 @@ export default async function SustainabilityArticlePage({ params }: Params) {
         </p>
       )}
 
+      {/* Extra bottom padding clears the cover/video, which overlaps upward by 2.5rem. */}
+      <nav
+        aria-label="Article navigation"
+        className={`mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 pt-6 ${article.video || article.cover ? "pb-14" : ""}`}
+      >
+        <Link
+          href={sustainabilityPath}
+          className="rounded-full border border-auf-border px-4 py-2 text-xs font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
+        >
+          &larr; All initiatives
+        </Link>
+        {next.slug !== article.slug && (
+          <Link href={articleHref(next)} className="text-xs font-semibold text-navy hover:text-gold">
+            Next: {next.title} &rarr;
+          </Link>
+        )}
+      </nav>
+
       {article.video ? (
         <ArticleVideo video={article.video} />
       ) : (
@@ -98,19 +116,6 @@ export default async function SustainabilityArticlePage({ params }: Params) {
           ))}
         </div>
 
-        <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-auf-border pt-6">
-          <Link
-            href={sustainabilityPath}
-            className="rounded-full border border-auf-border px-4 py-2 text-xs font-semibold text-navy transition-colors hover:bg-navy hover:text-white"
-          >
-            &larr; All initiatives
-          </Link>
-          {next.slug !== article.slug && (
-            <Link href={articleHref(next)} className="text-xs font-semibold text-navy hover:text-gold">
-              Next: {next.title} &rarr;
-            </Link>
-          )}
-        </div>
       </article>
     </div>
   );
