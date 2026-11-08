@@ -1,5 +1,10 @@
 # Changelogs
 
+## 2026-11-08 - Sustainability articles 16-18
+- Added Free Chinese Mandarin Training (SDG 4), Opening Doors for Women (SDG 5) and E-APA Scholarship (SDG 5). Source: WEB CONTENT_TQM (SDG) UPDATED 11082026.xlsx rows 18-20; text verified against the PDFs.
+- Moving Greener now has its BYD vehicle photo as cover.
+- Mandarin article: the PDF's "[add date]" placeholder is filled with August 1, 2026 (from the program poster).
+
 ## 2026-11-03 - Revision fixes
 - Fixed 404 and dead links: college Apply now and footer, Academic Programs and Calendar, Admissions menu hashes, university footer About and Admissions links, campus map (Google Maps, new tab), quick links (Library, Directory).
 - Mobile: admissions, SDG ranking and calendar tables scroll instead of clipping; college tab strip scrolls from the left; registrar and topnotcher badges wrap; header is nearly opaque so text no longer shows through.
