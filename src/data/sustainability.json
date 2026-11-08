@@ -2094,7 +2094,12 @@
           ]
         }
       ],
-      "closing": "Sustainable commuting is part of how AUF cares for its community and its campuses. By offering a free shuttle service, supporting the use of public transportation, and adding electric vehicles to its fleet, AUF will continue to look for practical ways to make commuting cleaner, easier, and shared."
+      "closing": "Sustainable commuting is part of how AUF cares for its community and its campuses. By offering a free shuttle service, supporting the use of public transportation, and adding electric vehicles to its fleet, AUF will continue to look for practical ways to make commuting cleaner, easier, and shared.",
+      "cover": {
+        "file": "byd-vehicles",
+        "w": 1600,
+        "h": 1200
+      }
     },
     {
       "slug": "after-school-program-for-auf-families",
@@ -3063,6 +3068,191 @@
       },
       "closing": "Through these accommodation facilities, AUF reaffirms its commitment to the well-being of its employees and the university community by extending practical support to those in need.",
       "sourceNote": "Excel E16: Link to images (Images will be replaced if there are more recent pictures of the hostel and residences)"
+    },
+    {
+      "slug": "free-chinese-mandarin-training",
+      "title": "Free Chinese Mandarin Training and Online Learning for Teachers and Students Nationwide",
+      "sdgs": [
+        4
+      ],
+      "tags": [
+        "Education for all"
+      ],
+      "cover": {
+        "file": "cover",
+        "w": 1600,
+        "h": 900
+      },
+      "intro": [
+        "Through its Confucius Institute (CI-AUF), Angeles University Foundation (AUF) shares educational resources with people beyond its campus. Teachers and students across the Philippines, whether or not they are enrolled at AUF, can take part in Chinese Mandarin training and learning at no cost.",
+        "AUF believes that education should reach as many learners as possible. Opening its training courses and learning modules to teachers and students outside the University is one way AUF puts that belief into practice."
+      ],
+      "sections": [
+        {
+          "heading": "Lead institution for SPFL-Chinese Mandarin",
+          "paragraphs": [
+            "AUF is the official partner of the Special Program in Foreign Language (SPFL) in Chinese Mandarin of the Department of Education (DepEd). It is designated as the \"lead institution for the training of local Chinese teachers.\""
+          ]
+        },
+        {
+          "heading": "Free training for public school teachers",
+          "paragraphs": [
+            "Since 2011, CI-AUF has offered free training courses in Chinese language teaching to public secondary school teachers in the Philippines. In that time, 13 batches of DepEd teachers have received intensive training to teach Chinese as a Foreign Language, bringing the total number of DepEd teachers trained to 646."
+          ]
+        },
+        {
+          "heading": "2026–2027 Follow-Through Training and Mentoring Program",
+          "paragraphs": [
+            "The 2026–2027 SPFL–Chinese Mandarin Follow-Through Training Program and Mentoring Session officially began on August 1, 2026, bringing together DepEd SPFL–Chinese Mandarin teachers from across the Philippines in a shared commitment to advancing excellence in Chinese language education.",
+            "The opening ceremony was graced by Dr. Ebenezer R. Beloy, Officer-in-Charge, Office of the Director III of the Department of Education – Bureau of Curriculum Development (DepEd BCD), who reaffirmed the Department's commitment to strengthening the SPFL – Chinese Mandarin program through sustained professional development and capacity-building for teachers. Ms. Jannin Mendoza and Mr. Enrique Palacio, Supervising Education Program Specialists of DepEd BCD, were also present.",
+            "Representing the Confucius Institute at Angeles University Foundation (CI-AUF) were Dr. Cavin F. Pamintuan, Vice President for External Affairs of AUF and Philippine Director of CI-AUF, and Dr. Yang Zhengchao, Chinese Director of CI-AUF. In their messages, they emphasized continuous professional learning, innovation in language teaching, and stronger educational cooperation to elevate the quality of Chinese language education in the Philippines.",
+            "Organized by CI-AUF, this year-long program is designed to enhance the Mandarin language proficiency, pedagogical competence, and professional growth of DepEd SPFL–Chinese Mandarin teachers through continuous learning, collaboration, mentoring, and best practice sharing."
+          ],
+          "images": [
+            {
+              "file": "opening-remarks",
+              "w": 1575,
+              "h": 882
+            }
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "slug": "opening-doors-for-women-scholarships",
+      "title": "Opening Doors for Women: Scholarships and Support at AUF",
+      "sdgs": [
+        5
+      ],
+      "tags": [
+        "Scholarship Support"
+      ],
+      "intro": [
+        "Angeles University Foundation (AUF) provides women with access to education through inclusive scholarships. In A.Y. 2025-2026, women made up the majority of AUF's scholars, at both the college and the AUF Integrated School levels.",
+        "AUF believes that no one should be denied an education, and that women should have the means and the support to begin their studies, stay in school, and thrive."
+      ],
+      "sections": [
+        {
+          "heading": "Inclusive scholarships",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "The Office of Student Affairs and Financial Aid (OSAFA) administers the University's scholarships and grants. These are open to all genders, and they help deserving students pursue their studies at AUF. They include:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Barbara Yap-Angeles (BYA) Scholarship",
+                "Expanded Agustin P. Angeles Memorial (E-APA) Scholarship Program",
+                "Academic Scholarships (College and University Scholars)",
+                "Activity Grants for University Athletic Teams and University Performing Arts",
+                "Service Grants for student aides",
+                "Other grants and external scholarships offered with partner institutions"
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Women make up the majority of current scholarship beneficiaries. In A.Y. 2025-2026, 1st Semester, OSAFA recorded the following:"
+            },
+            {
+              "type": "table",
+              "head": [
+                "Level",
+                "Total scholars",
+                "Female",
+                "Male"
+              ],
+              "rows": [
+                [
+                  "College",
+                  "1,214",
+                  "751 (61.86%)",
+                  "463 (38.14%)"
+                ],
+                [
+                  "AUF Integrated School",
+                  "342",
+                  "203 (59.36%)",
+                  "139 (40.64%)"
+                ]
+              ]
+            },
+            {
+              "type": "p",
+              "text": "Source: Office of Student Affairs and Financial Aid (OSAFA), A.Y. 2025-2026, 1st Semester."
+            }
+          ]
+        }
+      ],
+      "featured": false
+    },
+    {
+      "slug": "e-apa-scholarship-financial-aid",
+      "title": "AUF Expands Financial Aid via E-APA Scholarship Program",
+      "sdgs": [
+        5
+      ],
+      "tags": [
+        "Scholarship Support"
+      ],
+      "cover": {
+        "file": "cover",
+        "w": 1600,
+        "h": 1600
+      },
+      "intro": [
+        "Angeles University Foundation (AUF) reaffirms its commitment to providing accessible, inclusive, and affordable education through the Expanded Agustin P. Angeles Memorial Scholarship (E-APA) Program. Established in honor of AUF co-founder Mr. Agustin P. Angeles, the initiative provides comprehensive financial aid and housing support to incoming students across multiple academic levels.",
+        "Recognizing that accommodation expenses present a major barrier to higher education for low-income families, the program integrates direct housing subsidies to ensure students secure safe and affordable living conditions throughout their studies."
+      ],
+      "sections": [
+        {
+          "heading": "Comprehensive Housing and Financial Support",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "Under the E-APA 1 Category, qualified applicants receive full financial assistance designed to relieve the cost of living and study:"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Accommodation & Living Allowance: Coverage of monthly housing/accommodation expenses alongside a living allowance to support food and day-to-day living needs.",
+                "Tuition & Institutional Fees: 100% free tuition, miscellaneous fees, and all other institutional charges.",
+                "Educational Assets: Fully subsidized textbooks, instructional materials, and official school uniforms."
+              ]
+            }
+          ]
+        },
+        {
+          "heading": "Eligibility Criteria & Targeted Socio-Economic Assistance",
+          "blocks": [
+            {
+              "type": "p",
+              "text": "To ensure that affordable housing and living subsidies reach students with the greatest financial need, the E-APA 1 grant targets lower-income households under strict socio-economic profiling conducted by the Center for Christian Formation and Praxis (CCFP):"
+            },
+            {
+              "type": "list",
+              "items": [
+                "Income Threshold: Open to families with an annual gross household income not exceeding Php 300,000.",
+                "Academic Criteria: Filipino citizens with good moral character, a General Weighted Average (GWA) of at least 85 with no failing grades, and qualifying scores in respective entrance examinations.",
+                "Covered Programs: Eligible across Grade 1, Grade 7, incoming college freshmen in selected degree programs (such as Health Sciences, Computer Studies, Engineering, Business, and Education), and first-year students in the School of Law (SOL) and School of Medicine (SOM)."
+              ]
+            },
+            {
+              "type": "p",
+              "text": "In addition, the E-APA 2 Category provides a 50% discount on tuition and miscellaneous fees for applicants belonging to families with an annual gross income of not more than Php 525,999."
+            }
+          ]
+        },
+        {
+          "heading": "Application Process & Verifiable Documentation",
+          "paragraphs": [
+            "Applicants for the program submit verifiable proof of financial need—including Parents’/Guardians' latest Income Tax Return (ITR), BIR Tax Exemption Certificate, or DSWD Certificate of Indigency—to the AUF Office of the University Registrar and Admissions."
+          ]
+        }
+      ],
+      "closing": "Through the E-APA program, AUF continuously ensures that financial constraints and housing burdens do not restrict deserving students from attaining quality education.",
+      "featured": false
     }
   ]
 }
