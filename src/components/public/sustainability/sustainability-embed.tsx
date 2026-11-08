@@ -7,19 +7,30 @@ import type { SustainabilityImage } from "@/data/sustainability";
 export function ArticleEmbed({
   src,
   title,
-  href,
+  inline,
   preview,
 }: {
   src: string;
   title: string;
-  /** Page the "Open" button links to when it differs from the embed URL (e.g. a video plugin). */
-  href?: string;
+  /** Show the embed straight away, with no buttons (for public players such as video). */
+  inline?: boolean;
   preview?: SustainabilityImage;
 }) {
   const [open, setOpen] = useState(false);
-  const link = href ?? src;
   const button =
     "rounded-full px-4 py-2 text-xs font-semibold transition-colors";
+
+  if (inline)
+    return (
+      <iframe
+        src={src}
+        title={title}
+        loading="lazy"
+        allowFullScreen
+        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+        className="mx-auto mt-6 aspect-[560/314] w-full max-w-[560px] rounded-xl border-0 bg-off-white"
+      />
+    );
 
   return (
     <div className="mt-6">
@@ -34,7 +45,7 @@ export function ArticleEmbed({
         />
       ) : (
         preview && (
-          <a href={link} target="_blank" rel="noopener noreferrer" className="block">
+          <a href={src} target="_blank" rel="noopener noreferrer" className="block">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src={preview.src}
@@ -49,7 +60,7 @@ export function ArticleEmbed({
       )}
       <div className="mt-3 flex flex-wrap gap-2">
         <a
-          href={link}
+          href={src}
           target="_blank"
           rel="noopener noreferrer"
           className={`${button} bg-navy text-white hover:bg-gold`}

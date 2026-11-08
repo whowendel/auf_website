@@ -3340,6 +3340,14 @@
               "w": 1600,
               "h": 900
             }
+          ],
+          "blocks": [
+            {
+              "type": "embed",
+              "title": "Facebook video",
+              "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1246874204236649%2F&show_text=false&width=560&t=0",
+              "inline": true
+            }
           ]
         },
         {
@@ -3353,14 +3361,6 @@
               "file": "welcome-party",
               "w": 1600,
               "h": 1200
-            }
-          ],
-          "blocks": [
-            {
-              "type": "embed",
-              "title": "Facebook video",
-              "href": "https://www.facebook.com/reel/1246874204236649/",
-              "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1246874204236649%2F&show_text=false&width=560&t=0"
             }
           ]
         }
