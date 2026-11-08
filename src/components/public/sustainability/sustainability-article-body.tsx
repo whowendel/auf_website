@@ -217,6 +217,8 @@ export function ArticleVideo({ video }: { video: SustainabilityVideo }) {
 export function ArticleBody({ article }: { article: SustainabilityArticle }) {
   return (
     <>
+      {article.embed && <ArticleEmbed {...article.embed} inline />}
+
       <div className="space-y-5 text-base leading-8 text-gray-700">
         {article.intro.map((p, i) => (
           <p key={i} className={i === 0 ? "text-lg leading-9 text-gray-800" : undefined}>

@@ -37,6 +37,8 @@ export type SustainabilityArticle = {
   /** Optional: articles without photos fall back to an SDG-colored placeholder. */
   cover?: SustainabilityImage;
   video?: SustainabilityVideo;
+  /** Third-party player shown right under the cover, already loaded (public videos only). */
+  embed?: { src: string; title: string };
   intro: string[];
   sections: SustainabilitySection[];
   closing?: string;
