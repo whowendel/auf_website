@@ -152,7 +152,7 @@ function Blocks({ blocks }: { blocks: SustainabilityBlock[] }) {
       case "images":
         return <Images key={i} images={b.images} />;
       case "embed":
-        return <ArticleEmbed key={i} src={b.src} title={b.title} inline={b.inline} preview={b.preview} />;
+        return <ArticleEmbed key={i} src={b.src} title={b.title} preview={b.preview} />;
       case "group": {
         const title = <h3 className="font-display text-xl font-semibold leading-snug text-navy">{b.heading}</h3>;
         return b.collapsible ? (
@@ -217,6 +217,8 @@ export function ArticleVideo({ video }: { video: SustainabilityVideo }) {
 export function ArticleBody({ article }: { article: SustainabilityArticle }) {
   return (
     <>
+      {article.embed && <ArticleEmbed {...article.embed} inline />}
+
       <div className="space-y-5 text-base leading-8 text-gray-700">
         {article.intro.map((p, i) => (
           <p key={i} className={i === 0 ? "text-lg leading-9 text-gray-800" : undefined}>

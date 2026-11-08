@@ -3318,6 +3318,10 @@
         "w": 1600,
         "h": 900
       },
+      "embed": {
+        "title": "Facebook video",
+        "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1246874204236649%2F&show_text=false&width=560&t=0"
+      },
       "intro": [
         "Demonstrating its commitment to international academic partnership and evidence-based SDG implementation, Angeles University Foundation (AUF) participated in the 13th HCU Conference held on July 23–24, 2026, at Huachiew Chalermprakiet University (HCU) in Samutprakarn, Thailand. Centered on the theme \"Research to Serve Society,\" the international conference brought together global researchers, institutions, and practitioners dedicated to comparative approaches and advancing knowledge for community development."
       ],
@@ -3339,14 +3343,6 @@
               "file": "aufs-banner",
               "w": 1600,
               "h": 900
-            }
-          ],
-          "blocks": [
-            {
-              "type": "embed",
-              "title": "Facebook video",
-              "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1246874204236649%2F&show_text=false&width=560&t=0",
-              "inline": true
             }
           ]
         },

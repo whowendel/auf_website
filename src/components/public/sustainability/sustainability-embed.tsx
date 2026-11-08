@@ -28,7 +28,7 @@ export function ArticleEmbed({
         loading="lazy"
         allowFullScreen
         allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-        className="mx-auto mt-6 aspect-[560/314] w-full max-w-[560px] rounded-xl border-0 bg-off-white"
+        className="mb-10 h-[70vh] w-full rounded-xl border border-auf-border bg-off-white"
       />
     );
 

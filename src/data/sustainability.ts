@@ -14,7 +14,7 @@ export type SustainabilityBlock<I = SustainabilityImage> =
   | { type: "table"; head?: string[]; rows: SustainabilityCell[][] }
   | { type: "terms"; items: { term: string; text: string }[] }
   | { type: "images"; images: I[] }
-  | { type: "embed"; src: string; title: string; inline?: boolean; preview?: I }
+  | { type: "embed"; src: string; title: string; preview?: I }
   | { type: "group"; heading: string; collapsible?: boolean; blocks: SustainabilityBlock<I>[] };
 
 export type SustainabilitySection = {
@@ -37,6 +37,8 @@ export type SustainabilityArticle = {
   /** Optional: articles without photos fall back to an SDG-colored placeholder. */
   cover?: SustainabilityImage;
   video?: SustainabilityVideo;
+  /** Third-party player shown right under the cover, already loaded (public videos only). */
+  embed?: { src: string; title: string };
   intro: string[];
   sections: SustainabilitySection[];
   closing?: string;
