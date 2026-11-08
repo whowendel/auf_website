@@ -3253,6 +3253,118 @@
       ],
       "closing": "Through the E-APA program, AUF continuously ensures that financial constraints and housing burdens do not restrict deserving students from attaining quality education.",
       "featured": false
+    },
+    {
+      "slug": "friendship-highway-tree-conservation-dialogue",
+      "title": "AUF Biological Sciences Society Partners with Local Government and NGO for Friendship Highway Tree Conservation Dialogue",
+      "sdgs": [
+        17
+      ],
+      "tags": [
+        "Save the Trees Coalition"
+      ],
+      "featured": false,
+      "cover": {
+        "file": "cover",
+        "w": 1600,
+        "h": 1200
+      },
+      "intro": [
+        "Angeles University Foundation (AUF), through the AUF Biological Sciences Society, demonstrated its commitment to Sustainable Development Goal 15 (Life on Land) and SDG 17 (Partnerships for the Goals) by engaging in a multi-sectoral environmental dialogue on June 9, 2026.",
+        "In collaboration with the Save the Trees Coalition (STC), an environmental non-governmental organization, AUF student leaders and technical experts convened with key local governance bodies, including the Angeles City Council and the City Environment and Natural Resources Office (CENRO). The cross-sectoral summit focused on establishing sustainable management strategies and protective policy measures for the 259 Friendship Trees situated along Friendship Highway."
+      ],
+      "sections": [
+        {
+          "heading": "Addressing Urban Environmental Challenges",
+          "paragraphs": [
+            "The dialogue tackled pressing issues surrounding urban environmental sustainability, balancing infrastructure development with ecological preservation. Key agenda items included assessing the impacts of ongoing road development projects, establishing regulated pruning procedures, ensuring public safety, and safeguarding urban greenery within Angeles City."
+          ]
+        },
+        {
+          "heading": "Data-Driven Environmental Monitoring",
+          "paragraphs": [
+            "As an immediate outcome of the collaborative session, the initiative launched a comprehensive e-survey and field monitoring project targeting the 259 Friendship Trees. AUF researchers and volunteers revisited trees documented in previous environmental baseline studies from 2020 to 2023 to evaluate their current physiological condition and track structural changes caused by recent road construction and extensive pruning.",
+            "The gathered scientific data serves as a vital foundation for evidence-based decision-making, providing local government units with actionable insights for urban forest management."
+          ],
+          "images": [
+            {
+              "file": "tree-measurement",
+              "w": 1536,
+              "h": 2048
+            }
+          ]
+        },
+        {
+          "heading": "Policy Framework and Technical Working Group",
+          "paragraphs": [
+            "To translate dialogue into long-term policy, participants agreed to establish a dedicated Technical Working Group (TWG). Comprising representatives from the Save the Trees Coalition, CENRO, the Angeles City Council, and technical academic experts, the TWG is tasked with drafting standard operating guidelines for urban tree pruning, maintenance, and structural assessment, alongside proposing municipal ordinances for permanent tree protection."
+          ]
+        }
+      ],
+      "closing": "Through active participation in cross-sectoral governance and science-backed advocacy, Angeles University Foundation continues to bridge academic expertise, civil society, and local policy formulation to advance urban sustainability across the region."
+    },
+    {
+      "slug": "hcu-conference-thailand-research-collaboration",
+      "title": "AUF Advances Global Sustainability Through Research Collaboration at the 13th HCU Conference in Thailand",
+      "sdgs": [
+        17
+      ],
+      "tags": [
+        "Collaborations for Sustainability"
+      ],
+      "featured": false,
+      "cover": {
+        "file": "cover",
+        "w": 1600,
+        "h": 900
+      },
+      "intro": [
+        "Demonstrating its commitment to international academic partnership and evidence-based SDG implementation, Angeles University Foundation (AUF) participated in the 13th HCU Conference held on July 23–24, 2026, at Huachiew Chalermprakiet University (HCU) in Samutprakarn, Thailand. Centered on the theme \"Research to Serve Society,\" the international conference brought together global researchers, institutions, and practitioners dedicated to comparative approaches and advancing knowledge for community development."
+      ],
+      "sections": [
+        {
+          "heading": "Benchmarking Comparative Approaches and International Best Practice",
+          "paragraphs": [
+            "Through active participation in the international forum, AUF reviewed comparative approaches to tackling sustainability challenges alongside global peers. Representing AUF, a delegation of academic leaders and student researchers delivered six oral presentations and one poster presentation showcasing diverse research initiatives designed to address pressing societal needs.",
+            "The institution's oral paper presenters were Dr. Jeffrey Esteron, Dr. Roselle Arbas, Ms. Jonee Cruz, and Dr. Annalyn T. Navarro, alongside student poster presenters Mr. Carl Nathan Suazon and Ms. Angel Delos Santos. The research contributions highlighted institutional best practices across core global priorities:"
+          ],
+          "bullets": [
+            "SDG 3 (Good Health and Well-Being): Community-based health interventions and medical research.",
+            "SDG 4 (Quality Education): Innovative pedagogical strategies and equitable learning access.",
+            "SDG 5 (Gender Equality): Inclusive institutional policies and gender-responsive community frameworks.",
+            "SDG 11 (Sustainable Cities and Communities): Urban resiliency, environmental protection, and community development practices."
+          ],
+          "images": [
+            {
+              "file": "aufs-banner",
+              "w": 1600,
+              "h": 900
+            }
+          ]
+        },
+        {
+          "heading": "International Collaboration on Gathering and Measuring SDG Data",
+          "paragraphs": [
+            "A central highlight of AUF’s participation was the team's presentation and discussion of the university's SDG initiatives with an international audience. Through these sessions, AUF delegates shared institutional performance data, metrics, and outcomes from its comprehensive report, \"AUF-SDG in Action: Challenges and Practices.\"",
+            "By presenting and discussing these initiatives on an international stage, AUF actively participated in gathering and measuring SDG data alongside regional peers. The team highlighted how AUF translates global targets into measurable outcomes across teaching, research, community engagement, and institutional practices, providing concrete data on addressing real-world sustainability challenges."
+          ],
+          "images": [
+            {
+              "file": "welcome-party",
+              "w": 1600,
+              "h": 1200
+            }
+          ],
+          "blocks": [
+            {
+              "type": "embed",
+              "title": "Facebook video",
+              "href": "https://www.facebook.com/reel/1246874204236649/",
+              "src": "https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1246874204236649%2F&show_text=false&width=560&t=0"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

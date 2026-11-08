@@ -14,7 +14,7 @@ export type SustainabilityBlock<I = SustainabilityImage> =
   | { type: "table"; head?: string[]; rows: SustainabilityCell[][] }
   | { type: "terms"; items: { term: string; text: string }[] }
   | { type: "images"; images: I[] }
-  | { type: "embed"; src: string; title: string; preview?: I }
+  | { type: "embed"; src: string; title: string; href?: string; preview?: I }
   | { type: "group"; heading: string; collapsible?: boolean; blocks: SustainabilityBlock<I>[] };
 
 export type SustainabilitySection = {

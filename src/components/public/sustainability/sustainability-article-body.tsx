@@ -152,7 +152,7 @@ function Blocks({ blocks }: { blocks: SustainabilityBlock[] }) {
       case "images":
         return <Images key={i} images={b.images} />;
       case "embed":
-        return <ArticleEmbed key={i} src={b.src} title={b.title} preview={b.preview} />;
+        return <ArticleEmbed key={i} src={b.src} title={b.title} href={b.href} preview={b.preview} />;
       case "group": {
         const title = <h3 className="font-display text-xl font-semibold leading-snug text-navy">{b.heading}</h3>;
         return b.collapsible ? (

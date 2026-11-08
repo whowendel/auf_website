@@ -1,5 +1,9 @@
 # Changelogs
 
+## 2026-11-08 - Sustainability articles 19-20
+- Added the Friendship Highway tree conservation dialogue and the 13th HCU Conference in Thailand (both SDG 17). Text verified against the PDFs.
+- Embed block takes an optional `href`, so the Open button links to the Facebook reel while the click-to-load iframe uses the plugin URL. Embed iframe gets lazy loading and the Facebook player permissions.
+
 ## 2026-11-08 - Sustainability articles 16-18
 - Added Free Chinese Mandarin Training (SDG 4), Opening Doors for Women (SDG 5) and E-APA Scholarship (SDG 5). Source: WEB CONTENT_TQM (SDG) UPDATED 11082026.xlsx rows 18-20; text verified against the PDFs.
 - Moving Greener now has its BYD vehicle photo as cover.
